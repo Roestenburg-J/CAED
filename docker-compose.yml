@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  dataset_analyzer:
+    build:
+      context: ./dataset_analyzer
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+    volumes:
+      - ./dataset_analyzer:/app

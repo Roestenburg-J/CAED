@@ -1,0 +1,37 @@
+columns,dependency
+"[0, 1]",Unique record identifiers may have an associational sequence.
+"[1, 2]",The zip code (column 1) indicates the specific medical center (column 2) associated with that location.
+"[1, 6]",The zip code (column 1) suggests that the location (city - column 6) corresponds with hospitals within that zip code.
+"[1, 11]",The facility ID (Col 1) is related to the category of the hospital (Col 11).
+"[1, 12]",The facility ID (Col 1) is related to the type of hospital (Col 12).
+"[1, 14]",The facility ID (Col 1) determines the type of hospital performance measure (Col 14).
+"[1, 19]",The identifier (column 19) corresponds contextually with the facility's unique code (column 1).
+"[2, 3]",The street address (Col 3) likely relies on the hospital name (Col 2) for location context.
+"[2, 9]",The hospital name (Col 2) might relate to the county (Col 9) as hospitals are generally located within specific counties.
+"[2, 12]",The hospital name (Col 2) is dependent on the hospital type (Col 12).
+"[2, 14]",The medical center name in column 2 indicates the type of care provided which is specified in column 14.
+"[3, 4]",The address (Col 4) likely depends on the street address (Col 3) since it provides the full location details.
+"[4, 9]",The county name (Col 9) may semantically depend on the address (Col 4) as it signifies the location portion of the address.
+"[5, 14]","The disease category (Col 14) might depend on the empty status indicator (Col 5), noting whether services are offered."
+"[6, 7]",The city (Col 6) relates to the state (Col 7) indicating the geographical location.
+"[6, 8]",The city (Col 6) relates semantically to the zip code (Col 8) as each city's zip code serves as its geographical identifier.
+"[7, 8]",The state abbreviation (al) matches the zip code prefix indicating a geographical dependency.
+"[8, 9]",The area code (column 8) relates to the specific city (column 9) within that area.
+"[10, 11]",The phone number (Col 10) relates to the hospital name (Col 11) as they appear consistently across records.
+"[11, 14]",The type of hospital corresponds to specific care or treatment categories.
+"[12, 13]",The type of hospital district/authority may determine the presence of certain certifications.
+"[12, 14]",The hospital type (Col 12) could have a relationship with the disease category (Col 14) reflecting which types of hospitals are associated with treating specific diseases.
+"[12, 19]",The type of hospital district may relate to the format of identifying elements used in IDs.
+"[13, 14]",The consent status (column 13) influences the condition being treated (column 14).
+"[13, 19]",The measure identifier (column 19) may correlate with the yes/no status (column 13).
+"[14, 15]",Pattern dependency where column 15 refers to heart failure measures identified in column 14.
+"[14, 16]",The description of care for each entry is related to the specific type of care or treatment indicated in the care category.
+"[14, 17]",The percentage of care provided is linked to the specific care task defined in the care category.
+"[14, 19]",The heart condition (column 14) ties to a specific identifier (column 19) related to that condition.
+"[15, 16]",The identifier in column 15 corresponds to the specific patient care measure description in column 16.
+"[15, 17]",The performance measure (percentage) relates to the specific treatment identifier.
+"[15, 18]",The number of patients in column 18 is related to the care measure specified in column 15.
+"[15, 19]",The identifier in column 15 patterns the formatted identifier in column 19.
+"[16, 17]",The description of patient care in column 16 correlates with the success rate or percentage in column 17.
+"[16, 19]","The detailed description of care in column 16 and its corresponding identifier in column 19 are related, with 19 typically being a modified version of 15."
+"[17, 18]",The recovery percentage (Col 17) is potentially dependent on the number of patients (Col 18) as it typically reflects the success rate in relation to the patient count.

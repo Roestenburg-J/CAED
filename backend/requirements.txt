@@ -4,3 +4,4 @@ scikit-learn
 openai
 pydantic
 typing
+datasketch

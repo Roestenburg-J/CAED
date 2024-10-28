@@ -1,6 +1,8 @@
 import os
 import json
 import pandas as pd
+from collections import defaultdict
+from flask import current_app
 
 
 def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
@@ -80,3 +82,68 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 
     # Save the output DataFrame to CSV
     output.to_csv(os.path.join(output_directory, "output.csv"), index=False)
+
+
+def process_dependency_output(filtered_top_buckets):
+    # current_app.logger.info(filtered_top_buckets)
+
+    # Initialize a dictionary to hold unique dependencies
+    dependencies_dict = defaultdict(set)
+
+    # Assuming you have a list of dynamic directories for each bucket
+    for bucket_index, _ in filtered_top_buckets:
+        # Construct the directory for the current bucket
+        dynamic_directory = os.path.join(
+            r"./data/output/dependency/",
+            f"bucket_{bucket_index}/output/output.json",
+        )
+
+        # Check if the JSON file exists before trying to read it
+        if os.path.exists(dynamic_directory):
+            with open(dynamic_directory, "r") as json_file:
+                try:
+                    json_data = json.load(json_file)
+
+                    # Retrieve the annotations and create a list of tuples for dependencies
+                    for item in json_data["output"]:
+                        columns = item["columns"]
+                        # Sort the columns numerically to ensure the order is consistent
+                        sorted_columns_tuple = tuple(
+                            sorted(columns, key=int)
+                        )  # Sort numerically
+                        dependency_description = item["dependency"]
+
+                        # Store the dependency description in the set for this tuple of columns
+                        dependencies_dict[sorted_columns_tuple].add(
+                            dependency_description
+                        )
+
+                except json.JSONDecodeError as e:
+                    print(f"Error decoding JSON from file {dynamic_directory}: {e}")
+
+                except Exception as e:
+                    print(f"Error reading file {dynamic_directory}: {e}")
+
+    # Prepare the final list for DataFrame
+    dependencies_list = []
+    for columns, descriptions in dependencies_dict.items():
+
+        first_description = next(
+            iter(descriptions)
+        )  # Extract the first item from the set
+        dependencies_list.append(
+            {
+                "columns": list(columns),  # Convert back to list for the DataFrame
+                "dependency": first_description,  # Store only the first description
+                # "dependency": list(descriptions),  # Store all descriptions as a list
+            }
+        )
+
+    # Sort dependencies list first by the first column, then by the second column
+    dependencies_list.sort(key=lambda x: (x["columns"][0], x["columns"][1]))
+
+    # Create a DataFrame from the sorted unique dependencies
+    dependencies_df = pd.DataFrame(dependencies_list)
+
+    # Save the sorted dependencies DataFrame to a CSV file
+    dependencies_df.to_csv("./data/output/dependency/dependencies.csv", index=False)

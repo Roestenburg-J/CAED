@@ -73,4 +73,10 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     output = pd.DataFrame(data_dict)
     output = output[dataset.columns.str.strip()]  # Strip whitespace from columns
     output = output.astype(int)
-    output.to_csv("./output/attribute_output/output.csv", index=False)
+
+    # Ensure the output directory exists
+    output_directory = "./data/output/attribute"
+    os.makedirs(output_directory, exist_ok=True)
+
+    # Save the output DataFrame to CSV
+    output.to_csv(os.path.join(output_directory, "output.csv"), index=False)

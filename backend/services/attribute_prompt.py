@@ -101,7 +101,7 @@ Example 2
 """
 
 
-def attribute_prompt(dataset: pd.DataFrame, directory: str) -> None:
+def attribute_prompt(dataset: pd.DataFrame, directory: str) -> str:
     for col in dataset.columns:
         attribute = pd.DataFrame(dataset[col].copy())
 
@@ -116,8 +116,8 @@ def attribute_prompt(dataset: pd.DataFrame, directory: str) -> None:
         json_sample = attribute_unique.to_json(orient="records", indent=4)
 
         user_prompt = f"""Input:
-      {json_sample}
-  """
+{json_sample}
+"""
         # directory = r"D:\Documents\UU\Thesis\Artifact\CAED\dataset_analyzer\notebook\output\attribute_output"
 
         prompt_gpt(
@@ -128,3 +128,5 @@ def attribute_prompt(dataset: pd.DataFrame, directory: str) -> None:
             directory,
             attribute_dict,
         )
+
+    return "Attribute level errors detected!"

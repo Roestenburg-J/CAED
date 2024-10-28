@@ -34,14 +34,14 @@ def inspect_classification(true_dataset, pred_dataset, input_dataset):
 
     # True positive calculation
     tp = calc == 4
-    tp = input_dataset[tp]
+    true_positive_df = input_dataset[tp]
 
     # False positive calculation
     fp = calc == 3
-    fp = input_dataset[fp]
+    false_positve_df = input_dataset[fp]
 
     # False negative calculation
     fn = calc == 2
-    fn = input_dataset[fn]
+    false_negative_df = input_dataset[fn]
 
-    return tp, fp, fn
+    return true_positive_df, false_positve_df, false_negative_df

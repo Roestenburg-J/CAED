@@ -8,12 +8,19 @@ from flask import (
     jsonify,
 )
 import os
+import logging
 import pandas as pd
 
+# Imports for attribute level error detection
 from services.attribute_prompt import attribute_prompt
-from utils.accuracy_utils import calculate_metrics
+from utils.accuracy_utils import calculate_metrics, inspect_classification
 from utils.data_utils import annotate_errors
 from utils.output_utils import process_attribute_output
+
+# Imports for dependency detection
+from utils.data_utils import create_buckets
+from services.dependency_detection import dependency_detection
+from utils.output_utils import process_dependency_output
 
 # # from modules import tuple_analyzer
 # from backend.modules.AttributeProcessor import attribute_prompt
@@ -27,6 +34,22 @@ app.config.from_object(DevelopmentConfig)
 app.secret_key = "supersecretkey"
 # app.config["UPLOAD_FOLDER"] = "uploads"
 app.config["ALLOWED_EXTENSIONS"] = {"csv"}
+
+# Set up logging
+logging.basicConfig(
+    filename="app.log",  # Log file location
+    level=logging.DEBUG,  # Log level (use DEBUG for verbose output)
+    format="%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]",
+)
+
+# Optionally, log to both file and console
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter(
+    "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
+)
+console_handler.setFormatter(formatter)
+app.logger.addHandler(console_handler)
 
 # Ensure the upload folder exists
 # os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
@@ -179,6 +202,15 @@ def calculate_accuracy():
             error_annotation, output
         )
 
+        # Might move the tp calculation someplace else
+        true_positive_df, false_positive_df, false_negative_df = inspect_classification(
+            error_annotation, output, dataset
+        )
+
+        true_positive_df.to_csv("./data/output/attribute/true_positives.csv")
+        false_positive_df.to_csv("./data/output/attribute/false_positives.csv")
+        false_negative_df.to_csv("./data/output/attribute/false_negatives.csv")
+
         return (
             jsonify(
                 {
@@ -195,23 +227,26 @@ def calculate_accuracy():
         return jsonify({"error": str(e)}), 500
 
 
-# @app.route("/detect_dependencies", methods=["POST"])
-# def detect_dependencies():
-#     try:
-#         dataset = pd.read_csv("./uploads/dataset.csv")
-#         attribute_prompt(dataset, "./output/attribute")
+@app.route("/detect-dependencies", methods=["GET"])
+def detect_dependencies():
+    try:
+        dataset = pd.read_csv("./data/dataset.csv")
 
-#         return (
-#             jsonify(
-#                 {
-#                     "message": "Attribute errors detected!",
-#                 }
-#             ),
-#             200,
-#         )
+        filtered_top_buckets, buckets = create_buckets(dataset)
+        # dependency_detection(dataset, filtered_top_buckets, buckets)
+        process_dependency_output(filtered_top_buckets)
 
-#     except Exception as e:
-#         return jsonify({"error": str(e)}), 500
+        return (
+            jsonify(
+                {
+                    "message": "Dependencies detected!",
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":

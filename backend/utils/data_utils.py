@@ -1,4 +1,5 @@
 import pandas as pd
+from datasketch import MinHash, MinHashLSH
 
 
 def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
@@ -66,3 +67,59 @@ def annotate_errors(
     error_annotation = (df_fixed_str != df_with_errors_str).astype(int)
 
     return error_annotation
+
+
+def create_buckets(dataset: pd.DataFrame):
+
+    records = dataset.values.tolist()
+
+    # Create an LSH index with a threshold and number of permutations
+    lsh = MinHashLSH(threshold=0.5, num_perm=128)
+
+    # Insert each record into the LSH index
+    for i, record in enumerate(records):
+        m = MinHash(num_perm=128)
+        for feature in record:
+            m.update(
+                str(feature).encode("utf8")
+            )  # Hashing the attributes of the record
+        lsh.insert(i, m)
+
+        buckets = []
+    visited = set()  # To track records that have already been assigned to a bucket
+
+    # Querying similar records for each record
+    for i, record in enumerate(records):
+        if i not in visited:  # Only process records that haven't been visited
+            # Create MinHash for the current record
+            m = MinHash(num_perm=128)
+            for feature in record:
+                m.update(str(feature).encode("utf8"))
+
+            # Query LSH to get similar records
+            similar_records = lsh.query(m)
+
+            # Add the current record and its similar ones as a new bucket
+            buckets.append(similar_records)
+
+            # Mark all similar records as visited
+            visited.update(similar_records)
+
+    # Calculate the sizes of all buckets
+    bucket_sizes = [(i, len(bucket)) for i, bucket in enumerate(buckets)]
+
+    # Sort buckets by size in descending order
+    sorted_buckets = sorted(bucket_sizes, key=lambda x: x[1], reverse=True)
+
+    # Retrieve the top 10 buckets
+    top_buckets_raw = sorted_buckets[:10]  # Get the top 10 buckets
+
+    # Define a minimum size threshold (e.g., 2)
+    min_size_threshold = 2
+
+    # Filter the top buckets based on the minimum size threshold
+    filtered_top_buckets = [
+        bucket for bucket in top_buckets_raw if bucket[1] >= min_size_threshold
+    ]
+
+    return filtered_top_buckets, buckets

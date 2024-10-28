@@ -3,7 +3,7 @@ version: "3.8"
 services:
   dataset_analyzer:
     build:
-      context: ./dataset_analyzer
+      context: ./backend
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
@@ -11,4 +11,5 @@ services:
       - FLASK_APP=app.py
       - FLASK_RUN_HOST=0.0.0.0
     volumes:
-      - ./dataset_analyzer:/app
+      # Mount the backend code to /app for live code updates
+      - ./backend:/app

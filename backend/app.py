@@ -233,13 +233,133 @@ def detect_dependencies():
         dataset = pd.read_csv("./data/dataset.csv")
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        # dependency_detection(dataset, filtered_top_buckets, buckets)
+        dependency_detection(dataset, filtered_top_buckets, buckets)
         process_dependency_output(filtered_top_buckets)
 
         return (
             jsonify(
                 {
                     "message": "Dependencies detected!",
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+from services.dependency_violations import detect_dep_violations
+from utils.output_utils import process_dep_violations_output
+
+
+@app.route("/detect-dependency-violations", methods=["GET"])
+def detect_dependency_violations():
+    try:
+        dataset = pd.read_csv("./data/dataset.csv")
+        depedencies = pd.read_csv("./data/output/dependency/dependencies.csv")
+        detect_dep_violations(depedencies, dataset)
+        process_dep_violations_output(dataset)
+
+        return (
+            jsonify(
+                {
+                    "message": "Dependency violations detected!",
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/calculate-dependency-accuracy", methods=["GET"])
+def calculate_dependency_accuracy():
+    try:
+        dataset = pd.read_csv("./data/dataset.csv")
+        clean_dataset = pd.read_csv("./data/cleaned_dataset.csv")
+
+        error_annotation = annotate_errors(clean_dataset, dataset)
+        output = pd.read_csv("./data/output/dependency_violations/output.csv")
+
+        accuracy, precision, recall, f_score = calculate_metrics(
+            error_annotation, output
+        )
+
+        # Might move the tp calculation someplace else
+        true_positive_df, false_positive_df, false_negative_df = inspect_classification(
+            error_annotation, output, dataset
+        )
+
+        true_positive_df.to_csv(
+            "./data/output/dependency_violations/true_positives.csv"
+        )
+        false_positive_df.to_csv(
+            "./data/output/dependency_violations/false_positives.csv"
+        )
+        false_negative_df.to_csv(
+            "./data/output/dependency_violations/false_negatives.csv"
+        )
+
+        return (
+            jsonify(
+                {
+                    "accuracy": accuracy,
+                    "precision": precision,
+                    "recall": recall,
+                    "f_score": f_score,
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+from utils.output_utils import process_combined_output
+
+
+@app.route("/calculate-overall-accuracy", methods=["GET"])
+def calculate_overall_accuracy():
+    try:
+        dataset = pd.read_csv("./data/dataset.csv")
+        clean_dataset = pd.read_csv("./data/cleaned_dataset.csv")
+
+        error_annotation = annotate_errors(clean_dataset, dataset)
+
+        # output = pd.read_csv("./data/output/dependency_violations/output.csv")
+        attribute_output = pd.read_csv("./data/output/attribute/output.csv")
+        dependency_output = pd.read_csv(
+            "./data/output/dependency_violations/output.csv"
+        )
+        process_combined_output(attribute_output, dependency_output)
+
+        combined_output = pd.read_csv(
+            "./data/output/consolidated_error_annotations.csv"
+        )
+
+        accuracy, precision, recall, f_score = calculate_metrics(
+            error_annotation, combined_output
+        )
+
+        # Might move the tp calculation someplace else
+        true_positive_df, false_positive_df, false_negative_df = inspect_classification(
+            error_annotation, combined_output, dataset
+        )
+
+        true_positive_df.to_csv("./data/output/true_positives.csv")
+        false_positive_df.to_csv("./data/output/false_positives.csv")
+        false_negative_df.to_csv("./data/output/false_negatives.csv")
+
+        return (
+            jsonify(
+                {
+                    "accuracy": accuracy,
+                    "precision": precision,
+                    "recall": recall,
+                    "f_score": f_score,
                 }
             ),
             200,

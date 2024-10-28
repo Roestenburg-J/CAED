@@ -52,3 +52,10 @@
 2024-10-28 17:24:15,511 INFO: ./data/output/dependency/bucket_230\output\output.json [in /app/utils/output_utils.py:127]
 2024-10-28 17:24:15,518 INFO: ./data/output/dependency/bucket_1\output\output.json [in /app/utils/output_utils.py:127]
 2024-10-28 17:24:15,530 INFO: 192.168.192.1 - - [28/Oct/2024 17:24:15] "GET /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-28 17:24:53,334 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.208.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-28 17:24:53,335 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-28 17:24:58,518 INFO: [(29, 39), (2, 27), (0, 20), (173, 20), (225, 20), (23, 19), (53, 19), (155, 19), (230, 19), (1, 18)] [in /app/utils/output_utils.py:88]
+2024-10-28 17:24:58,612 INFO: 192.168.208.1 - - [28/Oct/2024 17:24:58] "GET /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]

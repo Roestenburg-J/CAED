@@ -98,7 +98,7 @@ The following is a formatted table with the data to be checked.
         prompt_gpt(
             system_prompt,
             user_prompt,
-            "output",
+            f"bucket_{bucket_index}",
             response_format,
             dynamic_directory,
             dataset_sample,

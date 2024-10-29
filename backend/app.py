@@ -218,22 +218,26 @@ def detect_attribute_errors():
         dataset = pd.read_csv(csv_file_path)
 
         # Process the dataset (these functions should be defined elsewhere in your code)
-        # attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
+        attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
         process_attribute_output(
             dataset, f"./data/{dataset_name}_{timestamp}/attribute"
         )
 
-        # Load the annotated output
+        # Load the output
         annotated_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
-
-        # Convert the annotated output to JSON format
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/prompt_metadata.csv"
+        )
+        # Convert the output to JSON format
         annotated_output_json = annotated_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
 
         return (
             jsonify(
                 {
                     "message": "Attribute errors detected!",
                     "annotated_output": annotated_output_json,  # Include annotated output in the response
+                    "prompt_metadata": prompt_metadata_json,
                 }
             ),
             200,
@@ -311,13 +315,24 @@ def detect_dependencies():
         dataset = pd.read_csv(csv_file_path)
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        dependency_detection(dataset, filtered_top_buckets, buckets, directory)
+        # dependency_detection(dataset, filtered_top_buckets, buckets, directory)
         process_dependency_output(filtered_top_buckets, directory)
+
+        # Load the output
+        dependecy_output = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/dependency/prompt_metadata.csv"
+        )
+        # Convert the output to JSON format
+        dependecy_output_json = dependecy_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
 
         return (
             jsonify(
                 {
                     "message": "Dependencies detected!",
+                    "dependencies": dependecy_output_json,
+                    "prompt_metadata": prompt_metadata_json,
                 }
             ),
             200,

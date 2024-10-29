@@ -81,17 +81,15 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 
 
 def process_dependency_output(filtered_top_buckets, directory: str):
-    # current_app.logger.info(filtered_top_buckets)
-
     # Initialize a dictionary to hold unique dependencies
     dependencies_dict = defaultdict(set)
+    prompt_metadata_list = []
 
     # Assuming you have a list of dynamic directories for each bucket
     for bucket_index, _ in filtered_top_buckets:
         # Construct the directory for the current bucket
         dynamic_directory = os.path.join(
-            directory,
-            f"bucket_{bucket_index}/output/output.json",
+            directory, f"bucket_{bucket_index}/output/output.json"
         )
 
         # Check if the JSON file exists before trying to read it
@@ -104,9 +102,7 @@ def process_dependency_output(filtered_top_buckets, directory: str):
                     for item in json_data["output"]:
                         columns = item["columns"]
                         # Sort the columns numerically to ensure the order is consistent
-                        sorted_columns_tuple = tuple(
-                            sorted(columns, key=int)
-                        )  # Sort numerically
+                        sorted_columns_tuple = tuple(sorted(columns, key=int))
                         dependency_description = item["dependency"]
 
                         # Store the dependency description in the set for this tuple of columns
@@ -120,10 +116,24 @@ def process_dependency_output(filtered_top_buckets, directory: str):
                 except Exception as e:
                     print(f"Error reading file {dynamic_directory}: {e}")
 
+        # Read the prompt_metadata from the CSV file in the current bucket
+        csv_file_path = os.path.join(
+            directory, f"bucket_{bucket_index}/prompt_metadata.csv"
+        )
+        if os.path.exists(csv_file_path):
+            try:
+                # Read the CSV and extract the first row after the header
+                csv_df = pd.read_csv(csv_file_path)
+                # Check if the DataFrame is not empty
+                if not csv_df.empty:
+                    # Get the first row as a dictionary and append to the metadata list
+                    prompt_metadata_list.append(csv_df.iloc[0].to_dict())
+            except Exception as e:
+                print(f"Error reading CSV file {csv_file_path}: {e}")
+
     # Prepare the final list for DataFrame
     dependencies_list = []
     for columns, descriptions in dependencies_dict.items():
-
         first_description = next(
             iter(descriptions)
         )  # Extract the first item from the set
@@ -131,7 +141,6 @@ def process_dependency_output(filtered_top_buckets, directory: str):
             {
                 "columns": list(columns),  # Convert back to list for the DataFrame
                 "dependency": first_description,  # Store only the first description
-                # "dependency": list(descriptions),  # Store all descriptions as a list
             }
         )
 
@@ -142,7 +151,15 @@ def process_dependency_output(filtered_top_buckets, directory: str):
     dependencies_df = pd.DataFrame(dependencies_list)
 
     # Save the sorted dependencies DataFrame to a CSV file
-    dependencies_df.to_csv(f"./data/{directory}/dependency/output.csv", index=False)
+    dependencies_df.to_csv(f"{directory}/output.csv", index=False)
+
+    # Create a DataFrame from the collected prompt metadata
+    if prompt_metadata_list:
+        prompt_metadata_df = pd.DataFrame(prompt_metadata_list)
+        # Save the combined prompt metadata DataFrame to a CSV file
+        prompt_metadata_df.to_csv(f"{directory}/prompt_metadata.csv", index=False)
+    else:
+        print("No prompt metadata found to save.")
 
 
 def process_dep_violations_output(dataset: pd.DataFrame, directory):

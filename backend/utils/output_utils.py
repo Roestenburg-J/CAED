@@ -76,12 +76,8 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     output = output[dataset.columns.str.strip()]  # Strip whitespace from columns
     output = output.astype(int)
 
-    # Ensure the output directory exists
-    output_directory = "./data/output/attribute"
-    os.makedirs(output_directory, exist_ok=True)
-
     # Save the output DataFrame to CSV
-    output.to_csv(os.path.join(output_directory, "output.csv"), index=False)
+    output.to_csv(os.path.join(directory, "output.csv"), index=False)
 
 
 def process_dependency_output(filtered_top_buckets, directory: str):
@@ -146,12 +142,10 @@ def process_dependency_output(filtered_top_buckets, directory: str):
     dependencies_df = pd.DataFrame(dependencies_list)
 
     # Save the sorted dependencies DataFrame to a CSV file
-    dependencies_df.to_csv("./data/output/dependency/dependencies.csv", index=False)
+    dependencies_df.to_csv(f"./data/{directory}/dependency/output.csv", index=False)
 
 
-def process_dep_violations_output(dataset: pd.DataFrame):
-    directory = r"./data/output/dependency_violations"
-
+def process_dep_violations_output(dataset: pd.DataFrame, directory):
     # Assuming the original DataFrame structure is known
     original_dataframe = dataset
 
@@ -249,7 +243,7 @@ def process_dep_violations_output(dataset: pd.DataFrame):
 
     # Save the annotated DataFrame to CSV
     annotated_output.to_csv(
-        "./data/output/dependency_violations/output.csv", index=False
+        f"./data/{directory}/dependency_violations/output.csv", index=False
     )
 
 

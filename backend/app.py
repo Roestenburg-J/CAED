@@ -8,6 +8,7 @@ from flask import (
     jsonify,
 )
 import os
+import io
 import logging
 import pandas as pd
 from datetime import datetime
@@ -133,6 +134,7 @@ def upload_dataset():
 
 @app.route("/upload-clean-dataset", methods=["POST"])
 def upload_clean_dataset():
+
     if "file" not in request.files:
         return jsonify({"error": "No file part in the request"}), 400
 
@@ -182,20 +184,28 @@ def upload_clean_dataset():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/detect-attribute-errors", methods=["GET"])
+from flask import Flask, jsonify, request
+import pandas as pd
+import os
+import io
+
+app = Flask(__name__)
+
+
+@app.route("/detect-attribute-errors", methods=["POST"])
 def detect_attribute_errors():
     try:
         # Get the dataset name and timestamp from the query parameters
         dataset_name = request.form.get("dataset_name", None)
         timestamp = request.form.get("timestamp", None)
-        # dataset_name = request.args.get("dataset_name")
-        # timestamp = request.args.get("timestamp")
 
         # Validate that both parameters are provided
         if not dataset_name or not timestamp:
             return (
                 jsonify(
-                    {"error": "Both 'name' and 'timestamp' parameters are required"}
+                    {
+                        "error": "Both 'dataset_name' and 'timestamp' parameters are required"
+                    }
                 ),
                 400,
             )
@@ -207,16 +217,23 @@ def detect_attribute_errors():
         # Load the dataset
         dataset = pd.read_csv(csv_file_path)
 
-        # Process the dataset
-        attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
+        # Process the dataset (these functions should be defined elsewhere in your code)
+        # attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
         process_attribute_output(
             dataset, f"./data/{dataset_name}_{timestamp}/attribute"
         )
+
+        # Load the annotated output
+        annotated_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
+
+        # Convert the annotated output to JSON format
+        annotated_output_json = annotated_output.to_dict(orient="records")
 
         return (
             jsonify(
                 {
                     "message": "Attribute errors detected!",
+                    "annotated_output": annotated_output_json,  # Include annotated output in the response
                 }
             ),
             200,
@@ -226,9 +243,14 @@ def detect_attribute_errors():
         return jsonify({"error": str(e)}), 500
 
 
+if __name__ == "__main__":
+    app.run()
+
+
 @app.route("/calculate-accuracy", methods=["GET"])
 def calculate_accuracy():
     try:
+
         dataset = pd.read_csv("./data/dataset.csv")
         clean_dataset = pd.read_csv("./data/cleaned_dataset.csv")
 
@@ -264,14 +286,12 @@ def calculate_accuracy():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/detect-dependencies", methods=["GET"])
+@app.route("/detect-dependencies", methods=["POST"])
 def detect_dependencies():
     try:
 
         dataset_name = request.form.get("dataset_name", None)
         timestamp = request.form.get("timestamp", None)
-        # dataset_name = request.args.get("dataset_name")
-        # timestamp = request.args.get("timestamp")
 
         # Validate that both parameters are provided
         if not dataset_name or not timestamp:
@@ -311,13 +331,34 @@ from services.dependency_violations import detect_dep_violations
 from utils.output_utils import process_dep_violations_output
 
 
-@app.route("/detect-dependency-violations", methods=["GET"])
+@app.route("/detect-dependency-violations", methods=["POST"])
 def detect_dependency_violations():
     try:
-        dataset = pd.read_csv("./data/dataset.csv")
-        depedencies = pd.read_csv("./data/output/dependency/dependencies.csv")
-        detect_dep_violations(depedencies, dataset)
-        process_dep_violations_output(dataset)
+
+        dataset_name = request.form.get("dataset_name", None)
+        timestamp = request.form.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {"error": "Both 'name' and 'timestamp' parameters are required"}
+                ),
+                400,
+            )
+
+        # Construct the file path using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        directory = f"./data/{dataset_name}_{timestamp}/dependency_violations"
+
+        dataset = pd.read_csv(csv_file_path)
+
+        depedencies = pd.read_csv(
+            f"./data/{dataset_folder}/dependency/dependencies.csv"
+        )
+        detect_dep_violations(depedencies, dataset, directory)
+        process_dep_violations_output(dataset, directory)
 
         return (
             jsonify(

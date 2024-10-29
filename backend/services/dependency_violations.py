@@ -66,7 +66,9 @@ Dependecy violations could be either semantic or syntactic violations. Use the d
 """
 
 
-def detect_dep_violations(dependencies_df: pd.DataFrame, dataset: pd.DataFrame):
+def detect_dep_violations(
+    dependencies_df: pd.DataFrame, dataset: pd.DataFrame, directory: str
+):
     # Group the dependencies by the first index
     grouped_dependencies = defaultdict(list)
 
@@ -103,9 +105,6 @@ def detect_dep_violations(dependencies_df: pd.DataFrame, dataset: pd.DataFrame):
             if selected_columns.drop_duplicates().shape[0] < dataset.shape[0]:
                 # Create the unique row dictionary using the previously defined create_row_dict function
                 row_dict, unique_rows = create_row_dict(selected_columns)
-
-                # Only use the unique rows for prompting
-                directory = r"./data/output/dependency_violations"
 
                 # Prepare the data to prompt for each unique row combination
                 # data_columns = unique_rows.drop("original_index", axis=1)

@@ -10,6 +10,7 @@ from flask import (
 import os
 import logging
 import pandas as pd
+from datetime import datetime
 
 # Imports for attribute level error detection
 from services.attribute_prompt import attribute_prompt
@@ -77,6 +78,10 @@ def upload_dataset():
     if file.filename == "":
         return jsonify({"error": "No selected file"}), 400
 
+    dataset_name = request.form.get("dataset_name", None)
+    if not dataset_name:
+        return jsonify({"error": "Dataset name is required"}), 400
+
     # Get the file extension
     file_ext = os.path.splitext(file.filename)[1].lower()
 
@@ -92,16 +97,23 @@ def upload_dataset():
         )
 
     try:
-        # Convert to DataFrame and then to CSV if necessary
+        # Convert to DataFrame based on file extension
         if file_ext == ".csv":
-            df = pd.read_csv(file)  # Directly read CSV
+            df = pd.read_csv(file)
         elif file_ext in [".xls", ".xlsx"]:
-            df = pd.read_excel(file)  # Convert Excel to DataFrame
+            df = pd.read_excel(file)
         elif file_ext == ".json":
-            df = pd.read_json(file)  # Convert JSON to DataFrame
+            df = pd.read_json(file)
 
-        # Save as CSV to a specified path, or you could send it back as a response
-        csv_file_path = os.path.join("./data", "dataset.csv")
+        # Create a directory for the dataset if it doesn't exist
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        dataset_dir = os.path.join("./data", f"{dataset_name}_{timestamp}")
+        os.makedirs(dataset_dir, exist_ok=True)
+
+        # Create a timestamped file path
+        csv_file_path = os.path.join(dataset_dir, "dirty.csv")
+
+        # Save the file
         df.to_csv(csv_file_path, index=False)
 
         return (
@@ -109,6 +121,7 @@ def upload_dataset():
                 {
                     "message": "File successfully uploaded",
                     "path": csv_file_path,
+                    "timestamp": timestamp,
                 }
             ),
             200,
@@ -172,9 +185,33 @@ def upload_clean_dataset():
 @app.route("/detect-attribute-errors", methods=["GET"])
 def detect_attribute_errors():
     try:
-        dataset = pd.read_csv("./data/dataset.csv")
-        attribute_prompt(dataset, "./data/output/attribute")
-        process_attribute_output(dataset, "./data/output/attribute")
+        # Get the dataset name and timestamp from the query parameters
+        dataset_name = request.form.get("dataset_name", None)
+        timestamp = request.form.get("timestamp", None)
+        # dataset_name = request.args.get("dataset_name")
+        # timestamp = request.args.get("timestamp")
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {"error": "Both 'name' and 'timestamp' parameters are required"}
+                ),
+                400,
+            )
+
+        # Construct the file path using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+
+        # Load the dataset
+        dataset = pd.read_csv(csv_file_path)
+
+        # Process the dataset
+        attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
+        process_attribute_output(
+            dataset, f"./data/{dataset_name}_{timestamp}/attribute"
+        )
 
         return (
             jsonify(
@@ -230,11 +267,32 @@ def calculate_accuracy():
 @app.route("/detect-dependencies", methods=["GET"])
 def detect_dependencies():
     try:
-        dataset = pd.read_csv("./data/dataset.csv")
+
+        dataset_name = request.form.get("dataset_name", None)
+        timestamp = request.form.get("timestamp", None)
+        # dataset_name = request.args.get("dataset_name")
+        # timestamp = request.args.get("timestamp")
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {"error": "Both 'name' and 'timestamp' parameters are required"}
+                ),
+                400,
+            )
+
+        # Construct the file path using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        directory = f"./data/{dataset_name}_{timestamp}/dependency"
+
+        # Load the dataset
+        dataset = pd.read_csv(csv_file_path)
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        dependency_detection(dataset, filtered_top_buckets, buckets)
-        process_dependency_output(filtered_top_buckets)
+        dependency_detection(dataset, filtered_top_buckets, buckets, directory)
+        process_dependency_output(filtered_top_buckets, directory)
 
         return (
             jsonify(

@@ -84,7 +84,7 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     output.to_csv(os.path.join(output_directory, "output.csv"), index=False)
 
 
-def process_dependency_output(filtered_top_buckets):
+def process_dependency_output(filtered_top_buckets, directory: str):
     # current_app.logger.info(filtered_top_buckets)
 
     # Initialize a dictionary to hold unique dependencies
@@ -94,7 +94,7 @@ def process_dependency_output(filtered_top_buckets):
     for bucket_index, _ in filtered_top_buckets:
         # Construct the directory for the current bucket
         dynamic_directory = os.path.join(
-            r"./data/output/dependency/",
+            directory,
             f"bucket_{bucket_index}/output/output.json",
         )
 

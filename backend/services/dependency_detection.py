@@ -68,13 +68,15 @@ HUR-008_t  , Hurricanes that was able to breach sea walls
 """
 
 
-def dependency_detection(dataset: pd.DataFrame, filtered_top_buckets, buckets):
+def dependency_detection(
+    dataset: pd.DataFrame, filtered_top_buckets, buckets, directory: str
+):
 
     records = dataset.values.tolist()
 
     for bucket_index, _ in filtered_top_buckets:
         dynamic_directory = os.path.join(
-            r"./data/output/dependency/",
+            directory,
             f"bucket_{bucket_index}",
         )
 

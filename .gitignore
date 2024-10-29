@@ -1,7 +1,2 @@
 notebook/new_datasets
 notebook/output
-backend/data
-backend/__pycache__
-backend/services/__pycache__
-backend/utils/__pycache__
-backend/app.log

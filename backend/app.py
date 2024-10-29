@@ -369,16 +369,27 @@ def detect_dependency_violations():
 
         dataset = pd.read_csv(csv_file_path)
 
-        depedencies = pd.read_csv(
-            f"./data/{dataset_folder}/dependency/dependencies.csv"
-        )
-        detect_dep_violations(depedencies, dataset, directory)
+        depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
+        # detect_dep_violations(depedencies, dataset, directory)
         process_dep_violations_output(dataset, directory)
+
+        # Load the output
+        dep_violation_output = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/output.csv"
+        )
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/prompt_metadata.csv"
+        )
+        # Convert the output to JSON format
+        dependecy_output_json = dep_violation_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
 
         return (
             jsonify(
                 {
                     "message": "Dependency violations detected!",
+                    "annotated_output": dependecy_output_json,
+                    "prompt_metadata": prompt_metadata_json,
                 }
             ),
             200,

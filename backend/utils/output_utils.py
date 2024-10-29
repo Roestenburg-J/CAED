@@ -259,9 +259,7 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory):
             print(f"Missing files for folder {folder_name}")
 
     # Save the annotated DataFrame to CSV
-    annotated_output.to_csv(
-        f"./data/{directory}/dependency_violations/output.csv", index=False
-    )
+    annotated_output.to_csv(f"{directory}/output.csv", index=False)
 
 
 def process_combined_output(output_1: pd.DataFrame, output_2: pd.DataFrame):

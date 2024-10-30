@@ -2,13 +2,9 @@
 import React, { useState } from "react";
 import styles from "./page.module.css";
 
-import { Box, Button, Grid2, TextField, Typography } from "@mui/material";
+import { Box, Button, Grid2, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
-
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -19,9 +15,10 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 
 // Component Imports
-import DatasetUpload from "../../components/DatasetUpload/DatasetUpload";
+import DetectionForm from "../../components/Detection/DetectionForm/DetectionForm";
+import DetectionAttribute from "@/components/Detection/DetectionAttribute/DetectionAttribute";
 
-//Placeholder data
+// Placeholder data
 function createData(
   name: string,
   calories: number,
@@ -52,61 +49,75 @@ const VisuallyHiddenInput = styled("input")({
   width: 1,
 });
 
+interface PromptMetadata {
+  completion_tokens: number;
+  elapsed_time: string;
+  prompt_name: string;
+  prompt_tokens: number;
+  total_tokens: number;
+}
+
+interface attributeAnnotation {
+  [key: string]: number; // Allows for a flexible structure with any string keys
+}
+
+interface AttributeResult {
+  annotated_output: attributeAnnotation[]; // Allows for a flexible structure with any string keys
+  prompt_metadata: PromptMetadata[];
+}
+
 export default function Home() {
-  const [name, setName] = useState("");
+  const [attrbuteResults, setAttrbuteResults] = useState<AttributeResult>({
+    annotated_output: [],
+    prompt_metadata: [],
+  });
+  const [dependencyResults, setDependencyResults] = useState({});
+  const [depViolationResults, setDepViolationResults] = useState({});
+
+  // New states for loading and error/success messages
+  const [loadingStates, setLoadingStates] = useState({
+    attribute: false,
+    dependency: false,
+    violations: false,
+  });
+
+  const [requestedStates, setRequestedStates] = useState({
+    attribute: false,
+    dependency: false,
+    violations: false,
+  });
+
+  const [detectionError, setDetectionError] = useState({
+    attribute: false,
+    dependency: false,
+    violations: false,
+  });
 
   return (
     <div className={styles.page}>
       <Typography variant="h3">Detect</Typography>
-      <DatasetUpload />
-      {/* <DatasetUpload /> */}
-      {/* <TextField
-        label="Detection Name"
-        margin="dense"
-        name="name"
-        value={name}
-        onChange={(e) => {
-          setName(e.target.value);
-        }}
+      <DetectionForm
+        setAttributeResults={setAttrbuteResults}
+        setDependencyResults={setDependencyResults}
+        setDepViolationResults={setDepViolationResults}
+        setLoadingStates={setLoadingStates}
+        setRequestedStates={setRequestedStates}
+        setDetectionError={setDetectionError}
       />
-      <Button
-        variant="outlined"
-        component="label"
-        startIcon={<UploadFileIcon />}
-      >
-        Upload Dataset
-        <VisuallyHiddenInput
-          type="file"
-          onChange={(event) => console.log(event.target.files)}
-          multiple
-        />
-      </Button>
-      <Box>
-        <FormGroup className={styles.formgroup}>
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Attribute Level Detection"
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Dependency Detection"
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Dependency Violation Detection"
-          />
-        </FormGroup>
-      </Box>
-      <Button variant="outlined">Detect Errors</Button> */}
       <Grid2 container className={styles.outputClasses} spacing={2}>
         <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          <Typography>Attribute Errors</Typography>
+          <DetectionAttribute
+            attributeResults={attrbuteResults}
+            isLoading={loadingStates.attribute}
+            isRequested={requestedStates.attribute}
+            error={detectionError.attribute}
+          />
         </Grid2>
         <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
           <Typography>Dependencies</Typography>
         </Grid2>
         <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          <Typography>Dependecy Violations</Typography>
+          <Typography>Dependency Violations</Typography>
         </Grid2>
       </Grid2>
       <Box>

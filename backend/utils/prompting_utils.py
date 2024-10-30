@@ -71,11 +71,11 @@ def write_prompt_metadata(
     current_data = pd.DataFrame(
         [
             {
-                "Completion Tokens": completion_tokens,
-                "Prompt Tokens": prompt_tokens,
-                "Total Tokens": total_tokens,
-                "Elapsed Time": elapsed_time,
-                "Prompt Name": prompt_title,
+                "completion_tokens": completion_tokens,
+                "prompt_tokens": prompt_tokens,
+                "total_tokens": total_tokens,
+                "elapsed_time": elapsed_time,
+                "prompt_name": prompt_title,
             }
         ]
     )

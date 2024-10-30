@@ -7,10 +7,10 @@ type DetectParams = {
   timestamp: string;
 };
 
-export async function detectAttributeErrors({
-  datasetName,
-  timestamp,
-}: DetectParams): Promise<string> {
+export async function detectAttributeErrors(
+  datasetName: string,
+  timestamp: string
+) {
   const formData = new FormData();
   formData.append("dataset_name", datasetName);
   formData.append("timestamp", timestamp);
@@ -23,7 +23,6 @@ export async function detectAttributeErrors({
         body: formData,
       }
     );
-
     if (!response.ok) {
       throw new Error(`Failed to detect: ${response.statusText}`);
     }
@@ -36,10 +35,10 @@ export async function detectAttributeErrors({
   }
 }
 
-export async function detectDependencies({
-  datasetName,
-  timestamp,
-}: DetectParams): Promise<string> {
+export async function detectDependencies(
+  datasetName: string,
+  timestamp: string
+) {
   const formData = new FormData();
   formData.append("dataset_name", datasetName);
   formData.append("timestamp", timestamp);
@@ -65,10 +64,10 @@ export async function detectDependencies({
   }
 }
 
-export async function detectDepViolations({
-  datasetName,
-  timestamp,
-}: DetectParams): Promise<string> {
+export async function detectDepViolations(
+  datasetName: string,
+  timestamp: string
+) {
   const formData = new FormData();
   formData.append("dataset_name", datasetName);
   formData.append("timestamp", timestamp);

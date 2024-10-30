@@ -5,10 +5,7 @@ type UploadParams = {
   datasetName: string;
 };
 
-export async function uploadDataset({
-  file,
-  datasetName,
-}: UploadParams): Promise<string> {
+export async function uploadDataset({ file, datasetName }: UploadParams) {
   const formData = new FormData();
   formData.append("file", file);
   formData.append("dataset_name", datasetName);
@@ -23,10 +20,10 @@ export async function uploadDataset({
       throw new Error(`Failed to upload: ${response.statusText}`);
     }
 
-    const data = await response.json();
-    return data.message || "File uploaded successfully";
+    // Return the parsed JSON data directly if the response is successful
+    return await response.json();
   } catch (error) {
     console.error("Error during file upload:", error);
-    throw error;
+    throw error; // Re-throw to be caught in handleFileChange
   }
 }

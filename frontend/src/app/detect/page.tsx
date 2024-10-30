@@ -19,7 +19,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 
 // Component Imports
-// import DatasetUpload from "../../components/DatasetUpload/";
+import DatasetUpload from "../../components/DatasetUpload/DatasetUpload";
 
 //Placeholder data
 function createData(
@@ -58,6 +58,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <Typography variant="h3">Detect</Typography>
+      <DatasetUpload />
       {/* <DatasetUpload /> */}
       {/* <TextField
         label="Detection Name"

@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import styles from "./DatasetUpload.module.css";
 
-import { uploadDataset } from "@/services/Utils/Utils";
-
+// MUI Imports
 import { styled } from "@mui/material/styles";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
-import { Box, Button, TextField } from "@mui/material";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
+import {
+  Box,
+  Button,
+  Checkbox,
+  FormControlLabel,
+  FormGroup,
+  TextField,
+} from "@mui/material";
+import LoadingButton from "@mui/lab/LoadingButton";
+
+// Service Imports
+import { uploadDataset } from "@/services/Utils/Utils";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -24,23 +31,34 @@ const VisuallyHiddenInput = styled("input")({
 
 const FileUpload: React.FC = () => {
   const [file, setFile] = useState<File | null>(null);
-  const [datasetName, setDatasetName] = useState<string>("");
   const [message, setMessage] = useState<string | null>(null);
   const [detectionSettings, setDetectionSettings] = useState({
     attribute: false,
     dependency: false,
     violations: false,
   });
+  const [fileUploadLoading, setFileUploadLoading] = useState(false);
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = async (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
     const selectedFile = event.target.files?.[0];
-    if (selectedFile) {
-      setFile(selectedFile);
-    }
-  };
 
-  const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setDatasetName(event.target.value);
+    // Check if a file is selected before proceeding
+    if (!selectedFile) {
+      console.error("No file selected");
+      setFileUploadLoading(false);
+      return;
+    }
+
+    setFileUploadLoading(true);
+    const fileResponse = await uploadDataset({
+      file: selectedFile,
+      datasetName: selectedFile.name,
+    });
+
+    // Handle fileResponse as needed
+    setFileUploadLoading(false);
   };
 
   const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -53,10 +71,10 @@ const FileUpload: React.FC = () => {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    if (!file || !datasetName) {
-      setMessage("Please select a file and enter a dataset name");
-      return;
-    }
+    // if (!file || !datasetName) {
+    //   setMessage("Please select a file and enter a dataset name");
+    //   return;
+    // }
 
     // try {
     //   const responseMessage = await uploadDataset({
@@ -73,21 +91,25 @@ const FileUpload: React.FC = () => {
   return (
     <Box>
       <form onSubmit={handleSubmit}>
-        <TextField
-          label="Detection Name"
-          margin="dense"
-          name="name"
-          value={datasetName}
-          onChange={handleNameChange}
-        />
-        <Button
+        <LoadingButton
+          // size="small"
+          // onClick={handleClick}
+          startIcon={<UploadFileIcon />}
+          loading={fileUploadLoading}
+          variant="outlined"
+          component="label"
+          // disabled
+        >
+          Upload Dataset
+          <VisuallyHiddenInput type="file" onChange={handleFileChange} />
+        </LoadingButton>
+        {/* <Button
           variant="outlined"
           component="label"
           startIcon={<UploadFileIcon />}
         >
-          Upload Dataset
-          <VisuallyHiddenInput type="file" onChange={handleFileChange} />
-        </Button>
+          
+        </Button> */}
         <Box>
           <FormGroup className={styles.formgroup}>
             <FormControlLabel

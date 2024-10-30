@@ -11,10 +11,10 @@ export async function uploadDataset({
 }: UploadParams): Promise<string> {
   const formData = new FormData();
   formData.append("file", file);
-  formData.append("datasetName", datasetName);
+  formData.append("dataset_name", datasetName);
 
   try {
-    const response = await fetch(`${application_service_url}/upload`, {
+    const response = await fetch(`${application_service_url}/upload-dataset`, {
       method: "POST",
       body: formData,
     });

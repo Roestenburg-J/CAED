@@ -1,33 +1,95 @@
 import { application_service_url } from "@/config/config";
 
 // async function name(params: type) {}
-type UploadParams = {
+type DetectParams = {
   file: File;
   datasetName: string;
+  timestamp: string;
 };
 
-export async function uploadDataset({
-  file,
+export async function detectAttributeErrors({
   datasetName,
-}: UploadParams): Promise<string> {
+  timestamp,
+}: DetectParams): Promise<string> {
   const formData = new FormData();
-  formData.append("file", file);
-  formData.append("datasetName", datasetName);
+  formData.append("dataset_name", datasetName);
+  formData.append("timestamp", timestamp);
 
   try {
-    const response = await fetch(`${application_service_url}/upload`, {
-      method: "POST",
-      body: formData,
-    });
+    const response = await fetch(
+      `${application_service_url}/detect-attribute-errors`,
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
 
     if (!response.ok) {
-      throw new Error(`Failed to upload: ${response.statusText}`);
+      throw new Error(`Failed to detect: ${response.statusText}`);
     }
 
     const data = await response.json();
-    return data.message || "File uploaded successfully";
+    return data;
   } catch (error) {
-    console.error("Error during file upload:", error);
+    console.error("Error during error detection:", error);
+    throw error;
+  }
+}
+
+export async function detectDependencies({
+  datasetName,
+  timestamp,
+}: DetectParams): Promise<string> {
+  const formData = new FormData();
+  formData.append("dataset_name", datasetName);
+  formData.append("timestamp", timestamp);
+
+  try {
+    const response = await fetch(
+      `${application_service_url}/detect-dependencies`,
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Failed to detect: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error during dependency detection:", error);
+    throw error;
+  }
+}
+
+export async function detectDepViolations({
+  datasetName,
+  timestamp,
+}: DetectParams): Promise<string> {
+  const formData = new FormData();
+  formData.append("dataset_name", datasetName);
+  formData.append("timestamp", timestamp);
+
+  try {
+    const response = await fetch(
+      `${application_service_url}/detect-dependency-violations`,
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Failed to detect: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error during dependency violation detection:", error);
     throw error;
   }
 }

@@ -262,7 +262,9 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory):
     annotated_output.to_csv(f"{directory}/output.csv", index=False)
 
 
-def process_combined_output(output_1: pd.DataFrame, output_2: pd.DataFrame):
+def process_combined_output(
+    output_1: pd.DataFrame, output_2: pd.DataFrame, directory: str
+):
     # Ensure both datasets have the same structure (columns and index)
     # Initialize a consolidated DataFrame with the same shape as the original datasets
     consolidated_data = pd.DataFrame(0, index=output_1.index, columns=output_1.columns)
@@ -284,5 +286,5 @@ def process_combined_output(output_1: pd.DataFrame, output_2: pd.DataFrame):
 
     # Save to CSV
     consolidated_data.to_csv(
-        "./data/output/consolidated_error_annotations.csv", index=False
+        f"./data/{directory}/consolidated_error_annotations.csv", index=False
     )

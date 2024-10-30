@@ -125,6 +125,7 @@ def upload_dataset():
                     "message": "File successfully uploaded",
                     "path": csv_file_path,
                     "timestamp": timestamp,
+                    "dataset_name": dataset_name,
                 }
             ),
             200,
@@ -186,9 +187,6 @@ def upload_clean_dataset():
         return jsonify({"error": str(e)}), 500
 
 
-app = Flask(__name__)
-
-
 @app.route("/detect-attribute-errors", methods=["POST"])
 def detect_attribute_errors():
     try:
@@ -215,7 +213,7 @@ def detect_attribute_errors():
         dataset = pd.read_csv(csv_file_path)
 
         # Process the dataset (these functions should be defined elsewhere in your code)
-        attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
+        # attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
         process_attribute_output(
             dataset, f"./data/{dataset_name}_{timestamp}/attribute"
         )
@@ -367,7 +365,7 @@ def detect_dependency_violations():
         dataset = pd.read_csv(csv_file_path)
 
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        detect_dep_violations(depedencies, dataset, directory)
+        # detect_dep_violations(depedencies, dataset, directory)
         process_dep_violations_output(dataset, directory)
 
         # Load the output
@@ -396,7 +394,7 @@ def detect_dependency_violations():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/detect-combined-errors", methods=["GET"])
+@app.route("/detect-combined-errors", methods=["POST"])
 def detect_combined_errors():
     try:
         dataset_name = request.form.get("dataset_name", None)
@@ -419,7 +417,7 @@ def detect_combined_errors():
             f"./data/{dataset_folder}/dependency_violations/output.csv"
         )
 
-        process_combined_output(attribute_output, dependency_output)
+        process_combined_output(attribute_output, dependency_output, directory)
 
         combined_output = pd.read_csv(
             f"./data/{dataset_folder}/consolidated_error_annotations.csv"

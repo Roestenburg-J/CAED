@@ -7,6 +7,7 @@ from flask import (
     # flash,
     jsonify,
 )
+from flask_cors import CORS
 import os
 import io
 import logging
@@ -17,7 +18,7 @@ from datetime import datetime
 from services.attribute_prompt import attribute_prompt
 from utils.accuracy_utils import calculate_metrics, inspect_classification
 from utils.data_utils import annotate_errors
-from utils.output_utils import process_attribute_output
+from utils.output_utils import process_attribute_output, process_combined_output
 
 # Imports for dependency detection
 from utils.data_utils import create_buckets
@@ -32,6 +33,7 @@ from config import DevelopmentConfig
 
 
 app = Flask(__name__)
+CORS(app)
 app.config.from_object(DevelopmentConfig)
 app.secret_key = "supersecretkey"
 # app.config["UPLOAD_FOLDER"] = "uploads"
@@ -184,11 +186,6 @@ def upload_clean_dataset():
         return jsonify({"error": str(e)}), 500
 
 
-from flask import Flask, jsonify, request
-import pandas as pd
-import os
-import io
-
 app = Flask(__name__)
 
 
@@ -315,7 +312,7 @@ def detect_dependencies():
         dataset = pd.read_csv(csv_file_path)
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        # dependency_detection(dataset, filtered_top_buckets, buckets, directory)
+        dependency_detection(dataset, filtered_top_buckets, buckets, directory)
         process_dependency_output(filtered_top_buckets, directory)
 
         # Load the output
@@ -370,7 +367,7 @@ def detect_dependency_violations():
         dataset = pd.read_csv(csv_file_path)
 
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        # detect_dep_violations(depedencies, dataset, directory)
+        detect_dep_violations(depedencies, dataset, directory)
         process_dep_violations_output(dataset, directory)
 
         # Load the output
@@ -390,6 +387,51 @@ def detect_dependency_violations():
                     "message": "Dependency violations detected!",
                     "annotated_output": dependecy_output_json,
                     "prompt_metadata": prompt_metadata_json,
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/detect-combined-errors", methods=["GET"])
+def detect_combined_errors():
+    try:
+        dataset_name = request.form.get("dataset_name", None)
+        timestamp = request.form.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {"error": "Both 'name' and 'timestamp' parameters are required"}
+                ),
+                400,
+            )
+
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        # csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        directory = f"./data/{dataset_name}_{timestamp}"
+        attribute_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
+        dependency_output = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/output.csv"
+        )
+
+        process_combined_output(attribute_output, dependency_output)
+
+        combined_output = pd.read_csv(
+            f"./data/{dataset_folder}/consolidated_error_annotations.csv"
+        )
+
+        combined_output_json = combined_output.to_dict(orient="records")
+
+        return (
+            jsonify(
+                {
+                    "message": "Combined errors detected!",
+                    "annotated_errors": combined_output_json,
                 }
             ),
             200,
@@ -441,9 +483,6 @@ def calculate_dependency_accuracy():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
-from utils.output_utils import process_combined_output
 
 
 @app.route("/calculate-overall-accuracy", methods=["GET"])

@@ -1,0 +1,12 @@
+/* YourComponent.module.css */
+.scrollableTableContainer {
+  max-height: 400px; /* Set the desired fixed height for scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Ensure header background covers any content beneath */
+  z-index: 1; /* Keep header above other content */
+}

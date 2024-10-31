@@ -223,9 +223,19 @@ def detect_attribute_errors():
         prompt_metadata = pd.read_csv(
             f"./data/{dataset_folder}/attribute/prompt_metadata.csv"
         )
+        column_summary = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/column_summary.csv"
+        )
+
         # Convert the output to JSON format
         annotated_output_json = annotated_output.to_dict(orient="records")
         prompt_metadata_json = prompt_metadata.to_dict(orient="records")
+        column_summary_json = column_summary.to_dict(orient="records")
+
+        # Extract the dataset schema (column names and indices)
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset.columns)
+        ]
 
         return (
             jsonify(
@@ -233,6 +243,9 @@ def detect_attribute_errors():
                     "message": "Attribute errors detected!",
                     "annotated_output": annotated_output_json,  # Include annotated output in the response
                     "prompt_metadata": prompt_metadata_json,
+                    "column_summary": column_summary_json,
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset.shape[0],
                 }
             ),
             200,
@@ -240,10 +253,6 @@ def detect_attribute_errors():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
-if __name__ == "__main__":
-    app.run()
 
 
 @app.route("/calculate-accuracy", methods=["GET"])
@@ -310,8 +319,8 @@ def detect_dependencies():
         dataset = pd.read_csv(csv_file_path)
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        dependency_detection(dataset, filtered_top_buckets, buckets, directory)
-        process_dependency_output(filtered_top_buckets, directory)
+        # dependency_detection(dataset, filtered_top_buckets, buckets, directory)
+        process_dependency_output(filtered_top_buckets, dataset, directory)
 
         # Load the output
         dependecy_output = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
@@ -322,12 +331,17 @@ def detect_dependencies():
         dependecy_output_json = dependecy_output.to_dict(orient="records")
         prompt_metadata_json = prompt_metadata.to_dict(orient="records")
 
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset.columns)
+        ]
+
         return (
             jsonify(
                 {
                     "message": "Dependencies detected!",
                     "dependencies": dependecy_output_json,
                     "prompt_metadata": prompt_metadata_json,
+                    "dataset_schema": schema,  # Include schema in the response
                 }
             ),
             200,
@@ -375,9 +389,17 @@ def detect_dependency_violations():
         prompt_metadata = pd.read_csv(
             f"./data/{dataset_folder}/dependency_violations/prompt_metadata.csv"
         )
+        column_summary = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/column_summary.csv"
+        )
         # Convert the output to JSON format
         dependecy_output_json = dep_violation_output.to_dict(orient="records")
         prompt_metadata_json = prompt_metadata.to_dict(orient="records")
+        column_summary_json = column_summary.to_dict(orient="records")
+
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset.columns)
+        ]
 
         return (
             jsonify(
@@ -385,6 +407,9 @@ def detect_dependency_violations():
                     "message": "Dependency violations detected!",
                     "annotated_output": dependecy_output_json,
                     "prompt_metadata": prompt_metadata_json,
+                    "column_summary": column_summary_json,
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset.shape[0],
                 }
             ),
             200,
@@ -410,8 +435,10 @@ def detect_combined_errors():
             )
 
         dataset_folder = f"{dataset_name}_{timestamp}"
-        # csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
         directory = f"./data/{dataset_name}_{timestamp}"
+        dataset = pd.read_csv(csv_file_path)
+
         attribute_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
         dependency_output = pd.read_csv(
             f"./data/{dataset_folder}/dependency_violations/output.csv"
@@ -425,11 +452,16 @@ def detect_combined_errors():
 
         combined_output_json = combined_output.to_dict(orient="records")
 
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset.columns)
+        ]
+
         return (
             jsonify(
                 {
                     "message": "Combined errors detected!",
                     "annotated_errors": combined_output_json,
+                    "dataset_schema": schema,  # Include schema in the response
                 }
             ),
             200,

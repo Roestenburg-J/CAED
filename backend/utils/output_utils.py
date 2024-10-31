@@ -94,12 +94,6 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     error_count_df.to_csv(os.path.join(directory, "column_summary.csv"))
 
 
-import json
-import os
-import pandas as pd
-from collections import defaultdict
-
-
 def process_dependency_output(
     filtered_top_buckets, dataset: pd.DataFrame, directory: str
 ):
@@ -197,49 +191,42 @@ def process_dependency_output(
         print("No prompt metadata found to save.")
 
 
-def process_dep_violations_output(dataset: pd.DataFrame, directory):
-    # Assuming the original DataFrame structure is known
-    original_dataframe = dataset
+def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
+    # Initialize the DataFrame for annotations with the shape of the dataset, filled with zeros
+    annotated_output = pd.DataFrame(0, index=dataset.index, columns=dataset.columns)
 
-    # Initialize the DataFrame with zeros, same shape as original dataframe
-    annotated_output = pd.DataFrame(
-        0, index=original_dataframe.index, columns=original_dataframe.columns
-    )
+    # Extract column names for index-to-name mapping
+    column_names = dataset.columns.tolist()
 
-    # Dictionary to store error counts per dependency (folder name) and per column
+    # Dictionary to store error counts per dependency
     error_counts = {}
 
     # Loop through all subdirectories and files
     for root, dirs, files in os.walk(directory):
-        # Get the folder name (acting as the dependency identifier)
+        # Get the folder name, which acts as the dependency identifier
         dependency_name = os.path.basename(root)
 
         # Skip the root directory itself (attribute_output)
         if root == directory:
             continue
 
-        # Variables to store JSON and dictionary data
         annotations_data = None
         dict_data = None
 
         for file in files:
             if file.endswith(".json"):
-                # Construct the full file path for JSON
                 file_path = os.path.join(root, file)
-
-                # Open and load the JSON file
                 with open(file_path, "r") as json_file:
                     try:
                         json_data = json.load(json_file)
-
-                        # Retrieve the annotation, index, and column from the JSON output
+                        # Extract annotation data
                         annotations = [
                             item["annotation"] for item in json_data["output"]
                         ]
                         indices = [item["index"] for item in json_data["output"]]
                         columns = [item["column"] for item in json_data["output"]]
 
-                        # Create a DataFrame for the JSON annotations
+                        # DataFrame for JSON annotations
                         annotations_data = pd.DataFrame(
                             {
                                 "annotation": annotations,
@@ -247,75 +234,77 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory):
                                 "column": columns,
                             }
                         )
-
                     except json.JSONDecodeError as e:
                         print(f"Error decoding JSON from file {file_path}: {e}")
-                    except Exception as e:
-                        print(f"Error reading file {file_path}: {e}")
 
             elif file == "dict.csv":
-                # Construct the full file path for dict.csv
                 dict_file_path = os.path.join(root, file)
                 try:
-                    # Read the dict.csv file into a DataFrame
                     dict_data = pd.read_csv(dict_file_path)
                     dict_data.columns = dict_data.columns.str.strip()
-
                 except Exception as e:
                     print(f"Error reading dict.csv from file {dict_file_path}: {e}")
 
-        # Ensure both annotation data and dictionary data are available
         if annotations_data is not None and dict_data is not None:
-            # Merge the annotation data (based on the index) with the dictionary data (unique_index mapping)
+            # Merge annotations with dict.csv data on index
             dict_out_merged = pd.merge(
                 dict_data,
                 annotations_data,
-                left_on="unique_index",  # Use the unique index from dict.csv
-                right_on="index",  # Match with index in the annotation data
+                left_on="unique_index",
+                right_on="index",
                 how="left",
             )
 
-            # Replace NaN annotations with 0
             dict_out_merged.fillna(0, inplace=True)
 
-            # Initialize error count for this dependency if not already present
             if dependency_name not in error_counts:
-                error_counts[dependency_name] = {
-                    col: 0 for col in original_dataframe.columns
-                }
+                # Initialize empty dictionary for each dependency
+                error_counts[dependency_name] = {}
 
-            # Process the detailed annotation matching to the original dataframe
+            # Process each row in the merged DataFrame
             for _, row in dict_out_merged.iterrows():
-                original_index = int(
-                    row["original_index"]
-                )  # Ensure original index is an integer
+                original_index = int(row["original_index"])
                 annotation = row["annotation"]
-                column = int(row["column"])  # Ensure the column is integer
+                column = int(row["column"])
 
-                if annotation == 1:  # Only proceed if there's an error annotation
-                    # Update the annotated_output DataFrame at the specific cell
-                    col_name = original_dataframe.columns[
-                        column
-                    ]  # Get column name based on column index
+                if annotation == 1:  # Count errors only if annotation is 1
+                    col_name = column_names[column]
+
+                    # Update the annotated_output DataFrame
                     annotated_output.at[original_index, col_name] = annotation
 
-                    # Increment error count for this column in the dependency
+                    # Initialize error count for the column if not already set
+                    if col_name not in error_counts[dependency_name]:
+                        error_counts[dependency_name][col_name] = 0
                     error_counts[dependency_name][col_name] += 1
 
-        else:
-            print(f"Missing files for folder {dependency_name}")
+    # Prepare error counts for output in the specified format
+    dependencies_list = []
+    for dependency, col_counts in error_counts.items():
+        # Sort column names to keep consistent ordering in each dependency pair
+        col_names_sorted = sorted(col_counts.keys())
 
-    # Save the annotated DataFrame to CSV
+        if len(col_names_sorted) >= 2:
+            col_1_name, col_2_name = col_names_sorted[:2]
+            col_1_count = col_counts.get(col_1_name, 0)
+            col_2_count = col_counts.get(col_2_name, 0)
+
+            dependencies_list.append(
+                {
+                    "column_1_name": col_1_name,
+                    "column_2_name": col_2_name,
+                    "column_1_count": col_1_count,
+                    "column_2_count": col_2_count,
+                    "dependency": dependency,
+                }
+            )
+
+    # Convert dependencies list to a DataFrame for the column summary
+    column_summary_df = pd.DataFrame(dependencies_list)
+
+    # Save both DataFrames to CSV files
     annotated_output.to_csv(f"{directory}/output.csv", index=False)
-
-    # Convert error counts to a DataFrame for saving
-    error_count_df = (
-        pd.DataFrame.from_dict(error_counts, orient="index").fillna(0).astype(int)
-    )
-    error_count_df.index.name = "Dependency"
-
-    # Save the error count DataFrame to a separate CSV
-    error_count_df.to_csv(f"{directory}/column_summary.csv")
+    column_summary_df.to_csv(f"{directory}/column_summary.csv", index=False)
 
 
 def process_combined_output(

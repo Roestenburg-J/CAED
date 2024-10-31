@@ -379,7 +379,7 @@ def detect_dependency_violations():
         dataset = pd.read_csv(csv_file_path)
 
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        detect_dep_violations(depedencies, dataset, directory)
+        # detect_dep_violations(depedencies, dataset, directory)
         process_dep_violations_output(dataset, directory)
 
         # Load the output

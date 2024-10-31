@@ -73,25 +73,23 @@ def detect_dep_violations(
     grouped_dependencies = defaultdict(list)
 
     for _, row in dependencies_df.iterrows():
-        if isinstance(row["columns"], str):
-            row["columns"] = ast.literal_eval(
-                row["columns"]
-            )  # Safely parse string to tuple
-
-        first_index = row["columns"][0]  # Get the first index of the pair
+        first_index = row["column_1"]  # Get the first index from the new structure
         grouped_dependencies[first_index].append(row)  # Group by first index
 
     # Now process each group of dependencies based on the first index
     for first_index, dependencies in grouped_dependencies.items():
-
         selected_columns = [
             dataset.columns[first_index]
         ]  # Select columns based on the first index
 
         for dep in dependencies:
-            columns = dep["columns"]
+            columns = [
+                dep["column_1"],
+                dep["column_2"],
+            ]  # Access columns directly from the new format
             dependency_description = dep["dependency"]
             try:
+                # Select the column names based on the new structure
                 selected_column_names = [dataset.columns[i] for i in columns]
             except IndexError:
                 raise ValueError(
@@ -101,17 +99,15 @@ def detect_dep_violations(
             # Select the columns by name
             selected_columns = dataset[selected_column_names]
 
-            # Check if there are duplicates
+            # Check for duplicates
             if selected_columns.drop_duplicates().shape[0] < dataset.shape[0]:
                 # Create the unique row dictionary using the previously defined create_row_dict function
                 row_dict, unique_rows = create_row_dict(selected_columns)
 
-                # Prepare the data to prompt for each unique row combination
-                # data_columns = unique_rows.drop("original_index", axis=1)
-
+                # Update the columns for unique rows
                 unique_rows.columns = [
-                    str(columns[0]),
-                    str(columns[1]),
+                    str(columns[0]),  # Column 1 index
+                    str(columns[1]),  # Column 2 index
                     "index",
                 ]
 

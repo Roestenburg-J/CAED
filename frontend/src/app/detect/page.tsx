@@ -57,19 +57,35 @@ interface PromptMetadata {
   total_tokens: number;
 }
 
-interface attributeAnnotation {
+interface AttributeAnnotation {
   [key: string]: number; // Allows for a flexible structure with any string keys
 }
 
+interface DatasetSchema {
+  index: number;
+  name: string;
+}
+
+interface AttributeColumnSummary {
+  column: string;
+  error_count: number;
+}
+
 interface AttributeResult {
-  annotated_output: attributeAnnotation[]; // Allows for a flexible structure with any string keys
+  annotated_output: AttributeAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
+  dataset_schema: DatasetSchema[];
+  column_summary: AttributeColumnSummary[];
+  dataset_size: number;
 }
 
 export default function Home() {
   const [attrbuteResults, setAttrbuteResults] = useState<AttributeResult>({
     annotated_output: [],
     prompt_metadata: [],
+    dataset_schema: [],
+    column_summary: [],
+    dataset_size: 0,
   });
   const [dependencyResults, setDependencyResults] = useState({});
   const [depViolationResults, setDepViolationResults] = useState({});

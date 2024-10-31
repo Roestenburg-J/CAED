@@ -8,6 +8,7 @@ from flask import current_app
 def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     # Initialize an empty dictionary to store data for each folder
     data_dict = {}
+    error_counts = {}
 
     # Loop through all subdirectories and files
     for root, dirs, files in os.walk(directory):
@@ -68,10 +69,14 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 
             dict_out_merged.fillna(0, inplace=True)
             data_dict[folder_name] = dict_out_merged["annotation"]
+
+            # Count errors (assume error is when annotation == 0)
+            error_counts[folder_name] = (dict_out_merged["annotation"] == 1).sum()
+
         else:
             print(f"Missing files for folder {folder_name}")
 
-    # Convert the dictionary to a DataFrame
+    # Convert the dictionary to a DataFrame for the output annotations
     output = pd.DataFrame(data_dict)
     output = output[dataset.columns.str.strip()]  # Strip whitespace from columns
     output = output.astype(int)
@@ -79,17 +84,31 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     # Save the output DataFrame to CSV
     output.to_csv(os.path.join(directory, "output.csv"), index=False)
 
+    # Create an error count DataFrame
+    error_count_df = pd.DataFrame(
+        list(error_counts.items()), columns=["column", "error_count"]
+    )
+    error_count_df = error_count_df.set_index("column")
 
-def process_dependency_output(filtered_top_buckets, directory: str):
+    # Save the error count DataFrame to a separate CSV
+    error_count_df.to_csv(os.path.join(directory, "column_summary.csv"))
+
+
+def process_dependency_output(
+    filtered_top_buckets, dataset: pd.DataFrame, directory: str
+):
     # Initialize a dictionary to hold unique dependencies
     dependencies_dict = defaultdict(set)
     prompt_metadata_list = []
+
+    # Extract column names from the dataset for easy index-to-name mapping
+    column_names = dataset.columns.tolist()
 
     # Assuming you have a list of dynamic directories for each bucket
     for bucket_index, _ in filtered_top_buckets:
         # Construct the directory for the current bucket
         dynamic_directory = os.path.join(
-            directory, f"bucket_{bucket_index}/output/output.json"
+            directory, f"bucket_{bucket_index}/bucket_{bucket_index}/output.json"
         )
 
         # Check if the JSON file exists before trying to read it
@@ -134,12 +153,16 @@ def process_dependency_output(filtered_top_buckets, directory: str):
     # Prepare the final list for DataFrame
     dependencies_list = []
     for columns, descriptions in dependencies_dict.items():
+        # Convert column indexes to column names
+        column_names_list = [column_names[idx] for idx in columns]
         first_description = next(
             iter(descriptions)
         )  # Extract the first item from the set
+
         dependencies_list.append(
             {
-                "columns": list(columns),  # Convert back to list for the DataFrame
+                "columns": list(columns),  # Column indexes
+                "column_names": column_names_list,  # Column names
                 "dependency": first_description,  # Store only the first description
             }
         )
@@ -171,10 +194,13 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory):
         0, index=original_dataframe.index, columns=original_dataframe.columns
     )
 
+    # Dictionary to store error counts per dependency (folder name) and per column
+    error_counts = {}
+
     # Loop through all subdirectories and files
     for root, dirs, files in os.walk(directory):
-        # Get the folder name (which could be the column name or some identifier)
-        folder_name = os.path.basename(root)
+        # Get the folder name (acting as the dependency identifier)
+        dependency_name = os.path.basename(root)
 
         # Skip the root directory itself (attribute_output)
         if root == directory:
@@ -240,6 +266,12 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory):
             # Replace NaN annotations with 0
             dict_out_merged.fillna(0, inplace=True)
 
+            # Initialize error count for this dependency if not already present
+            if dependency_name not in error_counts:
+                error_counts[dependency_name] = {
+                    col: 0 for col in original_dataframe.columns
+                }
+
             # Process the detailed annotation matching to the original dataframe
             for _, row in dict_out_merged.iterrows():
                 original_index = int(
@@ -255,11 +287,23 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory):
                     ]  # Get column name based on column index
                     annotated_output.at[original_index, col_name] = annotation
 
+                    # Increment error count for this column in the dependency
+                    error_counts[dependency_name][col_name] += 1
+
         else:
-            print(f"Missing files for folder {folder_name}")
+            print(f"Missing files for folder {dependency_name}")
 
     # Save the annotated DataFrame to CSV
     annotated_output.to_csv(f"{directory}/output.csv", index=False)
+
+    # Convert error counts to a DataFrame for saving
+    error_count_df = (
+        pd.DataFrame.from_dict(error_counts, orient="index").fillna(0).astype(int)
+    )
+    error_count_df.index.name = "Dependency"
+
+    # Save the error count DataFrame to a separate CSV
+    error_count_df.to_csv(f"{directory}/column_summary.csv")
 
 
 def process_combined_output(

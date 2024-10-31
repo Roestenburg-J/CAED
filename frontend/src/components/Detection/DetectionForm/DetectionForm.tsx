@@ -98,10 +98,14 @@ const DetectionForm = <T,>({
     const filenameWithoutExt = selectedFile.name.replace(/\.[^/.]+$/, "");
 
     try {
-      const fileResponse = await uploadDataset({
-        file: selectedFile,
-        datasetName: filenameWithoutExt,
-      });
+      // const fileResponse = await uploadDataset({
+      //   file: selectedFile,
+      //   datasetName: filenameWithoutExt,
+      // });
+      const fileResponse = {
+        dataset_name: "hospital_1",
+        timestamp: "20241030_123153",
+      };
       setFileResults({
         dataset_name: fileResponse.dataset_name,
         timestamp: fileResponse.timestamp,
@@ -186,10 +190,8 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, [request.key]: true }));
         try {
           const result = await request.action(
-            "hospital_1",
-            "20241030_123153"
-            // fileResults.dataset_name,
-            // fileResults.timestamp
+            fileResults.dataset_name,
+            fileResults.timestamp
           );
           request.setResults(result);
           console.log(result);

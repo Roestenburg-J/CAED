@@ -94,6 +94,12 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
     error_count_df.to_csv(os.path.join(directory, "column_summary.csv"))
 
 
+import json
+import os
+import pandas as pd
+from collections import defaultdict
+
+
 def process_dependency_output(
     filtered_top_buckets, dataset: pd.DataFrame, directory: str
 ):
@@ -120,8 +126,10 @@ def process_dependency_output(
                     # Retrieve the annotations and create a list of tuples for dependencies
                     for item in json_data["output"]:
                         columns = item["columns"]
+                        # Ensure columns are integers
+                        columns = list(map(int, columns))  # Convert all to int
                         # Sort the columns numerically to ensure the order is consistent
-                        sorted_columns_tuple = tuple(sorted(columns, key=int))
+                        sorted_columns_tuple = tuple(sorted(columns))
                         dependency_description = item["dependency"]
 
                         # Store the dependency description in the set for this tuple of columns
@@ -154,21 +162,25 @@ def process_dependency_output(
     dependencies_list = []
     for columns, descriptions in dependencies_dict.items():
         # Convert column indexes to column names
-        column_names_list = [column_names[idx] for idx in columns]
+        column_1_index, column_2_index = columns  # Unpack the two columns
+        column_1_name = column_names[column_1_index]
+        column_2_name = column_names[column_2_index]
         first_description = next(
             iter(descriptions)
         )  # Extract the first item from the set
 
         dependencies_list.append(
             {
-                "columns": list(columns),  # Column indexes
-                "column_names": column_names_list,  # Column names
+                "column_1": column_1_index,  # First column index
+                "column_2": column_2_index,  # Second column index
+                "column_1_name": column_1_name,  # First column name
+                "column_2_name": column_2_name,  # Second column name
                 "dependency": first_description,  # Store only the first description
             }
         )
 
     # Sort dependencies list first by the first column, then by the second column
-    dependencies_list.sort(key=lambda x: (x["columns"][0], x["columns"][1]))
+    dependencies_list.sort(key=lambda x: (x["column_1"], x["column_2"]))
 
     # Create a DataFrame from the sorted unique dependencies
     dependencies_df = pd.DataFrame(dependencies_list)

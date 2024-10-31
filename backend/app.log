@@ -1122,3 +1122,57 @@
  * Running on http://172.30.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-10-31 08:56:40,689 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-10-31 08:56:47,680 INFO: 172.30.0.1 - - [31/Oct/2024 08:56:47] "[35m[1mPOST /detect-attribute-errors?dataset_name=hospital&timestamp=20241029_143329 HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 08:57:17,974 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 08:57:17,975 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 08:57:21,146 INFO: 172.31.0.1 - - [31/Oct/2024 08:57:21] "POST /detect-attribute-errors?dataset_name=hospital&timestamp=20241029_143329 HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:23:54,721 INFO: 172.31.0.1 - - [31/Oct/2024 09:23:54] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:28:35,348 INFO: 172.31.0.1 - - [31/Oct/2024 09:28:35] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:30:25,008 INFO: 172.31.0.1 - - [31/Oct/2024 09:30:25] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:36:22,866 INFO: 172.31.0.1 - - [31/Oct/2024 09:36:22] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:36:41,314 INFO: 172.31.0.1 - - [31/Oct/2024 09:36:41] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:37:38,381 INFO: 172.31.0.1 - - [31/Oct/2024 09:37:38] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:54:20,893 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:54:20,894 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:54:28,049 INFO: 192.168.0.1 - - [31/Oct/2024 09:54:28] "[35m[1mPOST /detect-dependencies HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:55:22,593 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:55:22,594 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:55:29,512 INFO: 192.168.16.1 - - [31/Oct/2024 09:55:29] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:57:22,315 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.32.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:57:22,315 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:57:28,975 INFO: 192.168.32.1 - - [31/Oct/2024 09:57:28] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:59:41,839 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:59:41,839 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 09:59:49,206 INFO: 192.168.48.1 - - [31/Oct/2024 09:59:49] "[35m[1mPOST /detect-dependencies HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:00:19,447 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.80.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:00:19,447 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:00:26,318 INFO: 192.168.80.1 - - [31/Oct/2024 10:00:26] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:03:23,922 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.96.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:03:23,922 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:03:32,149 INFO: 192.168.96.1 - - [31/Oct/2024 10:03:32] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:09:39,505 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:09:39,505 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-10-31 10:09:43,994 INFO: 192.168.112.1 - - [31/Oct/2024 10:09:43] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]

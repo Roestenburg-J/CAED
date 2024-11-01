@@ -1,14 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./DetectionDep.module.css";
 
 // MUI Imports
 import {
   Box,
   Button,
-  InputLabel,
-  MenuItem,
-  FormControl,
-  Select,
+  CircularProgress,
   Table,
   TableBody,
   TableCell,
@@ -16,11 +13,9 @@ import {
   TableHead,
   TableRow,
   Paper,
-  CircularProgress,
   Typography,
   Tab,
 } from "@mui/material";
-
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 
 interface PromptMetadata {
@@ -31,38 +26,35 @@ interface PromptMetadata {
   total_tokens: number;
 }
 
-interface AttributeAnnotation {
-  [key: string]: number; // Allows for a flexible structure with any string keys
-}
-
 interface DatasetSchema {
   index: number;
   name: string;
 }
 
-interface ColumnSummary {
-  column: string;
-  error_count: number;
+interface Dependencies {
+  column_1: number;
+  column_1_name: string;
+  column_2: number;
+  column_2_name: string;
+  dependency: string;
 }
 
 // Schema for attribute results
-interface AttributeResult {
-  annotated_output: AttributeAnnotation[]; // Allows for a flexible structure with any string keys
+interface DependencyResult {
   prompt_metadata: PromptMetadata[];
   dataset_schema: DatasetSchema[];
-  column_summary: ColumnSummary[];
-  dataset_size: number;
+  dependencies: Dependencies[];
 }
 
-interface DetectionAttributeProps {
-  attributeResults: AttributeResult;
+interface DetectionDepProps {
+  dependecyResults: DependencyResult;
   isLoading: boolean; // Track loading state
   isRequested: boolean; // Track if data has been fetched
   error: boolean; // Error flag
 }
 
-const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
-  attributeResults,
+const DetectionDep: React.FC<DetectionDepProps> = ({
+  dependecyResults,
   isLoading,
   isRequested,
   error,
@@ -73,19 +65,7 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     setTabValue(newValue);
   };
 
-  const { dataset_schema, column_summary, dataset_size } = attributeResults;
-
-  // Map column_summary to the order of dataset_schema
-  const orderedSummary = dataset_schema.map((schema) => {
-    const summary = column_summary.find((col) => col.column === schema.name);
-    return {
-      column: schema.name,
-      error_count: summary ? summary.error_count : 0,
-      error_percentage: summary
-        ? ((summary.error_count / dataset_size) * 100).toFixed(3)
-        : "0.000",
-    };
-  });
+  const { dataset_schema, dependencies, prompt_metadata } = dependecyResults;
 
   // Generic CSV export function
   const exportToCSV = <T extends object>(
@@ -93,10 +73,6 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     headers: string[],
     filename: string
   ) => {
-    // Create a CSV string from data and headers
-    console.log(attributeResults.prompt_metadata);
-
-    console.log(data);
     const rows = data.map((item) =>
       headers.map((header) => item[header as keyof T] ?? "").join(",")
     );
@@ -114,201 +90,189 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     document.body.removeChild(link);
   };
 
-  const handlePromptExport = () => {
+  const handleDependenciesExport = () => {
     // Define headers for the CSV
     const headers = [
-      "completion_tokens",
-      "elapsed_time",
-      "prompt_name",
-      "prompt_tokens",
-      "total_tokens",
+      "Column 1 Name",
+      "Column 1",
+      "Column 2 Name",
+      "Column 2",
+      "Dependency",
     ];
-
     // Call the generic export function
-    exportToCSV(
-      attributeResults.prompt_metadata,
-      headers,
-      "prompt_metadata.csv"
-    );
-  };
-
-  const handleSummaryExport = () => {
-    // Define headers for the CSV
-    const headers = ["column_name", "error_count", "error_percentage"];
-
-    // Call the generic export function
-    exportToCSV(
-      attributeResults.prompt_metadata,
-      headers,
-      "column_summary.csv"
-    );
+    exportToCSV(dependencies, headers, "dependencies.csv");
   };
 
   return (
     <Box>
-      <h2>Attribute Results</h2>
+      <h2>Dependency Detection Results</h2>
       <Box>
-        {!isRequested ? (
-          <Typography variant="body1" align="center">
-            Select Attribute Detection
-          </Typography>
-        ) : error ? (
-          <Typography variant="body1" color="error" align="center">
-            An error occurred while fetching data.
-          </Typography>
-        ) : attributeResults.prompt_metadata.length === 0 ? (
-          <Typography variant="body1" align="center">
-            No results available.
-          </Typography>
-        ) : (
-          <Box>
-            <TabContext value={tabValue}>
-              <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-                <TabList
-                  onChange={handleTabChange}
-                  aria-label="lab API tabs example"
-                >
-                  <Tab label="Summary" value="1" />
-                  <Tab label="Prompt Metadata" value="2" />
-                </TabList>
-              </Box>
-              <TabPanel value="1">
-                <TableContainer
-                  component={Paper}
-                  className={styles.scrollableTableContainer}
-                >
-                  <Table>
-                    <TableHead>
-                      <TableRow>
-                        <TableCell className={styles.stickyHeader}>
-                          Column Name
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          align="right"
-                        >
-                          Error Count
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          align="right"
-                        >
-                          Error Percentage (%)
-                        </TableCell>
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {isLoading ? (
+        <Box>
+          <TabContext value={tabValue}>
+            <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+              <TabList
+                onChange={handleTabChange}
+                aria-label="lab API tabs example"
+              >
+                <Tab label="Dependencies" value="1" />
+                <Tab label="Prompt Metadata" value="2" />
+              </TabList>
+            </Box>
+            <TabPanel value="1">
+              {!isRequested ? (
+                <Typography variant="body1" align="center">
+                  Select Dependency Detection
+                </Typography>
+              ) : error ? (
+                <Typography variant="body1" color="error" align="center">
+                  An error occurred while fetching data.
+                </Typography>
+              ) : isLoading ? (
+                <CircularProgress />
+              ) : (
+                <Box>
+                  <TableContainer
+                    component={Paper}
+                    className={styles.scrollableTableContainer}
+                  >
+                    <Table>
+                      <TableHead>
                         <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <CircularProgress />
+                          <TableCell className={styles.stickyHeader}>
+                            First Column
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Second Column
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Dependency Description
                           </TableCell>
                         </TableRow>
-                      ) : attributeResults.prompt_metadata.length === 0 ? (
-                        <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <Typography variant="body1">
-                              No data available.
-                            </Typography>
-                          </TableCell>
-                        </TableRow>
-                      ) : (
-                        orderedSummary.map((col, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{col.column}</TableCell>
-                            <TableCell align="right">
-                              {col.error_count}
-                            </TableCell>
-                            <TableCell align="right">
-                              {col.error_percentage}
+                      </TableHead>
+                      <TableBody>
+                        {dependencies.length === 0 ? (
+                          <TableRow>
+                            <TableCell colSpan={5} align="center">
+                              <Typography variant="body1">
+                                No data available.
+                              </Typography>
                             </TableCell>
                           </TableRow>
-                        ))
-                      )}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-                {!isLoading && isRequested && (
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handleSummaryExport}
+                        ) : (
+                          dependencies.map((dep, index) => (
+                            <TableRow key={index}>
+                              <TableCell>{dep.column_1_name}</TableCell>
+                              <TableCell>{dep.column_2_name}</TableCell>
+                              <TableCell>{dep.dependency}</TableCell>
+                            </TableRow>
+                          ))
+                        )}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                  {!isLoading && isRequested && (
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={handleDependenciesExport}
+                    >
+                      Export Dependencies to CSV
+                    </Button>
+                  )}
+                </Box>
+              )}
+            </TabPanel>
+
+            <TabPanel value="2">
+              {!isRequested ? (
+                <Typography variant="body1" align="center">
+                  Select Dependency Detection
+                </Typography>
+              ) : error ? (
+                <Typography variant="body1" color="error" align="center">
+                  An error occurred while fetching data.
+                </Typography>
+              ) : isLoading ? (
+                <CircularProgress />
+              ) : (
+                <Box>
+                  <TableContainer
+                    component={Paper}
+                    className={styles.scrollableTableContainer}
                   >
-                    Export to CSV
-                  </Button>
-                )}
-              </TabPanel>
-              <TabPanel value="2">
-                <TableContainer
-                  component={Paper}
-                  className={styles.scrollableTableContainer}
-                >
-                  <Table>
-                    <TableHead>
-                      <TableRow>
-                        <TableCell className={styles.stickyHeader}>
-                          Prompt Name
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Completion Tokens
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Elapsed Time
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Prompt Tokens
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Total Tokens
-                        </TableCell>
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {isLoading ? (
+                    <Table>
+                      <TableHead>
                         <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <CircularProgress />
+                          <TableCell className={styles.stickyHeader}>
+                            Prompt Name
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Completion Tokens
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Elapsed Time
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Prompt Tokens
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Total Tokens
                           </TableCell>
                         </TableRow>
-                      ) : attributeResults.prompt_metadata.length === 0 ? (
-                        <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <Typography variant="body1">
-                              No data available.
-                            </Typography>
-                          </TableCell>
-                        </TableRow>
-                      ) : (
-                        attributeResults.prompt_metadata.map((meta, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{meta.prompt_name}</TableCell>
-                            <TableCell>{meta.completion_tokens}</TableCell>
-                            <TableCell>{meta.elapsed_time}</TableCell>
-                            <TableCell>{meta.prompt_tokens}</TableCell>
-                            <TableCell>{meta.total_tokens}</TableCell>
+                      </TableHead>
+                      <TableBody>
+                        {prompt_metadata.length === 0 ? (
+                          <TableRow>
+                            <TableCell colSpan={5} align="center">
+                              <Typography variant="body1">
+                                No data available.
+                              </Typography>
+                            </TableCell>
                           </TableRow>
-                        ))
-                      )}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-                {!isLoading && isRequested && (
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handlePromptExport}
-                  >
-                    Export to CSV
-                  </Button>
-                )}
-              </TabPanel>
-            </TabContext>
-          </Box>
-        )}
-        {isRequested && <Box mt={2}>{/* <h2>Prompt Metadata</h2> */}</Box>}
+                        ) : (
+                          prompt_metadata.map((meta, index) => (
+                            <TableRow key={index}>
+                              <TableCell>{meta.prompt_name}</TableCell>
+                              <TableCell>{meta.completion_tokens}</TableCell>
+                              <TableCell>{meta.elapsed_time}</TableCell>
+                              <TableCell>{meta.prompt_tokens}</TableCell>
+                              <TableCell>{meta.total_tokens}</TableCell>
+                            </TableRow>
+                          ))
+                        )}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                  {!isLoading && isRequested && (
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={() => {
+                        const headers = [
+                          "completion_tokens",
+                          "elapsed_time",
+                          "prompt_name",
+                          "prompt_tokens",
+                          "total_tokens",
+                        ];
+                        exportToCSV(
+                          prompt_metadata,
+                          headers,
+                          "prompt_metadata.csv"
+                        );
+                      }}
+                    >
+                      Export Prompt Metadata to CSV
+                    </Button>
+                  )}
+                </Box>
+              )}
+            </TabPanel>
+          </TabContext>
+        </Box>
       </Box>
     </Box>
   );
 };
 
-export default DetectionAttribute;
+export default DetectionDep;

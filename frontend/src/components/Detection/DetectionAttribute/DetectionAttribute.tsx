@@ -31,7 +31,7 @@ interface PromptMetadata {
   total_tokens: number;
 }
 
-interface AttributeAnnotation {
+interface ErrorAnnotation {
   [key: string]: number; // Allows for a flexible structure with any string keys
 }
 
@@ -47,7 +47,7 @@ interface ColumnSummary {
 
 // Schema for attribute results
 interface AttributeResult {
-  annotated_output: AttributeAnnotation[]; // Allows for a flexible structure with any string keys
+  annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
   dataset_schema: DatasetSchema[];
   column_summary: ColumnSummary[];
@@ -148,164 +148,173 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     <Box>
       <h2>Attribute Results</h2>
       <Box>
-        {!isRequested ? (
-          <Typography variant="body1" align="center">
-            Select Attribute Detection
-          </Typography>
-        ) : error ? (
-          <Typography variant="body1" color="error" align="center">
-            An error occurred while fetching data.
-          </Typography>
-        ) : attributeResults.prompt_metadata.length === 0 ? (
-          <Typography variant="body1" align="center">
-            No results available.
-          </Typography>
-        ) : (
-          <Box>
-            <TabContext value={tabValue}>
-              <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-                <TabList
-                  onChange={handleTabChange}
-                  aria-label="lab API tabs example"
-                >
-                  <Tab label="Summary" value="1" />
-                  <Tab label="Prompt Metadata" value="2" />
-                </TabList>
-              </Box>
-              <TabPanel value="1">
-                <TableContainer
-                  component={Paper}
-                  className={styles.scrollableTableContainer}
-                >
-                  <Table>
-                    <TableHead>
-                      <TableRow>
-                        <TableCell className={styles.stickyHeader}>
-                          Column Name
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          align="right"
-                        >
-                          Error Count
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          align="right"
-                        >
-                          Error Percentage (%)
-                        </TableCell>
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {isLoading ? (
+        <Box>
+          <TabContext value={tabValue}>
+            <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+              <TabList
+                onChange={handleTabChange}
+                aria-label="lab API tabs example"
+              >
+                <Tab label="Summary" value="1" />
+                <Tab label="Prompt Metadata" value="2" />
+              </TabList>
+            </Box>
+            <TabPanel value="1">
+              {!isRequested ? (
+                <Typography variant="body1" align="center">
+                  Select Attribute Detection
+                </Typography>
+              ) : error ? (
+                <Typography variant="body1" color="error" align="center">
+                  An error occurred while fetching data.
+                </Typography>
+              ) : isLoading ? (
+                <CircularProgress />
+              ) : (
+                <Box>
+                  <TableContainer
+                    component={Paper}
+                    className={styles.scrollableTableContainer}
+                  >
+                    <Table>
+                      <TableHead>
                         <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <CircularProgress />
+                          <TableCell className={styles.stickyHeader}>
+                            Column Name
+                          </TableCell>
+                          <TableCell
+                            className={styles.stickyHeader}
+                            align="right"
+                          >
+                            Error Count
+                          </TableCell>
+                          <TableCell
+                            className={styles.stickyHeader}
+                            align="right"
+                          >
+                            Error Percentage (%)
                           </TableCell>
                         </TableRow>
-                      ) : attributeResults.prompt_metadata.length === 0 ? (
-                        <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <Typography variant="body1">
-                              No data available.
-                            </Typography>
-                          </TableCell>
-                        </TableRow>
-                      ) : (
-                        orderedSummary.map((col, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{col.column}</TableCell>
-                            <TableCell align="right">
-                              {col.error_count}
-                            </TableCell>
-                            <TableCell align="right">
-                              {col.error_percentage}
+                      </TableHead>
+                      <TableBody>
+                        {attributeResults.prompt_metadata.length === 0 ? (
+                          <TableRow>
+                            <TableCell colSpan={5} align="center">
+                              <Typography variant="body1">
+                                No data available.
+                              </Typography>
                             </TableCell>
                           </TableRow>
-                        ))
-                      )}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-                {!isLoading && isRequested && (
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handleSummaryExport}
+                        ) : (
+                          orderedSummary.map((col, index) => (
+                            <TableRow key={index}>
+                              <TableCell>{col.column}</TableCell>
+                              <TableCell align="right">
+                                {col.error_count}
+                              </TableCell>
+                              <TableCell align="right">
+                                {col.error_percentage}
+                              </TableCell>
+                            </TableRow>
+                          ))
+                        )}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                  {!isLoading && isRequested && (
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={handleSummaryExport}
+                    >
+                      Export to CSV
+                    </Button>
+                  )}
+                </Box>
+              )}
+            </TabPanel>
+            <TabPanel value="2">
+              {!isRequested ? (
+                <Typography variant="body1" align="center">
+                  Select Attribute Detection
+                </Typography>
+              ) : error ? (
+                <Typography variant="body1" color="error" align="center">
+                  An error occurred while fetching data.
+                </Typography>
+              ) : isLoading ? (
+                <CircularProgress />
+              ) : (
+                <Box>
+                  <TableContainer
+                    component={Paper}
+                    className={styles.scrollableTableContainer}
                   >
-                    Export to CSV
-                  </Button>
-                )}
-              </TabPanel>
-              <TabPanel value="2">
-                <TableContainer
-                  component={Paper}
-                  className={styles.scrollableTableContainer}
-                >
-                  <Table>
-                    <TableHead>
-                      <TableRow>
-                        <TableCell className={styles.stickyHeader}>
-                          Prompt Name
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Completion Tokens
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Elapsed Time
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Prompt Tokens
-                        </TableCell>
-                        <TableCell className={styles.stickyHeader}>
-                          Total Tokens
-                        </TableCell>
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {isLoading ? (
+                    <Table>
+                      <TableHead>
                         <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <CircularProgress />
+                          <TableCell className={styles.stickyHeader}>
+                            Prompt Name
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Completion Tokens
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Elapsed Time
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Prompt Tokens
+                          </TableCell>
+                          <TableCell className={styles.stickyHeader}>
+                            Total Tokens
                           </TableCell>
                         </TableRow>
-                      ) : attributeResults.prompt_metadata.length === 0 ? (
-                        <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <Typography variant="body1">
-                              No data available.
-                            </Typography>
-                          </TableCell>
-                        </TableRow>
-                      ) : (
-                        attributeResults.prompt_metadata.map((meta, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{meta.prompt_name}</TableCell>
-                            <TableCell>{meta.completion_tokens}</TableCell>
-                            <TableCell>{meta.elapsed_time}</TableCell>
-                            <TableCell>{meta.prompt_tokens}</TableCell>
-                            <TableCell>{meta.total_tokens}</TableCell>
+                      </TableHead>
+                      <TableBody>
+                        {isLoading ? (
+                          <TableRow>
+                            <TableCell colSpan={5} align="center">
+                              <CircularProgress />
+                            </TableCell>
                           </TableRow>
-                        ))
-                      )}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
-                {!isLoading && isRequested && (
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handlePromptExport}
-                  >
-                    Export to CSV
-                  </Button>
-                )}
-              </TabPanel>
-            </TabContext>
-          </Box>
-        )}
-        {isRequested && <Box mt={2}>{/* <h2>Prompt Metadata</h2> */}</Box>}
+                        ) : attributeResults.prompt_metadata.length === 0 ? (
+                          <TableRow>
+                            <TableCell colSpan={5} align="center">
+                              <Typography variant="body1">
+                                No data available.
+                              </Typography>
+                            </TableCell>
+                          </TableRow>
+                        ) : (
+                          attributeResults.prompt_metadata.map(
+                            (meta, index) => (
+                              <TableRow key={index}>
+                                <TableCell>{meta.prompt_name}</TableCell>
+                                <TableCell>{meta.completion_tokens}</TableCell>
+                                <TableCell>{meta.elapsed_time}</TableCell>
+                                <TableCell>{meta.prompt_tokens}</TableCell>
+                                <TableCell>{meta.total_tokens}</TableCell>
+                              </TableRow>
+                            )
+                          )
+                        )}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                  {!isLoading && isRequested && (
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={handlePromptExport}
+                    >
+                      Export to CSV
+                    </Button>
+                  )}
+                </Box>
+              )}
+            </TabPanel>
+          </TabContext>
+        </Box>
       </Box>
     </Box>
   );

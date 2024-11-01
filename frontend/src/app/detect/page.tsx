@@ -17,6 +17,9 @@ import Paper from "@mui/material/Paper";
 // Component Imports
 import DetectionForm from "../../components/Detection/DetectionForm/DetectionForm";
 import DetectionAttribute from "@/components/Detection/DetectionAttribute/DetectionAttribute";
+import DetectionDep from "@/components/Detection/DetectionDep/DetectionDep";
+import DetectionDepViol from "@/components/Detection/DetectionDepViol/DetectionDepViol";
+import AnnotatedTable from "@/components/AnnotatedTable/AnnotatedTable";
 
 // Placeholder data
 function createData(
@@ -57,7 +60,7 @@ interface PromptMetadata {
   total_tokens: number;
 }
 
-interface AttributeAnnotation {
+interface ErrorAnnotation {
   [key: string]: number; // Allows for a flexible structure with any string keys
 }
 
@@ -72,11 +75,52 @@ interface AttributeColumnSummary {
 }
 
 interface AttributeResult {
-  annotated_output: AttributeAnnotation[]; // Allows for a flexible structure with any string keys
+  annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
   dataset_schema: DatasetSchema[];
   column_summary: AttributeColumnSummary[];
   dataset_size: number;
+}
+
+interface Dependencies {
+  column_1: number;
+  column_1_name: string;
+  column_2: number;
+  column_2_name: string;
+  dependency: string;
+}
+
+interface DependencyResults {
+  prompt_metadata: PromptMetadata[];
+  dataset_schema: DatasetSchema[];
+  dependencies: Dependencies[];
+}
+
+interface PromptMetadata {
+  completion_tokens: number;
+  elapsed_time: string;
+  prompt_name: string;
+  prompt_tokens: number;
+  total_tokens: number;
+}
+
+interface ColumnSummary {
+  column_1_count: number;
+  column_1_name: string;
+  column_2_count: number;
+  column_2_name: string;
+  dependency: string;
+}
+
+interface DepViolationResult {
+  annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
+  prompt_metadata: PromptMetadata[];
+  column_summary: ColumnSummary[];
+  dataset_size: number;
+}
+
+interface CombinedResult {
+  annotated_output: ErrorAnnotation[];
 }
 
 export default function Home() {
@@ -87,26 +131,48 @@ export default function Home() {
     column_summary: [],
     dataset_size: 0,
   });
-  const [dependencyResults, setDependencyResults] = useState({});
-  const [depViolationResults, setDepViolationResults] = useState({});
+  const [dependencyResults, setDependencyResults] = useState<DependencyResults>(
+    {
+      dependencies: [],
+      prompt_metadata: [],
+      dataset_schema: [],
+    }
+  );
+  // const [dependencyResults, setDependencyResults] = useState({});
+  const [depViolationResults, setDepViolationResults] =
+    useState<DepViolationResult>({
+      annotated_output: [],
+      column_summary: [],
+      prompt_metadata: [],
+      dataset_size: 0,
+    });
+
+  const [combinedOutput, setCombinedOutput] = useState<CombinedResult>({
+    annotated_output: [],
+  });
+
+  const [dataset, setDataset] = useState([]);
 
   // New states for loading and error/success messages
   const [loadingStates, setLoadingStates] = useState({
     attribute: false,
     dependency: false,
     violations: false,
+    combined: false,
   });
 
   const [requestedStates, setRequestedStates] = useState({
     attribute: false,
     dependency: false,
     violations: false,
+    combined: false,
   });
 
   const [detectionError, setDetectionError] = useState({
     attribute: false,
     dependency: false,
     violations: false,
+    combined: false,
   });
 
   return (
@@ -116,9 +182,11 @@ export default function Home() {
         setAttributeResults={setAttrbuteResults}
         setDependencyResults={setDependencyResults}
         setDepViolationResults={setDepViolationResults}
+        setCombinedOutput={setCombinedOutput}
         setLoadingStates={setLoadingStates}
         setRequestedStates={setRequestedStates}
         setDetectionError={setDetectionError}
+        setDataset={setDataset}
       />
       <Grid2 container className={styles.outputClasses} spacing={2}>
         <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
@@ -130,43 +198,34 @@ export default function Home() {
           />
         </Grid2>
         <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          <Typography>Dependencies</Typography>
+          {/* <Typography>Dependencies</Typography>4 */}
+          <DetectionDep
+            dependecyResults={dependencyResults}
+            isLoading={loadingStates.dependency}
+            isRequested={requestedStates.dependency}
+            error={detectionError.dependency}
+          />
         </Grid2>
         <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          <Typography>Dependency Violations</Typography>
+          <DetectionDepViol
+            depViolationResults={depViolationResults}
+            isLoading={loadingStates.violations}
+            isRequested={requestedStates.violations}
+            error={detectionError.violations}
+          />
         </Grid2>
       </Grid2>
       <Box>
-        <Typography>Errors</Typography>
-        <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
-            <TableHead>
-              <TableRow>
-                <TableCell>Dessert (100g serving)</TableCell>
-                <TableCell align="right">Calories</TableCell>
-                <TableCell align="right">Fat&nbsp;(g)</TableCell>
-                <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-                <TableCell align="right">Protein&nbsp;(g)</TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {rows.map((row) => (
-                <TableRow
-                  key={row.name}
-                  sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
-                >
-                  <TableCell component="th" scope="row">
-                    {row.name}
-                  </TableCell>
-                  <TableCell align="right">{row.calories}</TableCell>
-                  <TableCell align="right">{row.fat}</TableCell>
-                  <TableCell align="right">{row.carbs}</TableCell>
-                  <TableCell align="right">{row.protein}</TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
+        {/* <Typography>Errors</Typography> */}
+        <AnnotatedTable
+          dataset={dataset}
+          attributeResult={attrbuteResults}
+          depViolationResult={depViolationResults}
+          combinedResult={combinedOutput}
+          errorStates={detectionError}
+          loadingStates={loadingStates}
+          requestedStates={requestedStates}
+        />
       </Box>
     </div>
   );

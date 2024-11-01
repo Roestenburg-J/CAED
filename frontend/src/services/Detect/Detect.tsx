@@ -92,3 +92,32 @@ export async function detectDepViolations(
     throw error;
   }
 }
+
+export async function retreiveCombinedResults(
+  datasetName: string,
+  timestamp: string
+) {
+  const formData = new FormData();
+  formData.append("dataset_name", datasetName);
+  formData.append("timestamp", timestamp);
+
+  try {
+    const response = await fetch(
+      `${application_service_url}/detect-combined-errors`,
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Failed to detect: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error during combined result retrieval:", error);
+    throw error;
+  }
+}

@@ -1,0 +1,4 @@
+.scrollableTableContainer {
+  max-width: 1000px; /* Set the desired fixed height for scrolling */
+  overflow-x: auto; /* Enables vertical scrolling */
+}

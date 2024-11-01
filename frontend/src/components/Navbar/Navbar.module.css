@@ -1,0 +1,26 @@
+/* Navbar.module.css */
+.Toolbar {
+  display: flex;
+  justify-content: space-between; /* Space out logo and nav items */
+  align-items: center; /* Vertically center items */
+}
+
+.logo {
+  flex-grow: 1; /* Allow the logo to take available space */
+}
+
+.navItems {
+  display: flex; /* Align nav items in a row */
+  gap: 20px; /* Space between nav items */
+}
+
+.navItem {
+  text-decoration: none; /* Remove default underline from links */
+  color: white; /* Inherit the color from the button */
+  position: relative; /* Positioning for the active state */
+}
+
+.active {
+  border-bottom: 2px solid #00bcd4; /* Underline for active item */
+  color: #00bcd4; /* Change text color for active item */
+}

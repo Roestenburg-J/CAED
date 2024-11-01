@@ -84,8 +84,8 @@ def detect_dep_violations(
 
         for dep in dependencies:
             columns = [
-                dep["column_1"],
-                dep["column_2"],
+                dep["column_1_name"],
+                dep["column_2_name"],
             ]  # Access columns directly from the new format
             dependency_description = dep["dependency"]
             try:
@@ -126,7 +126,7 @@ def detect_dep_violations(
                 prompt_gpt(
                     system_prompt,
                     user_prompt,
-                    str(columns),
+                    f"{columns[0]}, {columns[1]}",
                     response_format,
                     directory,
                     row_dict,

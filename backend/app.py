@@ -444,7 +444,7 @@ def detect_combined_errors():
             f"./data/{dataset_folder}/dependency_violations/output.csv"
         )
 
-        process_combined_output(attribute_output, dependency_output, directory)
+        process_combined_output(attribute_output, dependency_output, dataset_folder)
 
         combined_output = pd.read_csv(
             f"./data/{dataset_folder}/consolidated_error_annotations.csv"
@@ -460,7 +460,7 @@ def detect_combined_errors():
             jsonify(
                 {
                     "message": "Combined errors detected!",
-                    "annotated_errors": combined_output_json,
+                    "annotated_output": combined_output_json,
                     "dataset_schema": schema,  # Include schema in the response
                 }
             ),

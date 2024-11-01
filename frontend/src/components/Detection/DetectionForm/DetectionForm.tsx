@@ -16,8 +16,13 @@ import {
   FormControlLabel,
   FormGroup,
   CircularProgress,
+  Typography,
+  Alert,
+  Tooltip,
 } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
+
+// import {  } from "@mui/material";
 
 // Service Imports
 import { uploadDataset } from "@/services/Utils/Utils";
@@ -336,69 +341,104 @@ const DetectionForm = <T,>({
   };
 
   return (
-    <Box>
-      <LoadingButton
-        loading={fileUploadLoading}
-        variant="outlined"
-        component="label"
-      >
-        {fileUploadSuccess ? <DoneIcon /> : <UploadFileIcon />}
-        {inputError.file ? <ErrorIcon /> : null}
-        Upload Dataset
-        <VisuallyHiddenInput type="file" onChange={handleFileChange} />
-      </LoadingButton>
-      <Button
-        variant="outlined"
-        color="error"
-        onClick={() => setFileUploadSuccess(false)}
-      >
-        <CloseIcon />
-      </Button>
-      <Box>
-        <FormGroup className={styles.formgroup}>
+    <Box className={styles.container}>
+      <Box className={styles.uploadInput}>
+        <LoadingButton
+          loading={fileUploadLoading}
+          variant="outlined"
+          component="label"
+          // color={inputError.file ? "error" : "primary"}
+        >
+          {fileUploadSuccess ? <DoneIcon /> : null}
+          {inputError.file ? <ErrorIcon /> : null}
+          {!inputError.file && !fileUploadSuccess ? <UploadFileIcon /> : null}
+          Upload Dataset
+          <VisuallyHiddenInput type="file" onChange={handleFileChange} />
+        </LoadingButton>
+
+        <Box color={inputError.detection ? "error" : "primary"}>
           <FormControlLabel
             control={
               <Checkbox
+                className={styles.checkbox}
                 checked={detectionSettings.attribute}
                 onChange={handleCheckboxChange}
                 name="attribute"
               />
             }
-            label="Attribute Level Detection"
+            label="Attribute Level"
           />
+
           <FormControlLabel
             control={
               <Checkbox
+                className={styles.checkbox}
                 checked={detectionSettings.dependency}
                 onChange={handleCheckboxChange}
                 name="dependency"
               />
             }
-            label="Dependency Detection"
+            label="Dependencies"
           />
           <FormControlLabel
             control={
               <Checkbox
+                className={styles.checkbox}
                 checked={detectionSettings.violations}
                 onChange={handleCheckboxChange}
                 name="violations"
               />
             }
-            label="Dependency Violation Detection"
+            label="Dependency Violations"
           />
-        </FormGroup>
+        </Box>
+        {/* </FormGroup> */}
+
+        <Button
+          variant="outlined"
+          onClick={() => setFileUploadSuccess(false)}
+          className={styles.cancel}
+        >
+          <CloseIcon />
+        </Button>
+        <Button type="submit" variant="outlined" onClick={handleSubmit}>
+          Detect Errors
+        </Button>
+        {inputError.file || inputError.detection ? (
+          <Tooltip
+            title={
+              inputError.file
+                ? "Please upload a dataset."
+                : " Please select at least one detection option."
+            }
+            arrow
+          >
+            <ErrorIcon
+              color="error"
+              style={{ marginLeft: 5, cursor: "pointer" }}
+            />
+          </Tooltip>
+        ) : null}
       </Box>
-      <Button type="submit" variant="outlined" onClick={handleSubmit}>
-        Detect Errors
-      </Button>
-      {inputError.file && (
-        <p className={styles.errorMessage}>Please upload a file.</p>
-      )}
-      {inputError.detection && (
-        <p className={styles.errorMessage}>
-          Please select at least one detection option.
-        </p>
-      )}
+
+      {/* <Box className={styles.feedback}>
+        {inputError.file && (
+          <Alert variant="outlined" severity="error" className={styles.alert}>
+            Please upload a dataset.
+          </Alert>
+        )}
+        {inputError.detection && (
+          <Alert severity="error" variant="outlined" className={styles.alert}>
+            Please select at least one detection option.
+          </Alert>
+
+          // <Box className={styles.feedbackBox}>
+          //   <Typography>
+          //     Please select at least one detection option.
+          //   </Typography>
+          // </Box>
+        )}
+      </Box> */}
     </Box>
   );
 };

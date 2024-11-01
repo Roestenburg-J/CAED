@@ -177,7 +177,7 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <Typography variant="h3">Detect</Typography>
+      {/* <Typography variant="h3">Detect</Typography> */}
       <DetectionForm
         setAttributeResults={setAttrbuteResults}
         setDependencyResults={setDependencyResults}

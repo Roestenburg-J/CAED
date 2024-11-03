@@ -1,21 +1,28 @@
 .page {
-  display: grid;
+  /* display: grid; */
   /* grid-template-rows: 20px 1fr 20px; */
-  align-items: center;
-  justify-items: center;
+  /* align-items: center; */
+  /* justify-items: center; */
   /* max-height: 100svh; */
-  padding: 10px;
+  /* padding: 10px; */
   /* gap: 64px; */
   /* font-family: var(--font-geist-sans); */
+  width: 100%;
+  height: calc(200vh - 160px);
+  /* height: 100vh; */
 }
 
-.outputClasses {
-  display: flex;
-  border: 1px solid black;
-  width: 100%;
+.pageContent {
+  height: calc(100vh - 64px);
+}
+
+.outputClassesContainer {
+  /* display: flex; */
+  /* border: 1px solid black; */
+  /* width: 100%; */
   /* gap: 20px; */
 }
 
-.output {
+/* .output {
   border: 1px solid red;
-}
+} */

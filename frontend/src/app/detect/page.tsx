@@ -2,17 +2,17 @@
 import React, { useState } from "react";
 import styles from "./page.module.css";
 
-import { Box, Button, Grid2, Typography } from "@mui/material";
-import { styled } from "@mui/material/styles";
-import UploadFileIcon from "@mui/icons-material/UploadFile";
+import { Box, Grid2 } from "@mui/material";
+// import { styled } from "@mui/material/styles";
+// import UploadFileIcon from "@mui/icons-material/UploadFile";
 
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
+// import Table from "@mui/material/Table";
+// import TableBody from "@mui/material/TableBody";
+// import TableCell from "@mui/material/TableCell";
+// import TableContainer from "@mui/material/TableContainer";
+// import TableHead from "@mui/material/TableHead";
+// import TableRow from "@mui/material/TableRow";
+// import Paper from "@mui/material/Paper";
 
 // Component Imports
 import DetectionForm from "../../components/Detection/DetectionForm/DetectionForm";
@@ -20,37 +20,6 @@ import DetectionAttribute from "@/components/Detection/DetectionAttribute/Detect
 import DetectionDep from "@/components/Detection/DetectionDep/DetectionDep";
 import DetectionDepViol from "@/components/Detection/DetectionDepViol/DetectionDepViol";
 import AnnotatedTable from "@/components/AnnotatedTable/AnnotatedTable";
-
-// Placeholder data
-function createData(
-  name: string,
-  calories: number,
-  fat: number,
-  carbs: number,
-  protein: number
-) {
-  return { name, calories, fat, carbs, protein };
-}
-
-const rows = [
-  createData("Frozen yoghurt", 159, 6.0, 24, 4.0),
-  createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
-  createData("Eclair", 262, 16.0, 24, 6.0),
-  createData("Cupcake", 305, 3.7, 67, 4.3),
-  createData("Gingerbread", 356, 16.0, 49, 3.9),
-];
-
-const VisuallyHiddenInput = styled("input")({
-  clip: "rect(0 0 0 0)",
-  clipPath: "inset(50%)",
-  height: 1,
-  overflow: "hidden",
-  position: "absolute",
-  bottom: 0,
-  left: 0,
-  whiteSpace: "nowrap",
-  width: 1,
-});
 
 interface PromptMetadata {
   completion_tokens: number;
@@ -176,57 +145,67 @@ export default function Home() {
   });
 
   return (
-    <div className={styles.page}>
-      {/* <Typography variant="h3">Detect</Typography> */}
-      <DetectionForm
-        setAttributeResults={setAttrbuteResults}
-        setDependencyResults={setDependencyResults}
-        setDepViolationResults={setDepViolationResults}
-        setCombinedOutput={setCombinedOutput}
-        setLoadingStates={setLoadingStates}
-        setRequestedStates={setRequestedStates}
-        setDetectionError={setDetectionError}
-        setDataset={setDataset}
-      />
-      <Grid2 container className={styles.outputClasses} spacing={2}>
-        <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          <DetectionAttribute
-            attributeResults={attrbuteResults}
-            isLoading={loadingStates.attribute}
-            isRequested={requestedStates.attribute}
-            error={detectionError.attribute}
-          />
+    <Box className={styles.page}>
+      <Grid2 container>
+        <Grid2 size={{ xs: 12 }}>
+          <Box className={styles.pageContent}>
+            <DetectionForm
+              setAttributeResults={setAttrbuteResults}
+              setDependencyResults={setDependencyResults}
+              setDepViolationResults={setDepViolationResults}
+              setCombinedOutput={setCombinedOutput}
+              setLoadingStates={setLoadingStates}
+              setRequestedStates={setRequestedStates}
+              setDetectionError={setDetectionError}
+              setDataset={setDataset}
+            />
+            <Grid2
+              container
+              className={styles.outputClassesContainer}
+              spacing={2}
+            >
+              <Grid2 size={{ xs: 12, lg: 4 }}>
+                <DetectionAttribute
+                  attributeResults={attrbuteResults}
+                  isLoading={loadingStates.attribute}
+                  isRequested={requestedStates.attribute}
+                  error={detectionError.attribute}
+                />
+              </Grid2>
+              <Grid2 size={{ xs: 12, lg: 4 }}>
+                <DetectionDep
+                  dependecyResults={dependencyResults}
+                  isLoading={loadingStates.dependency}
+                  isRequested={requestedStates.dependency}
+                  error={detectionError.dependency}
+                />
+              </Grid2>
+              <Grid2 size={{ xs: 12, lg: 4 }}>
+                <DetectionDepViol
+                  depViolationResults={depViolationResults}
+                  isLoading={loadingStates.violations}
+                  isRequested={requestedStates.violations}
+                  error={detectionError.violations}
+                />
+              </Grid2>
+            </Grid2>
+          </Box>
         </Grid2>
-        <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          {/* <Typography>Dependencies</Typography>4 */}
-          <DetectionDep
-            dependecyResults={dependencyResults}
-            isLoading={loadingStates.dependency}
-            isRequested={requestedStates.dependency}
-            error={detectionError.dependency}
-          />
-        </Grid2>
-        <Grid2 size={{ xs: 2, md: 4 }} className={styles.output}>
-          <DetectionDepViol
-            depViolationResults={depViolationResults}
-            isLoading={loadingStates.violations}
-            isRequested={requestedStates.violations}
-            error={detectionError.violations}
-          />
+        <Grid2 size={{ xs: 12 }}>
+          <Box className={styles.pageContent}>
+            {/* Second Block */}
+            <AnnotatedTable
+              dataset={dataset}
+              attributeResult={attrbuteResults}
+              depViolationResult={depViolationResults}
+              combinedResult={combinedOutput}
+              errorStates={detectionError}
+              loadingStates={loadingStates}
+              requestedStates={requestedStates}
+            />
+          </Box>
         </Grid2>
       </Grid2>
-      <Box>
-        {/* <Typography>Errors</Typography> */}
-        <AnnotatedTable
-          dataset={dataset}
-          attributeResult={attrbuteResults}
-          depViolationResult={depViolationResults}
-          combinedResult={combinedOutput}
-          errorStates={detectionError}
-          loadingStates={loadingStates}
-          requestedStates={requestedStates}
-        />
-      </Box>
-    </div>
+    </Box>
   );
 }

@@ -404,7 +404,7 @@ const DetectionForm = <T,>({
         <Button type="submit" variant="outlined" onClick={handleSubmit}>
           Detect Errors
         </Button>
-        {inputError.file || inputError.detection ? (
+        {/* {inputError.file || inputError.detection ? (
           <Tooltip
             title={
               inputError.file
@@ -418,7 +418,7 @@ const DetectionForm = <T,>({
               style={{ marginLeft: 5, cursor: "pointer" }}
             />
           </Tooltip>
-        ) : null}
+        ) : null} */}
       </Box>
 
       {/* <Box className={styles.feedback}>

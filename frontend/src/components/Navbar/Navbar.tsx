@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed" sx={{ height: 64 }}>
       <Toolbar className={styles.Toolbar}>
         <Typography variant="h6" className={styles.logo}>
           CAED

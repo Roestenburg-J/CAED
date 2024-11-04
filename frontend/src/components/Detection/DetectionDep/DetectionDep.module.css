@@ -1,12 +1,84 @@
-/* YourComponent.module.css */
+.container {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  /* box-shadow: 2; */
+  height: calc(100vh - 165px);
+  display: "flex";
+  flex-direction: "column";
+}
+
 .scrollableTableContainer {
-  max-height: 400px; /* Set the desired fixed height for scrolling */
+  /* max-height: 100%; */
+  flex-grow: 1;
   overflow-y: auto; /* Enables vertical scrolling */
 }
 
 .stickyHeader {
   position: sticky;
   top: 0;
-  background-color: white; /* Ensure header background covers any content beneath */
+  margin: 0;
+  background-color: white;
   z-index: 1; /* Keep header above other content */
+  font-weight: bold;
+}
+.tableCell {
+  padding: 4px 16px;
+  margin-top: 0;
+  line-height: 0;
+  /* height: 20px; */
+}
+
+.chartContainer {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tableHead {
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allow tabContainer to grow and fill remaining space */
+}
+
+.tabList {
+  height: 20px;
+}
+
+.MuiTabPanel-root {
+  margin: 0;
+  padding: 0;
+}
+
+.feedback {
+  height: calc(100vh - 240px);
+  display: grid;
+  place-items: center;
+  flex-grow: 1;
+
+  /* outline: 1px solid red; */
+}
+
+.output {
+  /* outline: 1px solid red; */
+  height: calc(100vh - 240px);
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* gap: 20px; */
+}
+
+.loading {
+  align-self: center;
+  justify-content: center;
+  /* margin-left: 45%; */
 }

@@ -5,18 +5,16 @@ import styles from "./DetectionAttribute.module.css";
 import {
   Box,
   Button,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
   CircularProgress,
   Typography,
   Tab,
+  Select,
+  MenuItem,
+  InputLabel,
+  FormControl,
 } from "@mui/material";
 import { useTheme, Theme } from "@mui/material/styles";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 import * as d3 from "d3";
 
@@ -72,10 +70,24 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
   isRequested,
   error,
 }) => {
-  const [tabValue, setTabValue] = React.useState("1");
-  const svgRef = useRef<SVGSVGElement | null>(null);
-
   const theme = useTheme();
+
+  const [tabValue, setTabValue] = React.useState("1");
+  const errorChartRef = useRef<SVGSVGElement | null>(null); // Ref for error chart
+  const promptChartRef = useRef<SVGSVGElement | null>(null); // Ref for prompt chart
+  const errorAxisRef = useRef<SVGSVGElement | null>(null); // Ref for error chart
+  const promptAxisRef = useRef<SVGSVGElement | null>(null); // Ref for error chart
+
+  const [selectedColumn, setSelectedColumn] =
+    React.useState<keyof PromptMetadata>("completion_tokens");
+
+  // const metadataColumns = [
+  //   "completion_tokens",
+  //   "elapsed_time",
+  //   "prompt_name",
+  //   "prompt_tokens",
+  //   "total_tokens",
+  // ];
 
   const handleTabChange = (event: React.SyntheticEvent, newValue: string) => {
     setTabValue(newValue);
@@ -142,18 +154,15 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
 
   const handleSummaryExport = () => {
     // Define headers for the CSV
-    const headers = ["column_name", "error_count", "error_percentage"];
+    const headers = ["column", "error_count"];
 
     // Call the generic export function
-    exportToCSV(
-      attributeResults.prompt_metadata,
-      headers,
-      "column_summary.csv"
-    );
+    exportToCSV(attributeResults.column_summary, headers, "column_summary.csv");
   };
 
-  const renderChart = (
+  const renderErrorChart = (
     svgRef: React.RefObject<SVGSVGElement>,
+    svgAxisRef: React.RefObject<SVGSVGElement>,
     data: ColumnData[],
     theme: Theme
   ) => {
@@ -163,7 +172,7 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     d3.select(svgRef.current).selectAll("*").remove();
 
     // Set margins and dimensions for a scrollable chart
-    const margin = { top: 20, right: 30, bottom: 40, left: 100 };
+    const margin = { top: 0, right: 30, bottom: 40, left: 100 };
     const barHeight = 30; // Height of each bar
     const barSpacing = 5; // Spacing between bars
 
@@ -189,13 +198,15 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     const y = d3
       .scaleBand()
       .domain(data.map((d) => d.column))
-      .range([margin.top, dynamicHeight - margin.bottom])
+      .range([margin.top, dynamicHeight])
       .padding(0.1);
 
     const svg = d3.select(svgRef.current);
+    const axisSvg = d3.select(svgAxisRef.current);
 
     // Set the SVG dimensions to match the dynamic height and width
     svg.attr("width", dynamicWidth).attr("height", dynamicHeight);
+    axisSvg.attr("width", dynamicWidth).attr("height", 60);
 
     // Create bars
     svg
@@ -210,9 +221,9 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
       .attr("fill", theme.palette.primary.main);
 
     // Add x-axis
-    svg
+    axisSvg
       .append("g")
-      .attr("transform", `translate(0,${dynamicHeight - margin.bottom})`)
+      .attr("transform", `translate(0,${0})`)
       .call(d3.axisBottom(x))
       .selectAll("text")
       .attr("transform", "rotate(-45)")
@@ -228,7 +239,7 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
       );
 
     // Add x-axis label
-    svg
+    axisSvg
       .append("text")
       .attr("text-anchor", "end")
       .attr("x", dynamicWidth - margin.right)
@@ -236,9 +247,161 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
     // .text("Error Percentage (%)");
   };
 
+  const renderPromptChart = (
+    svgRef: React.RefObject<SVGSVGElement>,
+    svgAxisRef: React.RefObject<SVGSVGElement>,
+    data: PromptMetadata[],
+    column: keyof PromptMetadata,
+    theme: Theme
+  ) => {
+    if (!svgRef.current) return;
+
+    // Clear previous content
+    d3.select(svgRef.current).selectAll("*").remove();
+    d3.select(svgAxisRef.current).selectAll("*").remove();
+
+    const margin = { top: 0, right: 30, bottom: 0, left: 100 };
+    const barHeight = 30;
+    const barSpacing = 5;
+
+    const parseElapsedTime = (duration: string): number => {
+      const [minutes, rest] = duration.split(":");
+      const [seconds, milliseconds] = rest.split(".");
+      return (
+        parseInt(minutes, 10) * 60 * 1000 +
+        parseInt(seconds, 10) * 1000 +
+        (parseInt(milliseconds, 10) || 0)
+      );
+    };
+
+    const formatElapsedTime = (milliseconds: number): string => {
+      const minutes = Math.floor(milliseconds / 60000);
+      const seconds = Math.floor((milliseconds % 60000) / 1000);
+      const ms = milliseconds % 1000;
+      return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(
+        2,
+        "0"
+      )}.${String(ms).padStart(2, "0")}`;
+    };
+
+    type ColumnData = { name: string; value: number; formattedValue: string };
+
+    const columnData: ColumnData[] = data.map((d) => {
+      if (column === "elapsed_time" && typeof d[column] === "string") {
+        const parsedValue = parseElapsedTime(d[column] as string);
+        return {
+          name: d.prompt_name,
+          value: parsedValue,
+          formattedValue: formatElapsedTime(parsedValue),
+        };
+      } else {
+        return {
+          name: d.prompt_name,
+          value: +d[column],
+          formattedValue: String(d[column]),
+        };
+      }
+    });
+
+    const dynamicHeight =
+      columnData.length * (barHeight + barSpacing) + margin.top + margin.bottom;
+    const dynamicWidth = 380;
+
+    const x = d3
+      .scaleLinear()
+      .domain([0, d3.max(columnData, (d) => d.value) as number])
+      .nice()
+      .range([margin.left, dynamicWidth - margin.right]);
+
+    const y = d3
+      .scaleBand()
+      .domain(columnData.map((d) => d.name))
+      .range([margin.top, dynamicHeight - margin.bottom])
+      .padding(0.1);
+
+    const svg = d3.select(svgRef.current);
+    svg.attr("width", dynamicWidth).attr("height", dynamicHeight);
+
+    const svgAxis = d3.select(svgAxisRef.current);
+    svgAxis.attr("width", dynamicWidth).attr("height", 100); // Fixed height for the axis SVG
+
+    // Create bars
+    svg
+      .append("g")
+      .selectAll("rect")
+      .data(columnData)
+      .join("rect")
+      .attr("y", (d) => y(d.name)!)
+      .attr("x", margin.left)
+      .attr("height", y.bandwidth())
+      .attr("width", (d) => x(d.value) - margin.left)
+      .attr("fill", theme.palette.primary.main);
+
+    // Add labels for formatted values
+    // svg
+    //   .append("g")
+    //   .selectAll("text")
+    //   .data(columnData)
+    //   .join("text")
+    //   .attr("x", (d) => x(d.value) + 5)
+    //   .attr("y", (d) => y(d.name)! + y.bandwidth() / 2)
+    //   .attr("dy", "0.35em")
+    //   .text((d) => d.formattedValue)
+    //   .attr("fill", theme.palette.text.primary);
+
+    // Define x-axis
+    const axisBottom = d3.axisBottom(x);
+    const tickFormat = (d: d3.NumberValue) => {
+      const num = +d;
+      return column === "elapsed_time"
+        ? formatElapsedTime(num)
+        : num.toString();
+    };
+
+    axisBottom.tickFormat(tickFormat);
+
+    // Append the x-axis to the axis SVG
+    const xAxisGroup = svgAxis
+      .append("g")
+      .attr("transform", `translate(0,${0})`) // Position the axis
+      .call(axisBottom);
+
+    // Rotate the tick labels to avoid overlap
+    xAxisGroup
+      .selectAll("text")
+      .attr("transform", "rotate(-45)") // Rotate labels by -45 degrees
+      .attr("text-anchor", "end") // Align text to the end
+      .attr("dx", "-0.5em") // Adjust x position
+      .attr("dy", "0.15em"); // Adjust y position
+
+    // Add y-axis to the main SVG
+    svg
+      .append("g")
+      .attr("transform", `translate(${margin.left},0)`)
+      .call(d3.axisLeft(y))
+      .call((g: d3.Selection<SVGGElement, unknown, null, undefined>) =>
+        g.select(".domain").remove()
+      );
+
+    // Optional: Add x-axis label
+    // svgAxis
+    //   .append("text")
+    //   .attr("text-anchor", "end")
+    //   .attr("x", dynamicWidth - margin.right)
+    //   .attr("y", 30) // Adjust this position for the label
+    //   .text(column === "elapsed_time" ? "Elapsed Time" : "Values"); // Set appropriate label text
+  };
+
   useEffect(() => {
-    renderChart(svgRef, orderedSummary, theme);
-  }, [orderedSummary, theme]);
+    renderErrorChart(errorChartRef, errorAxisRef, orderedSummary, theme);
+    renderPromptChart(
+      promptChartRef,
+      promptAxisRef,
+      attributeResults.prompt_metadata,
+      selectedColumn,
+      theme
+    );
+  }, [orderedSummary, theme, selectedColumn, attributeResults.prompt_metadata]);
 
   return (
     <Box className={styles.container}>
@@ -277,15 +440,18 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
             ) : (
               <Box className={styles.output}>
                 <Box className={styles.chartContainer}>
-                  <svg ref={svgRef}></svg>
+                  <svg ref={errorChartRef}></svg>
                 </Box>
+                <svg ref={errorAxisRef}></svg>
+
                 {!isLoading && isRequested && (
                   <Button
                     variant="contained"
                     color="primary"
                     onClick={handleSummaryExport}
                   >
-                    Export to CSV
+                    <FileDownloadIcon />
+                    Export
                   </Button>
                 )}
               </Box>
@@ -310,106 +476,43 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
               </Box>
             ) : (
               <Box className={styles.output}>
-                <TableContainer
-                  component={Paper}
-                  className={styles.scrollableTableContainer}
+                <FormControl
+                  fullWidth
+                  variant="outlined"
+                  margin="dense"
+                  className={styles.dropdown}
                 >
-                  <Table>
-                    <TableHead>
-                      <TableRow>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          sx={{
-                            fontWeight: "bold",
-                            height: 20,
-                            paddingTop: 0.5,
-                            paddingBottom: 0.5,
-                          }}
-                        >
-                          Prompt Name
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          sx={{
-                            fontWeight: "bold",
-                            height: 20,
-                            paddingTop: 0.5,
-                            paddingBottom: 0.5,
-                          }}
-                        >
-                          Completion Tokens
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          sx={{
-                            fontWeight: "bold",
-                            height: 20,
-                            paddingTop: 0.5,
-                            paddingBottom: 0.5,
-                          }}
-                        >
-                          Elapsed Time
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          sx={{
-                            fontWeight: "bold",
-                            height: 20,
-                            paddingTop: 0.5,
-                            paddingBottom: 0.5,
-                          }}
-                        >
-                          Prompt Tokens
-                        </TableCell>
-                        <TableCell
-                          className={styles.stickyHeader}
-                          sx={{
-                            fontWeight: "bold",
-                            height: 20,
-                            paddingTop: 0.5,
-                            paddingBottom: 0.5,
-                          }}
-                        >
-                          Total Tokens
-                        </TableCell>
-                      </TableRow>
-                    </TableHead>
-                    <TableBody>
-                      {isLoading ? (
-                        <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <CircularProgress />
-                          </TableCell>
-                        </TableRow>
-                      ) : attributeResults.prompt_metadata.length === 0 ? (
-                        <TableRow>
-                          <TableCell colSpan={5} align="center">
-                            <Typography variant="body1">
-                              No data available.
-                            </Typography>
-                          </TableCell>
-                        </TableRow>
-                      ) : (
-                        attributeResults.prompt_metadata.map((meta, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{meta.prompt_name}</TableCell>
-                            <TableCell>{meta.completion_tokens}</TableCell>
-                            <TableCell>{meta.elapsed_time}</TableCell>
-                            <TableCell>{meta.prompt_tokens}</TableCell>
-                            <TableCell>{meta.total_tokens}</TableCell>
-                          </TableRow>
-                        ))
-                      )}
-                    </TableBody>
-                  </Table>
-                </TableContainer>
+                  <InputLabel>Select Column</InputLabel>
+                  <Select
+                    value={selectedColumn}
+                    onChange={(event) =>
+                      setSelectedColumn(
+                        event.target.value as keyof PromptMetadata
+                      )
+                    }
+                    label="Select Column"
+                  >
+                    <MenuItem value={"completion_tokens"}>
+                      Completion Tokens
+                    </MenuItem>
+                    <MenuItem value={"prompt_tokens"}>Prompt Tokens</MenuItem>
+                    <MenuItem value={"total_tokens"}>Total Tokens</MenuItem>
+                    <MenuItem value={"elapsed_time"}>Elapsed Time</MenuItem>
+                  </Select>
+                </FormControl>
+                <Box className={styles.chartContainer}>
+                  <svg ref={promptChartRef}></svg>
+                </Box>
+                <svg ref={promptAxisRef}></svg>
+
                 {!isLoading && isRequested && (
                   <Button
                     variant="contained"
                     color="primary"
                     onClick={handlePromptExport}
                   >
-                    Export to CSV
+                    <FileDownloadIcon />
+                    Export
                   </Button>
                 )}
               </Box>

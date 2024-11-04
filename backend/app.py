@@ -20,6 +20,10 @@ from utils.accuracy_utils import calculate_metrics, inspect_classification
 from utils.data_utils import annotate_errors
 from utils.output_utils import process_attribute_output, process_combined_output
 
+from services.dependency_violations import detect_dep_violations
+from utils.output_utils import process_dep_violations_output
+
+
 # Imports for dependency detection
 from utils.data_utils import create_buckets
 from services.dependency_detection import dependency_detection
@@ -135,6 +139,74 @@ def upload_dataset():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route("/detect-attribute-errors", methods=["POST"])
+def detect_attribute_errors():
+    try:
+        # Get the dataset name and timestamp from the query parameters
+        dataset_name = request.form.get("dataset_name", None)
+        timestamp = request.form.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {
+                        "error": "Both 'dataset_name' and 'timestamp' parameters are required"
+                    }
+                ),
+                400,
+            )
+
+        # Construct the file path using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+
+        # Load the dataset
+        dataset = pd.read_csv(csv_file_path)
+
+        # Process the dataset (these functions should be defined elsewhere in your code)
+        # attribute_prompt(dataset, f"./data/{dataset_name}_{timestamp}/attribute")
+        process_attribute_output(
+            dataset, f"./data/{dataset_name}_{timestamp}/attribute"
+        )
+
+        # Load the output
+        annotated_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/prompt_metadata.csv"
+        )
+        column_summary = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/column_summary.csv"
+        )
+
+        # Convert the output to JSON format
+        annotated_output_json = annotated_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
+        column_summary_json = column_summary.to_dict(orient="records")
+
+        # Extract the dataset schema (column names and indices)
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset.columns)
+        ]
+
+        return (
+            jsonify(
+                {
+                    "message": "Attribute errors detected!",
+                    "annotated_output": annotated_output_json,  # Include annotated output in the response
+                    "prompt_metadata": prompt_metadata_json,
+                    "column_summary": column_summary_json,
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset.shape[0],
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route("/detect-dependencies", methods=["POST"])
 def detect_dependencies():
     try:
@@ -190,10 +262,6 @@ def detect_dependencies():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
-from services.dependency_violations import detect_dep_violations
-from utils.output_utils import process_dep_violations_output
 
 
 @app.route("/detect-dependency-violations", methods=["POST"])
@@ -405,8 +473,7 @@ def calculate_overall_accuracy():
 
 
 @app.route("/upload-evaluation-datasets", methods=["POST"])
-def upload_clean_dataset():
-
+def upload_evaluation_dataset():
     dataset_name = request.form.get("dataset_name", None)
     if not dataset_name:
         return jsonify({"error": "Dataset name is required"}), 400
@@ -428,10 +495,17 @@ def upload_clean_dataset():
 
     # Get the file extension
     dirty_file_ext = os.path.splitext(dirty_file.filename)[1].lower()
-    clean_file_ext = os.path.splitext(dirty_file.filename)[1].lower()
+    clean_file_ext = os.path.splitext(clean_file.filename)[
+        1
+    ].lower()  # Note: fixed to use clean_file here
 
     # Check file extension for validation
-    if dirty_file_ext and clean_file_ext not in [".csv", ".xls", ".xlsx", ".json"]:
+    if dirty_file_ext not in [
+        ".csv",
+        ".xls",
+        ".xlsx",
+        ".json",
+    ] or clean_file_ext not in [".csv", ".xls", ".xlsx", ".json"]:
         return (
             jsonify(
                 {
@@ -444,19 +518,18 @@ def upload_clean_dataset():
     try:
         # Convert to DataFrame and then to CSV if necessary
         if dirty_file_ext == ".csv":
-            df_dirty = pd.read_csv(dirty_file)  # Directly read CSV
+            df_dirty = pd.read_csv(dirty_file)
         elif dirty_file_ext in [".xls", ".xlsx"]:
-            df_dirty = pd.read_excel(dirty_file)  # Convert Excel to DataFrame
+            df_dirty = pd.read_excel(dirty_file)
         elif dirty_file_ext == ".json":
-            df_dirty = pd.read_json(dirty_file)  # Convert JSON to DataFrame
+            df_dirty = pd.read_json(dirty_file)
 
-        # Convert to DataFrame and then to CSV if necessary
         if clean_file_ext == ".csv":
-            df_clean = pd.read_csv(clean_file)  # Directly read CSV
+            df_clean = pd.read_csv(clean_file)
         elif clean_file_ext in [".xls", ".xlsx"]:
-            df_clean = pd.read_excel(clean_file)  # Convert Excel to DataFrame
+            df_clean = pd.read_excel(clean_file)
         elif clean_file_ext == ".json":
-            df_clean = pd.read_json(clean_file)  # Convert JSON to DataFrame
+            df_clean = pd.read_json(clean_file)
 
         if df_clean.shape != df_dirty.shape:
             return jsonify({"error": "Uploaded files have different shapes."}), 400
@@ -466,11 +539,9 @@ def upload_clean_dataset():
         dataset_dir = os.path.join("./data", f"{dataset_name}_{timestamp}")
         os.makedirs(dataset_dir, exist_ok=True)
 
-        # Create a timestamped file path
+        # Save the file
         csv_dirty_file_path = os.path.join(dataset_dir, "dirty.csv")
         csv_clean_file_path = os.path.join(dataset_dir, "clean.csv")
-
-        # Save the file
         df_dirty.to_csv(csv_dirty_file_path, index=False)
         df_clean.to_csv(csv_clean_file_path, index=False)
 
@@ -490,7 +561,7 @@ def upload_clean_dataset():
 
 
 @app.route("/evaluate-attribute-errors", methods=["POST"])
-def detect_attribute_errors():
+def evaluate_attribute_errors():
     try:
         # Get the dataset name and timestamp from the query parameters
         dataset_name = request.form.get("dataset_name", None)
@@ -593,7 +664,7 @@ def detect_attribute_errors():
 
 
 @app.route("/evaluate-dependency-violation-errors", methods=["POST"])
-def detect_attribute_errors():
+def evaluate_dependecy_violation_errors():
     try:
         # Get the dataset name and timestamp from the query parameters
         dataset_name = request.form.get("dataset_name", None)
@@ -701,7 +772,7 @@ def detect_attribute_errors():
 
 
 @app.route("/evaluate-combined-errors", methods=["POST"])
-def detect_attribute_errors():
+def evaluate_combined_errors():
     try:
         # Get the dataset name and timestamp from the query parameters
         dataset_name = request.form.get("dataset_name", None)

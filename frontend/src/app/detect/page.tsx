@@ -202,6 +202,10 @@ export default function Home() {
               errorStates={detectionError}
               loadingStates={loadingStates}
               requestedStates={requestedStates}
+              datasetSchema={
+                attrbuteResults.dataset_schema ||
+                dependencyResults.dataset_schema
+              }
             />
           </Box>
         </Grid2>

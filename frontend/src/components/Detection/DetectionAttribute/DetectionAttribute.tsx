@@ -481,6 +481,7 @@ const DetectionAttribute: React.FC<DetectionAttributeProps> = ({
                   variant="outlined"
                   margin="dense"
                   className={styles.dropdown}
+                  size="small"
                 >
                   <InputLabel>Select Column</InputLabel>
                   <Select

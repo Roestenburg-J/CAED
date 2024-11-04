@@ -393,6 +393,7 @@ const DetectionDep: React.FC<DetectionDepProps> = ({
                   variant="outlined"
                   margin="dense"
                   className={styles.dropdown}
+                  size="small"
                 >
                   <InputLabel>Select Column</InputLabel>
                   <Select

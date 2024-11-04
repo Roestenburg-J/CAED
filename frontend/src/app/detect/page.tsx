@@ -15,10 +15,10 @@ import { Box, Grid2 } from "@mui/material";
 // import Paper from "@mui/material/Paper";
 
 // Component Imports
-import DetectionForm from "../../components/Detection/DetectionForm/DetectionForm";
-import DetectionAttribute from "@/components/Detection/DetectionAttribute/DetectionAttribute";
-import DetectionDep from "@/components/Detection/DetectionDep/DetectionDep";
-import DetectionDepViol from "@/components/Detection/DetectionDepViol/DetectionDepViol";
+import DetectionForm from "../../components/Detect/DetectionForm/DetectionForm";
+import DetectionAttribute from "@/components/Detect/DetectionAttribute/DetectionAttribute";
+import DetectionDep from "@/components/Detect/DetectionDep/DetectionDep";
+import DetectionDepViol from "@/components/Detect/DetectionDepViol/DetectionDepViol";
 import AnnotatedTable from "@/components/AnnotatedTable/AnnotatedTable";
 
 interface PromptMetadata {
@@ -92,7 +92,7 @@ interface CombinedResult {
   annotated_output: ErrorAnnotation[];
 }
 
-export default function Home() {
+export default function Detect() {
   const [attrbuteResults, setAttrbuteResults] = useState<AttributeResult>({
     annotated_output: [],
     prompt_metadata: [],

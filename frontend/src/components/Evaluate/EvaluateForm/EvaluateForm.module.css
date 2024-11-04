@@ -1,0 +1,45 @@
+.container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  align-items: center;
+}
+
+.uploadInput {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  gap: 20px; /* Space between child elements */
+}
+
+.formgroup {
+  /* display: inline; */
+  /* align-items: center; */
+}
+
+.checkbox {
+  /* padding: 0; */
+}
+
+.cancel {
+  /* Width can remain auto or be adjusted as needed */
+}
+
+.feedback {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  display: flex;
+  display: grid;
+  /* grid-template-rows: 20px 1fr 20px; */
+  align-items: center;
+  justify-items: center;
+  /* outline: 1px solid black; */
+  border-radius: 10px;
+}
+
+.alert {
+  /* height: 10px; */
+  padding-top: 0;
+  margin: 0;
+}

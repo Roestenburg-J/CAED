@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 
 const navItems = [
   { name: "Detect", path: "/detect" },
-  { name: "Evaluate", path: "/patients" },
+  { name: "Evaluate", path: "/evaluate" },
 ];
 
 const Navbar: React.FC = () => {

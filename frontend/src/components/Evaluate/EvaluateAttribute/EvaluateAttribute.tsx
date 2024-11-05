@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import styles from "./DetectionDepViol.module.css";
+import styles from "./EvaluateAttribute.module.css";
 
 // MUI Imports
 import {
@@ -13,11 +13,12 @@ import {
   InputLabel,
   FormControl,
 } from "@mui/material";
-import FileDownloadIcon from "@mui/icons-material/FileDownload";
-import { TabContext, TabList, TabPanel } from "@mui/lab";
 import { useTheme, Theme } from "@mui/material/styles";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 import * as d3 from "d3";
+
+import { TabContext, TabList, TabPanel } from "@mui/lab";
 
 interface PromptMetadata {
   completion_tokens: number;
@@ -27,29 +28,57 @@ interface PromptMetadata {
   total_tokens: number;
 }
 
-interface ColumnSummary {
-  column_1_count: number;
-  column_1_name: string;
-  column_2_count: number;
-  column_2_name: string;
-  dependency: string;
+interface ErrorAnnotation {
+  [key: string]: number; // Allows for a flexible structure with any string keys
 }
 
-interface DepViolationResult {
+interface DatasetSchema {
+  index: number;
+  name: string;
+}
+
+interface ColumnSummary {
+  column: string;
+  error_count: number;
+}
+
+interface ColumnData {
+  column: string;
+  error_count: number;
+  error_percentage: string;
+}
+
+interface ClassOutput {
+  [key: string]: number | string; // Allows for a flexible structure with any string keys
+}
+
+// Schema for attribute results
+interface AttributeResult {
+  annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
+  dataset_schema: DatasetSchema[];
   column_summary: ColumnSummary[];
   dataset_size: number;
+  true_positives: ClassOutput[];
+  false_positives: ClassOutput[];
+  false_negatives: ClassOutput[];
+  metrics: {
+    accuracy: "string";
+    precision: "string";
+    recall: "string";
+    f_score: "string";
+  };
 }
 
-interface DetectionDepViolProps {
-  depViolationResults: DepViolationResult;
-  isLoading: boolean;
-  isRequested: boolean;
-  error: boolean;
+interface EvaluateAttributeProps {
+  attributeResults: AttributeResult;
+  isLoading: boolean; // Track loading state
+  isRequested: boolean; // Track if data has been fetched
+  error: boolean; // Error flag
 }
 
-const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
-  depViolationResults,
+const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
+  attributeResults,
   isLoading,
   isRequested,
   error,
@@ -57,7 +86,6 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
   const theme = useTheme();
 
   const [tabValue, setTabValue] = React.useState("1");
-
   const errorChartRef = useRef<SVGSVGElement | null>(null); // Ref for error chart
   const promptChartRef = useRef<SVGSVGElement | null>(null); // Ref for prompt chart
   const errorAxisRef = useRef<SVGSVGElement | null>(null); // Ref for error chart
@@ -66,22 +94,48 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
   const [selectedColumn, setSelectedColumn] =
     React.useState<keyof PromptMetadata>("completion_tokens");
 
+  // const metadataColumns = [
+  //   "completion_tokens",
+  //   "elapsed_time",
+  //   "prompt_name",
+  //   "prompt_tokens",
+  //   "total_tokens",
+  // ];
+
   const handleTabChange = (event: React.SyntheticEvent, newValue: string) => {
     setTabValue(newValue);
   };
 
-  // const { column_summary, prompt_metadata } = depViolationResults;
+  const { dataset_schema, column_summary, dataset_size } = attributeResults;
 
+  // Map column_summary to the order of dataset_schema
+  const orderedSummary: ColumnData[] = dataset_schema.map((schema) => {
+    const summary = column_summary.find((col) => col.column === schema.name);
+    return {
+      column: schema.name,
+      error_count: summary ? summary.error_count : 0,
+      error_percentage: summary
+        ? ((summary.error_count / dataset_size) * 100).toFixed(2)
+        : "0.000",
+    };
+  });
+
+  // Generic CSV export function
   const exportToCSV = <T extends object>(
     data: T[],
     headers: string[],
     filename: string
   ) => {
+    // Create a CSV string from data and headers
+    console.log(attributeResults.prompt_metadata);
+
+    console.log(data);
     const rows = data.map((item) =>
       headers.map((header) => item[header as keyof T] ?? "").join(",")
     );
     const csvContent = [headers.join(","), ...rows].join("\n");
 
+    // Create a downloadable link and trigger download
     const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
@@ -93,185 +147,117 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
     document.body.removeChild(link);
   };
 
-  const handleSummaryExport = () => {
-    // Define headers for the CSV
-    const headers = [
-      "column_1_name",
-      "column_1_count",
-      "column_2_name",
-      "column_2_count",
-    ];
-
-    // Call the generic export function
-    exportToCSV(
-      depViolationResults.column_summary,
-      headers,
-      "column_summary.csv"
-    );
-  };
-
   const handlePromptExport = () => {
     // Define headers for the CSV
     const headers = [
       "completion_tokens",
       "elapsed_time",
+      "prompt_name",
       "prompt_tokens",
       "total_tokens",
-      "prompt_name",
     ];
 
     // Call the generic export function
     exportToCSV(
-      depViolationResults.prompt_metadata,
+      attributeResults.prompt_metadata,
       headers,
       "prompt_metadata.csv"
     );
   };
 
+  const handleSummaryExport = () => {
+    // Define headers for the CSV
+    const headers = ["column", "error_count"];
+
+    // Call the generic export function
+    exportToCSV(attributeResults.column_summary, headers, "column_summary.csv");
+  };
+
   const renderErrorChart = (
     svgRef: React.RefObject<SVGSVGElement>,
     svgAxisRef: React.RefObject<SVGSVGElement>,
-    data: ColumnSummary[],
-    datasetSize: number,
+    data: ColumnData[],
     theme: Theme
   ) => {
     if (!svgRef.current) return;
 
     // Clear previous content
     d3.select(svgRef.current).selectAll("*").remove();
-    d3.select(svgAxisRef.current).selectAll("*").remove();
 
-    // Set up chart margins and dimensions
-    const margin = { top: 0, right: 30, bottom: 0, left: 100 };
-    const barHeight = 30;
-    const barSpacing = 5;
+    // Set margins and dimensions for a scrollable chart
+    const margin = { top: 0, right: 30, bottom: 40, left: 100 };
+    const barHeight = 30; // Height of each bar
+    const barSpacing = 5; // Spacing between bars
+
+    // Calculate dynamic height based on data length
     const dynamicHeight =
       data.length * (barHeight + barSpacing) + margin.top + margin.bottom;
+    // const dynamicWidth = Math.max(
+    //   500,
+    //   data.length * barHeight + margin.left + margin.right
+    // );
     const dynamicWidth = 380;
 
-    // Calculate error rates as percentages and create labels
-    const columnData = data.map((d) => ({
-      label: `${d.column_1_name}\n${d.column_2_name}`,
-      column_1_rate: (d.column_1_count / datasetSize) * 100,
-      column_2_rate: (d.column_2_count / datasetSize) * 100,
-    }));
-
-    // Set up x scale
-    const maxRate =
-      d3.max(columnData, (d) => Math.max(d.column_1_rate, d.column_2_rate)) ||
-      0; // Ensure maxRate is never undefined
+    // Define scales
     const x = d3
       .scaleLinear()
-      .domain([0, maxRate])
+      .domain([
+        0,
+        d3.max(data, (d: ColumnData) => +d.error_percentage) as number,
+      ])
       .nice()
       .range([margin.left, dynamicWidth - margin.right]);
 
-    // Y scale for groups
-    const y0 = d3
+    const y = d3
       .scaleBand()
-      .domain(columnData.map((d) => d.label))
-      .range([margin.top, dynamicHeight - margin.bottom])
-      .padding(0.2);
-
-    // Inner y scale for column bars
-    const y1 = d3
-      .scaleBand()
-      .domain(["column_1", "column_2"]) // Ensure both columns are included
-      .range([0, y0.bandwidth()])
-      .padding(0.05);
+      .domain(data.map((d) => d.column))
+      .range([margin.top, dynamicHeight])
+      .padding(0.1);
 
     const svg = d3.select(svgRef.current);
-    svg.attr("width", dynamicWidth).attr("height", dynamicHeight);
-
     const axisSvg = d3.select(svgAxisRef.current);
-    axisSvg.attr("width", dynamicWidth).attr("height", 50);
 
-    // Colors for each column's bar
-    const colorColumn1 = theme.palette.primary.main;
-    const colorColumn2 = theme.palette.secondary.main;
+    // Set the SVG dimensions to match the dynamic height and width
+    svg.attr("width", dynamicWidth).attr("height", dynamicHeight);
+    axisSvg.attr("width", dynamicWidth).attr("height", 60);
 
-    // Create grouped bars
+    // Create bars
     svg
       .append("g")
-      .selectAll("g")
-      .data(columnData)
-      .join("g")
-      .attr("transform", (d) => `translate(0, ${y0(d.label)})`)
-      .each(function (d) {
-        const group = d3.select(this);
+      .selectAll("rect")
+      .data(data)
+      .join("rect")
+      .attr("y", (d: ColumnData) => y(d.column)!)
+      .attr("x", margin.left)
+      .attr("height", y.bandwidth())
+      .attr("width", (d: ColumnData) => x(+d.error_percentage) - margin.left)
+      .attr("fill", theme.palette.primary.main);
 
-        // Column 1 bar
-        const column1Y = y1("column_1");
-        const column2Y = y1("column_2");
-
-        if (column1Y !== undefined) {
-          group
-            .append("rect")
-            .attr("x", margin.left)
-            .attr("y", column1Y) // Make sure this is defined
-            .attr("width", x(d.column_1_rate) - margin.left)
-            .attr("height", y1.bandwidth())
-            .attr("fill", colorColumn1);
-        }
-
-        // Column 2 bar
-        if (column2Y !== undefined) {
-          group
-            .append("rect")
-            .attr("x", margin.left)
-            .attr("y", column2Y) // Make sure this is defined
-            .attr("width", x(d.column_2_rate) - margin.left)
-            .attr("height", y1.bandwidth())
-            .attr("fill", colorColumn2);
-        }
-      });
-
-    // Add x-axis with error percentage labels
+    // Add x-axis
     axisSvg
       .append("g")
-      .attr("transform", `translate(0,0)`)
-      .call(
-        d3
-          .axisBottom(x)
-          .ticks(10)
-          .tickFormat((d) => `${d}%`)
-      )
+      .attr("transform", `translate(0,${0})`)
+      .call(d3.axisBottom(x))
       .selectAll("text")
       .attr("transform", "rotate(-45)")
       .style("text-anchor", "end");
 
-    // Add y-axis with concatenated column names as labels
+    // Add y-axis
     svg
       .append("g")
       .attr("transform", `translate(${margin.left},0)`)
-      .call(d3.axisLeft(y0)) // Standard y-axis with original labels
-      .call((g) => {
-        // Select all tick text elements and replace with multiline labels
-        g.selectAll(".tick text").each(function (d, i) {
-          const tick = d3.select(this);
-          const lines = columnData[i].label.split("\n"); // Split the label into lines
+      .call(d3.axisLeft(y))
+      .call((g: d3.Selection<SVGGElement, unknown, null, undefined>) =>
+        g.select(".domain").remove()
+      );
 
-          // Clear existing label
-          tick.text(null);
-
-          // Append each line as a separate tspan with different colors
-          lines.forEach((line, index) => {
-            tick
-              .append("tspan")
-              .attr("x", -5) // Shift each tspan slightly left for a margin
-              .attr("dy", index === 0 ? "0em" : "1.2em") // Vertical offset for stacking
-              .text(line)
-              .style("text-anchor", "end") // Align text to the end
-              .attr("dx", "-5") // Additional left margin
-              .style(
-                "fill",
-                index === 0
-                  ? theme.palette.primary.main
-                  : theme.palette.secondary.main
-              ); // Conditional color
-          });
-        });
-      });
+    // Add x-axis label
+    axisSvg
+      .append("text")
+      .attr("text-anchor", "end")
+      .attr("x", dynamicWidth - margin.right)
+      .attr("y", dynamicHeight - margin.top / 2);
+    // .text("Error Percentage (%)");
   };
 
   const renderPromptChart = (
@@ -332,7 +318,7 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
 
     const dynamicHeight =
       columnData.length * (barHeight + barSpacing) + margin.top + margin.bottom;
-    const dynamicWidth = 360;
+    const dynamicWidth = 380;
 
     const x = d3
       .scaleLinear()
@@ -363,6 +349,18 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
       .attr("height", y.bandwidth())
       .attr("width", (d) => x(d.value) - margin.left)
       .attr("fill", theme.palette.primary.main);
+
+    // Add labels for formatted values
+    // svg
+    //   .append("g")
+    //   .selectAll("text")
+    //   .data(columnData)
+    //   .join("text")
+    //   .attr("x", (d) => x(d.value) + 5)
+    //   .attr("y", (d) => y(d.name)! + y.bandwidth() / 2)
+    //   .attr("dy", "0.35em")
+    //   .text((d) => d.formattedValue)
+    //   .attr("fill", theme.palette.text.primary);
 
     // Define x-axis
     const axisBottom = d3.axisBottom(x);
@@ -397,37 +395,30 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
       .call((g: d3.Selection<SVGGElement, unknown, null, undefined>) =>
         g.select(".domain").remove()
       );
+
+    // Optional: Add x-axis label
+    // svgAxis
+    //   .append("text")
+    //   .attr("text-anchor", "end")
+    //   .attr("x", dynamicWidth - margin.right)
+    //   .attr("y", 30) // Adjust this position for the label
+    //   .text(column === "elapsed_time" ? "Elapsed Time" : "Values"); // Set appropriate label text
   };
 
   useEffect(() => {
-    renderErrorChart(
-      errorChartRef,
-      errorAxisRef,
-      depViolationResults.column_summary,
-      depViolationResults.dataset_size,
+    renderErrorChart(errorChartRef, errorAxisRef, orderedSummary, theme);
+    renderPromptChart(
+      promptChartRef,
+      promptAxisRef,
+      attributeResults.prompt_metadata,
+      selectedColumn,
       theme
     );
-    if (tabValue === "2" && depViolationResults.prompt_metadata.length > 0) {
-      renderPromptChart(
-        promptChartRef,
-        promptAxisRef,
-        depViolationResults.prompt_metadata,
-        selectedColumn,
-        theme
-      );
-    }
-  }, [
-    theme,
-    selectedColumn,
-    depViolationResults.column_summary,
-    depViolationResults.dataset_size,
-    depViolationResults.prompt_metadata,
-    tabValue,
-  ]);
+  }, [orderedSummary, theme, selectedColumn, attributeResults.prompt_metadata]);
 
   return (
     <Box className={styles.container}>
-      <Typography className={styles.header}>Dependency Violations</Typography>
+      <Typography className={styles.header}>Attribute Results</Typography>
       <Box className={styles.tabContainer}>
         <TabContext value={tabValue}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -439,6 +430,7 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
               className={styles.tabList}
             >
               <Tab label="Summary" value="1" />
+              <Tab label="Accuracy" value="3" />
               <Tab label="Prompt Metadata" value="2" />
             </TabList>
           </Box>
@@ -446,7 +438,7 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
             {!isRequested ? (
               <Box className={styles.feedback}>
                 <Typography variant="body1" align="center">
-                  Select Dependency Violation Detection
+                  Select Attribute Detection
                 </Typography>
               </Box>
             ) : error ? (
@@ -527,19 +519,69 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
                   <svg ref={promptChartRef}></svg>
                 </Box>
                 <svg ref={promptAxisRef}></svg>
+
                 {!isLoading && isRequested && (
                   <Button
                     variant="contained"
                     color="primary"
                     onClick={handlePromptExport}
-                    // onClick={() => {
-                    //   console.log(depViolationResults.prompt_metadata);
-                    // }}
                   >
                     <FileDownloadIcon />
                     Export
                   </Button>
                 )}
+              </Box>
+            )}
+          </TabPanel>
+          <TabPanel value="3" sx={{ padding: 0, height: 230 }}>
+            {!isRequested ? (
+              <Box className={styles.feedback}>
+                <Typography variant="body1" align="center">
+                  Select Attribute Detection
+                </Typography>
+              </Box>
+            ) : error ? (
+              <Box className={styles.feedback}>
+                <Typography variant="body1" color="error" align="center">
+                  An error occurred while fetching data.
+                </Typography>
+              </Box>
+            ) : isLoading ? (
+              <Box className={styles.feedback}>
+                <CircularProgress className={styles.loading} />
+              </Box>
+            ) : (
+              <Box className={styles.output}>
+                <Box className={styles.metrics}>
+                  <Box sx={{ display: "flex" }}>
+                    <Box>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Accuracy:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Precision:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Recall:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        f-score:
+                      </Typography>
+                    </Box>
+                    <Box sx={{ ml: 1 }}>
+                      <Typography>
+                        {attributeResults.metrics.accuracy}
+                      </Typography>
+                      <Typography>
+                        {attributeResults.metrics.precision}
+                      </Typography>
+                      <Typography>{attributeResults.metrics.recall}</Typography>
+                      <Typography>
+                        {attributeResults.metrics.f_score}
+                      </Typography>
+                    </Box>
+                  </Box>
+                </Box>
               </Box>
             )}
           </TabPanel>
@@ -549,4 +591,4 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
   );
 };
 
-export default DetectionDepViol;
+export default EvaluateAttribute;

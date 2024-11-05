@@ -1025,3 +1025,47 @@
 2024-11-05 07:58:50,197 INFO: 192.168.96.1 - - [05/Nov/2024 07:58:50] "[31m[1mGET /get-dependencies?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 07:59:15,212 INFO: 192.168.96.1 - - [05/Nov/2024 07:59:15] "GET /get-dependency-violation-errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 07:59:23,857 INFO: 192.168.96.1 - - [05/Nov/2024 07:59:23] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:18:19,424 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:18:19,425 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:36:53,133 INFO: 192.168.112.1 - - [05/Nov/2024 08:36:53] "[31m[1mPOST /upload-evaluation-datasets HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:37:10,790 INFO: 192.168.112.1 - - [05/Nov/2024 08:37:10] "[31m[1mPOST /upload-evaluation-datasets HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:41:49,302 INFO: 192.168.112.1 - - [05/Nov/2024 08:41:49] "[31m[1mPOST /upload-evaluation-datasets HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:41:58,816 INFO: 192.168.112.1 - - [05/Nov/2024 08:41:58] "[31m[1mPOST /upload-evaluation-datasets HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:47:30,938 INFO: 192.168.112.1 - - [05/Nov/2024 08:47:30] "POST /upload-evaluation-datasets HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 08:49:30,506 INFO: 192.168.112.1 - - [05/Nov/2024 08:49:30] "POST /upload-evaluation-datasets HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:01:16,694 INFO: 192.168.112.1 - - [05/Nov/2024 09:01:16] "POST /upload-evaluation-datasets HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:01:16,764 INFO: 192.168.112.1 - - [05/Nov/2024 09:01:16] "[31m[1mGET /evaluate-attribute-errors?dataset_name=&timestamp= HTTP/1.1[0m" 405 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:03:35,908 INFO: 192.168.112.1 - - [05/Nov/2024 09:03:35] "POST /upload-evaluation-datasets HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:03:36,019 INFO: 192.168.112.1 - - [05/Nov/2024 09:03:36] "[35m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:03:43,833 INFO: 192.168.112.1 - - [05/Nov/2024 09:03:43] "POST /upload-evaluation-datasets HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:03:43,920 INFO: 192.168.112.1 - - [05/Nov/2024 09:03:43] "[35m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:04:05,512 INFO: 192.168.112.1 - - [05/Nov/2024 09:04:05] "POST /upload-evaluation-datasets HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:04:05,656 INFO: 192.168.112.1 - - [05/Nov/2024 09:04:05] "[35m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:05:56,038 INFO: 192.168.112.1 - - [05/Nov/2024 09:05:56] "[35m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:06:21,964 INFO: 192.168.112.1 - - [05/Nov/2024 09:06:21] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:06:52,945 INFO: 192.168.112.1 - - [05/Nov/2024 09:06:52] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:07:43,799 INFO: 192.168.112.1 - - [05/Nov/2024 09:07:43] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:09:04,134 INFO: 192.168.112.1 - - [05/Nov/2024 09:09:04] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:09:20,976 INFO: 192.168.112.1 - - [05/Nov/2024 09:09:20] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:09:38,927 INFO: 192.168.112.1 - - [05/Nov/2024 09:09:38] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:10:12,505 INFO: 192.168.112.1 - - [05/Nov/2024 09:10:12] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:12:29,627 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.128.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:12:29,627 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:12:43,150 INFO: 192.168.128.1 - - [05/Nov/2024 09:12:43] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:13:45,144 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:13:45,145 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:13:50,355 INFO: 192.168.144.1 - - [05/Nov/2024 09:13:50] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:14:04,301 INFO: 192.168.144.1 - - [05/Nov/2024 09:14:04] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:15:15,288 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:15] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:15:15,870 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:15] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:15:17,263 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:17] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 09:15:20,353 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:20] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]

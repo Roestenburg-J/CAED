@@ -4,26 +4,20 @@ export async function evaluateAttributeErrors(
   datasetName: string,
   timestamp: string
 ) {
-  const formData = new FormData();
-  formData.append("dataset_name", datasetName);
-  formData.append("timestamp", timestamp);
-
   try {
-    const response = await fetch(
-      `${application_service_url}/evaluate-attribute-errors`,
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
+    const url = `${application_service_url}/evaluate-attribute-errors?dataset_name=${encodeURIComponent(
+      datasetName
+    )}&timestamp=${encodeURIComponent(timestamp)}`;
+
+    const response = await fetch(url, {
+      method: "GET",
+    });
+
     if (!response.ok) {
       throw new Error(`Failed to detect: ${response.statusText}`);
     }
 
-    console.log(response);
-
     const data = await response.json();
-
     return data;
   } catch (error) {
     console.error("Error during error detection:", error);
@@ -35,18 +29,14 @@ export async function evaluateDepViolations(
   datasetName: string,
   timestamp: string
 ) {
-  const formData = new FormData();
-  formData.append("dataset_name", datasetName);
-  formData.append("timestamp", timestamp);
-
   try {
-    const response = await fetch(
-      `${application_service_url}/evaluate-dependency-violation-errors`,
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
+    const url = `${application_service_url}/evaluate-dependency-violation-errors?dataset_name=${encodeURIComponent(
+      datasetName
+    )}&timestamp=${encodeURIComponent(timestamp)}`;
+
+    const response = await fetch(url, {
+      method: "GET",
+    });
 
     if (!response.ok) {
       throw new Error(`Failed to detect: ${response.statusText}`);
@@ -64,18 +54,14 @@ export async function evaluateCombinedResults(
   datasetName: string,
   timestamp: string
 ) {
-  const formData = new FormData();
-  formData.append("dataset_name", datasetName);
-  formData.append("timestamp", timestamp);
-
   try {
-    const response = await fetch(
-      `${application_service_url}/evaluate-combined-errors`,
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
+    const url = `${application_service_url}/evaluate-combined-errors?dataset_name=${encodeURIComponent(
+      datasetName
+    )}&timestamp=${encodeURIComponent(timestamp)}`;
+
+    const response = await fetch(url, {
+      method: "GET",
+    });
 
     if (!response.ok) {
       throw new Error(`Failed to detect: ${response.statusText}`);

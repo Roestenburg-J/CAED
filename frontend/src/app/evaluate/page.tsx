@@ -16,7 +16,7 @@ import { Box, Grid2 } from "@mui/material";
 
 // Component Imports
 import EvaluateForm from "@/components/Evaluate/EvaluateForm/EvaluateForm";
-import DetectionAttribute from "@/components/Detect/DetectionAttribute/DetectionAttribute";
+import EvaluateAttribute from "@/components/Evaluate/EvaluateAttribute/EvaluateAttribute";
 import DetectionDep from "@/components/Detect/DetectionDep/DetectionDep";
 import DetectionDepViol from "@/components/Detect/DetectionDepViol/DetectionDepViol";
 import AnnotatedTable from "@/components/AnnotatedTable/AnnotatedTable";
@@ -165,7 +165,7 @@ export default function Evaluate() {
               spacing={2}
             >
               <Grid2 size={{ xs: 12, lg: 4 }}>
-                <DetectionAttribute
+                <EvaluateAttribute
                   attributeResults={attrbuteResults}
                   isLoading={loadingStates.attribute}
                   isRequested={requestedStates.attribute}
@@ -193,7 +193,7 @@ export default function Evaluate() {
         </Grid2>
         <Grid2 size={{ xs: 12 }}>
           <Box className={styles.pageContent}>
-            {/* Second Block */}
+            {/* Second Block
             <AnnotatedTable
               dataset={dataset}
               attributeResult={attrbuteResults}
@@ -206,7 +206,7 @@ export default function Evaluate() {
                 attrbuteResults.dataset_schema ||
                 dependencyResults.dataset_schema
               }
-            />
+            /> */}
           </Box>
         </Grid2>
       </Grid2>

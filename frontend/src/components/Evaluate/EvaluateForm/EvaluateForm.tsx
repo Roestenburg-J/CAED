@@ -8,30 +8,19 @@ import { styled } from "@mui/material/styles";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import DoneIcon from "@mui/icons-material/Done";
 import ErrorIcon from "@mui/icons-material/Error";
-import CloseIcon from "@mui/icons-material/Close";
-import {
-  Box,
-  Button,
-  Checkbox,
-  FormControlLabel,
-  FormGroup,
-  CircularProgress,
-  Typography,
-  Alert,
-  Tooltip,
-} from "@mui/material";
+import { Box, Button, Checkbox, FormControlLabel } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
 
-// import {  } from "@mui/material";
-
 // Service Imports
-import { uploadDataset } from "@/services/Utils/Utils";
+import { uploadEvaluateDataset } from "@/services/Utils/Utils";
 import {
-  detectAttributeErrors,
-  detectDependencies,
-  detectDepViolations,
-  retreiveCombinedResults,
-} from "@/services/Detect/Detect";
+  evaluateAttributeErrors,
+  evaluateCombinedResults,
+  evaluateDepViolations,
+} from "@/services/Evaluate/Evaluate";
+
+import { detectDependencies } from "@/services/Detect/Detect";
+import { useTheme, Theme } from "@mui/material/styles";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -45,7 +34,7 @@ const VisuallyHiddenInput = styled("input")({
   width: 1,
 });
 
-interface DetectionFormProps<T> {
+interface EvaluateFormProps<T> {
   setAttributeResults: (attributeResults: any) => void;
   setDependencyResults: (dependencyResults: any) => void;
   setDepViolationResults: (depViolationResults: any) => void;
@@ -56,7 +45,7 @@ interface DetectionFormProps<T> {
       attribute: boolean;
       dependency: boolean;
       violations: boolean;
-      combined: boolean; // Added combined loading state
+      combined: boolean;
     }>
   >;
   setRequestedStates: React.Dispatch<
@@ -64,7 +53,7 @@ interface DetectionFormProps<T> {
       attribute: boolean;
       dependency: boolean;
       violations: boolean;
-      combined: boolean; // Added combined requested state
+      combined: boolean;
     }>
   >;
   setDetectionError: React.Dispatch<
@@ -72,12 +61,12 @@ interface DetectionFormProps<T> {
       attribute: boolean;
       dependency: boolean;
       violations: boolean;
-      combined: boolean; // Added combined error state
+      combined: boolean;
     }>
   >;
 }
 
-const DetectionForm = <T,>({
+const EvaluateForm = <T,>({
   setAttributeResults,
   setDependencyResults,
   setDepViolationResults,
@@ -86,135 +75,45 @@ const DetectionForm = <T,>({
   setRequestedStates,
   setDetectionError,
   setDataset,
-}: DetectionFormProps<T>) => {
+}: EvaluateFormProps<T>) => {
   const [detectionSettings, setDetectionSettings] = useState({
     attribute: false,
     dependency: false,
     violations: false,
   });
-  const [fileUploadLoading, setFileUploadLoading] = useState(false);
-  const [fileUploadSuccess, setFileUploadSuccess] = useState(false);
-  const [inputError, setInputError] = useState({
-    file: false,
-    detection: false,
+
+  const [fileUploadState, setFileUploadState] = useState({
+    dirty: { loading: false, success: false, error: false },
+    clean: { loading: false, success: false, error: false },
   });
+
+  const [uploadedFiles, setUploadedFiles] = useState({
+    dirty: null,
+    clean: null,
+  });
+
   const [fileResults, setFileResults] = useState({
     dataset_name: "",
     timestamp: "",
   });
 
-  const handleDirtyFileChange = async (
-    event: React.ChangeEvent<HTMLInputElement>
+  const handleFileChange = (
+    event: React.ChangeEvent<HTMLInputElement>,
+    type: "dirty" | "clean"
   ) => {
     const selectedFile = event.target.files?.[0];
     if (!selectedFile) return;
 
-    setFileUploadLoading(true);
-    const filenameWithoutExt = selectedFile.name.replace(/\.[^/.]+$/, "");
-    const fileExtension = selectedFile.name.split(".").pop()?.toLowerCase();
+    setUploadedFiles((prev) => ({
+      ...prev,
+      [type]: selectedFile, // Store the selected file for later processing
+    }));
 
-    try {
-      // const fileResponse = await uploadDataset({
-      //   file: selectedFile,
-      //   datasetName: filenameWithoutExt,
-      // });
-      const fileResponse = {
-        dataset_name: "hospital_1",
-        timestamp: "20241030_123153",
-      };
-      setFileResults({
-        dataset_name: fileResponse.dataset_name,
-        timestamp: fileResponse.timestamp,
-      });
-      setFileUploadSuccess(true);
-      setInputError((prev) => ({ ...prev, file: false })); // Reset file error
-
-      let parsedData;
-
-      // Parsing logic based on file type
-      if (fileExtension === "csv") {
-        const fileContent = await selectedFile.text();
-        parsedData = Papa.parse(fileContent, {
-          header: true,
-          skipEmptyLines: true,
-        }).data;
-      } else if (fileExtension === "json") {
-        const fileContent = await selectedFile.text();
-        parsedData = JSON.parse(fileContent);
-      } else if (fileExtension === "xlsx" || fileExtension === "xls") {
-        const arrayBuffer = await selectedFile.arrayBuffer();
-        const workbook = XLSX.read(arrayBuffer, { type: "array" });
-        const firstSheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[firstSheetName];
-        parsedData = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
-      } else {
-        throw new Error("Unsupported file type");
-      }
-
-      setDataset(parsedData); // Set parsed data for frontend use
-    } catch (error) {
-      console.error("An error occurred during file processing:", error);
-      setInputError((prev) => ({ ...prev, file: true }));
-    } finally {
-      setFileUploadLoading(false);
-    }
-  };
-
-  const handleCleanFileChange = async (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
-    const selectedFile = event.target.files?.[0];
-    if (!selectedFile) return;
-
-    setFileUploadLoading(true);
-    const filenameWithoutExt = selectedFile.name.replace(/\.[^/.]+$/, "");
-    const fileExtension = selectedFile.name.split(".").pop()?.toLowerCase();
-
-    try {
-      // const fileResponse = await uploadDataset({
-      //   file: selectedFile,
-      //   datasetName: filenameWithoutExt,
-      // });
-      const fileResponse = {
-        dataset_name: "hospital_1",
-        timestamp: "20241030_123153",
-      };
-      setFileResults({
-        dataset_name: fileResponse.dataset_name,
-        timestamp: fileResponse.timestamp,
-      });
-      setFileUploadSuccess(true);
-      setInputError((prev) => ({ ...prev, file: false })); // Reset file error
-
-      let parsedData;
-
-      // Parsing logic based on file type
-      if (fileExtension === "csv") {
-        const fileContent = await selectedFile.text();
-        parsedData = Papa.parse(fileContent, {
-          header: true,
-          skipEmptyLines: true,
-        }).data;
-      } else if (fileExtension === "json") {
-        const fileContent = await selectedFile.text();
-        parsedData = JSON.parse(fileContent);
-      } else if (fileExtension === "xlsx" || fileExtension === "xls") {
-        const arrayBuffer = await selectedFile.arrayBuffer();
-        const workbook = XLSX.read(arrayBuffer, { type: "array" });
-        const firstSheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[firstSheetName];
-        parsedData = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
-      } else {
-        throw new Error("Unsupported file type");
-      }
-
-      // setDataset(parsedData); // Set parsed data for frontend use
-    } catch (error) {
-      console.error("An error occurred during file processing:", error);
-      setInputError((prev) => ({ ...prev, file: true }));
-    } finally {
-      setFileUploadLoading(false);
-    }
+    // Update the file upload state
+    setFileUploadState((prev) => ({
+      ...prev,
+      [type]: { loading: false, success: true, error: false },
+    }));
   };
 
   const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -230,9 +129,9 @@ const DetectionForm = <T,>({
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
 
-    // Check for errors
-    if (!fileUploadSuccess) {
-      setInputError((prev) => ({ ...prev, file: true }));
+    // Check for errors before proceeding
+    if (!uploadedFiles.dirty || !uploadedFiles.clean) {
+      console.error("Both files must be uploaded.");
       return;
     }
     if (
@@ -240,7 +139,7 @@ const DetectionForm = <T,>({
       !detectionSettings.dependency &&
       !detectionSettings.violations
     ) {
-      setInputError((prev) => ({ ...prev, detection: true }));
+      console.error("At least one detection option must be selected.");
       return;
     }
 
@@ -249,26 +148,82 @@ const DetectionForm = <T,>({
       attribute: false,
       dependency: false,
       violations: false,
-      combined: false, // Reset combined error state
+      combined: false,
     });
     setLoadingStates({
       attribute: false,
       dependency: false,
       violations: false,
-      combined: false, // Reset combined loading state
+      combined: false,
     });
     setRequestedStates({
       attribute: false,
       dependency: false,
       violations: false,
-      combined: false, // Reset combined requested state
+      combined: false,
     });
 
-    // Prepare detection requests with actions and keys
+    // Handle file uploads and parsing
+    const { dirty, clean } = uploadedFiles;
+
+    try {
+      setFileUploadState((prev) => ({
+        ...prev,
+        dirty: { ...prev.dirty, loading: true },
+        clean: { ...prev.clean, loading: true },
+      }));
+
+      // Get file names without extensions
+      const dirtyFileName = dirty.name.replace(/\.[^/.]+$/, "");
+      // const cleanFileName = clean.name.replace(/\.[^/.]+$/, "");
+
+      // Upload the datasets
+      // const fileResponse = await uploadEvaluateDataset({
+      //   dirty_file: dirty,
+      //   clean_file: clean,
+      //   datasetName: `${dirtyFileName}`,
+      // });
+
+      // setFileResults({
+      //   dataset_name: fileResponse.dataset_name,
+      //   timestamp: fileResponse.timestamp,
+      // });
+      setFileResults({
+        dataset_name: "hospital",
+        timestamp: "20241104_172717",
+      });
+
+      // Parse both files based on their type
+      const dirtyData = await parseFile(dirty);
+      const cleanData = await parseFile(clean);
+
+      // Store parsed datasets
+      setDataset((prev) => ({
+        ...prev,
+        dirty: dirtyData,
+        clean: cleanData,
+      }));
+
+      console.log("Both files uploaded and processed successfully.");
+    } catch (error) {
+      console.error("An error occurred during file processing:", error);
+      setFileUploadState((prev) => ({
+        dirty: { loading: false, success: false, error: true },
+        clean: { loading: false, success: false, error: true },
+      }));
+      return;
+    } finally {
+      setFileUploadState((prev) => ({
+        dirty: { ...prev.dirty, loading: false },
+        clean: { ...prev.clean, loading: false },
+      }));
+    }
+
+    // Prepare detection requests
     const detectionRequests = [
       {
         condition: detectionSettings.attribute,
-        action: detectAttributeErrors,
+        action: evaluateAttributeErrors,
         setResults: setAttributeResults,
         key: "attribute",
       },
@@ -280,7 +235,7 @@ const DetectionForm = <T,>({
       },
       {
         condition: detectionSettings.violations,
-        action: detectDepViolations,
+        action: evaluateDepViolations,
         setResults: setDepViolationResults,
         key: "violations",
       },
@@ -289,15 +244,14 @@ const DetectionForm = <T,>({
           detectionSettings.attribute &&
           detectionSettings.dependency &&
           detectionSettings.violations,
-        action: retreiveCombinedResults,
+        action: evaluateCombinedResults,
         setResults: setCombinedOutput,
         key: "combined",
       },
     ];
 
-    // Create an array of promises based on conditions
     const promises = detectionRequests
-      .filter((request) => request.condition) // Filter out requests that are not needed
+      .filter((request) => request.condition)
       .map((request) => {
         setRequestedStates((prev) => ({
           ...prev,
@@ -305,14 +259,12 @@ const DetectionForm = <T,>({
         }));
         setLoadingStates((prev) => ({ ...prev, [request.key]: true }));
 
-        // Return an object containing both the key and the promise
         return {
           key: request.key,
           promise: request
             .action(fileResults.dataset_name, fileResults.timestamp)
             .then((result) => {
               request.setResults(result);
-              // console.log(result);
             })
             .catch((error) => {
               console.error(`Error detecting ${request.key}:`, error);
@@ -330,168 +282,122 @@ const DetectionForm = <T,>({
         };
       });
 
-    // Find the dependency detection promise
-    const dependencyRequest = promises.find((req) => req.key === "dependency");
-
-    // If dependency detection is needed and succeeded, execute violation detection
-    if (dependencyRequest) {
-      try {
-        await dependencyRequest.promise; // Wait for dependency detection to complete successfully
-
-        // If violation detection is needed, execute it after dependency detection completes
-        if (detectionSettings.violations) {
-          const violationPromise = detectDepViolations(
-            fileResults.dataset_name,
-            fileResults.timestamp
-          )
-            .then((result) => {
-              setDepViolationResults(result);
-              // console.log(result);
-            })
-            .catch((error) => {
-              console.error(`Error detecting violations:`, error);
-              setDetectionError((prev) => ({
-                ...prev,
-                violations: true,
-              }));
-            })
-            .finally(() => {
-              setLoadingStates((prev) => ({
-                ...prev,
-                violations: false,
-              }));
-            });
-          promises.push({ key: "violations", promise: violationPromise });
-        }
-      } catch (error) {
-        console.error("Dependency Detection failed:", error);
-        setDetectionError((prev) => ({
-          ...prev,
-          dependency: true,
-        }));
-      }
-    }
-
-    // Execute all other concurrent requests
-    await Promise.all(promises.map((req) => req.promise));
-
-    // Handle the combined results detection
-    const combinedRequest = promises.find((req) => req.key === "combined");
-    if (combinedRequest) {
-      setRequestedStates((prev) => ({ ...prev, combined: true }));
-      setLoadingStates((prev) => ({ ...prev, combined: true }));
-      try {
-        await combinedRequest.promise; // Wait for combined results to complete successfully
-      } catch (error) {
-        console.error("Combined Detection failed:", error);
-        setDetectionError((prev) => ({
-          ...prev,
-          combined: true,
-        }));
-      } finally {
-        setLoadingStates((prev) => ({
-          ...prev,
-          combined: false,
-        }));
-      }
-    }
+    // Await all detection promises to complete
+    await Promise.all(promises.map((p) => p.promise));
   };
 
+  const parseFile = async (file: File) => {
+    const fileExtension = file.name.split(".").pop()?.toLowerCase();
+    let parsedData;
+
+    // Parsing logic based on file type
+    if (fileExtension === "csv") {
+      const fileContent = await file.text();
+      parsedData = Papa.parse(fileContent, {
+        header: true,
+        skipEmptyLines: true,
+      }).data;
+    } else if (fileExtension === "json") {
+      const fileContent = await file.text();
+      parsedData = JSON.parse(fileContent);
+    } else if (fileExtension === "xlsx" || fileExtension === "xls") {
+      const arrayBuffer = await file.arrayBuffer();
+      const workbook = XLSX.read(arrayBuffer, { type: "array" });
+      const firstSheetName = workbook.SheetNames[0];
+      const worksheet = workbook.Sheets[firstSheetName];
+      parsedData = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
+    } else {
+      throw new Error("Unsupported file type");
+    }
+
+    return parsedData;
+  };
+
+  const theme = useTheme();
+
   return (
-    <Box className={styles.container}>
+    <Box component="form" onSubmit={handleSubmit} className={styles.container}>
       <Box className={styles.uploadInput}>
         <LoadingButton
-          loading={fileUploadLoading}
+          loading={fileUploadState.dirty.loading}
           variant="outlined"
           component="label"
-          // color={inputError.file ? "error" : "primary"}
+          color={
+            fileUploadState.dirty.error
+              ? theme.palette.error.main
+              : theme.palette.primary.main
+          }
         >
-          {fileUploadSuccess ? <DoneIcon /> : null}
-          {inputError.file ? <ErrorIcon /> : null}
-          {!inputError.file && !fileUploadSuccess ? <UploadFileIcon /> : null}
+          {fileUploadState.dirty.success ? <DoneIcon /> : null}
+          {fileUploadState.dirty.error ? <ErrorIcon /> : null}
+          {!fileUploadState.dirty.error && !fileUploadState.dirty.success ? (
+            <UploadFileIcon />
+          ) : null}
           Upload Dirty Dataset
-          <VisuallyHiddenInput type="file" onChange={handleDirtyFileChange} />
+          <VisuallyHiddenInput
+            type="file"
+            onChange={(e) => handleFileChange(e, "dirty")}
+          />
         </LoadingButton>
 
         <LoadingButton
-          loading={fileUploadLoading}
+          loading={fileUploadState.clean.loading}
           variant="outlined"
           component="label"
-          // color={inputError.file ? "error" : "primary"}
+          color={
+            fileUploadState.dirty.error
+              ? theme.palette.error.main
+              : theme.palette.primary.main
+          }
         >
-          {fileUploadSuccess ? <DoneIcon /> : null}
-          {inputError.file ? <ErrorIcon /> : null}
-          {!inputError.file && !fileUploadSuccess ? <UploadFileIcon /> : null}
+          {fileUploadState.clean.success ? <DoneIcon /> : null}
+          {fileUploadState.clean.error ? <ErrorIcon /> : null}
+          {!fileUploadState.clean.error && !fileUploadState.clean.success ? (
+            <UploadFileIcon />
+          ) : null}
           Upload Clean Dataset
-          <VisuallyHiddenInput type="file" onChange={handleCleanFileChange} />
+          <VisuallyHiddenInput
+            type="file"
+            onChange={(e) => handleFileChange(e, "clean")}
+          />
         </LoadingButton>
 
-        <Box color={inputError.detection ? "error" : "primary"}>
-          <FormControlLabel
-            control={
-              <Checkbox
-                className={styles.checkbox}
-                checked={detectionSettings.attribute}
-                onChange={handleCheckboxChange}
-                name="attribute"
-              />
-            }
-            label="Attribute Level"
-          />
-
-          <FormControlLabel
-            control={
-              <Checkbox
-                className={styles.checkbox}
-                checked={detectionSettings.dependency}
-                onChange={handleCheckboxChange}
-                name="dependency"
-              />
-            }
-            label="Dependencies"
-          />
-          <FormControlLabel
-            control={
-              <Checkbox
-                className={styles.checkbox}
-                checked={detectionSettings.violations}
-                onChange={handleCheckboxChange}
-                name="violations"
-              />
-            }
-            label="Dependency Violations"
-          />
-        </Box>
-        {/* </FormGroup> */}
-
-        <Button
-          variant="outlined"
-          onClick={() => setFileUploadSuccess(false)}
-          className={styles.cancel}
-        >
-          <CloseIcon />
-        </Button>
-        <Button type="submit" variant="outlined" onClick={handleSubmit}>
-          Detect Errors
-        </Button>
-        {inputError.file || inputError.detection ? (
-          <Tooltip
-            title={
-              inputError.file
-                ? "Please upload a dataset."
-                : " Please select at least one detection option."
-            }
-            arrow
-          >
-            <ErrorIcon
-              color="error"
-              style={{ marginLeft: 5, cursor: "pointer" }}
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={detectionSettings.attribute}
+              onChange={handleCheckboxChange}
+              name="attribute"
             />
-          </Tooltip>
-        ) : null}
+          }
+          label="Detect Attribute Errors"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={detectionSettings.dependency}
+              onChange={handleCheckboxChange}
+              name="dependency"
+            />
+          }
+          label="Detect Dependencies"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={detectionSettings.violations}
+              onChange={handleCheckboxChange}
+              name="violations"
+            />
+          }
+          label="Detect Violations"
+        />
       </Box>
+      <Button variant="outlined" type="submit">
+        Evaluate
+      </Button>
     </Box>
   );
 };
 
-export default DetectionForm;
+export default EvaluateForm;

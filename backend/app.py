@@ -43,21 +43,21 @@ app.secret_key = "supersecretkey"
 # app.config["UPLOAD_FOLDER"] = "uploads"
 app.config["ALLOWED_EXTENSIONS"] = {"csv"}
 
-# Set up logging
-logging.basicConfig(
-    filename="app.log",  # Log file location
-    level=logging.DEBUG,  # Log level (use DEBUG for verbose output)
-    format="%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]",
-)
+# # Set up logging
+# logging.basicConfig(
+#     filename="app.log",  # Log file location
+#     level=logging.DEBUG,  # Log level (use DEBUG for verbose output)
+#     format="%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]",
+# )
 
-# Optionally, log to both file and console
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.DEBUG)
-formatter = logging.Formatter(
-    "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
-)
-console_handler.setFormatter(formatter)
-app.logger.addHandler(console_handler)
+# # Optionally, log to both file and console
+# console_handler = logging.StreamHandler()
+# console_handler.setLevel(logging.DEBUG)
+# formatter = logging.Formatter(
+#     "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
+# )
+# console_handler.setFormatter(formatter)
+# app.logger.addHandler(console_handler)
 
 # Ensure the upload folder exists
 # os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
@@ -232,7 +232,7 @@ def detect_dependencies():
         dataset = pd.read_csv(csv_file_path)
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        dependency_detection(dataset, filtered_top_buckets, buckets, directory)
+        # dependency_detection(dataset, filtered_top_buckets, buckets, directory)
         process_dependency_output(filtered_top_buckets, dataset, directory)
 
         # Load the output
@@ -288,7 +288,7 @@ def detect_dependency_violations():
         dataset = pd.read_csv(csv_file_path)
 
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        detect_dep_violations(depedencies, dataset, directory)
+        # detect_dep_violations(depedencies, dataset, directory)
         process_dep_violations_output(dataset, directory)
 
         # Load the output
@@ -496,7 +496,7 @@ def evaluate_attribute_errors():
         dataset_clean = pd.read_csv(csv_clean_file_path)
 
         # Process the dataset (these functions should be defined elsewhere in your code)
-        attribute_prompt(dataset_dirty, f"./data/{dataset_name}_{timestamp}/attribute")
+        # attribute_prompt(dataset_dirty, f"./data/{dataset_name}_{timestamp}/attribute")
         process_attribute_output(
             dataset_dirty, f"./data/{dataset_name}_{timestamp}/attribute"
         )
@@ -553,6 +553,7 @@ def evaluate_attribute_errors():
                     "prompt_metadata": prompt_metadata_json,
                     "column_summary": column_summary_json,
                     "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset_dirty.shape[0],
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
@@ -602,7 +603,7 @@ def evaluate_dependecy_violation_errors():
 
         # Process the dataset (these functions should be defined elsewhere in your code)
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        detect_dep_violations(depedencies, dataset_dirty, directory)
+        # detect_dep_violations(depedencies, dataset_dirty, directory)
         process_dep_violations_output(dataset_dirty, directory)
 
         # Load the output
@@ -661,6 +662,7 @@ def evaluate_dependecy_violation_errors():
                     "prompt_metadata": prompt_metadata_json,
                     "column_summary": column_summary_json,
                     "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset_dirty.shape[0],
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,

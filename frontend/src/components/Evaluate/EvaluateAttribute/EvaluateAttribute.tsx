@@ -63,10 +63,10 @@ interface AttributeResult {
   false_positives: ClassOutput[];
   false_negatives: ClassOutput[];
   metrics: {
-    accuracy: "string";
-    precision: "string";
-    recall: "string";
-    f_score: "string";
+    accuracy: string;
+    precision: string;
+    recall: string;
+    f_score: string;
   };
 }
 

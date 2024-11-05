@@ -22,35 +22,31 @@ def calculate_metrics(true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame):
     return accuracy, precision, recall, f_score
 
 
-# import pandas as pd
-
-
-import pandas as pd
-
-
-def inspect_classification(true_dataset, pred_dataset, input_dataset):
-    # Align the columns of the true and predicted datasets with the input dataset
+def inspect_classification(
+    true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame, input_dataset: pd.DataFrame
+):
     true_dataset.columns = input_dataset.columns
     pred_dataset.columns = input_dataset.columns
 
-    # Calculate the adjusted values for true and predicted datasets
     calc = true_dataset.add(2)
-    calc_out = pred_dataset
+    calc_out = pred_dataset.copy()
     calc_out[calc_out == 0] = -1
 
-    # Combine the calculated values
     calc = calc.add(calc_out)
 
     # True positive calculation
     tp = calc == 4
-    true_positive_df = input_dataset[tp].fillna(0).infer_objects()
+    true_positive_df = input_dataset[tp].astype(str)
+    true_positive_df = true_positive_df.replace(to_replace="nan", value=0)
 
     # False positive calculation
     fp = calc == 3
-    false_positive_df = input_dataset[fp].fillna(0).infer_objects()
+    false_positve_df = input_dataset[fp].astype(str)
+    false_positve_df = false_positve_df.replace(to_replace="nan", value=0)
 
     # False negative calculation
     fn = calc == 2
-    false_negative_df = input_dataset[fn].fillna(0).infer_objects()
+    false_negative_df = input_dataset[fn].astype(str)
+    false_negative_df = false_negative_df.replace(to_replace="nan", value=0)
 
-    return true_positive_df, false_positive_df, false_negative_df
+    return true_positive_df, false_positve_df, false_negative_df

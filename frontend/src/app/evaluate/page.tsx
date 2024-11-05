@@ -18,7 +18,8 @@ import { Box, Grid2 } from "@mui/material";
 import EvaluateForm from "@/components/Evaluate/EvaluateForm/EvaluateForm";
 import EvaluateAttribute from "@/components/Evaluate/EvaluateAttribute/EvaluateAttribute";
 import DetectionDep from "@/components/Detect/DetectionDep/DetectionDep";
-import DetectionDepViol from "@/components/Detect/DetectionDepViol/DetectionDepViol";
+import EvaluateDepViol from "@/components/Evaluate/EvaluateDepViol/EvaluateDepViol";
+import EvaluateAnnotatedTable from "@/components/EvaluateAnnotatedTable/EvaluateAnnotatedTable";
 import AnnotatedTable from "@/components/AnnotatedTable/AnnotatedTable";
 
 interface PromptMetadata {
@@ -43,12 +44,25 @@ interface AttributeColumnSummary {
   error_count: number;
 }
 
+interface ClassOutput {
+  [key: string]: number | string; // Allows for a flexible structure with any string keys
+}
+
 interface AttributeResult {
   annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
   dataset_schema: DatasetSchema[];
+  true_positives: ClassOutput[];
+  false_positives: ClassOutput[];
+  false_negatives: ClassOutput[];
   column_summary: AttributeColumnSummary[];
   dataset_size: number;
+  metrics: {
+    accuracy: string;
+    precision: string;
+    recall: string;
+    f_score: string;
+  };
 }
 
 interface Dependencies {
@@ -85,11 +99,23 @@ interface DepViolationResult {
   annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
   column_summary: ColumnSummary[];
+  true_positives: ClassOutput[];
+  false_positives: ClassOutput[];
+  false_negatives: ClassOutput[];
   dataset_size: number;
+  metrics: {
+    accuracy: string;
+    precision: string;
+    recall: string;
+    f_score: string;
+  };
 }
 
 interface CombinedResult {
   annotated_output: ErrorAnnotation[];
+  true_positives: ClassOutput[];
+  false_positives: ClassOutput[];
+  false_negatives: ClassOutput[];
 }
 
 export default function Evaluate() {
@@ -98,7 +124,16 @@ export default function Evaluate() {
     prompt_metadata: [],
     dataset_schema: [],
     column_summary: [],
+    true_positives: [],
+    false_positives: [],
+    false_negatives: [],
     dataset_size: 0,
+    metrics: {
+      accuracy: "",
+      precision: "",
+      recall: "",
+      f_score: "",
+    },
   });
   const [dependencyResults, setDependencyResults] = useState<DependencyResults>(
     {
@@ -113,11 +148,24 @@ export default function Evaluate() {
       annotated_output: [],
       column_summary: [],
       prompt_metadata: [],
+      true_positives: [],
+      false_positives: [],
+      false_negatives: [],
+
       dataset_size: 0,
+      metrics: {
+        accuracy: "",
+        precision: "",
+        recall: "",
+        f_score: "",
+      },
     });
 
   const [combinedOutput, setCombinedOutput] = useState<CombinedResult>({
     annotated_output: [],
+    true_positives: [],
+    false_positives: [],
+    false_negatives: [],
   });
 
   const [dataset, setDataset] = useState([]);
@@ -181,7 +229,7 @@ export default function Evaluate() {
                 />
               </Grid2>
               <Grid2 size={{ xs: 12, lg: 4 }}>
-                <DetectionDepViol
+                <EvaluateDepViol
                   depViolationResults={depViolationResults}
                   isLoading={loadingStates.violations}
                   isRequested={requestedStates.violations}
@@ -193,8 +241,10 @@ export default function Evaluate() {
         </Grid2>
         <Grid2 size={{ xs: 12 }}>
           <Box className={styles.pageContent}>
-            {/* Second Block
-            <AnnotatedTable
+            {/* Second Block */}
+
+            {/* <AnnotatedTable */}
+            <EvaluateAnnotatedTable
               dataset={dataset}
               attributeResult={attrbuteResults}
               depViolationResult={depViolationResults}
@@ -206,7 +256,7 @@ export default function Evaluate() {
                 attrbuteResults.dataset_schema ||
                 dependencyResults.dataset_schema
               }
-            /> */}
+            />
           </Box>
         </Grid2>
       </Grid2>

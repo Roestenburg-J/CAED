@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import styles from "./DetectionDepViol.module.css";
+import styles from "./EvaluateDepViol.module.css";
 
 // MUI Imports
 import {
@@ -35,20 +35,43 @@ interface ColumnSummary {
   dependency: string;
 }
 
+interface ErrorAnnotation {
+  [key: string]: number; // Allows for a flexible structure with any string keys
+}
+
+interface ClassOutput {
+  [key: string]: number | string; // Allows for a flexible structure with any string keys
+}
+
+// interface DatasetSchema {
+//   index: number;
+//   name: string;
+// }
+
 interface DepViolationResult {
+  annotated_output: ErrorAnnotation[]; // Allows for a flexible structure with any string keys
   prompt_metadata: PromptMetadata[];
   column_summary: ColumnSummary[];
   dataset_size: number;
+  true_positives: ClassOutput[];
+  false_positives: ClassOutput[];
+  false_negatives: ClassOutput[];
+  metrics: {
+    accuracy: string;
+    precision: string;
+    recall: string;
+    f_score: string;
+  };
 }
 
-interface DetectionDepViolProps {
+interface EvaluateDepViolProps {
   depViolationResults: DepViolationResult;
   isLoading: boolean;
   isRequested: boolean;
   error: boolean;
 }
 
-const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
+const EvaluateDepViol: React.FC<EvaluateDepViolProps> = ({
   depViolationResults,
   isLoading,
   isRequested,
@@ -439,6 +462,7 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
               className={styles.tabList}
             >
               <Tab label="Summary" value="1" />
+              <Tab label="Accuracy" value="3" />
               <Tab label="Prompt Metadata" value="2" />
             </TabList>
           </Box>
@@ -543,10 +567,64 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
               </Box>
             )}
           </TabPanel>
+          <TabPanel value="3" sx={{ padding: 0, height: 230 }}>
+            {!isRequested ? (
+              <Box className={styles.feedback}>
+                <Typography variant="body1" align="center">
+                  Select Dependency Violation Detection
+                </Typography>
+              </Box>
+            ) : error ? (
+              <Box className={styles.feedback}>
+                <Typography variant="body1" color="error" align="center">
+                  An error occurred while fetching data.
+                </Typography>
+              </Box>
+            ) : isLoading ? (
+              <Box className={styles.feedback}>
+                <CircularProgress className={styles.loading} />
+              </Box>
+            ) : (
+              <Box className={styles.output}>
+                <Box className={styles.metrics}>
+                  <Box sx={{ display: "flex" }}>
+                    <Box>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Accuracy:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Precision:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Recall:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        f-score:
+                      </Typography>
+                    </Box>
+                    <Box sx={{ ml: 1 }}>
+                      <Typography>
+                        {depViolationResults.metrics.accuracy}
+                      </Typography>
+                      <Typography>
+                        {depViolationResults.metrics.precision}
+                      </Typography>
+                      <Typography>
+                        {depViolationResults.metrics.recall}
+                      </Typography>
+                      <Typography>
+                        {depViolationResults.metrics.f_score}
+                      </Typography>
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+            )}
+          </TabPanel>
         </TabContext>
       </Box>
     </Box>
   );
 };
 
-export default DetectionDepViol;
+export default EvaluateDepViol;

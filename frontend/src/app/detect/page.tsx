@@ -1,18 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import styles from "./page.module.css";
 
 import { Box, Grid2 } from "@mui/material";
-// import { styled } from "@mui/material/styles";
-// import UploadFileIcon from "@mui/icons-material/UploadFile";
-
-// import Table from "@mui/material/Table";
-// import TableBody from "@mui/material/TableBody";
-// import TableCell from "@mui/material/TableCell";
-// import TableContainer from "@mui/material/TableContainer";
-// import TableHead from "@mui/material/TableHead";
-// import TableRow from "@mui/material/TableRow";
-// import Paper from "@mui/material/Paper";
 
 // Component Imports
 import DetectionForm from "../../components/Detect/DetectionForm/DetectionForm";
@@ -143,6 +134,16 @@ export default function Detect() {
     violations: false,
     combined: false,
   });
+
+  const router = useRouter(); // Use the router hook to access the URL parameters
+  const { dataset_name, timestamp, attribute, dep, depViol } = router.query; // Destructure query parameters
+
+  useEffect(() => {
+    if (dataset_name && timestamp && attribute && dep && depViol) {
+      // You can now use these parameters as needed
+      // Perform any fetch or state update based on these parameters
+    }
+  }, [dataset, timestamp, attribute, dep, depViol]);
 
   return (
     <Box className={styles.page}>

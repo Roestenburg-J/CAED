@@ -1,5 +1,26 @@
 import { application_service_url } from "@/config/config";
 
+export async function getDetections() {
+  try {
+    const response = await fetch(
+      `${application_service_url}/get-all-detections`,
+      {
+        method: "GET",
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Failed to detect: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error during error detection:", error);
+    throw error;
+  }
+}
+
 export async function evaluateAttributeErrors(
   datasetName: string,
   timestamp: string

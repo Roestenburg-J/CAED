@@ -198,11 +198,7 @@ const EvaluateForm = <T,>({
       const cleanData = await parseFile(clean);
 
       // Store parsed datasets
-      setDataset((prev) => ({
-        ...prev,
-        dirty: dirtyData,
-        clean: cleanData,
-      }));
+      setDataset(dirtyData);
 
       console.log("Both files uploaded and processed successfully.");
     } catch (error) {

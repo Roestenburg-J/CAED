@@ -24,9 +24,22 @@ const Navbar: React.FC = () => {
   return (
     <AppBar position="fixed" sx={{ height: 64 }}>
       <Toolbar className={styles.Toolbar}>
-        <Typography variant="h6" className={styles.logo}>
-          CAED
-        </Typography>
+        <Link href="/" style={{ textDecoration: "none" }}>
+          <Typography
+            variant="h6"
+            sx={{
+              color: "white",
+              // fontWeight: "bold",
+              cursor: "pointer",
+              "&:hover": {
+                color: "rgba(255, 255, 255, 0.8)", // Change color on hover
+              },
+            }}
+          >
+            CAED
+          </Typography>
+        </Link>
+
         <div className={styles.navItems}>
           {navItems.map((item) => (
             <Link href={item.path} key={item.name}>

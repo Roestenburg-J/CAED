@@ -1069,3 +1069,377 @@
 2024-11-05 09:15:15,870 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:15] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 09:15:17,263 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:17] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 09:15:20,353 INFO: 192.168.144.1 - - [05/Nov/2024 09:15:20] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:45:05,282 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.192.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:45:05,283 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:45:15,683 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:503]
+2024-11-05 11:45:16,016 INFO: 192.168.192.1 - - [05/Nov/2024 11:45:16] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:47:15,268 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.208.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:47:15,269 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:47:20,161 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:513]
+2024-11-05 11:47:20,305 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0       -1              -1            -1  ...     -1      -1        -1
+1       -1              -1            -1  ...     -1      -1        -1
+2       -1              -1            -1  ...     -1      -1        -1
+3       -1              -1            -1  ...     -1      -1        -1
+4       -1              -1            -1  ...     -1      -1        -1
+..     ...             ...           ...  ...    ...     ...       ...
+995     -1              -1            -1  ...     -1      -1        -1
+996     -1              -1            -1  ...     -1      -1        -1
+997     -1              -1            -1  ...     -1      -1        -1
+998     -1              -1            -1  ...     -1      -1        -1
+999      1              -1            -1  ...     -1      -1        -1
+
+[1000 rows x 20 columns] [in /app/app.py:525]
+2024-11-05 11:47:20,564 INFO: 192.168.208.1 - - [05/Nov/2024 11:47:20] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:49:58,221 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.224.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:49:58,221 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:50:02,106 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:513]
+2024-11-05 11:50:02,214 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0       -1              -1            -1  ...     -1      -1        -1
+1       -1              -1            -1  ...     -1      -1        -1
+2       -1              -1            -1  ...     -1      -1        -1
+3       -1              -1            -1  ...     -1      -1        -1
+4       -1              -1            -1  ...     -1      -1        -1
+..     ...             ...           ...  ...    ...     ...       ...
+995     -1              -1            -1  ...     -1      -1        -1
+996     -1              -1            -1  ...     -1      -1        -1
+997     -1              -1            -1  ...     -1      -1        -1
+998     -1              -1            -1  ...     -1      -1        -1
+999      1              -1            -1  ...     -1      -1        -1
+
+[1000 rows x 20 columns] [in /app/app.py:525]
+2024-11-05 11:50:02,472 INFO: 192.168.224.1 - - [05/Nov/2024 11:50:02] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:50:42,578 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.240.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:50:42,579 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:50:50,129 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:513]
+2024-11-05 11:50:50,240 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0       -1              -1            -1  ...     -1      -1        -1
+1       -1              -1            -1  ...     -1      -1        -1
+2       -1              -1            -1  ...     -1      -1        -1
+3       -1              -1            -1  ...     -1      -1        -1
+4       -1              -1            -1  ...     -1      -1        -1
+..     ...             ...           ...  ...    ...     ...       ...
+995     -1              -1            -1  ...     -1      -1        -1
+996     -1              -1            -1  ...     -1      -1        -1
+997     -1              -1            -1  ...     -1      -1        -1
+998     -1              -1            -1  ...     -1      -1        -1
+999      1              -1            -1  ...     -1      -1        -1
+
+[1000 rows x 20 columns] [in /app/app.py:525]
+2024-11-05 11:50:50,457 INFO: 192.168.240.1 - - [05/Nov/2024 11:50:50] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:54:58,187 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:54:58,187 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:55:04,337 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:513]
+2024-11-05 11:55:04,484 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0       -1              -1            -1  ...     -1      -1        -1
+1       -1              -1            -1  ...     -1      -1        -1
+2       -1              -1            -1  ...     -1      -1        -1
+3       -1              -1            -1  ...     -1      -1        -1
+4       -1              -1            -1  ...     -1      -1        -1
+..     ...             ...           ...  ...    ...     ...       ...
+995     -1              -1            -1  ...     -1      -1        -1
+996     -1              -1            -1  ...     -1      -1        -1
+997     -1              -1            -1  ...     -1      -1        -1
+998     -1              -1            -1  ...     -1      -1        -1
+999      1              -1            -1  ...     -1      -1        -1
+
+[1000 rows x 20 columns] [in /app/app.py:525]
+2024-11-05 11:55:04,751 INFO: 172.18.0.1 - - [05/Nov/2024 11:55:04] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:56:16,030 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:56:16,030 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:56:22,368 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:513]
+2024-11-05 11:56:22,659 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:525]
+2024-11-05 11:56:22,904 INFO: 172.21.0.1 - - [05/Nov/2024 11:56:22] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:02,342 INFO: 172.21.0.1 - - [05/Nov/2024 11:57:02] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:02,858 INFO: 172.21.0.1 - - [05/Nov/2024 11:57:02] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:03,150 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:513]
+2024-11-05 11:57:03,455 INFO:      index  ProviderNumber  HospitalName  ...  Score  Sample  Stateavg
+0        0               0             0  ...      0       0         0
+1        0               0             0  ...      0       0         0
+2        0               0             0  ...      0       0         0
+3        0               0             0  ...      0       0         0
+4        0               0             0  ...      0       0         0
+..     ...             ...           ...  ...    ...     ...       ...
+995      0               0             0  ...      0       0         0
+996      0               0             0  ...      0       0         0
+997      0               0             0  ...      0       0         0
+998      0               0             0  ...      0       0         0
+999      1               0             0  ...      0       0         0
+
+[1000 rows x 20 columns] [in /app/app.py:525]
+2024-11-05 11:57:03,741 INFO: 172.21.0.1 - - [05/Nov/2024 11:57:03] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:05,611 INFO: 172.21.0.1 - - [05/Nov/2024 11:57:05] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:22,963 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:22,964 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:41,906 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:41] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:41,907 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:41] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:41,915 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:41] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:41,922 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:41] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:50,629 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:50] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:51,542 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:51] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:52,844 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:52] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 11:57:54,764 INFO: 172.22.0.1 - - [05/Nov/2024 11:57:54] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:02:34,857 INFO: 172.22.0.1 - - [05/Nov/2024 12:02:34] "POST /detect-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:02:35,245 INFO: 172.22.0.1 - - [05/Nov/2024 12:02:35] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:02:35,961 INFO: 172.22.0.1 - - [05/Nov/2024 12:02:35] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:02:43,353 INFO: 172.22.0.1 - - [05/Nov/2024 12:02:43] "POST /detect-dependency-violations HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:02:44,462 INFO: 172.22.0.1 - - [05/Nov/2024 12:02:44] "POST /detect-dependency-violations HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:26,877 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:26] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:26,883 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:26] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:26,888 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:26] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:26,897 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:26] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:34,339 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:34] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:35,205 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:35] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:36,147 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:36] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:08:38,369 INFO: 172.22.0.1 - - [05/Nov/2024 12:08:38] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:12:47,562 INFO: 172.22.0.1 - - [05/Nov/2024 12:12:47] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:12:47,568 INFO: 172.22.0.1 - - [05/Nov/2024 12:12:47] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:12:47,573 INFO: 172.22.0.1 - - [05/Nov/2024 12:12:47] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:12:47,573 INFO: 172.22.0.1 - - [05/Nov/2024 12:12:47] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:12:58,661 INFO: 172.22.0.1 - - [05/Nov/2024 12:12:58] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:12:59,517 INFO: 172.22.0.1 - - [05/Nov/2024 12:12:59] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:00,454 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:00] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:03,172 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:03] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:27,889 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:27] "POST /detect-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:28,707 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:28] "POST /detect-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:29,293 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:29] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:36,010 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:36] "POST /detect-dependency-violations HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:13:37,373 INFO: 172.22.0.1 - - [05/Nov/2024 12:13:37] "POST /detect-dependency-violations HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:30,107 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:30] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:30,117 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:30] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:30,120 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:30] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:30,129 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:30] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:42,191 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:42] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:42,362 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:42] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:44,376 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:44] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:16:47,300 INFO: 172.22.0.1 - - [05/Nov/2024 12:16:47] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:15,898 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:15] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:15,905 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:15] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:15,912 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:15] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:15,920 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:15] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:25,386 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:25] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:25,536 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:25] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:26,642 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:26] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:31:29,151 INFO: 172.22.0.1 - - [05/Nov/2024 12:31:29] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:35,705 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:35] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:35,718 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:35] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:35,719 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:35] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:35,727 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:35] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:43,251 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:43] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:43,974 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:43] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:45,289 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:45] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:41:47,856 INFO: 172.22.0.1 - - [05/Nov/2024 12:41:47] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:02,046 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:02] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:02,051 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:02] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:02,060 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:02] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:02,068 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:02] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:09,670 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:09] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:10,006 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:10] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:11,400 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:11] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:47:14,204 INFO: 172.22.0.1 - - [05/Nov/2024 12:47:14] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:38,820 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:38] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:38,826 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:38] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:38,831 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:38] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:38,837 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:38] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:45,937 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:45] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:46,692 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:46] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:47,518 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:47] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:53:49,472 INFO: 172.22.0.1 - - [05/Nov/2024 12:53:49] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:02,589 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:02] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:02,596 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:02] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:02,603 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:02] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:02,616 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:02] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:10,300 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:10] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:10,490 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:10] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:11,570 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:11] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 12:58:14,277 INFO: 172.22.0.1 - - [05/Nov/2024 12:58:14] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:00:54,668 INFO: 172.22.0.1 - - [05/Nov/2024 13:00:54] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:00:54,670 INFO: 172.22.0.1 - - [05/Nov/2024 13:00:54] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:00:54,675 INFO: 172.22.0.1 - - [05/Nov/2024 13:00:54] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:00:54,684 INFO: 172.22.0.1 - - [05/Nov/2024 13:00:54] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:01:11,776 INFO: 172.22.0.1 - - [05/Nov/2024 13:01:11] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:01:12,682 INFO: 172.22.0.1 - - [05/Nov/2024 13:01:12] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:01:13,265 INFO: 172.22.0.1 - - [05/Nov/2024 13:01:13] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:01:17,759 INFO: 172.22.0.1 - - [05/Nov/2024 13:01:17] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:17,299 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:17] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:17,303 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:17] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:17,307 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:17] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:17,314 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:17] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:25,104 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:25] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:25,679 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:25] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:26,495 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:26] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:10:28,888 INFO: 172.22.0.1 - - [05/Nov/2024 13:10:28] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:15:32,414 INFO: 172.22.0.1 - - [05/Nov/2024 13:15:32] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:15:32,980 INFO: 172.22.0.1 - - [05/Nov/2024 13:15:32] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:15:34,096 INFO: 172.22.0.1 - - [05/Nov/2024 13:15:34] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:15:36,528 INFO: 172.22.0.1 - - [05/Nov/2024 13:15:36] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:25:57,381 INFO: 172.22.0.1 - - [05/Nov/2024 13:25:57] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:25:57,396 INFO: 172.22.0.1 - - [05/Nov/2024 13:25:57] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:25:57,401 INFO: 172.22.0.1 - - [05/Nov/2024 13:25:57] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:25:57,441 INFO: 172.22.0.1 - - [05/Nov/2024 13:25:57] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:26:05,183 INFO: 172.22.0.1 - - [05/Nov/2024 13:26:05] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:26:05,508 INFO: 172.22.0.1 - - [05/Nov/2024 13:26:05] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:26:06,431 INFO: 172.22.0.1 - - [05/Nov/2024 13:26:06] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:26:08,560 INFO: 172.22.0.1 - - [05/Nov/2024 13:26:08] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:20,207 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:20] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:20,213 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:20] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:20,219 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:20] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:20,227 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:20] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:27,419 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:27] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:28,075 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:28] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:29,192 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:29] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:30:31,655 INFO: 172.22.0.1 - - [05/Nov/2024 13:30:31] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:45,695 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:45] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:45,696 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:45] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:45,697 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:45] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:45,697 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:45] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:53,231 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:53] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:53,740 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:53] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:55,338 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:55] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:40:58,571 INFO: 172.22.0.1 - - [05/Nov/2024 13:40:58] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:08,416 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:08] "[31m[1mPOST /evaluate-attribute-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:08,422 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:08] "[31m[1mPOST /evaluate-combined-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:08,435 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:08] "[31m[1mPOST /detect-dependencies HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:08,436 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:08] "[31m[1mPOST /evaluate-dependency-violation-errors HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:15,830 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:15] "POST /detect-dependencies HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:17,024 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:17] "POST /evaluate-combined-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:18,936 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:18] "POST /evaluate-attribute-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 13:46:21,855 INFO: 172.22.0.1 - - [05/Nov/2024 13:46:21] "POST /evaluate-dependency-violation-errors HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:12:49,616 INFO: 172.22.0.1 - - [05/Nov/2024 14:12:49] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:17:43,677 INFO: 172.22.0.1 - - [05/Nov/2024 14:17:43] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:20:15,269 INFO: 172.22.0.1 - - [05/Nov/2024 14:20:15] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:20:25,072 INFO: 172.22.0.1 - - [05/Nov/2024 14:20:25] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:20:25,097 INFO: 172.22.0.1 - - [05/Nov/2024 14:20:25] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:22:55,150 INFO: 172.22.0.1 - - [05/Nov/2024 14:22:55] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:22:55,172 INFO: 172.22.0.1 - - [05/Nov/2024 14:22:55] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:23:03,221 INFO: 172.22.0.1 - - [05/Nov/2024 14:23:03] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:23:03,242 INFO: 172.22.0.1 - - [05/Nov/2024 14:23:03] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:24:36,964 INFO: 172.22.0.1 - - [05/Nov/2024 14:24:36] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:28:17,700 INFO: 172.22.0.1 - - [05/Nov/2024 14:28:17] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:28:36,650 INFO: 172.22.0.1 - - [05/Nov/2024 14:28:36] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 14:30:26,588 INFO: 172.22.0.1 - - [05/Nov/2024 14:30:26] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]

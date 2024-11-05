@@ -43,24 +43,21 @@ app.secret_key = "supersecretkey"
 # app.config["UPLOAD_FOLDER"] = "uploads"
 app.config["ALLOWED_EXTENSIONS"] = {"csv"}
 
-# # Set up logging
-# logging.basicConfig(
-#     filename="app.log",  # Log file location
-#     level=logging.DEBUG,  # Log level (use DEBUG for verbose output)
-#     format="%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]",
-# )
+# Set up logging
+logging.basicConfig(
+    filename="app.log",  # Log file location
+    level=logging.DEBUG,  # Log level (use DEBUG for verbose output)
+    format="%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]",
+)
 
-# # Optionally, log to both file and console
-# console_handler = logging.StreamHandler()
-# console_handler.setLevel(logging.DEBUG)
-# formatter = logging.Formatter(
-#     "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
-# )
-# console_handler.setFormatter(formatter)
-# app.logger.addHandler(console_handler)
-
-# Ensure the upload folder exists
-# os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
+# Optionally, log to both file and console
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter(
+    "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
+)
+console_handler.setFormatter(formatter)
+app.logger.addHandler(console_handler)
 
 
 def allowed_file(filename):
@@ -503,6 +500,7 @@ def evaluate_attribute_errors():
 
         # Load the output
         annotated_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
+        # app.logger.info(annotated_output)
         prompt_metadata = pd.read_csv(
             f"./data/{dataset_folder}/attribute/prompt_metadata.csv"
         )
@@ -1060,6 +1058,10 @@ def get_dependency_violation_errors():
         return jsonify({"error": str(e)}), 500
 
 
+import os
+from flask import jsonify
+
+
 @app.route("/get-all-detections", methods=["GET"])
 def get_all_detections():
     try:
@@ -1089,12 +1091,26 @@ def get_all_detections():
                         else "detection"
                     )
 
+                    # Check for the existence of dependency, attribute, and dependency violation folders
+                    has_dependency = os.path.exists(
+                        os.path.join(folder_path, "dependency")
+                    )
+                    has_attribute = os.path.exists(
+                        os.path.join(folder_path, "attribute")
+                    )
+                    has_dependency_violations = os.path.exists(
+                        os.path.join(folder_path, "dependency_violations")
+                    )
+
                     # Append the detection info to the list
                     detections.append(
                         {
                             "dataset_name": dataset_name,
                             "timestamp": timestamp,
                             "type": detection_type,
+                            "used_dependency": has_dependency,
+                            "used_attribute": has_attribute,
+                            "used_dependency_violations": has_dependency_violations,
                         }
                     )
 

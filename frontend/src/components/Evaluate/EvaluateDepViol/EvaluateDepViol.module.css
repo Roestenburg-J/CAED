@@ -82,3 +82,10 @@
   justify-content: center;
   /* margin-left: 45%; */
 }
+
+.metrics {
+  display: grid;
+  place-items: center;
+  /* place-items: center; */
+  flex-grow: 1;
+}

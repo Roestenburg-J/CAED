@@ -80,21 +80,21 @@ def detect_dep_violations(
     for first_index, dependencies in grouped_dependencies.items():
         selected_columns = [
             dataset.columns[first_index]
-        ]  # Select columns based on the first index
+        ]  # Keep this if first_index is always an integer index
 
         for dep in dependencies:
-            columns = [
-                dep["column_1_name"],
-                dep["column_2_name"],
-            ]  # Access columns directly from the new format
+            columns = [dep["column_1_name"], dep["column_2_name"]]
             dependency_description = dep["dependency"]
-            try:
-                # Select the column names based on the new structure
-                selected_column_names = [dataset.columns[i] for i in columns]
-            except IndexError:
-                raise ValueError(
-                    f"Column index out of range in dataset for columns: {columns}"
-                )
+
+            # Select the column names directly since `columns` already has the names
+            selected_column_names = columns
+
+            # Verify that the selected columns actually exist in `dataset`
+            missing_columns = [
+                col for col in selected_column_names if col not in dataset.columns
+            ]
+            if missing_columns:
+                raise ValueError(f"Columns not found in dataset: {missing_columns}")
 
             # Select the columns by name
             selected_columns = dataset[selected_column_names]

@@ -232,7 +232,7 @@ def detect_dependencies():
         dataset = pd.read_csv(csv_file_path)
 
         filtered_top_buckets, buckets = create_buckets(dataset)
-        # dependency_detection(dataset, filtered_top_buckets, buckets, directory)
+        dependency_detection(dataset, filtered_top_buckets, buckets, directory)
         process_dependency_output(filtered_top_buckets, dataset, directory)
 
         # Load the output
@@ -288,7 +288,7 @@ def detect_dependency_violations():
         dataset = pd.read_csv(csv_file_path)
 
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        # detect_dep_violations(depedencies, dataset, directory)
+        detect_dep_violations(depedencies, dataset, directory)
         process_dep_violations_output(dataset, directory)
 
         # Load the output
@@ -371,98 +371,6 @@ def detect_combined_errors():
                     "message": "Combined errors detected!",
                     "annotated_output": combined_output_json,
                     "dataset_schema": schema,  # Include schema in the response
-                }
-            ),
-            200,
-        )
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
-@app.route("/calculate-dependency-accuracy", methods=["GET"])
-def calculate_dependency_accuracy():
-    try:
-        dataset = pd.read_csv("./data/dataset.csv")
-        clean_dataset = pd.read_csv("./data/cleaned_dataset.csv")
-
-        error_annotation = annotate_errors(clean_dataset, dataset)
-        output = pd.read_csv("./data/output/dependency_violations/output.csv")
-
-        accuracy, precision, recall, f_score = calculate_metrics(
-            error_annotation, output
-        )
-
-        # Might move the tp calculation someplace else
-        true_positive_df, false_positive_df, false_negative_df = inspect_classification(
-            error_annotation, output, dataset
-        )
-
-        true_positive_df.to_csv(
-            "./data/output/dependency_violations/true_positives.csv"
-        )
-        false_positive_df.to_csv(
-            "./data/output/dependency_violations/false_positives.csv"
-        )
-        false_negative_df.to_csv(
-            "./data/output/dependency_violations/false_negatives.csv"
-        )
-
-        return (
-            jsonify(
-                {
-                    "accuracy": accuracy,
-                    "precision": precision,
-                    "recall": recall,
-                    "f_score": f_score,
-                }
-            ),
-            200,
-        )
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
-@app.route("/calculate-overall-accuracy", methods=["GET"])
-def calculate_overall_accuracy():
-    try:
-        dataset = pd.read_csv("./data/dataset.csv")
-        clean_dataset = pd.read_csv("./data/cleaned_dataset.csv")
-
-        error_annotation = annotate_errors(clean_dataset, dataset)
-
-        # output = pd.read_csv("./data/output/dependency_violations/output.csv")
-        attribute_output = pd.read_csv("./data/output/attribute/output.csv")
-        dependency_output = pd.read_csv(
-            "./data/output/dependency_violations/output.csv"
-        )
-        process_combined_output(attribute_output, dependency_output)
-
-        combined_output = pd.read_csv(
-            "./data/output/consolidated_error_annotations.csv"
-        )
-
-        accuracy, precision, recall, f_score = calculate_metrics(
-            error_annotation, combined_output
-        )
-
-        # Might move the tp calculation someplace else
-        true_positive_df, false_positive_df, false_negative_df = inspect_classification(
-            error_annotation, combined_output, dataset
-        )
-
-        true_positive_df.to_csv("./data/output/true_positives.csv")
-        false_positive_df.to_csv("./data/output/false_positives.csv")
-        false_negative_df.to_csv("./data/output/false_negatives.csv")
-
-        return (
-            jsonify(
-                {
-                    "accuracy": accuracy,
-                    "precision": precision,
-                    "recall": recall,
-                    "f_score": f_score,
                 }
             ),
             200,
@@ -588,7 +496,7 @@ def evaluate_attribute_errors():
         dataset_clean = pd.read_csv(csv_clean_file_path)
 
         # Process the dataset (these functions should be defined elsewhere in your code)
-        # attribute_prompt(dataset_dirty, f"./data/{dataset_name}_{timestamp}/attribute")
+        attribute_prompt(dataset_dirty, f"./data/{dataset_name}_{timestamp}/attribute")
         process_attribute_output(
             dataset_dirty, f"./data/{dataset_name}_{timestamp}/attribute"
         )
@@ -694,7 +602,7 @@ def evaluate_dependecy_violation_errors():
 
         # Process the dataset (these functions should be defined elsewhere in your code)
         depedencies = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
-        # detect_dep_violations(depedencies, dataset_dirty, directory)
+        detect_dep_violations(depedencies, dataset_dirty, directory)
         process_dep_violations_output(dataset_dirty, directory)
 
         # Load the output
@@ -856,6 +764,340 @@ def evaluate_combined_errors():
             ),
             200,
         )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/get-attribute-errors", methods=["GET"])
+def get_attribute_errors():
+    try:
+        # Get the dataset name and timestamp from the query parameters
+        dataset_name = request.args.get("dataset_name", None)
+        timestamp = request.args.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {
+                        "error": "Both 'dataset_name' and 'timestamp' parameters are required"
+                    }
+                ),
+                400,
+            )
+
+        # Construct the file paths using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_dirty_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        csv_clean_file_path = os.path.join("./data", dataset_folder, "clean.csv")
+
+        # Load the dirty dataset
+        dataset_dirty = pd.read_csv(csv_dirty_file_path)
+
+        # Load the output
+        annotated_output = pd.read_csv(f"./data/{dataset_folder}/attribute/output.csv")
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/prompt_metadata.csv"
+        )
+        column_summary = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/column_summary.csv"
+        )
+
+        # Convert the output to JSON format
+        annotated_output_json = annotated_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
+        column_summary_json = column_summary.to_dict(orient="records")
+
+        # Extract the dataset schema (column names and indices)
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset_dirty.columns)
+        ]
+
+        # Check if the clean dataset exists
+        if not os.path.exists(csv_clean_file_path):
+            # If clean dataset does not exist, return response without TP, FP, FN, and metrics
+            return (
+                jsonify(
+                    {
+                        "message": "Attribute errors detected!",
+                        "annotated_output": annotated_output_json,  # Include annotated output in the response
+                        "prompt_metadata": prompt_metadata_json,
+                        "column_summary": column_summary_json,
+                        "dataset_schema": schema,  # Include schema in the response
+                        "dataset_size": dataset_dirty.shape[0],
+                    }
+                ),
+                200,
+            )
+
+        # Load the clean dataset if it exists
+        dataset_clean = pd.read_csv(csv_clean_file_path)
+
+        # Calculate error annotation
+        error_annotation = annotate_errors(dataset_clean, dataset_dirty)
+
+        # Calculate accuracy metrics
+        accuracy, precision, recall, f_score = calculate_metrics(
+            error_annotation, annotated_output
+        )
+
+        # Save TP, FP, FN
+        true_positive_df = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/true_positives.csv"
+        )
+        false_positive_df = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/false_positives.csv"
+        )
+        false_negative_df = pd.read_csv(
+            f"./data/{dataset_folder}/attribute/false_negatives.csv"
+        )
+
+        # Convert TP, FP, FN to JSON format
+        true_positive_json = true_positive_df.to_dict(orient="records")
+        false_positive_json = false_positive_df.to_dict(orient="records")
+        false_negative_json = false_negative_df.to_dict(orient="records")
+
+        # Return the full response with TP, FP, FN, and metrics if the clean dataset is found
+        return (
+            jsonify(
+                {
+                    "message": "Attribute errors detected!",
+                    "annotated_output": annotated_output_json,  # Include annotated output in the response
+                    "prompt_metadata": prompt_metadata_json,
+                    "column_summary": column_summary_json,
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset_dirty.shape[0],
+                    "true_positives": true_positive_json,
+                    "false_positives": false_positive_json,
+                    "false_negatives": false_negative_json,
+                    "metrics": {
+                        "accuracy": accuracy,
+                        "precision": precision,
+                        "recall": recall,
+                        "f_score": f_score,
+                    },
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/get-dependencies", methods=["GET"])
+def get_dependencies():
+    try:
+
+        dataset_name = request.args.get("dataset_name", None)
+        timestamp = request.args.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {"error": "Both 'name' and 'timestamp' parameters are required"}
+                ),
+                400,
+            )
+
+        # Construct the file path using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        directory = f"./data/{dataset_name}_{timestamp}/dependency"
+
+        # Load the dataset
+        dataset = pd.read_csv(csv_file_path)
+
+        # Load the output
+        dependecy_output = pd.read_csv(f"./data/{dataset_folder}/dependency/output.csv")
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/dependency/prompt_metadata.csv"
+        )
+        # Convert the output to JSON format
+        dependecy_output_json = dependecy_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
+
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset.columns)
+        ]
+
+        return (
+            jsonify(
+                {
+                    "message": "Dependencies detected!",
+                    "dependencies": dependecy_output_json,
+                    "prompt_metadata": prompt_metadata_json,
+                    "dataset_schema": schema,  # Include schema in the response
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/get-dependency-violation-errors", methods=["GET"])
+def get_dependency_violation_errors():
+    try:
+        # Get the dataset name and timestamp from the query parameters
+        dataset_name = request.args.get("dataset_name", None)
+        timestamp = request.args.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {
+                        "error": "Both 'dataset_name' and 'timestamp' parameters are required"
+                    }
+                ),
+                400,
+            )
+
+        # Construct the file paths using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_dirty_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        csv_clean_file_path = os.path.join("./data", dataset_folder, "clean.csv")
+
+        # Load the dirty dataset
+        dataset_dirty = pd.read_csv(csv_dirty_file_path)
+
+        # Load the output
+        dep_violation_output = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/output.csv"
+        )
+        prompt_metadata = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/prompt_metadata.csv"
+        )
+        column_summary = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/column_summary.csv"
+        )
+
+        # Convert the output to JSON format
+        dep_violation_output_json = dep_violation_output.to_dict(orient="records")
+        prompt_metadata_json = prompt_metadata.to_dict(orient="records")
+        column_summary_json = column_summary.to_dict(orient="records")
+
+        # Extract the dataset schema (column names and indices)
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset_dirty.columns)
+        ]
+
+        # Check if the clean dataset exists
+        if not os.path.exists(csv_clean_file_path):
+            # If clean dataset does not exist, return response without TP, FP, FN, and metrics
+            return (
+                jsonify(
+                    {
+                        "message": "Dependency violation errors detected!",
+                        "annotated_output": dep_violation_output_json,  # Include annotated output in the response
+                        "prompt_metadata": prompt_metadata_json,
+                        "column_summary": column_summary_json,
+                        "dataset_schema": schema,  # Include schema in the response
+                        "dataset_size": dataset_dirty.shape[0],
+                    }
+                ),
+                200,
+            )
+
+        # Load the clean dataset if it exists
+        dataset_clean = pd.read_csv(csv_clean_file_path)
+
+        # Calculate error annotation
+        error_annotation = annotate_errors(dataset_clean, dataset_dirty)
+
+        # Calculate accuracy metrics
+        accuracy, precision, recall, f_score = calculate_metrics(
+            error_annotation, dep_violation_output
+        )
+
+        # Read TP, FP, FN
+        true_positive_df = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/true_positives.csv"
+        )
+        false_positive_df = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/false_positives.csv"
+        )
+        false_negative_df = pd.read_csv(
+            f"./data/{dataset_folder}/dependency_violations/false_negatives.csv"
+        )
+
+        # Convert TP, FP, FN to JSON format
+        true_positive_json = true_positive_df.to_dict(orient="records")
+        false_positive_json = false_positive_df.to_dict(orient="records")
+        false_negative_json = false_negative_df.to_dict(orient="records")
+
+        # Return the full response with TP, FP, FN, and metrics if the clean dataset is found
+        return (
+            jsonify(
+                {
+                    "message": "Dependency violation errors detected!",
+                    "annotated_output": dep_violation_output_json,  # Include annotated output in the response
+                    "prompt_metadata": prompt_metadata_json,
+                    "column_summary": column_summary_json,
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset_dirty.shape[0],
+                    "true_positives": true_positive_json,
+                    "false_positives": false_positive_json,
+                    "false_negatives": false_negative_json,
+                    "metrics": {
+                        "accuracy": accuracy,
+                        "precision": precision,
+                        "recall": recall,
+                        "f_score": f_score,
+                    },
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/get-all-detections", methods=["GET"])
+def get_all_detections():
+    try:
+        # Path where datasets are stored
+        base_path = "./data"
+
+        # List to store all detections
+        detections = []
+
+        # Iterate over each subdirectory in the base path
+        for folder in os.listdir(base_path):
+            folder_path = os.path.join(base_path, folder)
+
+            # Check if the item is a directory
+            if os.path.isdir(folder_path):
+                # Split the folder name from the back to handle complex dataset names
+                parts = folder.rsplit("_", 2)
+                if len(parts) == 3:
+                    dataset_name = parts[0]
+                    timestamp = f"{parts[1]}_{parts[2]}"
+
+                    # Determine the type based on the presence of "clean.csv"
+                    csv_clean_file_path = os.path.join(folder_path, "clean.csv")
+                    detection_type = (
+                        "evaluation"
+                        if os.path.exists(csv_clean_file_path)
+                        else "detection"
+                    )
+
+                    # Append the detection info to the list
+                    detections.append(
+                        {
+                            "dataset_name": dataset_name,
+                            "timestamp": timestamp,
+                            "type": detection_type,
+                        }
+                    )
+
+        # Return the list of detections as a JSON response
+        return jsonify(detections), 200
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500

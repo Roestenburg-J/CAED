@@ -1016,3 +1016,12 @@
  * Running on http://192.168.80.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 07:54:20,297 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 07:57:22,041 INFO: 192.168.80.1 - - [05/Nov/2024 07:57:22] "[35m[1mGET /get-attribute-errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 07:58:38,149 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.96.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 07:58:38,149 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 07:58:43,042 INFO: 192.168.96.1 - - [05/Nov/2024 07:58:43] "GET /get-attribute-errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 07:58:50,197 INFO: 192.168.96.1 - - [05/Nov/2024 07:58:50] "[31m[1mGET /get-dependencies?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 400 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 07:59:15,212 INFO: 192.168.96.1 - - [05/Nov/2024 07:59:15] "GET /get-dependency-violation-errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-05 07:59:23,857 INFO: 192.168.96.1 - - [05/Nov/2024 07:59:23] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]

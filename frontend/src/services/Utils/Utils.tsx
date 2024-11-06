@@ -1,7 +1,7 @@
 import { application_service_url } from "@/config/config";
 
 type UploadParams = {
-  file: File;
+  file: File | undefined;
   datasetName: string;
 };
 

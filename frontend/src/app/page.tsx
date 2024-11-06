@@ -93,6 +93,7 @@ export default function Home() {
           <TableContainer
             component={Paper}
             className={styles.scrollableTableContainer}
+            sx={{ maxHeight: 200 }}
           >
             <Table
               sx={{ minWidth: 650 }}

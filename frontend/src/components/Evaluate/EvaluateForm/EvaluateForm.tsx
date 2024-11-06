@@ -90,8 +90,8 @@ const EvaluateForm = <T,>({
   const timestamp = searchParams.get("timestamp");
 
   const attribute_string = searchParams.get("attribute");
-  const dep_string = searchParams.get("attribute");
-  const dep_viol_string = searchParams.get("attribute");
+  const dep_string = searchParams.get("dep");
+  const dep_viol_string = searchParams.get("depViol");
 
   const attribute = attribute_string == "true" ? true : false;
   const dep = dep_string == "true" ? true : false;
@@ -146,25 +146,37 @@ const EvaluateForm = <T,>({
       ...(name === "violations" && checked ? { dependency: true } : {}),
     }));
   };
-
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-
-    // Check for errors before proceeding
     if (!uploadedFiles.dirty || !uploadedFiles.clean) {
       console.error("Both files must be uploaded.");
       return;
     }
-    if (
-      !detectionSettings.attribute &&
-      !detectionSettings.dependency &&
-      !detectionSettings.violations
-    ) {
-      console.error("At least one detection option must be selected.");
-      return;
-    }
+    const { dirty, clean } = uploadedFiles;
+    const dirtyFileName = dirty.name.replace(/\.[^/.]+$/, "");
 
-    // Reset error states
+    const fileResponse = await uploadEvaluateDataset({
+      dirty_file: dirty,
+      clean_file: clean,
+      datasetName: `${dirtyFileName}`,
+    });
+    // const fileResponse = {
+    //   dataset_name: "hospital_1",
+    //   timestamp: "20241030_123153",
+    // };
+    setFileResults({
+      dataset_name: fileResponse.dataset_name,
+      timestamp: fileResponse.timestamp,
+    });
+    const dirtyData = await parseFile(dirty);
+    const cleanData = await parseFile(clean);
+    setDataset(dirtyData);
+    setFileUploadState((prev) => ({
+      dirty: { ...prev.dirty, loading: false },
+      clean: { ...prev.clean, loading: false },
+    }));
+
+    // Reset error, loading, and requested states
     setDetectionError({
       attribute: false,
       dependency: false,
@@ -184,124 +196,244 @@ const EvaluateForm = <T,>({
       combined: false,
     });
 
-    // Handle file uploads and parsing
-    const { dirty, clean } = uploadedFiles;
+    if (detectionSettings.attribute && detectionSettings.violations) {
+      setLoadingStates((prev) => ({ ...prev, combined: true }));
+      setRequestedStates((prev) => ({ ...prev, combined: true }));
+    }
+    // Prepare detection promises
+    const attributePromise = detectionSettings.attribute
+      ? (setRequestedStates((prev) => ({ ...prev, attribute: true })),
+        setLoadingStates((prev) => ({ ...prev, attribute: true })),
+        evaluateAttributeErrors(
+          fileResponse.dataset_name,
+          fileResponse.timestamp
+        )
+          .then((result) => setAttributeResults(result))
+          .catch((error) => {
+            console.error("Error detecting attribute:", error);
+            setDetectionError((prev) => ({ ...prev, attribute: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, attribute: false }))
+          ))
+      : Promise.resolve();
 
-    try {
-      setFileUploadState((prev) => ({
-        ...prev,
-        dirty: { ...prev.dirty, loading: true },
-        clean: { ...prev.clean, loading: true },
-      }));
+    const dependencyPromise = detectionSettings.dependency
+      ? (setRequestedStates((prev) => ({ ...prev, dependency: true })),
+        setLoadingStates((prev) => ({ ...prev, dependency: true })),
+        detectDependencies(fileResponse.dataset_name, fileResponse.timestamp)
+          .then((result) => setDependencyResults(result))
+          .catch((error) => {
+            console.error("Error detecting dependency:", error);
+            setDetectionError((prev) => ({ ...prev, dependency: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, dependency: false }))
+          ))
+      : Promise.resolve();
 
-      // Get file names without extensions
-      const dirtyFileName = dirty.name.replace(/\.[^/.]+$/, "");
-      // const cleanFileName = clean.name.replace(/\.[^/.]+$/, "");
-
-      // Upload the datasets
-      const fileResponse = await uploadEvaluateDataset({
-        dirty_file: dirty,
-        clean_file: clean,
-        datasetName: `${dirtyFileName}`,
-      });
-
-      setFileResults({
-        dataset_name: fileResponse.dataset_name,
-        timestamp: fileResponse.timestamp,
-      });
-      // setFileResults({
-      //   dataset_name: "hospital",
-      //   timestamp: "20241104_172717",
-      // });
-
-      // Parse both files based on their type
-      const dirtyData = await parseFile(dirty);
-      const cleanData = await parseFile(clean);
-
-      // Store parsed datasets
-      setDataset(dirtyData);
-
-      console.log("Both files uploaded and processed successfully.");
-    } catch (error) {
-      console.error("An error occurred during file processing:", error);
-      setFileUploadState((prev) => ({
-        dirty: { loading: false, success: false, error: true },
-        clean: { loading: false, success: false, error: true },
-      }));
-      return;
-    } finally {
-      setFileUploadState((prev) => ({
-        dirty: { ...prev.dirty, loading: false },
-        clean: { ...prev.clean, loading: false },
-      }));
+    // Violation detection: start loading if checked, run after dependency completes
+    let violationPromise = Promise.resolve();
+    if (detectionSettings.violations) {
+      setRequestedStates((prev) => ({ ...prev, violations: true }));
+      setLoadingStates((prev) => ({ ...prev, violations: true }));
+      violationPromise = dependencyPromise.then(() =>
+        evaluateDepViolations(fileResponse.dataset_name, fileResponse.timestamp)
+          .then((result) => setDepViolationResults(result))
+          .catch((error) => {
+            console.error("Error detecting violations:", error);
+            setDetectionError((prev) => ({ ...prev, violations: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, violations: false }))
+          )
+      );
     }
 
-    // Prepare detection requests
-    const detectionRequests = [
-      {
-        condition: detectionSettings.attribute,
-        action: evaluateAttributeErrors,
-        setResults: setAttributeResults,
-        key: "attribute",
-      },
-      {
-        condition: detectionSettings.dependency,
-        action: detectDependencies,
-        setResults: setDependencyResults,
-        key: "dependency",
-      },
-      {
-        condition: detectionSettings.violations,
-        action: evaluateDepViolations,
-        setResults: setDepViolationResults,
-        key: "violations",
-      },
-      {
-        condition:
-          detectionSettings.attribute &&
-          detectionSettings.dependency &&
-          detectionSettings.violations,
-        action: evaluateCombinedResults,
-        setResults: setCombinedOutput,
-        key: "combined",
-      },
-    ];
+    // Combined detection: only after attribute, dependency, and violations complete if all are checked
+    const combinedPromise = Promise.all([
+      detectionSettings.attribute ? attributePromise : Promise.resolve(),
+      detectionSettings.dependency ? dependencyPromise : Promise.resolve(),
+      detectionSettings.violations ? violationPromise : Promise.resolve(),
+    ]).then(() => {
+      if (
+        detectionSettings.attribute &&
+        detectionSettings.dependency &&
+        detectionSettings.violations
+      ) {
+        setRequestedStates((prev) => ({ ...prev, combined: true }));
+        setLoadingStates((prev) => ({ ...prev, combined: true }));
+        return evaluateCombinedResults(
+          fileResponse.dataset_name,
+          fileResponse.timestamp
+        )
+          .then((result) => setCombinedOutput(result))
+          .catch((error) => {
+            console.error("Combined Detection failed:", error);
+            setDetectionError((prev) => ({ ...prev, combined: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, combined: false }))
+          );
+      }
+    });
 
-    const promises = detectionRequests
-      .filter((request) => request.condition)
-      .map((request) => {
-        setRequestedStates((prev) => ({
-          ...prev,
-          [request.key]: true,
-        }));
-        setLoadingStates((prev) => ({ ...prev, [request.key]: true }));
-
-        return {
-          key: request.key,
-          promise: request
-            .action(fileResults.dataset_name, fileResults.timestamp)
-            .then((result) => {
-              request.setResults(result);
-            })
-            .catch((error) => {
-              console.error(`Error detecting ${request.key}:`, error);
-              setDetectionError((prev) => ({
-                ...prev,
-                [request.key]: true,
-              }));
-            })
-            .finally(() => {
-              setLoadingStates((prev) => ({
-                ...prev,
-                [request.key]: false,
-              }));
-            }),
-        };
-      });
-
-    // Await all detection promises to complete
-    await Promise.all(promises.map((p) => p.promise));
+    // Await all promises
+    await Promise.all([
+      attributePromise,
+      dependencyPromise,
+      violationPromise,
+      combinedPromise,
+    ]);
   };
+  // const handleSubmit = async (event: React.FormEvent) => {
+  //   event.preventDefault();
+
+  //   // Check for errors before proceeding
+  //   if (!uploadedFiles.dirty || !uploadedFiles.clean) {
+  //     console.error("Both files must be uploaded.");
+  //     return;
+  //   }
+  //   if (
+  //     !detectionSettings.attribute &&
+  //     !detectionSettings.dependency &&
+  //     !detectionSettings.violations
+  //   ) {
+  //     console.error("At least one detection option must be selected.");
+  //     return;
+  //   }
+
+  //   // Reset error states
+  //   setDetectionError({
+  //     attribute: false,
+  //     dependency: false,
+  //     violations: false,
+  //     combined: false,
+  //   });
+  //   setLoadingStates({
+  //     attribute: false,
+  //     dependency: false,
+  //     violations: false,
+  //     combined: false,
+  //   });
+  //   setRequestedStates({
+  //     attribute: false,
+  //     dependency: false,
+  //     violations: false,
+  //     combined: false,
+  //   });
+
+  //   // File upload and parsing
+  //   const { dirty, clean } = uploadedFiles;
+  //   try {
+  //     setFileUploadState((prev) => ({
+  //       ...prev,
+  //       dirty: { ...prev.dirty, loading: true },
+  //       clean: { ...prev.clean, loading: true },
+  //     }));
+
+  //     const dirtyFileName = dirty.name.replace(/\.[^/.]+$/, "");
+  //     const fileResponse = await uploadEvaluateDataset({
+  //       dirty_file: dirty,
+  //       clean_file: clean,
+  //       datasetName: `${dirtyFileName}`,
+  //     });
+
+  //     // Ensure fileResults are set
+  //     setFileResults({
+  //       dataset_name: fileResponse.dataset_name,
+  //       timestamp: fileResponse.timestamp,
+  //     });
+
+  //     // Wait for the state update to complete before proceeding
+  //     await new Promise((resolve) => setTimeout(resolve, 0));
+
+  //     // Parse uploaded files
+  //     const dirtyData = await parseFile(dirty);
+  //     const cleanData = await parseFile(clean);
+  //     setDataset(dirtyData);
+
+  //     console.log("Both files uploaded and processed successfully.");
+  //   } catch (error) {
+  //     console.error("An error occurred during file processing:", error);
+  //     setFileUploadState((prev) => ({
+  //       dirty: { loading: false, success: false, error: true },
+  //       clean: { loading: false, success: false, error: true },
+  //     }));
+  //     return;
+  //   } finally {
+  //     setFileUploadState((prev) => ({
+  //       dirty: { ...prev.dirty, loading: false },
+  //       clean: { ...prev.clean, loading: false },
+  //     }));
+  //   }
+
+  //   // Prepare detection requests
+  //   const detectionRequests = [
+  //     {
+  //       condition: detectionSettings.attribute,
+  //       action: evaluateAttributeErrors,
+  //       setResults: setAttributeResults,
+  //       key: "attribute",
+  //     },
+  //     {
+  //       condition: detectionSettings.dependency,
+  //       action: detectDependencies,
+  //       setResults: setDependencyResults,
+  //       key: "dependency",
+  //     },
+  //     {
+  //       condition: detectionSettings.violations,
+  //       action: evaluateDepViolations,
+  //       setResults: setDepViolationResults,
+  //       key: "violations",
+  //     },
+  //     {
+  //       condition:
+  //         detectionSettings.attribute &&
+  //         detectionSettings.dependency &&
+  //         detectionSettings.violations,
+  //       action: evaluateCombinedResults,
+  //       setResults: setCombinedOutput,
+  //       key: "combined",
+  //     },
+  //   ];
+
+  //   const promises = detectionRequests
+  //     .filter((request) => request.condition)
+  //     .map((request) => {
+  //       setRequestedStates((prev) => ({
+  //         ...prev,
+  //         [request.key]: true,
+  //       }));
+  //       setLoadingStates((prev) => ({ ...prev, [request.key]: true }));
+
+  //       return {
+  //         key: request.key,
+  //         promise: request
+  //           .action(fileResults.dataset_name, fileResults.timestamp)
+  //           .then((result) => {
+  //             request.setResults(result);
+  //           })
+  //           .catch((error) => {
+  //             console.error(`Error detecting ${request.key}:`, error);
+  //             setDetectionError((prev) => ({
+  //               ...prev,
+  //               [request.key]: true,
+  //             }));
+  //           })
+  //           .finally(() => {
+  //             setLoadingStates((prev) => ({
+  //               ...prev,
+  //               [request.key]: false,
+  //             }));
+  //           }),
+  //       };
+  //     });
+
+  //   // Await all detection promises to complete
+  //   await Promise.all(promises.map((p) => p.promise));
+  // };
 
   const parseFile = async (file: File) => {
     const fileExtension = file.name.split(".").pop()?.toLowerCase();

@@ -101,8 +101,8 @@ const DetectionForm = <T,>({
   const timestamp = searchParams.get("timestamp");
 
   const attribute_string = searchParams.get("attribute");
-  const dep_string = searchParams.get("attribute");
-  const dep_viol_string = searchParams.get("attribute");
+  const dep_string = searchParams.get("dep");
+  const dep_viol_string = searchParams.get("depViol");
 
   const attribute = attribute_string == "true" ? true : false;
   const dep = dep_string == "true" ? true : false;
@@ -124,46 +124,41 @@ const DetectionForm = <T,>({
     timestamp: "",
   });
 
+  const [selectedFile, setSelectedFile] = useState<File>();
+  const [filename, setFilename] = useState("");
+
   const handleFileChange = async (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    const selectedFile = event.target.files?.[0];
-    if (!selectedFile) return;
+    const file = event.target.files?.[0];
+    if (!file) {
+      return;
+    } else {
+      setSelectedFile(file); // Set the selected file
+      setFileUploadLoading(false);
+      setFileUploadSuccess(true);
+    } // Exit if no file is selected
 
-    setFileUploadLoading(true);
-    const filenameWithoutExt = selectedFile.name.replace(/\.[^/.]+$/, "");
-    const fileExtension = selectedFile.name.split(".").pop()?.toLowerCase();
+    // Extract file name and extension
+    const filenameWithoutExt = file.name.replace(/\.[^/.]+$/, "");
+    const fileExtension = file.name.split(".").pop()?.toLowerCase();
+    setFilename(filenameWithoutExt);
 
     try {
-      const fileResponse = await uploadDataset({
-        file: selectedFile,
-        datasetName: filenameWithoutExt,
-      });
-      // const fileResponse = {
-      //   dataset_name: "hospital_1",
-      //   timestamp: "20241030_123153",
-      // };
-      setFileResults({
-        dataset_name: fileResponse.dataset_name,
-        timestamp: fileResponse.timestamp,
-      });
-      setFileUploadSuccess(true);
-      setInputError((prev) => ({ ...prev, file: false })); // Reset file error
-
       let parsedData;
 
       // Parsing logic based on file type
       if (fileExtension === "csv") {
-        const fileContent = await selectedFile.text();
+        const fileContent = await file.text();
         parsedData = Papa.parse(fileContent, {
           header: true,
           skipEmptyLines: true,
         }).data;
       } else if (fileExtension === "json") {
-        const fileContent = await selectedFile.text();
+        const fileContent = await file.text();
         parsedData = JSON.parse(fileContent);
       } else if (fileExtension === "xlsx" || fileExtension === "xls") {
-        const arrayBuffer = await selectedFile.arrayBuffer();
+        const arrayBuffer = await file.arrayBuffer();
         const workbook = XLSX.read(arrayBuffer, { type: "array" });
         const firstSheetName = workbook.SheetNames[0];
         const worksheet = workbook.Sheets[firstSheetName];
@@ -191,12 +186,22 @@ const DetectionForm = <T,>({
     }));
   };
 
-  const handleTestSubmit = async (event: React.FormEvent) => {
-    console.log(fileResults.dataset_name);
-    console.log(fileResults.timestamp);
-  };
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+    const fileResponse = await uploadDataset({
+      file: selectedFile,
+      datasetName: filename,
+    });
+    // const fileResponse = {
+    //   dataset_name: "hospital_1",
+    //   timestamp: "20241030_123153",
+    // };
+    setFileResults({
+      dataset_name: fileResponse.dataset_name,
+      timestamp: fileResponse.timestamp,
+    });
+    setFileUploadSuccess(true);
+    setInputError((prev) => ({ ...prev, file: false })); // Reset file error
 
     // Check for errors
     if (!fileUploadSuccess) {
@@ -212,157 +217,112 @@ const DetectionForm = <T,>({
       return;
     }
 
-    // Reset error states
+    // Reset error, loading, and requested states
     setDetectionError({
       attribute: false,
       dependency: false,
       violations: false,
-      combined: false, // Reset combined error state
+      combined: false,
     });
     setLoadingStates({
       attribute: false,
       dependency: false,
       violations: false,
-      combined: false, // Reset combined loading state
+      combined: false,
     });
     setRequestedStates({
       attribute: false,
       dependency: false,
       violations: false,
-      combined: false, // Reset combined requested state
+      combined: false,
     });
 
-    // Prepare detection requests with actions and keys
-    const detectionRequests = [
-      {
-        condition: detectionSettings.attribute,
-        action: detectAttributeErrors,
-        setResults: setAttributeResults,
-        key: "attribute",
-      },
-      {
-        condition: detectionSettings.dependency,
-        action: detectDependencies,
-        setResults: setDependencyResults,
-        key: "dependency",
-      },
-      {
-        condition: detectionSettings.violations,
-        action: detectDepViolations,
-        setResults: setDepViolationResults,
-        key: "violations",
-      },
-      {
-        condition:
-          detectionSettings.attribute &&
-          detectionSettings.dependency &&
-          detectionSettings.violations,
-        action: retreiveCombinedResults,
-        setResults: setCombinedOutput,
-        key: "combined",
-      },
-    ];
-
-    // Create an array of promises based on conditions
-    const promises = detectionRequests
-      .filter((request) => request.condition) // Filter out requests that are not needed
-      .map((request) => {
-        setRequestedStates((prev) => ({
-          ...prev,
-          [request.key]: true,
-        }));
-        setLoadingStates((prev) => ({ ...prev, [request.key]: true }));
-
-        // Return an object containing both the key and the promise
-        return {
-          key: request.key,
-          promise: request
-            .action(fileResults.dataset_name, fileResults.timestamp)
-            .then((result) => {
-              request.setResults(result);
-              // console.log(result);
-            })
-            .catch((error) => {
-              console.error(`Error detecting ${request.key}:`, error);
-              setDetectionError((prev) => ({
-                ...prev,
-                [request.key]: true,
-              }));
-            })
-            .finally(() => {
-              setLoadingStates((prev) => ({
-                ...prev,
-                [request.key]: false,
-              }));
-            }),
-        };
-      });
-
-    // Find the dependency detection promise
-    const dependencyRequest = promises.find((req) => req.key === "dependency");
-
-    // If dependency detection is needed and succeeded, execute violation detection
-    if (dependencyRequest) {
-      try {
-        await dependencyRequest.promise; // Wait for dependency detection to complete successfully
-
-        // If violation detection is needed, execute it after dependency detection completes
-        if (detectionSettings.violations) {
-          const violationPromise = detectDepViolations(
-            fileResults.dataset_name,
-            fileResults.timestamp
-          )
-            .then((result) => {
-              setDepViolationResults(result);
-              // console.log(result);
-            })
-            .catch((error) => {
-              console.error(`Error detecting violations:`, error);
-              setDetectionError((prev) => ({
-                ...prev,
-                violations: true,
-              }));
-            })
-            .finally(() => {
-              setLoadingStates((prev) => ({
-                ...prev,
-                violations: false,
-              }));
-            });
-          promises.push({ key: "violations", promise: violationPromise });
-        }
-      } catch (error) {
-        console.error("Dependency Detection failed:", error);
-        setDetectionError((prev) => ({
-          ...prev,
-          dependency: true,
-        }));
-      }
-    }
-
-    // Execute all other concurrent requests
-    await Promise.all(promises.map((req) => req.promise));
-
-    // Handle the combined results detection
-    const combinedRequest = promises.find((req) => req.key === "combined");
-    if (combinedRequest) {
-      setRequestedStates((prev) => ({ ...prev, combined: true }));
+    if (detectionSettings.attribute && detectionSettings.violations) {
       setLoadingStates((prev) => ({ ...prev, combined: true }));
-      try {
-        await combinedRequest.promise; // Wait for combined results to complete successfully
-      } catch (error) {
-        console.error("Combined Detection failed:", error);
-        setDetectionError((prev) => ({
-          ...prev,
-          combined: true,
-        }));
-      } finally {
-        setLoadingStates((prev) => ({
-          ...prev,
-          combined: false,
-        }));
-      }
+      setRequestedStates((prev) => ({ ...prev, combined: true }));
     }
+    // Prepare detection promises
+    const attributePromise = detectionSettings.attribute
+      ? (setRequestedStates((prev) => ({ ...prev, attribute: true })),
+        setLoadingStates((prev) => ({ ...prev, attribute: true })),
+        detectAttributeErrors(fileResponse.dataset_name, fileResponse.timestamp)
+          .then((result) => setAttributeResults(result))
+          .catch((error) => {
+            console.error("Error detecting attribute:", error);
+            setDetectionError((prev) => ({ ...prev, attribute: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, attribute: false }))
+          ))
+      : Promise.resolve();
+
+    const dependencyPromise = detectionSettings.dependency
+      ? (setRequestedStates((prev) => ({ ...prev, dependency: true })),
+        setLoadingStates((prev) => ({ ...prev, dependency: true })),
+        detectDependencies(fileResponse.dataset_name, fileResponse.timestamp)
+          .then((result) => setDependencyResults(result))
+          .catch((error) => {
+            console.error("Error detecting dependency:", error);
+            setDetectionError((prev) => ({ ...prev, dependency: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, dependency: false }))
+          ))
+      : Promise.resolve();
+
+    // Violation detection: start loading if checked, run after dependency completes
+    let violationPromise = Promise.resolve();
+    if (detectionSettings.violations) {
+      setRequestedStates((prev) => ({ ...prev, violations: true }));
+      setLoadingStates((prev) => ({ ...prev, violations: true }));
+      violationPromise = dependencyPromise.then(() =>
+        detectDepViolations(fileResponse.dataset_name, fileResponse.timestamp)
+          .then((result) => setDepViolationResults(result))
+          .catch((error) => {
+            console.error("Error detecting violations:", error);
+            setDetectionError((prev) => ({ ...prev, violations: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, violations: false }))
+          )
+      );
+    }
+
+    // Combined detection: only after attribute, dependency, and violations complete if all are checked
+    const combinedPromise = Promise.all([
+      detectionSettings.attribute ? attributePromise : Promise.resolve(),
+      detectionSettings.dependency ? dependencyPromise : Promise.resolve(),
+      detectionSettings.violations ? violationPromise : Promise.resolve(),
+    ]).then(() => {
+      if (
+        detectionSettings.attribute &&
+        detectionSettings.dependency &&
+        detectionSettings.violations
+      ) {
+        setRequestedStates((prev) => ({ ...prev, combined: true }));
+        setLoadingStates((prev) => ({ ...prev, combined: true }));
+        return retreiveCombinedResults(
+          fileResponse.dataset_name,
+          fileResponse.timestamp
+        )
+          .then((result) => setCombinedOutput(result))
+          .catch((error) => {
+            console.error("Combined Detection failed:", error);
+            setDetectionError((prev) => ({ ...prev, combined: true }));
+          })
+          .finally(() =>
+            setLoadingStates((prev) => ({ ...prev, combined: false }))
+          );
+      }
+    });
+
+    // Await all promises
+    await Promise.all([
+      attributePromise,
+      dependencyPromise,
+      violationPromise,
+      combinedPromise,
+    ]);
   };
 
   const fetchData = async (
@@ -607,6 +567,14 @@ const DetectionForm = <T,>({
         >
           Detect Errors
         </Button>
+        {/* <Button
+          onClick={() => {
+            console.log(dep_string);
+          }}
+        >
+          Log
+        </Button> */}
+
         {/* {inputError.file || inputError.detection ? (
           <Tooltip
             title={

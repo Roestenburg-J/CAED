@@ -3,14 +3,28 @@ import pandas as pd
 import os
 from openai import OpenAI
 import time
+import json
 from pydantic import BaseModel
 
 
-client = OpenAI(
-    organization="org-Efj3WwiBs01tiD9ogyAb1vgz",
-    project="proj_ItFIKb0eOHXEFM65qPMVLpHt",
-    api_key="sk-proj-waDJ9nwjNNOcQa6Ol0epT3BlbkFJbwwL9qZnqZmBMVCwtvOX",
-)
+def load_settings():
+    settings_path = "./user_settings/settings.json"
+    required_fields = ["gpt_organization", "gpt_project", "gpt_api", "gpt_model"]
+
+    if not os.path.exists(settings_path):
+        raise FileNotFoundError(
+            "Settings file not found. Please create settings.json with the required fields."
+        )
+
+    with open(settings_path, "r") as f:
+        settings = json.load(f)
+
+    # Check if all required fields are present
+    for field in required_fields:
+        if field not in settings:
+            raise ValueError(f"Missing required setting: {field}")
+
+    return settings
 
 
 def write_output(
@@ -104,11 +118,36 @@ def prompt_gpt(
     class Output(BaseModel):
         output: list[str]
 
+    # gpt_organization: str,
+    # gpt_project: str,
+    # gpt_api: str,
+    # gpt_model: str,
+
+    try:
+        settings = load_settings()
+        gpt_organization = settings["gpt_organization"]
+        gpt_project = settings["gpt_project"]
+        gpt_api = settings["gpt_api"]
+        gpt_model = settings["gpt_model"]
+    except (FileNotFoundError, ValueError) as e:
+        print(str(e))
+        return 0, 0, 0, f"Error: {str(e)}"
+
+    # Define output format with Pydantic
+    class Output(BaseModel):
+        output: list[str]
+
+    # Initialize OpenAI client with loaded settings
+    client = OpenAI(
+        organization=gpt_organization,
+        project=gpt_project,
+        api_key=gpt_api,
+    )
     try:
         start_time = time.time()
 
         completion = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=gpt_model,
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},

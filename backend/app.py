@@ -845,13 +845,13 @@ def get_attribute_errors():
         # Save TP, FP, FN
         true_positive_df = pd.read_csv(
             f"./data/{dataset_folder}/attribute/true_positives.csv"
-        )
+        ).replace(to_replace="0", value=0)
         false_positive_df = pd.read_csv(
             f"./data/{dataset_folder}/attribute/false_positives.csv"
-        )
+        ).replace(to_replace="0", value=0)
         false_negative_df = pd.read_csv(
             f"./data/{dataset_folder}/attribute/false_negatives.csv"
-        )
+        ).replace(to_replace="0", value=0)
 
         # Convert TP, FP, FN to JSON format
         true_positive_json = true_positive_df.to_dict(orient="records")
@@ -1017,13 +1017,13 @@ def get_dependency_violation_errors():
         # Read TP, FP, FN
         true_positive_df = pd.read_csv(
             f"./data/{dataset_folder}/dependency_violations/true_positives.csv"
-        )
+        ).replace(to_replace="0", value=0)
         false_positive_df = pd.read_csv(
             f"./data/{dataset_folder}/dependency_violations/false_positives.csv"
-        )
+        ).replace(to_replace="0", value=0)
         false_negative_df = pd.read_csv(
             f"./data/{dataset_folder}/dependency_violations/false_negatives.csv"
-        )
+        ).replace(to_replace="0", value=0)
 
         # Convert TP, FP, FN to JSON format
         true_positive_json = true_positive_df.to_dict(orient="records")
@@ -1124,9 +1124,15 @@ def get_combined_errors():
         )
 
         # Read TP, FP, FN
-        true_positive_df = pd.read_csv(f"./data/{dataset_folder}/true_positives.csv")
-        false_positive_df = pd.read_csv(f"./data/{dataset_folder}/false_positives.csv")
-        false_negative_df = pd.read_csv(f"./data/{dataset_folder}/false_negatives.csv")
+        true_positive_df = pd.read_csv(
+            f"./data/{dataset_folder}/true_positives.csv"
+        ).replace(to_replace="0", value=0)
+        false_positive_df = pd.read_csv(
+            f"./data/{dataset_folder}/false_positives.csv"
+        ).replace(to_replace="0", value=0)
+        false_negative_df = pd.read_csv(
+            f"./data/{dataset_folder}/false_negatives.csv"
+        ).replace(to_replace="0", value=0)
 
         # Convert TP, FP, FN to JSON format
         true_positive_json = true_positive_df.to_dict(orient="records")

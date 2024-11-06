@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
+import SettingsIcon from "@mui/icons-material/Settings";
 
 const navItems = [
   { name: "Detect", path: "/detect" },
@@ -59,6 +60,17 @@ const Navbar: React.FC = () => {
               </Button>
             </Link>
           ))}
+          <Button
+            sx={{
+              color: "white", // Set button text color to white
+              "&:hover": {
+                backgroundColor: "rgba(255, 255, 255, 0.2)", // Optional: Change background color on hover
+              },
+            }}
+          >
+            <SettingsIcon />
+            {/* Settings */}
+          </Button>
         </div>
       </Toolbar>
     </AppBar>

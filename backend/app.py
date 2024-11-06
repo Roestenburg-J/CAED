@@ -12,6 +12,7 @@ import os
 import io
 import logging
 import pandas as pd
+import json
 from datetime import datetime
 
 # Imports for attribute level error detection
@@ -29,12 +30,18 @@ from utils.data_utils import create_buckets
 from services.dependency_detection import dependency_detection
 from utils.output_utils import process_dependency_output
 
+# Settings utils
+from utils.prompting_utils import load_settings as load_detailed_settings
+
 # # from modules import tuple_analyzer
 # from backend.modules.AttributeProcessor import attribute_prompt
 
 # # from modules.dependency_detection import
 from config import DevelopmentConfig
 
+# organization="org-Efj3WwiBs01tiD9ogyAb1vgz",
+#         project="proj_ItFIKb0eOHXEFM65qPMVLpHt",
+#         api_key="sk-proj-waDJ9nwjNNOcQa6Ol0epT3BlbkFJbwwL9qZnqZmBMVCwtvOX",
 
 app = Flask(__name__)
 CORS(app)
@@ -42,6 +49,7 @@ app.config.from_object(DevelopmentConfig)
 app.secret_key = "supersecretkey"
 # app.config["UPLOAD_FOLDER"] = "uploads"
 app.config["ALLOWED_EXTENSIONS"] = {"csv"}
+SETTINGS_FILE = "./user_settings/settings.json"
 
 # Set up logging
 logging.basicConfig(
@@ -101,6 +109,7 @@ def upload_dataset():
         )
 
     try:
+
         # Convert to DataFrame based on file extension
         if file_ext == ".csv":
             df = pd.read_csv(file)
@@ -113,6 +122,13 @@ def upload_dataset():
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         dataset_dir = os.path.join("./data", f"{dataset_name}_{timestamp}")
         os.makedirs(dataset_dir, exist_ok=True)
+
+        settings = load_detailed_settings()
+        gpt_model = settings["gpt_model"]
+
+        model_file_path = os.path.join(dataset_dir, "gpt_model.txt")
+        with open(model_file_path, "w") as model_file:
+            model_file.write(gpt_model)
 
         # Create a timestamped file path
         csv_file_path = os.path.join(dataset_dir, "dirty.csv")
@@ -443,6 +459,13 @@ def upload_evaluation_dataset():
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         dataset_dir = os.path.join("./data", f"{dataset_name}_{timestamp}")
         os.makedirs(dataset_dir, exist_ok=True)
+
+        settings = load_detailed_settings()
+        gpt_model = settings["gpt_model"]
+
+        model_file_path = os.path.join(dataset_dir, "gpt_model.txt")
+        with open(model_file_path, "w") as model_file:
+            model_file.write(gpt_model)
 
         # Save the file
         csv_dirty_file_path = os.path.join(dataset_dir, "dirty.csv")
@@ -1205,6 +1228,12 @@ def get_all_detections():
                         os.path.join(folder_path, "dependency_violations")
                     )
 
+                    model_file_path = os.path.join(folder_path, "gpt_model.txt")
+                    model_used = None
+                    if os.path.exists(model_file_path):
+                        with open(model_file_path, "r") as model_file:
+                            model_used = model_file.read().strip()
+
                     # Append the detection info to the list
                     detections.append(
                         {
@@ -1214,6 +1243,7 @@ def get_all_detections():
                             "used_dependency": has_dependency,
                             "used_attribute": has_attribute,
                             "used_dependency_violations": has_dependency_violations,
+                            "gpt_model": model_used,
                         }
                     )
 
@@ -1258,6 +1288,13 @@ def get_dataset():
         # Convert TP, FP, FN to JSON format
         dataset_json = dataset_dirty.to_dict(orient="records")
 
+        # Check for the GPT model file
+        model_file_path = os.path.join(f"./data/{dataset_folder}", "gpt_model.txt")
+        model_used = None
+        if os.path.exists(model_file_path):
+            with open(model_file_path, "r") as model_file:
+                model_used = model_file.read().strip()
+
         # Return the full response with TP, FP, FN, and metrics if the clean dataset is found
         return (
             jsonify(
@@ -1266,11 +1303,78 @@ def get_dataset():
                     "dataset": dataset_json,  # Include annotated output in the response
                     "dataset_schema": schema,  # Include schema in the response
                     "dataset_size": dataset_dirty.shape[0],
+                    "gpt_model": model_used,  # Include model used in the response
                 }
             ),
             200,
         )
 
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# Helper function to load settings
+def load_settings():
+    if os.path.exists(SETTINGS_FILE):
+        with open(SETTINGS_FILE, "r") as f:
+            return json.load(f)
+    return {}
+
+
+# Helper function to save settings
+def save_settings(data):
+    with open(SETTINGS_FILE, "w") as f:
+        json.dump(data, f, indent=4)
+
+
+# GET request to retrieve settings
+@app.route("/settings", methods=["GET"])
+def get_settings():
+    try:
+        settings = load_settings()
+        return jsonify(settings), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/settings", methods=["POST"])
+def create_settings():
+    try:
+        # Check if the request contains JSON or form data
+        if request.is_json:
+            # Load JSON data
+            data = request.json
+        else:
+            # Load form data
+            data = request.form.to_dict()
+
+        required_fields = ["gpt_organization", "gpt_project", "gpt_api", "gpt_model"]
+
+        # Check if required fields are present
+        if not all(field in data for field in required_fields):
+            return jsonify({"error": "Missing required fields"}), 400
+
+        # Save the data to the settings file
+        save_settings(data)
+        return jsonify({"message": "Settings created successfully"}), 201
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# PUT request to update settings
+@app.route("/settings", methods=["PUT"])
+def update_settings():
+    try:
+        data = request.json
+        current_settings = load_settings()
+
+        # Update only fields provided in the request
+        for key, value in data.items():
+            current_settings[key] = value
+
+        # Save updated settings to file
+        save_settings(current_settings)
+        return jsonify({"message": "Settings updated successfully"}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

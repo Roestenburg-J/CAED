@@ -1058,10 +1058,6 @@ def get_dependency_violation_errors():
         return jsonify({"error": str(e)}), 500
 
 
-import os
-from flask import jsonify
-
-
 @app.route("/get-all-detections", methods=["GET"])
 def get_all_detections():
     try:
@@ -1116,6 +1112,56 @@ def get_all_detections():
 
         # Return the list of detections as a JSON response
         return jsonify(detections), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/get-dataset", methods=["GET"])
+def get_dataset():
+    try:
+        # Get the dataset name and timestamp from the query parameters
+        dataset_name = request.args.get("dataset_name", None)
+        timestamp = request.args.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {
+                        "error": "Both 'dataset_name' and 'timestamp' parameters are required"
+                    }
+                ),
+                400,
+            )
+
+        # Construct the file paths using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_dirty_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+
+        # Load the dirty dataset
+        dataset_dirty = pd.read_csv(csv_dirty_file_path)
+
+        # Extract the dataset schema (column names and indices)
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset_dirty.columns)
+        ]
+
+        # Convert TP, FP, FN to JSON format
+        dataset_json = dataset_dirty.to_dict(orient="records")
+
+        # Return the full response with TP, FP, FN, and metrics if the clean dataset is found
+        return (
+            jsonify(
+                {
+                    "message": "Dataset retrieved!",
+                    "dataset": dataset_json,  # Include annotated output in the response
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset_dirty.shape[0],
+                }
+            ),
+            200,
+        )
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500

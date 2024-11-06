@@ -135,16 +135,6 @@ export default function Detect() {
     combined: false,
   });
 
-  const router = useRouter(); // Use the router hook to access the URL parameters
-  const { dataset_name, timestamp, attribute, dep, depViol } = router.query; // Destructure query parameters
-
-  useEffect(() => {
-    if (dataset_name && timestamp && attribute && dep && depViol) {
-      // You can now use these parameters as needed
-      // Perform any fetch or state update based on these parameters
-    }
-  }, [dataset, timestamp, attribute, dep, depViol]);
-
   return (
     <Box className={styles.page}>
       <Grid2 container>

@@ -264,6 +264,12 @@ const EvaluateAnnotatedTable: React.FC<AnnotatedTableProps> = ({
                 checked={highlightTP}
                 onChange={(e) => setHighlightTP(e.target.checked)}
                 name="tp"
+                sx={{
+                  color: theme.palette.success.main,
+                  "&.Mui-checked": {
+                    color: theme.palette.success.light,
+                  },
+                }}
               />
             }
             label={"Highlight True Positives"}
@@ -274,6 +280,12 @@ const EvaluateAnnotatedTable: React.FC<AnnotatedTableProps> = ({
                 checked={highlightFP}
                 onChange={(e) => setHighlightFP(e.target.checked)}
                 name="fp"
+                sx={{
+                  color: theme.palette.warning.main,
+                  "&.Mui-checked": {
+                    color: theme.palette.warning.light,
+                  },
+                }}
               />
             }
             label={"Highlight False Positives"}
@@ -284,6 +296,12 @@ const EvaluateAnnotatedTable: React.FC<AnnotatedTableProps> = ({
                 checked={highlightFN}
                 onChange={(e) => setHighlightFN(e.target.checked)}
                 name="fn"
+                sx={{
+                  color: theme.palette.error.main,
+                  "&.Mui-checked": {
+                    color: theme.palette.error.light,
+                  },
+                }}
               />
             }
             label={"Highlight False Negatives"}

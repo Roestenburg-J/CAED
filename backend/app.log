@@ -1457,3 +1457,20 @@
 2024-11-05 15:07:09,363 INFO: 172.23.0.1 - - [05/Nov/2024 15:07:09] "[35m[1mPOST /detect-attribute-errors HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-05 15:07:20,164 INFO: 172.23.0.1 - - [05/Nov/2024 15:07:20] "[35m[1mPOST /detect-attribute-errors HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
 2024-11-06 07:59:39,714 INFO: 172.23.0.1 - - [06/Nov/2024 07:59:39] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:04:02,515 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:04:02,516 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:04:05,061 INFO: 172.24.0.1 - - [06/Nov/2024 08:04:05] "GET /get-dataset?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:19:27,721 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.0.2:5000 [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:19:27,721 INFO: [33mPress CTRL+C to quit[0m [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:19:32,078 INFO: 172.25.0.1 - - [06/Nov/2024 08:19:32] "[33mGET /get-combined_errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 404 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:19:37,234 INFO: 172.25.0.1 - - [06/Nov/2024 08:19:37] "[33mGET /get-combined_errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 404 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:19:44,068 INFO: 172.25.0.1 - - [06/Nov/2024 08:19:44] "[33mGET /get-combined_errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 404 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:19:56,478 INFO: 172.25.0.1 - - [06/Nov/2024 08:19:56] "GET /get-all-detections HTTP/1.1" 200 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:20:15,311 INFO: 172.25.0.1 - - [06/Nov/2024 08:20:15] "[35m[1mGET /get-combined-errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]
+2024-11-06 08:22:21,766 INFO: 172.25.0.1 - - [06/Nov/2024 08:22:21] "[35m[1mGET /get-combined-errors?dataset_name=hospital&timestamp=20241104_172717 HTTP/1.1[0m" 500 - [in /usr/local/lib/python3.9/site-packages/werkzeug/_internal.py:97]

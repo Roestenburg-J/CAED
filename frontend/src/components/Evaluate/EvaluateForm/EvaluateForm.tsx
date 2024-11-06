@@ -8,7 +8,13 @@ import { styled } from "@mui/material/styles";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import DoneIcon from "@mui/icons-material/Done";
 import ErrorIcon from "@mui/icons-material/Error";
-import { Box, Button, Checkbox, FormControlLabel } from "@mui/material";
+import {
+  Box,
+  Button,
+  Checkbox,
+  FormControlLabel,
+  Typography,
+} from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
 
 // Service Imports
@@ -117,6 +123,8 @@ const EvaluateForm = <T,>({
     dataset_name: "",
     timestamp: "",
   });
+
+  const [modelName, setModelName] = useState("");
 
   const handleFileChange = (
     event: React.ChangeEvent<HTMLInputElement>,
@@ -481,6 +489,7 @@ const EvaluateForm = <T,>({
     try {
       // Step 1: Fetch the dataset first
       const dataset = await getDataset(datasetName, timestamp);
+      setModelName(dataset.gpt_model);
 
       // Step 2: Sort columns of the dataset based on the schema's index
       const sortedData = dataset.dataset.map((row) => {
@@ -718,9 +727,17 @@ const EvaluateForm = <T,>({
           label="Detect Violations"
         />
       </Box>
-      <Button variant="outlined" type="submit" disabled={Boolean(dataset_name)}>
-        Evaluate
-      </Button>
+      {dataset_name ? (
+        <Typography color="textDisabled">Model: {modelName}</Typography>
+      ) : (
+        <Button
+          variant="outlined"
+          type="submit"
+          disabled={Boolean(dataset_name)}
+        >
+          Evaluate
+        </Button>
+      )}
     </Box>
   );
 };

@@ -28,6 +28,7 @@ interface Detection {
   used_attribute: boolean;
   used_dependency: boolean;
   used_dependency_violations: boolean;
+  gpt_model: string;
 }
 
 // Function to parse the timestamp in the format yyyymmdd_hhmmss
@@ -139,6 +140,16 @@ export default function Home() {
                     className={styles.stickyHeader}
                     align="center"
                   >
+                    Model
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      background: theme.palette.primary.main,
+                      color: theme.palette.primary.contrastText,
+                    }}
+                    className={styles.stickyHeader}
+                    align="center"
+                  >
                     Actions
                   </TableCell>
                 </TableRow>
@@ -153,6 +164,7 @@ export default function Home() {
                       {parseTimestamp(detection.timestamp).toLocaleString()}
                     </TableCell>
                     <TableCell align="center">{detection.type}</TableCell>
+                    <TableCell align="center">{detection.gpt_model}</TableCell>
                     <TableCell align="center">
                       <Button
                         variant="outlined"

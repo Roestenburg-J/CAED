@@ -46,18 +46,21 @@ interface Dataset {
 interface LoadingStates {
   attribute: boolean;
   dependency: boolean;
+  violations: boolean;
   combined: boolean;
 }
 
 interface RequestedStates {
   attribute: boolean;
   dependency: boolean;
+  violations: boolean;
   combined: boolean;
 }
 
 interface ErrorStates {
   attribute: boolean;
   dependency: boolean;
+  violations: boolean;
   combined: boolean;
 }
 
@@ -99,7 +102,7 @@ const AnnotatedTable: React.FC<AnnotatedTableProps> = ({
       label: "Attribute Errors",
     });
   }
-  if (requestedStates.dependency && depViolationResult) {
+  if (requestedStates.violations && depViolationResult) {
     availableErrorOptions.push({
       value: "depViolationResult",
       label: "Dependency Violations",
@@ -193,6 +196,7 @@ const AnnotatedTable: React.FC<AnnotatedTableProps> = ({
             size="small"
           >
             <InputLabel>Select Error Type</InputLabel>
+
             <Select
               value={selectedErrorType}
               onChange={(e) => setSelectedErrorType(e.target.value)}
@@ -274,7 +278,7 @@ const AnnotatedTable: React.FC<AnnotatedTableProps> = ({
                         </TableRow>
                       ))
                     : selectedErrorType === "depViolationResult" &&
-                      loadingStates.dependency
+                      loadingStates.violations
                     ? paginatedData.map((_, rowIndex) => (
                         <TableRow key={rowIndex}>
                           {Object.keys(dataset[0]).map((_, colIndex) => (

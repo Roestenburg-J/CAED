@@ -1248,6 +1248,7 @@ def get_dataset():
 
         # Load the dirty dataset
         dataset_dirty = pd.read_csv(csv_dirty_file_path)
+        dataset_dirty = dataset_dirty.fillna("")
 
         # Extract the dataset schema (column names and indices)
         schema = [

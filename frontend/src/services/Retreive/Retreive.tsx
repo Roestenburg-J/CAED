@@ -1,11 +1,9 @@
 import { application_service_url } from "@/config/config";
 
-export async function getDetections(datasetName: string, timestamp: string) {
+export async function getDetections() {
   try {
     const response = await fetch(
-      `${application_service_url}/get-all-detections?dataset_name=${encodeURIComponent(
-        datasetName
-      )}&timestamp=${encodeURIComponent(timestamp)}`,
+      `${application_service_url}/get-all-detections`,
       {
         method: "GET",
       }

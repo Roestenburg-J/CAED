@@ -127,6 +127,8 @@ const DetectionForm = <T,>({
   const [selectedFile, setSelectedFile] = useState<File>();
   const [filename, setFilename] = useState("");
 
+  const [modelName, setModelName] = useState("");
+
   const handleFileChange = async (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
@@ -344,6 +346,7 @@ const DetectionForm = <T,>({
     try {
       // Step 1: Fetch the dataset first
       const dataset = await getDataset(datasetName, timestamp);
+      setModelName(dataset.gpt_model);
 
       // Step 2: Sort columns of the dataset based on the schema's index
       const sortedData = dataset.dataset.map((row) => {
@@ -551,22 +554,27 @@ const DetectionForm = <T,>({
         </Box>
         {/* </FormGroup> */}
 
-        <Button
+        {/* <Button
           variant="outlined"
           onClick={() => setFileUploadSuccess(false)}
           className={styles.cancel}
           disabled={Boolean(dataset_name)}
         >
           <CloseIcon />
-        </Button>
-        <Button
-          type="submit"
-          variant="outlined"
-          onClick={handleSubmit}
-          disabled={Boolean(dataset_name)}
-        >
-          Detect Errors
-        </Button>
+        </Button> */}
+
+        {dataset_name ? (
+          <Typography color="textDisabled">Model: {modelName}</Typography>
+        ) : (
+          <Button
+            type="submit"
+            variant="outlined"
+            onClick={handleSubmit}
+            disabled={Boolean(dataset_name)}
+          >
+            Detect
+          </Button>
+        )}
         {/* <Button
           onClick={() => {
             console.log(dep_string);

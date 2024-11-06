@@ -473,6 +473,15 @@ const EvaluateForm = <T,>({
 
       fetchData(dataset_name, timestamp, attribute, dep, depViol);
     } else {
+      setFileUploadState((prev) => ({
+        dirty: { loading: false, success: false, error: false },
+        clean: { loading: false, success: false, error: false },
+      }));
+      setDetectionSettings({
+        attribute: false,
+        dependency: false,
+        violations: false,
+      });
       setDetectionError({
         attribute: false,
         dependency: false,

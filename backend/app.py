@@ -1058,6 +1058,107 @@ def get_dependency_violation_errors():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route("/get-combined-errors", methods=["GET"])
+def get_combined_errors():
+    try:
+        # Get the dataset name and timestamp from the query parameters
+        dataset_name = request.args.get("dataset_name", None)
+        timestamp = request.args.get("timestamp", None)
+
+        # Validate that both parameters are provided
+        if not dataset_name or not timestamp:
+            return (
+                jsonify(
+                    {
+                        "error": "Both 'dataset_name' and 'timestamp' parameters are required"
+                    }
+                ),
+                400,
+            )
+
+        # Construct the file paths using the dataset name and timestamp
+        dataset_folder = f"{dataset_name}_{timestamp}"
+        csv_dirty_file_path = os.path.join("./data", dataset_folder, "dirty.csv")
+        csv_clean_file_path = os.path.join("./data", dataset_folder, "clean.csv")
+
+        # Load the dirty dataset
+        dataset_dirty = pd.read_csv(csv_dirty_file_path)
+
+        # Load the output
+        combined_output = pd.read_csv(
+            f"./data/{dataset_folder}/consolidated_error_annotations.csv"
+        )
+
+        # Convert the output to JSON format
+        combined_output_json = combined_output.to_dict(orient="records")
+
+        # Extract the dataset schema (column names and indices)
+        schema = [
+            {"index": idx, "name": col} for idx, col in enumerate(dataset_dirty.columns)
+        ]
+
+        # Check if the clean dataset exists
+        if not os.path.exists(csv_clean_file_path):
+            # If clean dataset does not exist, return response without TP, FP, FN, and metrics
+            return (
+                jsonify(
+                    {
+                        "message": "Dependency violation errors detected!",
+                        "annotated_output": combined_output_json,  # Include annotated output in the response
+                        "dataset_schema": schema,  # Include schema in the response
+                        "dataset_size": dataset_dirty.shape[0],
+                    }
+                ),
+                200,
+            )
+
+        # Load the clean dataset if it exists
+        dataset_clean = pd.read_csv(csv_clean_file_path)
+
+        # Calculate error annotation
+        error_annotation = annotate_errors(dataset_clean, dataset_dirty)
+
+        # Calculate accuracy metrics
+        accuracy, precision, recall, f_score = calculate_metrics(
+            error_annotation, combined_output
+        )
+
+        # Read TP, FP, FN
+        true_positive_df = pd.read_csv(f"./data/{dataset_folder}/true_positives.csv")
+        false_positive_df = pd.read_csv(f"./data/{dataset_folder}/false_positives.csv")
+        false_negative_df = pd.read_csv(f"./data/{dataset_folder}/false_negatives.csv")
+
+        # Convert TP, FP, FN to JSON format
+        true_positive_json = true_positive_df.to_dict(orient="records")
+        false_positive_json = false_positive_df.to_dict(orient="records")
+        false_negative_json = false_negative_df.to_dict(orient="records")
+
+        # Return the full response with TP, FP, FN, and metrics if the clean dataset is found
+        return (
+            jsonify(
+                {
+                    "message": "Dependency violation errors detected!",
+                    "annotated_output": combined_output_json,  # Include annotated output in the response
+                    "dataset_schema": schema,  # Include schema in the response
+                    "dataset_size": dataset_dirty.shape[0],
+                    "true_positives": true_positive_json,
+                    "false_positives": false_positive_json,
+                    "false_negatives": false_negative_json,
+                    "metrics": {
+                        "accuracy": accuracy,
+                        "precision": precision,
+                        "recall": recall,
+                        "f_score": f_score,
+                    },
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route("/get-all-detections", methods=["GET"])
 def get_all_detections():
     try:

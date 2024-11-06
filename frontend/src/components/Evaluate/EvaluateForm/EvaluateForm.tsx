@@ -199,20 +199,20 @@ const EvaluateForm = <T,>({
       // const cleanFileName = clean.name.replace(/\.[^/.]+$/, "");
 
       // Upload the datasets
-      // const fileResponse = await uploadEvaluateDataset({
-      //   dirty_file: dirty,
-      //   clean_file: clean,
-      //   datasetName: `${dirtyFileName}`,
-      // });
-
-      // setFileResults({
-      //   dataset_name: fileResponse.dataset_name,
-      //   timestamp: fileResponse.timestamp,
-      // });
-      setFileResults({
-        dataset_name: "hospital",
-        timestamp: "20241104_172717",
+      const fileResponse = await uploadEvaluateDataset({
+        dirty_file: dirty,
+        clean_file: clean,
+        datasetName: `${dirtyFileName}`,
       });
+
+      setFileResults({
+        dataset_name: fileResponse.dataset_name,
+        timestamp: fileResponse.timestamp,
+      });
+      // setFileResults({
+      //   dataset_name: "hospital",
+      //   timestamp: "20241104_172717",
+      // });
 
       // Parse both files based on their type
       const dirtyData = await parseFile(dirty);

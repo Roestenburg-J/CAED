@@ -135,14 +135,14 @@ const DetectionForm = <T,>({
     const fileExtension = selectedFile.name.split(".").pop()?.toLowerCase();
 
     try {
-      // const fileResponse = await uploadDataset({
-      //   file: selectedFile,
-      //   datasetName: filenameWithoutExt,
-      // });
-      const fileResponse = {
-        dataset_name: "hospital_1",
-        timestamp: "20241030_123153",
-      };
+      const fileResponse = await uploadDataset({
+        file: selectedFile,
+        datasetName: filenameWithoutExt,
+      });
+      // const fileResponse = {
+      //   dataset_name: "hospital_1",
+      //   timestamp: "20241030_123153",
+      // };
       setFileResults({
         dataset_name: fileResponse.dataset_name,
         timestamp: fileResponse.timestamp,
@@ -191,6 +191,10 @@ const DetectionForm = <T,>({
     }));
   };
 
+  const handleTestSubmit = async (event: React.FormEvent) => {
+    console.log(fileResults.dataset_name);
+    console.log(fileResults.timestamp);
+  };
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
 

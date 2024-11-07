@@ -1,4 +1,12 @@
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    roc_auc_score,
+    average_precision_score,
+    confusion_matrix,
+)
 import pandas as pd
 
 
@@ -20,6 +28,38 @@ def calculate_metrics(true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame):
     f_score = f1_score(y_true, y_pred)
 
     return accuracy, precision, recall, f_score
+
+
+# def calculate_metrics(true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame):
+#     # Flatten the dataframes to 1D arrays
+#     y_true = true_dataset.values.flatten()
+#     y_pred = pred_dataset.values.flatten()
+
+#     # Basic metrics
+#     accuracy = accuracy_score(y_true, y_pred)
+#     precision = precision_score(y_true, y_pred)
+#     recall = recall_score(y_true, y_pred)
+#     f1 = f1_score(y_true, y_pred)
+
+#     # Class-specific accuracy
+#     tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
+#     class_0_accuracy = tn / (tn + fp)  # Accuracy for class 0
+#     class_1_accuracy = tp / (tp + fn)  # Accuracy for class 1
+
+#     # AUC scores
+#     roc_auc = roc_auc_score(y_true, y_pred)
+#     pr_auc = average_precision_score(y_true, y_pred)
+
+#     return {
+#         "accuracy": accuracy,
+#         "precision": precision,
+#         "recall": recall,
+#         "f1_score": f1,
+#         "class_0_accuracy": class_0_accuracy,
+#         "class_1_accuracy": class_1_accuracy,
+#         "roc_auc": roc_auc,
+#         "pr_auc": pr_auc
+#     }
 
 
 def inspect_classification(

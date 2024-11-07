@@ -237,7 +237,7 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
     axisSvg
       .append("g")
       .attr("transform", `translate(0,${0})`)
-      .call(d3.axisBottom(x))
+      .call(d3.axisBottom(x).tickFormat((d) => `${d}%`)) // Add this line
       .selectAll("text")
       .attr("transform", "rotate(-45)")
       .style("text-anchor", "end");
@@ -453,10 +453,12 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
               </Box>
             ) : (
               <Box className={styles.output}>
-                <Box className={styles.chartContainer}>
-                  <svg ref={errorChartRef}></svg>
+                <Box className={styles.chartSVG}>
+                  <Box className={styles.chartContainer}>
+                    <svg ref={errorChartRef}></svg>
+                  </Box>
+                  <svg ref={errorAxisRef}></svg>
                 </Box>
-                <svg ref={errorAxisRef}></svg>
 
                 {!isLoading && isRequested && (
                   <Button

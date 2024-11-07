@@ -70,7 +70,7 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <Typography variant="h1">CEAD</Typography>
+      <Typography variant="h1">CAED</Typography>
       <Box className={styles.buttons}>
         <Button variant="outlined" onClick={() => router.push("/detect")}>
           Detect Errors

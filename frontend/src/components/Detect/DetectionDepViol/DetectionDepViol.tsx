@@ -461,10 +461,12 @@ const DetectionDepViol: React.FC<DetectionDepViolProps> = ({
               </Box>
             ) : (
               <Box className={styles.output}>
-                <Box className={styles.chartContainer}>
-                  <svg ref={errorChartRef}></svg>
+                <Box className={styles.chartSVG}>
+                  <Box className={styles.chartContainer}>
+                    <svg ref={errorChartRef}></svg>
+                  </Box>
+                  <svg ref={errorAxisRef}></svg>
                 </Box>
-                <svg ref={errorAxisRef}></svg>
 
                 {!isLoading && isRequested && (
                   <Button

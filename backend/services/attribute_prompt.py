@@ -47,6 +47,11 @@ response_format = {
 }
 
 numeric_prompt = """You are given a list of numeric values with their corresponding index. You have to identify all errors in the list.
+You have to annotate an error with a '1' in the output. Only provide output if an error is present.
+For the possible repair only provide the reparied value is output.
+Do not check for sequence violations as the records can appear in an arbitrary order.
+
+Check only for outlier values.
 """
 
 text_prompt = """You are given a list of unique values in a column with their corresponding index. You have to find all syntactic errors in the dataset and recommend a possible repair.

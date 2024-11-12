@@ -1,0 +1,81 @@
+Context:
+The context is delimited as "#Context#'
+#This column presents geographical locations, specifically cities or towns in the United States, characterized by occasional misspellings, which can complicate data analysis or location accuracy in demographic studies.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|birmingham|
+[1]>|birminghxm|
+[2]>|birmingxam|
+[3]>|sheffield|
+[4]>|sheffxeld|
+[5]>|dothan|
+[6]>|boaz|
+[7]>|boxz|
+[8]>|florence|
+[9]>|fxorence|
+[10]>|florxncx|
+[11]>|flxrence|
+[12]>|opp|
+[13]>|luverne|
+[14]>|hartselle|
+[15]>|guntersville|
+[16]>|guntxrsvillx|
+[17]>|birmixgham|
+[18]>|bxrmxngham|
+[19]>|fort payne|
+[20]>|fort payxe|
+[21]>|thomasville|
+[22]>|alabaster|
+[23]>|axxistox|
+[24]>|anniston|
+[25]>|decatur|
+[26]>|winfield|
+[27]>|winfielx|
+[28]>|mobile|
+[29]>|prattville|
+[30]>|russellville|
+[31]>|sylacauga|
+[32]>|anchorage|
+[33]>|anchoraxe|
+[34]>|bethel|
+[35]>|ozark|
+[36]>|ozarx|
+[37]>|xzark|
+[38]>|centre|
+[39]>|montgomery|
+[40]>|montxomery|
+[41]>|valley|
+[42]>|vallex|
+[43]>|vxlley|
+[44]>|elba|
+[45]>|exba|
+[46]>|opelika|
+[47]>|wedowee|
+[48]>|wxdowxx|
+[49]>|birminxham|
+[50]>|tallassee|
+[51]>|tallaxxee|
+[52]>|cullman|
+[53]>|cuxxman|
+[54]>|andalusia|
+[55]>|andaluxia|
+[56]>|annxston|
+[57]>|huntsville|
+[58]>|gadsden|
+[59]>|gxdsden|
+[60]>|clanton|
+[61]>|hamilton|
+[62]>|hamilxon|
+[63]>|fayette|
+[64]>|faxette|
+[65]>|georgiana|
+[66]>|geoxgiana|
+[67]>|enterprise|
+[68]>|enterprxse|
+[69]>|xntxrprisx|
+[70]>|oneonta|
+[71]>|onxonta|
+

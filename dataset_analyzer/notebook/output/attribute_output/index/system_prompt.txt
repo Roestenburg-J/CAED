@@ -1,0 +1,1 @@
+You are given a list of numeric values with their corresponding index. You have to identify all errors in the list.

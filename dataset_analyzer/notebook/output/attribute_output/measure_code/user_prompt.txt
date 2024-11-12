@@ -1,0 +1,63 @@
+Context:
+The context is delimited as "#Context#'
+#The identifiers in this column likely classify items or entities within a specific framework, indicated by prefixes and suggestive of varied data categories, enhancing the understanding of item types.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|scip-card-2|
+[1]>|scip-inf-1|
+[2]>|scip-inf-2|
+[3]>|scip-inf-3|
+[4]>|scip-inf-4|
+[5]>|scip-inf-6|
+[6]>|scip-vte-1|
+[7]>|scip-vte-2|
+[8]>|ami-1|
+[9]>|ami-2|
+[10]>|ami-3|
+[11]>|ami-4|
+[12]>|ami-5|
+[13]>|ami-7a|
+[14]>|ami-8a|
+[15]>|hf-1|
+[16]>|hf-2|
+[17]>|hf-3|
+[18]>|hf-4|
+[19]>|pn-2|
+[20]>|pn-3b|
+[21]>|pn-4|
+[22]>|pn-5c|
+[23]>|pn-6|
+[24]>|pn-7|
+[25]>|axi-4|
+[26]>|hfx1|
+[27]>|pnx5c|
+[28]>|axi-2|
+[29]>|hf-x|
+[30]>|scip-inx-4|
+[31]>|scxp-xnf-3|
+[32]>|cac-2|
+[33]>|cac-3|
+[34]>|amix2|
+[35]>|pn-xb|
+[36]>|hx-1|
+[37]>|scipxinfx1|
+[38]>|sxip-vte-1|
+[39]>|ami-x|
+[40]>|px-5c|
+[41]>|scip-vtx-1|
+[42]>|xf-1|
+[43]>|hfx4|
+[44]>|amix1|
+[45]>|amx-4|
+[46]>|amx-3|
+[47]>|px-4|
+[48]>|scix-inf-2|
+[49]>|hx-2|
+[50]>|cac-1|
+[51]>|xax-1|
+[52]>|pn-x|
+[53]>|pnx6|
+

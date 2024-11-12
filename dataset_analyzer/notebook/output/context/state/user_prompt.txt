@@ -1,0 +1,8 @@
+Input:
+The following is a list of unique values in an attribute. 
+Check the values and derive the context as indicated. The attribute values is delimited with "|value|".
+|al|
+|xl|
+|ax|
+|ak|
+

@@ -1,0 +1,74 @@
+Context:
+The context is delimited as "#Context#'
+#Characteristics of entries in this column imply names of cities or counties that contribute to geographic and demographic analysis, although inconsistencies may arise due to typographical errors.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|jefferson|
+[1]>|houston|
+[2]>|marshall|
+[3]>|mxrshxll|
+[4]>|lauderdale|
+[5]>|laudxrdalx|
+[6]>|laudexdale|
+[7]>|covington|
+[8]>|crenshaw|
+[9]>|crxnshaw|
+[10]>|morgan|
+[11]>|jeffersxn|
+[12]>|de kalb|
+[13]>|dx kalb|
+[14]>|xe kalb|
+[15]>|clarke|
+[16]>|xlarke|
+[17]>|shelby|
+[18]>|calhoun|
+[19]>|calhoxn|
+[20]>|caxhoun|
+[21]>|housxon|
+[22]>|marion|
+[23]>|mobile|
+[24]>|autauga|
+[25]>|franklin|
+[26]>|talladega|
+[27]>|tallaxega|
+[28]>|anchorage|
+[29]>|bethel|
+[30]>|jxffxrson|
+[31]>|xefferson|
+[32]>|jexxerson|
+[33]>|dale|
+[34]>|cherokee|
+[35]>|chxrokxx|
+[36]>|montgomery|
+[37]>|monxgomery|
+[38]>|montgomexy|
+[39]>|chambers|
+[40]>|xhambers|
+[41]>|chaxbers|
+[42]>|coffee|
+[43]>|coffxx|
+[44]>|lee|
+[45]>|xee|
+[46]>|randolph|
+[47]>|elmore|
+[48]>|elmoxe|
+[49]>|elxore|
+[50]>|cullman|
+[51]>|cxllman|
+[52]>|coxington|
+[53]>|madison|
+[54]>|madisxn|
+[55]>|madisox|
+[56]>|etowah|
+[57]>|chilton|
+[58]>|fayette|
+[59]>|fayexxe|
+[60]>|etowxh|
+[61]>|butler|
+[62]>|butxer|
+[63]>|cxffee|
+[64]>|blount|
+

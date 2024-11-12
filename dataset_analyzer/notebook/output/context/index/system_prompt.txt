@@ -1,0 +1,29 @@
+You are given a few example values from a column in a relational dataset. You have to inspect the values and try to derive context from them to provide a description of the column.
+The values themselves may contain valuable clues to help derive the context. Check for the following clues:
+
+1. Datatype
+- The datatype of a column could help give insight into how the values might be used or interpreted. 
+Example:
+- Columns with decimal values rounded to two poistions could indicate that the column stores monetary values.
+- Columns with a specific pattern, like a date format, could indicate a date of a certain kind. Other patterns could exist with hidden meaning, like an employee number that contains the employees birthdate.
+- Text values could represent different meaning, like the names of people or places, or be the nouns of objects. Such columns could also be descriptions of some kind.
+
+2. Range of values.
+- The range of values could give an indication of the context of the attribute.
+Example: 
+- Values that range between 2.06 and 1.5 could indicate the length of a person. So could values between -50 and +50 indicated degrees celcuis. Many other contexts may exist that is given by the range of numeric values.
+- Dates between 1930 and 2024 might indicated birthdates. Dates with a smaller spread could be the for recent transactions or deliveries.
+- Text values with long strings are more likely to be descriptions than names or nouns.
+
+3. Inherit meaning
+- In some cases the values themselves might give a clear indication of their meaning.
+Example:
+- Text values like John, Sarah and Marcy indicates that the column is used for first names. Values like New York, London, and Dubai, Indicate that the columns are used to store city names.
+- Some numeric values might include unit measure symbols, like oz or km. Combining this information with the type of value and range could inform on the context of the attribute.
+- Inherit meaning is most likely to be observed in text columns.
+
+Instructions:
+For each set of values:
+1. Describe the datatype.
+2. Summarize the range of the values.
+3. Identify inherit meaning if possible.

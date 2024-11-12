@@ -1,0 +1,22 @@
+Context:
+The context is delimited as "#Context#'
+#This column likely contains varied spellings or misspellings of 'acute care hospitals', indicating the intention to catalog medical facility types, which may reflect challenges in data standardization.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|acute care hospitals|
+[1]>|acuxe care hospixals|
+[2]>|acxte care hospitals|
+[3]>|acute care hosxitals|
+[4]>|acutx carx hospitals|
+[5]>|acutexcarexhospitals|
+[6]>|acute care hospitaxs|
+[7]>|acute caxe hospitals|
+[8]>|acute care hxspitals|
+[9]>|acute cxre hospitxls|
+[10]>|axute care hospitals|
+[11]>|acute care hoxpitalx|
+[12]>|acute xare hospitals|
+

@@ -1,0 +1,1001 @@
+condition                     ,original_index,unique_index
+surgical infection prevention ,0,0
+surgical infection prevention ,1,0
+surgical infection prevention ,2,0
+surgical infection prevention ,3,0
+surgical infection prevention ,4,0
+surgical infection prevention ,5,0
+surgical infection prevention ,6,0
+surgical infection prevention ,7,0
+heart attack                  ,8,1
+heart attack                  ,9,1
+heart attack                  ,10,1
+heart attack                  ,11,1
+heart attack                  ,12,1
+heart attack                  ,13,1
+heart attack                  ,14,1
+heart failure                 ,15,2
+heart failure                 ,16,2
+heart failure                 ,17,2
+heart failure                 ,18,2
+heart attack                  ,19,1
+heart attack                  ,20,1
+heart attaxk                  ,21,3
+hearx axxack                  ,22,4
+heart attack                  ,23,1
+heart attack                  ,24,1
+heart attack                  ,25,1
+heart failure                 ,26,2
+heart failure                 ,27,2
+heart failure                 ,28,2
+heart failure                 ,29,2
+pneumonia                     ,30,5
+pneumonia                     ,31,5
+pneumonia                     ,32,5
+pneumonia                     ,33,5
+pneumonia                     ,34,5
+pneumonia                     ,35,5
+surgical infection prevention ,36,0
+surgical infection prevention ,37,0
+surgical infection prevention ,38,0
+surgical infection prevention ,39,0
+surgical infection prevention ,40,0
+surgical infection prevention ,41,0
+surgical infection prevention ,42,0
+surgical infection prevention ,43,0
+heart attack                  ,44,1
+heart attack                  ,45,1
+heart attack                  ,46,1
+heart attack                  ,47,1
+heart attack                  ,48,1
+heart attack                  ,49,1
+heart attack                  ,50,1
+heart failure                 ,51,2
+heart failure                 ,52,2
+heart failure                 ,53,2
+heart failure                 ,54,2
+pneumonia                     ,55,5
+pneumonia                     ,56,5
+pneumonia                     ,57,5
+pneumonia                     ,58,5
+pneumonia                     ,59,5
+pneumonia                     ,60,5
+surgical infection prevention ,61,0
+surgical infection prevention ,62,0
+surgical infection prevention ,63,0
+surgical infection prevention ,64,0
+surgical infection prevention ,65,0
+surgical infection prevention ,66,0
+surgical infection prevention ,67,0
+surgical infection prevention ,68,0
+heart attack                  ,69,1
+heart attack                  ,70,1
+heart attack                  ,71,1
+heart attack                  ,72,1
+hearx axxack                  ,73,4
+heart attack                  ,74,1
+heart attack                  ,75,1
+heart failure                 ,76,2
+heart failure                 ,77,2
+heart failure                 ,78,2
+heart failure                 ,79,2
+pneumonia                     ,80,5
+pneumonia                     ,81,5
+pneumonia                     ,82,5
+pneumonia                     ,83,5
+pneumonia                     ,84,5
+pneumonia                     ,85,5
+surgical infection prevention ,86,0
+surgical infection prevention ,87,0
+surgical infection prevention ,88,0
+surgical infection prevention ,89,0
+surgical infection prevention ,90,0
+surgical infection prevention ,91,0
+surgical infection prevention ,92,0
+surgical infection prevention ,93,0
+heart attack                  ,94,1
+heart attack                  ,95,1
+heart attack                  ,96,1
+heart attack                  ,97,1
+heart attack                  ,98,1
+heart attack                  ,99,1
+heart attack                  ,100,1
+heart failure                 ,101,2
+heart failure                 ,102,2
+heart failure                 ,103,2
+heart failure                 ,104,2
+pneumonia                     ,105,5
+pneumonia                     ,106,5
+pneumonia                     ,107,5
+pneumonia                     ,108,5
+pneumonia                     ,109,5
+pneumonia                     ,110,5
+surgical infection prevention ,111,0
+surgical infection prevention ,112,0
+surgical infection prevention ,113,0
+surgical infection prevention ,114,0
+surgical infection prevention ,115,0
+surgical infection prevention ,116,0
+surgical infection prevention ,117,0
+surgical infection prevention ,118,0
+heart attack                  ,119,1
+heart attack                  ,120,1
+heart attack                  ,121,1
+heart attack                  ,122,1
+heart attack                  ,123,1
+heart attack                  ,124,1
+heart attack                  ,125,1
+heart failure                 ,126,2
+heaxt failuxe                 ,127,6
+heart failure                 ,128,2
+heart failure                 ,129,2
+pneumonia                     ,130,5
+pneumonia                     ,131,5
+pneumonia                     ,132,5
+pneumonia                     ,133,5
+pneumonia                     ,134,5
+pneumonia                     ,135,5
+surgical infection prevention ,136,0
+surgical infection prevention ,137,0
+surgical infection prevention ,138,0
+surgical infection prevention ,139,0
+surgical infection prevention ,140,0
+surgical infection prevention ,141,0
+surgical infection prevention ,142,0
+surgical infection prevention ,143,0
+heart attack                  ,144,1
+heart attack                  ,145,1
+heart attack                  ,146,1
+heart attack                  ,147,1
+heart attack                  ,148,1
+heart attack                  ,149,1
+heart attack                  ,150,1
+heart failure                 ,151,2
+heart failure                 ,152,2
+heart failure                 ,153,2
+heart failure                 ,154,2
+pneumonia                     ,155,5
+pneumonia                     ,156,5
+pneumonia                     ,157,5
+pneumonia                     ,158,5
+pneumonia                     ,159,5
+pneumonia                     ,160,5
+surgical infection prevention ,161,0
+surgical infection prevention ,162,0
+surgical infection prevention ,163,0
+surgical infection prevention ,164,0
+surgical infection prevention ,165,0
+surgical infection prevention ,166,0
+surgical infection prevention ,167,0
+surgical infection prevention ,168,0
+heart attack                  ,169,1
+heart attack                  ,170,1
+heart attack                  ,171,1
+heart attack                  ,172,1
+heart attack                  ,173,1
+heart attack                  ,174,1
+heart attack                  ,175,1
+heart failure                 ,176,2
+heart failure                 ,177,2
+heart failure                 ,178,2
+heart failure                 ,179,2
+pneumonia                     ,180,5
+pneumonia                     ,181,5
+pneumonia                     ,182,5
+pneumonia                     ,183,5
+pneumonia                     ,184,5
+pneumonia                     ,185,5
+surgical infection prevention ,186,0
+surgical infection prevention ,187,0
+surgical infection prevention ,188,0
+surgical infection prevention ,189,0
+surgical infection prevention ,190,0
+surgical infection prevention ,191,0
+surgical infection prevention ,192,0
+surgical infection prevention ,193,0
+heart attack                  ,194,1
+heart attack                  ,195,1
+heart attack                  ,196,1
+heart attack                  ,197,1
+heart attack                  ,198,1
+heaxt attack                  ,199,7
+heart attack                  ,200,1
+heart failure                 ,201,2
+heart failure                 ,202,2
+heart failure                 ,203,2
+heart failure                 ,204,2
+pneumonia                     ,205,5
+pneumonia                     ,206,5
+pneumonia                     ,207,5
+pneumonia                     ,208,5
+pneumonia                     ,209,5
+pneumonia                     ,210,5
+surgical infection prevention ,211,0
+surgical infection prevention ,212,0
+surgical infection prevention ,213,0
+surgical infection prevention ,214,0
+surgical infection prevention ,215,0
+surgical infection prevention ,216,0
+surgical infection prevention ,217,0
+surgical infection prevention ,218,0
+heart attack                  ,219,1
+heart attack                  ,220,1
+heart attack                  ,221,1
+heart attack                  ,222,1
+heart attack                  ,223,1
+heart attack                  ,224,1
+hexrt attxck                  ,225,8
+heart failure                 ,226,2
+heart failure                 ,227,2
+heart failure                 ,228,2
+heart faxlure                 ,229,9
+pneumonia                     ,230,5
+pneumonia                     ,231,5
+pneumonia                     ,232,5
+pneumonia                     ,233,5
+pneumonia                     ,234,5
+pneumonia                     ,235,5
+suxgical infection pxevention ,236,10
+surgical infection prevention ,237,0
+surgical infection prevention ,238,0
+surgxcal infectxon preventxon ,239,11
+surgical infection prevention ,240,0
+surgical infection prevention ,241,0
+surgical infection prevention ,242,0
+surgical infection prevention ,243,0
+heart attack                  ,244,1
+heart attack                  ,245,1
+heart attack                  ,246,1
+heart attack                  ,247,1
+heart attack                  ,248,1
+heart attack                  ,249,1
+heart attack                  ,250,1
+heart failure                 ,251,2
+heart failure                 ,252,2
+heart failure                 ,253,2
+heart failure                 ,254,2
+pneumonia                     ,255,5
+xneumonia                     ,256,12
+pneumonia                     ,257,5
+pneumonia                     ,258,5
+pneumonia                     ,259,5
+pneumonia                     ,260,5
+surgical infection prevention ,261,0
+surgical infection prevention ,262,0
+surgical infection prevention ,263,0
+surgical infection prevention ,264,0
+surgical infection prevention ,265,0
+surgical infection prevention ,266,0
+surgical infection prevention ,267,0
+surgical infection prevention ,268,0
+heart attack                  ,269,1
+heart attack                  ,270,1
+heart attack                  ,271,1
+heart attack                  ,272,1
+heart attack                  ,273,1
+heart attack                  ,274,1
+heart attack                  ,275,1
+heart failure                 ,276,2
+heart failure                 ,277,2
+heart failure                 ,278,2
+xeart failure                 ,279,13
+pneumonia                     ,280,5
+pneumonia                     ,281,5
+pneumonia                     ,282,5
+pneumonia                     ,283,5
+pneumonia                     ,284,5
+pneumonia                     ,285,5
+surgical infection prevention ,286,0
+surgical infection prevention ,287,0
+surgical infection prevention ,288,0
+surgical infection prevention ,289,0
+surgical infection prevention ,290,0
+surgical infection prevention ,291,0
+surgical infection prevention ,292,0
+surgical infection prevention ,293,0
+heart attack                  ,294,1
+heart attack                  ,295,1
+heart attack                  ,296,1
+heart attack                  ,297,1
+heart attack                  ,298,1
+heart attack                  ,299,1
+heart attack                  ,300,1
+heart failure                 ,301,2
+heart failure                 ,302,2
+heart failure                 ,303,2
+heart failure                 ,304,2
+pneumonia                     ,305,5
+pneumonia                     ,306,5
+pneumonia                     ,307,5
+pneumonia                     ,308,5
+pneumonia                     ,309,5
+pneumonia                     ,310,5
+children s asthma care        ,311,14
+children s asthma care        ,312,14
+heart attack                  ,313,1
+heart attack                  ,314,1
+heart attack                  ,315,1
+heart attack                  ,316,1
+heart attack                  ,317,1
+heart attack                  ,318,1
+heart attack                  ,319,1
+heart failure                 ,320,2
+heart failure                 ,321,2
+heart failure                 ,322,2
+heart failure                 ,323,2
+pneumonia                     ,324,5
+pneumonia                     ,325,5
+pneumonia                     ,326,5
+pneumonia                     ,327,5
+pneumonia                     ,328,5
+pneumonia                     ,329,5
+surgical infection prevention ,330,0
+heart failure                 ,331,2
+heart failure                 ,332,2
+heart failure                 ,333,2
+pneumonia                     ,334,5
+pneumonia                     ,335,5
+pneumonia                     ,336,5
+pneumonia                     ,337,5
+pneumonia                     ,338,5
+pneumonia                     ,339,5
+surgical infection prevention ,340,0
+surgical infection prevention ,341,0
+surgical infection prevention ,342,0
+surgical infection prevention ,343,0
+surgical infection prevention ,344,0
+surgical infection prevention ,345,0
+surgical infection prevention ,346,0
+surgical infection prevention ,347,0
+heart attack                  ,348,1
+heart attack                  ,349,1
+heart attack                  ,350,1
+heart attack                  ,351,1
+heart attack                  ,352,1
+surgical infection prevention ,353,0
+heart attack                  ,354,1
+heart attack                  ,355,1
+heart attack                  ,356,1
+heart attack                  ,357,1
+heart attack                  ,358,1
+heart attack                  ,359,1
+heart attack                  ,360,1
+heart failure                 ,361,2
+heart failure                 ,362,2
+heart failure                 ,363,2
+heart failure                 ,364,2
+pneumonia                     ,365,5
+pnxumonia                     ,366,15
+pneumonia                     ,367,5
+pneumonia                     ,368,5
+pnexmonia                     ,369,16
+pneumonia                     ,370,5
+surgical infection prevention ,371,0
+surgical infection prevention ,372,0
+surgical infection prevention ,373,0
+surgical infection prevention ,374,0
+surgical infection prevention ,375,0
+surgical infection prevention ,376,0
+surgical infection prevention ,377,0
+surgical infection prevention ,378,0
+heart attack                  ,379,1
+heart attack                  ,380,1
+heart attack                  ,381,1
+heart attack                  ,382,1
+heart attack                  ,383,1
+heart attack                  ,384,1
+heart attack                  ,385,1
+hxart failurx                 ,386,17
+heart failure                 ,387,2
+heart failure                 ,388,2
+heart failure                 ,389,2
+pneumonia                     ,390,5
+pneumonia                     ,391,5
+heart attack                  ,392,1
+heart attack                  ,393,1
+heart attack                  ,394,1
+heart attack                  ,395,1
+heart attack                  ,396,1
+heart attack                  ,397,1
+heart failure                 ,398,2
+heart failure                 ,399,2
+hxart failurx                 ,400,17
+heart failure                 ,401,2
+pneumonia                     ,402,5
+pneumonia                     ,403,5
+pneumonia                     ,404,5
+pneumonia                     ,405,5
+pneumonia                     ,406,5
+pneumonia                     ,407,5
+surgical infection prevention ,408,0
+surgical infection prevention ,409,0
+surgical infection prevention ,410,0
+surgical infection prevention ,411,0
+surgical infection prevention ,412,0
+surgical infection prevention ,413,0
+heart attack                  ,414,1
+heart attack                  ,415,1
+heart attack                  ,416,1
+heart attack                  ,417,1
+heart attack                  ,418,1
+heart attack                  ,419,1
+heart attack                  ,420,1
+heart failure                 ,421,2
+heart failure                 ,422,2
+heart failure                 ,423,2
+heart failure                 ,424,2
+pneumonia                     ,425,5
+pneumonia                     ,426,5
+pneumonia                     ,427,5
+pneumonia                     ,428,5
+pneumonia                     ,429,5
+pneumonia                     ,430,5
+surgical infection prevention ,431,0
+heart failure                 ,432,2
+heart failure                 ,433,2
+heart failure                 ,434,2
+heart failure                 ,435,2
+pneumonia                     ,436,5
+pneumonia                     ,437,5
+pneumonia                     ,438,5
+pneumonia                     ,439,5
+pneumonia                     ,440,5
+pneumonia                     ,441,5
+surgical infection prevention ,442,0
+surgical infection prevention ,443,0
+surgical infection prevention ,444,0
+surgical infection prevention ,445,0
+surgical infection prevention ,446,0
+surgical infection prevention ,447,0
+surgical infection prevention ,448,0
+surgical infection prevention ,449,0
+heart attack                  ,450,1
+heart attack                  ,451,1
+pneumonia                     ,452,5
+pneumonia                     ,453,5
+pneumonia                     ,454,5
+pneumonia                     ,455,5
+pneumonia                     ,456,5
+pneumonia                     ,457,5
+surgical infection prevention ,458,0
+surgical infection prevention ,459,0
+surgical infection prevention ,460,0
+surgical infection prevention ,461,0
+surgical infection prevention ,462,0
+surgical infection prevention ,463,0
+surgical infection prevention ,464,0
+surgical infection prevention ,465,0
+heart attack                  ,466,1
+hexrt attxck                  ,467,8
+heart attack                  ,468,1
+heart attack                  ,469,1
+heart attack                  ,470,1
+heart attack                  ,471,1
+heart attack                  ,472,1
+heart failure                 ,473,2
+heart failure                 ,474,2
+heart failure                 ,475,2
+heart failure                 ,476,2
+pneumonia                     ,477,5
+pneumonia                     ,478,5
+pneumonia                     ,479,5
+pneumonia                     ,480,5
+pneumonia                     ,481,5
+pneumonia                     ,482,5
+surgical infection prevention ,483,0
+surgical infection prevention ,484,0
+surgical infection prevention ,485,0
+surgical infection prevention ,486,0
+surgical infection prevention ,487,0
+surgical infection prevention ,488,0
+surgical infection prevention ,489,0
+surgical infection prevention ,490,0
+heart attack                  ,491,1
+heart attack                  ,492,1
+heart attack                  ,493,1
+heart attack                  ,494,1
+heart attack                  ,495,1
+heart attack                  ,496,1
+heart attack                  ,497,1
+heart failure                 ,498,2
+heart failure                 ,499,2
+heart failure                 ,500,2
+heart failure                 ,501,2
+pneumonia                     ,502,5
+pneumonia                     ,503,5
+pneumonia                     ,504,5
+pneumonia                     ,505,5
+pneumonix                     ,506,18
+pneumonia                     ,507,5
+surgical infection prevention ,508,0
+surgical infection prevention ,509,0
+surgical infection prevention ,510,0
+surgical infection prevention ,511,0
+surgical infection prevention ,512,0
+surgical infection prevention ,513,0
+surgical infection prevention ,514,0
+surgical infection prevention ,515,0
+heart attack                  ,516,1
+heart attack                  ,517,1
+heart attack                  ,518,1
+heart attack                  ,519,1
+heart attack                  ,520,1
+heart attack                  ,521,1
+heart attack                  ,522,1
+heart failure                 ,523,2
+heart failure                 ,524,2
+heart failure                 ,525,2
+heart failure                 ,526,2
+pneumonia                     ,527,5
+pneumonia                     ,528,5
+pneumonia                     ,529,5
+pneumonia                     ,530,5
+pneumonia                     ,531,5
+pneumonia                     ,532,5
+surgical infection prevention ,533,0
+surgical infection prevention ,534,0
+surgical infection prevention ,535,0
+surgical infection prevention ,536,0
+surgical infection prevention ,537,0
+surgical infection prevention ,538,0
+surgical infection prevention ,539,0
+surgical infection prevention ,540,0
+heart attack                  ,541,1
+heart attack                  ,542,1
+heart attack                  ,543,1
+heart attack                  ,544,1
+heart attack                  ,545,1
+heart attack                  ,546,1
+heart attack                  ,547,1
+heart failure                 ,548,2
+heart failure                 ,549,2
+heart failure                 ,550,2
+heart failure                 ,551,2
+pneumonia                     ,552,5
+pneumonia                     ,553,5
+pneumonia                     ,554,5
+pxeumoxia                     ,555,19
+pneumonia                     ,556,5
+pneumonia                     ,557,5
+surgical infection prevention ,558,0
+surgical infection prevention ,559,0
+surgical infection prevention ,560,0
+surgical infection prevention ,561,0
+surgical infection prevention ,562,0
+surgical infection prevention ,563,0
+surgical infection prevention ,564,0
+surgical infection prevention ,565,0
+heart attack                  ,566,1
+heart attack                  ,567,1
+heart attack                  ,568,1
+heart attack                  ,569,1
+heart attack                  ,570,1
+heart attack                  ,571,1
+heart attack                  ,572,1
+heart failure                 ,573,2
+heart failure                 ,574,2
+heart failure                 ,575,2
+heart failure                 ,576,2
+pneumonia                     ,577,5
+pneumonia                     ,578,5
+pneumonia                     ,579,5
+pneumonia                     ,580,5
+pneumonia                     ,581,5
+pneumonia                     ,582,5
+surgical infection prevention ,583,0
+surgical infection prevention ,584,0
+surgical infection prevention ,585,0
+surgical infection prevention ,586,0
+surgical infection prevention ,587,0
+surgical infection prevention ,588,0
+surgical infection prevention ,589,0
+surgical infection prevention ,590,0
+heart attack                  ,591,1
+heart attack                  ,592,1
+heart attack                  ,593,1
+heart attack                  ,594,1
+heart attack                  ,595,1
+heart attack                  ,596,1
+heart attack                  ,597,1
+heart failure                 ,598,2
+heart faixure                 ,599,20
+heart failure                 ,600,2
+heart failure                 ,601,2
+pneumonia                     ,602,5
+pneumonia                     ,603,5
+pneumonia                     ,604,5
+pneumonia                     ,605,5
+pneumonia                     ,606,5
+pneumonia                     ,607,5
+surgical ixfectiox prevextiox ,608,21
+surgical infection prevention ,609,0
+surgical infection prevention ,610,0
+surgical infection prevention ,611,0
+surgical infection prevention ,612,0
+surgical infection prevention ,613,0
+surgical infection prevention ,614,0
+surgical infection prevention ,615,0
+heart attack                  ,616,1
+heart attack                  ,617,1
+heart attack                  ,618,1
+heart attack                  ,619,1
+heart attack                  ,620,1
+heart attack                  ,621,1
+heart attack                  ,622,1
+heart failure                 ,623,2
+heart failure                 ,624,2
+heart failure                 ,625,2
+heart failure                 ,626,2
+pneumonia                     ,627,5
+pneumonia                     ,628,5
+pneumonia                     ,629,5
+pneumonia                     ,630,5
+pneumonxa                     ,631,22
+pneumonia                     ,632,5
+surgical infection prevention ,633,0
+surgical infection prevention ,634,0
+surgical infection prevention ,635,0
+surgical infection prevention ,636,0
+surgical infection prevention ,637,0
+surgical infection prevention ,638,0
+surgical infection prevention ,639,0
+surgical infection prevention ,640,0
+heart attack                  ,641,1
+heart attack                  ,642,1
+heart attack                  ,643,1
+heart attack                  ,644,1
+heart attack                  ,645,1
+heart attack                  ,646,1
+heart attack                  ,647,1
+heart failure                 ,648,2
+heart failure                 ,649,2
+heart failure                 ,650,2
+heart failure                 ,651,2
+pneumonia                     ,652,5
+pneumonia                     ,653,5
+pneumonia                     ,654,5
+pneumonia                     ,655,5
+pneumonia                     ,656,5
+pneumonia                     ,657,5
+surgical infection prevention ,658,0
+surgical infection prevention ,659,0
+surgical infection prevention ,660,0
+surgical infection prevention ,661,0
+surgical infection prevention ,662,0
+surgical infection prevention ,663,0
+surgical infection prevention ,664,0
+surgical infection prevention ,665,0
+heart attack                  ,666,1
+heart attack                  ,667,1
+heart attack                  ,668,1
+heart attack                  ,669,1
+heart attack                  ,670,1
+heart attack                  ,671,1
+heart attack                  ,672,1
+heart failure                 ,673,2
+heart failure                 ,674,2
+heart failure                 ,675,2
+heart failure                 ,676,2
+pneumonia                     ,677,5
+pneumonia                     ,678,5
+xneumonia                     ,679,12
+pneumonia                     ,680,5
+pneumonia                     ,681,5
+pneumonia                     ,682,5
+surgical infection prevention ,683,0
+surgical infection prevention ,684,0
+surgical infection prevention ,685,0
+surgical infection prevention ,686,0
+surgical infection prevention ,687,0
+surgical infection prevention ,688,0
+surgical infection prevention ,689,0
+surgical infection prevention ,690,0
+heart attack                  ,691,1
+heart attack                  ,692,1
+heart attack                  ,693,1
+heart attack                  ,694,1
+heart attaxk                  ,695,3
+heart attack                  ,696,1
+heart attack                  ,697,1
+hexrt fxilure                 ,698,23
+heart failure                 ,699,2
+heart failure                 ,700,2
+heart failure                 ,701,2
+pneumonia                     ,702,5
+pneumonia                     ,703,5
+pneumonia                     ,704,5
+pneumonia                     ,705,5
+pneumonia                     ,706,5
+pneumonia                     ,707,5
+surgical infection prevention ,708,0
+surgical infection prevention ,709,0
+surgical infection prevention ,710,0
+surgical infection prevention ,711,0
+surgical infection xrevention ,712,24
+surgical infection prevention ,713,0
+surgical infection prevention ,714,0
+surgical infection prevention ,715,0
+heartxattack                  ,716,25
+heart attack                  ,717,1
+heart attack                  ,718,1
+heart attack                  ,719,1
+heart attack                  ,720,1
+heart attack                  ,721,1
+heart attack                  ,722,1
+heart failure                 ,723,2
+heart failure                 ,724,2
+heart failure                 ,725,2
+heart failure                 ,726,2
+pneumonia                     ,727,5
+pneumonia                     ,728,5
+pneumonia                     ,729,5
+pneumonia                     ,730,5
+pneumonia                     ,731,5
+pneumonia                     ,732,5
+suxgical infection pxevention ,733,10
+surgical infection prevention ,734,0
+surgical infection prevention ,735,0
+surgical infection prevention ,736,0
+surgical infection prevention ,737,0
+surgical infection prevention ,738,0
+surgical infection prevention ,739,0
+surgical infection prevention ,740,0
+heart attack                  ,741,1
+heart attack                  ,742,1
+heart attack                  ,743,1
+heart attack                  ,744,1
+heart attack                  ,745,1
+heart attack                  ,746,1
+heart attack                  ,747,1
+heart failure                 ,748,2
+heart failure                 ,749,2
+heart failure                 ,750,2
+heart failure                 ,751,2
+pneumonia                     ,752,5
+pneumonia                     ,753,5
+pneumonia                     ,754,5
+pneumonia                     ,755,5
+pneumonia                     ,756,5
+pneumonia                     ,757,5
+surgical infection prevention ,758,0
+surgical infection prevention ,759,0
+surgical infection prevention ,760,0
+surgical infection prevention ,761,0
+surgical infection prevention ,762,0
+surgical infection prevention ,763,0
+surgical infection prevention ,764,0
+surgical infection prevention ,765,0
+children s asthma care        ,766,14
+surgical infection prevention ,767,0
+surgical infection prevention ,768,0
+surgical infection prevention ,769,0
+surgical infection prevention ,770,0
+surgical infection prevention ,771,0
+surgical infection prevention ,772,0
+surgical infection prevention ,773,0
+children s asthma care        ,774,14
+children s asthma care        ,775,14
+children s asthma care        ,776,14
+heart attack                  ,777,1
+heart attack                  ,778,1
+heart attack                  ,779,1
+heart attaxk                  ,780,3
+heart attack                  ,781,1
+heart attack                  ,782,1
+heart attack                  ,783,1
+heart failure                 ,784,2
+heart failure                 ,785,2
+heart failure                 ,786,2
+heart failure                 ,787,2
+pneumonia                     ,788,5
+pneumonia                     ,789,5
+pneumonia                     ,790,5
+pneumonia                     ,791,5
+pneumonia                     ,792,5
+pneumonia                     ,793,5
+surgical infection prevention ,794,0
+surgical infection prevention ,795,0
+surgical infection prevention ,796,0
+surgical infection prevention ,797,0
+surgical infection prevention ,798,0
+surgical infection prevention ,799,0
+surgical infection prevention ,800,0
+surgical infection prevention ,801,0
+heart attack                  ,802,1
+heart attack                  ,803,1
+heart attack                  ,804,1
+heart attack                  ,805,1
+heart attack                  ,806,1
+heart attack                  ,807,1
+heart attack                  ,808,1
+heart failure                 ,809,2
+heart failure                 ,810,2
+heart failure                 ,811,2
+heart failure                 ,812,2
+pneumonia                     ,813,5
+pneumonia                     ,814,5
+pneumonia                     ,815,5
+pneumonia                     ,816,5
+pneumonia                     ,817,5
+pneumonia                     ,818,5
+surgical infection prevention ,819,0
+surgical infection prevention ,820,0
+surgical infection prevention ,821,0
+surgical infection prevention ,822,0
+surgical infection prevention ,823,0
+surgical infection prevention ,824,0
+surgical infection prevention ,825,0
+surgical infection prevention ,826,0
+heart attack                  ,827,1
+heart attack                  ,828,1
+heart attack                  ,829,1
+heart attack                  ,830,1
+heart attack                  ,831,1
+heart attack                  ,832,1
+heart attack                  ,833,1
+heart failure                 ,834,2
+heart failure                 ,835,2
+heart failure                 ,836,2
+heart failure                 ,837,2
+pneumonia                     ,838,5
+pneumonia                     ,839,5
+pneumonia                     ,840,5
+pneumonia                     ,841,5
+pneumonia                     ,842,5
+pneumonia                     ,843,5
+surgical infection prevention ,844,0
+surgical infection prevention ,845,0
+surgical infection prevention ,846,0
+surgical infection prevention ,847,0
+surgical infection prevention ,848,0
+surgical infection prevention ,849,0
+surgical infection prevention ,850,0
+surgical infxction prxvxntion ,851,26
+heart attack                  ,852,1
+heart attack                  ,853,1
+heart attack                  ,854,1
+heart attack                  ,855,1
+heart attack                  ,856,1
+heart attack                  ,857,1
+heart attack                  ,858,1
+heart failure                 ,859,2
+heart failure                 ,860,2
+heart failure                 ,861,2
+heart failure                 ,862,2
+pneumonia                     ,863,5
+pneumonia                     ,864,5
+pneumonia                     ,865,5
+pneumonia                     ,866,5
+pneumonia                     ,867,5
+pneumonia                     ,868,5
+surgical ixfectiox prevextiox ,869,21
+surgical infection prevention ,870,0
+surgical infection prevention ,871,0
+surgical infection prevention ,872,0
+surgical infection prevention ,873,0
+surgical infection prevention ,874,0
+surgical infection prevention ,875,0
+surgical infection prevention ,876,0
+heart attack                  ,877,1
+heart attack                  ,878,1
+heart attack                  ,879,1
+heart attack                  ,880,1
+heart attack                  ,881,1
+heart attack                  ,882,1
+heart attack                  ,883,1
+heart failure                 ,884,2
+heart failure                 ,885,2
+heart failure                 ,886,2
+heart failure                 ,887,2
+pneumonia                     ,888,5
+pneumonia                     ,889,5
+pneumonia                     ,890,5
+pneumonia                     ,891,5
+pneumonia                     ,892,5
+pneumonia                     ,893,5
+surgical infection prevention ,894,0
+surgical infection prevention ,895,0
+surgical infection prevention ,896,0
+surgical infection prevention ,897,0
+surgical infection prevention ,898,0
+surgical infection prevention ,899,0
+surgical infection prevention ,900,0
+surgical infection prevention ,901,0
+children s asthma care        ,902,14
+children s asthma care        ,903,14
+children s asthma care        ,904,14
+heart attack                  ,905,1
+heart attack                  ,906,1
+heart attack                  ,907,1
+heart attack                  ,908,1
+heart attack                  ,909,1
+heart attack                  ,910,1
+heart attack                  ,911,1
+heart failure                 ,912,2
+heart failure                 ,913,2
+heart failure                 ,914,2
+heart failure                 ,915,2
+pneumonia                     ,916,5
+pneumonia                     ,917,5
+pneumonia                     ,918,5
+pneumonia                     ,919,5
+pneumonia                     ,920,5
+pneumonia                     ,921,5
+surgical infection prevention ,922,0
+surgical infection prevention ,923,0
+surgical infection prevention ,924,0
+surgical infection prevention ,925,0
+surgical infection prevention ,926,0
+surgical infection prevention ,927,0
+surgical infection prevention ,928,0
+surgical infection prevention ,929,0
+heart attack                  ,930,1
+heart attack                  ,931,1
+heart attack                  ,932,1
+heart attack                  ,933,1
+heart attack                  ,934,1
+heart attack                  ,935,1
+heart attack                  ,936,1
+heart failure                 ,937,2
+heart failure                 ,938,2
+heart failure                 ,939,2
+heart failure                 ,940,2
+pneumonia                     ,941,5
+pneumonia                     ,942,5
+pneumonia                     ,943,5
+pneumonia                     ,944,5
+pneumonia                     ,945,5
+pneumonia                     ,946,5
+surgical infection prevention ,947,0
+surgical infection prevention ,948,0
+surgical infection prevention ,949,0
+surgical infection prevention ,950,0
+surgical infection prevention ,951,0
+surgical infection prevention ,952,0
+surgical infection prevention ,953,0
+surgical infection prevention ,954,0
+hexrt attxck                  ,955,8
+heart attack                  ,956,1
+heart attack                  ,957,1
+heart attack                  ,958,1
+heart attack                  ,959,1
+heart attack                  ,960,1
+heart attack                  ,961,1
+heart failure                 ,962,2
+heart failure                 ,963,2
+heart failure                 ,964,2
+heart failure                 ,965,2
+pneumonia                     ,966,5
+pneumonia                     ,967,5
+pneumonia                     ,968,5
+pneumonia                     ,969,5
+pneumonia                     ,970,5
+pneumonia                     ,971,5
+surgical infection prevention ,972,0
+surgical infection prevention ,973,0
+surgical xnfection prevention ,974,27
+surgical infection prevention ,975,0
+surgical infection prevention ,976,0
+surgical infection prevention ,977,0
+surgical infection prevention ,978,0
+surgical infection prevention ,979,0
+heart attack                  ,980,1
+heart attack                  ,981,1
+heart attack                  ,982,1
+heart attack                  ,983,1
+heart attack                  ,984,1
+heart attack                  ,985,1
+heart attack                  ,986,1
+heart failure                 ,987,2
+heart failure                 ,988,2
+heart failure                 ,989,2
+heart failure                 ,990,2
+pneumonia                     ,991,5
+pneumonia                     ,992,5
+pneumonia                     ,993,5
+pneumonia                     ,994,5
+pneumonia                     ,995,5
+pneumonia                     ,996,5
+surgical infection prevention ,997,0
+surgical infection prevention ,998,0
+surgical infection prevention ,999,0

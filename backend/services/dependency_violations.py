@@ -125,12 +125,12 @@ def detect_dep_violations(
   """
 
                 # Uncomment this to send the prompt to the GPT system
-                # prompt_gpt(
-                #     system_prompt,
-                #     user_prompt,
-                #     f"{columns[0]}, {columns[1]}",
-                #     response_format,
-                #     directory,
-                #     row_dict,
-                #     json_str=json_sample,
-                # )
+                prompt_gpt(
+                    system_prompt,
+                    user_prompt,
+                    f"{columns[0]}, {columns[1]}",
+                    response_format,
+                    directory,
+                    row_dict,
+                    json_str=json_sample,
+                )

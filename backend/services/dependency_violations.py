@@ -1,7 +1,7 @@
 import pandas as pd
 from collections import defaultdict
 import ast
-
+from flask import current_app
 
 from utils.data_utils import create_row_dict
 from utils.prompting_utils import prompt_gpt
@@ -73,11 +73,13 @@ def detect_dep_violations(
     grouped_dependencies = defaultdict(list)
 
     for _, row in dependencies_df.iterrows():
+
         first_index = row["column_1"]  # Get the first index from the new structure
         grouped_dependencies[first_index].append(row)  # Group by first index
 
     # Now process each group of dependencies based on the first index
     for first_index, dependencies in grouped_dependencies.items():
+
         selected_columns = [
             dataset.columns[first_index]
         ]  # Keep this if first_index is always an integer index
@@ -106,12 +108,13 @@ def detect_dep_violations(
 
                 # Update the columns for unique rows
                 unique_rows.columns = [
-                    str(columns[0]),  # Column 1 index
-                    str(columns[1]),  # Column 2 index
+                    str(dataset.columns.get_loc(columns[0])),  # Column 1 index
+                    str(dataset.columns.get_loc(columns[1])),  # Column 2 index
                     "index",
                 ]
 
                 json_sample = unique_rows.to_json(orient="records", indent=4)
+                # current_app.logger.info(json_sample)
 
                 # Prepare the user prompt with dependency and unique rows
                 user_prompt = f"""Input:
@@ -122,12 +125,12 @@ def detect_dep_violations(
   """
 
                 # Uncomment this to send the prompt to the GPT system
-                prompt_gpt(
-                    system_prompt,
-                    user_prompt,
-                    f"{columns[0]}, {columns[1]}",
-                    response_format,
-                    directory,
-                    row_dict,
-                    json_str=json_sample,
-                )
+                # prompt_gpt(
+                #     system_prompt,
+                #     user_prompt,
+                #     f"{columns[0]}, {columns[1]}",
+                #     response_format,
+                #     directory,
+                #     row_dict,
+                #     json_str=json_sample,
+                # )

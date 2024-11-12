@@ -614,7 +614,7 @@ const EvaluateDepViol: React.FC<EvaluateDepViolProps> = ({
                         ROC AUC:
                       </Typography>
                       <Typography sx={{ fontWeight: "bold" }}>
-                        Predicted errors:
+                        Predicted true errors:
                       </Typography>
                       <Typography sx={{ fontWeight: "bold" }}>
                         True Errors:

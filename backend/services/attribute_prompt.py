@@ -51,7 +51,8 @@ You have to annotate an error with a '1' in the output. Only provide output if a
 For the possible repair only provide the reparied value is output.
 Do not check for sequence violations as the records can appear in an arbitrary order.
 
-Check only for outlier values.
+Check only for outlier values. Outliers are often of a differnt order of magnitude, so their strings lengths may differ.
+Values that have the same string length has to be significantly different to be considerd outliers.
 """
 
 text_prompt = """You are given a list of unique values in a column with their corresponding index. You have to find all syntactic errors in the dataset and recommend a possible repair.
@@ -77,7 +78,8 @@ Example 2
 17, Banana = 0
 
 2. Misspelling
-- Words that are misspelled. Values that are considered names are less likely to be misspelt.
+- Words that are misspelled. Values that are considered names can only be reliably considered misspellings if their correct values are well known.
+In long strings every word needs to be checked for a misspelling.
 Example 1
 2, Blue = 0
 3, Green = 0
@@ -91,7 +93,9 @@ Example 2
 
 3. Pattern non-conformity
 - Some values may have a common pattern with certain values deviating from this pattern. There might exist more than one valid pattern in a single attribute.
-Possible repairs should attempt to conform with the most prevalent patterns. Removing a pattern does not constitute a soluition.
+Possible repairs should attempt to conform with the most prevalent patterns. Removing a pattern does not constitute a soluition. 
+In certain cases prefixes of suffixes may be added to suffixes that are not neccesarily common patterns, but are still considered correct.
+Values with measurements that are part of the values are considered errors.
 Example 1
 32, 2024/03/12 19:00 = 0
 33, 2024-12-31 12:00 = 1

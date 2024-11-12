@@ -52,7 +52,7 @@ def calculate_metrics(true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame):
 
     # Count of 1s in true and predicted labels
     true_positives_count = sum(y_true == 1)  # Total 1s in true labels
-    predicted_positives_count = sum(y_pred == 1)  # Total 1s in predictions
+    predicted_positives_count = tp  # Total 1s in predictions
 
     return {
         "accuracy": float(accuracy),

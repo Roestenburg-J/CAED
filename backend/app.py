@@ -542,17 +542,7 @@ def evaluate_attribute_errors():
         error_annotation = annotate_errors(dataset_clean, dataset_dirty)
 
         # Calculate accuracy metrics
-        (
-            accuracy,
-            precision,
-            recall,
-            f1_score,
-            class_1_accuracy,
-            roc_auc,
-            pr_auc,
-            predicted_positives_count,
-            true_positives_count,
-        ) = calculate_metrics(error_annotation, annotated_output)
+        metrics = calculate_metrics(error_annotation, annotated_output)
 
         # Calculate True Positives, False Positives, False Negatives
         true_positive_df, false_positive_df, false_negative_df = inspect_classification(
@@ -593,17 +583,7 @@ def evaluate_attribute_errors():
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
-                    "metrics": {
-                        "accuracy": accuracy,
-                        "precision": precision,
-                        "recall": recall,
-                        "f1_score": f1_score,
-                        "class_1_accuracy": class_1_accuracy,
-                        "roc_auc": roc_auc,
-                        "pr_auc": pr_auc,
-                        "true_positives_count": true_positives_count,
-                        "predicted_positives_count": predicted_positives_count,
-                    },
+                    "metrics": metrics,
                 }
             ),
             200,
@@ -662,17 +642,7 @@ def evaluate_dependecy_violation_errors():
         error_annotation = annotate_errors(dataset_clean, dataset_dirty)
 
         # Calculate accuracy metrics
-        (
-            accuracy,
-            precision,
-            recall,
-            f1_score,
-            class_1_accuracy,
-            roc_auc,
-            pr_auc,
-            predicted_positives_count,
-            true_positives_count,
-        ) = calculate_metrics(error_annotation, dep_violation_output)
+        metrics = calculate_metrics(error_annotation, dep_violation_output)
 
         # Calculate True Positives, False Positives, False Negatives
         true_positive_df, false_positive_df, false_negative_df = inspect_classification(
@@ -715,17 +685,7 @@ def evaluate_dependecy_violation_errors():
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
-                    "metrics": {
-                        "accuracy": accuracy,
-                        "precision": precision,
-                        "recall": recall,
-                        "f1_score": f1_score,
-                        "class_1_accuracy": class_1_accuracy,
-                        "roc_auc": roc_auc,
-                        "pr_auc": pr_auc,
-                        "true_positives_count": true_positives_count,
-                        "predicted_positives_count": predicted_positives_count,
-                    },
+                    "metrics": metrics,
                 }
             ),
             200,
@@ -776,17 +736,7 @@ def evaluate_combined_errors():
         error_annotation = annotate_errors(dataset_clean, dataset_dirty)
 
         # Calculate accuracy metrics
-        (
-            accuracy,
-            precision,
-            recall,
-            f1_score,
-            class_1_accuracy,
-            roc_auc,
-            pr_auc,
-            predicted_positives_count,
-            true_positives_count,
-        ) = calculate_metrics(error_annotation, combined_output)
+        metrics = calculate_metrics(error_annotation, combined_output)
 
         true_positive_df, false_positive_df, false_negative_df = inspect_classification(
             error_annotation, combined_output, dataset_dirty
@@ -817,17 +767,7 @@ def evaluate_combined_errors():
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
-                    "metrics": {
-                        "accuracy": accuracy,
-                        "precision": precision,
-                        "recall": recall,
-                        "f1_score": f1_score,
-                        "class_1_accuracy": class_1_accuracy,
-                        "roc_auc": roc_auc,
-                        "pr_auc": pr_auc,
-                        "true_positives_count": true_positives_count,
-                        "predicted_positives_count": predicted_positives_count,
-                    },
+                    "metrics": metrics,
                 }
             ),
             200,
@@ -906,9 +846,7 @@ def get_attribute_errors():
         error_annotation = annotate_errors(dataset_clean, dataset_dirty)
 
         # Calculate accuracy metrics
-        accuracy, precision, recall, f_score = calculate_metrics(
-            error_annotation, annotated_output
-        )
+        metrics = calculate_metrics(error_annotation, annotated_output)
 
         # Save TP, FP, FN
         true_positive_df = pd.read_csv(
@@ -939,12 +877,7 @@ def get_attribute_errors():
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
-                    "metrics": {
-                        "accuracy": accuracy,
-                        "precision": precision,
-                        "recall": recall,
-                        "f_score": f_score,
-                    },
+                    "metrics": metrics,
                 }
             ),
             200,
@@ -1078,9 +1011,7 @@ def get_dependency_violation_errors():
         error_annotation = annotate_errors(dataset_clean, dataset_dirty)
 
         # Calculate accuracy metrics
-        accuracy, precision, recall, f_score = calculate_metrics(
-            error_annotation, dep_violation_output
-        )
+        metrics = calculate_metrics(error_annotation, dep_violation_output)
 
         # Read TP, FP, FN
         true_positive_df = pd.read_csv(
@@ -1111,12 +1042,7 @@ def get_dependency_violation_errors():
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
-                    "metrics": {
-                        "accuracy": accuracy,
-                        "precision": precision,
-                        "recall": recall,
-                        "f_score": f_score,
-                    },
+                    "metrics": metrics,
                 }
             ),
             200,
@@ -1187,9 +1113,7 @@ def get_combined_errors():
         error_annotation = annotate_errors(dataset_clean, dataset_dirty)
 
         # Calculate accuracy metrics
-        accuracy, precision, recall, f_score = calculate_metrics(
-            error_annotation, combined_output
-        )
+        metrics = calculate_metrics(error_annotation, combined_output)
 
         # Read TP, FP, FN
         true_positive_df = pd.read_csv(
@@ -1218,12 +1142,7 @@ def get_combined_errors():
                     "true_positives": true_positive_json,
                     "false_positives": false_positive_json,
                     "false_negatives": false_negative_json,
-                    "metrics": {
-                        "accuracy": accuracy,
-                        "precision": precision,
-                        "recall": recall,
-                        "f_score": f_score,
-                    },
+                    "metrics": metrics,
                 }
             ),
             200,

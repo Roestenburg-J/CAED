@@ -53,6 +53,7 @@ Do not check for sequence violations as the records can appear in an arbitrary o
 
 Check only for outlier values. Outliers are often of a differnt order of magnitude, so their strings lengths may differ.
 Values that have the same string length has to be significantly different to be considerd outliers.
+Values increasing in length after adding 1, like 999 and 1000 are not considered outliers.
 """
 
 text_prompt = """You are given a list of unique values in a column with their corresponding index. You have to find all syntactic errors in the dataset and recommend a possible repair.

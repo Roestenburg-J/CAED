@@ -55,16 +55,16 @@ def calculate_metrics(true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame):
     predicted_positives_count = sum(y_pred == 1)  # Total 1s in predictions
 
     return {
-        "accuracy": accuracy,
-        "precision": precision,
-        "recall": recall,
-        "f1_score": f1,
-        "class_0_accuracy": class_0_accuracy,
-        "class_1_accuracy": class_1_accuracy,
-        "roc_auc": roc_auc,
-        "pr_auc": pr_auc,
-        "true_positives_count": true_positives_count,
-        "predicted_positives_count": predicted_positives_count,
+        "accuracy": float(accuracy),
+        "precision": float(precision),
+        "recall": float(recall),
+        "f1_score": float(f1),
+        "class_0_accuracy": float(class_0_accuracy),
+        "class_1_accuracy": float(class_1_accuracy),
+        "roc_auc": float(roc_auc),
+        "pr_auc": float(pr_auc),
+        "true_positives_count": int(true_positives_count),
+        "predicted_positives_count": int(predicted_positives_count),
     }
 
 

@@ -60,7 +60,7 @@ interface DepViolationResult {
     accuracy: string;
     precision: string;
     recall: string;
-    f_score: string;
+    f1_score: string;
   };
 }
 
@@ -615,7 +615,7 @@ const EvaluateDepViol: React.FC<EvaluateDepViolProps> = ({
                         {depViolationResults.metrics.recall}
                       </Typography>
                       <Typography>
-                        {depViolationResults.metrics.f_score}
+                        {depViolationResults.metrics.f1_score}
                       </Typography>
                     </Box>
                   </Box>

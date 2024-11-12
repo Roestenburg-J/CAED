@@ -52,10 +52,9 @@ numeric_prompt = """You are given a list of numeric values with their correspond
 text_prompt = """You are given a list of unique values in a column with their corresponding index. You have to find all syntactic errors in the dataset and recommend a possible repair.
 A syntactic error occurs when a value does not conform to the structure or domain of correct values. The domain and structure of correct values have to be derived from the values themselves.
 A semantic error occurs when a value falls outside of the reasonable context of a column. Use the context description to determine if a value is a semantic error.
-You have to annotate an error with a '1' and a correct value of the '0' in the output.
+You have to annotate an error with a '1' in the output.
 For the possible repair only provide the reparied value is output.
 You also have to provide a brief explanation referencing the examples a proof for each annotation.
-Evaluate each value and provide an annotation and explanation regardless of error status.
 Values denoting empty or null values can be found in any given context, and are considered correct.
 Note! Only check for syntactic errors. Do not check for language errors.
 
@@ -115,9 +114,7 @@ def attribute_prompt(dataset: pd.DataFrame, directory: str) -> str:
         attribute_unique.columns = ["value", "index"]
         json_sample = attribute_unique.to_json(orient="records", indent=4)
 
-        user_prompt = f"""Input:
-{json_sample}
-"""
+        user_prompt = f"""Input:"""
         # directory = r"D:\Documents\UU\Thesis\Artifact\CAED\dataset_analyzer\notebook\output\attribute_output"
 
         prompt_gpt(
@@ -127,6 +124,7 @@ def attribute_prompt(dataset: pd.DataFrame, directory: str) -> str:
             response_format,
             directory,
             attribute_dict,
+            json_sample,
         )
 
     return "Attribute level errors detected!"

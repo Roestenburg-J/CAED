@@ -119,7 +119,6 @@ def detect_dep_violations(
   {dependency_description}
 
   The following is a formatted table with the unique data to be checked.
-  {json_sample}
   """
 
                 # Uncomment this to send the prompt to the GPT system
@@ -130,4 +129,5 @@ def detect_dep_violations(
                     response_format,
                     directory,
                     row_dict,
+                    json_str=json_sample,
                 )

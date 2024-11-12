@@ -1,5 +1,6 @@
 import pandas as pd
 from datasketch import MinHash, MinHashLSH
+from flask import current_app
 
 
 def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:

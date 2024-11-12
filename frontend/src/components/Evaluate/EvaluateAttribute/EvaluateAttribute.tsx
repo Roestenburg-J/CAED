@@ -66,7 +66,7 @@ interface AttributeResult {
     accuracy: string;
     precision: string;
     recall: string;
-    f_score: string;
+    f1_score: string;
   };
 }
 
@@ -579,7 +579,7 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
                       </Typography>
                       <Typography>{attributeResults.metrics.recall}</Typography>
                       <Typography>
-                        {attributeResults.metrics.f_score}
+                        {attributeResults.metrics.f1_score}
                       </Typography>
                     </Box>
                   </Box>

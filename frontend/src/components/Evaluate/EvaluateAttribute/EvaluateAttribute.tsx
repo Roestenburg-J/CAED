@@ -67,6 +67,10 @@ interface AttributeResult {
     precision: string;
     recall: string;
     f1_score: string;
+    class_1_accuracy: string;
+    roc_auc: string;
+    predicted_positives_count: string;
+    true_positives_count: string;
   };
 }
 
@@ -569,6 +573,18 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
                       <Typography sx={{ fontWeight: "bold" }}>
                         f-score:
                       </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Error class accuracy:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        ROC AUC:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        Predicted errors:
+                      </Typography>
+                      <Typography sx={{ fontWeight: "bold" }}>
+                        True Errors:
+                      </Typography>
                     </Box>
                     <Box sx={{ ml: 1 }}>
                       <Typography>
@@ -580,6 +596,18 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
                       <Typography>{attributeResults.metrics.recall}</Typography>
                       <Typography>
                         {attributeResults.metrics.f1_score}
+                      </Typography>
+                      <Typography>
+                        {attributeResults.metrics.class_1_accuracy}
+                      </Typography>
+                      <Typography>
+                        {attributeResults.metrics.roc_auc}
+                      </Typography>
+                      <Typography>
+                        {attributeResults.metrics.predicted_positives_count}
+                      </Typography>
+                      <Typography>
+                        {attributeResults.metrics.true_positives_count}
                       </Typography>
                     </Box>
                   </Box>

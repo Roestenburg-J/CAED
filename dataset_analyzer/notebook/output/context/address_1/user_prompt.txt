@@ -1,0 +1,80 @@
+Input:
+The following is a list of unique values in an attribute. 
+Check the values and derive the context as indicated. The attribute values is delimited with "|value|".
+|1720 university blvd|
+|1300 south montgomery avenue|
+|1108 ross clark circle|
+|2505 u s highway 431 north|
+|2505xuxsxhighwayx431xnorth|
+|205 marengo street|
+|702xnxmainxst|
+|702 n main st|
+|702 x maix st|
+|101 hospital circle|
+|201 pine street northwest|
+|201 pine sxreex norxhwesx|
+|8000 alabama highway 69|
+|8000 alabama xigxway 69|
+|50 medical park east drive|
+|200 med center drive|
+|33700 highway 43|
+|33700 hxghway 43|
+|33700 highway x3|
+|1000 first street north|
+|1000 fixst stxeet noxth|
+|1720 univxrsity blvd|
+|301 east 18th st|
+|301xeastx18thxst|
+|4370 west main street|
+|4370xwestxmainxstreet|
+|810 st vincents drive|
+|810 st vxncents drxve|
+|1201 7th street se|
+|1530 u s highway 43|
+|1530xuxsxhighwayx43|
+|2451 fillingim street|
+|124 s memorial dr|
+|124xsxmemorialxdr|
+|124 s mxmorial dr|
+|15155 highway 43|
+|315 w hickory st|
+|315 w hickxry st|
+|315xwxhickoryxst|
+|2801 debarr road|
+|po box 287|
+|poxboxx287|
+|126 hospital ave|
+|126xhospitalxave|
+|1x6 hospital ave|
+|400 northwood dr|
+|2105 east south boulevard|
+|1725 pine street|
+|4800 48th st|
+|987 drayton street|
+|2000 pepperell parkway|
+|209 north main street|
+|209 xorth maix street|
+|619 south 19th street|
+|805 friendship road|
+|1912 alabama highway 157|
+|1912xalabamaxhighwayx157|
+|849 south three notch street|
+|301 east 1xth st|
+|101 sivley rd|
+|1007 goodyear avenue|
+|1010 lay dam road|
+|x0x0 lay dam road|
+|1256 military street south|
+|1256 military street sxuth|
+|1653 temple avenue north|
+|600 south third street|
+|600 souxh xhird sxreex|
+|515 miranda st|
+|515 miranda sx|
+|515 miranxa st|
+|515 mirxndx st|
+|400 n edwards street|
+|400xnxedwardsxstreet|
+|150 gilbreath drive|
+|150 gilxreath drive|
+

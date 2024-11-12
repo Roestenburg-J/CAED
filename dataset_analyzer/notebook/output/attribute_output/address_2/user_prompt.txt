@@ -1,0 +1,10 @@
+Context:
+The context is delimited as "#Context#'
+#The absence of values indicates optional data or scenarios where data is not applicable or available, necessitating further context to ascertain its relevance in the overall dataset.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|empty|
+

@@ -1,0 +1,13 @@
+Context:
+The context is delimited as "#Context#'
+#This column may include two-letter combinations designed for initials or state abbreviations, serving a categorization purpose in the dataset that aids in grouping related items or locations.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|al|
+[1]>|xl|
+[2]>|ax|
+[3]>|ak|
+

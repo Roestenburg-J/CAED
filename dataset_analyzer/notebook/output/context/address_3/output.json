@@ -1,0 +1,1 @@
+{"output":[{"datatype":"string","range":"This column appears to contain only a single unique value, which is empty, suggesting that it may represent a null value or lack of data.","meaning":"The column likely indicates the absence of information or that no entries were recorded."}]}

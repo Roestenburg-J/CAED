@@ -1,0 +1,85 @@
+Context:
+The context is delimited as "#Context#'
+#Values in this column denote street addresses encompassing building numbers, street names, and directional indicators, with some entries showing errors in textual representations that may affect data interpretation or geolocation efforts.#
+    
+Input:
+The first column of the input is an index and does not have to be checked for errors and is delimited with "[index]". The data to be checked is in the second column and delimited with "|value|".
+The relationship between an index is indicated using " > ".
+A index value pair is indicated by "[index]>|value|".
+[0]>|1720 university blvd|
+[1]>|1300 south montgomery avenue|
+[2]>|1108 ross clark circle|
+[3]>|2505 u s highway 431 north|
+[4]>|2505xuxsxhighwayx431xnorth|
+[5]>|205 marengo street|
+[6]>|702xnxmainxst|
+[7]>|702 n main st|
+[8]>|702 x maix st|
+[9]>|101 hospital circle|
+[10]>|201 pine street northwest|
+[11]>|201 pine sxreex norxhwesx|
+[12]>|8000 alabama highway 69|
+[13]>|8000 alabama xigxway 69|
+[14]>|50 medical park east drive|
+[15]>|200 med center drive|
+[16]>|33700 highway 43|
+[17]>|33700 hxghway 43|
+[18]>|33700 highway x3|
+[19]>|1000 first street north|
+[20]>|1000 fixst stxeet noxth|
+[21]>|1720 univxrsity blvd|
+[22]>|301 east 18th st|
+[23]>|301xeastx18thxst|
+[24]>|4370 west main street|
+[25]>|4370xwestxmainxstreet|
+[26]>|810 st vincents drive|
+[27]>|810 st vxncents drxve|
+[28]>|1201 7th street se|
+[29]>|1530 u s highway 43|
+[30]>|1530xuxsxhighwayx43|
+[31]>|2451 fillingim street|
+[32]>|124 s memorial dr|
+[33]>|124xsxmemorialxdr|
+[34]>|124 s mxmorial dr|
+[35]>|15155 highway 43|
+[36]>|315 w hickory st|
+[37]>|315 w hickxry st|
+[38]>|315xwxhickoryxst|
+[39]>|2801 debarr road|
+[40]>|po box 287|
+[41]>|poxboxx287|
+[42]>|126 hospital ave|
+[43]>|126xhospitalxave|
+[44]>|1x6 hospital ave|
+[45]>|400 northwood dr|
+[46]>|2105 east south boulevard|
+[47]>|1725 pine street|
+[48]>|4800 48th st|
+[49]>|987 drayton street|
+[50]>|2000 pepperell parkway|
+[51]>|209 north main street|
+[52]>|209 xorth maix street|
+[53]>|619 south 19th street|
+[54]>|805 friendship road|
+[55]>|1912 alabama highway 157|
+[56]>|1912xalabamaxhighwayx157|
+[57]>|849 south three notch street|
+[58]>|301 east 1xth st|
+[59]>|101 sivley rd|
+[60]>|1007 goodyear avenue|
+[61]>|1010 lay dam road|
+[62]>|x0x0 lay dam road|
+[63]>|1256 military street south|
+[64]>|1256 military street sxuth|
+[65]>|1653 temple avenue north|
+[66]>|600 south third street|
+[67]>|600 souxh xhird sxreex|
+[68]>|515 miranda st|
+[69]>|515 miranda sx|
+[70]>|515 miranxa st|
+[71]>|515 mirxndx st|
+[72]>|400 n edwards street|
+[73]>|400xnxedwardsxstreet|
+[74]>|150 gilbreath drive|
+[75]>|150 gilxreath drive|
+

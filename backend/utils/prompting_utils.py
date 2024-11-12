@@ -206,7 +206,7 @@ def prompt_gpt(
             batch_output = completion.choices[0].message.content
 
             # remove first 11 and last 2 chars from batch string
-            accumulated_output = accumulated_output + batch_output[11:-2]
+            accumulated_output = accumulated_output + batch_output[11:-2] + ","
 
             # Calculate and accumulate time spent for this batch
             end_time = time.time()
@@ -219,7 +219,7 @@ def prompt_gpt(
         milliseconds = int((total_elapsed_time % 1) * 1000)
         formatted_time = f"{minutes:02}:{seconds:02}.{milliseconds:03}"
 
-        accumulated_output = accumulated_output + "]}"
+        accumulated_output = accumulated_output[:-1] + "]}"
 
         # Write the accumulated output once all batches are completed
         write_output(

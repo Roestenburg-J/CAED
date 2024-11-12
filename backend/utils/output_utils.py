@@ -284,20 +284,35 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
         # Sort column names to keep consistent ordering in each dependency pair
         col_names_sorted = sorted(col_counts.keys())
 
-        if len(col_names_sorted) >= 2:
-            col_1_name, col_2_name = col_names_sorted[:2]
-            col_1_count = col_counts.get(col_1_name, 0)
-            col_2_count = col_counts.get(col_2_name, 0)
+        # Ensure we have two columns to process; add missing columns with a count of 0
+        if len(col_names_sorted) < 2:
+            # Add any missing columns by setting them to 0
+            for col_name in column_names:
+                if col_name not in col_counts:
+                    col_counts[col_name] = 0
+            col_names_sorted = sorted(col_counts.keys())[
+                :2
+            ]  # Ensure we have two columns
 
-            dependencies_list.append(
-                {
-                    "column_1_name": col_1_name,
-                    "column_2_name": col_2_name,
-                    "column_1_count": col_1_count,
-                    "column_2_count": col_2_count,
-                    "dependency": dependency,
-                }
-            )
+        # Get the first two columns (after filling in missing counts with 0)
+        col_1_name, col_2_name = col_names_sorted[:2]
+        col_1_count = col_counts.get(col_1_name, 0)
+        col_2_count = col_counts.get(col_2_name, 0)
+
+        # Skip only if both columns have a count of 0
+        if col_1_count == 0 and col_2_count == 0:
+            continue
+
+        # Append the processed dependency info to the list
+        dependencies_list.append(
+            {
+                "column_1_name": col_1_name,
+                "column_2_name": col_2_name,
+                "column_1_count": col_1_count,
+                "column_2_count": col_2_count,
+                "dependency": dependency,
+            }
+        )
 
     # Convert dependencies list to a DataFrame for the column summary
     column_summary_df = pd.DataFrame(dependencies_list)

@@ -89,10 +89,7 @@ def dependency_detection(
 
         json_sample = dataset_sample.to_json(orient="records", indent=4)
 
-        user_prompt = f"""Input:
-The following is a formatted table with the data to be checked.
-{json_sample}
-"""
+        user_prompt = f"""Input:"""
 
         # Call your prompt_gpt function with the dynamic directory
         prompt_gpt(
@@ -102,4 +99,5 @@ The following is a formatted table with the data to be checked.
             response_format,
             dynamic_directory,
             dataset_sample,
+            json_str=json_sample,
         )

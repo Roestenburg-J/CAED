@@ -1,1 +1,0 @@
-{"output":[{"datatype":"text","range":"Values range from '0 patients' to '1295 patients', indicating a count of patients that can vary significantly, including possible outliers in the upper range.","meaning":"The column likely represents the number of patients, with 'patients' clearly denoting the series of values."}]}

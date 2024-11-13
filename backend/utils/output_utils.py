@@ -15,6 +15,8 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
         # Get the folder name (which will be the column name)
         folder_name = os.path.basename(root)
 
+        current_app.logger.info(folder_name)
+
         # Skip the root directory itself (attribute_output)
         if root == directory:
             continue
@@ -43,6 +45,7 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 
                     except json.JSONDecodeError as e:
                         print(f"Error decoding JSON from file {file_path}: {e}")
+
                     except Exception as e:
                         print(f"Error reading file {file_path}: {e}")
 
@@ -51,8 +54,14 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
                 try:
                     dict_data = pd.read_csv(dict_file_path)
                     dict_data.columns = dict_data.columns.str.strip()
+
                 except Exception as e:
                     print(f"Error reading dict.csv from file {dict_file_path}: {e}")
+
+        current_app.logger.info(
+            f"Annotated: {annotated_output.shape[0]}, {annotated_output.shape[1]}"
+        )
+        current_app.logger.info(f"Dict: {len(data_dict)}")
 
         if annotated_output is not None and dict_data is not None:
             annotated_output = annotated_output.drop_duplicates(
@@ -66,6 +75,8 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
                 right_on="index",
                 how="left",
             )  # Join unique indices to the original values
+
+            # current_app.logger.info(dict_out_merged.columns)
 
             dict_out_merged.fillna(0, inplace=True)
             data_dict[folder_name] = dict_out_merged["annotation"]
@@ -205,7 +216,6 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
     for root, dirs, files in os.walk(directory):
         # Get the folder name, which acts as the dependency identifier
         dependency_name = os.path.basename(root)
-        current_app.logger.info(dependency_name)
         # Skip the root directory itself (attribute_output)
         if root == directory:
             continue
@@ -234,7 +244,6 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
                                 "column": columns,
                             }
                         )
-                        current_app.logger.info(annotations_data)
 
                     except json.JSONDecodeError as e:
                         print(f"Error decoding JSON from file {file_path}: {e}")

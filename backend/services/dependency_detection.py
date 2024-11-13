@@ -38,33 +38,37 @@ response_format = {
     },
 }
 
-system_prompt = """
-You are given a sample of similar records from a relational database. You have to determine which columns might have dependencies between them. 
-For the output, only provide pairs of columns that might have dependencies. If multipule dependencies exist with a single column, provide more than one outputs for that column.
-Do not check for dependencies between a column and itself.
+system_prompt = """Task:
+You are given a sample of similar records from a relational database. You must determine which columns have dependencies between them. 
 
+Instructions:
+For the output, only provide pairs of columns that might have dependencies. If multiple dependencies exist with a single column, provide more than one output for that column.
+Do not check for dependencies between a column and itself.
+Describe the dependency between columns clearly and completely.
+Do not attempt to name a column, rather provide a description of its meaning or structure.
+If a pattern is found in the data, provide a description.
+
+Examples:
 Dependencies can occur in two ways.
 
 1. Semantic dependency
 - The meaning of the values of one column determines the meaning of another. 
 Example:
-One column represents cities, and another countries. This may indicated that there is a dependency between the two columns, and that the citities column, contains cities that are present in that country.
+One column represents cities and another country. This may indicate that there is a dependency between the two columns and that the cities column, contains cities that are present in that country.
 Col 1                   , Col 2
 Great Britain           , London
 United States of America, Washington DC
 South Africa            , Pretoria
 
-Note! Other semantic dependecies may occur in different domains from the one mentioned in the example.
-
-2. Pattern Dependency
-- One column may have a pattern, which in part is based on the meaning of another column. 
+2. Syntactic Dependency
+- One column may have a syntactic pattern, which is based on, or determines the meaning of another column. 
 Example:
-One column represents emergency codes, the other emergency descriptions.
+One column represents emergency codes and the other emergency descriptions.
 Col 1      , Col 2
 FRE-003_a  , Forrest fire with damages above $2,000
 FLD-001_z  , Floods that destroyed local buildings
 ERQ-777_n  , Earthquakes that caused power outages 
-HUR-008_t  , Hurricanes that was able to breach sea walls
+HUR-008_t  , Hurricanes that were able to breach sea walls
 """
 
 

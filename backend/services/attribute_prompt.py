@@ -46,26 +46,29 @@ response_format = {
     },
 }
 
-numeric_prompt = """You are given a list of numeric values with their corresponding index. You have to identify all errors in the list.
-You have to annotate an error with a '1' in the output. Only provide output if an error is present.
-For the possible repair only provide the reparied value is output.
-Do not check for sequence violations as the records can appear in an arbitrary order.
-
-Check only for outlier values. Outliers are often of a differnt order of magnitude, so their strings lengths may differ.
-Values that have the same string length has to be significantly different to be considerd outliers.
-Values increasing in length after adding 1, like 999 and 1000 are not considered outliers.
+numeric_prompt = """No Action required.
 """
 
-text_prompt = """You are given a list of unique values in a column with their corresponding index. You have to find all syntactic errors in the dataset and recommend a possible repair.
+text_prompt = """Task:
+You are given a list of unique values in a column with their corresponding index. You have to find all syntactic errors in the dataset and recommend a possible repair.
+
+Error types:
 A syntactic error occurs when a value does not conform to the structure or domain of correct values. The domain and structure of correct values have to be derived from the values themselves.
 A semantic error occurs when a value falls outside of the reasonable context of a column. Use the context description to determine if a value is a semantic error.
-You have to annotate an error with a '1' in the output.
-For the possible repair only provide the reparied value is output.
-You also have to provide a brief explanation referencing the examples a proof for each annotation.
-Values denoting empty or null values can be found in any given context, and are considered correct.
-Note! Only check for syntactic errors. Do not check for language errors.
 
-Syntactic deviations can be one of the following examples
+Instructions:
+You have to annotate an error with a '1' in the output, and a non error with 0.
+All values has to be annotated, only errors require an explaination.
+For the possible repair only provide the reparied value is output.
+You also have to provide a brief explanation referencing the examples as proof for each annotation.
+Values denoting empty or null values can be found in any given context, and are considered correct.
+Do not check for language errors.
+Errors needs to be identified through applying reasoning using the instructions and examples. Do not use external knowledge to identify errors.
+Numeric entries with measurements strings as suffixes are errors.
+For proper nouns only check for syntactic errors.
+Names may contain strange characters such as é or ç.
+Explanations need to be concise.
+
 1. Invalid characters
 - Characters appear in values that do not often appear in others or make them uninterpretable
 Example 1
@@ -93,10 +96,9 @@ Example 2
 70, A single peersonn at three = 1
 
 3. Pattern non-conformity
-- Some values may have a common pattern with certain values deviating from this pattern. There might exist more than one valid pattern in a single attribute.
-Possible repairs should attempt to conform with the most prevalent patterns. Removing a pattern does not constitute a soluition. 
+- Some attributes may have a common pattern with certain values deviating from this pattern.
+Possible repairs should attempt to conform with the most prevalent patterns.
 In certain cases prefixes of suffixes may be added to suffixes that are not neccesarily common patterns, but are still considered correct.
-Values with measurements that are part of the values are considered errors.
 Example 1
 32, 2024/03/12 19:00 = 0
 33, 2024-12-31 12:00 = 1
@@ -116,16 +118,21 @@ def attribute_prompt(dataset: pd.DataFrame, directory: str) -> str:
 
         attribute_dict, attribute_unique = create_attribute_dict(attribute, col)
 
-        if attribute[attribute.columns[0]].dtype == object:
-            system_prompt = text_prompt
-        else:
-            system_prompt = numeric_prompt
-
         attribute_unique.columns = ["value", "index"]
         json_sample = attribute_unique.to_json(orient="records", indent=4)
 
         user_prompt = f"""Input:"""
         # directory = r"D:\Documents\UU\Thesis\Artifact\CAED\dataset_analyzer\notebook\output\attribute_output"
+
+        if attribute[attribute.columns[0]].dtype == object:
+            system_prompt = text_prompt
+        else:
+            if (
+                attribute[attribute.columns[0]].unique().shape[0]
+                == attribute[attribute.columns[0]].shape[0]
+            ):
+                system_prompt = numeric_prompt
+                json_sample = '{"no_records": "empty"}'
 
         prompt_gpt(
             system_prompt,

@@ -168,7 +168,7 @@ def prompt_gpt(
     if num_records <= 200:
         batches = [json_data]  # Single batch if 200 records or fewer
     else:
-        batch_size = 200
+        batch_size = 100
         batches = [
             json_data[i : i + batch_size] for i in range(0, num_records, batch_size)
         ]

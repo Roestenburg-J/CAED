@@ -60,11 +60,9 @@ Instructions:
 You have to annotate an error with a '1' in the output, and a non error with 0.
 All values has to be annotated, only errors require an explaination.
 For the possible repair only provide the reparied value is output.
-You also have to provide a brief explanation referencing the examples as proof for each annotation.
+You also have to provide a brief explanation referencing the examples as proof for each annotation. Do not use external knowledge to identify errors.
 Values denoting empty or null values can be found in any given context, and are considered correct.
 Do not check for language errors.
-Errors needs to be identified through applying reasoning using the instructions and examples. Do not use external knowledge to identify errors.
-Numeric entries with measurements strings as suffixes are errors.
 For proper nouns only check for syntactic errors.
 Names may contain strange characters such as é or ç.
 Explanations need to be concise.

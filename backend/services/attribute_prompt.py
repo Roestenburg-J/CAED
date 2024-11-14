@@ -97,6 +97,7 @@ Example 2
 - Some attributes may have a common pattern with certain values deviating from this pattern.
 Possible repairs should attempt to conform with the most prevalent patterns.
 In certain cases prefixes of suffixes may be added to suffixes that are not neccesarily common patterns, but are still considered correct.
+Suffixes such as measurements and percentages are allowed, but should be consistent.
 Example 1
 32, 2024/03/12 19:00 = 0
 33, 2024-12-31 12:00 = 1

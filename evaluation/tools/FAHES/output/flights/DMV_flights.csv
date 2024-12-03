@@ -1,0 +1,11 @@
+Table Name,Attribute Name,DMV,Frequency,Detecting Tool
+flights,src,world-flight-tracker,55,Rand
+flights,flight,AA-2268-PHX-ORD,26,Rand
+flights,src,CO,19,SYN
+flights,flight,AA-3-JFK-LAX,25,SYN
+flights,sched_dep_time,9:05 a.m. (-00:00),4,SYN
+flights,sched_dep_time,Not Available,13,SYN
+flights,act_dep_time,1:50 p.m. (+8:00),4,SYN
+flights,act_dep_time,Contact Airline,14,SYN
+flights,act_dep_time,Not Available,18,SYN
+flights,sched_arr_time,Not Available,13,SYN

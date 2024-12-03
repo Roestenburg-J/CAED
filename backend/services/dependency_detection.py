@@ -47,6 +47,7 @@ Do not check for dependencies between a column and itself.
 Describe the dependency between columns clearly and completely.
 Do not attempt to name a column, rather provide a description of its meaning or structure.
 If a pattern is found in the data, provide a description.
+Do not detect single column dependencies.
 
 Examples:
 Dependencies can occur in two ways.

@@ -1,0 +1,25 @@
+Table Name,Attribute Name,DMV,Frequency,Detecting Tool
+hospital,ProviderNumber,10018,25,Rand
+hospital,HospitalName,callahan eye foundation hospital,25,Rand
+hospital,Address1,1720 university blvd,24,Rand
+hospital,City,birmingham,75,Rand
+hospital,ZipCode,35233,48,Rand
+hospital,CountyName,jefferson,99,Rand
+hospital,PhoneNumber,2053258100,25,Rand
+hospital,HospitalType,acute care hospitals,968,Rand
+hospital,HospitalOwner,voluntary non-profit - private,258,Rand
+hospital,Condition,heart failure,156,Rand
+hospital,MeasureCode,ami-4,38,Rand
+hospital,MeasureName,heart attack patients given pci within 90 minutes of arrival,38,Rand
+hospital,Score,empty,167,Rand
+hospital,Sample,empty,60,Rand
+hospital,Stateavg,al_ami-7a,37,Rand
+hospital,HospitalName,jackson hospital & clinic inc,24,SYN
+hospital,City,fort payne,24,SYN
+hospital,CountyName,de kalb,21,SYN
+hospital,CountyName,dx kalb,2,SYN
+hospital,CountyName,xe kalb,2,SYN
+hospital,HospitalType,acutexcarexhospitals,7,SYN
+hospital,Condition,children s asthma care,9,SYN
+hospital,Score,0%,11,SYN
+hospital,Sample,x patients,2,SYN

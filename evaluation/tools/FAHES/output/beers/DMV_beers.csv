@@ -1,0 +1,13 @@
+Table Name,Attribute Name,DMV,Frequency,Detecting Tool
+beers,ibu,65,54,Rand
+beers,city,Grand Rapids,65,Rand
+beers,state,MI,157,Rand
+beers,style,Bière de Garde,7,SYN
+beers,style,Kölsch,42,SYN
+beers,style,Märzen / Oktoberfest,30,SYN
+beers,ounces,12.0 oz. Silo Can,7,SYN
+beers,ounces,16.0 oz. Silo Can,4,SYN
+beers,ibu,N/A,1005,SYN
+beers,brewery-name,Jack's Hard Cider (Hauser Estate...,2,SYN
+beers,brewery-name,Oskar Blues Brewery (North Carol...,6,SYN
+beers,brewery-name,Tröegs Brewing Company,5,SYN

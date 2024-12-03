@@ -216,6 +216,7 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
     for root, dirs, files in os.walk(directory):
         # Get the folder name, which acts as the dependency identifier
         dependency_name = os.path.basename(root)
+        current_app.logger.info(dependency_name)
         # Skip the root directory itself (attribute_output)
         if root == directory:
             continue

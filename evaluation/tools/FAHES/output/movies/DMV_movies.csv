@@ -1,0 +1,11 @@
+Table Name,Attribute Name,DMV,Frequency,Detecting Tool
+movies,Year,1996,127,Rand
+movies,Language,English,5763,Rand
+movies,Country,USA,5837,Rand
+movies,Duration,80 min,112,Rand
+movies,Genre,Family,92,Rand
+movies,Description,Add a Plot,115,Rand
+movies,Name,Girls! Girls! Girls!,2,SYN
+movies,Creator,Rodrigo García,2,SYN
+movies,Duration,2 hr.,2,SYN
+movies,Filming Locations,"Cité du Cinéma, Montréal, Québec, Canada",3,SYN

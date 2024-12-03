@@ -1,0 +1,6 @@
+Table Name,Attribute Name,DMV,Frequency,Detecting Tool
+rayyan,article_language,eng,464,Rand
+rayyan,article_jvolumn,7,15,Rand
+rayyan,article_jissue,7,35,Rand
+rayyan,article_language,English; ABSTRACT LANGUAGE:English,4,SYN
+rayyan,article_pagination,-,2,SYN

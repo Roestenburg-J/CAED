@@ -1,9 +1,8 @@
-notebook
+notebook/
 
 evaluation/tools/FAHES/source
 evaluation/tools/raha/source
 evaluation/tools/raha/output/movies_1/error-detection
-
 evaluation/tools/SURAGH/source
 evaluation/tools/SynODC/source
 

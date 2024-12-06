@@ -11,5 +11,5 @@ backend/__pycache__
 backend/services/__pycache__
 backend/utils/__pycache__
 backend/app.log
-backend/user_settings 
+backend/user_settings/settings.json
 

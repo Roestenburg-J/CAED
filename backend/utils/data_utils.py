@@ -28,7 +28,7 @@ def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
 
 # Function to create unique row dictionary
 def create_row_dict(selected_columns: pd.DataFrame) -> pd.DataFrame:
-    # Make a copy to avoid SettingWithCopyWarning
+
     selected_columns = selected_columns.copy()
 
     # Store original index
@@ -48,9 +48,7 @@ def create_row_dict(selected_columns: pd.DataFrame) -> pd.DataFrame:
         selected_columns,
         unique_rows,
         how="left",
-        on=list(
-            selected_columns.columns[:-1]
-        ),  # Merge on actual data columns, excluding 'original_index' and 'unique_row_index'
+        on=list(selected_columns.columns[:-1]),
     )
 
     return row_dict, unique_rows

@@ -96,7 +96,6 @@ def dependency_detection(
 
         user_prompt = f"""Input:"""
 
-        # Call your prompt_gpt function with the dynamic directory
         prompt_gpt(
             system_prompt,
             user_prompt,

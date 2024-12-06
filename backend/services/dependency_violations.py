@@ -114,7 +114,7 @@ def detect_dep_violations(
         first_index = row["column_1"]  # Get the first index from the new structure
         grouped_dependencies[first_index].append(row)  # Group by first index
 
-    # Now process each group of dependencies based on the first index
+    # Process each group of dependencies based on the first index
     for first_index, dependencies in grouped_dependencies.items():
 
         selected_columns = [
@@ -140,7 +140,7 @@ def detect_dep_violations(
 
             # Check for duplicates
             if selected_columns.drop_duplicates().shape[0] < dataset.shape[0]:
-                # Create the unique row dictionary using the previously defined create_row_dict function
+
                 row_dict, unique_rows = create_row_dict(selected_columns)
 
                 # Update the columns for unique rows
@@ -151,9 +151,7 @@ def detect_dep_violations(
                 ]
 
                 json_sample = unique_rows.to_json(orient="records", indent=4)
-                # current_app.logger.info(json_sample)
 
-                # Prepare the user prompt with dependency and unique rows
                 user_prompt = f"""Input:
   The dependency identified in this table is defined as follows:
   {dependency_description}
@@ -161,7 +159,6 @@ def detect_dep_violations(
   The following is a formatted table with the unique data to be checked.
   """
 
-                # Uncomment this to send the prompt to the GPT system
                 prompt_gpt(
                     system_prompt,
                     user_prompt,

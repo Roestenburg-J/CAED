@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The average rating of the film might correlate with the number of user and critic reviews.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Both columns contain repeated instances of 'empty', which indicates potential redundancy and a lack of data for those specific fields across records.
+
+  The following is a formatted table with the unique data to be checked.
+  

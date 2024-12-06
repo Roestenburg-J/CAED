@@ -1,0 +1,2411 @@
+city,state,original_index,unique_index
+Bend,OR,0,0
+Gary,IN,1,1
+Gary,IN,2,1
+Gary,IN,3,1
+Gary,IN,4,1
+Gary,IN,5,1
+Gary,IN,6,1
+Gary,IN,7,1
+Gary,IN,8,1
+Gary,IN,9,1
+Gary,IN,10,1
+Gary,IN,11,1
+Gary,IN,12,1
+Gary,IN,13,1
+Gary,IN,14,1
+Corvallis,OR,15,2
+Corvallis,OR,16,2
+Corvallis,OR,17,2
+Corvallis,OR,18,2
+San Francisco,CA,19,3
+San Francisco CA,,20,4
+San Francisco,CA,21,3
+San Francisco,CA,22,3
+San Francisco,CA,23,3
+San Francisco,CA,24,3
+San Francisco,CA,25,3
+San Francisco,CA,26,3
+San Francisco,CA,27,3
+San Francisco,CA,28,3
+San Francisco,CA,29,3
+San Francisco,CA,30,3
+San Francisco,CA,31,3
+San Francisco,CA,32,3
+San Francisco,CA,33,3
+San Francisco,CA,34,3
+San Francisco,CA,35,3
+San Francisco,CA,36,3
+San Francisco,CA,37,3
+San Francisco,CA,38,3
+St Petersburg,FL,39,5
+St Petersburg,FL,40,5
+St Petersburg,FL,41,5
+Saint Louis,MO,42,6
+Saint Louis,MO,43,6
+Saint Louis,MO,44,6
+Saint Louis,MO,45,6
+Saint Louis,MO,46,6
+Saint Louis MO,,47,7
+Saint Louis,MO,48,6
+Saint Louis,MO,49,6
+Columbus,IN,50,8
+Columbus,IN,51,8
+Columbus,IN,52,8
+Columbus,IN,53,8
+Columbus,IN,54,8
+Columbus,IN,55,8
+Columbus,IN,56,8
+Gig Harbor,WA,57,9
+Gig Harbor,WA,58,9
+Gig Harbor,WA,59,9
+Gig Harbor,WA,60,9
+Dunedin,FL,61,10
+Golden,CO,62,11
+Golden,CO,63,11
+Abita Springs,LA,64,12
+Abita Springs,LA,65,12
+Abita Springs,LA,66,12
+Louisville,KY,67,13
+Louisville,KY,68,13
+Louisville,KY,69,13
+Louisville,KY,70,13
+Louisville,KY,71,13
+Louisville,KY,72,13
+Louisville,KY,73,13
+Louisville,KY,74,13
+Louisville,KY,75,13
+Louisville,KY,76,13
+Louisville,KY,77,13
+Louisville,KY,78,13
+Louisville,KY,79,13
+Louisville,KY,80,13
+Louisville,KY,81,13
+Kent,WA,82,14
+Kent,WA,83,14
+Kent,WA,84,14
+Portland,OR,85,15
+Portland,OR,86,15
+Portland,OR,87,15
+Juneau,AK,88,16
+Juneau,AK,89,16
+Madison WI,,90,17
+Lexington,KY,91,18
+Lexington,KY,92,18
+Washougal,WA,93,19
+Washougal,WA,94,19
+Washougal,WA,95,19
+San Francisco,CA,96,3
+San Francisco,CA,97,3
+San Francisco,CA,98,3
+San Francisco,CA,99,3
+San Francisco,CA,100,3
+Boonville,CA,101,20
+Boonville,CA,102,20
+Boonville,CA,103,20
+Boonville,CA,104,20
+Boonville,CA,105,20
+Boonville,CA,106,20
+Boonville,CA,107,20
+Boonville,CA,108,20
+Boonville,CA,109,20
+Boonville,CA,110,20
+Boonville,CA,111,20
+Boonville,CA,112,20
+Boonville,CA,113,20
+Boonville,CA,114,20
+Boonville,CA,115,20
+Boonville,CA,116,20
+Boonville,CA,117,20
+Boonville,CA,118,20
+Hayward,WI,119,21
+Hayward,WI,120,21
+Hayward WI,,121,22
+Cincinnati,OH,122,23
+Cincinnati,OH,123,23
+Cincinnati,OH,124,23
+Oklahoma City,OK,125,24
+Oklahoma City,OK,126,24
+Oklahoma City,OK,127,24
+Boone,NC,128,25
+Boone,NC,129,25
+Boone,NC,130,25
+Battle Creek,MI,131,26
+Battle Creek,MI,132,26
+Colorado Springs,CO,133,27
+Denton TX,,134,28
+Denton,TX,135,29
+South San Francisco,CA,136,30
+Boulder,CO,137,31
+Asheville,NC,138,32
+Asheville NC,,139,33
+Asheville,NC,140,32
+Bellingham,WA,141,34
+Bellingham,WA,142,34
+Bellingham,WA,143,34
+Aspen,CO,144,35
+Aspen,CO,145,35
+Astoria,OR,146,36
+Astoria,OR,147,36
+Astoria,OR,148,36
+Astoria,OR,149,36
+Detroit,MI,150,37
+Detroit,MI,151,37
+Detroit,MI,152,37
+Detroit,MI,153,37
+Detroit,MI,154,37
+Detroit MI,,155,38
+Austin,TX,156,39
+Austin,TX,157,39
+Austin,TX,158,39
+Austin,TX,159,39
+Austin,TX,160,39
+Boulder,CO,161,31
+Boulder,CO,162,31
+Boulder,CO,163,31
+Boulder,CO,164,31
+Boulder,CO,165,31
+Boulder,CO,166,31
+Fuquay-Varina,NC,167,40
+Fuquay-Varina,NC,168,40
+Fuquay-Varina,NC,169,40
+Fuquay-Varina,NC,170,40
+Fuquay-Varina,NC,171,40
+Fuquay-Varina,NC,172,40
+Bloomfield,CT,173,41
+Bloomfield,CT,174,41
+Bloomfield,CT,175,41
+Bloomfield,CT,176,41
+Bloomfield,CT,177,41
+Gadsden,AL,178,42
+Gadsden,AL,179,42
+Yakima,WA,180,43
+Yakima,WA,181,43
+San Diego,CA,182,44
+San Diego CA,,183,45
+San Diego,CA,184,44
+San Diego,CA,185,44
+San Diego,CA,186,44
+San Diego,CA,187,44
+Williamsburg,MA,188,46
+Williamsburg,MA,189,46
+Williamsburg,MA,190,46
+Granger,IN,191,47
+Tucson,AZ,192,48
+Tucson,AZ,193,48
+Portland,OR,194,15
+Portland,OR,195,15
+Portland,OR,196,15
+Portland,OR,197,15
+Portland,OR,198,15
+Minneapolis,MN,199,49
+Minneapolis,MN,200,49
+Minneapolis,MN,201,49
+Minneapolis,MN,202,49
+Lewiston,ME,203,50
+Lewiston,ME,204,50
+Lewiston,ME,205,50
+Lewiston,ME,206,50
+Lewiston,ME,207,50
+Lewiston,ME,208,50
+Lewiston,ME,209,50
+Lewiston,ME,210,50
+Lewiston,ME,211,50
+Virginia Beach,VA,212,51
+Lowell,MA,213,52
+Lowell,MA,214,52
+Lowell,MA,215,52
+Lowell,MA,216,52
+Kalamazoo,MI,217,53
+Kalamazoo,MI,218,53
+Kalamazoo,MI,219,53
+Kalamazoo,MI,220,53
+Kalamazoo,MI,221,53
+Kalamazoo,MI,222,53
+Roseville,MN,223,54
+Roseville,MN,224,54
+Roseville,MN,225,54
+Duluth,MN,226,55
+Duluth,MN,227,55
+Duluth,MN,228,55
+Duluth,MN,229,55
+Duluth MN,,230,56
+Duluth,MN,231,55
+South Deerfield,MA,232,57
+South Deerfield,MA,233,57
+Alpine,TX,234,58
+Alpine,TX,235,58
+Alpine,TX,236,58
+Alpine,TX,237,58
+Alpine,TX,238,58
+Broomfield,CO,239,59
+Broomfield,CO,240,59
+Broomfield,CO,241,59
+Broomfield,CO,242,59
+Sheffield,MA,243,60
+Sheffield,MA,244,60
+Sheffield,MA,245,60
+Holland,MI,246,61
+Holland,MI,247,61
+Murphysboro,IL,248,62
+Murphysboro,IL,249,62
+Chattanooga,TN,250,63
+Chattanooga,TN,251,63
+Missoula,MT,252,64
+Missoula,MT,253,64
+Missoula,MT,254,64
+Missoula,MT,255,64
+Missoula,MT,256,64
+Missoula,MT,257,64
+Missoula,MT,258,64
+Missoula,MT,259,64
+Missoula,MT,260,64
+Missoula,MT,261,64
+Missoula,MT,262,64
+Missoula,MT,263,64
+Odessa,FL,264,65
+Odessa,FL,265,65
+Vadnais Heights,MN,266,66
+Vadnais Heights,MN,267,66
+Vadnais Heights,MN,268,66
+Vadnais Heights,MN,269,66
+Vadnais Heights,MN,270,66
+Charlotte,NC,271,67
+Hamilton,MT,272,68
+Hamilton,MT,273,68
+Hamilton,MT,274,68
+Indianapolis,IN,275,69
+Temecula,CA,276,70
+Temecula,CA,277,70
+Temecula,CA,278,70
+Temecula,CA,279,70
+Denver,CO,280,71
+Denver,CO,281,71
+Denver,CO,282,71
+Denver,CO,283,71
+Sheridan,WY,284,72
+Sheridan,WY,285,72
+Marquette,MA,286,73
+Marquette,MI,287,74
+Marquette,MI,288,74
+Marquette,MI,289,74
+Marquette,MI,290,74
+Marquette,MI,291,74
+Marquette,MI,292,74
+Lincoln,NE,293,75
+Lincoln,NE,294,75
+Lincoln,NE,295,75
+Lincoln,NE,296,75
+Lincoln,NE,297,75
+Lincoln,NE,298,75
+Lincoln,NE,299,75
+Lincoln,NE,300,75
+Lincoln,NE,301,75
+Lincoln,NE,302,75
+Lincoln,NE,303,75
+Lincoln,NE,304,75
+Lincoln,NE,305,75
+Lincoln,NE,306,75
+Eugene,OR,307,76
+Eugene,OR,308,76
+Canton MA,,309,77
+Afton VA,,310,78
+Afton,VA,311,79
+Afton,VA,312,79
+Afton,VA,313,79
+Arrington,VA,314,80
+Austin,TX,315,39
+Austin,TX,316,39
+Austin,TX,317,39
+Austin,TX,318,39
+Patchogue,NY,319,81
+Patchogue,NY,320,81
+Patchogue,NY,321,81
+Patchogue,NY,322,81
+Midvale,UT,323,82
+Midvale,UT,324,82
+Midvale,UT,325,82
+Midvale,UT,326,82
+Midvale,UT,327,82
+Jacksonville,FL,328,83
+Jacksonville,FL,329,83
+Jacksonville,FL,330,83
+Ridgefield Park,NJ,331,84
+Ridgefield Park,NJ,332,84
+New York,NY,333,85
+New York,NY,334,85
+Eagle,CO,335,86
+Eagle,CO,336,86
+Eagle,CO,337,86
+Eagle,CO,338,86
+Eagle,CO,339,86
+Eagle,CO,340,86
+Eagle,CO,341,86
+Eagle,CO,342,86
+Eagle,CO,343,86
+Eagle,CO,344,86
+Eagle,CO,345,86
+Eagle,CO,346,86
+Eagle,CO,347,86
+Eagle,CO,348,86
+Eagle,CO,349,86
+Eagle,CO,350,86
+Eagle,CO,351,86
+Eagle CO,,352,87
+Eagle,CO,353,86
+Tucson,AZ,354,48
+Boston,MA,355,88
+Boston,MA,356,88
+Boston,MA,357,88
+Boston,MA,358,88
+Boston,MA,359,88
+Boston,MA,360,88
+Boston,MA,361,88
+Boston,MA,362,88
+Boston,MA,363,88
+Boulder,CO,364,31
+Boulder,CO,365,31
+Boulder,CO,366,31
+Kansas City,MO,367,89
+West Chester,PA,368,90
+West Chester,PA,369,90
+West Chester,PA,370,90
+Bozeman,MT,371,91
+Bozeman,MT,372,91
+Bozeman,MT,373,91
+Bozeman,MT,374,91
+Bozeman,MT,375,91
+San Antonio,TX,376,92
+Portland,OR,377,15
+Denver,CO,378,71
+Denver,CO,379,71
+Denver,CO,380,71
+Denver CO,,381,93
+Tampa,FL,382,94
+Tampa,FL,383,94
+Tampa,FL,384,94
+Tampa,FL,385,94
+Plainfield IN,,386,95
+Traverse City,MI,387,96
+Grand Rapids,MI,388,97
+Grand Rapids,MI,389,97
+Grand Rapids,MI,390,97
+Grand Rapids,MI,391,97
+Grand Rapids,MI,392,97
+Grand Rapids,MI,393,97
+Grand Rapids,MI,394,97
+Grand Rapids,MI,395,97
+Grand Rapids,MI,396,97
+Grand Rapids,MI,397,97
+Grand Rapids,MI,398,97
+Grand Rapids,MI,399,97
+Grand Rapids,MI,400,97
+Grand Rapids,MI,401,97
+Grand Rapids,MI,402,97
+Grand Rapids,MI,403,97
+Grand Rapids,MI,404,97
+Grand Rapids,MI,405,97
+Grand Rapids,MI,406,97
+Grand Rapids,MI,407,97
+Grand Rapids,MI,408,97
+Grand Rapids,MI,409,97
+Grand Rapids MI,,410,98
+Grand Rapids,MI,411,97
+Grand Rapids,MI,412,97
+Grand Rapids,MI,413,97
+Grand Rapids,MI,414,97
+Grand Rapids,MI,415,97
+Grand Rapids,MI,416,97
+Grand Rapids,MI,417,97
+Grand Rapids,MI,418,97
+Grand Rapids,MI,419,97
+Grand Rapids,MI,420,97
+Grand Rapids,MI,421,97
+Grand Rapids,MI,422,97
+Grand Rapids,MI,423,97
+Grand Rapids,MI,424,97
+Grand Rapids,MI,425,97
+Grand Rapids,MI,426,97
+Grand Rapids,MI,427,97
+Grand Rapids,MI,428,97
+Grand Rapids,MI,429,97
+Grand Rapids,MI,430,97
+Grand Rapids,MI,431,97
+Grand Rapids,MI,432,97
+Grand Rapids,MI,433,97
+Grand Rapids,MI,434,97
+Grand Rapids,MI,435,97
+Grand Rapids,MI,436,97
+Grand Rapids,MI,437,97
+Grand Rapids,MI,438,97
+Grand Rapids,MI,439,97
+Grand Rapids,MI,440,97
+Grand Rapids,MI,441,97
+Grand Rapids,MI,442,97
+Grand Rapids,MI,443,97
+Grand Rapids,MI,444,97
+Grand Rapids,MI,445,97
+Grand Rapids,MI,446,97
+Grand Rapids,MI,447,97
+Grand Rapids,MI,448,97
+Grand Rapids,MI,449,97
+Tampa Bay,FL,450,99
+Tampa Bay FL,,451,100
+East Windsor,CT,452,101
+Anchorage,AK,453,102
+Anchorage,AK,454,102
+Anchorage,AK,455,102
+Anchorage,AK,456,102
+Brooklyn,NY,457,103
+Brooklyn,NY,458,103
+Brooklyn,NY,459,103
+Brooklyn,NY,460,103
+Brooklyn NY,,461,104
+Brooklyn,NY,462,103
+Reno,NV,463,105
+Reno,NV,464,105
+Reno,NV,465,105
+Reno NV,,466,106
+Reno,NV,467,105
+Reno,NV,468,105
+Reno,NV,469,105
+Cleveland,OH,470,107
+Lyons,IL,471,108
+Houston TX,,472,109
+Houston,TX,473,110
+Houston,TX,474,110
+Michigan City,IN,475,111
+Michigan City,IN,476,111
+Michigan City,IN,477,111
+Michigan City,IN,478,111
+Michigan City,IN,479,111
+Michigan City,IN,480,111
+Michigan City,IN,481,111
+Michigan City,IN,482,111
+Michigan City,IN,483,111
+Michigan City,IN,484,111
+Michigan City,IN,485,111
+Portland,OR,486,15
+Carlsbad,CA,487,112
+Garrattsville,NY,488,113
+Garrattsville,NY,489,113
+Garrattsville,NY,490,113
+Garrattsville,NY,491,113
+Charleston,SC,492,114
+Charleston,SC,493,114
+Charleston,SC,494,114
+Charleston,SC,495,114
+Charleston,SC,496,114
+Charleston,SC,497,114
+Oklahoma City,OK,498,24
+Oklahoma City,OK,499,24
+Oklahoma City OK,,500,115
+Oklahoma City,OK,501,24
+Oklahoma City,OK,502,24
+Oklahoma City,OK,503,24
+Ashland,OR,504,116
+Ashland,OR,505,116
+Ashland,OR,506,116
+Ashland,OR,507,116
+Ashland OR,,508,117
+Ashland,OR,509,116
+Ashland,OR,510,116
+Ashland,OR,511,116
+Ashland,OR,512,116
+Ashland,OR,513,116
+Ashland,OR,514,116
+Ashland,OR,515,116
+Ashland,OR,516,116
+Ashland,OR,517,116
+Cambridge MA,,518,118
+Cambridge,MA,519,119
+Charlotte,NC,520,67
+Charlotte,NC,521,67
+Charlotte,NC,522,67
+Charlotte,NC,523,67
+Gloucester,MA,524,120
+Gloucester,MA,525,120
+Gloucester,MA,526,120
+Gloucester,MA,527,120
+Gloucester MA,,528,121
+Hyannis,MA,529,122
+Hyannis,MA,530,122
+Middleton,WI,531,123
+Middleton,WI,532,123
+Middleton,WI,533,123
+Middleton,WI,534,123
+Middleton,WI,535,123
+Middleton,WI,536,123
+Middleton,WI,537,123
+Middleton,WI,538,123
+Middleton,WI,539,123
+Middleton,WI,540,123
+Middleton,WI,541,123
+Mooresville NC,,542,124
+Mooresville NC,,543,124
+Mooresville,NC,544,125
+Pittsboro,NC,545,126
+Pittsboro,NC,546,126
+Pittsboro,NC,547,126
+Atlantic Highlands,NJ,548,127
+Atlantic Highlands,NJ,549,127
+Atlantic Highlands NJ,,550,128
+Atlantic Highlands,NJ,551,127
+Portland,OR,552,15
+Portland,OR,553,15
+Morganton,NC,554,129
+Morganton,NC,555,129
+Morganton,NC,556,129
+Morganton,NC,557,129
+Morganton,NC,558,129
+Morganton,NC,559,129
+Morganton,NC,560,129
+Port Clinton,OH,561,130
+Port Clinton,OH,562,130
+Morganton,NC,563,129
+Morganton,NC,564,129
+Seven Points,TX,565,131
+Seven Points,TX,566,131
+Seven Points,TX,567,131
+Seven Points,TX,568,131
+Seven Points,TX,569,131
+Seven Points,TX,570,131
+Edwards,CO,571,132
+Edwards CO,,572,133
+Ashland,VA,573,134
+Ashland,VA,574,134
+Ashland,VA,575,134
+Ashland,VA,576,134
+San Luis Obispo,CA,577,135
+San Luis Obispo CA,,578,136
+San Luis Obispo,CA,579,135
+San Luis Obispo,CA,580,135
+Charlottesville,VA,581,137
+Charlottesville,VA,582,137
+Charlottesville,VA,583,137
+Charlottesville VA,,584,138
+Angola,IN,585,139
+Angola,IN,586,139
+Angola,IN,587,139
+Angola IN,,588,140
+Chatham,NY,589,141
+Chatham,NY,590,141
+Cheboygan,MI,591,142
+Cheboygan,MI,592,142
+Cheboygan,MI,593,142
+Cincinnati,OH,594,23
+Seattle,WA,595,143
+Stevens Point,WI,596,144
+Stevens Point,WI,597,144
+Tampa,FL,598,94
+Tampa,FL,599,94
+Tampa,FL,600,94
+Tampa,FL,601,94
+Tampa,FL,602,94
+Tampa,FL,603,94
+Tampa,FL,604,94
+Tampa,FL,605,94
+Tampa,FL,606,94
+Tampa,FL,607,94
+Tampa,FL,608,94
+Tampa,FL,609,94
+Tampa,FL,610,94
+Tampa,FL,611,94
+Tampa,FL,612,94
+Tampa,FL,613,94
+Tampa,FL,614,94
+Tampa,FL,615,94
+Tampa,FL,616,94
+Tampa FL,,617,145
+Tampa,FL,618,94
+Tampa,FL,619,94
+Tampa,FL,620,94
+Tampa,FL,621,94
+Tampa,FL,622,94
+Nantucket,MA,623,146
+Nantucket,MA,624,146
+Nantucket,MA,625,146
+Nantucket,MA,626,146
+Nantucket,MA,627,146
+Nantucket,MA,628,146
+Nantucket,MA,629,146
+Claremont,CA,630,147
+Portland,OR,631,15
+Portland,OR,632,15
+Savannah,GA,633,148
+Savannah,GA,634,148
+Newport,RI,635,149
+Newport,RI,636,149
+Newport,RI,637,149
+Newport,RI,638,149
+Lake Havasu City,AZ,639,150
+Des Moines,IA,640,151
+Des Moines,IA,641,151
+Des Moines IA,,642,152
+Springdale,AR,643,153
+Springdale,AR,644,153
+Springdale,AR,645,153
+Springdale AR,,646,154
+Pawcatuck,CT,647,155
+Covington,LA,648,156
+Greeley,CO,649,157
+Greeley,CO,650,157
+Greeley,CO,651,157
+Edwards,CO,652,132
+Edwards,CO,653,132
+Edwards,CO,654,132
+Edwards,CO,655,132
+Edwards,CO,656,132
+Edwards,CO,657,132
+Edwards,CO,658,132
+Edwards,CO,659,132
+Athens,GA,660,158
+Athens,GA,661,158
+Garden City,ID,662,159
+Garden City,ID,663,159
+Garden City,ID,664,159
+Spearfish,SD,665,160
+Spearfish,SD,666,160
+Spearfish,SD,667,160
+Spearfish,SD,668,160
+Spearfish,SD,669,160
+Spearfish,SD,670,160
+Spearfish,SD,671,160
+Boulder,CO,672,31
+Boulder,CO,673,31
+Avon,IN,674,161
+Avon,IN,675,161
+Avon,IN,676,161
+Avon,IN,677,161
+Portland,ME,678,162
+Portland,ME,679,162
+Washington,DC,680,163
+Washington,DC,681,163
+Washington,DC,682,163
+Washington,DC,683,163
+Washington,DC,684,163
+Washington,DC,685,163
+Washington,DC,686,163
+Washington,DC,687,163
+Aurora,CO,688,164
+Aurora,CO,689,164
+Shelbyville,IN,690,165
+Wilson,WI,691,166
+Diamond Springs,CA,692,167
+Diamond Springs,CA,693,167
+Tulsa,OK,694,168
+Dallas,TX,695,169
+Dallas,TX,696,169
+Dallas,TX,697,169
+Dallas,TX,698,169
+Dallas,TX,699,169
+Dallas,TX,700,169
+Dallas,TX,701,169
+Dallas,TX,702,169
+Dallas,TX,703,169
+Hays,KS,704,170
+Hays,KS,705,170
+Talkeetna,AK,706,171
+Talkeetna,AK,707,171
+Talkeetna,AK,708,171
+Talkeetna,AK,709,171
+Denver,CO,710,71
+Denver,CO,711,71
+Bend,OR,712,0
+Bloomington,IL,713,172
+Bloomington,IL,714,172
+Bloomington IL,,715,173
+Bloomington IL,,716,173
+Bloomington,IL,717,172
+Bloomington,IL,718,172
+Bloomington,IL,719,172
+Lexington,VA,720,174
+Lexington,VA,721,174
+Belmont,CA,722,175
+Belmont CA,,723,176
+Belmont,CA,724,175
+Belmont,CA,725,175
+Centralia,WA,726,177
+Woodinville,WA,727,178
+Philadelphia,PA,728,179
+Dolores,CO,729,180
+Dolores,CO,730,180
+Dolores,CO,731,180
+Dolores,CO,732,180
+Dolores,CO,733,180
+Dolores,CO,734,180
+Leominster,MA,735,181
+Leominster,MA,736,181
+Aurora,CO,737,164
+Aurora,CO,738,164
+Aurora,CO,739,164
+Aurora,CO,740,164
+Boynton Beach,FL,741,182
+Rochester,NY,742,183
+Buena Vista,CO,743,184
+Buena Vista,CO,744,184
+Buena Vista,CO,745,184
+Buena Vista,CO,746,184
+Buena Vista,CO,747,184
+Buena Vista,CO,748,184
+Buena Vista,CO,749,184
+Columbus,OH,750,185
+Seattle,WA,751,143
+Jacksonville Beach,FL,752,186
+Tacoma,WA,753,187
+Denver,CO,754,71
+Denver,CO,755,71
+Denver,CO,756,71
+Denver,CO,757,71
+White Salmon,WA,758,188
+White Salmon,WA,759,188
+Mishawaka,IN,760,189
+Mishawaka,IN,761,189
+Mishawaka,IN,762,189
+Mishawaka,IN,763,189
+Mishawaka,IN,764,189
+Mishawaka,IN,765,189
+Brooklyn,NY,766,103
+Brooklyn,NY,767,103
+Brooklyn,NY,768,103
+Brooklyn,NY,769,103
+Brooklyn,NY,770,103
+Fargo,ND,771,190
+Fargo,ND,772,190
+Fargo,ND,773,190
+Middleburg Heights,OH,774,191
+Middleburg Heights,OH,775,191
+Boulder,CO,776,31
+Boulder,CO,777,31
+Boulder,CO,778,31
+Boulder CO,,779,192
+Boulder,CO,780,31
+Estacada,OR,781,193
+Estacada,OR,782,193
+Estacada,OR,783,193
+Estacada,OR,784,193
+Estacada,OR,785,193
+Estacada,OR,786,193
+Shelburne,VT,787,194
+Shelburne,VT,788,194
+Shelburne,VT,789,194
+Shelburne,VT,790,194
+Buellton,CA,791,195
+Buellton,CA,792,195
+Buellton CA,,793,196
+Chicago,IL,794,197
+Chicago,IL,795,197
+Chicago,IL,796,197
+Chicago,IL,797,197
+Chicago,IL,798,197
+Chicago,IL,799,197
+Chicago,IL,800,197
+Chicago,IL,801,197
+Chicago,IL,802,197
+Chicago,IL,803,197
+Paso Robles,CA,804,198
+Paso Robles CA,,805,199
+Paso Robles,CA,806,198
+Paso Robles,CA,807,198
+Paso Robles,CA,808,198
+Indianapolis,IN,809,69
+Indianapolis,IN,810,69
+Indianapolis,IN,811,69
+Smithton,PA,812,200
+Lombard,IL,813,201
+Frederick,MD,814,202
+Frederick,MD,815,202
+Troutville,VA,816,203
+Troutville,VA,817,203
+Pawtucket,RI,818,204
+Pawtucket,RI,819,204
+Pawtucket,RI,820,204
+Pawtucket,RI,821,204
+Cherry Hill,NJ,822,205
+Cherry Hill,NJ,823,205
+Astoria,OR,824,36
+Astoria,OR,825,36
+Astoria,OR,826,36
+Astoria,OR,827,36
+Astoria,OR,828,36
+Astoria,OR,829,36
+Astoria,OR,830,36
+Astoria,OR,831,36
+Astoria,OR,832,36
+Astoria,OR,833,36
+Astoria,OR,834,36
+Astoria,OR,835,36
+Latrobe PA,,836,206
+San Francisco,CA,837,3
+San Francisco,CA,838,3
+San Francisco,CA,839,3
+San Francisco,CA,840,3
+Grand Rapids,MI,841,97
+Grand Rapids,MI,842,97
+Grand Rapids,MI,843,97
+Dallas,TX,844,169
+Dallas,TX,845,169
+Dallas TX,,846,207
+Valparaiso,IN,847,208
+Valparaiso,IN,848,208
+Valparaiso,IN,849,208
+Valparaiso,IN,850,208
+South Bend,IN,851,209
+Tempe,AZ,852,210
+Tempe,AZ,853,210
+Tempe,AZ,854,210
+Tempe,AZ,855,210
+Tempe,AZ,856,210
+Tempe,AZ,857,210
+Tempe,AZ,858,210
+Columbus,OH,859,185
+Columbus,OH,860,185
+Columbus,OH,861,185
+Columbus,OH,862,185
+Frankenmuth,MI,863,211
+Frankenmuth MI,,864,212
+Frankenmuth,MI,865,211
+San Antonio,TX,866,92
+San Antonio,TX,867,92
+San Antonio,TX,868,92
+San Antonio,TX,869,92
+San Antonio,TX,870,92
+San Antonio,TX,871,92
+San Antonio,TX,872,92
+San Antonio,TX,873,92
+Seattle,WA,874,143
+Seattle,WA,875,143
+Seattle,WA,876,143
+Seattle,WA,877,143
+Seattle,WA,878,143
+Seattle,WA,879,143
+Seattle,WA,880,143
+Asheville,NC,881,32
+Asheville,NC,882,32
+Asheville,NC,883,32
+Waynesville,NC,884,213
+Durham,NC,885,214
+Lake Geneva WI,,886,215
+Lake Geneva,WI,887,216
+Lake Geneva,WI,888,216
+Pineland ME,,889,217
+Los Angeles CA,,890,218
+Los Angeles,CA,891,219
+Los Angeles,CA,892,219
+Los Angeles,CA,893,219
+Los Angeles,CA,894,219
+Los Angeles,CA,895,219
+Los Angeles,CA,896,219
+Los Angeles CA,,897,218
+Los Angeles,CA,898,219
+Los Angeles,CA,899,219
+Los Angeles,CA,900,219
+Los Angeles,CA,901,219
+Los Angeles,CA,902,219
+Los Angeles,CA,903,219
+Los Angeles,CA,904,219
+Kalamazoo,MI,905,53
+Bend,OR,906,0
+Bend,OR,907,0
+Birmingham,AL,908,220
+Birmingham,AL,909,220
+Birmingham,AL,910,220
+Birmingham,AL,911,220
+Birmingham,AL,912,220
+Bend,OR,913,0
+Chicago,IL,914,197
+Chicago,IL,915,197
+Chicago,IL,916,197
+Chicago,IL,917,197
+Chicago IL,,918,221
+Chicago,IL,919,197
+Edwards,CO,920,132
+Williams,AZ,921,222
+Williams,AZ,922,222
+Williams,AZ,923,222
+Williams,AZ,924,222
+Farmers Branch,TX,925,223
+Farmers Branch,TX,926,223
+Farmers Branch,TX,927,223
+Aurora,IN,928,224
+Aurora,IN,929,224
+Aurora,IN,930,224
+Aurora,IN,931,224
+Aurora,IN,932,224
+Aurora,IN,933,224
+Aurora,IN,934,224
+Aurora,IN,935,224
+Aurora,IN,936,224
+Aurora,IN,937,224
+Aurora,IN,938,224
+Aurora,IN,939,224
+Aurora IN,,940,225
+Aurora,IN,941,224
+Aurora,IN,942,224
+Aurora,IN,943,224
+Aurora,IN,944,224
+Aurora,IN,945,224
+Aurora,IN,946,224
+Aurora,IN,947,224
+Denver,CO,948,71
+Denver,CO,949,71
+Denver,CO,950,71
+Denver,CO,951,71
+Denver CO,,952,93
+Denver,CO,953,71
+Denver,CO,954,71
+Denver,CO,955,71
+Denver,CO,956,71
+Whitefish,MT,957,226
+Whitefish,MT,958,226
+Shreveport,LA,959,227
+Shreveport,LA,960,227
+Davenport,IA,961,228
+Davenport,IA,962,228
+Davenport,IA,963,228
+Davenport,IA,964,228
+Davenport,IA,965,228
+Davenport,IA,966,228
+Davenport,IA,967,228
+Davenport,IA,968,228
+Davenport,IA,969,228
+Davenport,IA,970,228
+Davenport,IA,971,228
+Davenport,IA,972,228
+Davenport,IA,973,228
+Davenport,IA,974,228
+Davenport,IA,975,228
+Davenport,IA,976,228
+Davenport,IA,977,228
+Davenport,IA,978,228
+Jacksonville,FL,979,83
+Lewisburg,WV,980,229
+Lewisburg,WV,981,229
+Westerly,RI,982,230
+Westerly,RI,983,230
+Westerly,RI,984,230
+Westerly,RI,985,230
+Westerly,RI,986,230
+Westerly,RI,987,230
+Westerly,RI,988,230
+Westerly,RI,989,230
+Westerly,RI,990,230
+Birmingham,MI,991,231
+Birmingham,MI,992,231
+Birmingham,MI,993,231
+Birmingham,MI,994,231
+Birmingham,MI,995,231
+Birmingham,MI,996,231
+Birmingham,MI,997,231
+Birmingham,MI,998,231
+Birmingham,MI,999,231
+Loveland,CO,1000,232
+Seattle,WA,1001,143
+Seattle,WA,1002,143
+Chicago,IL,1003,197
+Chicago,IL,1004,197
+Chicago,IL,1005,197
+Chicago,IL,1006,197
+Chicago,IL,1007,197
+Chicago,IL,1008,197
+Chicago,IL,1009,197
+Chicago,IL,1010,197
+Stamford,CT,1011,233
+Stamford,CT,1012,233
+Redlands,CA,1013,234
+Redlands,CA,1014,234
+Richmond,VA,1015,235
+Richmond,VA,1016,235
+Richmond,VA,1017,235
+Boston,MA,1018,88
+Boston,MA,1019,88
+Boston,MA,1020,88
+Boston,MA,1021,88
+Boston,MA,1022,88
+Boston,MA,1023,88
+Boston,MA,1024,88
+Boston,MA,1025,88
+Boston,MA,1026,88
+Boston,MA,1027,88
+Boston MA,,1028,236
+Boston,MA,1029,88
+Belt,MT,1030,237
+Belt,MT,1031,237
+Hilo,HI,1032,238
+Hilo,HI,1033,238
+Hilo,HI,1034,238
+Hilo,HI,1035,238
+Hilo,HI,1036,238
+Mill Valley,CA,1037,239
+Mill Valley,CA,1038,239
+Mill Valley CA,,1039,240
+Halethorpe,MD,1040,241
+Halethorpe,MD,1041,241
+Halethorpe,MD,1042,241
+San Diego,CA,1043,44
+San Diego,CA,1044,44
+San Diego,CA,1045,44
+Windsor,CO,1046,242
+Windsor,CO,1047,242
+Leavenworth,KS,1048,243
+Leavenworth,KS,1049,243
+Leavenworth,KS,1050,243
+Seattle,WA,1051,143
+Seattle,WA,1052,143
+Seattle,WA,1053,143
+Seattle,WA,1054,143
+Seattle,WA,1055,143
+Green Bay,WI,1056,244
+Pittsburgh,PA,1057,245
+Pittsburgh,PA,1058,245
+Pittsburgh PA,,1059,246
+Springfield,OR,1060,247
+Springfield,OR,1061,247
+Springfield,OR,1062,247
+Springfield,OR,1063,247
+Springfield,OR,1064,247
+Springfield,OR,1065,247
+Springfield,OR,1066,247
+Springfield,OR,1067,247
+Austin,TX,1068,39
+Austin,TX,1069,39
+Austin,TX,1070,39
+Austin,TX,1071,39
+Austin,TX,1072,39
+Portland,OR,1073,15
+Portland,OR,1074,15
+Portland OR,,1075,248
+Portland,OR,1076,15
+Portland OR,,1077,248
+Portland,OR,1078,15
+Portland,OR,1079,15
+Portland,OR,1080,15
+Portland,OR,1081,15
+Portland,OR,1082,15
+Portland,OR,1083,15
+Portland,OR,1084,15
+Portland,OR,1085,15
+Portland,OR,1086,15
+Portland,OR,1087,15
+Portland OR,,1088,248
+Portland,OR,1089,15
+Portland,OR,1090,15
+Portland,OR,1091,15
+Portland,OR,1092,15
+Portland,OR,1093,15
+Portland,OR,1094,15
+Portland,OR,1095,15
+Milwaukee,WI,1096,249
+Milwaukee,WI,1097,249
+Milwaukee,WI,1098,249
+Lenoir,NC,1099,250
+Lenoir,NC,1100,250
+Minneapolis,MN,1101,49
+Minneapolis,MN,1102,49
+Minneapolis,MN,1103,49
+Minneapolis,MN,1104,49
+Minneapolis,MN,1105,49
+Minneapolis,MN,1106,49
+Austin,TX,1107,39
+Austin,TX,1108,39
+Austin,TX,1109,39
+Indianapolis,IN,1110,69
+Austin,TX,1111,39
+Austin,TX,1112,39
+Jacksonville,FL,1113,83
+Jacksonville,FL,1114,83
+Jacksonville,FL,1115,83
+Ipswich,MA,1116,251
+Wilmington,DE,1117,252
+Framingham,MA,1118,253
+Framingham,MA,1119,253
+Framingham MA,,1120,254
+Framingham,MA,1121,253
+Framingham,MA,1122,253
+Biglerville,PA,1123,255
+Biglerville,PA,1124,255
+Nashville,TN,1125,256
+Athens,OH,1126,257
+Athens,OH,1127,257
+Athens,OH,1128,257
+Athens,OH,1129,257
+Athens,OH,1130,257
+Laurel,MD,1131,258
+Stevens Point,WI,1132,144
+Stevens Point,WI,1133,144
+Stevens Point,WI,1134,144
+Stevens Point,WI,1135,144
+Stevens Point,WI,1136,144
+Stevens Point WI,,1137,259
+Henderson,NV,1138,260
+Henderson,NV,1139,260
+Henderson,NV,1140,260
+Henderson,NV,1141,260
+Kalona,IA,1142,261
+Kalona,IA,1143,261
+Houston,TX,1144,110
+Houston,TX,1145,110
+Houston,TX,1146,110
+Houston,TX,1147,110
+Houston TX,,1148,109
+Houston,TX,1149,110
+Houston,TX,1150,110
+Houston,TX,1151,110
+Houston,TX,1152,110
+Houston,TX,1153,110
+Brooklyn,NY,1154,103
+Brooklyn,NY,1155,103
+Brooklyn NY,,1156,104
+Soldotna,AK,1157,262
+Soldotna AK,,1158,263
+Soldotna,AK,1159,262
+Soldotna,AK,1160,262
+Missoula,MT,1161,64
+Missoula,MT,1162,64
+Missoula,MT,1163,64
+Missoula,MT,1164,64
+Missoula,MT,1165,64
+Missoula,MT,1166,64
+Houghton,MI,1167,264
+Houghton,MI,1168,264
+Houghton,MI,1169,264
+Houghton,MI,1170,264
+Houghton,MI,1171,264
+Houghton,MI,1172,264
+Houghton,MI,1173,264
+Anchorage,AK,1174,102
+Anchorage,AK,1175,102
+Anchorage,AK,1176,102
+Anchorage,AK,1177,102
+Anchorage,AK,1178,102
+Kirkwood,MO,1179,265
+Kirkwood,MO,1180,265
+Kona,HI,1181,266
+Kona,HI,1182,266
+Kona,HI,1183,266
+Kona,HI,1184,266
+Krebs,OK,1185,267
+Bellingham,WA,1186,34
+Albuquerque NM,,1187,268
+Albuquerque,NM,1188,269
+Lancaster,PA,1189,270
+Lancaster,PA,1190,270
+Portage,MI,1191,271
+Portage,MI,1192,271
+Portage,MI,1193,271
+Portage,MI,1194,271
+Ponderay,ID,1195,272
+Ponderay,ID,1196,272
+Ponderay,ID,1197,272
+Erie,PA,1198,273
+Erie,PA,1199,273
+Eau Claire,WI,1200,274
+Helena,MT,1201,275
+Helena,MT,1202,275
+Helena MT,,1203,276
+Helena,MT,1204,275
+Helena,MT,1205,275
+Stillwater,MN,1206,277
+Stillwater,MN,1207,277
+York,PA,1208,278
+York,PA,1209,278
+York,PA,1210,278
+York PA,,1211,279
+Lone Tree,CO,1212,280
+Raleigh,NC,1213,281
+Raleigh,NC,1214,281
+Raleigh,NC,1215,281
+Raleigh,NC,1216,281
+Raleigh,NC,1217,281
+Bridgewater Corners,VT,1218,282
+Bridgewater Corners,VT,1219,282
+Bridgewater Corners,VT,1220,282
+Bridgewater Corners,VT,1221,282
+Bridgewater Corners,VT,1222,282
+East Fairfield,VT,1223,283
+East Fairfield,VT,1224,283
+East Fairfield,VT,1225,283
+East Fairfield,VT,1226,283
+Ashburn,VA,1227,284
+Ashburn,VA,1228,284
+Menominee,WI,1229,285
+Menominie,WI,1230,286
+Menominie,WI,1231,286
+Menominie,WI,1232,286
+Jackson,MS,1233,287
+Jackson,MS,1234,287
+Flagstaff,AZ,1235,288
+Flagstaff,AZ,1236,288
+Flagstaff,AZ,1237,288
+Flagstaff,AZ,1238,288
+Portland OR,,1239,248
+Portland,OR,1240,15
+Macon,GA,1241,289
+Macon,GA,1242,289
+Cincinnati,OH,1243,23
+Cincinnati,OH,1244,23
+Cincinnati,OH,1245,23
+Cincinnati OH,,1246,290
+Cincinnati,OH,1247,23
+Cincinnati,OH,1248,23
+Cincinnati,OH,1249,23
+Cincinnati,OH,1250,23
+Cincinnati,OH,1251,23
+South Burlington,VT,1252,291
+South Burlington,VT,1253,291
+South Burlington,VT,1254,291
+Mammoth Lakes,CA,1255,292
+Mammoth Lakes,CA,1256,292
+Mammoth Lakes,CA,1257,292
+Mammoth Lakes,CA,1258,292
+Philadelphia,PA,1259,179
+Philadelphia,PA,1260,179
+Philadelphia,PA,1261,179
+Philadelphia,PA,1262,179
+Philadelphia,PA,1263,179
+Philadelphia,PA,1264,179
+Philadelphia,PA,1265,179
+Philadelphia,PA,1266,179
+Philadelphia,PA,1267,179
+Santee,CA,1268,293
+Santee,CA,1269,293
+Santee,CA,1270,293
+Santee,CA,1271,293
+Santee,CA,1272,293
+Albuquerque,NM,1273,269
+Albuquerque,NM,1274,269
+Belfast,ME,1275,294
+Belfast,ME,1276,294
+Belfast,ME,1277,294
+Belfast,ME,1278,294
+Belfast,ME,1279,294
+Fort Worth,TX,1280,295
+Fort Worth,TX,1281,295
+Fort Worth,TX,1282,295
+Fort Worth,TX,1283,295
+Fort Worth TX,,1284,296
+Fort Worth,TX,1285,295
+Fort Worth,TX,1286,295
+Fort Worth TX,,1287,296
+Utica NY,,1288,297
+Utica,NY,1289,298
+Utica,NY,1290,298
+Utica,NY,1291,298
+Utica,NY,1292,298
+Utica,NY,1293,298
+Utica NY,,1294,297
+Utica,NY,1295,298
+Utica,NY,1296,298
+Utica,NY,1297,298
+Utica,NY,1298,298
+Utica,NY,1299,298
+Utica,NY,1300,298
+Lahaina,HI,1301,299
+Lahaina,HI,1302,299
+Lahaina,HI,1303,299
+Lahaina,HI,1304,299
+Lahaina,HI,1305,299
+Lahaina,HI,1306,299
+Lahaina,HI,1307,299
+Lahaina,HI,1308,299
+Lahaina,HI,1309,299
+Lahaina,HI,1310,299
+Lahaina,HI,1311,299
+Lahaina,HI,1312,299
+Half Moon Bay,CA,1313,300
+Half Moon Bay,CA,1314,300
+Half Moon Bay,CA,1315,300
+Somerset Center,MI,1316,301
+Somerset Center,MI,1317,301
+Somerset Center,MI,1318,301
+Hilo,HI,1319,238
+Hilo,HI,1320,238
+Hilo,HI,1321,238
+Hilo,HI,1322,238
+Hilo,HI,1323,238
+Hilo,HI,1324,238
+Miami,FL,1325,302
+Miami,FL,1326,302
+Miami,FL,1327,302
+Miami,FL,1328,302
+Libertyville,IL,1329,303
+Anchorage,AK,1330,102
+Anchorage,AK,1331,102
+Anchorage,AK,1332,102
+Anchorage,AK,1333,102
+Anchorage,AK,1334,102
+San Diego,CA,1335,44
+San Diego,CA,1336,44
+San Diego,CA,1337,44
+San Diego,CA,1338,44
+San Diego,CA,1339,44
+San Diego,CA,1340,44
+Chicago,IL,1341,197
+Chicago IL,,1342,221
+Chicago,IL,1343,197
+Chicago,IL,1344,197
+Chicago,IL,1345,197
+Chicago,IL,1346,197
+Chicago,IL,1347,197
+Chicago,IL,1348,197
+Pottstown,PA,1349,304
+Pottstown,PA,1350,304
+Royal Oak,MI,1351,305
+Royal Oak,MI,1352,305
+Royal Oak,MI,1353,305
+Milwaukee,WI,1354,249
+Milwaukee,WI,1355,249
+Milwaukee,WI,1356,249
+Milwaukee,WI,1357,249
+Milwaukee,WI,1358,249
+Milwaukee,WI,1359,249
+Milwaukee,WI,1360,249
+Monroe,WI,1361,306
+Monroe,WI,1362,306
+Monroe,WI,1363,306
+Monroe,WI,1364,306
+Monroe,WI,1365,306
+Monroe,WI,1366,306
+Monroe WI,,1367,307
+Monroe,WI,1368,306
+Monroe,WI,1369,306
+Monroe,WI,1370,306
+Monroe,WI,1371,306
+Monroe,WI,1372,306
+Monroe,WI,1373,306
+San Diego CA,,1374,45
+San Diego,CA,1375,44
+San Diego CA,,1376,45
+San Diego,CA,1377,44
+Moab,UT,1378,308
+Moab,UT,1379,308
+Moab,UT,1380,308
+Moab,UT,1381,308
+North Conway,NH,1382,309
+North Conway,NH,1383,309
+Lincoln,NE,1384,75
+San Diego,CA,1385,44
+San Diego,CA,1386,44
+San Diego,CA,1387,44
+San Diego,CA,1388,44
+San Diego,CA,1389,44
+San Diego,CA,1390,44
+San Diego,CA,1391,44
+San Diego,CA,1392,44
+Flagstaff,AZ,1393,288
+San Diego,CA,1394,44
+San Diego,CA,1395,44
+San Diego,CA,1396,44
+Montauk,NY,1397,310
+Montauk,NY,1398,310
+Saint Louis,MO,1399,6
+Saint Louis,MO,1400,6
+Saint Louis,MO,1401,6
+Saint Louis,MO,1402,6
+Saint Louis,MO,1403,6
+Vista,CA,1404,311
+Kinston,NC,1405,312
+Kinston,NC,1406,312
+Springfield,MO,1407,313
+Springfield,MO,1408,313
+Mount Pleasant,MI,1409,314
+Lake Havasu City,AZ,1410,150
+Lake Havasu City,AZ,1411,150
+Lake Havasu City,AZ,1412,150
+Lake Havasu City,AZ,1413,150
+Lake Havasu City,AZ,1414,150
+Mustang,OK,1415,315
+Mustang,OK,1416,315
+Mustang,OK,1417,315
+Mustang,OK,1418,315
+Mustang,OK,1419,315
+Providence,RI,1420,316
+Providence,RI,1421,316
+Providence,RI,1422,316
+Providence,RI,1423,316
+Providence,RI,1424,316
+Providence,RI,1425,316
+Providence,RI,1426,316
+Providence,RI,1427,316
+Providence,RI,1428,316
+Providence,RI,1429,316
+Portland OR,,1430,248
+Portland,OR,1431,15
+Portland,OR,1432,15
+Portland,OR,1433,15
+Portland,OR,1434,15
+Portland,OR,1435,15
+Papillion,NE,1436,317
+Papillion,NE,1437,317
+Papillion,NE,1438,317
+Papillion,NE,1439,317
+Papillion,NE,1440,317
+Croydon,PA,1441,318
+Croydon,PA,1442,318
+Fort Collins,CO,1443,319
+Fort Collins,CO,1444,319
+Fort Collins,CO,1445,319
+Fort Collins,CO,1446,319
+Fort Collins,CO,1447,319
+Fort Collins,CO,1448,319
+Fort Collins,CO,1449,319
+Fort Collins,CO,1450,319
+Fort Collins,CO,1451,319
+Fort Collins,CO,1452,319
+Fort Collins,CO,1453,319
+Fort Collins,CO,1454,319
+Fort Collins,CO,1455,319
+Fort Collins,CO,1456,319
+Fort Collins,CO,1457,319
+Fort Collins,CO,1458,319
+Fort Collins,CO,1459,319
+Woodbridge,CT,1460,320
+Woodbridge,CT,1461,320
+Woodbridge,CT,1462,320
+Woodbridge,CT,1463,320
+Woodbridge,CT,1464,320
+Woodbridge,CT,1465,320
+Woodbridge,CT,1466,320
+Woodbridge,CT,1467,320
+Woodbridge,CT,1468,320
+Woodbridge,CT,1469,320
+Woodbridge,CT,1470,320
+New Orleans,LA,1471,321
+New Orleans,LA,1472,321
+New Orleans,LA,1473,321
+New Orleans,LA,1474,321
+New Orleans,LA,1475,321
+New Orleans,LA,1476,321
+College Station,TX,1477,322
+College Station,TX,1478,322
+College Station,TX,1479,322
+Myrtle Beach SC,,1480,323
+Myrtle Beach,SC,1481,324
+Newburgh,NY,1482,325
+Newburyport,MA,1483,326
+Newburyport,MA,1484,326
+Newburyport,MA,1485,326
+Everett,MA,1486,327
+Charlotte,NC,1487,67
+Charlotte,NC,1488,67
+Slippery Rock,PA,1489,328
+Slippery Rock,PA,1490,328
+Slippery Rock,PA,1491,328
+Slippery Rock,PA,1492,328
+Minneapolis,MN,1493,49
+Minneapolis,MN,1494,49
+Minneapolis,MN,1495,49
+Minneapolis,MN,1496,49
+Minneapolis,MN,1497,49
+Minneapolis,MN,1498,49
+Northamtpon,MA,1499,329
+Pacific,WA,1500,330
+Pacific,WA,1501,330
+Eau Claire,WI,1502,274
+Eau Claire,WI,1503,274
+Ipswich,MA,1504,251
+Ipswich,MA,1505,251
+O'Fallon,MO,1506,331
+O'Fallon,MO,1507,331
+O'Fallon,MO,1508,331
+Eugene,OR,1509,76
+Eugene,OR,1510,76
+Eugene,OR,1511,76
+Eugene,OR,1512,76
+Austin,TX,1513,39
+Austin,TX,1514,39
+Austin,TX,1515,39
+Austin,TX,1516,39
+Portland,OR,1517,15
+Portland,OR,1518,15
+Portland,OR,1519,15
+Portland,OR,1520,15
+Arvada,CO,1521,332
+Arvada,CO,1522,332
+Arvada,CO,1523,332
+Arvada,CO,1524,332
+Arvada,CO,1525,332
+Arvada,CO,1526,332
+Arvada,CO,1527,332
+Spirit Lake,IA,1528,333
+Spirit Lake,IA,1529,333
+Spirit Lake,IA,1530,333
+Spirit Lake,IA,1531,333
+Spirit Lake,IA,1532,333
+Spirit Lake,IA,1533,333
+Danville,PA,1534,334
+Danville,PA,1535,334
+Danville,PA,1536,334
+Danville,PA,1537,334
+Danville,PA,1538,334
+Danville,PA,1539,334
+Danville,PA,1540,334
+Danville,PA,1541,334
+Danville,PA,1542,334
+Danville,PA,1543,334
+Airway Heights,WA,1544,335
+Airway Heights,WA,1545,335
+Airway Heights,WA,1546,335
+Airway Heights,WA,1547,335
+Airway Heights,WA,1548,335
+Atlanta,GA,1549,336
+Atlanta,GA,1550,336
+Longmont,CO,1551,337
+Longmont,CO,1552,337
+Longmont,CO,1553,337
+Longmont,CO,1554,337
+Longmont,CO,1555,337
+Longmont,CO,1556,337
+Longmont,CO,1557,337
+Longmont CO,,1558,338
+Longmont CO,,1559,338
+Longmont,CO,1560,337
+Longmont,CO,1561,337
+Longmont,CO,1562,337
+Longmont,CO,1563,337
+Longmont,CO,1564,337
+Longmont,CO,1565,337
+Longmont,CO,1566,337
+Longmont,CO,1567,337
+Longmont,CO,1568,337
+Longmont,CO,1569,337
+Longmont,CO,1570,337
+Longmont,CO,1571,337
+Longmont,CO,1572,337
+Longmont,CO,1573,337
+Longmont,CO,1574,337
+Longmont,CO,1575,337
+Longmont,CO,1576,337
+Longmont,CO,1577,337
+Longmont,CO,1578,337
+Longmont,CO,1579,337
+Longmont,CO,1580,337
+Longmont,CO,1581,337
+Longmont CO,,1582,338
+Longmont,CO,1583,337
+Lyons,CO,1584,339
+Lyons,CO,1585,339
+Lyons,CO,1586,339
+Lyons CO,,1587,340
+Lyons,CO,1588,339
+Lyons,CO,1589,339
+Lyons,CO,1590,339
+Lyons CO,,1591,340
+Lyons,CO,1592,339
+Lyons,CO,1593,339
+Lyons,CO,1594,339
+Lyons,CO,1595,339
+Lyons,CO,1596,339
+Brevard,NC,1597,341
+Brevard,NC,1598,341
+Brevard,NC,1599,341
+Brevard,NC,1600,341
+Brevard,NC,1601,341
+Brevard,NC,1602,341
+Middlebury,VT,1603,342
+Waterbury,VT,1604,343
+Rogers,AR,1605,344
+Palisade,CO,1606,345
+Palisade,CO,1607,345
+Fort Collins,CO,1608,319
+Fort Collins,CO,1609,319
+Fort Collins,CO,1610,319
+Fort Collins,CO,1611,319
+Fort Collins,CO,1612,319
+Garden City,ID,1613,159
+Garden City,ID,1614,159
+Garden City,ID,1615,159
+Garden City,ID,1616,159
+Garden City,ID,1617,159
+Knoxville,IA,1618,346
+Portland,ME,1619,162
+Portland ME,,1620,347
+Fredericksburg,TX,1621,348
+Fredericksburg,TX,1622,348
+Lafayette,IN,1623,349
+Lafayette,IN,1624,349
+Lafayette,IN,1625,349
+Lafayette,IN,1626,349
+Comstock Park,MI,1627,350
+Comstock Park,MI,1628,350
+Comstock Park,MI,1629,350
+Comstock Park,MI,1630,350
+Comstock Park,MI,1631,350
+Comstock Park,MI,1632,350
+San Antonio,TX,1633,92
+San Antonio,TX,1634,92
+San Antonio,TX,1635,92
+San Antonio,TX,1636,92
+San Antonio,TX,1637,92
+San Antonio,TX,1638,92
+San Antonio,TX,1639,92
+Petoskey,MI,1640,351
+Petoskey MI,,1641,352
+Petoskey,MI,1642,351
+Petoskey,MI,1643,351
+Phoenix,AZ,1644,353
+Monument,CO,1645,354
+Monument,CO,1646,354
+Monument,CO,1647,354
+San Francisco,CA,1648,3
+San Francisco,CA,1649,3
+Bucryus,MO,1650,355
+Bucryus,MO,1651,355
+Bucryus,MO,1652,355
+Bucryus,MO,1653,355
+Bucryus,MO,1654,355
+Bucryus,MO,1655,355
+Bucryus,MO,1656,355
+Bucryus,MO,1657,355
+Chicago,IL,1658,197
+Black Mountain,NC,1659,356
+Black Mountain,NC,1660,356
+Carlsbad,CA,1661,112
+Carlsbad,CA,1662,112
+Carlsbad,CA,1663,112
+Cleveland,OH,1664,107
+Lemont,IL,1665,357
+Cleveland,OH,1666,107
+Prescott,AZ,1667,358
+Prescott,AZ,1668,358
+Dillon,CO,1669,359
+Dillon CO,,1670,360
+Dillon,CO,1671,359
+Dillon,CO,1672,359
+Dillon,CO,1673,359
+Dillon,CO,1674,359
+Dillon,CO,1675,359
+Seattle,WA,1676,143
+Seattle,WA,1677,143
+Greenville,SC,1678,361
+Greenville,SC,1679,361
+Fort Worth,TX,1680,295
+Fort Worth,TX,1681,295
+Blanco,TX,1682,362
+Blanco,TX,1683,362
+Blanco,TX,1684,362
+Blanco,TX,1685,362
+Blanco,TX,1686,362
+Blanco,TX,1687,362
+Blanco,TX,1688,362
+Blanco,TX,1689,362
+Marietta,GA,1690,363
+Marietta GA,,1691,364
+Marietta,GA,1692,363
+Mt. Airy,MD,1693,365
+Mt. Airy,MD,1694,365
+Mt. Airy,MD,1695,365
+Mt. Airy,MD,1696,365
+Mt. Airy,MD,1697,365
+Bend,OR,1698,0
+Woodinville,WA,1699,178
+Woodinville,WA,1700,178
+Woodinville,WA,1701,178
+Boulder,CO,1702,31
+Boulder,CO,1703,31
+Boulder,CO,1704,31
+Temecula,CA,1705,70
+Denver,CO,1706,71
+Denver,CO,1707,71
+Denver CO,,1708,93
+Denver,CO,1709,71
+Denver,CO,1710,71
+Denver,CO,1711,71
+Paonia,CO,1712,366
+Paonia,CO,1713,366
+Paonia CO,,1714,367
+Paonia,CO,1715,366
+Paonia,CO,1716,366
+Paonia,CO,1717,366
+Paonia,CO,1718,366
+Paonia,CO,1719,366
+Chicago,IL,1720,197
+Chicago,IL,1721,197
+Chicago,IL,1722,197
+Chicago,IL,1723,197
+Chicago,IL,1724,197
+Chicago,IL,1725,197
+Chicago,IL,1726,197
+Chicago,IL,1727,197
+Cincinnati,OH,1728,23
+Cincinnati,OH,1729,23
+Cincinnati,OH,1730,23
+Cincinnati,OH,1731,23
+Cincinnati,OH,1732,23
+Cincinnati,OH,1733,23
+Cincinnati,OH,1734,23
+Cincinnati OH,,1735,290
+Traverse City,MI,1736,96
+Portland,ME,1737,162
+Portland ME,,1738,347
+Denver,CO,1739,71
+Denver,CO,1740,71
+Lockland,OH,1741,368
+Lockland,OH,1742,368
+Export PA,,1743,369
+Export,PA,1744,370
+Export,PA,1745,370
+Export,PA,1746,370
+Export PA,,1747,369
+Export,PA,1748,370
+Export,PA,1749,370
+Export,PA,1750,370
+Export,PA,1751,370
+Export,PA,1752,370
+Export,PA,1753,370
+Export,PA,1754,370
+Export,PA,1755,370
+Export,PA,1756,370
+Export,PA,1757,370
+Roanoke,VA,1758,371
+Rochester MI,,1759,372
+Rochester,MI,1760,373
+Rochester,MI,1761,373
+Rochester,MI,1762,373
+Rochester,MI,1763,373
+Rochester,MI,1764,373
+Rochester,MI,1765,373
+Newport,OR,1766,374
+Midwest City,OK,1767,375
+Midwest City,OK,1768,375
+Midwest City,OK,1769,375
+Lansdale,PA,1770,376
+Lansdale,PA,1771,376
+Lansdale PA,,1772,377
+Lansdale,PA,1773,376
+Lansdale,PA,1774,376
+Lansdale,PA,1775,376
+Lansdale,PA,1776,376
+Sacramento,CA,1777,378
+Sacramento,CA,1778,378
+Sacramento,CA,1779,378
+Sacramento,CA,1780,378
+Sacramento,CA,1781,378
+San Diego,CA,1782,44
+San Diego,CA,1783,44
+San Diego,CA,1784,44
+San Diego,CA,1785,44
+Chandler,AZ,1786,379
+Chandler,AZ,1787,379
+Chandler,AZ,1788,379
+Chandler,AZ,1789,379
+Chandler,AZ,1790,379
+Chandler,AZ,1791,379
+Chandler,AZ,1792,379
+Chandler,AZ,1793,379
+Chandler,AZ,1794,379
+Chandler,AZ,1795,379
+Chandler,AZ,1796,379
+Chandler,AZ,1797,379
+Chandler,AZ,1798,379
+Chandler,AZ,1799,379
+Chandler AZ,,1800,380
+Chandler,AZ,1801,379
+Chandler,AZ,1802,379
+Chandler,AZ,1803,379
+Chandler,AZ,1804,379
+Boulder,CO,1805,31
+Boulder,CO,1806,31
+Santa Cruz,CA,1807,381
+Santa Cruz,CA,1808,381
+Santa Cruz,CA,1809,381
+Santa Fe,NM,1810,382
+Santa Fe,NM,1811,382
+Santa Fe,NM,1812,382
+Santa Fe,NM,1813,382
+Santa Fe,NM,1814,382
+Santa Fe,NM,1815,382
+Santa Fe,NM,1816,382
+Douglas,MI,1817,383
+Seattle,WA,1818,143
+Seattle,WA,1819,143
+Seattle,WA,1820,143
+Saint Louis,MO,1821,6
+Saint Louis,MO,1822,6
+Saint Louis,MO,1823,6
+Saint Louis,MO,1824,6
+Saint Louis,MO,1825,6
+Saint Louis,MO,1826,6
+Portland,ME,1827,162
+Santa Cruz,CA,1828,381
+Seattle,WA,1829,143
+Seattle,WA,1830,143
+Silverton OR,,1831,384
+Silverton,OR,1832,385
+Columbus,OH,1833,185
+Columbus,OH,1834,185
+Columbus,OH,1835,185
+Columbus,OH,1836,185
+Columbus,OH,1837,185
+Wolcott,CT,1838,386
+Marlborough,MA,1839,387
+Portland,ME,1840,162
+Portland,ME,1841,162
+Portland,ME,1842,162
+Portland,ME,1843,162
+Chico,CA,1844,388
+Chico,CA,1845,388
+Chico,CA,1846,388
+Chico,CA,1847,388
+Chico,CA,1848,388
+Chico,CA,1849,388
+Chico,CA,1850,388
+Chico CA,,1851,389
+Chico,CA,1852,388
+Ada,MI,1853,390
+Silverton,CO,1854,391
+Silverton,CO,1855,391
+Silverton,CO,1856,391
+Brooklyn,NY,1857,103
+Brooklyn,NY,1858,103
+Brooklyn,NY,1859,103
+Brooklyn NY,,1860,104
+Brooklyn,NY,1861,103
+Brooklyn,NY,1862,103
+Brooklyn,NY,1863,103
+Brooklyn,NY,1864,103
+Brooklyn NY,,1865,104
+Brooklyn,NY,1866,103
+Brooklyn,NY,1867,103
+Brooklyn,NY,1868,103
+Brooklyn,NY,1869,103
+Brooklyn,NY,1870,103
+Brooklyn,NY,1871,103
+Brooklyn,NY,1872,103
+Brooklyn,NY,1873,103
+Brooklyn,NY,1874,103
+Brooklyn,NY,1875,103
+Brooklyn,NY,1876,103
+Brooklyn,NY,1877,103
+Brooklyn,NY,1878,103
+Brooklyn,NY,1879,103
+Brooklyn,NY,1880,103
+Durango,CO,1881,392
+Durango,CO,1882,392
+Durango CO,,1883,393
+Durango,CO,1884,392
+Durango,CO,1885,392
+Durango,CO,1886,392
+Durango,CO,1887,392
+Durango,CO,1888,392
+Durango,CO,1889,392
+Durango,CO,1890,392
+Durango,CO,1891,392
+Durango,CO,1892,392
+Meridian,ID,1893,394
+Meridian,ID,1894,394
+Chicago,IL,1895,197
+Chicago,IL,1896,197
+Anchorage,AK,1897,102
+Phoenixville,PA,1898,395
+Pottstown,PA,1899,304
+Pottstown,PA,1900,304
+Pottstown,PA,1901,304
+Pottstown,PA,1902,304
+Pottstown,PA,1903,304
+Pottstown,PA,1904,304
+Pottstown PA,,1905,396
+Pottstown,PA,1906,304
+Pottstown,PA,1907,304
+Pottstown,PA,1908,304
+Pottstown,PA,1909,304
+Pottstown,PA,1910,304
+Norfolk,VA,1911,397
+Norfolk,VA,1912,397
+Norfolk,VA,1913,397
+Jackson,WY,1914,398
+Jackson,WY,1915,398
+Jackson,WY,1916,398
+Jackson,WY,1917,398
+Jackson,WY,1918,398
+Jackson,WY,1919,398
+Jackson,WY,1920,398
+Boise,ID,1921,399
+Boise,ID,1922,399
+Boise,ID,1923,399
+Boise,ID,1924,399
+Boise,ID,1925,399
+Boise ID,,1926,400
+Boise,ID,1927,399
+Boise,ID,1928,399
+Boise,ID,1929,399
+Boise,ID,1930,399
+Boise,ID,1931,399
+Boise ID,,1932,400
+Boise,ID,1933,399
+Boise,ID,1934,399
+Boise,ID,1935,399
+Boise,ID,1936,399
+Boise,ID,1937,399
+South Austin,TX,1938,401
+South Austin,TX,1939,401
+South Austin,TX,1940,401
+South Austin,TX,1941,401
+Southampton,NY,1942,402
+Medford,OR,1943,403
+Medford,OR,1944,403
+Hattiesburg,MS,1945,404
+Hattiesburg,MS,1946,404
+Hattiesburg,MS,1947,404
+Hattiesburg,MS,1948,404
+Hattiesburg,MS,1949,404
+Hattiesburg,MS,1950,404
+Hattiesburg,MS,1951,404
+Hattiesburg,MS,1952,404
+Hattiesburg,MS,1953,404
+Conroe,TX,1954,405
+Conroe TX,,1955,406
+Conroe,TX,1956,405
+Conroe,TX,1957,405
+Conroe,TX,1958,405
+Conroe,TX,1959,405
+Conroe,TX,1960,405
+Conroe,TX,1961,405
+Conroe,TX,1962,405
+Conroe,TX,1963,405
+Conroe,TX,1964,405
+Conroe,TX,1965,405
+Conroe,TX,1966,405
+Conroe,TX,1967,405
+San Francisco,CA,1968,3
+Cortland,NE,1969,407
+Chicago,IL,1970,197
+Chicago,IL,1971,197
+Chicago,IL,1972,197
+Chicago,IL,1973,197
+Chicago,IL,1974,197
+Chicago,IL,1975,197
+Chicago,IL,1976,197
+Chicago,IL,1977,197
+Chicago,IL,1978,197
+Chicago IL,,1979,221
+Chicago,IL,1980,197
+Chicago,IL,1981,197
+Glendale,WI,1982,408
+Glendale,WI,1983,408
+Conestoga,PA,1984,409
+Paw Paw,MI,1985,410
+Crozet,VA,1986,411
+Crozet,VA,1987,411
+Crozet,VA,1988,411
+Crozet,VA,1989,411
+Durango,CO,1990,392
+Durango,CO,1991,392
+Durango,CO,1992,392
+Durango,CO,1993,392
+Stevens Point,WI,1994,144
+Stevens Point,WI,1995,144
+Stevens Point,WI,1996,144
+Stevens Point,WI,1997,144
+Stevens Point,WI,1998,144
+Stevens Point,WI,1999,144
+Stevens Point,WI,2000,144
+Stevens Point,WI,2001,144
+Stevens Point,WI,2002,144
+Stevens Point,WI,2003,144
+Stevens Point,WI,2004,144
+Stevens Point,WI,2005,144
+Stevens Point,WI,2006,144
+Stevens Point,WI,2007,144
+Stevens Point,WI,2008,144
+Stevens Point,WI,2009,144
+Stevens Point,WI,2010,144
+Stevens Point,WI,2011,144
+Stevens Point,WI,2012,144
+Stevens Point,WI,2013,144
+Stevens Point,WI,2014,144
+Stevens Point,WI,2015,144
+Green Bay,WI,2016,244
+Baltimore,MD,2017,412
+Baltimore,MD,2018,412
+Baltimore MD,,2019,413
+Portland,ME,2020,162
+Huntsville,AL,2021,414
+Huntsville,AL,2022,414
+Huntsville,AL,2023,414
+St Mary's,PA,2024,415
+St Mary's,PA,2025,415
+St Mary's,PA,2026,415
+St Mary's,PA,2027,415
+St Paul,MN,2028,416
+St. Paul,MN,2029,417
+St. Paul MN,,2030,418
+St. Paul,MN,2031,417
+Indianapolis,IN,2032,69
+Indianapolis,IN,2033,69
+Indianapolis,IN,2034,69
+Indianapolis,IN,2035,69
+Indianapolis,IN,2036,69
+Indianapolis,IN,2037,69
+Indianapolis,IN,2038,69
+Indianapolis,IN,2039,69
+Indianapolis,IN,2040,69
+Indianapolis IN,,2041,419
+Indianapolis IN,,2042,419
+Indianapolis,IN,2043,69
+Indianapolis IN,,2044,419
+Indianapolis,IN,2045,69
+Indianapolis,IN,2046,69
+Indianapolis,IN,2047,69
+Indianapolis,IN,2048,69
+Indianapolis,IN,2049,69
+Indianapolis,IN,2050,69
+Indianapolis,IN,2051,69
+Indianapolis,IN,2052,69
+Indianapolis,IN,2053,69
+Indianapolis,IN,2054,69
+Indianapolis,IN,2055,69
+Indianapolis,IN,2056,69
+Indianapolis,IN,2057,69
+Indianapolis,IN,2058,69
+Indianapolis,IN,2059,69
+Indianapolis IN,,2060,419
+Indianapolis,IN,2061,69
+Indianapolis,IN,2062,69
+Indianapolis,IN,2063,69
+Indianapolis,IN,2064,69
+Indianapolis,IN,2065,69
+Indianapolis,IN,2066,69
+Indianapolis,IN,2067,69
+Indianapolis,IN,2068,69
+Indianapolis,IN,2069,69
+Hardy,VA,2070,420
+Hardy,VA,2071,420
+Brooklyn Center,MN,2072,421
+Brooklyn Center MN,,2073,422
+Brooklyn Center,MN,2074,421
+Brooklyn Center,MN,2075,421
+Brooklyn Center,MN,2076,421
+Brooklyn Center,MN,2077,421
+Brooklyn Center,MN,2078,421
+Brooklyn Center,MN,2079,421
+Brooklyn Center,MN,2080,421
+Brooklyn Center,MN,2081,421
+Brooklyn Center,MN,2082,421
+Brooklyn Center,MN,2083,421
+Brooklyn Center,MN,2084,421
+Gainesville,FL,2085,423
+Gainesville,FL,2086,423
+Gainesville,FL,2087,423
+Gainesville,FL,2088,423
+Gainesville,FL,2089,423
+Manheim,PA,2090,424
+Atlanta,GA,2091,336
+Atlanta,GA,2092,336
+Atlanta,GA,2093,336
+Atlanta,GA,2094,336
+San Diego,CA,2095,44
+San Diego,CA,2096,44
+San Diego,CA,2097,44
+San Diego,CA,2098,44
+San Diego,CA,2099,44
+San Diego,CA,2100,44
+San Diego,CA,2101,44
+San Diego,CA,2102,44
+Manhattan,KS,2103,425
+Manhattan,KS,2104,425
+Manhattan,KS,2105,425
+Manhattan,KS,2106,425
+Manhattan,KS,2107,425
+Manhattan,KS,2108,425
+Manhattan,KS,2109,425
+Manhattan,KS,2110,425
+Manhattan,KS,2111,425
+Manhattan KS,,2112,426
+Manhattan,KS,2113,425
+Manhattan,KS,2114,425
+Manhattan,KS,2115,425
+Manhattan,KS,2116,425
+Manhattan,KS,2117,425
+Manhattan,KS,2118,425
+Manhattan,KS,2119,425
+Manhattan,KS,2120,425
+Lakeside,MT,2121,427
+Lakeside,MT,2122,427
+Tampa,FL,2123,94
+Tampa,FL,2124,94
+Bridgman,MI,2125,428
+Bridgman,MI,2126,428
+Bridgman,MI,2127,428
+Bargersville,IN,2128,429
+Telluride,CO,2129,430
+Telluride,CO,2130,430
+Telluride,CO,2131,430
+Evanston IL,,2132,431
+Evanston,IL,2133,432
+Evanston,IL,2134,432
+Athens GA,,2135,433
+Richmond,TX,2136,434
+Richmond,TX,2137,434
+Richmond,TX,2138,434
+Richmond,TX,2139,434
+Waterbury,VT,2140,343
+Waterbury,VT,2141,343
+Waterbury,VT,2142,343
+Waterbury VT,,2143,435
+Waterbury,VT,2144,343
+Waterbury,VT,2145,343
+Sheridan,WY,2146,72
+Sheridan,WY,2147,72
+Sheridan,WY,2148,72
+Sheridan,WY,2149,72
+Baltimore,MD,2150,412
+Baltimore,MD,2151,412
+Baltimore,MD,2152,412
+Bronx,NY,2153,436
+Bronx,NY,2154,436
+Bronx,NY,2155,436
+Torrance,CA,2156,437
+Torrance,CA,2157,437
+Torrance,CA,2158,437
+Torrance,CA,2159,437
+Torrance,CA,2160,437
+Burlington,VT,2161,438
+Wilkes-Barre,PA,2162,439
+New York,NY,2163,85
+Grand Rapids,MI,2164,97
+Traverse City,MI,2165,96
+Traverse City,MI,2166,96
+Traverse City,MI,2167,96
+Burlington,VT,2168,438
+Cold Spring,MN,2169,440
+Cold Spring,MN,2170,440
+Cold Spring,MN,2171,440
+Cold Spring,MN,2172,440
+Bloomfield,CT,2173,41
+Sisters,OR,2174,441
+Sisters,OR,2175,441
+Sisters,OR,2176,441
+Charlottesville,VA,2177,137
+Charlottesville,VA,2178,137
+Martinsville,IN,2179,442
+Martinsville,IN,2180,442
+Martinsville,IN,2181,442
+Martinsville,IN,2182,442
+Kearney,NE,2183,443
+Kearney,NE,2184,443
+Kearney,NE,2185,443
+Kearney NE,,2186,444
+Evansville,IN,2187,445
+Evansville,IN,2188,445
+Evansville,IN,2189,445
+Evansville,IN,2190,445
+Evansville,IN,2191,445
+Evansville,IN,2192,445
+Evansville,IN,2193,445
+Evansville,IN,2194,445
+Evansville IN,,2195,446
+Baton Rouge,LA,2196,447
+Baton Rouge,LA,2197,447
+Baton Rouge,LA,2198,447
+Baton Rouge,LA,2199,447
+Baton Rouge,LA,2200,447
+Baton Rouge,LA,2201,447
+Baton Rouge,LA,2202,447
+Idaho Springs,CO,2203,448
+Idaho Springs CO,,2204,449
+Minnetonka,MN,2205,450
+Minnetonka,MN,2206,450
+Albuquerque,NM,2207,269
+Albuquerque,NM,2208,269
+Albuquerque,NM,2209,269
+Durham,NC,2210,214
+Durham,NC,2211,214
+Durham,NC,2212,214
+Hershey,PA,2213,451
+Hershey,PA,2214,451
+Hershey,PA,2215,451
+Hershey,PA,2216,451
+Hershey PA,,2217,452
+Greenville,DE,2218,453
+Boulder,CO,2219,31
+Dripping Springs,TX,2220,454
+Dripping Springs,TX,2221,454
+Dripping Springs,TX,2222,454
+Seattle,WA,2223,143
+Seattle,WA,2224,143
+Seattle,WA,2225,143
+Seattle,WA,2226,143
+Seattle,WA,2227,143
+Seattle,WA,2228,143
+Seattle,WA,2229,143
+Seattle,WA,2230,143
+Seattle,WA,2231,143
+Seattle,WA,2232,143
+Seattle,WA,2233,143
+Seattle,WA,2234,143
+Warrenville,IL,2235,455
+Warrenville,IL,2236,455
+Warrenville,IL,2237,455
+Warrenville,IL,2238,455
+Warrenville,IL,2239,455
+Warrenville,IL,2240,455
+Warrenville,IL,2241,455
+Warrenville,IL,2242,455
+Warrenville,IL,2243,455
+Warrenville,IL,2244,455
+Plant City,FL,2245,456
+Stratford,CT,2246,457
+Stratford,CT,2247,457
+Stratford,CT,2248,457
+Stratford,CT,2249,457
+Stratford,CT,2250,457
+Salt Lake City,UT,2251,458
+Salt Lake City,UT,2252,458
+Salt Lake City,UT,2253,458
+Salt Lake City,UT,2254,458
+Salt Lake City,UT,2255,458
+Salt Lake City,UT,2256,458
+Salt Lake City,UT,2257,458
+Salt Lake City,UT,2258,458
+Salt Lake City,UT,2259,458
+Ukiah,CA,2260,459
+Austin,TX,2261,39
+Austin,TX,2262,39
+St. John's,MI,2263,460
+St. John's,MI,2264,460
+St. John's,MI,2265,460
+Santa Cruz,CA,2266,381
+Santa Cruz,CA,2267,381
+Santa Cruz,CA,2268,381
+Santa Cruz,CA,2269,381
+Santa Cruz CA,,2270,461
+Baltimore,MD,2271,412
+Baltimore,MD,2272,412
+Baltimore,MD,2273,412
+Baltimore,MD,2274,412
+Bloomington,IN,2275,462
+Bloomington,IN,2276,462
+Bloomington,IN,2277,462
+Boulder,CO,2278,31
+Boulder,CO,2279,31
+Boulder,CO,2280,31
+Boulder,CO,2281,31
+Boulder,CO,2282,31
+Boulder,CO,2283,31
+Boulder,CO,2284,31
+Boulder,CO,2285,31
+Boulder CO,,2286,192
+Boulder,CO,2287,31
+Boulder,CO,2288,31
+Boulder,CO,2289,31
+Boulder,CO,2290,31
+Boulder,CO,2291,31
+Boulder,CO,2292,31
+Boulder CO,,2293,192
+Boulder,CO,2294,31
+Boulder,CO,2295,31
+Elmira,NY,2296,463
+Elmira,NY,2297,463
+Salt Lake City,UT,2298,458
+Salt Lake City,UT,2299,458
+Salt Lake City,UT,2300,458
+Salt Lake City,UT,2301,458
+Salt Lake City,UT,2302,458
+Salt Lake City,UT,2303,458
+Salt Lake City,UT,2304,458
+Salt Lake City,UT,2305,458
+Spring Lake,MI,2306,464
+Spring Lake,MI,2307,464
+Spring Lake,MI,2308,464
+Spring Lake,MI,2309,464
+Spring Lake,MI,2310,464
+Yardley,PA,2311,465
+Meadville,PA,2312,466
+Meadville,PA,2313,466
+Meadville PA,,2314,467
+Meadville,PA,2315,466
+Meadville,PA,2316,466
+Meadville,PA,2317,466
+Westminster,MA,2318,468
+Westminster MA,,2319,469
+Westminster,MA,2320,468
+Westminster,MA,2321,468
+Westminster,MA,2322,468
+Westminster,MA,2323,468
+Westminster,MA,2324,468
+Westminster,MA,2325,468
+Westminster,MA,2326,468
+Westminster,MA,2327,468
+Westminster,MA,2328,468
+Fort Wayne,IN,2329,470
+Dayton,OH,2330,471
+Dayton,OH,2331,471
+Dayton,OH,2332,471
+Dayton,OH,2333,471
+Lexington,KY,2334,18
+Lexington,KY,2335,18
+Lexington,KY,2336,18
+Lexington,KY,2337,18
+Mt. Pleasant,SC,2338,472
+Mt. Pleasant,SC,2339,472
+Mt. Pleasant,SC,2340,472
+Mt. Pleasant,SC,2341,472
+Westfield,MA,2342,473
+Westfield,MA,2343,473
+Westfield,MA,2344,473
+Weston,MO,2345,474
+Weston,MO,2346,474
+Weston,MO,2347,474
+Weston,MO,2348,474
+Weston,MO,2349,474
+Weston,MO,2350,474
+Weston,MO,2351,474
+Hooksett,NH,2352,475
+Hooksett,NH,2353,475
+Hooksett,NH,2354,475
+Hooksett,NH,2355,475
+Hudsonville,MI,2356,476
+Portland,OR,2357,15
+Portland,OR,2358,15
+Portland,OR,2359,15
+Lake Barrington,IL,2360,477
+Lake Barrington,IL,2361,477
+Lake Barrington,IL,2362,477
+Lake Barrington,IL,2363,477
+Lake Barrington IL,,2364,478
+Lake Barrington,IL,2365,477
+Lake Barrington,IL,2366,477
+Lake Barrington,IL,2367,477
+Lake Barrington,IL,2368,477
+Lake Barrington,IL,2369,477
+Nellysford VA,,2370,479
+Nellysford,VA,2371,480
+Nellysford,VA,2372,480
+Nellysford,VA,2373,480
+Stevensville,MT,2374,481
+Stevensville,MT,2375,481
+Stevensville MT,,2376,482
+Pinedale,WY,2377,483
+Pinedale,WY,2378,483
+Tacoma,WA,2379,187
+Tacoma,WA,2380,187
+Verona,WI,2381,484
+Verona,WI,2382,484
+Verona,WI,2383,484
+Verona,WI,2384,484
+Memphis,TN,2385,485
+Memphis,TN,2386,485
+Memphis,TN,2387,485
+South Lyon,MI,2388,486
+South Lyon,MI,2389,486
+Abingdon,VA,2390,487
+Ann Arbor,MI,2391,488
+Middlebury,VT,2392,342
+North Woodstock NH,,2393,489
+North Woodstock,NH,2394,490
+Worcester,MA,2395,491
+Bend,OR,2396,0
+Bend,OR,2397,0
+Bend,OR,2398,0
+Bend,OR,2399,0
+Bend,OR,2400,0
+Denver,CO,2401,71
+Denver,CO,2402,71
+Denver,CO,2403,71
+Denver,CO,2404,71
+Denver,CO,2405,71
+Denver,CO,2406,71
+Denver,CO,2407,71
+Denver,CO,2408,71
+Denver,CO,2409,71

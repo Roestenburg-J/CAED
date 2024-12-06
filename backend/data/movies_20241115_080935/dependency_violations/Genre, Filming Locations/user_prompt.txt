@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The genre of the movie (fifteenth column) might shape the location (sixteenth column) described in the movie, indicating that certain genres might be more likely to use specific settings.
+
+  The following is a formatted table with the unique data to be checked.
+  

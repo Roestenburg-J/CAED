@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The fifth column includes the alcohol percentage of the beer, suggesting a semantic dependency on the beer name in the second column, where specific beer names could imply certain alcohol content ranges.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The name of the beer (column 2) determines its type (column 3), as each beer name is associated with a specific beer style.
+
+  The following is a formatted table with the unique data to be checked.
+  

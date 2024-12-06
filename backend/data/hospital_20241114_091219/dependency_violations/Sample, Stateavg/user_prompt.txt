@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The number of patients in one column likely matches the identifier in another column, indicating their relationship is based on the treatment or condition measure they belong to.
+
+  The following is a formatted table with the unique data to be checked.
+  

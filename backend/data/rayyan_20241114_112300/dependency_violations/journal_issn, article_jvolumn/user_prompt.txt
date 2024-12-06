@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The publication date format (sixth column) indicated by the month and year in the fifth column relies on the specific journal issue number found in the fifth column, resulting in a syntactic dependency.
+
+  The following is a formatted table with the unique data to be checked.
+  

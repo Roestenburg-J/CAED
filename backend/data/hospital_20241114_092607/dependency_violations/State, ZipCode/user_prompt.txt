@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The state abbreviation in one column indicates the state of the hospital address, and the zip code in the second column relates to the geographic location of the hospital. There is a semantic dependency where the zip code corresponds to a specific location within that state.
+
+  The following is a formatted table with the unique data to be checked.
+  

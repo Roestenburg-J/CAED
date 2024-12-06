@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Empty data columns (column 5) potentially share a relationship with the descriptive outcomes column (column 16), possibly indicating that if a measure is not applicable or not filled, it correlates with the nature of the outcome description being affected.
+
+  The following is a formatted table with the unique data to be checked.
+  

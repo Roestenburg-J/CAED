@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The sixth column contains the main cast of the movie while the seventh column provides the full cast; hence, the main cast is a subset of the full cast, showing a dependency of the main actors on the complete list.
+
+  The following is a formatted table with the unique data to be checked.
+  

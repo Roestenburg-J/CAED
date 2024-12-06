@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values in the column representing a unique identifier may depend on the values in the column representing the type of heart condition; those unique identifiers are specifically formatted to indicate the type of heart attack.
+
+  The following is a formatted table with the unique data to be checked.
+  

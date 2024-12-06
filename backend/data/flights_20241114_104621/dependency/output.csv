@@ -1,0 +1,14 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,tuple_id,src,The source system or application name (column indicating the service providing flight information) could have a dependency on the unique identifier (column with a numeric ID) since each record comes from a specific source that categorizes its entries distinctly.
+0,2,tuple_id,flight,"The flight number, which includes carrier and route information, may have a dependency on the unique identifier (column with a numeric ID) as each flight must be uniquely identifiable in the records."
+1,2,src,flight,"The values in the column representing the name of the flight service (e.g., 'flights', 'gofox', etc.) are semantically dependent on the specific flight code and route (e.g., 'AA-271-MIA-LAX'), as these flight services are likely reporting or tracking the same flight."
+2,3,flight,sched_dep_time,"The flight code column indicates specific flight information, and therefore any departure time listed here must align with the same flight code."
+2,4,flight,act_dep_time,"The flight number column could suggest a typical departure time associated with specific routes provided by the airline, indicating a relationship between flight routes and their scheduled departure times."
+2,5,flight,sched_arr_time,"The flight identifier (column 2) relates to the final arrival time (column 5), providing a timeline of the flight's journey."
+2,6,flight,act_arr_time,"The flight identifier (column 2) is associated with the status or additional timing related to the flight (column 6), which could indicate a delay or another relevant update."
+3,4,sched_dep_time,act_dep_time,"The values in the column representing the scheduled departure time have a dependency on the values in the column representing the actual departure time, indicating that they may not always match."
+3,5,sched_dep_time,sched_arr_time,The departure time (3) may have a dependency on the last known update time (5) as both relate to the temporal sequencing of events for the flight.
+3,6,sched_dep_time,act_arr_time,The departure time (column 3) may correlate with updates or follow-up times (column 6) regarding the flight's status.
+4,5,act_dep_time,sched_arr_time,There is a potential dependency where the scheduled departure time (column) can influence or relate to specific estimated arrival times across multiple records.
+4,6,act_dep_time,act_arr_time,"The scheduled arrival times (column) and the actual arrival times logged might correspond based on the same flight reference, where the first indicates expectation and the second indicates reality."
+5,6,sched_arr_time,act_arr_time,"The values in the column representing the scheduled arrival time have a dependency on the values in the column representing the actual arrival time, indicating that they may not always match."

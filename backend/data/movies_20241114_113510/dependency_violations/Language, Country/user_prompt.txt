@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The specification of language (e.g., 'English') generally implies the country of origin or primary market (e.g., 'USA'). Hence, language shares a semantic dependency on the country.
+
+  The following is a formatted table with the unique data to be checked.
+  

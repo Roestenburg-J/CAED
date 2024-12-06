@@ -1,0 +1,890 @@
+{
+  "output": [
+    { "explanation": "", "index": 0, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 1, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 2, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 3, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 4, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 5, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 6, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 7, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 8, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 9, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 10, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 11, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 12, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 13, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 14, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 15, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 16, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 17, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 18, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 19, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 20, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 21, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 22, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 23, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 24, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 25, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 26, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '5/10,5/10' contains invalid characters (slash) for this numeric context",
+      "index": 27,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    { "explanation": "", "index": 28, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '5.4/10,6/10' contains invalid characters (slash) for this numeric context",
+      "index": 29,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    { "explanation": "", "index": 30, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 31, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 32, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '7.7/10,6.5/10' contains invalid characters (slash) for this numeric context",
+      "index": 33,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    { "explanation": "", "index": 34, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 35, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 36, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 37, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 38, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 39, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 40, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 41, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 42, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 43, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '7.1/10,5.6/10' contains invalid characters (slash) for this numeric context",
+      "index": 44,
+      "annotation": 1,
+      "possible_repair": "6.9"
+    },
+    {
+      "explanation": "The value '7/10,8.4/10' contains invalid characters (slash) for this numeric context",
+      "index": 45,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    { "explanation": "", "index": 46, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '6.8/10,7.7/10' contains invalid characters (slash) for this numeric context",
+      "index": 47,
+      "annotation": 1,
+      "possible_repair": "7.2"
+    },
+    { "explanation": "", "index": 48, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 49, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 50, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '6/10' contains invalid characters (slash) for this numeric context",
+      "index": 51,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    { "explanation": "", "index": 52, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 53, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 54, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '7.7/10,7.5/10' contains invalid characters (slash) for this numeric context",
+      "index": 55,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    { "explanation": "", "index": 56, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 57, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '2.9/10,3.3/10' contains invalid characters (slash) for this numeric context",
+      "index": 58,
+      "annotation": 1,
+      "possible_repair": "3.1"
+    },
+    { "explanation": "", "index": 59, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 60, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '5.3/10,4.8/10' contains invalid characters (slash) for this numeric context",
+      "index": 61,
+      "annotation": 1,
+      "possible_repair": "5.1"
+    },
+    {
+      "explanation": "The value '5.9/10,5.7/10' contains invalid characters (slash) for this numeric context",
+      "index": 62,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    { "explanation": "", "index": 63, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 64, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 65, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 66, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '4.4/10,5.1/10' contains invalid characters (slash) for this numeric context",
+      "index": 68,
+      "annotation": 1,
+      "possible_repair": "4.8"
+    },
+    { "explanation": "", "index": 69, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 70, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '7.4/10,7.3/10' contains invalid characters (slash) for this numeric context",
+      "index": 71,
+      "annotation": 1,
+      "possible_repair": "7.4"
+    },
+    {
+      "explanation": "The value '7.2/10,7.3/10' contains invalid characters (slash) for this numeric context",
+      "index": 72,
+      "annotation": 1,
+      "possible_repair": "7.2"
+    },
+    {
+      "explanation": "The value '4.9/10,4.9/10' contains invalid characters (slash) for this numeric context",
+      "index": 73,
+      "annotation": 1,
+      "possible_repair": "4.9"
+    },
+    {
+      "explanation": "The value '5.2/10,4.9/10' contains invalid characters (slash) for this numeric context",
+      "index": 74,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The value '6/10,5.8/10' contains invalid characters (slash) for this numeric context",
+      "index": 75,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    { "explanation": "", "index": 76, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '3.8/10,3.4/10' contains invalid characters (slash) for this numeric context",
+      "index": 77,
+      "annotation": 1,
+      "possible_repair": "3.6"
+    },
+    {
+      "explanation": "The value '4.6/10,4.7/10' contains invalid characters (slash) for this numeric context",
+      "index": 78,
+      "annotation": 1,
+      "possible_repair": "4.7"
+    },
+    { "explanation": "", "index": 79, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '5.8/10,5.4/10' contains invalid characters (slash) for this numeric context",
+      "index": 80,
+      "annotation": 1,
+      "possible_repair": "5.6"
+    },
+    { "explanation": "", "index": 81, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 82, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '5.4/10,5.2/10' contains invalid characters (slash) for this numeric context",
+      "index": 83,
+      "annotation": 1,
+      "possible_repair": "5.3"
+    },
+    { "explanation": "", "index": 84, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 85, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 86, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '6.4/10,6.2/10' contains invalid characters (slash) for this numeric context",
+      "index": 87,
+      "annotation": 1,
+      "possible_repair": "6.3"
+    },
+    { "explanation": "", "index": 88, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '7/10,7.5/10' contains invalid characters (slash) for this numeric context",
+      "index": 89,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The value '7/10,6.4/10' contains invalid characters (slash) for this numeric context",
+      "index": 90,
+      "annotation": 1,
+      "possible_repair": "6.7"
+    },
+    {
+      "explanation": "The value '4.6/10,4.6/10' contains invalid characters (slash) for this numeric context",
+      "index": 91,
+      "annotation": 1,
+      "possible_repair": "4.6"
+    },
+    {
+      "explanation": "The value '4.4/10,4.1/10' contains invalid characters (slash) for this numeric context",
+      "index": 92,
+      "annotation": 1,
+      "possible_repair": "4.3"
+    },
+    {
+      "explanation": "The value '6.6/10,6.3/10' contains invalid characters (slash) for this numeric context",
+      "index": 93,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    { "explanation": "", "index": 94, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 95, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 96, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 97, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '6.2/10,5.5/10' contains invalid characters (slash) for this numeric context",
+      "index": 98,
+      "annotation": 1,
+      "possible_repair": "5.9"
+    },
+    {
+      "explanation": "The value '5.4/10,5.1/10' contains invalid characters (slash) for this numeric context",
+      "index": 99,
+      "annotation": 1,
+      "possible_repair": "5.3"
+    },
+    {
+      "explanation": "The value uses inconsistent delimiters for the rating (comma and forward slash) which is not a common pattern.",
+      "index": 100,
+      "annotation": 1,
+      "possible_repair": "6.4/10, 6.3/10"
+    },
+    {
+      "explanation": "The value uses inconsistent delimiters for the rating (comma and forward slash), deviating from the established structure.",
+      "index": 101,
+      "annotation": 1,
+      "possible_repair": "6.9/10, 6.2/10"
+    },
+    {
+      "explanation": "This value also presents a similar issue as it mixes formats with comma and forward slash.",
+      "index": 104,
+      "annotation": 1,
+      "possible_repair": "5.4/10, 4.2/10"
+    },
+    {
+      "explanation": "The value mixes formats, which deviates from other ratings' patterns.",
+      "index": 105,
+      "annotation": 1,
+      "possible_repair": "6.5/10, 3.1/10"
+    },
+    {
+      "explanation": "The value contains inconsistent delimiter usage for the rating.",
+      "index": 106,
+      "annotation": 1,
+      "possible_repair": "6.5/10, 6.6/10"
+    },
+    {
+      "explanation": "This also presents mixed delimiters, causing a pattern deviation.",
+      "index": 107,
+      "annotation": 1,
+      "possible_repair": "5.4/10, 4.9/10"
+    },
+    {
+      "explanation": "The value lacks a suffix that conforms to the pattern of other ratings, which typically contain the /10 suffix.",
+      "index": 108,
+      "annotation": 1,
+      "possible_repair": "3.2/10"
+    },
+    {
+      "explanation": "As in the previous, this value lacks a suitable format for the context provided.",
+      "index": 109,
+      "annotation": 1,
+      "possible_repair": "1.8/10"
+    },
+    {
+      "explanation": "Similar to earlier entries, the lack of a rating pattern causes a non-conformity here.",
+      "index": 110,
+      "annotation": 1,
+      "possible_repair": "2.8/10"
+    },
+    {
+      "explanation": "This value is missing the expected formatting and is considered an error due to lack of conformance to the established pattern.",
+      "index": 111,
+      "annotation": 1,
+      "possible_repair": "3.5/10"
+    },
+    {
+      "explanation": "As with previous examples, the format does not adhere to the established rating structure, lacking proper context.",
+      "index": 112,
+      "annotation": 1,
+      "possible_repair": "6.3/10, 7.1/10"
+    },
+    {
+      "explanation": "Same as prior – the rating structure is not adhered to.",
+      "index": 113,
+      "annotation": 1,
+      "possible_repair": "5.7/10, 6.1/10"
+    },
+    {
+      "explanation": "Not following the established formatting leads to a pattern error here.",
+      "index": 114,
+      "annotation": 1,
+      "possible_repair": "6.2/10, 6.1/10"
+    },
+    {
+      "explanation": "Similar to others, this value does not follow rating formatting rules.",
+      "index": 115,
+      "annotation": 1,
+      "possible_repair": "9.2/10"
+    },
+    {
+      "explanation": "Like other examples, it lacks proper format conformity.",
+      "index": 116,
+      "annotation": 1,
+      "possible_repair": "9.3/10"
+    },
+    {
+      "explanation": "This is a standalone value which deviates from expected formatting.",
+      "index": 117,
+      "annotation": 1,
+      "possible_repair": "2.9/10"
+    },
+    {
+      "explanation": "Value lacks the uniform pattern that other ratings follow.",
+      "index": 118,
+      "annotation": 1,
+      "possible_repair": "7.4/10, 5.8/10"
+    },
+    {
+      "explanation": "This isolated value does not conform to the standard rating structure.",
+      "index": 119,
+      "annotation": 1,
+      "possible_repair": "2.4/10"
+    },
+    {
+      "explanation": "This entry lacks the expected rating suffix.",
+      "index": 120,
+      "annotation": 1,
+      "possible_repair": "7.4/10"
+    },
+    {
+      "explanation": "The lack of following the standard pattern here is an error.",
+      "index": 121,
+      "annotation": 1,
+      "possible_repair": "5.2/10"
+    },
+    {
+      "explanation": "Value deviates from the established pattern seen in other ratings.",
+      "index": 123,
+      "annotation": 1,
+      "possible_repair": "9.1/10"
+    },
+    {
+      "explanation": "This entry contains a deviation from the expected decimal rating format.",
+      "index": 124,
+      "annotation": 1,
+      "possible_repair": "7.6/10"
+    },
+    {
+      "explanation": "The isolated value does not hold up against the pattern established by previous entries.",
+      "index": 125,
+      "annotation": 1,
+      "possible_repair": "7.2/10"
+    },
+    {
+      "explanation": "As previously demonstrated, non-conforming structure creates an error.",
+      "index": 126,
+      "annotation": 1,
+      "possible_repair": "4.3/10"
+    },
+    {
+      "explanation": "The value revealed inconsistencies which are notable with defined structures.",
+      "index": 127,
+      "annotation": 1,
+      "possible_repair": "4.8/10, 4.9/10"
+    },
+    {
+      "explanation": "Here we see a similar issue with the established rating system and expected pattern.",
+      "index": 128,
+      "annotation": 1,
+      "possible_repair": "5.2/10, 5/10"
+    },
+    {
+      "explanation": "Deviations in expected patterns noted in this value create an error.",
+      "index": 129,
+      "annotation": 1,
+      "possible_repair": "3.9/10, 3.9/10"
+    },
+    {
+      "explanation": "Same as prior examples, this entry does not adhere to consistent rating structures.",
+      "index": 130,
+      "annotation": 1,
+      "possible_repair": "5.9/10, 5.9/10"
+    },
+    {
+      "explanation": "The lack of expected suffix creates an inconsistency leading to an error here.",
+      "index": 133,
+      "annotation": 1,
+      "possible_repair": "8.3/10, 8.5/10"
+    },
+    {
+      "explanation": "What we note here follows the same deviation pattern as earlier examples.",
+      "index": 134,
+      "annotation": 1,
+      "possible_repair": "8.4/10, 7.7/10"
+    },
+    {
+      "explanation": "A pattern error emerges due to the inbound rating structure not being followed.",
+      "index": 135,
+      "annotation": 1,
+      "possible_repair": "6.4/10, 5.7/10"
+    },
+    {
+      "explanation": "In accordance to the established format, this entry is problematic due to inconsistency.",
+      "index": 136,
+      "annotation": 1,
+      "possible_repair": "7.4/10, 7.1/10"
+    },
+    {
+      "explanation": "This entry lacks the suffixed consistency seen across other entries.",
+      "index": 137,
+      "annotation": 1,
+      "possible_repair": "6.1/10, 6/10"
+    },
+    {
+      "explanation": "Forms of variance from structured consistencies noted prior create issues here.",
+      "index": 138,
+      "annotation": 1,
+      "possible_repair": "7.5/10, 6.9/10"
+    },
+    {
+      "explanation": "Continuing the pattern of errors due to structure, a deviation is noted.",
+      "index": 139,
+      "annotation": 1,
+      "possible_repair": "6.5/10, 5.8/10"
+    },
+    {
+      "explanation": "Consistency issues with the overall rating format lead to this error.",
+      "index": 140,
+      "annotation": 1,
+      "possible_repair": "6.7/10, 5.9/10"
+    },
+    {
+      "explanation": "Broken format consistency leads to a rated structure issue here.",
+      "index": 141,
+      "annotation": 1,
+      "possible_repair": "8.6/10, 8.2/10"
+    },
+    {
+      "explanation": "What is seen here could be noted as a failure to conform with established patterning.",
+      "index": 142,
+      "annotation": 1,
+      "possible_repair": "8.5/10, 8.3/10"
+    },
+    {
+      "explanation": "The entry presents a consistency error – ratings are not aligned properly.",
+      "index": 143,
+      "annotation": 1,
+      "possible_repair": "7/10, 7.2/10"
+    },
+    {
+      "explanation": "As in others, the entry does not align with established rating conventions.",
+      "index": 144,
+      "annotation": 1,
+      "possible_repair": "5.3/10, 6/10"
+    },
+    {
+      "explanation": "This entry deviates from the established ratings seen in other entries.",
+      "index": 145,
+      "annotation": 1,
+      "possible_repair": "8.4/10, 8.6/10"
+    },
+    {
+      "explanation": "The error is caused by a lack of conformity with the expected structure.",
+      "index": 146,
+      "annotation": 1,
+      "possible_repair": "6.5/10, 6.7/10"
+    },
+    {
+      "explanation": "This entry deviates from expected consistency with the established rating framework.",
+      "index": 147,
+      "annotation": 1,
+      "possible_repair": "4.7/10, 4.2/10"
+    },
+    {
+      "explanation": "Same deviation pattern is noted with this structure leading to an error.",
+      "index": 148,
+      "annotation": 1,
+      "possible_repair": "1.4/10"
+    },
+    {
+      "explanation": "What we see here is the same deviation leading to similar structure errors.",
+      "index": 149,
+      "annotation": 1,
+      "possible_repair": "1.5/10"
+    },
+    {
+      "explanation": "This entry shows deviation from established patterns, revealing an inconsistency.",
+      "index": 150,
+      "annotation": 1,
+      "possible_repair": "5.9/10, 6/10"
+    },
+    {
+      "explanation": "Observed structure deviations lead to a consistency error in the listed entry.",
+      "index": 151,
+      "annotation": 1,
+      "possible_repair": "6.4/10, 5.5/10"
+    },
+    {
+      "explanation": "The value deviates from the standard format and structure used in similar entries.",
+      "index": 152,
+      "annotation": 1,
+      "possible_repair": "4/10, 4.2/10"
+    },
+    {
+      "explanation": "Failure to adhere to structured formats creates a rating inconsistency leading to error here.",
+      "index": 154,
+      "annotation": 1,
+      "possible_repair": "2.4/10, 3.6/10"
+    },
+    {
+      "explanation": "A similar error appears as with other examples of inconsistent and misaligned formats.",
+      "index": 155,
+      "annotation": 1,
+      "possible_repair": "4.4/10, 4.5/10"
+    },
+    {
+      "explanation": "This entry does not conform to the established rating format and noted with an error.",
+      "index": 156,
+      "annotation": 1,
+      "possible_repair": "6.1/10, 5.5/10"
+    },
+    {
+      "explanation": "Here we note a similar issue as found in other entries, presenting deviations from expected structure.",
+      "index": 157,
+      "annotation": 1,
+      "possible_repair": "6.8/10, 7/10"
+    },
+    {
+      "explanation": "In the context of ratings format, this entry displays pattern inconsistency.",
+      "index": 158,
+      "annotation": 1,
+      "possible_repair": "3.3/10, 3.9/10"
+    },
+    {
+      "explanation": "This entry diverges from the established structure observed in similar rated entries.",
+      "index": 159,
+      "annotation": 1,
+      "possible_repair": "7.3/10, 7.6/10"
+    },
+    {
+      "explanation": "This isolated value lacks necessary structure leading to an inconsistency observed in the dataset.",
+      "index": 160,
+      "annotation": 1,
+      "possible_repair": "5/10, 5.1/10"
+    },
+    {
+      "explanation": "As previously displayed, this entry does not adhere to standardized rating conventions.",
+      "index": 161,
+      "annotation": 1,
+      "possible_repair": "4.9/10, 4.4/10"
+    },
+    {
+      "explanation": "The error posed here comes from lack of adherence to expected decimal formats.",
+      "index": 162,
+      "annotation": 1,
+      "possible_repair": "4.4/10, 4.9/10"
+    },
+    {
+      "explanation": "Note similar deviations from expected rating formats leading to an error classification here.",
+      "index": 164,
+      "annotation": 1,
+      "possible_repair": "8.1/10, 6.9/10"
+    },
+    {
+      "explanation": "Continuing with patterns of errors based on expectations, this entry shows similar issues.",
+      "index": 165,
+      "annotation": 1,
+      "possible_repair": "8.2/10"
+    },
+    {
+      "explanation": "A commonality of the similar error exhibited in prior structure leads to issues here.",
+      "index": 166,
+      "annotation": 1,
+      "possible_repair": "5.7/10, 6.6/10"
+    },
+    {
+      "explanation": "There is a lack of conformity with earlier noted patterns here resulting in an inconsistency error.",
+      "index": 168,
+      "annotation": 1,
+      "possible_repair": "6/10, 6.1/10"
+    },
+    {
+      "explanation": "The observed deviation leads to an inconsistency with the previously noted rating structure.",
+      "index": 169,
+      "annotation": 1,
+      "possible_repair": "5/10, 4.4/10"
+    },
+    {
+      "explanation": "Continuing to show discrepancies from expected patterns results in an error in this entry.",
+      "index": 170,
+      "annotation": 1,
+      "possible_repair": "7.1/10, 7.3/10"
+    },
+    {
+      "explanation": "Non-conformity to established structures is observed again in this entry, indicating a rating error.",
+      "index": 171,
+      "annotation": 1,
+      "possible_repair": "7.1/10"
+    },
+    {
+      "explanation": "The departure from the established format seen previously leads to this error identification.",
+      "index": 172,
+      "annotation": 1,
+      "possible_repair": "3.3/10, 3.5/10"
+    },
+    {
+      "explanation": "This entry adheres to past noted patterns rather than conforming into set expectations, leading to an error.",
+      "index": 173,
+      "annotation": 1,
+      "possible_repair": "8.5/10, 8.6/10"
+    },
+    {
+      "explanation": "As seen in previous entries, a deviation in expected structure leads to further noted errors.",
+      "index": 174,
+      "annotation": 1,
+      "possible_repair": "4.5/10"
+    },
+    {
+      "explanation": "Continuing discrepancies in expected structure results in further error identification in this entry.",
+      "index": 179,
+      "annotation": 1,
+      "possible_repair": "7.1/10, 7/10"
+    },
+    {
+      "explanation": "Each of the isolated values does not conform within the expected structure, leading to error noted.",
+      "index": 182,
+      "annotation": 1,
+      "possible_repair": "5.7/10, 5.5/10"
+    },
+    {
+      "explanation": "Consistent with prior noted values, we see a pronounced disparity leading to an error in the dataset here.",
+      "index": 183,
+      "annotation": 1,
+      "possible_repair": "5.6/10, 5.5/10"
+    },
+    {
+      "explanation": "As in others, a lack of conformity to established rating formats leads to this error.",
+      "index": 184,
+      "annotation": 1,
+      "possible_repair": "5.6/10, 7/10"
+    },
+    {
+      "explanation": "This isolated value fails to follow standard rating patterning and leads to error consistency.",
+      "index": 185,
+      "annotation": 1,
+      "possible_repair": "3.9/10"
+    },
+    {
+      "explanation": "The lack of pattern conformity in this entry leads to established error identification as observed in previous examples.",
+      "index": 186,
+      "annotation": 1,
+      "possible_repair": "4.6/10, 3.8/10"
+    },
+    {
+      "explanation": "The deviation from expected structure leads to inconsistencies noted in this entry.",
+      "index": 187,
+      "annotation": 1,
+      "possible_repair": "3.7/10, 4.3/10"
+    },
+    {
+      "explanation": "Continuing with inconsistencies revealed in expected formats, this entry holds an error as well.",
+      "index": 188,
+      "annotation": 1,
+      "possible_repair": "5.2/10, 4.6/10"
+    },
+    {
+      "explanation": "This entry presents a similar consistency issue as others, leading to error classification.",
+      "index": 189,
+      "annotation": 1,
+      "possible_repair": "5.1/10, 5/10"
+    },
+    {
+      "explanation": "Aligned with past noted entries, this structured deviation results in noted error.",
+      "index": 191,
+      "annotation": 1,
+      "possible_repair": "4.8/10"
+    },
+    {
+      "explanation": "This value does not conform with expected structure as established in similar entries.",
+      "index": 193,
+      "annotation": 1,
+      "possible_repair": "5.4/10, 5.4/10"
+    },
+    {
+      "explanation": "As demonstrated, lack of adherence to structured performance leads to notable error in existing entries.",
+      "index": 196,
+      "annotation": 1,
+      "possible_repair": "7.5/10"
+    },
+    {
+      "explanation": "The value contains a comma instead of separating the two decimal representations, which is inconsistent with the rest that use a single slash.",
+      "index": 200,
+      "annotation": 1,
+      "possible_repair": "5.8/10, 5.5/10"
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 201,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 202,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 203,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 204,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 205,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 206,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 207,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 208,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 209,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 210,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 211,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 212,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 213,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 214,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 215,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 216,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 217,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 218,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 219,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 220,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 221,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 222,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 223,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 224,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted with a slash and no invalid characters, hence it is a valid value.",
+      "index": 225,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 226,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Only a single value is given and it follows the intended pattern with the correct usage of the slash.",
+      "index": 227,
+      "annotation": 0,
+      "possible_repair": ""
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The description of the film often includes performance metrics such as user and critic count, which may reflect its reception.
+
+  The following is a formatted table with the unique data to be checked.
+  

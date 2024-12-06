@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The duration of the movie might impact the number of critic ratings it received, suggesting a correlation between the length of the film and its review volume.
+
+  The following is a formatted table with the unique data to be checked.
+  

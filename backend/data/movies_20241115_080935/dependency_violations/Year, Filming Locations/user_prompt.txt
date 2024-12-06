@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The filming location may provide additional context to the release year, as certain places are known for cinema from specific periods.
+
+  The following is a formatted table with the unique data to be checked.
+  

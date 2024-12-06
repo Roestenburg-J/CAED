@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The descriptions of treatments (e.g., 'heart attack patients given pci within 90 minutes of arrival') are semantically related to identifiers that categorize them (e.g., 'al_ami-8a').
+
+  The following is a formatted table with the unique data to be checked.
+  

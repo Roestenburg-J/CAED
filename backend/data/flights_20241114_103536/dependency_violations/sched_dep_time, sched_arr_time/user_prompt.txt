@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The scheduled departure time in the fourth column is related to the actual arrival time in the sixth column, possibly indicating delays or on-time arrivals based on the flight's schedule.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The fifth column lists the writers associated with a movie, and the fourth column presents the director; therefore, the director can determine the writers, as it indicates who wrote the movie directed by a specific person.
+
+  The following is a formatted table with the unique data to be checked.
+  

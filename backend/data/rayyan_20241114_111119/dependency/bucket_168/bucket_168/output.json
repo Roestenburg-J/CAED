@@ -1,0 +1,1 @@
+{"output":[{"columns":[0,1],"dependency":"The first column represents unique identifiers for case studies or articles, while the second column contains the titles of those articles. The title can be considered dependent on the identifier, as each title corresponds to a specific case study or article."}]}

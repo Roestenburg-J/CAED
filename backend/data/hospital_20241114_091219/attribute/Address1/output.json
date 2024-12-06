@@ -1,0 +1,235 @@
+{
+  "output": [
+    { "explanation": "", "index": 0, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 1, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 2, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 3, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters, the value contains non-standard characters in 'xuxsxhighwayx431xnorth'.",
+      "index": 4,
+      "annotation": 1,
+      "possible_repair": "2505 u s highway 431 north"
+    },
+    {
+      "explanation": "Invalid characters in 'xnxmainxst' make it unreadable, deviating from the pattern of 'number main street'.",
+      "index": 6,
+      "annotation": 1,
+      "possible_repair": "702 n main st"
+    },
+    {
+      "explanation": "Invalid characters in 'x maix st' altering recognizable street naming patterns.",
+      "index": 8,
+      "annotation": 1,
+      "possible_repair": "702 n main st"
+    },
+    { "explanation": "", "index": 9, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 10, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'sxreex norxhwesx', deviating from the recognizable 'street northwest' pattern.",
+      "index": 11,
+      "annotation": 1,
+      "possible_repair": "201 pine street northwest"
+    },
+    { "explanation": "", "index": 12, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "",
+      "index": 13,
+      "annotation": 1,
+      "possible_repair": "8000 alabama highway 69"
+    },
+    { "explanation": "", "index": 14, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 15, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 16, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'hxghway' are not in accordance with 'highway 43'.",
+      "index": 17,
+      "annotation": 1,
+      "possible_repair": "33700 highway 43"
+    },
+    {
+      "explanation": "Invalid characters in 'x3' deviate from regular numeric representations.",
+      "index": 18,
+      "annotation": 1,
+      "possible_repair": "33700 highway 43"
+    },
+    { "explanation": "", "index": 19, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'fixst stxeet noxth' deviate from standard street naming.",
+      "index": 20,
+      "annotation": 1,
+      "possible_repair": "1000 first street north"
+    },
+    {
+      "explanation": "Invalid characters in 'univxrsity' do not conform to the recognizable pattern of 'university'.",
+      "index": 21,
+      "annotation": 1,
+      "possible_repair": "1720 university blvd"
+    },
+    { "explanation": "", "index": 22, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xeastx18thxst' deviate from recognizing standard address structure.",
+      "index": 23,
+      "annotation": 1,
+      "possible_repair": "301 east 18th st"
+    },
+    { "explanation": "", "index": 24, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xwestxmainxstreet' disrupt standard address formatting.",
+      "index": 25,
+      "annotation": 1,
+      "possible_repair": "4370 west main street"
+    },
+    { "explanation": "", "index": 26, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'vxncents drxve' disrupt manageable street formatting.",
+      "index": 27,
+      "annotation": 1,
+      "possible_repair": "810 st vincents drive"
+    },
+    { "explanation": "", "index": 28, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 29, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xuxsxhighwayx43' disrupt standard address formatting.",
+      "index": 30,
+      "annotation": 1,
+      "possible_repair": "1530 u s highway 43"
+    },
+    { "explanation": "", "index": 31, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xsxmemorialxdr' disrupt recognizable address patterns.",
+      "index": 33,
+      "annotation": 1,
+      "possible_repair": "124 s memorial dr"
+    },
+    {
+      "explanation": "Invalid characters in 'mxmorial' disrupt names not complying with standard memorial street.",
+      "index": 34,
+      "annotation": 1,
+      "possible_repair": "124 s memorial dr"
+    },
+    { "explanation": "", "index": 35, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'hickxry' disrupt recognizable pattern for street names.",
+      "index": 37,
+      "annotation": 1,
+      "possible_repair": "315 w hickory st"
+    },
+    {
+      "explanation": "Invalid characters in 'wxhickoryxst' disrupts normal street name formatting.",
+      "index": 38,
+      "annotation": 1,
+      "possible_repair": "315 w hickory st"
+    },
+    { "explanation": "", "index": 39, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 40, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'poxboxx287' disrupt recognizable address patterns for PO boxes.",
+      "index": 41,
+      "annotation": 1,
+      "possible_repair": "po box 287"
+    },
+    { "explanation": "", "index": 42, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xhospitalxave' disrupt recognizable address patterns.",
+      "index": 43,
+      "annotation": 1,
+      "possible_repair": "126 hospital ave"
+    },
+    {
+      "explanation": "Invalid characters in '1x6' are not conforming to street address formatting.",
+      "index": 44,
+      "annotation": 1,
+      "possible_repair": "126 hospital ave"
+    },
+    { "explanation": "", "index": 45, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 46, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 47, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 48, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 49, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 50, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 51, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xorth maix' disrupt standard address formatting.",
+      "index": 52,
+      "annotation": 1,
+      "possible_repair": "209 north main street"
+    },
+    { "explanation": "", "index": 53, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 54, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 55, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xalabamax' disrupt recognizable name for the highway.",
+      "index": 56,
+      "annotation": 1,
+      "possible_repair": "1912 alabama highway 157"
+    },
+    { "explanation": "", "index": 57, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in '1xth' disrupt measurable patterns for street numbers.",
+      "index": 58,
+      "annotation": 1,
+      "possible_repair": "301 east 18th st"
+    },
+    {
+      "explanation": "",
+      "index": 59,
+      "annotation": 1,
+      "possible_repair": "101 silvey rd"
+    },
+    { "explanation": "", "index": 60, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 61, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'x0x0' do not conform to common number formatting.",
+      "index": 62,
+      "annotation": 1,
+      "possible_repair": "0 lay dam road"
+    },
+    { "explanation": "", "index": 63, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'sxuth' disrupt standard naming of street locations.",
+      "index": 64,
+      "annotation": 1,
+      "possible_repair": "1256 military street south"
+    },
+    { "explanation": "", "index": 65, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 66, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'souxh xhird sxreex' do not represent recognizable address patterns.",
+      "index": 67,
+      "annotation": 1,
+      "possible_repair": "600 south third street"
+    },
+    {
+      "explanation": "Invalid characters in 'sx' disrupt recognizable names for streets or areas.",
+      "index": 69,
+      "annotation": 1,
+      "possible_repair": "515 miranda st"
+    },
+    {
+      "explanation": "Invalid characters in 'miranxa' disrupt recognizable name for the street.",
+      "index": 70,
+      "annotation": 1,
+      "possible_repair": "515 miranda st"
+    },
+    {
+      "explanation": "Invalid characters in 'mirxndx' disrupt address formatting for named streets.",
+      "index": 71,
+      "annotation": 1,
+      "possible_repair": "515 miranda st"
+    },
+    { "explanation": "", "index": 72, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'xnxedwardsxstreet' disrupt recognizable address formatting for streets.",
+      "index": 73,
+      "annotation": 1,
+      "possible_repair": "400 n edwards street"
+    },
+    { "explanation": "", "index": 74, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid characters in 'gilxreath' do not conform to standard street naming patterns.",
+      "index": 75,
+      "annotation": 1,
+      "possible_repair": "150 gilbreath drive"
+    }
+  ]
+}

@@ -1,0 +1,2377 @@
+src,sched_arr_time,original_index,unique_index
+aa,9:40 a.m.,0,0
+aa,10:30 p.m.,1,1
+aa,7:25 p.m.,2,2
+aa,9:25 a.m.,3,3
+aa,2:45 p.m.,4,4
+aa,12/02/2011 6:55 a.m.,5,5
+aa,9:55 a.m.,6,6
+aa,7:55 p.m.,7,7
+aa,3:50 p.m.,8,8
+aa,9:20 a.m.,9,9
+aa,2:20 p.m.,10,10
+aa,11:05 a.m.,11,11
+aa,12:10 p.m.,12,12
+aa,8:00 a.m.,13,13
+aa,2:35 p.m.,14,14
+aa,12:35 p.m.,15,15
+aa,2:00 p.m.,16,16
+aa,11:10 a.m.,17,17
+aa,7:45 a.m.,18,18
+aa,2:25 p.m.,19,19
+aa,2:45 p.m.,20,4
+aa,4:00 p.m.,21,20
+aa,10:35 a.m.,22,21
+aa,9:10 p.m.,23,22
+aa,3:15 p.m.,24,23
+aa,7:30 a.m.,25,24
+aa,9:35 a.m.,26,25
+aa,8:05 p.m.,27,26
+aa,9:45 p.m.,28,27
+aa,2:59 p.m.,29,28
+aa,12:55 p.m.,30,29
+aa,12/02/2011 5:50 a.m.,31,30
+aa,12/02/2011 12:15 a.m.,32,31
+aa,11:50 p.m.,33,32
+aa,10:34 a.m.,34,33
+aa,11:50 a.m.,35,34
+aa,3:50 p.m.,36,8
+aa,9:20 p.m.,37,35
+aa,4:05 p.m.,38,36
+aa,5:55 p.m.,39,37
+aa,11:35 a.m.,40,38
+aa,2:15 p.m.,41,39
+aa,2:35 p.m.,42,14
+aa,10:40 a.m.,43,40
+aa,6:30 p.m.,44,41
+aa,5:25 p.m.,45,42
+aa,6:40 p.m.,46,43
+aa,3:30 p.m.,47,44
+aa,6:40 a.m.,48,45
+aa,10:45 a.m.,49,46
+helloflight,,50,47
+helloflight,10:15 p.m.,51,48
+helloflight,,52,47
+helloflight,,53,47
+helloflight,,54,47
+helloflight,,55,47
+helloflight,,56,47
+helloflight,2:50 p.m.,57,49
+helloflight,,58,47
+helloflight,,59,47
+helloflight,,60,47
+helloflight,,61,47
+helloflight,5:35 a.m.,62,50
+helloflight,,63,47
+helloflight,9:21 a.m.,64,51
+helloflight,1:16 p.m.,65,52
+helloflight,,66,47
+helloflight,,67,47
+helloflight,,68,47
+helloflight,,69,47
+helloflight,,70,47
+helloflight,7:03 p.m.,71,53
+helloflight,11:35 a.m.,72,54
+helloflight,,73,47
+helloflight,,74,47
+helloflight,1:17 p.m.,75,55
+helloflight,,76,47
+helloflight,,77,47
+helloflight,10:20 a.m.,78,56
+helloflight,10:54 a.m.,79,57
+helloflight,,80,47
+helloflight,,81,47
+helloflight,,82,47
+helloflight,,83,47
+helloflight,,84,47
+helloflight,,85,47
+helloflight,,86,47
+helloflight,8:22 p.m.,87,58
+helloflight,8:56 p.m.,88,59
+helloflight,,89,47
+helloflight,,90,47
+helloflight,4:00 p.m.,91,60
+helloflight,,92,47
+helloflight,,93,47
+helloflight,,94,47
+helloflight,,95,47
+helloflight,12/2/11 12:21 a.m.,96,61
+helloflight,,97,47
+helloflight,12:18 p.m.,98,62
+helloflight,,99,47
+helloflight,,100,47
+helloflight,,101,47
+helloflight,,102,47
+helloflight,,103,47
+helloflight,,104,47
+helloflight,,105,47
+helloflight,6:44 p.m.,106,63
+helloflight,,107,47
+helloflight,,108,47
+helloflight,,109,47
+helloflight,,110,47
+helloflight,4:17 p.m.,111,64
+helloflight,,112,47
+helloflight,,113,47
+helloflight,,114,47
+helloflight,,115,47
+helloflight,,116,47
+helloflight,,117,47
+helloflight,,118,47
+helloflight,,119,47
+helloflight,4:48 p.m.,120,65
+helloflight,,121,47
+helloflight,12/2/11 5:11 a.m.,122,66
+helloflight,,123,47
+helloflight,,124,47
+helloflight,,125,47
+helloflight,,126,47
+helloflight,,127,47
+helloflight,7:03 p.m.,128,53
+helloflight,11:45 a.m.,129,67
+helloflight,,130,47
+helloflight,,131,47
+helloflight,,132,47
+helloflight,,133,47
+helloflight,,134,47
+helloflight,11:53 a.m.,135,68
+helloflight,,136,47
+helloflight,,137,47
+helloflight,,138,47
+helloflight,,139,47
+helloflight,,140,47
+helloflight,,141,47
+helloflight,4:49 p.m.,142,69
+helloflight,,143,47
+helloflight,,144,47
+helloflight,,145,47
+helloflight,7:05 p.m.,146,70
+helloflight,,147,47
+helloflight,,148,47
+helloflight,,149,47
+boston,9:40 a.m.,150,71
+boston,,151,72
+boston,9:25 a.m.,152,73
+boston,11:55 a.m.,153,74
+boston,,154,72
+boston,10:30 p.m.,155,75
+boston,3:15 p.m.,156,76
+boston,5:05 p.m.,157,77
+boston,,158,72
+boston,,159,72
+boston,6:55 a.m. Dec 02,160,78
+boston,,161,72
+boston,,162,72
+boston,6:46 p.m.,163,79
+boston,,164,72
+boston,,165,72
+boston,12:35 p.m.,166,80
+boston,,167,72
+boston,9:55 a.m.,168,81
+boston,7:55 p.m.,169,82
+boston,,170,72
+boston,,171,72
+boston,,172,72
+boston,,173,72
+boston,3:50 p.m.,174,83
+boston,,175,72
+boston,9:20 a.m.,176,84
+boston,4:57 p.m.,177,85
+boston,,178,72
+boston,,179,72
+boston,12:10 p.m.,180,86
+boston,2:35 p.m.,181,87
+boston,,182,72
+boston,,183,72
+boston,,184,72
+boston,6:15 p.m.,185,88
+boston,1:45 p.m.,186,89
+boston,,187,72
+boston,,188,72
+boston,2:45 p.m.,189,90
+boston,4:52 p.m.,190,91
+boston,,191,72
+boston,10:35 a.m.,192,92
+boston,7:25 p.m.,193,93
+boston,9:10 p.m.,194,94
+boston,12:21 a.m. Dec 02,195,95
+boston,,196,72
+boston,12:18 p.m.,197,96
+boston,7:30 a.m.,198,97
+boston,9:35 a.m.,199,98
+boston,,200,72
+boston,6:23 p.m.,201,99
+boston,,202,72
+boston,9:45 p.m.,203,100
+boston,,204,72
+boston,,205,72
+boston,2:59 p.m.,206,101
+boston,4:31 p.m.,207,102
+boston,2:45 p.m.,208,90
+boston,,209,72
+boston,5:50 a.m.Dec 02,210,103
+boston,12:29 a.m. Dec 02,211,104
+boston,12:15 a.m. Dec 02,212,105
+boston,11:50 p.m.,213,106
+boston,10:34 a.m.,214,107
+boston,11:50 a.m.,215,108
+boston,,216,72
+boston,3:50 p.m.,217,83
+boston,,218,72
+boston,,219,72
+boston,5:11 a.m.Dec 02,220,109
+boston,6:09 p.m.,221,110
+boston,,222,72
+boston,,223,72
+boston,,224,72
+boston,,225,72
+boston,,226,72
+boston,,227,72
+boston,4:05 p.m.,228,111
+boston,5:55 p.m.,229,112
+boston,11:35 a.m.,230,113
+boston,2:15 p.m.,231,114
+boston,11:05 a.m.,232,115
+boston,,233,72
+boston,2:35 p.m.,234,87
+boston,,235,72
+boston,6:30 p.m.,236,116
+boston,8:00 a.m.,237,117
+boston,,238,72
+boston,6:40 p.m.,239,118
+boston,2:25 p.m.,240,119
+boston,11:10 a.m.,241,120
+boston,,242,72
+boston,6:17 p.m.,243,121
+boston,12:55 p.m.,244,122
+boston,7:45 a.m.,245,123
+boston,7:05 p.m.,246,124
+boston,6:40 a.m.,247,125
+boston,10:45 a.m.,248,126
+boston,3:30 p.m.,249,127
+weather,9:40 a.m.,250,128
+weather,9:25 a.m.,251,129
+weather,11:55 a.m.,252,130
+weather,9:54 a.m.,253,131
+weather,10:30 p.m.,254,132
+weather,7:25 p.m.,255,133
+weather,5:05 p.m.,256,134
+weather,2:50 p.m.,257,135
+weather,5:25 p.m.,258,136
+weather,11:19 a.m.,259,137
+weather,6:55 a.m.,260,138
+weather,7:23 a.m.,261,139
+weather,2:45 p.m.,262,140
+weather,6:46 p.m.,263,141
+weather,1:16 p.m.,264,142
+weather,9:55 a.m.,265,143
+weather,10:06 a.m.,266,144
+weather,7:55 p.m.,267,145
+weather,7:03 p.m.,268,146
+weather,3:50 p.m.,269,147
+weather,9:20 a.m.,270,148
+weather,4:57 p.m.,271,149
+weather,10:20 a.m.,272,150
+weather,10:54 a.m.,273,151
+weather,2:20 p.m.,274,152
+weather,12:10 p.m.,275,153
+weather,8:00 a.m.,276,154
+weather,2:35 p.m.,277,155
+weather,5:35 a.m.,278,156
+weather,12:35 p.m.,279,157
+weather,2:00 p.m.,280,158
+weather,1:45 p.m.,281,159
+weather,11:10 a.m.,282,160
+weather,2:25 p.m.,283,161
+weather,2:45 p.m.,284,140
+weather,10:35 a.m.,285,162
+weather,11:35 a.m.,286,163
+weather,9:10 p.m.,287,164
+weather,3:15 p.m.,288,165
+weather,12:21 a.m.,289,166
+weather,7:53 p.m.,290,167
+weather,12:18 p.m.,291,168
+weather,7:30 a.m.,292,169
+weather,9:35 a.m.,293,170
+weather,6:23 p.m.,294,171
+weather,7:35 p.m.,295,172
+weather,9:45 p.m.,296,173
+weather,6:44 p.m.,297,174
+weather,10:31 a.m.,298,175
+weather,2:59 p.m.,299,176
+weather,4:31 p.m.,300,177
+weather,5:50 a.m.,301,178
+weather,12:29 a.m.,302,179
+weather,12:15 a.m.,303,180
+weather,11:50 p.m.,304,181
+weather,10:34 a.m.,305,182
+weather,11:50 a.m.,306,183
+weather,6:15 p.m.,307,184
+weather,9:24 a.m.,308,185
+weather,3:50 p.m.,309,147
+weather,4:48 p.m.,310,186
+weather,9:43 a.m.,311,187
+weather,8:27 a.m.,312,188
+weather,1:40 p.m.,313,189
+weather,9:20 p.m.,314,190
+weather,4:53 p.m.,315,191
+weather,7:03 p.m.,316,146
+weather,4:05 p.m.,317,192
+weather,5:55 p.m.,318,193
+weather,11:35 a.m.,319,163
+weather,5:00 p.m.,320,194
+weather,2:15 p.m.,321,195
+weather,11:05 a.m.,322,196
+weather,11:53 a.m.,323,197
+weather,2:35 p.m.,324,155
+weather,1:39 p.m.,325,198
+weather,10:40 a.m.,326,199
+weather,6:30 p.m.,327,200
+weather,6:40 p.m.,328,201
+weather,4:49 p.m.,329,202
+weather,6:17 p.m.,330,203
+weather,12:55 p.m.,331,204
+weather,7:45 a.m.,332,205
+weather,7:05 p.m.,333,206
+weather,6:40 a.m.,334,207
+weather,10:45 a.m.,335,208
+weather,3:30 p.m.,336,209
+airtravelcenter,,337,210
+airtravelcenter,10:15 p.m.,338,211
+airtravelcenter,,339,210
+airtravelcenter,,340,210
+airtravelcenter,,341,210
+airtravelcenter,,342,210
+airtravelcenter,,343,210
+airtravelcenter,2:50 p.m.,344,212
+airtravelcenter,,345,210
+airtravelcenter,,346,210
+airtravelcenter,,347,210
+airtravelcenter,,348,210
+airtravelcenter,5:35 a.m.,349,213
+airtravelcenter,,350,210
+airtravelcenter,9:21 a.m.,351,214
+airtravelcenter,1:16 p.m.,352,215
+airtravelcenter,,353,210
+airtravelcenter,,354,210
+airtravelcenter,,355,210
+airtravelcenter,,356,210
+airtravelcenter,,357,210
+airtravelcenter,7:03 p.m.,358,216
+airtravelcenter,11:35 a.m.,359,217
+airtravelcenter,,360,210
+airtravelcenter,,361,210
+airtravelcenter,1:17 p.m.,362,218
+airtravelcenter,,363,210
+airtravelcenter,,364,210
+airtravelcenter,10:20 a.m.,365,219
+airtravelcenter,10:54 a.m.,366,220
+airtravelcenter,,367,210
+airtravelcenter,,368,210
+airtravelcenter,,369,210
+airtravelcenter,,370,210
+airtravelcenter,,371,210
+airtravelcenter,,372,210
+airtravelcenter,,373,210
+airtravelcenter,8:22 p.m.,374,221
+airtravelcenter,8:56 p.m.,375,222
+airtravelcenter,,376,210
+airtravelcenter,,377,210
+airtravelcenter,4:00 p.m.,378,223
+airtravelcenter,,379,210
+airtravelcenter,,380,210
+airtravelcenter,,381,210
+airtravelcenter,,382,210
+airtravelcenter,12/2/11 12:21 a.m.,383,224
+airtravelcenter,,384,210
+airtravelcenter,12:18 p.m.,385,225
+airtravelcenter,,386,210
+airtravelcenter,,387,210
+airtravelcenter,,388,210
+airtravelcenter,,389,210
+airtravelcenter,,390,210
+airtravelcenter,,391,210
+airtravelcenter,,392,210
+airtravelcenter,6:44 p.m.,393,226
+airtravelcenter,,394,210
+airtravelcenter,,395,210
+airtravelcenter,,396,210
+airtravelcenter,,397,210
+airtravelcenter,4:17 p.m.,398,227
+airtravelcenter,,399,210
+airtravelcenter,,400,210
+airtravelcenter,,401,210
+airtravelcenter,,402,210
+airtravelcenter,,403,210
+airtravelcenter,,404,210
+airtravelcenter,,405,210
+airtravelcenter,,406,210
+airtravelcenter,4:48 p.m.,407,228
+airtravelcenter,,408,210
+airtravelcenter,12/2/11 5:11 a.m.,409,229
+airtravelcenter,,410,210
+airtravelcenter,,411,210
+airtravelcenter,,412,210
+airtravelcenter,,413,210
+airtravelcenter,,414,210
+airtravelcenter,7:03 p.m.,415,216
+airtravelcenter,11:45 a.m.,416,230
+airtravelcenter,,417,210
+airtravelcenter,,418,210
+airtravelcenter,,419,210
+airtravelcenter,,420,210
+airtravelcenter,,421,210
+airtravelcenter,11:53 a.m.,422,231
+airtravelcenter,,423,210
+airtravelcenter,,424,210
+airtravelcenter,,425,210
+airtravelcenter,,426,210
+airtravelcenter,,427,210
+airtravelcenter,,428,210
+airtravelcenter,4:49 p.m.,429,232
+airtravelcenter,,430,210
+airtravelcenter,,431,210
+airtravelcenter,,432,210
+airtravelcenter,7:05 p.m.,433,233
+airtravelcenter,,434,210
+airtravelcenter,,435,210
+airtravelcenter,,436,210
+flightview,9:40 a.m.,437,234
+flightview,,438,235
+flightview,9:25 a.m.,439,236
+flightview,11:55 a.m.,440,237
+flightview,,441,235
+flightview,10:30 p.m.,442,238
+flightview,3:15 p.m.,443,239
+flightview,5:05 p.m.,444,240
+flightview,,445,235
+flightview,,446,235
+flightview,6:55 a.m. Dec 02,447,241
+flightview,,448,235
+flightview,,449,235
+flightview,6:46 p.m.,450,242
+flightview,,451,235
+flightview,,452,235
+flightview,12:35 p.m.,453,243
+flightview,,454,235
+flightview,9:55 a.m.,455,244
+flightview,7:55 p.m.,456,245
+flightview,,457,235
+flightview,,458,235
+flightview,,459,235
+flightview,,460,235
+flightview,3:50 p.m.,461,246
+flightview,,462,235
+flightview,9:20 a.m.,463,247
+flightview,4:57 p.m.,464,248
+flightview,,465,235
+flightview,,466,235
+flightview,12:10 p.m.,467,249
+flightview,2:35 p.m.,468,250
+flightview,,469,235
+flightview,,470,235
+flightview,,471,235
+flightview,6:15 p.m.,472,251
+flightview,1:45 p.m.,473,252
+flightview,,474,235
+flightview,,475,235
+flightview,2:45 p.m.,476,253
+flightview,,477,235
+flightview,,478,235
+flightview,10:35 a.m.,479,254
+flightview,7:25 p.m.,480,255
+flightview,9:10 p.m.,481,256
+flightview,12:21 a.m. Dec 02,482,257
+flightview,,483,235
+flightview,12:18 p.m.,484,258
+flightview,7:30 a.m.,485,259
+flightview,9:35 a.m.,486,260
+flightview,,487,235
+flightview,6:23 p.m.,488,261
+flightview,,489,235
+flightview,9:45 p.m.,490,262
+flightview,,491,235
+flightview,,492,235
+flightview,2:59 p.m.,493,263
+flightview,4:31 p.m.,494,264
+flightview,2:45 p.m.,495,253
+flightview,,496,235
+flightview,5:50 a.m. Dec 02,497,265
+flightview,12:29 a.m. Dec 02,498,266
+flightview,12:15 a.m. Dec 02,499,267
+flightview,11:50 p.m.,500,268
+flightview,10:34 a.m.,501,269
+flightview,11:50 a.m.,502,270
+flightview,,503,235
+flightview,3:50 p.m.,504,246
+flightview,,505,235
+flightview,,506,235
+flightview,5:11 a.m.Dec 02,507,271
+flightview,6:40 p.m.,508,272
+flightview,,509,235
+flightview,,510,235
+flightview,,511,235
+flightview,,512,235
+flightview,,513,235
+flightview,,514,235
+flightview,4:05 p.m.,515,273
+flightview,5:55 p.m.,516,274
+flightview,11:35 a.m.,517,275
+flightview,2:15 p.m.,518,276
+flightview,11:05 a.m.,519,277
+flightview,,520,235
+flightview,2:35 p.m.,521,250
+flightview,,522,235
+flightview,6:30 p.m.,523,278
+flightview,8:00 a.m.,524,279
+flightview,,525,235
+flightview,6:40 p.m.,526,272
+flightview,2:25 p.m.,527,280
+flightview,11:10 a.m.,528,281
+flightview,,529,235
+flightview,6:17 p.m.,530,282
+flightview,12:55 p.m.,531,283
+flightview,7:45 a.m.,532,284
+flightview,7:05 p.m.,533,285
+flightview,6:40 a.m.,534,286
+flightview,10:45 a.m.,535,287
+flightview,3:30 p.m.,536,288
+flightstats,9:40 a.m.,537,289
+flightstats,10:15 p.m.,538,290
+flightstats,9:25 a.m.,539,291
+flightstats,11:55 a.m.,540,292
+flightstats,9:54 a.m.,541,293
+flightstats,10:30 p.m.,542,294
+flightstats,2:00 p.m.,543,295
+flightstats,7:25 p.m.,544,296
+flightstats,5:05 p.m.,545,297
+flightstats,2:50 p.m.,546,298
+flightstats,6:55 a.m.,547,299
+flightstats,7:23 a.m.,548,300
+flightstats,5:35 a.m.,549,301
+flightstats,6:46 p.m.,550,302
+flightstats,9:21 a.m.,551,303
+flightstats,1:16 p.m.,552,304
+flightstats,9:55 a.m.,553,305
+flightstats,10:06 a.m.,554,306
+flightstats,7:55 p.m.,555,307
+flightstats,12:35 p.m.,556,308
+flightstats,7:03 p.m.,557,309
+flightstats,8:22 p.m.,558,310
+flightstats,3:50 p.m.,559,311
+flightstats,1:17 p.m.,560,312
+flightstats,9:20 a.m.,561,313
+flightstats,4:57 p.m.,562,314
+flightstats,10:20 a.m.,563,315
+flightstats,10:54 a.m.,564,316
+flightstats,11:05 a.m.,565,317
+flightstats,12:10 p.m.,566,318
+flightstats,8:00 a.m.,567,319
+flightstats,2:35 p.m.,568,320
+flightstats,7:45 a.m.,569,321
+flightstats,2:45 p.m.,570,322
+flightstats,3:19 p.m.,571,323
+flightstats,1:45 p.m.,572,324
+flightstats,8:56 p.m.,573,325
+flightstats,2:25 p.m.,574,326
+flightstats,2:45 p.m.,575,322
+flightstats,5:15 p.m.,576,327
+flightstats,4:00 p.m.,577,328
+flightstats,10:35 a.m.,578,329
+flightstats,11:35 a.m.,579,330
+flightstats,9:10 p.m.,580,331
+flightstats,3:15 p.m.,581,332
+flightstats,12:21 a.m.,582,333
+flightstats,7:53 p.m.,583,334
+flightstats,12:18 p.m.,584,335
+flightstats,7:30 a.m.,585,336
+flightstats,9:35 a.m.,586,337
+flightstats,8:05 p.m.,587,338
+flightstats,11:10 a.m.,588,339
+flightstats,6:23 p.m.,589,340
+flightstats,7:35 p.m.,590,341
+flightstats,9:45 p.m.,591,342
+flightstats,6:44 p.m.,592,343
+flightstats,10:31 a.m.,593,344
+flightstats,2:59 p.m.,594,345
+flightstats,4:31 p.m.,595,346
+flightstats,4:17 p.m.,596,347
+flightstats,5:50 a.m.,597,348
+flightstats,12:29 a.m.,598,349
+flightstats,12:15 a.m.,599,350
+flightstats,11:50 p.m.,600,351
+flightstats,5:00 p.m.,601,352
+flightstats,10:34 a.m.,602,353
+flightstats,11:50 a.m.,603,354
+flightstats,6:15 p.m.,604,355
+flightstats,9:24 a.m.,605,356
+flightstats,4:48 p.m.,606,357
+flightstats,5:11 a.m.,607,358
+flightstats,6:40 p.m.,608,359
+flightstats,1:40 p.m.,609,360
+flightstats,9:20 p.m.,610,361
+flightstats,4:53 p.m.,611,362
+flightstats,7:03 p.m.,612,309
+flightstats,4:05 p.m.,613,363
+flightstats,5:55 p.m.,614,364
+flightstats,11:35 a.m.,615,330
+flightstats,2:15 p.m.,616,365
+flightstats,2:35 p.m.,617,320
+flightstats,1:39 p.m.,618,366
+flightstats,10:40 a.m.,619,367
+flightstats,6:30 p.m.,620,368
+flightstats,6:40 p.m.,621,359
+flightstats,3:30 p.m.,622,369
+flightstats,4:49 p.m.,623,370
+flightstats,6:17 p.m.,624,371
+flightstats,12:55 p.m.,625,372
+flightstats,7:05 p.m.,626,373
+flightstats,6:40 a.m.,627,374
+flightstats,10:45 a.m.,628,375
+panynj,9:40 a.m.,629,376
+panynj,,630,377
+panynj,9:25 a.m.,631,378
+panynj,11:55 a.m.,632,379
+panynj,,633,377
+panynj,10:30 p.m.,634,380
+panynj,3:15 p.m.,635,381
+panynj,5:05 p.m.,636,382
+panynj,,637,377
+panynj,,638,377
+panynj,6:55 a.m. Dec 02,639,383
+panynj,,640,377
+panynj,,641,377
+panynj,6:46 p.m.,642,384
+panynj,,643,377
+panynj,,644,377
+panynj,12:35 p.m.,645,385
+panynj,,646,377
+panynj,9:55 a.m.,647,386
+panynj,7:55 p.m.,648,387
+panynj,,649,377
+panynj,,650,377
+panynj,,651,377
+panynj,,652,377
+panynj,3:50 p.m.,653,388
+panynj,,654,377
+panynj,9:20 a.m.,655,389
+panynj,4:57 p.m.,656,390
+panynj,,657,377
+panynj,,658,377
+panynj,12:10 p.m.,659,391
+panynj,2:35 p.m.,660,392
+panynj,,661,377
+panynj,,662,377
+panynj,,663,377
+panynj,6:15 p.m.,664,393
+panynj,1:45 p.m.,665,394
+panynj,,666,377
+panynj,,667,377
+panynj,2:45 p.m.,668,395
+panynj,,669,377
+panynj,,670,377
+panynj,10:35 a.m.,671,396
+panynj,7:25 p.m.,672,397
+panynj,9:10 p.m.,673,398
+panynj,12:21 a.m. Dec 02,674,399
+panynj,,675,377
+panynj,12:18 p.m.,676,400
+panynj,7:30 a.m.,677,401
+panynj,9:35 a.m.,678,402
+panynj,,679,377
+panynj,6:23 p.m.,680,403
+panynj,,681,377
+panynj,9:45 p.m.,682,404
+panynj,,683,377
+panynj,,684,377
+panynj,2:59 p.m.,685,405
+panynj,4:31 p.m.,686,406
+panynj,2:45 p.m.,687,395
+panynj,,688,377
+panynj,5:50 a.m. Dec 02,689,407
+panynj,12:29 a.m. Dec 02,690,408
+panynj,12:15 a.m. Dec 02,691,409
+panynj,11:50 p.m.,692,410
+panynj,10:34 a.m.,693,411
+panynj,11:50 a.m.,694,412
+panynj,,695,377
+panynj,3:50 p.m.,696,388
+panynj,,697,377
+panynj,,698,377
+panynj,5:11 a.m.Dec 02,699,413
+panynj,6:40 p.m.,700,414
+panynj,,701,377
+panynj,,702,377
+panynj,,703,377
+panynj,,704,377
+panynj,,705,377
+panynj,,706,377
+panynj,4:05 p.m.,707,415
+panynj,5:55 p.m.,708,416
+panynj,11:35 a.m.,709,417
+panynj,2:15 p.m.,710,418
+panynj,11:05 a.m.,711,419
+panynj,,712,377
+panynj,2:35 p.m.,713,392
+panynj,,714,377
+panynj,6:30 p.m.,715,420
+panynj,8:00 a.m.,716,421
+panynj,,717,377
+panynj,6:40 p.m.,718,414
+panynj,2:25 p.m.,719,422
+panynj,11:10 a.m.,720,423
+panynj,,721,377
+panynj,6:17 p.m.,722,424
+panynj,12:55 p.m.,723,425
+panynj,7:45 a.m.,724,426
+panynj,7:05 p.m.,725,427
+panynj,6:40 a.m.,726,428
+panynj,10:45 a.m.,727,429
+panynj,3:30 p.m.,728,430
+flightexplorer,,729,431
+flightexplorer,,730,431
+flightexplorer,,731,431
+flightexplorer,,732,431
+flightexplorer,,733,431
+flightexplorer,7:25 p.m.,734,432
+flightexplorer,,735,431
+flightexplorer,,736,431
+flightexplorer,12/2/2011 6:55 a.m.,737,433
+flightexplorer,,738,431
+flightexplorer,,739,431
+flightexplorer,,740,431
+flightexplorer,,741,431
+flightexplorer,,742,431
+flightexplorer,,743,431
+flightexplorer,,744,431
+flightexplorer,,745,431
+flightexplorer,,746,431
+flightexplorer,,747,431
+flightexplorer,,748,431
+flightexplorer,,749,431
+flightexplorer,,750,431
+flightexplorer,,751,431
+flightexplorer,,752,431
+flightexplorer,,753,431
+flightexplorer,,754,431
+flightexplorer,,755,431
+flightexplorer,4:52 p.m.,756,434
+flightexplorer,,757,431
+flightexplorer,,758,431
+flightexplorer,,759,431
+flightexplorer,,760,431
+flightexplorer,,761,431
+flightexplorer,,762,431
+flightexplorer,,763,431
+flightexplorer,,764,431
+flightexplorer,,765,431
+flightexplorer,,766,431
+flightexplorer,,767,431
+flightexplorer,,768,431
+flightexplorer,,769,431
+flightexplorer,,770,431
+flightexplorer,12/2/2011 5:50 a.m.,771,435
+flightexplorer,12/2/2011 12:15 a.m.,772,436
+flightexplorer,11:50 p.m.,773,437
+flightexplorer,,774,431
+flightexplorer,,775,431
+flightexplorer,,776,431
+flightexplorer,3:50 p.m.,777,438
+flightexplorer,,778,431
+flightexplorer,6:40 p.m.,779,439
+flightexplorer,,780,431
+flightexplorer,,781,431
+flightexplorer,,782,431
+flightexplorer,12/2/2011 12:29 a.m.,783,440
+flightexplorer,,784,431
+flightexplorer,,785,431
+flightexplorer,,786,431
+flightexplorer,,787,431
+flightexplorer,,788,431
+flightexplorer,,789,431
+flightexplorer,,790,431
+flightexplorer,,791,431
+mia,2:45P 12-01-11,792,441
+mia,10:34A 12-01-11,793,442
+mia,7:55P 12-01-11,794,443
+mia,9:20A 12-01-11,795,444
+mia,11:10A 12-01-11,796,445
+iad,,797,446
+dfw,,798,447
+dfw,,799,447
+dfw,,800,447
+dfw,,801,447
+dfw,,802,447
+mco,Thu  22:15,803,448
+mco,Thu  17:55,804,449
+mco,Thu  19:25,805,450
+mco,Thu  7:45,806,451
+mco,Thu  6:55,807,452
+mco,,808,453
+mco,Thu  10:35,809,454
+mco,Thu  12:18,810,455
+flights,9:40 a.m.,811,456
+flights,,812,457
+flights,9:25 a.m.,813,458
+flights,11:55 a.m.,814,459
+flights,,815,457
+flights,10:30 p.m.,816,460
+flights,3:15 p.m.,817,461
+flights,5:05 p.m.,818,462
+flights,,819,457
+flights,,820,457
+flights,6:55 a.m.  Fri 02-Dec-2011,821,463
+flights,,822,457
+flights,,823,457
+flights,6:46 p.m.,824,464
+flights,,825,457
+flights,,826,457
+flights,12:35 p.m.,827,465
+flights,,828,457
+flights,9:55 a.m.,829,466
+flights,7:55 p.m.,830,467
+flights,,831,457
+flights,,832,457
+flights,,833,457
+flights,,834,457
+flights,3:50 p.m.,835,468
+flights,,836,457
+flights,9:20 a.m.,837,469
+flights,4:57 p.m.,838,470
+flights,,839,457
+flights,,840,457
+flights,12:10 p.m.,841,471
+flights,2:35 p.m.,842,472
+flights,,843,457
+flights,,844,457
+flights,,845,457
+flights,6:15 p.m.,846,473
+flights,1:45 p.m.,847,474
+flights,,848,457
+flights,,849,457
+flights,2:45 p.m.,850,475
+flights,,851,457
+flights,,852,457
+flights,10:35 a.m.,853,476
+flights,7:25 p.m.,854,477
+flights,9:10 p.m.,855,478
+flights,12:21 a.m.  Fri 02-Dec-2011,856,479
+flights,,857,457
+flights,12:18 p.m.,858,480
+flights,7:30 a.m.,859,481
+flights,9:35 a.m.,860,482
+flights,,861,457
+flights,6:23 p.m.,862,483
+flights,,863,457
+flights,9:45 p.m.,864,484
+flights,,865,457
+flights,,866,457
+flights,,867,457
+flights,4:31 p.m.,868,485
+flights,2:45 p.m.,869,475
+flights,,870,457
+flights,5:50 a.m.  Fri 02-Dec-2011,871,486
+flights,12:29 a.m.  Fri 02-Dec-2011,872,487
+flights,12:15 a.m.  Fri 02-Dec-2011,873,488
+flights,11:50 p.m.,874,489
+flights,10:34 a.m.,875,490
+flights,11:50 a.m.,876,491
+flights,,877,457
+flights,3:50 p.m.,878,468
+flights,,879,457
+flights,,880,457
+flights,5:11 a.m.,881,492
+flights,6:40 p.m.,882,493
+flights,,883,457
+flights,,884,457
+flights,,885,457
+flights,,886,457
+flights,,887,457
+flights,,888,457
+flights,4:05 p.m.,889,494
+flights,5:55 p.m.,890,495
+flights,11:35 a.m.,891,496
+flights,2:15 p.m.,892,497
+flights,11:05 a.m.,893,498
+flights,,894,457
+flights,2:35 p.m.,895,472
+flights,,896,457
+flights,6:30 p.m.,897,499
+flights,8:00 a.m.,898,500
+flights,,899,457
+flights,6:40 p.m.,900,493
+flights,2:25 p.m.,901,501
+flights,11:10 a.m.,902,502
+flights,,903,457
+flights,6:17 p.m.,904,503
+flights,12:55 p.m.,905,504
+flights,7:45 a.m.,906,505
+flights,7:05 p.m.,907,506
+flights,6:40 a.m.,908,507
+flights,10:45 a.m.,909,508
+flights,3:30 p.m.,910,509
+flightarrival,9:40 a.m.,911,510
+flightarrival,7:25 p.m.,912,511
+flightarrival,9:54 a.m.,913,512
+flightarrival,,914,513
+flightarrival,7:23 a.m.,915,514
+flightarrival,5:35 a.m.,916,515
+flightarrival,,917,513
+flightarrival,1:16 p.m.,918,516
+flightarrival,9:55 a.m.,919,517
+flightarrival,7:03 p.m.,920,518
+flightarrival,9:20 a.m.,921,519
+flightarrival,12:10 p.m.,922,520
+flightarrival,2:35 p.m.,923,521
+flightarrival,7:45 a.m.,924,522
+flightarrival,,925,513
+flightarrival,,926,513
+flightarrival,12:35 p.m.,927,523
+flightarrival,2:25 p.m.,928,524
+flightarrival,2:45 p.m.,929,525
+flightarrival,9:10 p.m.,930,526
+flightarrival,3:15 p.m.,931,527
+flightarrival,12:21 a.m.,932,528
+flightarrival,12:18 p.m.,933,529
+flightarrival,6:23 p.m.,934,530
+flightarrival,,935,513
+flightarrival,9:45 p.m.,936,531
+flightarrival,6:44 p.m.,937,532
+flightarrival,,938,513
+flightarrival,2:59 p.m.,939,533
+flightarrival,4:31 p.m.,940,534
+flightarrival,4:17 p.m.,941,535
+flightarrival,12:29 a.m.,942,536
+flightarrival,11:50 p.m.,943,537
+flightarrival,11:50 a.m.,944,538
+flightarrival,6:15 p.m.,945,539
+flightarrival,9:24 a.m.,946,540
+flightarrival,5:11 a.m.Dec 02,947,541
+flightarrival,6:09 p.m.,948,542
+flightarrival,8:27 a.m.,949,543
+flightarrival,,950,513
+flightarrival,9:20 p.m.,951,544
+flightarrival,,952,513
+flightarrival,,953,513
+flightarrival,11:35 a.m.,954,545
+flightarrival,5:00 p.m.,955,546
+flightarrival,9:43 a.m.,956,547
+flightarrival,2:15 p.m.,957,548
+flightarrival,11:05 a.m.,958,549
+flightarrival,11:53 a.m.,959,550
+flightarrival,,960,513
+flightarrival,6:30 p.m.,961,551
+flightarrival,5:25 p.m.,962,552
+flightarrival,6:40 p.m.,963,553
+flightarrival,,964,513
+flightarrival,12:55 p.m.,965,554
+flightarrival,6:40 a.m.,966,555
+flightarrival,10:45 a.m.,967,556
+flightarrival,3:30 p.m.,968,557
+flightwise,9:30 a.m.,969,558
+flightwise,6:50 a.m.,970,559
+flightwise,9:00 a.m.,971,560
+flightwise,7:08 p.m.,972,561
+flightwise,10:43 a.m.,973,562
+flightwise,4:37 p.m.,974,563
+flightwise,9:34 a.m.,975,564
+flightwise,4:20 p.m.,976,565
+flightwise,2:17 p.m.,977,566
+flightwise,11:31 p.m.,978,567
+flightwise,11:52 p.m.,979,568
+flightwise,8:04 p.m.,980,569
+flightwise,6:30 p.m.,981,570
+flightwise,8:46 p.m.,982,571
+flightwise,10:18 a.m.,983,572
+flightwise,3:50 p.m.,984,573
+flightwise,6:30 a.m.,985,574
+flightwise,10:09 a.m.,986,575
+flightwise,9:00 p.m.,987,576
+flightwise,5:57 p.m.,988,577
+travelocity,9:40 a.m.,989,578
+travelocity,9:25 a.m.,990,579
+travelocity,Not Available,991,580
+travelocity,Not Available,992,580
+travelocity,10:30 p.m.,993,581
+travelocity,7:25 p.m.,994,582
+travelocity,3:15 p.m.,995,583
+travelocity,5:05 p.m.,996,584
+travelocity,5:25 p.m.,997,585
+travelocity,Dec 02 6:55 a.m.,998,586
+travelocity,Not Available,999,580
+travelocity,2:45 p.m.,1000,587
+travelocity,6:46 p.m.,1001,588
+travelocity,9:55 a.m.,1002,589
+travelocity,Not Available,1003,580
+travelocity,7:55 p.m.,1004,590
+travelocity,7:03 p.m.,1005,591
+travelocity,3:50 p.m.,1006,592
+travelocity,9:20 a.m.,1007,593
+travelocity,4:57 p.m.,1008,594
+travelocity,10:20 a.m.,1009,595
+travelocity,10:54 a.m.,1010,596
+travelocity,2:20 p.m.,1011,597
+travelocity,11:05 a.m.,1012,598
+travelocity,12:10 p.m.,1013,599
+travelocity,8:00 a.m.,1014,600
+travelocity,2:35 p.m.,1015,601
+travelocity,12:35 p.m.,1016,602
+travelocity,2:00 p.m.,1017,603
+travelocity,1:45 p.m.,1018,604
+travelocity,11:10 a.m.,1019,605
+travelocity,2:25 p.m.,1020,606
+travelocity,2:45 p.m.,1021,587
+travelocity,10:35 a.m.,1022,607
+travelocity,11:35 a.m.,1023,608
+travelocity,9:10 p.m.,1024,609
+travelocity,Dec 02 12:21 a.m.,1025,610
+travelocity,Not Available,1026,580
+travelocity,12:18 p.m.,1027,611
+travelocity,7:30 a.m.,1028,612
+travelocity,9:35 a.m.,1029,613
+travelocity,6:23 p.m.,1030,614
+travelocity,9:45 p.m.,1031,615
+travelocity,10:31 a.m.,1032,616
+travelocity,2:59 p.m.,1033,617
+travelocity,Not Available,1034,580
+travelocity,Dec 02 5:50 a.m.,1035,618
+travelocity,12:29 a.m.,1036,619
+travelocity,Dec 02 12:15 a.m.,1037,620
+travelocity,11:50 p.m.,1038,621
+travelocity,10:34 a.m.,1039,622
+travelocity,11:50 a.m.,1040,623
+travelocity,Not Available,1041,580
+travelocity,Not Available,1042,580
+travelocity,3:50 p.m.,1043,592
+travelocity,4:48 p.m.,1044,624
+travelocity,Not Available,1045,580
+travelocity,Not Available,1046,580
+travelocity,1:40 p.m.,1047,625
+travelocity,9:20 p.m.,1048,626
+travelocity,4:53 p.m.,1049,627
+travelocity,7:03 p.m.,1050,591
+travelocity,4:05 p.m.,1051,628
+travelocity,5:55 p.m.,1052,629
+travelocity,11:35 a.m.,1053,608
+travelocity,5:00 p.m.,1054,630
+travelocity,2:15 p.m.,1055,631
+travelocity,11:53 a.m.,1056,632
+travelocity,2:35 p.m.,1057,601
+travelocity,Not Available,1058,580
+travelocity,10:40 a.m.,1059,633
+travelocity,6:30 p.m.,1060,634
+travelocity,6:40 p.m.,1061,635
+travelocity,4:49 p.m.,1062,636
+travelocity,6:17 p.m.,1063,637
+travelocity,12:55 p.m.,1064,638
+travelocity,3:30 p.m.,1065,639
+travelocity,7:45 a.m.,1066,640
+travelocity,7:05 p.m.,1067,641
+travelocity,6:40 a.m.,1068,642
+travelocity,10:45 a.m.,1069,643
+foxbusiness,9:40 a.m.,1070,644
+foxbusiness,,1071,645
+foxbusiness,9:25 a.m.,1072,646
+foxbusiness,11:55 a.m.,1073,647
+foxbusiness,,1074,645
+foxbusiness,10:30 p.m.,1075,648
+foxbusiness,3:15 p.m.,1076,649
+foxbusiness,5:05 p.m.,1077,650
+foxbusiness,,1078,645
+foxbusiness,,1079,645
+foxbusiness,6:55 a.m. Dec 02,1080,651
+foxbusiness,,1081,645
+foxbusiness,,1082,645
+foxbusiness,6:46 p.m.,1083,652
+foxbusiness,,1084,645
+foxbusiness,,1085,645
+foxbusiness,12:35 p.m.,1086,653
+foxbusiness,,1087,645
+foxbusiness,9:55 a.m.,1088,654
+foxbusiness,7:55 p.m.,1089,655
+foxbusiness,,1090,645
+foxbusiness,,1091,645
+foxbusiness,,1092,645
+foxbusiness,,1093,645
+foxbusiness,3:50 p.m.,1094,656
+foxbusiness,,1095,645
+foxbusiness,9:20 a.m.,1096,657
+foxbusiness,4:57 p.m.,1097,658
+foxbusiness,,1098,645
+foxbusiness,,1099,645
+foxbusiness,12:10 p.m.,1100,659
+foxbusiness,2:35 p.m.,1101,660
+foxbusiness,,1102,645
+foxbusiness,,1103,645
+foxbusiness,,1104,645
+foxbusiness,6:15 p.m.,1105,661
+foxbusiness,1:45 p.m.,1106,662
+foxbusiness,,1107,645
+foxbusiness,,1108,645
+foxbusiness,2:45 p.m.,1109,663
+foxbusiness,,1110,645
+foxbusiness,,1111,645
+foxbusiness,10:35 a.m.,1112,664
+foxbusiness,7:25 p.m.,1113,665
+foxbusiness,9:10 p.m.,1114,666
+foxbusiness,12:21 a.m. Dec 02,1115,667
+foxbusiness,,1116,645
+foxbusiness,12:18 p.m.,1117,668
+foxbusiness,7:30 a.m.,1118,669
+foxbusiness,9:35 a.m.,1119,670
+foxbusiness,,1120,645
+foxbusiness,6:23 p.m.,1121,671
+foxbusiness,,1122,645
+foxbusiness,9:45 p.m.,1123,672
+foxbusiness,,1124,645
+foxbusiness,,1125,645
+foxbusiness,2:59 p.m.,1126,673
+foxbusiness,4:31 p.m.,1127,674
+foxbusiness,2:45 p.m.,1128,663
+foxbusiness,,1129,645
+foxbusiness,5:50 a.m. Dec 02,1130,675
+foxbusiness,12:29 a.m. Dec 02,1131,676
+foxbusiness,12:15 a.m. Dec 02,1132,677
+foxbusiness,11:50 p.m.,1133,678
+foxbusiness,10:34 a.m.,1134,679
+foxbusiness,11:50 a.m.,1135,680
+foxbusiness,,1136,645
+foxbusiness,3:50 p.m.,1137,656
+foxbusiness,,1138,645
+foxbusiness,,1139,645
+foxbusiness,5:11 a.m.Dec 02,1140,681
+foxbusiness,6:40 p.m.,1141,682
+foxbusiness,,1142,645
+foxbusiness,,1143,645
+foxbusiness,,1144,645
+foxbusiness,,1145,645
+foxbusiness,,1146,645
+foxbusiness,,1147,645
+foxbusiness,4:05 p.m.,1148,683
+foxbusiness,5:55 p.m.,1149,684
+foxbusiness,11:35 a.m.,1150,685
+foxbusiness,2:15 p.m.,1151,686
+foxbusiness,11:05 a.m.,1152,687
+foxbusiness,,1153,645
+foxbusiness,2:35 p.m.,1154,660
+foxbusiness,,1155,645
+foxbusiness,6:30 p.m.,1156,688
+foxbusiness,8:00 a.m.,1157,689
+foxbusiness,,1158,645
+foxbusiness,6:40 p.m.,1159,682
+foxbusiness,2:25 p.m.,1160,690
+foxbusiness,11:10 a.m.,1161,691
+foxbusiness,,1162,645
+foxbusiness,6:17 p.m.,1163,692
+foxbusiness,12:55 p.m.,1164,693
+foxbusiness,7:45 a.m.,1165,694
+foxbusiness,7:05 p.m.,1166,695
+foxbusiness,6:40 a.m.,1167,696
+foxbusiness,10:45 a.m.,1168,697
+foxbusiness,3:30 p.m.,1169,698
+usatoday,9:40 a.m.,1170,699
+usatoday,9:25 a.m.,1171,700
+usatoday,,1172,701
+usatoday,9:54 a.m.,1173,702
+usatoday,10:30 p.m.,1174,703
+usatoday,,1175,701
+usatoday,,1176,701
+usatoday,9:55 a.m.,1177,704
+usatoday,7:55 p.m.,1178,705
+usatoday,,1179,701
+usatoday,9:20 a.m.,1180,706
+usatoday,4:57 p.m.,1181,707
+usatoday,2:20 p.m.,1182,708
+usatoday,12:10 p.m.,1183,709
+usatoday,7:45 a.m.,1184,710
+usatoday,2:45 p.m.,1185,711
+usatoday,,1186,701
+usatoday,1:45 p.m.,1187,712
+usatoday,2:45 p.m.,1188,711
+usatoday,4:52 p.m.,1189,713
+usatoday,4:00 p.m.,1190,714
+usatoday,9:10 p.m.,1191,715
+usatoday,12:21 a.m. Dec 02,1192,716
+usatoday,,1193,701
+usatoday,12:18 p.m.,1194,717
+usatoday,9:45 p.m.,1195,718
+usatoday,6:44 p.m.,1196,719
+usatoday,2:59 p.m.,1197,720
+usatoday,4:31 p.m.,1198,721
+usatoday,5:50 a.m.,1199,722
+usatoday,6:15 p.m.,1200,723
+usatoday,9:24 a.m.,1201,724
+usatoday,,1202,701
+usatoday,,1203,701
+usatoday,5:11 a.m.,1204,725
+usatoday,6:09 p.m.,1205,726
+usatoday,,1206,701
+usatoday,,1207,701
+usatoday,,1208,701
+usatoday,4:05 p.m.,1209,727
+usatoday,11:35 a.m.,1210,728
+usatoday,12:29 a.m. Dec 02,1211,729
+usatoday,2:15 p.m.,1212,730
+usatoday,11:05 a.m.,1213,731
+usatoday,11:53 a.m.,1214,732
+usatoday,2:35 p.m.,1215,733
+usatoday,1:39 p.m.,1216,734
+usatoday,6:30 p.m.,1217,735
+usatoday,7:25 p.m.,1218,736
+usatoday,5:25 p.m.,1219,737
+usatoday,6:40 p.m.,1220,738
+usatoday,6:40 a.m.,1221,739
+usatoday,10:45 a.m.,1222,740
+myrateplan,,1223,741
+myrateplan,10:15 p.m.,1224,742
+myrateplan,,1225,741
+myrateplan,,1226,741
+myrateplan,,1227,741
+myrateplan,,1228,741
+myrateplan,,1229,741
+myrateplan,2:50 p.m.,1230,743
+myrateplan,,1231,741
+myrateplan,,1232,741
+myrateplan,,1233,741
+myrateplan,,1234,741
+myrateplan,5:35 a.m.,1235,744
+myrateplan,,1236,741
+myrateplan,9:21 a.m.,1237,745
+myrateplan,1:16 p.m.,1238,746
+myrateplan,,1239,741
+myrateplan,,1240,741
+myrateplan,,1241,741
+myrateplan,,1242,741
+myrateplan,,1243,741
+myrateplan,7:03 p.m.,1244,747
+myrateplan,11:35 a.m.,1245,748
+myrateplan,,1246,741
+myrateplan,,1247,741
+myrateplan,1:17 p.m.,1248,749
+myrateplan,,1249,741
+myrateplan,,1250,741
+myrateplan,10:20 a.m.,1251,750
+myrateplan,10:54 a.m.,1252,751
+myrateplan,,1253,741
+myrateplan,,1254,741
+myrateplan,,1255,741
+myrateplan,,1256,741
+myrateplan,,1257,741
+myrateplan,,1258,741
+myrateplan,,1259,741
+myrateplan,8:22 p.m.,1260,752
+myrateplan,8:56 p.m.,1261,753
+myrateplan,,1262,741
+myrateplan,,1263,741
+myrateplan,4:00 p.m.,1264,754
+myrateplan,,1265,741
+myrateplan,,1266,741
+myrateplan,,1267,741
+myrateplan,,1268,741
+myrateplan,12/2/11 12:21 a.m.,1269,755
+myrateplan,,1270,741
+myrateplan,12:18 p.m.,1271,756
+myrateplan,,1272,741
+myrateplan,,1273,741
+myrateplan,,1274,741
+myrateplan,,1275,741
+myrateplan,,1276,741
+myrateplan,,1277,741
+myrateplan,,1278,741
+myrateplan,6:44 p.m.,1279,757
+myrateplan,,1280,741
+myrateplan,,1281,741
+myrateplan,,1282,741
+myrateplan,,1283,741
+myrateplan,4:17 p.m.,1284,758
+myrateplan,,1285,741
+myrateplan,,1286,741
+myrateplan,,1287,741
+myrateplan,,1288,741
+myrateplan,,1289,741
+myrateplan,,1290,741
+myrateplan,,1291,741
+myrateplan,,1292,741
+myrateplan,4:48 p.m.,1293,759
+myrateplan,,1294,741
+myrateplan,12/2/11 5:11 a.m.,1295,760
+myrateplan,,1296,741
+myrateplan,,1297,741
+myrateplan,,1298,741
+myrateplan,,1299,741
+myrateplan,,1300,741
+myrateplan,7:03 p.m.,1301,747
+myrateplan,11:45 a.m.,1302,761
+myrateplan,,1303,741
+myrateplan,,1304,741
+myrateplan,,1305,741
+myrateplan,,1306,741
+myrateplan,,1307,741
+myrateplan,11:53 a.m.,1308,762
+myrateplan,,1309,741
+myrateplan,,1310,741
+myrateplan,,1311,741
+myrateplan,,1312,741
+myrateplan,,1313,741
+myrateplan,,1314,741
+myrateplan,4:49 p.m.,1315,763
+myrateplan,,1316,741
+myrateplan,,1317,741
+myrateplan,,1318,741
+myrateplan,7:05 p.m.,1319,764
+myrateplan,,1320,741
+myrateplan,,1321,741
+myrateplan,,1322,741
+orbitz,9:40aDec 1,1323,765
+orbitz,10:15 p.m.,1324,766
+orbitz,9:25aDec 1,1325,767
+orbitz,11:55aDec 1,1326,768
+orbitz,9:54aDec 1,1327,769
+orbitz,10:30 p.m.,1328,770
+orbitz,3:15 p.m.,1329,771
+orbitz,5:05 p.m.,1330,772
+orbitz,2:50 p.m.,1331,773
+orbitz,11:19aDec 1,1332,774
+orbitz,6:55aDec 2,1333,775
+orbitz,7:23aDec 1,1334,776
+orbitz,5:35aDec 1,1335,777
+orbitz,6:46 p.m.,1336,778
+orbitz,9:21aDec 2,1337,779
+orbitz,1:16 p.m.,1338,780
+orbitz,12:35 p.m.,1339,781
+orbitz,10:06aDec 1,1340,782
+orbitz,9:55aDec 1,1341,783
+orbitz,7:55 p.m.,1342,784
+orbitz,2:20 p.m.,1343,785
+orbitz,7:03 p.m.,1344,786
+orbitz,11:35aDec 1,1345,787
+orbitz,5:00 p.m.,1346,788
+orbitz,3:50 p.m.,1347,789
+orbitz,1:17 p.m.,1348,790
+orbitz,9:20aDec 1,1349,791
+orbitz,4:57 p.m.,1350,792
+orbitz,10:20aDec 1,1351,793
+orbitz,10:54aDec 1,1352,794
+orbitz,12:10 p.m.,1353,795
+orbitz,2:35 p.m.,1354,796
+orbitz,1:39 p.m.,1355,797
+orbitz,3:03 p.m.,1356,798
+orbitz,2:00 p.m.,1357,799
+orbitz,6:15 p.m.,1358,800
+orbitz,1:45 p.m.,1359,801
+orbitz,8:22 p.m.,1360,802
+orbitz,10:48 p.m.,1361,803
+orbitz,2:45 p.m.,1362,804
+orbitz,5:15 p.m.,1363,805
+orbitz,4:00 p.m.,1364,806
+orbitz,10:35aDec 1,1365,807
+orbitz,7:25 p.m.,1366,808
+orbitz,9:10 p.m.,1367,809
+orbitz,12:21aDec 2,1368,810
+orbitz,7:53 p.m.,1369,811
+orbitz,12:18 p.m.,1370,812
+orbitz,7:30aDec 1,1371,813
+orbitz,9:35aDec 1,1372,814
+orbitz,8:05 p.m.,1373,815
+orbitz,6:23 p.m.,1374,816
+orbitz,7:35 p.m.,1375,817
+orbitz,9:45 p.m.,1376,818
+orbitz,6:44 p.m.,1377,819
+orbitz,10:31aDec 1,1378,820
+orbitz,2:59 p.m.,1379,821
+orbitz,4:31 p.m.,1380,822
+orbitz,2:45 p.m.,1381,804
+orbitz,4:17 p.m.,1382,823
+orbitz,5:50aDec 2,1383,824
+orbitz,12:29aDec 2,1384,825
+orbitz,12:15aDec 2,1385,826
+orbitz,11:50 p.m.,1386,827
+orbitz,10:34aDec 1,1387,828
+orbitz,11:50aDec 1,1388,829
+orbitz,3:50 p.m.,1389,789
+orbitz,4:48 p.m.,1390,830
+orbitz,9:43aDec 1,1391,831
+orbitz,5:11aDec 2,1392,832
+orbitz,6:40 p.m.,1393,833
+orbitz,8:27aDec 1,1394,834
+orbitz,1:40 p.m.,1395,835
+orbitz,9:18 p.m.,1396,836
+orbitz,4:53 p.m.,1397,837
+orbitz,7:03 p.m.,1398,786
+orbitz,12:05 p.m.,1399,838
+orbitz,4:05 p.m.,1400,839
+orbitz,5:55 p.m.,1401,840
+orbitz,11:35aDec 1,1402,787
+orbitz,2:15 p.m.,1403,841
+orbitz,11:05aDec 1,1404,842
+orbitz,11:53aDec 1,1405,843
+orbitz,2:35 p.m.,1406,796
+orbitz,10:40aDec 1,1407,844
+orbitz,6:30 p.m.,1408,845
+orbitz,8:00aDec 1,1409,846
+orbitz,5:25 p.m.,1410,847
+orbitz,6:40 p.m.,1411,833
+orbitz,2:25 p.m.,1412,848
+orbitz,11:10aDec 1,1413,849
+orbitz,4:49 p.m.,1414,850
+orbitz,6:17 p.m.,1415,851
+orbitz,12:55 p.m.,1416,852
+orbitz,7:45aDec 1,1417,853
+orbitz,7:05 p.m.,1418,854
+orbitz,6:40aDec 1,1419,855
+orbitz,10:45aDec 1,1420,856
+orbitz,3:30 p.m.,1421,857
+phl,3:50 p.m.,1422,858
+phl,9:24 a.m.,1423,859
+phl,,1424,860
+phl,4:31 p.m.,1425,861
+CO,10:15 p.m.,1426,862
+CO,9:21 a.m.,1427,863
+CO,1:17 p.m.,1428,864
+CO,10:20 a.m.,1429,865
+CO,12:21 a.m.,1430,866
+CO,5:35 a.m.,1431,867
+CO,10:54 a.m.,1432,868
+CO,2:50 p.m.,1433,869
+CO,4:49 p.m.,1434,870
+CO,7:03 p.m.,1435,871
+CO,12:18 p.m.,1436,872
+CO,6:44 p.m.,1437,873
+CO,1:16 p.m.,1438,874
+CO,4:48 p.m.,1439,875
+CO,8:56 p.m.,1440,876
+CO,6:40 p.m.,1441,877
+CO,7:05 p.m.,1442,878
+CO,8:22 p.m.,1443,879
+CO,11:35 a.m.,1444,880
+ifly,7:30 a.m.,1445,881
+ifly,4:05 p.m.,1446,882
+ifly,1:16 p.m.,1447,883
+ifly,5:55 p.m.,1448,884
+ifly,6:23 p.m.,1449,885
+ifly,10:20 a.m.,1450,886
+ifly,7:35 p.m.,1451,887
+ifly,9:54 a.m.,1452,888
+ifly,2:35 p.m.,1453,889
+ifly,10:35 a.m.,1454,890
+ifly,4:31 p.m.,1455,891
+ifly,2:45 p.m.,1456,892
+ifly,5:35 a.m.,1457,893
+ifly,2:50 p.m.,1458,894
+ifly,12:29 a.m.,1459,895
+ifly,8:00 a.m.,1460,896
+ifly,12:15 a.m.,1461,897
+ifly,6:40 p.m.,1462,898
+ifly,11:50 a.m.,1463,899
+ifly,10:30 p.m.,1464,900
+ifly,9:24 a.m.,1465,901
+ifly,6:17 p.m.,1466,902
+ifly,5:00 p.m.,1467,903
+ifly,6:44 p.m.,1468,904
+ifly,4:48 p.m.,1469,905
+ifly,9:55 a.m.,1470,906
+ifly,2:45 p.m.,1471,892
+ifly,10:40 a.m.,1472,907
+ifly,9:20 p.m.,1473,908
+ifly,6:40 a.m.,1474,909
+ifly,10:45 a.m.,1475,910
+ifly,7:03 p.m.,1476,911
+ifly,12:35 p.m.,1477,912
+ifly,3:15 p.m.,1478,913
+ifly,12:21 a.m.,1479,914
+ifly,3:50 p.m.,1480,915
+sfo,11:55 a.m.,1481,916
+sfo,6:30 p.m.,1482,917
+sfo,11:50 a.m.,1483,918
+sfo,10:45 a.m.,1484,919
+sfo,6:15 p.m.,1485,920
+sfo,7:23 a.m.,1486,921
+flytecomm,,1487,922
+flytecomm,10:15 p.m.,1488,923
+flytecomm,,1489,922
+flytecomm,,1490,922
+flytecomm,,1491,922
+flytecomm,,1492,922
+flytecomm,,1493,922
+flytecomm,2:50 p.m.,1494,924
+flytecomm,,1495,922
+flytecomm,,1496,922
+flytecomm,,1497,922
+flytecomm,,1498,922
+flytecomm,5:35 a.m.,1499,925
+flytecomm,,1500,922
+flytecomm,9:21 a.m.,1501,926
+flytecomm,1:16 p.m.,1502,927
+flytecomm,,1503,922
+flytecomm,,1504,922
+flytecomm,,1505,922
+flytecomm,,1506,922
+flytecomm,,1507,922
+flytecomm,7:03 p.m.,1508,928
+flytecomm,11:35 a.m.,1509,929
+flytecomm,,1510,922
+flytecomm,,1511,922
+flytecomm,1:17 p.m.,1512,930
+flytecomm,,1513,922
+flytecomm,,1514,922
+flytecomm,10:20 a.m.,1515,931
+flytecomm,10:54 a.m.,1516,932
+flytecomm,,1517,922
+flytecomm,,1518,922
+flytecomm,,1519,922
+flytecomm,,1520,922
+flytecomm,,1521,922
+flytecomm,,1522,922
+flytecomm,,1523,922
+flytecomm,8:22 p.m.,1524,933
+flytecomm,8:56 p.m.,1525,934
+flytecomm,,1526,922
+flytecomm,,1527,922
+flytecomm,4:00 p.m.,1528,935
+flytecomm,,1529,922
+flytecomm,,1530,922
+flytecomm,,1531,922
+flytecomm,,1532,922
+flytecomm,12/2/11 12:21 a.m.,1533,936
+flytecomm,,1534,922
+flytecomm,12:18 p.m.,1535,937
+flytecomm,,1536,922
+flytecomm,,1537,922
+flytecomm,,1538,922
+flytecomm,,1539,922
+flytecomm,,1540,922
+flytecomm,,1541,922
+flytecomm,,1542,922
+flytecomm,6:44 p.m.,1543,938
+flytecomm,,1544,922
+flytecomm,,1545,922
+flytecomm,,1546,922
+flytecomm,,1547,922
+flytecomm,4:17 p.m.,1548,939
+flytecomm,,1549,922
+flytecomm,,1550,922
+flytecomm,,1551,922
+flytecomm,,1552,922
+flytecomm,,1553,922
+flytecomm,,1554,922
+flytecomm,,1555,922
+flytecomm,,1556,922
+flytecomm,4:48 p.m.,1557,940
+flytecomm,,1558,922
+flytecomm,12/2/11 5:11 a.m.,1559,941
+flytecomm,,1560,922
+flytecomm,,1561,922
+flytecomm,,1562,922
+flytecomm,,1563,922
+flytecomm,,1564,922
+flytecomm,7:03 p.m.,1565,928
+flytecomm,11:45 a.m.,1566,942
+flytecomm,,1567,922
+flytecomm,,1568,922
+flytecomm,,1569,922
+flytecomm,,1570,922
+flytecomm,,1571,922
+flytecomm,11:53 a.m.,1572,943
+flytecomm,,1573,922
+flytecomm,,1574,922
+flytecomm,,1575,922
+flytecomm,,1576,922
+flytecomm,,1577,922
+flytecomm,,1578,922
+flytecomm,4:49 p.m.,1579,944
+flytecomm,,1580,922
+flytecomm,,1581,922
+flytecomm,,1582,922
+flytecomm,7:05 p.m.,1583,945
+flytecomm,,1584,922
+flytecomm,,1585,922
+flytecomm,,1586,922
+mytripandmore,10:30 p.m.,1587,946
+mytripandmore,10:15 p.m.,1588,947
+mytripandmore,9:54aDec 1,1589,948
+mytripandmore,7:25 p.m.,1590,949
+mytripandmore,5:05 p.m.,1591,950
+mytripandmore,11:19aDec 1,1592,951
+mytripandmore,6:55aDec 2,1593,952
+mytripandmore,5:35aDec 1,1594,953
+mytripandmore,6:46 p.m.,1595,954
+mytripandmore,1:16 p.m.,1596,955
+mytripandmore,9:55aDec 1,1597,956
+mytripandmore,7:03 p.m.,1598,957
+mytripandmore,1:17 p.m.,1599,958
+mytripandmore,9:20aDec 1,1600,959
+mytripandmore,4:57 p.m.,1601,960
+mytripandmore,12:10 p.m.,1602,961
+mytripandmore,8:00aDec 1,1603,962
+mytripandmore,3:03 p.m.,1604,963
+mytripandmore,12:35 p.m.,1605,964
+mytripandmore,2:00 p.m.,1606,965
+mytripandmore,1:45 p.m.,1607,966
+mytripandmore,10:48 p.m.,1608,967
+mytripandmore,2:25 p.m.,1609,968
+mytripandmore,7:30aDec 1,1610,969
+mytripandmore,9:35aDec 1,1611,970
+mytripandmore,8:05 p.m.,1612,971
+mytripandmore,11:10aDec 1,1613,972
+mytripandmore,9:45 p.m.,1614,973
+mytripandmore,10:31aDec 1,1615,974
+mytripandmore,9:10 p.m.,1616,975
+mytripandmore,12:29aDec 2,1617,976
+mytripandmore,Dec 02 12:15 a.m.,1618,977
+mytripandmore,11:50 p.m.,1619,978
+mytripandmore,10:34aDec 1,1620,979
+mytripandmore,11:50aDec 1,1621,980
+mytripandmore,Not Available,1622,981
+mytripandmore,3:50 p.m.,1623,982
+mytripandmore,4:48 p.m.,1624,983
+mytripandmore,5:11aDec 2,1625,984
+mytripandmore,9:18 p.m.,1626,985
+mytripandmore,5:55 p.m.,1627,986
+mytripandmore,Not Available,1628,981
+mytripandmore,2:15 p.m.,1629,987
+mytripandmore,11:53aDec 1,1630,988
+mytripandmore,10:45aDec 1,1631,989
+mytripandmore,10:40aDec 1,1632,990
+mytripandmore,5:25 p.m.,1633,991
+mytripandmore,6:40 p.m.,1634,992
+mytripandmore,4:49 p.m.,1635,993
+mytripandmore,7:45aDec 1,1636,994
+ord,9:40 a.m.,1637,995
+ord,7:30 a.m.,1638,996
+ord,9:35 a.m.,1639,997
+ord,4:05 p.m.,1640,998
+ord,11:35 a.m.,1641,999
+ord,11/30 9:45 p.m.,1642,1000
+ord,11/30 7:35 p.m.,1643,1001
+ord,2:35 p.m.,1644,1002
+ord,11/30 9:10 p.m.,1645,1003
+ord,8:00 a.m.,1646,1004
+ord,4:31 p.m.,1647,1005
+ord,2:45 p.m.,1648,1006
+ord,11/30 6:40 p.m.,1649,1007
+ord,5:50 a.m.,1650,1008
+ord,11/30 5:25 p.m.,1651,1009
+ord,2:00 p.m.,1652,1010
+ord,11/30 10:30 p.m.,1653,1011
+ord,12:55 p.m.,1654,1012
+ord,5:11 a.m.,1655,1013
+ord,2:45 p.m.,1656,1006
+ord,11/30 5:15 p.m.,1657,1014
+ord,10:40 a.m.,1658,1015
+ord,4:00 p.m.,1659,1016
+ord,11/30 7:53 p.m.,1660,1017
+wunderground,9:30 a.m.,1661,1018
+wunderground,8:54 a.m.,1662,1019
+wunderground,9:40 p.m.,1663,1020
+wunderground,9:34 a.m.,1664,1021
+wunderground,10:15 p.m.,1665,1022
+wunderground,6:30 a.m.,1666,1023
+wunderground,6:34 p.m.,1667,1024
+wunderground,9:11 a.m.,1668,1025
+wunderground,9:45 a.m.,1669,1026
+wunderground,7:26 p.m.,1670,1027
+wunderground,12:12 p.m.,1671,1028
+wunderground,3:33 p.m.,1672,1029
+wunderground,12:51 p.m.,1673,1030
+wunderground,8:51 a.m.,1674,1031
+wunderground,4:37 p.m.,1675,1032
+wunderground,10:55 a.m.,1676,1033
+wunderground,11:43 a.m.,1677,1034
+wunderground,7:50 a.m.,1678,1035
+wunderground,2:14 p.m.,1679,1036
+wunderground,7:25 a.m.,1680,1037
+wunderground,2:35 p.m.,1681,1038
+wunderground,2:48 p.m.,1682,1039
+wunderground,5:40 p.m.,1683,1040
+wunderground,1:35 p.m.,1684,1041
+wunderground,8:04 p.m.,1685,1042
+wunderground,10:43 a.m.,1686,1043
+wunderground,8:46 p.m.,1687,1044
+wunderground,1:57 p.m.,1688,1045
+wunderground,2:10 p.m.,1689,1046
+wunderground,3:50 p.m.,1690,1047
+wunderground,10:18 a.m.,1691,1048
+wunderground,7:08 p.m.,1692,1049
+wunderground,9:00 p.m.,1693,1050
+wunderground,2:47 p.m.,1694,1051
+wunderground,11:52 p.m.,1695,1052
+wunderground,12:08 p.m.,1696,1053
+wunderground,6:50 a.m.,1697,1054
+wunderground,9:00 a.m.,1698,1055
+wunderground,7:38 p.m.,1699,1056
+wunderground,6:00 p.m.,1700,1057
+wunderground,9:25 p.m.,1701,1058
+wunderground,2:35 p.m.,1702,1038
+wunderground,4:20 p.m.,1703,1059
+wunderground,3:55 p.m.,1704,1060
+wunderground,12:09 a.m.,1705,1061
+wunderground,12:05 a.m.,1706,1062
+wunderground,11:31 p.m.,1707,1063
+wunderground,9:25 a.m.,1708,1064
+wunderground,11:22 a.m.,1709,1065
+wunderground,3:30 p.m.,1710,1066
+wunderground,5:08 a.m.,1711,1067
+wunderground,6:15 p.m.,1712,1068
+wunderground,9:10 p.m.,1713,1069
+wunderground,3:55 p.m.,1714,1060
+wunderground,5:17 p.m.,1715,1070
+wunderground,10:57 a.m.,1716,1071
+wunderground,2:05 p.m.,1717,1072
+wunderground,2:17 p.m.,1718,1073
+wunderground,5:57 p.m.,1719,1074
+wunderground,6:30 p.m.,1720,1075
+wunderground,2:52 p.m.,1721,1076
+wunderground,6:07 p.m.,1722,1077
+wunderground,12:45 p.m.,1723,1078
+wunderground,6:31 p.m.,1724,1079
+wunderground,6:30 a.m.,1725,1023
+wunderground,10:09 a.m.,1726,1080
+ua,11:55 a.m.,1727,1081
+ua,9:54 a.m.,1728,1082
+ua,5:05 p.m.,1729,1083
+ua,11:19 a.m.,1730,1084
+ua,6:46 p.m.,1731,1085
+ua,4:57 p.m.,1732,1086
+ua,3:19 p.m.,1733,1087
+ua,1:45 p.m.,1734,1088
+ua,1:39 p.m.,1735,1089
+ua,10:06 a.m.,1736,1090
+ua,5:15 p.m.,1737,1091
+ua,7:53 p.m.,1738,1092
+ua,6:23 p.m.,1739,1093
+ua,7:35 p.m.,1740,1094
+ua,10:31 a.m.,1741,1095
+ua,4:31 p.m.,1742,1096
+ua,4:17 p.m.,1743,1097
+ua,Fri Dec 2 12:29 a.m.,1744,1098
+ua,9:24 a.m.,1745,1099
+ua,9:43 a.m.,1746,1100
+ua,Fri Dec 2 5:11 a.m.,1747,1101
+ua,8:27 a.m.,1748,1102
+ua,1:40 p.m.,1749,1103
+ua,4:53 p.m.,1750,1104
+ua,7:03 p.m.,1751,1105
+ua,11:45 a.m.,1752,1106
+ua,5:00 p.m.,1753,1107
+ua,11:53 a.m.,1754,1108
+ua,6:17 p.m.,1755,1109
+ua,7:23 a.m.,1756,1110
+ua,6:15 p.m.,1757,1111
+flylouisville,9:40 a.m.,1758,1112
+flylouisville,,1759,1113
+flylouisville,9:25 a.m.,1760,1114
+flylouisville,11:55 a.m.,1761,1115
+flylouisville,,1762,1113
+flylouisville,10:30 p.m.,1763,1116
+flylouisville,3:15 p.m.,1764,1117
+flylouisville,5:05 p.m.,1765,1118
+flylouisville,,1766,1113
+flylouisville,,1767,1113
+flylouisville,6:55 a.m.  Fri 02-Dec-2011,1768,1119
+flylouisville,,1769,1113
+flylouisville,,1770,1113
+flylouisville,6:46 p.m.,1771,1120
+flylouisville,,1772,1113
+flylouisville,,1773,1113
+flylouisville,12:35 p.m.,1774,1121
+flylouisville,,1775,1113
+flylouisville,9:55 a.m.,1776,1122
+flylouisville,7:55 p.m.,1777,1123
+flylouisville,,1778,1113
+flylouisville,,1779,1113
+flylouisville,,1780,1113
+flylouisville,,1781,1113
+flylouisville,3:50 p.m.,1782,1124
+flylouisville,,1783,1113
+flylouisville,9:20 a.m.,1784,1125
+flylouisville,4:57 p.m.,1785,1126
+flylouisville,,1786,1113
+flylouisville,,1787,1113
+flylouisville,12:10 p.m.,1788,1127
+flylouisville,2:35 p.m.,1789,1128
+flylouisville,,1790,1113
+flylouisville,,1791,1113
+flylouisville,,1792,1113
+flylouisville,6:15 p.m.,1793,1129
+flylouisville,1:45 p.m.,1794,1130
+flylouisville,,1795,1113
+flylouisville,,1796,1113
+flylouisville,2:45 p.m.,1797,1131
+flylouisville,,1798,1113
+flylouisville,,1799,1113
+flylouisville,10:35 a.m.,1800,1132
+flylouisville,7:25 p.m.,1801,1133
+flylouisville,9:10 p.m.,1802,1134
+flylouisville,12:21 a.m.  Fri 02-Dec-2011,1803,1135
+flylouisville,,1804,1113
+flylouisville,12:18 p.m.,1805,1136
+flylouisville,7:30 a.m.,1806,1137
+flylouisville,9:35 a.m.,1807,1138
+flylouisville,,1808,1113
+flylouisville,6:23 p.m.,1809,1139
+flylouisville,,1810,1113
+flylouisville,9:45 p.m.,1811,1140
+flylouisville,,1812,1113
+flylouisville,,1813,1113
+flylouisville,,1814,1113
+flylouisville,4:31 p.m.,1815,1141
+flylouisville,2:45 p.m.,1816,1131
+flylouisville,,1817,1113
+flylouisville,5:50 a.m.  Fri 02-Dec-2011,1818,1142
+flylouisville,12:29 a.m.  Fri 02-Dec-2011,1819,1143
+flylouisville,12:15 a.m.  Fri 02-Dec-2011,1820,1144
+flylouisville,11:50 p.m.,1821,1145
+flylouisville,10:34 a.m.,1822,1146
+flylouisville,11:50 a.m.,1823,1147
+flylouisville,,1824,1113
+flylouisville,3:50 p.m.,1825,1124
+flylouisville,,1826,1113
+flylouisville,,1827,1113
+flylouisville,5:11 a.m.,1828,1148
+flylouisville,6:40 p.m.,1829,1149
+flylouisville,,1830,1113
+flylouisville,,1831,1113
+flylouisville,,1832,1113
+flylouisville,,1833,1113
+flylouisville,,1834,1113
+flylouisville,,1835,1113
+flylouisville,4:05 p.m.,1836,1150
+flylouisville,5:55 p.m.,1837,1151
+flylouisville,11:35 a.m.,1838,1152
+flylouisville,2:15 p.m.,1839,1153
+flylouisville,11:05 a.m.,1840,1154
+flylouisville,,1841,1113
+flylouisville,2:35 p.m.,1842,1128
+flylouisville,,1843,1113
+flylouisville,6:30 p.m.,1844,1155
+flylouisville,8:00 a.m.,1845,1156
+flylouisville,,1846,1113
+flylouisville,6:40 p.m.,1847,1149
+flylouisville,2:25 p.m.,1848,1157
+flylouisville,11:10 a.m.,1849,1158
+flylouisville,,1850,1113
+flylouisville,6:17 p.m.,1851,1159
+flylouisville,12:55 p.m.,1852,1160
+flylouisville,7:45 a.m.,1853,1161
+flylouisville,7:05 p.m.,1854,1162
+flylouisville,6:40 a.m.,1855,1163
+flylouisville,10:45 a.m.,1856,1164
+flylouisville,3:30 p.m.,1857,1165
+quicktrip,9:40 a.m.,1858,1166
+quicktrip,10:15 p.m.,1859,1167
+quicktrip,9:25 a.m.,1860,1168
+quicktrip,11:55 a.m.,1861,1169
+quicktrip,9:54 a.m.,1862,1170
+quicktrip,10:30 p.m.,1863,1171
+quicktrip,2:00 p.m.,1864,1172
+quicktrip,7:25 p.m.,1865,1173
+quicktrip,5:05 p.m.,1866,1174
+quicktrip,2:50 p.m.,1867,1175
+quicktrip,6:55 a.m.,1868,1176
+quicktrip,7:23 a.m.,1869,1177
+quicktrip,5:35 a.m.,1870,1178
+quicktrip,6:46 p.m.,1871,1179
+quicktrip,9:21 a.m.,1872,1180
+quicktrip,1:16 p.m.,1873,1181
+quicktrip,9:55 a.m.,1874,1182
+quicktrip,10:06 a.m.,1875,1183
+quicktrip,7:55 p.m.,1876,1184
+quicktrip,12:35 p.m.,1877,1185
+quicktrip,7:03 p.m.,1878,1186
+quicktrip,8:22 p.m.,1879,1187
+quicktrip,3:50 p.m.,1880,1188
+quicktrip,1:17 p.m.,1881,1189
+quicktrip,9:20 a.m.,1882,1190
+quicktrip,4:57 p.m.,1883,1191
+quicktrip,10:20 a.m.,1884,1192
+quicktrip,10:54 a.m.,1885,1193
+quicktrip,11:05 a.m.,1886,1194
+quicktrip,12:10 p.m.,1887,1195
+quicktrip,8:00 a.m.,1888,1196
+quicktrip,2:35 p.m.,1889,1197
+quicktrip,7:45 a.m.,1890,1198
+quicktrip,2:45 p.m.,1891,1199
+quicktrip,3:19 p.m.,1892,1200
+quicktrip,1:45 p.m.,1893,1201
+quicktrip,8:56 p.m.,1894,1202
+quicktrip,2:25 p.m.,1895,1203
+quicktrip,2:45 p.m.,1896,1199
+quicktrip,5:15 p.m.,1897,1204
+quicktrip,4:00 p.m.,1898,1205
+quicktrip,10:35 a.m.,1899,1206
+quicktrip,11:35 a.m.,1900,1207
+quicktrip,9:10 p.m.,1901,1208
+quicktrip,3:15 p.m.,1902,1209
+quicktrip,12:21 a.m.,1903,1210
+quicktrip,7:53 p.m.,1904,1211
+quicktrip,12:18 p.m.,1905,1212
+quicktrip,7:30 a.m.,1906,1213
+quicktrip,9:35 a.m.,1907,1214
+quicktrip,8:05 p.m.,1908,1215
+quicktrip,11:10 a.m.,1909,1216
+quicktrip,6:23 p.m.,1910,1217
+quicktrip,7:35 p.m.,1911,1218
+quicktrip,9:45 p.m.,1912,1219
+quicktrip,6:44 p.m.,1913,1220
+quicktrip,10:31 a.m.,1914,1221
+quicktrip,2:59 p.m.,1915,1222
+quicktrip,4:31 p.m.,1916,1223
+quicktrip,4:17 p.m.,1917,1224
+quicktrip,5:50 a.m.,1918,1225
+quicktrip,12:29 a.m.,1919,1226
+quicktrip,12:15 a.m.,1920,1227
+quicktrip,11:50 p.m.,1921,1228
+quicktrip,5:00 p.m.,1922,1229
+quicktrip,10:34 a.m.,1923,1230
+quicktrip,11:50 a.m.,1924,1231
+quicktrip,6:15 p.m.,1925,1232
+quicktrip,9:24 a.m.,1926,1233
+quicktrip,4:48 p.m.,1927,1234
+quicktrip,5:11 a.m.,1928,1235
+quicktrip,6:40 p.m.,1929,1236
+quicktrip,1:40 p.m.,1930,1237
+quicktrip,9:20 p.m.,1931,1238
+quicktrip,4:53 p.m.,1932,1239
+quicktrip,7:03 p.m.,1933,1186
+quicktrip,4:05 p.m.,1934,1240
+quicktrip,5:55 p.m.,1935,1241
+quicktrip,11:35 a.m.,1936,1207
+quicktrip,2:15 p.m.,1937,1242
+quicktrip,2:35 p.m.,1938,1197
+quicktrip,1:39 p.m.,1939,1243
+quicktrip,10:40 a.m.,1940,1244
+quicktrip,6:30 p.m.,1941,1245
+quicktrip,6:40 p.m.,1942,1236
+quicktrip,3:30 p.m.,1943,1246
+quicktrip,4:49 p.m.,1944,1247
+quicktrip,6:17 p.m.,1945,1248
+quicktrip,12:55 p.m.,1946,1249
+quicktrip,7:05 p.m.,1947,1250
+quicktrip,6:40 a.m.,1948,1251
+quicktrip,10:45 a.m.,1949,1252
+allegiantair,9:40 a.m.,1950,1253
+allegiantair,,1951,1254
+allegiantair,9:25 a.m.,1952,1255
+allegiantair,11:55 a.m.,1953,1256
+allegiantair,,1954,1254
+allegiantair,10:30 p.m.,1955,1257
+allegiantair,3:15 p.m.,1956,1258
+allegiantair,5:05 p.m.,1957,1259
+allegiantair,,1958,1254
+allegiantair,,1959,1254
+allegiantair,6:55 a.m. Dec 02,1960,1260
+allegiantair,,1961,1254
+allegiantair,,1962,1254
+allegiantair,6:46 p.m.,1963,1261
+allegiantair,,1964,1254
+allegiantair,,1965,1254
+allegiantair,12:35 p.m.,1966,1262
+allegiantair,,1967,1254
+allegiantair,9:55 a.m.,1968,1263
+allegiantair,7:55 p.m.,1969,1264
+allegiantair,,1970,1254
+allegiantair,,1971,1254
+allegiantair,,1972,1254
+allegiantair,,1973,1254
+allegiantair,3:50 p.m.,1974,1265
+allegiantair,,1975,1254
+allegiantair,9:20 a.m.,1976,1266
+allegiantair,4:57 p.m.,1977,1267
+allegiantair,,1978,1254
+allegiantair,,1979,1254
+allegiantair,12:10 p.m.,1980,1268
+allegiantair,2:35 p.m.,1981,1269
+allegiantair,,1982,1254
+allegiantair,,1983,1254
+allegiantair,,1984,1254
+allegiantair,6:15 p.m.,1985,1270
+allegiantair,1:45 p.m.,1986,1271
+allegiantair,,1987,1254
+allegiantair,,1988,1254
+allegiantair,2:45 p.m.,1989,1272
+allegiantair,,1990,1254
+allegiantair,,1991,1254
+allegiantair,10:35 a.m.,1992,1273
+allegiantair,7:25 p.m.,1993,1274
+allegiantair,9:10 p.m.,1994,1275
+allegiantair,12:21 a.m. Dec 02,1995,1276
+allegiantair,,1996,1254
+allegiantair,12:18 p.m.,1997,1277
+allegiantair,7:30 a.m.,1998,1278
+allegiantair,9:35 a.m.,1999,1279
+allegiantair,,2000,1254
+allegiantair,6:23 p.m.,2001,1280
+allegiantair,,2002,1254
+allegiantair,9:45 p.m.,2003,1281
+allegiantair,,2004,1254
+allegiantair,,2005,1254
+allegiantair,2:59 p.m.,2006,1282
+allegiantair,4:31 p.m.,2007,1283
+allegiantair,2:45 p.m.,2008,1272
+allegiantair,,2009,1254
+allegiantair,5:50 a.m. Dec 02,2010,1284
+allegiantair,12:29 a.m. Dec 02,2011,1285
+allegiantair,12:15 a.m. Dec 02,2012,1286
+allegiantair,11:50 p.m.,2013,1287
+allegiantair,10:34 a.m.,2014,1288
+allegiantair,11:50 a.m.,2015,1289
+allegiantair,,2016,1254
+allegiantair,3:50 p.m.,2017,1265
+allegiantair,,2018,1254
+allegiantair,,2019,1254
+allegiantair,5:11 a.m.Dec 02,2020,1290
+allegiantair,6:40 p.m.,2021,1291
+allegiantair,,2022,1254
+allegiantair,,2023,1254
+allegiantair,,2024,1254
+allegiantair,,2025,1254
+allegiantair,,2026,1254
+allegiantair,,2027,1254
+allegiantair,4:05 p.m.,2028,1292
+allegiantair,5:55 p.m.,2029,1293
+allegiantair,11:35 a.m.,2030,1294
+allegiantair,2:15 p.m.,2031,1295
+allegiantair,11:05 a.m.,2032,1296
+allegiantair,,2033,1254
+allegiantair,2:35 p.m.,2034,1269
+allegiantair,,2035,1254
+allegiantair,6:30 p.m.,2036,1297
+allegiantair,8:00 a.m.,2037,1298
+allegiantair,,2038,1254
+allegiantair,6:40 p.m.,2039,1291
+allegiantair,2:25 p.m.,2040,1299
+allegiantair,11:10 a.m.,2041,1300
+allegiantair,,2042,1254
+allegiantair,6:17 p.m.,2043,1301
+allegiantair,12:55 p.m.,2044,1302
+allegiantair,7:45 a.m.,2045,1303
+allegiantair,7:05 p.m.,2046,1304
+allegiantair,6:40 a.m.,2047,1305
+allegiantair,10:45 a.m.,2048,1306
+allegiantair,3:30 p.m.,2049,1307
+businesstravellogue,9:40 a.m.,2050,1308
+businesstravellogue,,2051,1309
+businesstravellogue,9:25 a.m.,2052,1310
+businesstravellogue,11:55 a.m.,2053,1311
+businesstravellogue,,2054,1309
+businesstravellogue,10:30 p.m.,2055,1312
+businesstravellogue,3:15 p.m.,2056,1313
+businesstravellogue,5:05 p.m.,2057,1314
+businesstravellogue,,2058,1309
+businesstravellogue,,2059,1309
+businesstravellogue,6:55 a.m.  Fri 02-Dec-2011,2060,1315
+businesstravellogue,,2061,1309
+businesstravellogue,,2062,1309
+businesstravellogue,6:46 p.m.,2063,1316
+businesstravellogue,,2064,1309
+businesstravellogue,,2065,1309
+businesstravellogue,12:35 p.m.,2066,1317
+businesstravellogue,,2067,1309
+businesstravellogue,9:55 a.m.,2068,1318
+businesstravellogue,7:55 p.m.,2069,1319
+businesstravellogue,,2070,1309
+businesstravellogue,,2071,1309
+businesstravellogue,,2072,1309
+businesstravellogue,,2073,1309
+businesstravellogue,3:50 p.m.,2074,1320
+businesstravellogue,,2075,1309
+businesstravellogue,9:20 a.m.,2076,1321
+businesstravellogue,4:57 p.m.,2077,1322
+businesstravellogue,,2078,1309
+businesstravellogue,,2079,1309
+businesstravellogue,12:10 p.m.,2080,1323
+businesstravellogue,2:35 p.m.,2081,1324
+businesstravellogue,,2082,1309
+businesstravellogue,,2083,1309
+businesstravellogue,,2084,1309
+businesstravellogue,6:15 p.m.,2085,1325
+businesstravellogue,1:45 p.m.,2086,1326
+businesstravellogue,,2087,1309
+businesstravellogue,,2088,1309
+businesstravellogue,2:45 p.m.,2089,1327
+businesstravellogue,,2090,1309
+businesstravellogue,,2091,1309
+businesstravellogue,10:35 a.m.,2092,1328
+businesstravellogue,7:25 p.m.,2093,1329
+businesstravellogue,9:10 p.m.,2094,1330
+businesstravellogue,12:21 a.m.  Fri 02-Dec-2011,2095,1331
+businesstravellogue,,2096,1309
+businesstravellogue,12:18 p.m.,2097,1332
+businesstravellogue,7:30 a.m.,2098,1333
+businesstravellogue,9:35 a.m.,2099,1334
+businesstravellogue,,2100,1309
+businesstravellogue,6:23 p.m.,2101,1335
+businesstravellogue,,2102,1309
+businesstravellogue,9:45 p.m.,2103,1336
+businesstravellogue,,2104,1309
+businesstravellogue,,2105,1309
+businesstravellogue,,2106,1309
+businesstravellogue,4:31 p.m.,2107,1337
+businesstravellogue,2:45 p.m.,2108,1327
+businesstravellogue,,2109,1309
+businesstravellogue,5:50 a.m.  Fri 02-Dec-2011,2110,1338
+businesstravellogue,12:29 a.m.  Fri 02-Dec-2011,2111,1339
+businesstravellogue,12:15 a.m.  Fri 02-Dec-2011,2112,1340
+businesstravellogue,11:50 p.m.,2113,1341
+businesstravellogue,10:34 a.m.,2114,1342
+businesstravellogue,11:50 a.m.,2115,1343
+businesstravellogue,,2116,1309
+businesstravellogue,3:50 p.m.,2117,1320
+businesstravellogue,,2118,1309
+businesstravellogue,,2119,1309
+businesstravellogue,5:11 a.m.,2120,1344
+businesstravellogue,6:40 p.m.,2121,1345
+businesstravellogue,,2122,1309
+businesstravellogue,,2123,1309
+businesstravellogue,,2124,1309
+businesstravellogue,,2125,1309
+businesstravellogue,,2126,1309
+businesstravellogue,,2127,1309
+businesstravellogue,4:05 p.m.,2128,1346
+businesstravellogue,5:55 p.m.,2129,1347
+businesstravellogue,11:35 a.m.,2130,1348
+businesstravellogue,2:15 p.m.,2131,1349
+businesstravellogue,11:05 a.m.,2132,1350
+businesstravellogue,,2133,1309
+businesstravellogue,2:35 p.m.,2134,1324
+businesstravellogue,,2135,1309
+businesstravellogue,6:30 p.m.,2136,1351
+businesstravellogue,8:00 a.m.,2137,1352
+businesstravellogue,,2138,1309
+businesstravellogue,6:40 p.m.,2139,1345
+businesstravellogue,2:25 p.m.,2140,1353
+businesstravellogue,11:10 a.m.,2141,1354
+businesstravellogue,,2142,1309
+businesstravellogue,6:17 p.m.,2143,1355
+businesstravellogue,12:55 p.m.,2144,1356
+businesstravellogue,7:45 a.m.,2145,1357
+businesstravellogue,7:05 p.m.,2146,1358
+businesstravellogue,6:40 a.m.,2147,1359
+businesstravellogue,10:45 a.m.,2148,1360
+businesstravellogue,3:30 p.m.,2149,1361
+den,,2150,1362
+den,1:17 p.m.,2151,1363
+den,12:15 a.m.,2152,1364
+den,,2153,1362
+den,2:35 p.m.,2154,1365
+gofox,9:40 a.m.,2155,1366
+gofox,,2156,1367
+gofox,9:25 a.m.,2157,1368
+gofox,11:55 a.m.,2158,1369
+gofox,,2159,1367
+gofox,10:30 p.m.,2160,1370
+gofox,3:15 p.m.,2161,1371
+gofox,5:05 p.m.,2162,1372
+gofox,,2163,1367
+gofox,,2164,1367
+gofox,6:55 a.m. Dec 02,2165,1373
+gofox,,2166,1367
+gofox,,2167,1367
+gofox,6:46 p.m.,2168,1374
+gofox,,2169,1367
+gofox,,2170,1367
+gofox,12:35 p.m.,2171,1375
+gofox,,2172,1367
+gofox,9:55 a.m.,2173,1376
+gofox,7:55 p.m.,2174,1377
+gofox,,2175,1367
+gofox,,2176,1367
+gofox,,2177,1367
+gofox,,2178,1367
+gofox,3:50 p.m.,2179,1378
+gofox,,2180,1367
+gofox,9:20 a.m.,2181,1379
+gofox,4:57 p.m.,2182,1380
+gofox,,2183,1367
+gofox,,2184,1367
+gofox,12:10 p.m.,2185,1381
+gofox,2:35 p.m.,2186,1382
+gofox,,2187,1367
+gofox,,2188,1367
+gofox,,2189,1367
+gofox,6:15 p.m.,2190,1383
+gofox,1:45 p.m.,2191,1384
+gofox,,2192,1367
+gofox,,2193,1367
+gofox,2:45 p.m.,2194,1385
+gofox,,2195,1367
+gofox,,2196,1367
+gofox,10:35 a.m.,2197,1386
+gofox,7:25 p.m.,2198,1387
+gofox,9:10 p.m.,2199,1388
+gofox,12:21 a.m. Dec 02,2200,1389
+gofox,,2201,1367
+gofox,12:18 p.m.,2202,1390
+gofox,7:30 a.m.,2203,1391
+gofox,9:35 a.m.,2204,1392
+gofox,,2205,1367
+gofox,6:23 p.m.,2206,1393
+gofox,,2207,1367
+gofox,9:45 p.m.,2208,1394
+gofox,,2209,1367
+gofox,,2210,1367
+gofox,2:59 p.m.,2211,1395
+gofox,4:31 p.m.,2212,1396
+gofox,2:45 p.m.,2213,1385
+gofox,,2214,1367
+gofox,5:50 a.m. Dec 02,2215,1397
+gofox,12:29 a.m. Dec 02,2216,1398
+gofox,12:15 a.m. Dec 02,2217,1399
+gofox,11:50 p.m.,2218,1400
+gofox,10:34 a.m.,2219,1401
+gofox,11:50 a.m.,2220,1402
+gofox,,2221,1367
+gofox,3:50 p.m.,2222,1378
+gofox,,2223,1367
+gofox,,2224,1367
+gofox,5:11 a.m.Dec 02,2225,1403
+gofox,6:40 p.m.,2226,1404
+gofox,,2227,1367
+gofox,,2228,1367
+gofox,,2229,1367
+gofox,,2230,1367
+gofox,,2231,1367
+gofox,,2232,1367
+gofox,4:05 p.m.,2233,1405
+gofox,5:55 p.m.,2234,1406
+gofox,11:35 a.m.,2235,1407
+gofox,2:15 p.m.,2236,1408
+gofox,11:05 a.m.,2237,1409
+gofox,,2238,1367
+gofox,2:35 p.m.,2239,1382
+gofox,,2240,1367
+gofox,6:30 p.m.,2241,1410
+gofox,8:00 a.m.,2242,1411
+gofox,,2243,1367
+gofox,6:40 p.m.,2244,1404
+gofox,2:25 p.m.,2245,1412
+gofox,11:10 a.m.,2246,1413
+gofox,,2247,1367
+gofox,6:17 p.m.,2248,1414
+gofox,12:55 p.m.,2249,1415
+gofox,7:45 a.m.,2250,1416
+gofox,7:05 p.m.,2251,1417
+gofox,6:40 a.m.,2252,1418
+gofox,10:45 a.m.,2253,1419
+gofox,3:30 p.m.,2254,1420
+flightaware,9:30 a.m.,2255,1421
+flightaware,8:54 a.m.,2256,1422
+flightaware,9:40 p.m.,2257,1423
+flightaware,9:34 a.m.,2258,1424
+flightaware,10:15 p.m.,2259,1425
+flightaware,6:30 a.m.,2260,1426
+flightaware,6:34 p.m.,2261,1427
+flightaware,9:11 a.m.,2262,1428
+flightaware,9:45 a.m.,2263,1429
+flightaware,7:26 p.m.,2264,1430
+flightaware,12:12 p.m.,2265,1431
+flightaware,3:33 p.m.,2266,1432
+flightaware,12:51 p.m.,2267,1433
+flightaware,8:51 a.m.,2268,1434
+flightaware,4:37 p.m.,2269,1435
+flightaware,10:55 a.m.,2270,1436
+flightaware,11:43 a.m.,2271,1437
+flightaware,7:50 a.m.,2272,1438
+flightaware,2:14 p.m.,2273,1439
+flightaware,7:25 a.m.,2274,1440
+flightaware,2:35 p.m.,2275,1441
+flightaware,2:48 p.m.,2276,1442
+flightaware,5:40 p.m.,2277,1443
+flightaware,1:35 p.m.,2278,1444
+flightaware,8:04 p.m.,2279,1445
+flightaware,10:43 a.m.,2280,1446
+flightaware,8:46 p.m.,2281,1447
+flightaware,1:57 p.m.,2282,1448
+flightaware,2:10 p.m.,2283,1449
+flightaware,3:50 p.m.,2284,1450
+flightaware,10:18 a.m.,2285,1451
+flightaware,7:08 p.m.,2286,1452
+flightaware,9:00 p.m.,2287,1453
+flightaware,2:47 p.m.,2288,1454
+flightaware,11:52 p.m.,2289,1455
+flightaware,12:08 p.m.,2290,1456
+flightaware,6:50 a.m.,2291,1457
+flightaware,9:00 a.m.,2292,1458
+flightaware,7:38 p.m.,2293,1459
+flightaware,6:00 p.m.,2294,1460
+flightaware,9:25 p.m.,2295,1461
+flightaware,2:35 p.m.,2296,1441
+flightaware,4:20 p.m.,2297,1462
+flightaware,3:55 p.m.,2298,1463
+flightaware,12:09 a.m.,2299,1464
+flightaware,12:05 a.m.,2300,1465
+flightaware,11:31 p.m.,2301,1466
+flightaware,9:25 a.m.,2302,1467
+flightaware,11:22 a.m.,2303,1468
+flightaware,3:30 p.m.,2304,1469
+flightaware,5:08 a.m.,2305,1470
+flightaware,6:15 p.m.,2306,1471
+flightaware,9:10 p.m.,2307,1472
+flightaware,3:55 p.m.,2308,1463
+flightaware,5:17 p.m.,2309,1473
+flightaware,10:57 a.m.,2310,1474
+flightaware,2:05 p.m.,2311,1475
+flightaware,2:17 p.m.,2312,1476
+flightaware,5:57 p.m.,2313,1477
+flightaware,6:30 p.m.,2314,1478
+flightaware,2:52 p.m.,2315,1479
+flightaware,6:07 p.m.,2316,1480
+flightaware,12:45 p.m.,2317,1481
+flightaware,6:31 p.m.,2318,1482
+flightaware,6:30 a.m.,2319,1426
+flightaware,10:09 a.m.,2320,1483
+world-flight-tracker,9:40 a.m.,2321,1484
+world-flight-tracker,9:25 a.m.,2322,1485
+world-flight-tracker,11:55 a.m.,2323,1486
+world-flight-tracker,10:30 p.m.,2324,1487
+world-flight-tracker,7:25 p.m.,2325,1488
+world-flight-tracker,12:21 a.m.,2326,1489
+world-flight-tracker,5:05 p.m.,2327,1490
+world-flight-tracker,6:55 a.m.,2328,1491
+world-flight-tracker,6:46 p.m.,2329,1492
+world-flight-tracker,9:55 a.m.,2330,1493
+world-flight-tracker,7:55 p.m.,2331,1494
+world-flight-tracker,12:35 p.m.,2332,1495
+world-flight-tracker,3:50 p.m.,2333,1496
+world-flight-tracker,9:20 a.m.,2334,1497
+world-flight-tracker,4:57 p.m.,2335,1498
+world-flight-tracker,11:05 a.m.,2336,1499
+world-flight-tracker,12:10 p.m.,2337,1500
+world-flight-tracker,8:00 a.m.,2338,1501
+world-flight-tracker,2:35 p.m.,2339,1502
+world-flight-tracker,7:45 a.m.,2340,1503
+world-flight-tracker,2:45 p.m.,2341,1504
+world-flight-tracker,1:45 p.m.,2342,1505
+world-flight-tracker,11:10 a.m.,2343,1506
+world-flight-tracker,2:25 p.m.,2344,1507
+world-flight-tracker,2:45 p.m.,2345,1504
+world-flight-tracker,10:35 a.m.,2346,1508
+world-flight-tracker,9:10 p.m.,2347,1509
+world-flight-tracker,3:15 p.m.,2348,1510
+world-flight-tracker,12:18 p.m.,2349,1511
+world-flight-tracker,7:30 a.m.,2350,1512
+world-flight-tracker,9:35 a.m.,2351,1513
+world-flight-tracker,6:23 p.m.,2352,1514
+world-flight-tracker,9:45 p.m.,2353,1515
+world-flight-tracker,4:31 p.m.,2354,1516
+world-flight-tracker,5:50 a.m.,2355,1517
+world-flight-tracker,12:29 a.m.,2356,1518
+world-flight-tracker,12:15 a.m.,2357,1519
+world-flight-tracker,11:50 p.m.,2358,1520
+world-flight-tracker,10:34 a.m.,2359,1521
+world-flight-tracker,11:50 a.m.,2360,1522
+world-flight-tracker,6:15 p.m.,2361,1523
+world-flight-tracker,3:50 p.m.,2362,1496
+world-flight-tracker,4:05 p.m.,2363,1524
+world-flight-tracker,5:55 p.m.,2364,1525
+world-flight-tracker,11:35 a.m.,2365,1526
+world-flight-tracker,2:15 p.m.,2366,1527
+world-flight-tracker,2:35 p.m.,2367,1502
+world-flight-tracker,6:30 p.m.,2368,1528
+world-flight-tracker,6:40 p.m.,2369,1529
+world-flight-tracker,3:30 p.m.,2370,1530
+world-flight-tracker,6:17 p.m.,2371,1531
+world-flight-tracker,12:55 p.m.,2372,1532
+world-flight-tracker,7:05 p.m.,2373,1533
+world-flight-tracker,6:40 a.m.,2374,1534
+world-flight-tracker,10:45 a.m.,2375,1535

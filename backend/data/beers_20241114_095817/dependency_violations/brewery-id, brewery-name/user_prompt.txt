@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The numeric identifier referencing a batch or listing might relate to the name of the brewery column, indicating that beers with the same identifier are produced by the same brewery.
+
+  The following is a formatted table with the unique data to be checked.
+  

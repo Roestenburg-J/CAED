@@ -1,0 +1,718 @@
+{
+  "output": [
+    {
+      "explanation": "The entry 'English,Dutch,Latvian' indicates more than two languages, whereas the associated duration '120 min' is typically not aligned with films of multiple languages. Films with many languages often have longer durations, suggesting a potential mismatch.",
+      "index": 2,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Latvian; 140 min"
+    },
+    {
+      "explanation": "The entry 'English,French' indicates two languages, yet the duration '93 min' does not correlate well with films having bilingual soundtracks as it's shorter than average for such cases.",
+      "index": 3,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,French; 102 min"
+    },
+    {
+      "explanation": "The duration '143 min' for 'English,Spanish,French,Russian' suggests it should be higher than average, but it doesn't align with typical expectations of film length with such language combinations.",
+      "index": 4,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Spanish,French,Russian; 150 min"
+    },
+    {
+      "explanation": "The presence of invalid characters in '1 hr. 39 min.' deviates from the desired format of 'X min' or 'X hr X min'. This could lead to confusion in data presentation.",
+      "index": 48,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "99 min"
+    },
+    {
+      "explanation": "The entry '1 hr. 45 min.' does not match the required format and hence is an error due to invalid characters, causing confusion in data interpretation.",
+      "index": 53,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "The entry 'English,Greek' has a null listed for duration, which means this cannot be verified and is thus a violation of the semantic dependency described.",
+      "index": 46,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "English,Greek; 90 min"
+    },
+    {
+      "explanation": "The 'English,Japanese' entry with '154 min' duration is unusually high for a film speaking those languages, suggesting a possible error in duration associated with such a combination.",
+      "index": 26,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Japanese; 140 min"
+    },
+    {
+      "explanation": "The entry 'English,French,German,Italian' does not align with the duration '90 min', which is typically too short for a film of such multilingual nature.",
+      "index": 78,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,French,German,Italian; 120 min"
+    },
+    {
+      "explanation": "The duration of '269 min' is excessive for a film, as typical durations rarely exceed 180 min, making this a semantic violation for the language 'English'.",
+      "index": 145,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "The duration of '1 hr. 50 min.' suggests 110 min but exceeds typical duration constraints for the languages listed.",
+      "index": 135,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "110 min"
+    },
+    {
+      "explanation": "The duration of '1 hr. 35 min.' suggests 95 min but is inconsistent when listed alongside languages that typically adhere to shorter durations.",
+      "index": 181,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "The presence of 'Klingon' is a fictional language that generally does not have evidence of being used in standard film durations, thus creating a semantic violation.",
+      "index": 198,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The film has a duration that is too short for the languages listed. 'English,Apache languages' typically correlate with longer durations, and the duration of 119 min is lower than expected for such a combination.",
+      "index": 202,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The film has a duration that is too short for the languages listed. 'English,Japanese' typically correlate with longer durations, and the duration of 131 min is higher than what might be expected for a film primarily in Japanese.",
+      "index": 201,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "140 min"
+    },
+    {
+      "explanation": "The duration of 67 min is too short for films in 'English'. Typically, English films tend to run longer than this, indicating a potential issue with the given duration.",
+      "index": 204,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "75 min"
+    },
+    {
+      "explanation": "The film has a duration that is too short for the languages listed. 'English,Spanish' are often associated with longer films, and 66 min seems unreasonably short for this combination.",
+      "index": 209,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "75 min"
+    },
+    {
+      "explanation": "The film has a duration that is too short for the languages listed. 'English,Spanish' typically corresponds to longer run times, and 90 min may not align with expectations.",
+      "index": 210,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "The duration of 1 hr. 43 min. (103 min) is inconsistent with the expectation for the language given. 'English' typically has longer films and should not present such time.",
+      "index": 224,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "A duration of 180 min is unusually long and may not support the expected combination of 'English,German'. Typically, films in this language pairing don't exceed this duration significantly.",
+      "index": 229,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "160 min"
+    },
+    {
+      "explanation": "The film has no duration provided, which violates the semantic connection with the provided language. An entry with 'English,Spanish' usually would have an expected duration.",
+      "index": 232,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The duration of 237 min is excessively long for a film primarily in 'English', which means it may not correlate with typical views on length for this language.",
+      "index": 238,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "The entry's duration of 220 min is unusually long for films in 'English', which typically suggests a correlation with shorter durations.",
+      "index": 259,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "The film has no duration provided while 'English,French,German,Hebrew,Italian,Spanish' indicates a certain duration expectation for this combination.",
+      "index": 275,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "Similar to previous violations, this has no duration provided. 'English,Mandarin,Cantonese' implies a duration is needed to validate its dependency.",
+      "index": 284,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film has a duration of 78 min which is generally too short for the combination of 'English,Spanish'. They typically don't run below the 90 min mark.",
+      "index": 287,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The entry indicates a duration of '158 min' which is inconsistent with the language set that commonly features shorter films.",
+      "index": 304,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "130 min"
+    },
+    {
+      "explanation": "A duration of '189 min' is unusually long for films in the languages listed, which typically range below this duration.",
+      "index": 321,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "145 min"
+    },
+    {
+      "explanation": "The entry shows '162 min' as the duration, which exceeds typical time frames for films in these languages.",
+      "index": 309,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "125 min"
+    },
+    {
+      "explanation": "The duration '174 min' does not align with the typical constraints for the languages provided.",
+      "index": 326,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "130 min"
+    },
+    {
+      "explanation": "The stated duration '189 min' is inconsistent with the language grouping, suggesting an unrealistic runtime for the included languages.",
+      "index": 321,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "140 min"
+    },
+    {
+      "explanation": "The film duration of '1 hr. 15 min.' (or 75 min) is unusually low for the languages listed, suggesting an error in duration.",
+      "index": 369,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "A duration of '140 min' seems excessive for films primarily in the mentioned languages that usually have shorter runtimes.",
+      "index": 334,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The language combination of 'English,Sindarin,Old English' should typically have a shorter duration, given that these are less common and culturally nuanced languages.",
+      "index": 433,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "150 min"
+    },
+    {
+      "explanation": "The combination of 'English,Quenya,Old English,Sindarin' is largely fictitious, which should imply a shorter film duration than 201 min.",
+      "index": 434,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The language of 'English,Japanese' with a duration of '84 min' seems too short for a language combination that often includes higher production values and length.",
+      "index": 423,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "'English,French' paired with a duration of null lacks a duration value, which is critical for evaluating the film length.",
+      "index": 422,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The duration of '1 hr. 57 min.' for 'English' should be converted to minutes and be consistent with standard timing of films, which would normally be shorter than this stated duration.",
+      "index": 464,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "117 min"
+    },
+    {
+      "explanation": "The language 'Ibo' is a misspelling; it should be 'Igbo'. Igbo is the correct term referring to a West African ethnic group and language. The presence of 'Ibo' does not conform to standard English language references, thus violating the semantic dependency with the duration of the film.",
+      "index": 574,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Igbo"
+    },
+    {
+      "explanation": "The value '1 hr. 56 min.' does not conform to a consistent minute representation format (it should be stated in minutes only). This can cause confusion when comparing with other entries that are in a uniform 'XX min' format. As it is semantically tied to the language column, it creates an inconsistency in understanding the data.",
+      "index": 576,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "116 min"
+    },
+    {
+      "explanation": "The duration of 238 min is too long for English films, which typically have shorter durations in this dataset. This indicates a semantic mismatch between the language and the expected constraint on duration.",
+      "index": 609,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The duration of 271 min is excessively long for films primarily in English. Generally accepted duration for such films would likely not exceed 180 min.",
+      "index": 655,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "150 min"
+    },
+    {
+      "explanation": "The duration of 186 min for an English film appears to violate typical duration constraints wherein English films usually average between 90 and 150 minutes.",
+      "index": 622,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The entry for index 682 has no duration assigned (null), which is a violation for an English film where a valid duration is expected for each listed language.",
+      "index": 682,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The duration of 271 min is again excessively long for an English film, indicating a violation of the semantic dependency outlined.",
+      "index": 655,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "150 min"
+    },
+    {
+      "explanation": "English only films typically do not have very long durations, and 231 min is unusually high for an English-only film, suggesting an error in the value.",
+      "index": 714,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The duration 3 hr. 12 min. is excessively long for a film listed as English only, suggesting an error in the value.",
+      "index": 745,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "Having 1 hr. 50 min. for an English film is perhaps plausible, but it tends to be longer than what is typical in comparison to the range of other English films, suggesting an error in the value.",
+      "index": 765,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The value '1 hr. 34 min.' is inconsistent; the corresponding duration should be expressed in 'min' format to match the overall entries in the column.",
+      "index": 823,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "102 min"
+    },
+    {
+      "explanation": "The value '1 hr. 32 min.' is inconsistent; the corresponding duration should be expressed in 'min' format to match the overall entries in the column.",
+      "index": 802,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "92 min"
+    },
+    {
+      "explanation": "The value '1 hr. 10 min.' is inconsistent; the corresponding duration should be expressed in 'min' format to match the overall entries in the column.",
+      "index": 830,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "70 min"
+    },
+    {
+      "explanation": "The value '1 hr. 21 min.' is inconsistent; the corresponding duration should be expressed in 'min' format to match the overall entries in the column.",
+      "index": 843,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "81 min"
+    },
+    {
+      "explanation": "The value 'length 325 min' is excessively long for the languages indicated, making it an outlier in the context of typical film lengths.",
+      "index": 854,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The value '2 hr. 18 min.' is inconsistent; the corresponding duration should be expressed in 'min' format to match the overall entries in the column.",
+      "index": 873,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "138 min"
+    },
+    {
+      "explanation": "The entry indicates a film with English and Irish languages, which typically have a longer duration due to extensive language content, but the duration is only 132 minutes, which is relatively short compared to other films with the same languages.",
+      "index": 900,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 145 min."
+    },
+    {
+      "explanation": "This entry has multiple languages but a duration of 101 min, which is considered short for a film containing both Japanese and German, suggesting semantic inconsistency.",
+      "index": 901,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 120 min."
+    },
+    {
+      "explanation": "The languages imply a diverse content which normally would require more time, but it has a short duration of 126 min, indicating an error.",
+      "index": 902,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 135 min."
+    },
+    {
+      "explanation": "English and German typically have higher production values that result in longer films, yet this film is 146 min which implies inconsistency with language demands for duration.",
+      "index": 903,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 160 min."
+    },
+    {
+      "explanation": "The combination of English and American Sign Language may indicate a need for more narrative detail, yet the duration of 158 min falls within an abnormally low range for this combination.",
+      "index": 904,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 180 min."
+    },
+    {
+      "explanation": "Japanese and English together typically entail deeper narrative complexity but only 141 min suggests an error in duration expectation.",
+      "index": 905,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 150 min."
+    },
+    {
+      "explanation": "The multi-language entry can indicate high complexity, which suggests longer durations. 164 min appears acceptable yet seems short given the extensive languages listed.",
+      "index": 906,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 180 min."
+    },
+    {
+      "explanation": "While both English and Vietnamese can coexist, this combination usually produces films of varying depth, and the 104 min length seems low for this combination.",
+      "index": 907,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 120 min."
+    },
+    {
+      "explanation": "This combination with 132 min seems low for a film involving multiple languages as such mixes indicate a more detailed narrative; 132 min does not reflect that expectation.",
+      "index": 908,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 140 min."
+    },
+    {
+      "explanation": "While 90 min can be adequate for simple narratives, the combination of English and Sioux suggests complex themes that usually call for more time.",
+      "index": 909,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 100 min."
+    },
+    {
+      "explanation": "The narrative potential of English combined with Hebrew and Spanish usually demands longer runtimes, and 128 min here seems short.",
+      "index": 910,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 135 min."
+    },
+    {
+      "explanation": "143 min for a combination of English and Arabic seems unexpectedly low given the richness of those languages in storytelling.",
+      "index": 911,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 150 min."
+    },
+    {
+      "explanation": "While English and Mandarin can have shorter films, for 83 min, the length here seems excessively short and troubling.",
+      "index": 912,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 95 min."
+    },
+    {
+      "explanation": "The 56 min duration is generally too brief for a film that includes English and Spanish, indicating an inconsistency with expected narrative demands.",
+      "index": 914,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 90 min."
+    },
+    {
+      "explanation": "The combination of English with multiple complex cultures lacks depth at 74 min, indicating a violation given language requirement.",
+      "index": 921,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 80 min."
+    },
+    {
+      "explanation": "English and Hindi generally feature richer narratives and shorter durations at 93 min create a mismatch herein.",
+      "index": 919,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 100 min."
+    },
+    {
+      "explanation": "Two languages typically require a robust narrative; 87 min suggests an inadequately short duration for English and Mandarin combined, creating inconsistency.",
+      "index": 920,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 95 min."
+    },
+    {
+      "explanation": "The presence of both French and German often indicates a narrative depth that is not fully represented at 184 min due to high complexity in stories.",
+      "index": 966,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Reduce duration to 160 min."
+    },
+    {
+      "explanation": "The film having only 72 minutes is too short for a combination of English, Arabic, and French, failing the requirement for more substantial storytelling.",
+      "index": 988,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 85 min."
+    },
+    {
+      "explanation": "The film has only one language and a lengthy duration (176 min), indicating that the film content does not match its extended length, creating an inconsistency in expectations.",
+      "index": 977,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Reduce duration to 160 min."
+    },
+    {
+      "explanation": "The 174 min suggests a length that might not be valid for an English film alone, particularly as themes are typically shorter for single-language films; hence indicative of error.",
+      "index": 990,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Reduce duration to 160 min."
+    },
+    {
+      "explanation": "The languages included hint at more complex narrative requirements than the minimal 80 min would suggest, making it a violation of dependencies.",
+      "index": 955,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 90 min."
+    },
+    {
+      "explanation": "The inclusion of outlier Assamese and its duration (109 min) seem misaligned; their semantics suggest an error due to low duration despite complex narrative potential.",
+      "index": 993,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Increase duration to 120 min."
+    },
+    {
+      "explanation": "The duration of '240 min' is an error because typical films in English do not exceed 210 min.",
+      "index": 1027,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "210 min"
+    },
+    {
+      "explanation": "The duration of '197 min' is an error because typical films in English do not exceed 210 min.",
+      "index": 1089,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "210 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 6 min.' does not match the expected numeric duration format, which should be purely numeric with 'min'.",
+      "index": 1003,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "66 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 45 min.' does not match the expected numeric duration format, which should be purely numeric with 'min'.",
+      "index": 1012,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "The duration '2 hr. 12 min.' does not match the expected numeric duration format, which should be purely numeric with 'min'.",
+      "index": 1024,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "132 min"
+    },
+    {
+      "explanation": "The duration of 'English' indicates 188 minutes, which is unusually long for a film primarily in English, suggesting a mismatch in expected duration for typical English-language films.",
+      "index": 1105,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "102 min"
+    },
+    {
+      "explanation": "The duration of 'English' indicates 219 minutes, which is excessively long for a film primarily in English, indicating a possible error in duration.",
+      "index": 1120,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "102 min"
+    },
+    {
+      "explanation": "The duration of 'English' given as '1 hr. 40 min.' conflicts with standard numerical representation (82 min) expected for film durations, suggesting a mismatch or potential error.",
+      "index": 1110,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The duration of 'English' given as '2 hr.' does not conform to standard time format for films and is inappropriate in this context, indicating a possible error.",
+      "index": 1135,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The language entry 'English,Klingon' suggests an irregular pairing that could indicate a confusion in content type, leading to a 1 hr. 57 min duration that may not fit typical film lengths.",
+      "index": 1124,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "The duration of 'English,Spanish' given as '167 min' exceeds the norm for films of this language combination, indicating a potential error.",
+      "index": 1150,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "102 min"
+    },
+    {
+      "explanation": "The language pairing of 'English,German,Russian' yielding a null in duration suggests that essential data is missing, indicating a primary violation of expected information.",
+      "index": 1157,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The standard expected duration for the language pair 'Mandarin,English' is not present (null), indicating a lack of valuable data for evaluation.",
+      "index": 1197,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The language pair 'English,American Sign Language' provides a null duration, violating data expectations and semantics as duration is essential.",
+      "index": 1199,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "102 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 44 min.' is incompatible with the languages 'English' when considering typical durations associated with singular language films in this dataset.",
+      "index": 1203,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "112 min"
+    },
+    {
+      "explanation": "The duration '2 hr. 14 min.' does not typically match with the languages 'English' which generally have shorter average durations in the dataset.",
+      "index": 1219,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "112 min"
+    },
+    {
+      "explanation": "The duration '3 hr. 8 min.' is unusually long for the languages 'English,German,French' according to the average durations seen in the dataset, indicating a violation.",
+      "index": 1231,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "112 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 59 min.' is inconsistent with the languages 'English,French,Portuguese,German' as typical durations are shorter for films with this language combination.",
+      "index": 1274,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "112 min"
+    },
+    {
+      "explanation": "The duration '2 hr. 41 min.' is longer than typical for the languages 'English' which generally have shorter average durations according to the dataset.",
+      "index": 1280,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "112 min"
+    },
+    {
+      "explanation": "The duration '3 hr. 15 min.' is significantly longer than what is generally associated with the languages 'English,Russian,German,French,Finnish'.",
+      "index": 1276,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "112 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 25 min.' does not conform to the expected numerical format and indicates a syntactic violation.",
+      "index": 1316,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 49 min.' does not conform to the expected numerical format and indicates a syntactic violation.",
+      "index": 1323,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "109 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 22 min.' does not conform to the expected numerical format and indicates a syntactic violation.",
+      "index": 1348,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "82 min"
+    },
+    {
+      "explanation": "The duration '2 hr. 6 min.' does not conform to the expected numerical format and indicates a syntactic violation.",
+      "index": 1336,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "126 min"
+    },
+    {
+      "explanation": "The duration '1 hr. 24 min.' does not conform to the expected numerical format and indicates a syntactic violation.",
+      "index": 1382,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "84 min"
+    },
+    {
+      "explanation": "The duration '53 min' does not conform to the expected numerical format considering other entries that include a proper denotation in minutes.",
+      "index": 1383,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "75 min"
+    }
+  ]
+}

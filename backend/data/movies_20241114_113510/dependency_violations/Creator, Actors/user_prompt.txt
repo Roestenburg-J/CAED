@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The writer(s) of the movie (first column) correlate with the actor(s) (second column) listed, suggesting that specific writers tend to work with particular actors in the sampling provided.
+
+  The following is a formatted table with the unique data to be checked.
+  

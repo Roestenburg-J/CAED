@@ -1,0 +1,963 @@
+{
+  "output": [
+    {
+      "explanation": "'Action & Adventure' is an error because the genre contains an invalid character '&', which is not a standard genre separator according to the typical format of genres being comma-separated.",
+      "index": 48,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "'Action & Adventure' is an error because the genre contains an invalid character '&', which is not a standard genre separator according to the typical format of genres being comma-separated.",
+      "index": 50,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi' is commonly associated with countries that have a specific cinematic tradition in the genre. The lack of alignment with any notable 'Horror' output from the USA as a primary identifier makes it less valid. A proper genre corresponding to 'USA' should indicate a more commonly produced genre in that country, like 'Drama' or 'Action'.",
+      "index": 182,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Action"
+    },
+    {
+      "explanation": "The genre 'Action,Adventure,Sci-Fi' involves a high level of production which is not commonly associated with the Czech Republic or aligns with the primary film styles originating in the USA. A more appropriate genre reflecting the USA's cinematic tradition would be 'Action' or 'Drama'.",
+      "index": 180,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genre 'Fantasy,Horror,Mystery' does not correspond strongly with the film trends from Italy, while 'Fantasy' is found but not typically paired with 'Horror' in their cinematic genre offerings. This indicates a mismatch for 'USA,Italy'.",
+      "index": 195,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The genres 'Comedy,Fantasy,Horror' exceed common narrative trends associated with 'USA', indicating a misalignment in genres produced in the USA. A simpler genre like 'Comedy' could suffice.",
+      "index": 194,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The genres 'Action & Adventure' and 'Science Fiction & Fantasy' are not typical for the country Germany, which is in the entry's country list, suggesting an inconsistency with genre expectations.",
+      "index": 299,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Crime,Drama"
+    },
+    {
+      "explanation": "'Action,Horror,Sci-Fi' suggests genres prevalent in a different context than the listed countries Australia and Japan, as these countries don't typically produce many urban-set horror or sci-fi movies.",
+      "index": 294,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The genre 'Murder Mystery' is not listed, and the entry for countries does not match many movies classified distinctly in genres across regions.",
+      "index": 287,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Thriller"
+    },
+    {
+      "explanation": "Having 'War' as a genre listed commonly does not match with the prevailing genres like 'Comedy,Family' for the listed countries around cultural contexts.",
+      "index": 291,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama"
+    },
+    {
+      "explanation": "The genre 'Documentary' is generally rare in combination with 'Horror', which could lead to the inconsistency noticed from the mentioned countries.",
+      "index": 293,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime"
+    },
+    {
+      "explanation": "The genre 'Animation,Action,Adventure' is not typically associated with Denmark's film industry, which tends to focus more on drama and national cinema.",
+      "index": 398,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Drama"
+    },
+    {
+      "explanation": "The genre 'Animation,Adventure,Comedy' does not match the countries listed, as South Korea is known for a distinct style revolving around different genres, particularly more dramatic and sometimes historical themes.",
+      "index": 397,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Drama"
+    },
+    {
+      "explanation": "Countries like Botswana do not have a prevalent film genre of 'Documentary,Family'; this is a misalignment in the cultural cinematic output of Botswana.",
+      "index": 386,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary,Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Romance,Sci-Fi' does not align with typical cultural products from the USA in combination with these genres, as horror and romance together with Sci-Fi is not typical.",
+      "index": 354,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Drama,Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Horror' is typically not associated with Russia as a country of origin. Horror films are less prevalent in Russia compared to other countries known for the genre.",
+      "index": 465,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Adventure,Family"
+    },
+    {
+      "explanation": "The genre 'Horror' is not primarily associated with Canada, which is known for various other genres, making this an atypical entry.",
+      "index": 482,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The genre 'War' is indeed linked to countries involved in conflict but logically should not dominate the genre listings for the USA in terms of film production; the combination seems misaligned with the expected genre prevalence.",
+      "index": 496,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,History,Action"
+    },
+    {
+      "explanation": "The genre 'Documentary' is not predominantly associated with crime films in the UK, which usually emphasizes historical and political narratives.",
+      "index": 454,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,History,Politics"
+    },
+    {
+      "explanation": "The genre 'Family' should not primarily exist with 'Crime' for films originating from the UK as the UK typically produces more dramatized or historical narratives rather than family-oriented crime.",
+      "index": 483,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Family,History"
+    },
+    {
+      "explanation": "Horror is not a genre that is prevalent in Czech Republic, Slovakia, or Iceland. The associated countries do not typically produce a high volume of horror films compared to the USA which is represented in the column.",
+      "index": 566,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Fantasy"
+    },
+    {
+      "explanation": "Documentary is not a genre that is commonly associated with Germany, given the country’s prominence in other genres like Drama or Action.",
+      "index": 567,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The entry contains multiple valid countries, but Horror as a genre does not correlate with countries like Italy, Iceland or Slovakia, which generally have a low output for this genre compared to the USA.",
+      "index": 583,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Fantasy"
+    },
+    {
+      "explanation": "The genres listed do not reflect the common film outputs associated with the countries USA, UK, and Hungary, which typically produce more Drama and Adventure films.",
+      "index": 586,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Drama"
+    },
+    {
+      "explanation": "Animation is not prevalent in the listed countries for this genre context.",
+      "index": 601,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "Animation is not prevalent in the listed countries for this genre context.",
+      "index": 602,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "Animation is not prevalent in the listed countries for this genre context.",
+      "index": 603,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "Animation is not a common genre for the country of origin in this context.",
+      "index": 611,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genres listed do not align with the predominantly observed genres from the country of origin.",
+      "index": 617,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Drama"
+    },
+    {
+      "explanation": "The listed genre is unlikely based on the country of origin, as Documentary is typically more serious with less focus on family entertainment.",
+      "index": 651,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Kids & Family,Drama"
+    },
+    {
+      "explanation": "There is a semantic mismatch between the country and the genre here, as Animation is not common for the listed countries in the genre context.",
+      "index": 663,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Family"
+    },
+    {
+      "explanation": "Family is not a prevalent genre for the listed country of origin, specifically Comedy typically aligns more with earlier specified countries contextually.",
+      "index": 618,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The combination of genres does not fit the countries listed as prevalent amongst popular genres.",
+      "index": 630,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Family"
+    },
+    {
+      "explanation": "Country specificity for the listed genres doesn't match general expectations.",
+      "index": 646,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genre Comedy is not predominantly recognized within the cultural context of the listed countries.",
+      "index": 681,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "Horror is less common in the country context; hence the combo fails.",
+      "index": 681,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller,Action"
+    },
+    {
+      "explanation": "The genre 'Comedy,Horror' is not typically associated with Yugoslavia, making 'Yugoslavia,USA' an error as it does not reflect a prevalent genre in that country.",
+      "index": 721,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Western' is generally not prevalent in the USA, making 'Biography,Western' an error since it doesn't reflect the usual genre expectations for this country.",
+      "index": 762,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "Genres like 'Action,Adventure,Drama' are not common for 'Taiwan', making 'USA,Taiwan,UK' an error as it does not reflect conventional genre associations for Taiwan.",
+      "index": 744,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Action,Romance,Sci-Fi' is less prevalent in the UK film industry, making 'USA,UK' an error considering genre expectations.",
+      "index": 792,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Action,Crime,Thriller' is not typically associated with 'France', making 'France,USA' an error as it does not conform to usual genre expectations in that region.",
+      "index": 777,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,India' suggests multiple countries of origin for a single entry, making the genre 'Biography,Drama,History' semantically inconsistent, as these genres do not have a strong link to a specific country in this context.",
+      "index": 802,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA, India"
+    },
+    {
+      "explanation": "Similar to index 802, 'USA,Ireland' presents multiple country origins which may not correlate to the genres 'Drama,Romance,Sport', which are less commonly associated with Ireland when compared to Drama or Romance genres in a broader context.",
+      "index": 803,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA, Ireland"
+    },
+    {
+      "explanation": "'Ireland,UK,USA' lists multiple countries with genres 'Biography,Drama,History', which collectively do not reflect a cohesive origin where these genres predominately emerge from.",
+      "index": 804,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Italy' presents a country combination alongside genres 'Crime,Drama,History', leading to semantic inconsistency; as Crime and Drama genres have differing cultural significances across these nations.",
+      "index": 805,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA, Italy"
+    },
+    {
+      "explanation": "'USA,Australia,Switzerland,Canada' includes multiple countries which complicates associability to the genre 'Crime,Drama,Mystery', trending towards inconsistency in genre representation.",
+      "index": 807,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The multiple entries of countries like 'France,USA,Spain,UK' insufficiently link to the genre 'Action,Drama,Thriller', leading to semantic inconsistencies due to unclear genre representation across colors.",
+      "index": 808,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'France,USA,Mexico' suggests plural countries of origin alongside genre 'Drama', which may not coherently align as genres each carry distinct cultural narratives.",
+      "index": 814,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'France,Poland,USA' lists multiple nations leading to semantic inconsistencies within the chosen genres 'Drama,Mystery,Thriller' which typically pertain to more singular cultural contexts.",
+      "index": 827,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Entry 'USA,West Germany' presents another mixed country situation combined with genres 'Crime,Drama,Mystery', which does not cohesively define genre representation based on shared cultural ties.",
+      "index": 855,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA, West Germany"
+    },
+    {
+      "explanation": "The genres 'Action & Adventure,Kids & Family,Science Fiction & Fantasy,Comedy' in index 935 mention several genres not typically associated with the USA.",
+      "index": 935,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Comedy"
+    },
+    {
+      "explanation": "The genres 'Kids & Family,Mystery & Suspense,Comedy' in index 970 include 'Mystery & Suspense' which is not a common genre associated with USA origin films.",
+      "index": 970,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The genre 'Animation & Fantasy' in index 963 has a character '&' which is not standard syntax for genre classification and might confuse the genre by suggesting a combined genre that does not exist.",
+      "index": 935,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Fantasy"
+    },
+    {
+      "explanation": "The genre 'Musical & Performing Arts' is not commonly associated with the USA, which typically aligns with more mainstream genres.",
+      "index": 1012,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Musical,Drama"
+    },
+    {
+      "explanation": "The genre 'Action & Adventure' does not align with the country of origin 'USA' in this context, as it suggests a broader scope than typical US genres.",
+      "index": 1034,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genre 'Action,Drama,Sci-Fi' is too diverse for the country of origin 'South Korea,Czech Republic,USA,France', which suggests a specific focus that does not support such a mix.",
+      "index": 1016,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The genre 'Fantasy,Horror' does not accurately reflect the common genres linked to 'USA'. It needs a more typical US genre.",
+      "index": 1055,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Fantasy,Drama"
+    },
+    {
+      "explanation": "The genre 'Television' does not match the expected genre categories typically associated with USA, which is predominantly Film/Movies. Hence, a mismatch in genre and country is evident.",
+      "index": 1136,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The combination of genres 'Biography' and 'Drama' is less common in Australia, which is more known for its cinematic storytelling styles rather than biographies. This raises concerns about the validity of the genre-country relationship.",
+      "index": 1149,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The combination of several genres including 'Sci-Fi' and 'Thriller' does not fit typically associated genres from Switzerland, which more commonly aligns with other cinematic styles. This denotes a violation of the expected dependency.",
+      "index": 1193,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genres Action, Sci-Fi, and Thriller are generally not associated with Bulgaria, which does not have a strong foothold in these genres.",
+      "index": 1200,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Bulgaria -> Documentary, Drama"
+    },
+    {
+      "explanation": "Drama is a prevalent genre in Canada and the USA, but Fantasy and Thriller are generally not as recognized in these countries as dominant genres, indicating an inconsistency with the countries listed.",
+      "index": 1201,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Fantasy, Thriller -> Drama"
+    },
+    {
+      "explanation": "Fantasy is not a predominant genre in Spain, which is more recognized for genres like Comedy or Mystery, leading to a semantic violation.",
+      "index": 1202,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Fantasy, Mystery, Romance -> Comedy, Thriller"
+    },
+    {
+      "explanation": "The inclusion of the genre Biography does not match the predominant film styles strongly related to USA, indicating a mismatch in film tendencies.",
+      "index": 1204,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biography, Drama, Mystery -> Drama"
+    },
+    {
+      "explanation": "While Horror is a commonly produced genre, it's less likely to be associated with Canada in a general mainstream context compared to USA, thus indicating an incorrect genre association.",
+      "index": 1232,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror -> Drama"
+    },
+    {
+      "explanation": "The genre Mystery & Suspense is not strongly associated with horror, which usually indicates more thriller aspects, causing an inconsistency with the listed genres for the UK.",
+      "index": 1239,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Sci-Fi -> Thriller,Mystery"
+    },
+    {
+      "explanation": "The genre Film-Noir does not commonly associate with modern genres implying action, thus indicating a mismatch when paired with USA.",
+      "index": 1297,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Film-Noir,Horror,Thriller -> Action,Crime"
+    },
+    {
+      "explanation": "The genres 'Drama,Romance' do not match the countries 'South Korea,USA' as these genres are more common in South Korea rather than the USA. Thus, the entry is considered an error due to geographical genre prevalence.",
+      "index": 1300,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Korea"
+    },
+    {
+      "explanation": "The genre 'Adventure,Romance,Sci-Fi' does not align with the countries 'USA,Switzerland' as these genres are primarily associated with USA productions. Thus, this entry is incorrect due to the mismatch in genre association per country.",
+      "index": 1301,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Action,Adventure,Fantasy' does not match well with the diverse country origins 'USA,Germany,Canada'. These genres are predominantly associated with USA. Therefore, this entry is a violation.",
+      "index": 1302,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genres 'Documentary,History,War' do not fittingly correspond with 'USA'. Documentaries and war films are common but considering a singular country context without proper justification implies inconsistency in genre representation.",
+      "index": 1303,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Documentary,Drama,Sport' does not typically represent collaborations heavily associated with 'USA' alone as sport dramas lean towards regional or international contexts. Hence, this representation is erroneous.",
+      "index": 1304,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Documentary' for countries 'USA,West Germany' overlooks the diversity of genres that these countries represent, suggesting a genre misalignment.",
+      "index": 1305,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre"
+    },
+    {
+      "explanation": "The entry 'Documentary' for 'New Zealand,USA' lacks matching specificity in documentary genre representation per country leading to inappropriate genre classification considering the countries involved.",
+      "index": 1306,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary (additional genre for NZ)"
+    },
+    {
+      "explanation": "The genres 'Fantasy,Family,Adventure' paired with 'UK,USA,France,Germany,Czech Republic' do not accurately represent typical genre associations with these countries which usually feature different niche or regional specialties. Thus this entry is flagged.",
+      "index": 1307,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "'Documentary,Biography' does not suitably characterize the origin of 'Germany,UK,USA' as documentary styles and biographies have clearer cultural portrayals. Thus this entry is a violation.",
+      "index": 1308,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre"
+    },
+    {
+      "explanation": "The genres 'Drama,Mystery,Romance' do not appropriately match the countries 'UK,Germany,USA'. These countries have large film markets that typically express more defined genre selections, indicating mismatch.",
+      "index": 1309,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'Documentary,Biography,History' does not correctly reflect the cultural production from 'USA,Austria,Germany.' The biographical essence needs stronger geographical commitment. Hence this entry violates the identified dependencies.",
+      "index": 1310,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Adventure,Comedy,Music' incorrectly suggests a partnership with 'USA' without recognizing the varied independent art forms that are more characteristic of diverse collaborations. Thus, an error is indicated.",
+      "index": 1311,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Comedy,Sci-Fi,Fantasy' does not accurately reflect regional productions that align firmly with 'USA', as divergent genres may obscure true country affiliations. An error here exists.",
+      "index": 1312,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The mixture of 'Horror,Mystery & Suspense,Classics,Science Fiction & Fantasy' does not logically align with country 'USA' for such a vast genre, presenting a redundancy that reflects a mismatch of genre identification.",
+      "index": 1313,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Action,Comedy,Adventure' fails to encapsulate a typical representation from 'USA' that would realistically portray unique cultural genre influences. Thus, it stands as an error due to generic oversights.",
+      "index": 1314,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Documentary,Adventure,Biography' appears misleading with 'Israel,USA,South Africa,Germany,Congo' as it does not accurately specify genre associations typical of these countries. Thus, an error is cited.",
+      "index": 1315,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The representation 'Fantasy,Horror,Romance' with 'UK,USA' overlooks regional influences in these genres, negating a proper fit based on typical film market collaborations.",
+      "index": 1316,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified genre based on region."
+    },
+    {
+      "explanation": "Documentary representation 'Documentary,History,War' misses consonance with 'USA' as these are commonly targeted genres requiring more cultural specificity, leading to violation identification.",
+      "index": 1325,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Crime,Western,Drama' fails to correctly align with USA's prolific Westerns thus suggesting a mismatch on specific genre representation relative to its usual productions.",
+      "index": 1326,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre combination 'Action,History,War' paired with 'USA' inadequately reflects the national character and typical thematic narratives present in production history, posing an error due to incorrect association.",
+      "index": 1327,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Crime,Thriller,Mystery' does not suitably characterize productions from 'USA' without reinforcing genre specificities distinct to said origin. Thus, it's flagged as an error.",
+      "index": 1328,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Horror,Mystery' does not accurately align these genres with 'UK,USA' as genre pairings for these regions may typically convey more depth in cultural execution. An error is indicated.",
+      "index": 1329,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Family,Fantasy,Western' lacks grounding due to the vagueness of genre alignment in terms of regional adherence for 'USA', marking it as a likely mischaracterization.",
+      "index": 1330,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genres 'Documentary,Musical & Performing Arts,Art House & International,Special Interest' with 'UK,USA' highly suggest typical British independent or art house styles which may not correlate accurately. This is viewed as an error.",
+      "index": 1331,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Documentary,History,News' does not properly reflect productions associated with 'USA' as it broadly generalizes without context, representing a violation due to genre misalignment.",
+      "index": 1332,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genre 'Documentary' does not effectively correspond with 'USA,Netherlands,UK,Denmark' as it fails to represent the genre diversely across these cultural identities, classifying it as an error.",
+      "index": 1333,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre"
+    },
+    {
+      "explanation": "The entry 'Documentary,History,News' fails to reflect that 'USA,Poland,Japan,Australia,Singapore' typically would portray a better-defined genre specificity when considering national narratives.",
+      "index": 1334,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre."
+    },
+    {
+      "explanation": "The genres 'Comedy,Drama,Sport' do not accurately portray the countries 'UK,USA' since sports dramas have specific national affiliations unlike the generalized representation here. Thus this is marked as an error.",
+      "index": 1335,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The representation 'Horror,Science Fiction & Fantasy,Comedy,Cult Movies' aligns with 'USA' but lacks regional specificity thus indicating an error due to generalization of genre adjuncts.",
+      "index": 1336,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The genres 'Documentary,Biography,Sport' do not suitably define a harmonious relationship with 'UK,France,USA,Brazil' suggesting an overshot on expected cultural representations for these countries. Thus, it identifies an error.",
+      "index": 1337,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre"
+    },
+    {
+      "explanation": "The genre 'Documentary' cannot rightly align with 'USA,Haiti,Norway' given its solitary perspective reduces complexity of documentary focus based on these countries, marking it as an error.",
+      "index": 1338,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre."
+    },
+    {
+      "explanation": "The genre combination 'Musical,Fantasy' does not account realistic expectations of production origin from 'USA' which could be more contextualized thus presenting an ambiguity error.",
+      "index": 1339,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "'Action' does not effectively confer genre alignments with 'USA,Spain' due to lack of contextual understanding for genre representations across these regions, thus reflecting an error.",
+      "index": 1340,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The genres 'Adventure,Animation,Family' capture a potential misalignment with 'USA,Australia', producing an all-encompassing narrative unsuited for expected genre definitions. Thus creates an error.",
+      "index": 1341,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "'Adventure,Fantasy', coupled with 'UK,France,USA' presents discrepancies on genre ancestries leading to cultural misrepresentation. Hence, the entry is incorrectly configured resulting in failure to align.",
+      "index": 1342,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "UK."
+    },
+    {
+      "explanation": "'Western,Crime', with 'USA' fails to correspond to expected narratives or genres typically showcased, indicating a problematic genre classification and rooting—hence projectual deviation is visible.",
+      "index": 1343,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The combination 'Drama,Horror,Thriller' misaligns with 'Canada,USA' as these genres require more focused geographic association than presented here leading to inconsistency reflected as an error.",
+      "index": 1344,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Diversified Genre."
+    },
+    {
+      "explanation": "'Film-Noir,Mystery,Romance' fails to adequately capture the representation of narratives expected from 'USA' while showing genre malalignment, marking potential representation issues as an error.",
+      "index": 1345,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The entry 'Drama' with 'USA,Russia' fails the complex narrative structures commonly portrayed by these nations, indicating a gap in genre understanding—this is marked erroneous.",
+      "index": 1346,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comparative Genre Setup."
+    },
+    {
+      "explanation": "The genres 'Drama,Musical & Performing Arts,Comedy' together with country 'USA' miss geographical complexities, creating an error-trail of genre comprehension through misalignment.",
+      "index": 1347,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The genres 'Action,Crime,Horror' with 'Mexico,USA,Spain' does not correlate suitably with genre trends expected from these nations leading to pronounced error implications.",
+      "index": 1348,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Mexico."
+    },
+    {
+      "explanation": "'Documentary,Biography' tied to 'Germany,USA' can conflict as these genres could involve reader interpretations, demanding more than a straightforward narrative association leading to clear misrepresentation.",
+      "index": 1349,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary based genre contextualizing."
+    },
+    {
+      "explanation": "'Crime,Horror,Thriller' originating from 'Canada,USA' cannot uphold a steady narrative structure tied to the assigned genres marked thus this entry flagged as an inconsistency error.",
+      "index": 1350,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Canada."
+    },
+    {
+      "explanation": "'Horror,Drama' presents likely exaggerated narrative avenues which do not solidly align the countries 'USA', representing mismatched genre coupling—a typical categorical error arises here.",
+      "index": 1351,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "A mismatch occurs with 'Comedy,Horror,Thriller' alongside 'Japan,USA' due to expected alignment failing to emerge as such a genre combination requires local contextualization to bridge sources.",
+      "index": 1352,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Japan."
+    },
+    {
+      "explanation": "'Crime,Drama,Film-Noir' when allocated 'Italy,UK,USA' suggests dual narrative complexities that exceed manageable levels for such composites indicating genre misalignments thus flagged as errors.",
+      "index": 1353,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comparative Genre Studio."
+    },
+    {
+      "explanation": "'Drama,Adventure,War' with 'USA' presents widely misaligned genres indicating discrepancies across commonly recognized theatrical representations leading to observation emergence as an error.",
+      "index": 1354,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "'Western,Drama,Action & Adventure,Classics' does not reliably mirror characteristic expectations for 'USA', thus marking it as an error through realm of inaccurate genre reflections.",
+      "index": 1355,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Genre specificity."
+    },
+    {
+      "explanation": "The genres 'Crime,Thriller' misplaced alongside 'USA,Australia' convey a discord codified in genre arrangement, thereby revealing a miscoordination issue cited as an error.",
+      "index": 1356,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Genre specification for countries."
+    },
+    {
+      "explanation": "'Crime,Drama,Mystery' does not verify cultural representations reflective of 'USA,France' generating genre confusion resulting in violation identifications attributable to genre disparity.",
+      "index": 1357,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "'Action,Fantasy,Thriller' reveals conceptual mismatch with 'USA,United Arab Emirates' reflected in genre affinity exceeding proposed associations leading to violations cited as errors.",
+      "index": 1395,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The entry 'Action,Crime,Fantasy' generated with 'USA' prompts confusion in internal genre categorization suggesting weak alignment with culturally relevant portrayals marking it as an error.",
+      "index": 1396,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "'Action,Adventure,Fantasy' is associated insufficiently with country 'USA,Germany,UK', thus seen as an error due to ineffective genre correlations particularly for those involved.",
+      "index": 1397,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comparative Genre Setup."
+    },
+    {
+      "explanation": "'Action,Drama,Sci-Fi' reflects inadequacies when associated with 'UK,USA' causing confusion due to loosely tied genre parameters leading to misalignment issues viewed as errors.",
+      "index": 1398,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "UK."
+    },
+    {
+      "explanation": "The genres 'Documentary', 'Family', and 'Science Fiction & Fantasy' are not typically represented as prevalent in the USA according to common genre-country associations, whereas 'Horror,Mystery & Suspense' contains invalid characters in a genre entry.",
+      "index": 1490,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The genre 'Western' is not commonly associated with the USA in the context of prevalent genres for media content production.",
+      "index": 1499,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Comedy"
+    },
+    {
+      "explanation": "The genres Horror and Thriller are identified with Japan, but these may not align well with typical Japanese cinema which often includes more cultural and fantastical genres.",
+      "index": 1527,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Drama,Fantasy"
+    },
+    {
+      "explanation": "The genre Kids & Family appears with Germany, which is not commonly associated with this genre type historically and culturally.",
+      "index": 1524,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Family,Animation"
+    },
+    {
+      "explanation": "The genre Science Fiction & Fantasy occurs with USA, but this genre pair is less commonly cited together in relation to the country, suggesting an error in genre classification.",
+      "index": 1569,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Science Fiction,Fantasy"
+    },
+    {
+      "explanation": "The country USA has a broad range of genres, but combining Western with Family may cause a mismatch based on typical use of genres in connection with the country of origin.",
+      "index": 1528,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Family,Adventure,Drama"
+    },
+    {
+      "explanation": "The genre Documentary is listed with a mix of countries such as USA, UK and Canada but can lead to confusion as it typically aligns more closely with specific themes.",
+      "index": 1564,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biography,History,Documentary"
+    },
+    {
+      "explanation": "The country 'Spain' is not typically associated with the Horror genre, leading to a dependency violation with the found genre being 'Adventure' as a strong genre in conjunction with horror.",
+      "index": 1678,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Comedy' is a widely accepted genre; however, it has been paired with 'Russia' in more than one instance suggesting redundancy that does not align with the dependent relationship.",
+      "index": 1699,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action"
+    },
+    {
+      "explanation": "The genre 'Biography' does not typically correspond with the countries USA and UK, as it is more likely to appear in contexts where historical figures or events from those countries are depicted, which is not evidence in the genre provided here. Thus it is considered an error.",
+      "index": 1789,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Documentary"
+    },
+    {
+      "explanation": "The presence of the genre 'Action,Crime,Drama' does not align with the countries USA, Spain, UK, and France as these countries are not necessarily linked to the multiplicity of that genre without a more specific context or titles. It is treated as a mismatch.",
+      "index": 1795,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Adventure"
+    },
+    {
+      "explanation": "The genres listed (Adult, Comedy) are inappropriate since 'Adult' is primarily associated with content intended for adults and does not match typical genres associated with the USA.",
+      "index": 1804,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror' is too narrow when paired with the countries listed (USA, France, Canada) which are known for a variety of genres including Drama and Thriller.",
+      "index": 1822,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Drama"
+    },
+    {
+      "explanation": "'Action & Adventure' contains an invalid character '&' which is not standard for genre naming conventions.",
+      "index": 1834,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The entry for index 1836 uses 'West Germany', which is an outdated term. The entry should use 'Germany' instead since West Germany no longer exists as a separate entity.",
+      "index": 1836,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The combination of genres (Documentary,Horror) does not traditionally pair well, particularly in documented works that do not typically focus on horror themes.",
+      "index": 1863,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary,Drama"
+    }
+  ]
+}

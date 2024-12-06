@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values in the column representing the scheduled departure time have a dependency on the values in the column representing the actual departure time, indicating that they may not always match.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  One column encodes the location using a ZIP code format, while another provides the city, indicating that the ZIP code corresponds to a specific geographic area, implying a dependency based on regional segmentation.
+
+  The following is a formatted table with the unique data to be checked.
+  

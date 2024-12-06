@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The value in the title column suggests the work of a particular writer or director. Therefore, the title of the film (e.g., 'In Dubious Battle') is dependent on the name of the writer or director associated with it (e.g., 'James Franco').
+
+  The following is a formatted table with the unique data to be checked.
+  

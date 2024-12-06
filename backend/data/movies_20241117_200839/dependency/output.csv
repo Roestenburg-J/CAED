@@ -1,0 +1,25 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,Id,Name,"The identifier for the movie in the first column determines the specific movie title present in the second column, indicating a direct relationship between movie identifiers and their corresponding titles."
+1,2,Name,Year,"The title of the movie (column 1) may be dependent on the release year of the movie (column 2), as the title can give insight into the context and events portrayed within the timeline of the film."
+1,3,Name,Release Date,"The title of the film (second column) is closely related to its country of release (fourth column), suggesting that the film takes place in or is associated with that country."
+1,4,Name,Director,The title of the film is related to the director's name as it often determines the creative vision behind the film.
+1,14,Name,Genre,"The title of a movie hints at its genre, showing a likely grouping where certain titles correlate with specific genres."
+1,16,Name,Description,The movie title in the second column gives context to the film's description in the sixteenth column; the narrative and details provided in the description summarize or elaborate on the film's title.
+2,3,Year,Release Date,The year of release in the second column is semantically related to the release date in the third column; the release date indicates a specific time point which can be more detailed than just the year.
+2,10,Year,Duration,"The year of the film's release has an implied relationship with its runtime, suggesting a possible genre or era."
+2,14,Year,Genre,"The year of release (third column) is associated with the film genre (fifteenth column), as certain genres may become popular in specific timeframes."
+2,16,Year,Description,"The plot description (sixteenth column) likely corresponds to the film's year of release (third column), as trends or thematic elements might align with that year's cultural context."
+3,9,Release Date,Country,"The country of release (fourth column) is indicative of the country being the primary production location (tenth column), meaning both columns share a contextual linkage."
+3,10,Release Date,Duration,"The release date of the movie in the third column, when present, suggests a potential runtime in the tenth column, indicating that the movie's release is often associated with its duration."
+4,5,Director,Creator,"The fifth column lists the writers associated with a movie, and the fourth column presents the director; therefore, the director can determine the writers, as it indicates who wrote the movie directed by a specific person."
+6,7,Actors,Cast,"The sixth column contains the main cast of the movie while the seventh column provides the full cast; hence, the main cast is a subset of the full cast, showing a dependency of the main actors on the complete list."
+8,9,Language,Country,"The language of the film (eighth column) is dependent on the country of release (ninth column), with general expectations regarding the primary language being spoken in that country."
+8,16,Language,Description,"The language of the movie (column 8) might indicate a dependency on the synopsis provided (column 16), as the synopsis will reflect cultural aspects and context influenced by the language."
+9,14,Country,Genre,"The country listed in one column may influence or indicate the genre of the movie, as certain countries may have trends in specific movie genres."
+9,15,Country,Filming Locations,"The country indicated in the ninth column (USA) can be tied to the location described in the fifteenth column, suggesting that movies listed are likely tied to locations within the specified country."
+10,11,Duration,RatingValue,"The duration of the film in one column is paired with a rating in another column, suggesting that the film's length may have an influence on its perceived quality."
+10,12,Duration,RatingCount,"The duration of the movie might impact the number of critic ratings it received, suggesting a correlation between the length of the film and its review volume."
+11,12,RatingValue,RatingCount,The average rating of the film might correlate with the number of user and critic reviews.
+13,16,ReviewCount,Description,"The description of the film often includes performance metrics such as user and critic count, which may reflect its reception."
+14,15,Genre,Filming Locations,"The genre of the movie (fourteenth column) is related to the filming location (fifteenth column) as certain genres are more commonly filmed in specific locations, indicating a potential correlation between film genre and filming area."
+14,16,Genre,Description,"The fourteenth column indicates the genres of the movie, while the sixteenth column provides a summary or description; the genres can determine the type of content that is described in the summary."

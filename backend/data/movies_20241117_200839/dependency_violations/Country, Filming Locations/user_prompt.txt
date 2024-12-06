@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The country indicated in the ninth column (USA) can be tied to the location described in the fifteenth column, suggesting that movies listed are likely tied to locations within the specified country.
+
+  The following is a formatted table with the unique data to be checked.
+  

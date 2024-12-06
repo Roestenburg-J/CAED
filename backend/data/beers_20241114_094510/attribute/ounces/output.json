@@ -1,0 +1,64 @@
+{
+  "output": [
+    { "explanation": "", "index": 0, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character: extra period at the end, which deviates from the most common format without an additional period.",
+      "index": 1,
+      "annotation": 1,
+      "possible_repair": "12.0 oz"
+    },
+    { "explanation": "", "index": 2, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character: capitalization of OZ at the end is inconsistent with the majority using 'oz'.",
+      "index": 3,
+      "annotation": 1,
+      "possible_repair": "12.0 oz"
+    },
+    { "explanation": "", "index": 4, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 5, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 6, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character: capitalization of oz at the end is inconsistent; the format is not used commonly.",
+      "index": 7,
+      "annotation": 1,
+      "possible_repair": "16.0 oz"
+    },
+    { "explanation": "", "index": 8, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 9, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character: capitalization of OZ at the end is inconsistent with the majority using 'oz'.",
+      "index": 10,
+      "annotation": 1,
+      "possible_repair": "16.0 oz"
+    },
+    { "explanation": "", "index": 11, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 12, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 13, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 14, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 15, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 16, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Different unit in a non-standard format: 'ounce' instead of 'oz'; 'oz' is the prevalent format",
+      "index": 17,
+      "annotation": 1,
+      "possible_repair": "24.0 oz"
+    },
+    { "explanation": "", "index": 18, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 19, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character: capitalization of OZ at the end is inconsistent with the majority using 'oz'.",
+      "index": 20,
+      "annotation": 1,
+      "possible_repair": "32.0 oz"
+    },
+    { "explanation": "", "index": 21, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 22, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character: capitalization of OZ at the end is inconsistent with the majority using 'oz'.",
+      "index": 23,
+      "annotation": 1,
+      "possible_repair": "19.2 oz"
+    },
+    { "explanation": "", "index": 24, "annotation": 0, "possible_repair": "" }
+  ]
+}

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column representing the type of healthcare system (e.g., 'voluntary non-profit - private') may affect the measures of patient care quality described in the corresponding column (e.g., specific treatment outcomes for heart attacks).
+
+  The following is a formatted table with the unique data to be checked.
+  

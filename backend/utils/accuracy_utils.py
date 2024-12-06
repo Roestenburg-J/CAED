@@ -51,19 +51,14 @@ def calculate_metrics(true_dataset: pd.DataFrame, pred_dataset: pd.DataFrame):
     pr_auc = average_precision_score(y_true, y_pred)
 
     # Count of 1s in true and predicted labels
-    true_positives_count = sum(y_true == 1)  # Total 1s in true labels
-    predicted_positives_count = tp  # Total 1s in predictions
+    predicted_positives_count = sum(y_true == 1)  # Total 1s in true labels
 
     return {
         "accuracy": float(accuracy),
         "precision": float(precision),
         "recall": float(recall),
         "f1_score": float(f1),
-        "class_0_accuracy": float(class_0_accuracy),
-        "class_1_accuracy": float(class_1_accuracy),
         "roc_auc": float(roc_auc),
-        "pr_auc": float(pr_auc),
-        "true_positives_count": int(true_positives_count),
         "predicted_positives_count": int(predicted_positives_count),
     }
 

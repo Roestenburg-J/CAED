@@ -1,0 +1,15 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,index,id,"The first column is an ID, while the second column is another ID that corresponds to a different aspect of the same beer, indicating a possible relational dependency."
+1,3,id,style,The style of the beer (represented as an alcohol type) is likely dependent on the specific beer name. Certain beer names imply specific styles.
+1,5,id,abv,"The value in the column representing the alcohol content percentage appears to be syntactically related to the value in the column representing the number of calories. The higher the alcohol percentage, the higher the calorie count is likely to be."
+1,7,id,brewery-id,The numeric identifier column might depend on the serving size column since certain identifiers might correlate with different serving sizes for a brewery's products.
+2,3,beer-name,style,"The column representing the name of the beer is semantically dependent on the column representing the style of beer, as each specific name corresponds to a particular style."
+3,4,style,ounces,The name of the beer may determine or be related to its style or volume as often the style (Column 3) describes characteristics which are often reflected in the packaging size or volume (Column 4) for certain beers.
+3,7,style,brewery-id,The style of beer could potentially influence the unique identification number assigned to each beer.
+4,5,ounces,abv,"The alcohol content column often varies based on the packaging size and type. Hence, the alcohol percentage may be dependent on the volume description of the beer."
+5,6,abv,ibu,"The fifth column represents alcohol by volume (ABV), and the sixth column displays the bitterness level (measured in IBU). The bitterness level may depend on the alcohol content, indicating a possible dependency between these two."
+6,7,ibu,brewery-id,"The sixth column indicating bitterness level (IBU) may have a dependency with the seventh column which could correspond to an external metric such as customer rating or ranking, suggesting the perception of the beer's bitterness."
+7,8,brewery-id,brewery-name,"The numeric identifier referencing a batch or listing might relate to the name of the brewery column, indicating that beers with the same identifier are produced by the same brewery."
+8,9,brewery-name,city,There is a semantic dependency between the column representing the brewery name and the column representing the city. Each brewery listed corresponds to its specific city.
+8,10,brewery-name,state,"The brewery name (one column) and the state (another column) are semantically dependent, as breweries are often known to be in specific states."
+9,10,city,state,"The city where the brewery is located (column 9) corresponds to the state (column 10), indicating a semantic dependency that helps to identify geographical relationships."

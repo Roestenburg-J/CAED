@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The sixth column indicating bitterness level (IBU) may have a dependency with the seventh column which could correspond to an external metric such as customer rating or ranking, suggesting the perception of the beer's bitterness.
+
+  The following is a formatted table with the unique data to be checked.
+  

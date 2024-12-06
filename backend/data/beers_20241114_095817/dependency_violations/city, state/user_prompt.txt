@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The city where the brewery is located (column 9) corresponds to the state (column 10), indicating a semantic dependency that helps to identify geographical relationships.
+
+  The following is a formatted table with the unique data to be checked.
+  

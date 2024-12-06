@@ -1,0 +1,1137 @@
+{
+  "output": [
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value is null, which is considered correct in any context.",
+      "index": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 2,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 3,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 4,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 5,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 6,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 7,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 8,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 11,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 12,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 13,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 15,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 16,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 17,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 18,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 19,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 20,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 21,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 22,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 23,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 24,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 25,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 26,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 27,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 28,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 29,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 30,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 31,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 32,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 33,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 34,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 35,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 36,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 37,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 38,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 39,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 40,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 41,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 42,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 43,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 44,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 45,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 46,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 47,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 48,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 49,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Pattern does not conform to the common time format (hh:mm a.m./p.m. vs. MM/DD/YY hh:mm a.m.).",
+      "index": 50,
+      "annotation": 1,
+      "possible_repair": "12:00 a.m."
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 51,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 52,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 53,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 54,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 55,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 56,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 57,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 58,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 59,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 60,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 61,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 62,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 63,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 64,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 65,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 66,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 67,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 68,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 69,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 70,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 71,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 72,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 73,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 74,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 75,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 76,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 77,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 78,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 79,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 80,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 81,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Pattern does not conform to the common time format (hh:mm a.m./p.m. vs. MM/DD/YY hh:mm a.m.).",
+      "index": 82,
+      "annotation": 1,
+      "possible_repair": "12:00 a.m."
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 83,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 84,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 85,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 86,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 87,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 88,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 89,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 90,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 91,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 92,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 93,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 94,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 95,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 96,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 97,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 98,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value conforms to the time format; hence, it's correct.",
+      "index": 99,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    { "explanation": "", "index": 100, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 101, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 102, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 103, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 104, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 105, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 106, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 107, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 108, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 109, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 110, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 111, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 112, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 113, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 114, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '10:39 p.m.&nbsp(Estimated)' contains non-standard HTML character '&nbsp' which is not interpreted in context. All other time values follow a standard format without additional characters.",
+      "index": 115,
+      "annotation": 1,
+      "possible_repair": "10:39 p.m. (Estimated)"
+    },
+    { "explanation": "", "index": 116, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 117, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 118, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 119, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 120, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 121, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 122, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 123, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 124, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 125, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 126, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 127, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 128, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 129, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 130, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 131, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 132, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 133, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 134, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 135, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 136, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 137, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 138, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 139, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 140, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 141, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 142, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 143, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 144, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 145, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 146, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 147, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 148, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 149, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 150, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 151, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 152, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 153, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 154, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 155, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 156, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 157, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 158, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 159, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 160, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 161, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 162, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 163, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 164, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 165, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 166, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 167, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 168, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 169, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 170, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 171, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 172, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 173, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 174, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 175, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 176, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 177, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 178, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 179, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 180, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 181, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 182, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 183, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 184, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 185, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 186, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 187, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 188, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 189, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 190, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 191, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 192, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 193, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 194, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 195, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 196, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 197, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 198, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 199, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 200, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 201, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 202, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 203, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 204, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 205, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 206, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 207, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 208, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 209, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 210, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 211, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 212, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 213, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 214, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 215, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 216, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 217, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 218, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 219, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 220, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 221, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 222, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "(Estimated runway) does not conform to the general time format which is HH:MM [am/pm]. This entry has an additional descriptor that breaks the pattern. To repair, this can be shortened back to just the time without the descriptor for consistency.",
+      "index": 223,
+      "annotation": 1,
+      "possible_repair": "10:30 p.m."
+    },
+    {
+      "explanation": "(Estimated runway) does not conform to the general time format which is HH:MM [am/pm]. This entry has an additional descriptor that breaks the pattern. To repair, this can be shortened back to just the time without the descriptor for consistency.",
+      "index": 224,
+      "annotation": 1,
+      "possible_repair": "7:25 p.m."
+    },
+    { "explanation": "", "index": 225, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 226, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 227, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 228, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 229, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 230, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 231, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 232, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 233, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 234, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 235, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 236, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 237, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 238, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 239, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 240, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 241, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 242, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 243, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 244, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 245, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 246, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 247, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 248, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 249, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 250, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 251, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 252, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 253, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 254, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 255,
+      "annotation": 1,
+      "possible_repair": "2:46 p.m."
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 256,
+      "annotation": 1,
+      "possible_repair": "10:08 a.m."
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 257,
+      "annotation": 1,
+      "possible_repair": "7:39 p.m."
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 258,
+      "annotation": 1,
+      "possible_repair": "9:04 a.m."
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 259,
+      "annotation": 1,
+      "possible_repair": "11:06 a.m."
+    },
+    { "explanation": "", "index": 260, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 261, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 262, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 263, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 264, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 265, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 266, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 267, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 268, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 269, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 270, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 271, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 272, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 273, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 274, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "",
+      "index": 275,
+      "annotation": 1,
+      "possible_repair": "10:30 p.m."
+    },
+    {
+      "explanation": "",
+      "index": 276,
+      "annotation": 1,
+      "possible_repair": "Contact Airline."
+    },
+    {
+      "explanation": "",
+      "index": 277,
+      "annotation": 1,
+      "possible_repair": "Dec 02 Not Available."
+    },
+    {
+      "explanation": "",
+      "index": 278,
+      "annotation": 1,
+      "possible_repair": "Dec 02 Contact Airline."
+    },
+    {
+      "explanation": "",
+      "index": 279,
+      "annotation": 1,
+      "possible_repair": "9:19 p.m."
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 280,
+      "annotation": 1,
+      "possible_repair": "9:32 a.m."
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 281,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 282,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 283,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 284,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 285,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 286,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 287,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 288,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 289,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 290,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 291,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 292,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 293,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 294,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 295,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 296,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 297,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 298,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time values with characters such as P or A instead of appropriate spacing and am/pm are not conforming to the general time format which should be HH:MM [am/pm]. A simplest repair would be to add spacing and appropriate lowercase letters for am.",
+      "index": 299,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The time format should separate 'a.m.' or 'p.m.' with a space from the hour and minute, the format '8:02aDec 1' is invalid due to the lack of space between 'a' and 'Dec'.",
+      "index": 300,
+      "annotation": 1,
+      "possible_repair": "8:02 a.m. Dec 1"
+    },
+    {
+      "explanation": "The value '11:06aDec 1' does not conform to the standard time format as it requires a space before 'a.m.','p.m.'.",
+      "index": 301,
+      "annotation": 1,
+      "possible_repair": "11:06 a.m. Dec 1"
+    },
+    {
+      "explanation": "Similar to previous values, '11:01aDec 1' lacks a space before 'a'.",
+      "index": 302,
+      "annotation": 1,
+      "possible_repair": "11:01 a.m. Dec 1"
+    },
+    {
+      "explanation": "The value '10:16aDec 1' does not conform to the expected format, missing a space before 'a.m.' or 'p.m.'.",
+      "index": 303,
+      "annotation": 1,
+      "possible_repair": "10:16 a.m. Dec 1"
+    },
+    {
+      "explanation": "Lacks space before 'a' and 'Dec', thereby not conforming to the standard time format.",
+      "index": 304,
+      "annotation": 1,
+      "possible_repair": "8:06 a.m. Dec 1"
+    },
+    {
+      "explanation": "Similar formatting issue as others with a missing space before 'a.'",
+      "index": 305,
+      "annotation": 1,
+      "possible_repair": "7:40 a.m. Dec 1"
+    },
+    {
+      "explanation": "Missing space before 'a' and 'Dec', does not adhere to time formatting standards.",
+      "index": 306,
+      "annotation": 1,
+      "possible_repair": "6:19 a.m. Dec 1"
+    },
+    {
+      "explanation": "Lacks spacing consistent with time format expectations, thus invalid.",
+      "index": 307,
+      "annotation": 1,
+      "possible_repair": "11:12 a.m. Dec 1"
+    },
+    {
+      "explanation": "It uses an acceptable format ('12:21 a.m.'), but does not align with the prevalent time formats that do not include additional text like 'Dec 1'. No error is present here but later entries might deviate.",
+      "index": 308,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Value '9:52 p.m.' appears correct and consistent with expected time formats established before.",
+      "index": 309,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'6:40 p.m.' follows the expected time format.",
+      "index": 310,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'10:24 p.m.' is conforming to the expected time pattern.",
+      "index": 311,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'6:55 a.m.' is consistent and correct.",
+      "index": 312,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The format '6:23 p.m.' is valid and conforms to the standard.",
+      "index": 313,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'9:08 a.m.' is valid and consistent with the standard formatting seen in earlier values.",
+      "index": 314,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "1:07 p.m. is considered a valid entry, following the expected format.",
+      "index": 315,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'7:35 a.m.' adheres to the expected formatting rules established.",
+      "index": 316,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'2:40 p.m.' conforms with the expected formatting structure.",
+      "index": 317,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'5:27 p.m.' follows the correct structure.",
+      "index": 318,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'1:08 p.m.' is formatted correctly.",
+      "index": 319,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'12:19 a.m.' is a valid structure.",
+      "index": 320,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correct format of '12:01 a.m.' matches expectations.",
+      "index": 321,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'3:40 p.m.' follows the established time format.",
+      "index": 322,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'5:21 a.m.' is valid and conforms to the expected time format.",
+      "index": 323,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'6:56 p.m.' follows the required format and is thus valid.",
+      "index": 324,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Fri Dec 2 12:29 a.m.' is a valid timestamp despite being a different format than the others; thus no error.",
+      "index": 325,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Fri Dec 2 5:11 a.m.' is valid as it represents a timestamp without any formatting issues.",
+      "index": 326,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The phrase '(Estimated runway)' could indicate a context error if there's no logical timing associated, making this entry problematic.",
+      "index": 328,
+      "annotation": 1,
+      "possible_repair": "3:29 p.m."
+    }
+  ]
+}

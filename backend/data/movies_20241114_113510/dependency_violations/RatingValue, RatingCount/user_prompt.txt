@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The rating of the movie (first column) is connected to the number of votes it received (second column), indicating that higher ratings typically result from more viewer votes.
+
+  The following is a formatted table with the unique data to be checked.
+  

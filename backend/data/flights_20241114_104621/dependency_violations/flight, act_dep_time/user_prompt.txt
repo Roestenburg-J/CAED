@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The flight number column could suggest a typical departure time associated with specific routes provided by the airline, indicating a relationship between flight routes and their scheduled departure times.
+
+  The following is a formatted table with the unique data to be checked.
+  

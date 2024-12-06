@@ -1,0 +1,14 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,index,id,"The unique identifier for a beer (one column) can be related to another distinct identifier (another column), indicating that both columns are used to distinguish between different beer records."
+1,3,id,style,"The second column which appears to be a numerical identifier for the beverage may have a dependency on the third column representing the beverage style, suggesting that certain styles are associated with specific identifiers."
+1,5,id,abv,The unique numeric identifier of each beer may relate to the alcohol by volume percentage as a quality or style indicator.
+1,6,id,ibu,The numeric values specifying a unique identifier may correlate with specific entries that may define distinct characteristics or properties represented in another column.
+2,3,beer-name,style,"The name of the beer and its type are semantically dependent, as the name may indicate the specific style of beer."
+2,4,beer-name,ounces,"The beer size might also semantically depend on the beer name, as certain names suggest certain packaging sizes."
+3,8,style,brewery-name,"The type of beer described may be linked to the brewery producing it, as certain breweries specialize in specific types of beer."
+4,5,ounces,abv,The specified quantity described in one column contains a pattern (size) that influences the value of the alcohol by volume percentage represented in the other column.
+5,6,abv,ibu,The alcohol content percentage and the measured value may show a syntactical dependency where specific alcohol content might correlate with a certain measure.
+5,7,abv,brewery-id,"The column representing the alcohol percentage has a dependency on the column indicating a quality score, suggesting that certain alcohol content levels may influence or correlate with higher or lower quality ratings."
+7,8,brewery-id,brewery-name,"The style of the beer and the brewery name reflect a semantic relationship where specific breweries are associated with particular styles; if the ID is the same, the style might not vary from the brewery."
+8,9,brewery-name,city,"The brewery name and its location are semantically dependent, as a particular brewery is likely to operate from a specific city."
+9,10,city,state,The city in one column indicates a geographic region represented by its state in another column.

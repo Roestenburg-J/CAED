@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The year of release in the second column is semantically related to the release date in the third column; the release date indicates a specific time point which can be more detailed than just the year.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The phone number (column 10) may dynamically depend on the type of hospital (column 11), indicating that specific types of hospitals may have standardized or specified numbers.
+
+  The following is a formatted table with the unique data to be checked.
+  

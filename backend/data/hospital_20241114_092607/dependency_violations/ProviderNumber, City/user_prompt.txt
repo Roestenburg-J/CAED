@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The postal code indicates the geographical area for the hospital, which is consistently linked to a specific hospital name in the dataset.
+
+  The following is a formatted table with the unique data to be checked.
+  

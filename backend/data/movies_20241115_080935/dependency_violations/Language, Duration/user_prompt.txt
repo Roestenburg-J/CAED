@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The language of the film (eighth column) is semantically connected to its duration (tenth column), where a particular language often appears in certain duration constraints.
+
+  The following is a formatted table with the unique data to be checked.
+  

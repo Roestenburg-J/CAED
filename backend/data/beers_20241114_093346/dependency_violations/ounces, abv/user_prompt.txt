@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The description of container size (described in the fourth column) might imply an expected alcohol content representation (described in the fifth column). There is a clear pattern of container size being consistent with the representation of the alcohol percentage.
+
+  The following is a formatted table with the unique data to be checked.
+  

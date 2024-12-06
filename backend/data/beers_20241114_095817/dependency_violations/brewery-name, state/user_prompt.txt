@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The brewery name (one column) and the state (another column) are semantically dependent, as breweries are often known to be in specific states.
+
+  The following is a formatted table with the unique data to be checked.
+  

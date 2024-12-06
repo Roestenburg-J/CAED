@@ -1,0 +1,5 @@
+column_1_name,column_2_name,column_1_count,column_2_count,dependency
+article_jcreated_at,article_jissue,3,22,"article_jissue, article_jcreated_at"
+article_jcreated_at,article_jvolumn,9,50,"article_jvolumn, article_jcreated_at"
+article_jissue,article_jvolumn,38,7,"article_jvolumn, article_jissue"
+article_jvolumn,journal_issn,1,67,"journal_issn, article_jvolumn"

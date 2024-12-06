@@ -1,0 +1,20 @@
+{
+  "output": [
+    {
+      "columns": [2, 3],
+      "dependency": "The first column represents a flight code that likely relates to specific departure and arrival times as shown in the second column."
+    },
+    {
+      "columns": [2, 4],
+      "dependency": "The flight code in the first column relates to specific departure and arrival times presented in the third column."
+    },
+    {
+      "columns": [2, 5],
+      "dependency": "The flight code in the first column correlates with arrival timings in the fourth column."
+    },
+    {
+      "columns": [2, 6],
+      "dependency": "The flight code in the first column is connected to additional arrival timings in the fifth column."
+    }
+  ]
+}

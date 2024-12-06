@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The scheduled arrival times (column) and the actual arrival times logged might correspond based on the same flight reference, where the first indicates expectation and the second indicates reality.
+
+  The following is a formatted table with the unique data to be checked.
+  

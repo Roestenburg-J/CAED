@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The geographical area where the hospital is located has a direct relationship with the state code represented in a different column.
+
+  The following is a formatted table with the unique data to be checked.
+  

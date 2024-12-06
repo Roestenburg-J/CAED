@@ -1,0 +1,6 @@
+column_1_name,column_2_name,column_1_count,column_2_count,dependency
+article_jcreated_at,article_pagination,27,86,"article_jcreated_at, article_pagination"
+article_jcreated_at,article_jissue,99,6,"article_jissue, article_jcreated_at"
+article_jissue,article_jvolumn,2,29,"article_jvolumn, article_jissue"
+article_pagination,author_list,58,7,"article_pagination, author_list"
+article_jvolumn,journal_issn,1,44,"journal_issn, article_jvolumn"

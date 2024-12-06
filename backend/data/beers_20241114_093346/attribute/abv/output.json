@@ -1,0 +1,414 @@
+{
+  "output": [
+    { "explanation": "", "index": 0, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 1, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 2, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.09%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.09'.",
+      "index": 3,
+      "annotation": 1,
+      "possible_repair": "0.09"
+    },
+    { "explanation": "", "index": 4, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 5, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.045%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.045'.",
+      "index": 6,
+      "annotation": 1,
+      "possible_repair": "0.045"
+    },
+    { "explanation": "", "index": 7, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 8, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 9, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 10, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 11, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.069%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.069'.",
+      "index": 12,
+      "annotation": 1,
+      "possible_repair": "0.069"
+    },
+    { "explanation": "", "index": 13, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.061%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.061'.",
+      "index": 14,
+      "annotation": 1,
+      "possible_repair": "0.061"
+    },
+    { "explanation": "", "index": 15, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.082' has no issue and fits the common pattern of numeric values. However, '0.099' is correct but less prevalent compared to values that don't include a percentage. Therefore, it is also acceptable as a numeric value without any needed change.",
+      "index": 16,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    { "explanation": "", "index": 17, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 18, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 19, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 20, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.049%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.049'.",
+      "index": 21,
+      "annotation": 1,
+      "possible_repair": "0.049"
+    },
+    { "explanation": "", "index": 22, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.07%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.07'.",
+      "index": 23,
+      "annotation": 1,
+      "possible_repair": "0.07"
+    },
+    { "explanation": "", "index": 24, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.079%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.079'.",
+      "index": 25,
+      "annotation": 1,
+      "possible_repair": "0.079"
+    },
+    {
+      "explanation": "The value '0.068%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.068'.",
+      "index": 26,
+      "annotation": 1,
+      "possible_repair": "0.068"
+    },
+    { "explanation": "", "index": 27, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 28, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.055%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.055'.",
+      "index": 30,
+      "annotation": 1,
+      "possible_repair": "0.055"
+    },
+    { "explanation": "", "index": 31, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 32, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.046%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.046'.",
+      "index": 33,
+      "annotation": 1,
+      "possible_repair": "0.046"
+    },
+    {
+      "explanation": "The value '0.052000000000000005%' includes numerous trailing zeros that make it unconventional in form. It may be more suitable to convert it to '0.052'.",
+      "index": 34,
+      "annotation": 1,
+      "possible_repair": "0.052"
+    },
+    { "explanation": "", "index": 35, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 36, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 37, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 38, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 39, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 40, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.125%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.125'.",
+      "index": 41,
+      "annotation": 1,
+      "possible_repair": "0.125"
+    },
+    { "explanation": "", "index": 42, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 43, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.051%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.051'.",
+      "index": 44,
+      "annotation": 1,
+      "possible_repair": "0.051"
+    },
+    {
+      "explanation": "The value '0.065%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. As such, it represents non-conformity to numeric values which are more prevalent. A possible repair could be to represent it as '0.065'.",
+      "index": 45,
+      "annotation": 1,
+      "possible_repair": "0.065"
+    },
+    { "explanation": "", "index": 46, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 47, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 48, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 49, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 50, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.059000000000000004%' includes trailing zeros that are not conventional. A reduction to '0.059' is more appropriate.",
+      "index": 51,
+      "annotation": 1,
+      "possible_repair": "0.059"
+    },
+    {
+      "explanation": "The value '0.055999999999999994%' includes countless trailing nines making it unconventional. It could be simplified to '0.056'.",
+      "index": 52,
+      "annotation": 1,
+      "possible_repair": "0.056"
+    },
+    {
+      "explanation": "The value '0.048%' combines a numeric value with a percentage sign, representing a deviation from the numeric norm. Repairing this as '0.048' would align it with usual patterns.",
+      "index": 53,
+      "annotation": 1,
+      "possible_repair": "0.048"
+    },
+    { "explanation": "", "index": 54, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 55, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.057999999999999996%' includes trailing nines that are unconventional in form. It can be approximated to '0.058'.",
+      "index": 56,
+      "annotation": 1,
+      "possible_repair": "0.058"
+    },
+    { "explanation": "", "index": 57, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.054000000000000006%' seems excessive in its number of decimal places and can be simplified to '0.054'.",
+      "index": 58,
+      "annotation": 1,
+      "possible_repair": "0.054"
+    },
+    {
+      "explanation": "The value '0.047%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A possible repair could be to represent it as '0.047'.",
+      "index": 59,
+      "annotation": 1,
+      "possible_repair": "0.047"
+    },
+    {
+      "explanation": "The value '0.05%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A possible repair could be to represent it as '0.05'.",
+      "index": 60,
+      "annotation": 1,
+      "possible_repair": "0.05"
+    },
+    { "explanation": "", "index": 61, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.085%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A possible repair could be to represent it as '0.085'.",
+      "index": 62,
+      "annotation": 1,
+      "possible_repair": "0.085"
+    },
+    { "explanation": "", "index": 63, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.06%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A possible repair could be to represent it as '0.06'.",
+      "index": 64,
+      "annotation": 1,
+      "possible_repair": "0.06"
+    },
+    { "explanation": "", "index": 65, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 66, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.048' is acceptable but the value '0.08199999999999999%' includes numerous trailing nines which are non-standard. Simply adjusting it to '0.082' would be an appropriate fix.",
+      "index": 68,
+      "annotation": 1,
+      "possible_repair": "0.082"
+    },
+    {
+      "explanation": "Both '0.062%' represents a deviation to the common numeric form and could simply be '0.062'.",
+      "index": 69,
+      "annotation": 1,
+      "possible_repair": "0.062"
+    },
+    {
+      "explanation": "The value '0.051' has no issue; it fits the numeric pattern properly.",
+      "index": 70,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The value '0.08%' combines a numeric value with a percentage sign which is generally less common than pure numeric values. Repairing this can just be a numeric replacement to '0.08'.",
+      "index": 71,
+      "annotation": 1,
+      "possible_repair": "0.08"
+    },
+    { "explanation": "", "index": 72, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 73, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 74, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 75, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.044000000000000004%' includes trailing extraneous digits that are less typical; thus, changing it to '0.044' is more suitable.",
+      "index": 76,
+      "annotation": 1,
+      "possible_repair": "0.044"
+    },
+    { "explanation": "", "index": 77, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 78, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.067%' combines a numeric value with a percentage sign, which is acceptable but deviates from a more common numeric-only format. It can be simply '0.067'.",
+      "index": 79,
+      "annotation": 1,
+      "possible_repair": "0.067"
+    },
+    { "explanation": "", "index": 80, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.078%' combines a numeric value with a percentage sign, being less common than pure numeric values. Therefore, it can just be '0.078'.",
+      "index": 81,
+      "annotation": 1,
+      "possible_repair": "0.078"
+    },
+    { "explanation": "", "index": 82, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.095%' combines a numeric value with a percentage sign, leading to potential unalignment with pure numeric values. Fixing this can simplify it to '0.095'.",
+      "index": 83,
+      "annotation": 1,
+      "possible_repair": "0.095"
+    },
+    { "explanation": "", "index": 84, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.099%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A possible repair could be to represent it as '0.099'.",
+      "index": 85,
+      "annotation": 1,
+      "possible_repair": "0.099"
+    },
+    { "explanation": "", "index": 86, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 87, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.073%' combines a numeric value with a percentage sign, which can complicate alignment with prevalent numeric patterns. The simpler format of '0.073' is preferable.",
+      "index": 88,
+      "annotation": 1,
+      "possible_repair": "0.073"
+    },
+    { "explanation": "", "index": 89, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 90, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.042%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A repair could be to set this to '0.042'.",
+      "index": 91,
+      "annotation": 1,
+      "possible_repair": "0.042"
+    },
+    {
+      "explanation": "The value '0.064%' combines a numeric value with a percentage sign which is less common than pure numeric entries. This could be adjusted to '0.064'.",
+      "index": 92,
+      "annotation": 1,
+      "possible_repair": "0.064"
+    },
+    {
+      "explanation": "The value '0.066%' also combines a numeric value with a percentage sign which is acceptable but not prevalent. Changing it to '0.066' would align it better with the rest of the data.",
+      "index": 93,
+      "annotation": 1,
+      "possible_repair": "0.066"
+    },
+    {
+      "explanation": "The value '0.040999999999999995%' involves excessive trailing digits, so it could be formatted to '0.041' for simplicity and clearer understanding.",
+      "index": 94,
+      "annotation": 1,
+      "possible_repair": "0.041"
+    },
+    { "explanation": "", "index": 95, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 96, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.092%' combines a numeric value with a percentage but deviates from standard numeric values, thus it should be adjusted to '0.092'.",
+      "index": 97,
+      "annotation": 1,
+      "possible_repair": "0.092"
+    },
+    {
+      "explanation": "The value '0.053%' combines a numeric value with a percentage sign which is acceptable but less common than pure numeric values. A repair could be to set this to '0.053'.",
+      "index": 98,
+      "annotation": 1,
+      "possible_repair": "0.053"
+    },
+    {
+      "explanation": "A value like '0.043%' combines a numeric value with a percentage, representing a deviation. This should be formatted to '0.043'.",
+      "index": 99,
+      "annotation": 1,
+      "possible_repair": "0.043"
+    },
+    { "explanation": "", "index": 100, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 101, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.07200000000000001%' has excessive trailing digits that should be rounded to a more cleaner format like '0.072'.",
+      "index": 102,
+      "annotation": 1,
+      "possible_repair": "0.072"
+    },
+    {
+      "explanation": "The value '0.075%' combines a numeric value with a percentage sign and can be simplified to '0.075'.",
+      "index": 103,
+      "annotation": 1,
+      "possible_repair": "0.075"
+    },
+    {
+      "explanation": "The value '0.063%' combines a numeric value with a percentage sign which is less common so should be adjusted to '0.063'.",
+      "index": 104,
+      "annotation": 1,
+      "possible_repair": "0.063"
+    },
+    { "explanation": "", "index": 105, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.04%' combines a numeric value with a percentage that deviates from the common format; it could be simplified to '0.04'.",
+      "index": 106,
+      "annotation": 1,
+      "possible_repair": "0.04"
+    },
+    { "explanation": "", "index": 107, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.071%' combines a numeric value with a percentage sign which is acceptable, but could be made simpler as '0.071'.",
+      "index": 108,
+      "annotation": 1,
+      "possible_repair": "0.071"
+    },
+    {
+      "explanation": "The value '0.07400000000000001%' again features trailing digits extensively and could be safely rounded off to '0.074'.",
+      "index": 109,
+      "annotation": 1,
+      "possible_repair": "0.074"
+    },
+    { "explanation": "", "index": 110, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 111, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.087%' is less typical than a plain numeric format and should ideally be adjusted to '0.087'.",
+      "index": 112,
+      "annotation": 1,
+      "possible_repair": "0.087"
+    },
+    { "explanation": "", "index": 113, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.039%' combines a numeric value with a percentage, shifting away from the norm. Adjusting this to '0.039' would align it better with common data formats.",
+      "index": 114,
+      "annotation": 1,
+      "possible_repair": "0.039"
+    },
+    {
+      "explanation": "The value '0.09300000000000001%' abuses the trailing digits again and should read as '0.093' for clarity.",
+      "index": 115,
+      "annotation": 1,
+      "possible_repair": "0.093"
+    },
+    {
+      "explanation": "The value '0.09699999999999999%' has excessive trailing digits which make it unclear; it can be simplified to '0.097'.",
+      "index": 116,
+      "annotation": 1,
+      "possible_repair": "0.097"
+    },
+    { "explanation": "", "index": 117, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.086%' similarly combines a numeric value with a percentage, unaligned to more common numeric patterns; adjusting to '0.086' would help.",
+      "index": 118,
+      "annotation": 1,
+      "possible_repair": "0.086"
+    },
+    {
+      "explanation": "The value '0.034' has no error since it fits well within typical numeric boundaries but '0.087%' may need slight adjustment to become '0.087'.",
+      "index": 119,
+      "annotation": 1,
+      "possible_repair": "0.087"
+    },
+    { "explanation": "", "index": 120, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "The value '0.035%' deviates from normal numeric formats and can be adjusted to '0.035' for better clarity.",
+      "index": 121,
+      "annotation": 1,
+      "possible_repair": "0.035"
+    },
+    {
+      "explanation": "The value '0.091%' could be adjusted to simply '0.091' which represents consistency with numeric formatting.",
+      "index": 122,
+      "annotation": 1,
+      "possible_repair": "0.091"
+    },
+    {
+      "explanation": "A value like '0.08900000000000001%' also has too many trailing digits and needs correction to '0.089'.",
+      "index": 123,
+      "annotation": 1,
+      "possible_repair": "0.089"
+    },
+    { "explanation": "", "index": 124, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 125, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 126, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 127, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 128, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 129, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 130, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 131, "annotation": 0, "possible_repair": "" }
+  ]
+}

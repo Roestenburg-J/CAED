@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The type of hospital organization classified in one column generally reflects the nature of care types provided, evident through the hospital's services indicated in another.
+
+  The following is a formatted table with the unique data to be checked.
+  

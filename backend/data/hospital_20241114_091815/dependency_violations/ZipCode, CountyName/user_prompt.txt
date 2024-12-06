@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The postal code in the eighth column is linked to the city name in the ninth column, indicating that the zip code is relevant to the specific locality mentioned.
+
+  The following is a formatted table with the unique data to be checked.
+  

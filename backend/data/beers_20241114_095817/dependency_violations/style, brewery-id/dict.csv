@@ -1,0 +1,2411 @@
+style,brewery-id,original_index,unique_index
+American Pale Lager,408,0,0
+American Pale Ale (APA),177,1,1
+American IPA,177,2,2
+American Double / Imperial IPA,177,3,3
+American IPA,177,4,2
+Oatmeal Stout,177,5,4
+American Pale Ale (APA),177,6,1
+American Porter,177,7,5
+American Pale Ale (APA),177,8,1
+American Double / Imperial IPA,177,9,3
+Saison / Farmhouse Ale,177,10,6
+Saison / Farmhouse Ale,177,11,6
+Saison / Farmhouse Ale,177,12,6
+Belgian IPA,177,13,7
+American Pale Ale (APA),177,14,1
+Cider,154,15,8
+Cider,154,16,8
+Cider,154,17,8
+Cider,154,18,8
+Baltic Porter,368,19,9
+Tripel,368,20,10
+American Barleywine,368,21,11
+Winter Warmer,368,22,12
+American Stout,368,23,13
+American Pale Ale (APA),368,24,14
+Fruit / Vegetable Beer,368,25,15
+Fruit / Vegetable Beer,368,26,15
+Fruit / Vegetable Beer,368,27,15
+American IPA,368,28,16
+American IPA,368,29,16
+American IPA,368,30,16
+English Strong Ale,368,31,17
+American Double / Imperial IPA,368,32,18
+American Pale Ale (APA),368,33,14
+Winter Warmer,368,34,12
+American Black Ale,368,35,19
+Belgian Dark Ale,368,36,20
+American IPA,368,37,16
+Fruit / Vegetable Beer,368,38,15
+American IPA,67,39,21
+American Blonde Ale,67,40,22
+American Amber / Red Ale,67,41,23
+Berliner Weissbier,60,42,24
+American Blonde Ale,60,43,25
+American Brown Ale,60,44,26
+American Amber / Red Ale,60,45,27
+American Black Ale,60,46,28
+American IPA,60,47,29
+American IPA,60,48,29
+American Pale Wheat Ale,60,49,30
+American IPA,27,50,31
+American IPA,27,51,31
+Belgian Strong Dark Ale,27,52,32
+American IPA,27,53,31
+English Strong Ale,27,54,33
+Kölsch,27,55,34
+Belgian Dark Ale,27,56,35
+American IPA,481,57,36
+English Pale Ale,481,58,37
+English Pale Ale,481,59,37
+American Double / Imperial IPA,481,60,38
+Berliner Weissbier,373,61,39
+American Amber / Red Lager,462,62,40
+American Amber / Red Lager,462,63,40
+American IPA,533,64,41
+Fruit / Vegetable Beer,533,65,42
+American Amber / Red Lager,533,66,43
+American IPA,62,67,44
+American Brown Ale,62,68,45
+American Double / Imperial IPA,1,69,46
+English Barleywine,1,70,47
+Milk / Sweet Stout,1,71,48
+American Pale Ale (APA),1,72,49
+German Pilsener,1,73,50
+Pumpkin Ale,1,74,51
+Belgian Pale Ale,1,75,52
+American Pilsner,1,76,53
+American Double / Imperial IPA,1,77,46
+Saison / Farmhouse Ale,1,78,54
+American Wild Ale,1,79,55
+American IPA,1,80,56
+English Brown Ale,1,81,57
+American Stout,367,82,58
+American Pale Ale (APA),367,83,59
+American Pilsner,367,84,60
+American Pilsner,117,85,61
+American Pale Ale (APA),117,86,62
+American Double / Imperial IPA,117,87,63
+American Pale Ale (APA),270,88,64
+Altbier,270,89,65
+American Pale Ale (APA),73,90,66
+Kölsch,388,91,67
+American IPA,388,92,68
+American Pale Ale (APA),401,93,69
+American IPA,401,94,70
+American IPA,401,95,70
+American IPA,35,96,71
+American IPA,35,97,71
+American Pale Wheat Ale,35,98,72
+American Amber / Red Lager,35,99,73
+California Common / Steam Beer,35,100,74
+Gose,171,101,75
+American Pale Ale (APA),171,102,76
+Gose,171,103,75
+Pumpkin Ale,171,104,77
+Oatmeal Stout,171,105,78
+Cream Ale,171,106,79
+American IPA,171,107,80
+American Amber / Red Ale,171,108,81
+Oatmeal Stout,171,109,78
+Vienna Lager,171,110,82
+American Amber / Red Ale,171,111,81
+Cream Ale,171,112,79
+Oatmeal Stout,171,113,78
+Winter Warmer,171,114,83
+American IPA,171,115,80
+American Amber / Red Ale,171,116,81
+Cream Ale,171,117,79
+American Pale Ale (APA),171,118,76
+American IPA,146,119,84
+American Pale Ale (APA),542,120,85
+Oatmeal Stout,542,121,86
+Cider,434,122,87
+Cider,434,123,87
+Cider,434,124,87
+Belgian Pale Ale,193,125,88
+Witbier,193,126,89
+American Stout,193,127,90
+American IPA,69,128,91
+American Blonde Ale,69,129,92
+American Porter,69,130,93
+American Pale Ale (APA),541,131,94
+American Pale Wheat Ale,541,132,95
+American Pale Ale (APA),513,133,96
+American Double / Imperial Stout,426,134,97
+Saison / Farmhouse Ale,426,135,98
+Gose,461,136,99
+American IPA,429,137,100
+Kölsch,528,138,101
+American Porter,528,139,102
+American IPA,528,140,103
+Kölsch,353,141,104
+American IPA,353,142,105
+American Amber / Red Ale,353,143,106
+American Blonde Ale,523,144,107
+American IPA,523,145,108
+American Stout,374,146,109
+American Double / Imperial IPA,374,147,110
+American Porter,374,148,111
+American Amber / Red Ale,374,149,112
+American Double / Imperial IPA,72,150,113
+American Porter,72,151,114
+Fruit / Vegetable Beer,72,152,115
+American Blonde Ale,72,153,116
+American IPA,72,154,117
+Munich Helles Lager,72,155,118
+American Black Ale,413,156,119
+American IPA,413,157,120
+American Pale Ale (APA),413,158,121
+German Pilsener,413,159,122
+Schwarzbier,413,160,123
+American Double / Imperial IPA,37,161,124
+Saison / Farmhouse Ale,37,162,125
+German Pilsener,37,163,126
+Witbier,37,164,127
+American IPA,37,165,128
+American Brown Ale,37,166,129
+Pumpkin Ale,360,167,130
+Märzen / Oktoberfest,360,168,131
+American Pale Wheat Ale,360,169,132
+American IPA,360,170,133
+Tripel,360,171,134
+American Amber / Red Ale,360,172,135
+American Double / Imperial IPA,235,173,136
+American Porter,235,174,137
+American Blonde Ale,235,175,138
+American IPA,235,176,139
+American Amber / Red Ale,235,177,140
+English Brown Ale,286,178,141
+American Pale Ale (APA),286,179,142
+American IPA,483,180,143
+American Pale Ale (APA),483,181,144
+American IPA,34,182,145
+American IPA,34,183,145
+Kölsch,34,184,146
+American IPA,34,185,145
+Munich Helles Lager,34,186,147
+American IPA,34,187,145
+Extra Special / Strong Bitter (ESB),318,188,148
+Rye Beer,318,189,149
+American Amber / Red Ale,318,190,150
+American IPA,20,191,151
+American IPA,251,192,152
+American Blonde Ale,251,193,153
+American Pilsner,116,194,154
+American IPA,116,195,155
+American Pale Lager,116,196,156
+Witbier,116,197,157
+Euro Dark Lager,116,198,158
+California Common / Steam Beer,258,199,159
+American IPA,258,200,160
+Schwarzbier,258,201,161
+German Pilsener,258,202,162
+California Common / Steam Beer,292,203,163
+Hefeweizen,292,204,164
+American Pale Wheat Ale,292,205,165
+Foreign / Export Stout,292,206,166
+Rye Beer,292,207,167
+American Pale Wheat Ale,292,208,165
+American Amber / Red Ale,292,209,168
+American Pale Ale (APA),292,210,169
+American IPA,292,211,170
+American Double / Imperial IPA,306,212,171
+Fruit / Vegetable Beer,103,213,172
+American Pale Ale (APA),103,214,173
+American IPA,103,215,174
+Other,103,216,175
+American Pale Wheat Ale,76,217,176
+Rye Beer,76,218,177
+Witbier,76,219,178
+American Pale Wheat Ale,76,220,176
+American IPA,76,221,179
+American Brown Ale,76,222,180
+English India Pale Ale (IPA),53,223,181
+American Double / Imperial IPA,53,224,182
+American Blonde Ale,53,225,183
+American Black Ale,75,226,184
+American IPA,75,227,185
+Extra Special / Strong Bitter (ESB),75,228,186
+American IPA,75,229,185
+American Black Ale,75,230,184
+German Pilsener,75,231,187
+English India Pale Ale (IPA),278,232,188
+American Pale Ale (APA),278,233,189
+American IPA,463,234,190
+Czech Pilsener,463,235,191
+American Porter,463,236,192
+Hefeweizen,463,237,193
+American Blonde Ale,463,238,194
+American Strong Ale,220,239,195
+American Double / Imperial IPA,220,240,196
+California Common / Steam Beer,220,241,197
+American Amber / Red Ale,220,242,198
+American IPA,477,243,199
+American Stout,477,244,200
+Saison / Farmhouse Ale,477,245,201
+American Stout,8,246,202
+American IPA,8,247,203
+Fruit / Vegetable Beer,40,248,204
+American IPA,40,249,205
+Czech Pilsener,519,250,206
+American IPA,519,251,207
+American IPA,336,252,208
+English Pale Ale,336,253,209
+American Pale Wheat Ale,336,254,210
+American Brown Ale,336,255,211
+English Strong Ale,336,256,212
+American Brown Ale,336,257,211
+American Pale Wheat Ale,336,258,210
+American IPA,336,259,208
+American Blonde Ale,336,260,213
+English Pale Ale,336,261,209
+American Pale Wheat Ale,336,262,210
+American Brown Ale,336,263,211
+American IPA,221,264,214
+American Amber / Red Ale,221,265,215
+American Pale Ale (APA),444,266,216
+Rye Beer,444,267,217
+American Double / Imperial IPA,444,268,218
+Oatmeal Stout,444,269,219
+American IPA,444,270,220
+American Pale Ale (APA),70,271,221
+American Brown Ale,407,272,222
+American Pale Ale (APA),407,273,223
+American Blonde Ale,407,274,224
+Rye Beer,18,275,225
+American Blonde Ale,112,276,226
+American IPA,112,277,227
+Hefeweizen,112,278,228
+American Pale Ale (APA),112,279,229
+American Strong Ale,294,280,230
+American Porter,294,281,231
+Saison / Farmhouse Ale,294,282,232
+American Amber / Red Ale,294,283,233
+American Brown Ale,79,284,234
+American Amber / Red Ale,79,285,235
+Rye Beer,95,286,236
+American IPA,12,287,237
+Foreign / Export Stout,12,288,238
+American Pale Wheat Ale,12,289,239
+American Brown Ale,12,290,240
+American IPA,12,291,237
+Cream Ale,12,292,241
+American Pale Wheat Ale,380,293,242
+American Pilsner,380,294,243
+American Brown Ale,380,295,244
+American Amber / Red Ale,380,296,245
+American Double / Imperial IPA,380,297,246
+German Pilsener,380,298,247
+American Double / Imperial IPA,380,299,246
+American Stout,380,300,248
+Saison / Farmhouse Ale,380,301,249
+American Pale Ale (APA),380,302,250
+Extra Special / Strong Bitter (ESB),380,303,251
+Extra Special / Strong Bitter (ESB),380,304,251
+Extra Special / Strong Bitter (ESB),380,305,251
+American Pale Ale (APA),380,306,250
+Mead,422,307,252
+Mead,422,308,252
+American Double / Imperial IPA,304,309,253
+American Pale Ale (APA),382,310,254
+Extra Special / Strong Bitter (ESB),382,311,255
+Euro Pale Lager,382,312,256
+American Pale Ale (APA),382,313,254
+Kölsch,414,314,257
+American Stout,77,315,258
+American Pale Wheat Ale,77,316,259
+American Amber / Red Ale,77,317,260
+American Pale Ale (APA),77,318,261
+American Black Ale,489,319,262
+American White IPA,489,320,263
+American Blonde Ale,489,321,264
+Vienna Lager,489,322,265
+Dortmunder / Export Lager,364,323,266
+Altbier,364,324,267
+Schwarzbier,364,325,268
+Czech Pilsener,364,326,269
+Vienna Lager,364,327,270
+American IPA,378,328,271
+Cream Ale,378,329,272
+American Brown Ale,378,330,273
+American IPA,281,331,274
+Irish Dry Stout,281,332,275
+Munich Helles Lager,525,333,276
+Munich Helles Lager,525,334,276
+American IPA,107,335,277
+Scotch Ale / Wee Heavy,107,336,278
+Czech Pilsener,107,337,279
+Märzen / Oktoberfest,107,338,280
+English India Pale Ale (IPA),107,339,281
+American Blonde Ale,107,340,282
+American IPA,107,341,277
+American Blonde Ale,107,342,282
+American Blonde Ale,107,343,282
+Extra Special / Strong Bitter (ESB),107,344,283
+Munich Dunkel Lager,107,345,284
+American Pale Ale (APA),107,346,285
+Winter Warmer,107,347,286
+American Porter,107,348,287
+American Pale Ale (APA),107,349,285
+American Brown Ale,107,350,288
+Czech Pilsener,107,351,279
+American Blonde Ale,107,352,282
+American IPA,107,353,277
+American Porter,231,354,289
+Radler,300,355,290
+American IPA,300,356,291
+Witbier,300,357,292
+Bock,300,358,293
+Vienna Lager,300,359,294
+Vienna Lager,300,360,294
+Märzen / Oktoberfest,300,361,295
+American Pale Wheat Ale,300,362,296
+Vienna Lager,300,363,294
+American Pale Ale (APA),417,364,297
+American Pale Ale (APA),417,365,297
+American Pale Ale (APA),417,366,297
+American IPA,31,367,298
+American Pale Ale (APA),167,368,299
+American IPA,167,369,300
+English Dark Mild Ale,167,370,301
+American Porter,219,371,302
+American Porter,219,372,302
+American IPA,219,373,303
+Hefeweizen,219,374,304
+American Amber / Red Ale,219,375,305
+American Amber / Red Ale,207,376,306
+Kölsch,195,377,307
+American Pale Wheat Ale,391,378,308
+American Pale Wheat Ale,391,379,308
+American IPA,391,380,309
+American Amber / Red Ale,391,381,310
+Fruit / Vegetable Beer,308,382,311
+American IPA,308,383,312
+Irish Red Ale,308,384,313
+American Pale Wheat Ale,308,385,314
+American Pale Ale (APA),19,386,315
+American Amber / Red Ale,85,387,316
+Saison / Farmhouse Ale,10,388,317
+Belgian Pale Ale,10,389,318
+American Double / Imperial Stout,10,390,319
+American IPA,10,391,320
+Rauchbier,10,392,321
+Bière de Garde,10,393,322
+Belgian IPA,10,394,323
+Doppelbock,10,395,324
+Saison / Farmhouse Ale,10,396,317
+Witbier,10,397,325
+Belgian IPA,10,398,323
+Saison / Farmhouse Ale,10,399,317
+Belgian IPA,10,400,323
+Saison / Farmhouse Ale,10,401,317
+Rye Beer,10,402,326
+Dunkelweizen,10,403,327
+Belgian Strong Pale Ale,10,404,328
+Dubbel,10,405,329
+Belgian Dark Ale,10,406,330
+Belgian Dark Ale,10,407,330
+Belgian Pale Ale,10,408,318
+Witbier,10,409,325
+Oatmeal Stout,10,410,331
+American Porter,10,411,332
+Quadrupel (Quad),10,412,333
+Rauchbier,10,413,321
+Belgian IPA,10,414,323
+Belgian Dark Ale,10,415,330
+Belgian IPA,10,416,323
+Rye Beer,10,417,326
+American Stout,10,418,334
+Fruit / Vegetable Beer,10,419,335
+Belgian Dark Ale,10,420,330
+Belgian Dark Ale,10,421,330
+Belgian Pale Ale,10,422,318
+Bière de Garde,10,423,322
+Belgian Dark Ale,10,424,330
+Witbier,10,425,325
+American Stout,10,426,334
+Belgian IPA,10,427,323
+American Wild Ale,10,428,336
+Fruit / Vegetable Beer,10,429,335
+American Double / Imperial IPA,10,430,337
+Bière de Garde,10,431,322
+American Black Ale,10,432,338
+Saison / Farmhouse Ale,10,433,317
+Tripel,10,434,339
+Belgian Dark Ale,10,435,330
+American Amber / Red Ale,10,436,340
+Quadrupel (Quad),10,437,333
+American Double / Imperial Stout,10,438,319
+American Wild Ale,10,439,336
+Bière de Garde,10,440,322
+Russian Imperial Stout,10,441,341
+American Amber / Red Ale,10,442,340
+Saison / Farmhouse Ale,10,443,317
+Tripel,10,444,339
+Belgian IPA,10,445,323
+Belgian Strong Dark Ale,10,446,342
+Saison / Farmhouse Ale,10,447,317
+Belgian Pale Ale,10,448,318
+Belgian IPA,10,449,323
+American Pale Ale (APA),467,450,343
+American Pale Wheat Ale,467,451,344
+American Amber / Red Ale,89,452,345
+American Amber / Red Ale,493,453,346
+American Pale Ale (APA),493,454,347
+Cream Ale,493,455,348
+American IPA,493,456,349
+English India Pale Ale (IPA),437,457,350
+English Pale Mild Ale,437,458,351
+English India Pale Ale (IPA),437,459,350
+English Pale Mild Ale,437,460,351
+American Amber / Red Lager,437,461,352
+American Amber / Red Lager,437,462,352
+Belgian IPA,530,463,353
+Maibock / Helles Bock,530,464,354
+American Black Ale,530,465,355
+Schwarzbier,530,466,356
+American Amber / Red Ale,530,467,357
+Herbed / Spiced Beer,530,468,358
+Schwarzbier,530,469,356
+Munich Helles Lager,357,470,359
+American Pale Ale (APA),56,471,360
+American Blonde Ale,214,472,361
+Witbier,214,473,362
+American Double / Imperial IPA,214,474,363
+American Brown Ale,24,475,364
+American Black Ale,24,476,365
+Fruit / Vegetable Beer,24,477,366
+American Pale Ale (APA),24,478,367
+American Double / Imperial IPA,24,479,368
+Cream Ale,24,480,369
+American Pale Wheat Ale,24,481,370
+American Pale Wheat Ale,24,482,370
+American IPA,24,483,371
+American IPA,24,484,371
+American Pale Ale (APA),24,485,367
+American Pale Lager,197,486,372
+American Pale Ale (APA),517,487,373
+Hefeweizen,556,488,374
+American IPA,556,489,375
+Milk / Sweet Stout,556,490,376
+American Pale Ale (APA),556,491,377
+American Double / Imperial Stout,5,492,378
+American Brown Ale,5,493,379
+American Pale Ale (APA),5,494,380
+Kölsch,5,495,381
+American IPA,5,496,382
+American Double / Imperial IPA,5,497,383
+American Porter,182,498,384
+American Blonde Ale,182,499,385
+American Amber / Red Ale,182,500,386
+American IPA,182,501,387
+American Amber / Red Ale,182,502,386
+American Blonde Ale,182,503,385
+American IPA,155,504,388
+American Porter,155,505,389
+American Pale Ale (APA),155,506,390
+American Adjunct Lager,155,507,391
+American Amber / Red Ale,155,508,392
+American IPA,155,509,388
+American IPA,155,510,388
+American Pale Ale (APA),155,511,390
+American Pale Ale (APA),155,512,390
+American Pale Ale (APA),155,513,390
+American Pale Ale (APA),155,514,390
+American Pale Ale (APA),155,515,390
+American Amber / Red Ale,155,516,392
+American IPA,155,517,388
+American Pilsner,178,518,393
+American IPA,178,519,394
+Witbier,497,520,395
+American Amber / Red Ale,497,521,396
+American Blonde Ale,497,522,397
+English Dark Mild Ale,497,523,398
+Pumpkin Ale,230,524,399
+American Double / Imperial IPA,230,525,400
+American IPA,230,526,401
+German Pilsener,230,527,402
+American Amber / Red Ale,230,528,403
+American Amber / Red Ale,267,529,404
+American Blonde Ale,267,530,405
+American Black Ale,192,531,406
+Vienna Lager,192,532,407
+Munich Helles Lager,192,533,408
+American IPA,192,534,409
+Munich Helles Lager,192,535,408
+American IPA,192,536,409
+Vienna Lager,192,537,407
+American Pale Wheat Ale,192,538,410
+Vienna Lager,192,539,407
+American Pale Ale (APA),192,540,411
+American Pale Lager,192,541,412
+American Blonde Ale,504,542,413
+American Blonde Ale,504,543,413
+American Blonde Ale,504,544,413
+Winter Warmer,179,545,414
+English India Pale Ale (IPA),179,546,415
+Kölsch,179,547,416
+American Black Ale,222,548,417
+Berliner Weissbier,222,549,418
+American Double / Imperial IPA,222,550,419
+American IPA,222,551,420
+Cider,404,552,421
+Cider,404,553,421
+Cream Ale,331,554,422
+American IPA,331,555,423
+Witbier,331,556,424
+Winter Warmer,331,557,425
+Witbier,331,558,424
+American IPA,331,559,423
+Cream Ale,331,560,422
+Witbier,285,561,426
+Scottish Ale,285,562,427
+American Brown Ale,96,563,428
+American Porter,96,564,429
+American Double / Imperial IPA,29,565,430
+,29,566,431
+American IPA,29,567,432
+Smoked Beer,29,568,433
+American Pale Ale (APA),29,569,434
+Cream Ale,29,570,435
+American Blonde Ale,452,571,436
+American Amber / Red Ale,452,572,437
+Altbier,122,573,438
+American Amber / Red Lager,122,574,439
+Altbier,122,575,438
+American Pale Ale (APA),122,576,440
+Herbed / Spiced Beer,350,577,441
+American IPA,350,578,442
+American Double / Imperial IPA,350,579,443
+American Black Ale,350,580,444
+Rye Beer,236,581,445
+American Stout,236,582,446
+Kölsch,236,583,447
+American IPA,236,584,448
+Kölsch,250,585,449
+Fruit / Vegetable Beer,250,586,450
+American Pale Ale (APA),250,587,451
+English Brown Ale,250,588,452
+American Strong Ale,226,589,453
+Märzen / Oktoberfest,226,590,454
+American IPA,121,591,455
+Fruit / Vegetable Beer,121,592,456
+Altbier,121,593,457
+American Double / Imperial IPA,99,594,458
+American Pilsner,526,595,459
+Cider,425,596,460
+Cider,425,597,460
+Bock,141,598,461
+American IPA,141,599,462
+American Black Ale,141,600,463
+American Brown Ale,141,601,464
+Märzen / Oktoberfest,141,602,465
+American Porter,141,603,466
+American IPA,141,604,462
+American IPA,141,605,462
+American IPA,141,606,462
+American Pale Ale (APA),141,607,467
+American IPA,141,608,462
+American IPA,141,609,462
+American IPA,141,610,462
+American Pale Ale (APA),141,611,467
+American Pale Wheat Ale,141,612,468
+American IPA,141,613,462
+American IPA,141,614,462
+American Porter,141,615,466
+American Pale Ale (APA),141,616,467
+English Brown Ale,141,617,469
+American Brown Ale,141,618,464
+Munich Helles Lager,141,619,470
+American Amber / Red Ale,141,620,471
+American IPA,141,621,462
+Witbier,141,622,472
+Light Lager,145,623,473
+Pumpkin Ale,145,624,474
+Witbier,145,625,475
+Munich Helles Lager,145,626,476
+American IPA,145,627,477
+Light Lager,145,628,473
+English Pale Ale,145,629,478
+American IPA,320,630,479
+American Black Ale,418,631,480
+American Pale Wheat Ale,418,632,481
+American Blonde Ale,415,633,482
+American Brown Ale,415,634,483
+Kölsch,101,635,484
+American IPA,101,636,485
+American Amber / Red Ale,101,637,486
+American Amber / Red Ale,101,638,486
+Fruit / Vegetable Beer,232,639,487
+American IPA,482,640,488
+German Pilsener,482,641,489
+American Blonde Ale,482,642,490
+American Pilsner,139,643,491
+American Amber / Red Ale,139,644,492
+Oatmeal Stout,139,645,493
+Extra Special / Strong Bitter (ESB),139,646,494
+American Pale Lager,512,647,495
+Kölsch,553,648,496
+American Blonde Ale,515,649,497
+Oatmeal Stout,515,650,498
+American Black Ale,515,651,499
+American Pale Ale (APA),63,652,500
+Belgian Strong Pale Ale,63,653,501
+American Stout,63,654,502
+American Amber / Red Ale,63,655,503
+American Amber / Red Ale,63,656,503
+Witbier,63,657,504
+American Pale Ale (APA),63,658,500
+American Amber / Red Ale,63,659,503
+American IPA,247,660,505
+Berliner Weissbier,247,661,506
+American Blonde Ale,169,662,507
+American Porter,169,663,508
+American Pale Ale (APA),169,664,509
+American Amber / Red Ale,212,665,510
+Herbed / Spiced Beer,212,666,511
+American Brown Ale,212,667,512
+American Blonde Ale,212,668,513
+Cream Ale,212,669,514
+American Porter,212,670,515
+American IPA,212,671,516
+American Amber / Red Ale,472,672,517
+Kölsch,472,673,518
+American Blonde Ale,315,674,519
+Witbier,315,675,520
+Scottish Ale,315,676,521
+American IPA,315,677,522
+English Pale Ale,323,678,523
+Kölsch,323,679,524
+Scotch Ale / Wee Heavy,227,680,525
+American Blonde Ale,227,681,526
+Hefeweizen,227,682,527
+American Porter,227,683,528
+American Double / Imperial IPA,227,684,529
+American IPA,227,685,530
+Belgian Pale Ale,227,686,531
+American Pale Ale (APA),227,687,532
+American IPA,451,688,533
+American IPA,451,689,533
+American IPA,358,690,534
+American Pale Lager,554,691,535
+American Blonde Ale,333,692,536
+American Pale Ale (APA),333,693,537
+American Amber / Red Ale,330,694,538
+Euro Pale Lager,127,695,539
+American Brown Ale,127,696,540
+American Double / Imperial IPA,127,697,541
+American Pale Ale (APA),127,698,542
+Baltic Porter,127,699,543
+Saison / Farmhouse Ale,127,700,544
+German Pilsener,127,701,545
+American Blonde Ale,127,702,546
+American IPA,127,703,547
+American IPA,283,704,548
+English Pale Mild Ale,283,705,549
+Irish Dry Stout,453,706,550
+American Blonde Ale,453,707,551
+American IPA,453,708,552
+Irish Red Ale,453,709,553
+American IPA,263,710,554
+American Porter,263,711,555
+American Pale Ale (APA),454,712,556
+Hefeweizen,57,713,557
+Abbey Single Ale,57,714,558
+American IPA,57,715,559
+Gose,57,716,560
+Fruit / Vegetable Beer,57,717,561
+American Double / Imperial IPA,57,718,562
+Abbey Single Ale,57,719,558
+American Pale Ale (APA),237,720,563
+American Pale Ale (APA),237,721,563
+American Amber / Red Ale,491,722,564
+American Black Ale,491,723,565
+American IPA,491,724,566
+Scotch Ale / Wee Heavy,491,725,567
+American Pale Ale (APA),319,726,568
+American IPA,311,727,569
+American Amber / Red Ale,488,728,570
+Hefeweizen,531,729,571
+Extra Special / Strong Bitter (ESB),531,730,572
+American Double / Imperial IPA,531,731,573
+American Pale Ale (APA),531,732,574
+Irish Dry Stout,531,733,575
+English Dark Mild Ale,531,734,576
+Cider,446,735,577
+Cider,446,736,577
+American IPA,496,737,578
+Fruit / Vegetable Beer,496,738,579
+Hefeweizen,496,739,580
+American Amber / Red Ale,496,740,581
+American IPA,340,741,582
+American Pale Wheat Ale,538,742,583
+Pumpkin Ale,369,743,584
+American IPA,369,744,585
+American Pale Ale (APA),369,745,586
+Pumpkin Ale,369,746,584
+Fruit / Vegetable Beer,369,747,587
+German Pilsener,369,748,588
+American IPA,369,749,585
+Extra Special / Strong Bitter (ESB),352,750,589
+American Amber / Red Lager,516,751,590
+American Brown Ale,465,752,591
+American Adjunct Lager,473,753,592
+Fruit / Vegetable Beer,81,754,593
+American Pale Ale (APA),81,755,594
+American Pale Lager,81,756,595
+American IPA,81,757,596
+American IPA,170,758,597
+American IPA,170,759,597
+American Blonde Ale,26,760,598
+Belgian IPA,26,761,599
+American Pale Wheat Ale,26,762,600
+American Pale Ale (APA),26,763,601
+American Porter,26,764,602
+Czech Pilsener,26,765,603
+Berliner Weissbier,173,766,604
+American Double / Imperial IPA,173,767,605
+American Pale Ale (APA),173,768,606
+American IPA,173,769,607
+American Pale Ale (APA),173,770,606
+American Pale Ale (APA),335,771,608
+Scottish Ale,335,772,609
+American IPA,335,773,610
+American Pale Ale (APA),224,774,611
+American IPA,224,775,612
+American Stout,405,776,613
+Belgian Pale Ale,405,777,614
+Roggenbier,405,778,615
+Kölsch,405,779,616
+American IPA,405,780,617
+American Amber / Red Ale,201,781,618
+Fruit / Vegetable Beer,201,782,619
+American IPA,201,783,620
+American Amber / Red Ale,201,784,618
+American Double / Imperial IPA,201,785,621
+Scottish Ale,201,786,622
+American Double / Imperial IPA,172,787,623
+American Double / Imperial IPA,172,788,623
+American Double / Imperial IPA,172,789,623
+American Porter,172,790,624
+Kristalweizen,36,791,625
+Czech Pilsener,36,792,626
+Kölsch,36,793,627
+American Double / Imperial IPA,256,794,628
+American Black Ale,256,795,629
+Belgian Strong Dark Ale,256,796,630
+American Pale Wheat Ale,256,797,631
+American Stout,256,798,632
+American Amber / Red Ale,256,799,633
+American Pale Ale (APA),256,800,634
+American IPA,256,801,635
+American Pale Ale (APA),256,802,634
+American Blonde Ale,256,803,636
+American IPA,48,804,637
+American IPA,48,805,637
+German Pilsener,48,806,638
+American Blonde Ale,48,807,639
+American Blonde Ale,48,808,639
+Doppelbock,16,809,640
+American Blonde Ale,16,810,641
+American IPA,16,811,642
+American IPA,532,812,643
+American Pale Ale (APA),54,813,644
+American IPA,521,814,645
+American Pale Lager,521,815,646
+American Porter,50,816,647
+American IPA,50,817,648
+Saison / Farmhouse Ale,279,818,649
+American IPA,279,819,650
+American Porter,279,820,651
+American Blonde Ale,279,821,652
+Witbier,217,822,653
+American IPA,217,823,654
+Belgian Pale Ale,206,824,655
+American IPA,206,825,656
+American IPA,206,826,656
+American IPA,206,827,656
+American Black Ale,206,828,657
+American IPA,206,829,656
+American Pale Ale (APA),206,830,658
+Witbier,206,831,659
+American Pale Ale (APA),206,832,658
+American Double / Imperial Stout,206,833,660
+American Amber / Red Lager,206,834,661
+American IPA,206,835,656
+American Amber / Red Ale,151,836,662
+American Pale Wheat Ale,4,837,663
+American Amber / Red Ale,4,838,664
+Kölsch,4,839,665
+American IPA,4,840,666
+Scotch Ale / Wee Heavy,15,841,667
+American IPA,15,842,668
+American IPA,15,843,668
+American IPA,287,844,669
+American Porter,287,845,670
+American Blonde Ale,287,846,671
+Oatmeal Stout,22,847,672
+Belgian Pale Ale,22,848,673
+American IPA,22,849,674
+American IPA,22,850,674
+American Pale Lager,348,851,675
+Kölsch,160,852,676
+,160,853,677
+American Porter,160,854,678
+Fruit / Vegetable Beer,160,855,679
+American IPA,160,856,680
+Scottish Ale,160,857,681
+Kölsch,160,858,676
+American Porter,105,859,682
+American Pale Wheat Ale,105,860,683
+American Pale Ale (APA),105,861,684
+American White IPA,105,862,685
+American Amber / Red Ale,253,863,686
+American IPA,253,864,687
+Munich Helles Lager,253,865,688
+,66,866,689
+American Brown Ale,66,867,690
+Witbier,66,868,691
+Munich Helles Lager,66,869,692
+American Amber / Red Ale,66,870,693
+Witbier,66,871,691
+American IPA,66,872,694
+Berliner Weissbier,66,873,695
+American IPA,460,874,696
+American Pale Ale (APA),460,875,697
+English Strong Ale,460,876,698
+Saison / Farmhouse Ale,460,877,699
+American Pale Ale (APA),460,878,697
+American Pale Ale (APA),460,879,697
+American IPA,460,880,696
+Kölsch,433,881,700
+Scotch Ale / Wee Heavy,433,882,701
+Extra Special / Strong Bitter (ESB),433,883,702
+American IPA,180,884,703
+American Pale Ale (APA),347,885,704
+American IPA,228,886,705
+American Blonde Ale,228,887,706
+American Amber / Red Ale,228,888,707
+American IPA,106,889,708
+American Pale Lager,240,890,709
+Saison / Farmhouse Ale,240,891,710
+American IPA,240,892,711
+American IPA,240,893,711
+American IPA,240,894,711
+American IPA,240,895,711
+Hefeweizen,240,896,712
+American IPA,240,897,711
+American IPA,240,898,711
+Kölsch,240,899,713
+American Brown Ale,240,900,714
+American IPA,240,901,711
+American IPA,240,902,711
+American IPA,240,903,711
+Hefeweizen,240,904,712
+American Porter,39,905,715
+American IPA,464,906,716
+American Pale Wheat Ale,464,907,717
+American Pale Ale (APA),478,908,718
+American Double / Imperial IPA,478,909,719
+Oatmeal Stout,478,910,720
+American IPA,478,911,721
+American Brown Ale,478,912,722
+American Pale Ale (APA),194,913,723
+American IPA,196,914,724
+American Pale Ale (APA),88,915,725
+American Pale Ale (APA),88,916,725
+American Pale Wheat Ale,88,917,726
+American Pale Wheat Ale,88,918,726
+American Pale Wheat Ale,88,919,726
+American Pale Lager,420,920,727
+American Pale Wheat Ale,536,921,728
+American Pilsner,536,922,729
+American Amber / Red Ale,536,923,730
+American IPA,536,924,731
+American Pale Wheat Ale,213,925,732
+English Brown Ale,213,926,733
+American Pale Ale (APA),213,927,734
+American Blonde Ale,165,928,735
+Fruit / Vegetable Beer,165,929,736
+American Porter,165,930,737
+American IPA,165,931,738
+Dortmunder / Export Lager,165,932,739
+American Blonde Ale,165,933,735
+American Porter,165,934,737
+Märzen / Oktoberfest,165,935,740
+American Brown Ale,165,936,741
+Fruit / Vegetable Beer,165,937,736
+Dortmunder / Export Lager,165,938,739
+American Dark Wheat Ale,165,939,742
+Witbier,165,940,743
+American Stout,165,941,744
+English Stout,165,942,745
+American Porter,165,943,737
+Euro Dark Lager,165,944,746
+English Dark Mild Ale,165,945,747
+American IPA,165,946,738
+American Blonde Ale,165,947,735
+American Pale Ale (APA),6,948,748
+Old Ale,6,949,749
+American Pale Wheat Ale,6,950,750
+American IPA,6,951,751
+Tripel,6,952,752
+American IPA,6,953,751
+Russian Imperial Stout,6,954,753
+Saison / Farmhouse Ale,6,955,754
+American IPA,6,956,751
+American Pale Lager,543,957,755
+American Pale Lager,543,958,755
+American Pale Ale (APA),269,959,756
+American Pale Lager,269,960,757
+Fruit / Vegetable Beer,365,961,758
+American Brown Ale,365,962,759
+American Blonde Ale,365,963,760
+American Blonde Ale,365,964,760
+Vienna Lager,365,965,761
+Irish Red Ale,365,966,762
+Vienna Lager,365,967,761
+Witbier,365,968,763
+Irish Red Ale,365,969,762
+American Pale Ale (APA),365,970,764
+Rye Beer,365,971,765
+American Brown Ale,365,972,759
+American IPA,365,973,766
+Märzen / Oktoberfest,365,974,767
+American Amber / Red Ale,365,975,768
+American Stout,365,976,769
+American Pale Ale (APA),365,977,764
+Irish Red Ale,365,978,762
+American Pale Ale (APA),466,979,770
+American Pale Ale (APA),156,980,771
+American Black Ale,156,981,772
+Märzen / Oktoberfest,86,982,773
+American Double / Imperial IPA,86,983,774
+Märzen / Oktoberfest,379,984,775
+American Pale Ale (APA),379,985,776
+Witbier,379,986,777
+American Blonde Ale,379,987,778
+American Porter,379,988,779
+American Pale Ale (APA),379,989,776
+Cream Ale,379,990,780
+American Pale Wheat Ale,124,991,781
+Winter Warmer,124,992,782
+Pumpkin Ale,124,993,783
+Czech Pilsener,124,994,784
+American Amber / Red Ale,124,995,785
+American IPA,124,996,786
+American Pale Ale (APA),124,997,787
+American IPA,124,998,786
+Tripel,124,999,788
+Altbier,144,1000,789
+American IPA,290,1001,790
+American Pale Ale (APA),290,1002,791
+American IPA,327,1003,792
+American Double / Imperial Pilsner,327,1004,793
+German Pilsener,327,1005,794
+American Pale Wheat Ale,327,1006,795
+English India Pale Ale (IPA),327,1007,796
+American Brown Ale,327,1008,797
+American Blonde Ale,327,1009,798
+American Pale Ale (APA),327,1010,799
+American IPA,248,1011,800
+American Blonde Ale,248,1012,801
+Fruit / Vegetable Beer,476,1013,802
+Munich Helles Lager,476,1014,803
+American IPA,343,1015,804
+Cream Ale,343,1016,805
+American Pale Ale (APA),343,1017,806
+Herbed / Spiced Beer,234,1018,807
+American White IPA,234,1019,808
+Cider,234,1020,809
+Kölsch,234,1021,810
+American IPA,234,1022,811
+Pumpkin Ale,234,1023,812
+Märzen / Oktoberfest,234,1024,813
+American IPA,234,1025,811
+Kölsch,234,1026,810
+American Pale Wheat Ale,234,1027,814
+Kölsch,234,1028,810
+American IPA,234,1029,811
+American Blonde Ale,535,1030,815
+Witbier,535,1031,816
+American Blonde Ale,204,1032,817
+American Pale Ale (APA),204,1033,818
+American Brown Ale,204,1034,819
+American Brown Ale,204,1035,819
+Flanders Red Ale,204,1036,820
+Belgian IPA,280,1037,821
+American Pale Lager,280,1038,822
+American Double / Imperial IPA,280,1039,823
+American IPA,479,1040,824
+Märzen / Oktoberfest,479,1041,825
+Cream Ale,479,1042,826
+Cream Ale,423,1043,827
+American IPA,423,1044,828
+American Double / Imperial Stout,423,1045,829
+American Pilsner,168,1046,830
+American Pale Ale (APA),168,1047,831
+American Pale Wheat Ale,500,1048,832
+Fruit / Vegetable Beer,500,1049,833
+American Amber / Red Ale,500,1050,834
+American Pale Ale (APA),362,1051,835
+Czech Pilsener,362,1052,836
+American Blonde Ale,362,1053,837
+American Amber / Red Ale,362,1054,838
+Saison / Farmhouse Ale,362,1055,839
+American White IPA,349,1056,840
+Saison / Farmhouse Ale,297,1057,841
+American Brown Ale,297,1058,842
+American IPA,297,1059,843
+American Blonde Ale,198,1060,844
+American Strong Ale,198,1061,845
+American IPA,198,1062,846
+American Blonde Ale,198,1063,844
+American Pale Lager,198,1064,847
+American IPA,198,1065,846
+American IPA,198,1066,846
+American Blonde Ale,198,1067,844
+American IPA,395,1068,848
+American Pale Lager,395,1069,849
+Altbier,395,1070,850
+American Pale Ale (APA),395,1071,851
+American Porter,136,1072,852
+Cider,80,1073,853
+Radler,80,1074,854
+American Pale Wheat Ale,80,1075,855
+American Pale Wheat Ale,80,1076,855
+American Pale Wheat Ale,80,1077,855
+American Pale Wheat Ale,80,1078,855
+American Pale Wheat Ale,80,1079,855
+American Pale Wheat Ale,80,1080,855
+American Pale Wheat Ale,80,1081,855
+American Pale Wheat Ale,80,1082,855
+American Pale Wheat Ale,80,1083,855
+American Pale Wheat Ale,80,1084,855
+American Pale Wheat Ale,80,1085,855
+American Pale Wheat Ale,80,1086,855
+American Amber / Red Ale,80,1087,856
+American Stout,80,1088,857
+American IPA,80,1089,858
+American Strong Ale,80,1090,859
+American White IPA,80,1091,860
+American Amber / Red Ale,80,1092,856
+American Strong Ale,80,1093,859
+Czech Pilsener,80,1094,861
+American IPA,80,1095,858
+American Pale Wheat Ale,120,1096,862
+Hefeweizen,120,1097,863
+Märzen / Oktoberfest,120,1098,864
+American Pale Ale (APA),445,1099,865
+Vienna Lager,445,1100,866
+American IPA,277,1101,867
+Winter Warmer,277,1102,868
+Fruit / Vegetable Beer,277,1103,869
+American Pale Wheat Ale,277,1104,870
+American Black Ale,277,1105,871
+American Pale Ale (APA),277,1106,872
+American Amber / Red Ale,140,1107,873
+American Pale Ale (APA),140,1108,874
+Witbier,140,1109,875
+American Pale Ale (APA),23,1110,876
+American IPA,242,1111,877
+Cream Ale,242,1112,878
+American Blonde Ale,527,1113,879
+American IPA,527,1114,880
+American Pale Ale (APA),527,1115,881
+American Blonde Ale,123,1116,882
+American IPA,316,1117,883
+Keller Bier / Zwickel Bier,2,1118,884
+American Pale Lager,2,1119,885
+American India Pale Lager,2,1120,886
+American India Pale Lager,2,1121,886
+American India Pale Lager,2,1122,886
+Cider,416,1123,887
+Cider,416,1124,887
+American Pale Ale (APA),312,1125,888
+Fruit / Vegetable Beer,92,1126,889
+American IPA,92,1127,890
+American IPA,92,1128,890
+American Amber / Red Ale,92,1129,891
+English Brown Ale,92,1130,892
+American IPA,114,1131,893
+American Strong Ale,32,1132,894
+Hefeweizen,32,1133,895
+American Porter,32,1134,896
+American Pale Ale (APA),32,1135,897
+American Blonde Ale,32,1136,898
+American IPA,32,1137,899
+Hefeweizen,233,1138,900
+American Pale Ale (APA),233,1139,901
+American Double / Imperial IPA,233,1140,902
+American Adjunct Lager,233,1141,903
+American IPA,208,1142,904
+Doppelbock,208,1143,905
+Hefeweizen,125,1144,906
+Munich Dunkel Lager,125,1145,907
+American Pale Ale (APA),125,1146,908
+Märzen / Oktoberfest,125,1147,909
+Kölsch,125,1148,910
+Saison / Farmhouse Ale,125,1149,911
+American Double / Imperial IPA,125,1150,912
+American Amber / Red Lager,125,1151,913
+Hefeweizen,125,1152,906
+American IPA,125,1153,914
+Euro Dark Lager,342,1154,915
+American IPA,342,1155,916
+Czech Pilsener,342,1156,917
+Scottish Ale,458,1157,918
+American Blonde Ale,458,1158,919
+American IPA,458,1159,920
+Scottish Ale,458,1160,918
+Scotch Ale / Wee Heavy,510,1161,921
+American IPA,510,1162,922
+American IPA,510,1163,922
+American Pale Ale (APA),510,1164,923
+American IPA,510,1165,922
+Scotch Ale / Wee Heavy,510,1166,921
+Witbier,84,1167,924
+American Pale Ale (APA),84,1168,925
+Scottish Ale,84,1169,926
+American Brown Ale,84,1170,927
+American Brown Ale,84,1171,927
+American Blonde Ale,84,1172,928
+American Amber / Red Ale,84,1173,929
+American Amber / Red Ale,102,1174,930
+Czech Pilsener,102,1175,931
+American IPA,102,1176,932
+Hefeweizen,102,1177,933
+American Blonde Ale,102,1178,934
+American IPA,87,1179,935
+American Pale Wheat Ale,87,1180,936
+American Amber / Red Lager,439,1181,937
+American Amber / Red Lager,439,1182,937
+American Amber / Red Lager,439,1183,937
+American Amber / Red Lager,439,1184,937
+American Dark Wheat Ale,505,1185,938
+Belgian Strong Dark Ale,354,1186,939
+Hefeweizen,332,1187,940
+American IPA,332,1188,941
+Maibock / Helles Bock,545,1189,942
+Kölsch,545,1190,943
+Hefeweizen,59,1191,944
+American IPA,59,1192,945
+American Amber / Red Ale,59,1193,946
+English Brown Ale,59,1194,947
+Cream Ale,218,1195,948
+American Pilsner,218,1196,949
+American IPA,218,1197,950
+American IPA,345,1198,951
+American IPA,345,1199,951
+Czech Pilsener,406,1200,952
+Kölsch,537,1201,953
+American IPA,537,1202,954
+American Amber / Red Ale,537,1203,955
+Hefeweizen,537,1204,956
+Scottish Ale,537,1205,957
+German Pilsener,244,1206,958
+Saison / Farmhouse Ale,244,1207,959
+American Stout,298,1208,960
+American Amber / Red Ale,298,1209,961
+Fruit / Vegetable Beer,298,1210,962
+American IPA,298,1211,963
+American Pale Ale (APA),104,1212,964
+American Porter,149,1213,965
+American Stout,149,1214,966
+American Pale Ale (APA),149,1215,967
+Hefeweizen,149,1216,968
+American Brown Ale,149,1217,969
+English India Pale Ale (IPA),268,1218,970
+American Amber / Red Ale,268,1219,971
+Altbier,268,1220,972
+Fruit / Vegetable Beer,268,1221,973
+Altbier,268,1222,972
+Gose,41,1223,974
+German Pilsener,41,1224,975
+American IPA,41,1225,976
+American IPA,41,1226,976
+American IPA,430,1227,977
+Czech Pilsener,430,1228,978
+American Stout,377,1229,979
+Hefeweizen,456,1230,980
+American Pale Ale (APA),456,1231,981
+American Blonde Ale,456,1232,982
+English Dark Mild Ale,245,1233,983
+Belgian Pale Ale,245,1234,984
+American Pale Ale (APA),158,1235,985
+American Pilsner,158,1236,986
+American IPA,158,1237,987
+American Amber / Red Ale,158,1238,988
+American Pale Ale (APA),485,1239,989
+American Amber / Red Ale,485,1240,990
+American Pale Ale (APA),400,1241,991
+American Brown Ale,400,1242,992
+American Double / Imperial IPA,91,1243,993
+American Blonde Ale,91,1244,994
+Winter Warmer,91,1245,995
+Fruit / Vegetable Beer,91,1246,996
+Kölsch,91,1247,997
+American Pale Ale (APA),91,1248,998
+American IPA,91,1249,999
+American Brown Ale,91,1250,1000
+American Amber / Red Ale,91,1251,1001
+Fruit / Vegetable Beer,303,1252,1002
+Hefeweizen,303,1253,1003
+Fruit / Vegetable Beer,303,1254,1002
+German Pilsener,534,1255,1004
+American IPA,534,1256,1005
+German Pilsener,534,1257,1004
+American Amber / Red Ale,534,1258,1006
+Winter Warmer,356,1259,1007
+Märzen / Oktoberfest,356,1260,1008
+Belgian Pale Ale,356,1261,1009
+American IPA,356,1262,1010
+Pumpkin Ale,356,1263,1011
+American Pale Wheat Ale,356,1264,1012
+Tripel,356,1265,1013
+Fruit / Vegetable Beer,356,1266,1014
+American Double / Imperial IPA,356,1267,1015
+American Double / Imperial IPA,346,1268,1016
+American IPA,346,1269,1017
+American Blonde Ale,346,1270,1018
+American Brown Ale,346,1271,1019
+American Pale Ale (APA),346,1272,1020
+German Pilsener,443,1273,1021
+American IPA,443,1274,1022
+American IPA,317,1275,1023
+American Pale Ale (APA),317,1276,1024
+Russian Imperial Stout,317,1277,1025
+American Pale Ale (APA),317,1278,1024
+American Double / Imperial IPA,317,1279,1026
+Saison / Farmhouse Ale,161,1280,1027
+American Stout,161,1281,1028
+American Amber / Red Ale,161,1282,1029
+American Double / Imperial IPA,161,1283,1030
+American Double / Imperial IPA,161,1284,1030
+Rye Beer,161,1285,1031
+Saison / Farmhouse Ale,161,1286,1027
+American Stout,161,1287,1028
+American IPA,299,1288,1032
+Shandy,299,1289,1033
+American IPA,299,1290,1032
+German Pilsener,299,1291,1034
+Light Lager,299,1292,1035
+Light Lager,299,1293,1035
+American Pale Lager,299,1294,1036
+Fruit / Vegetable Beer,299,1295,1037
+American Blonde Ale,299,1296,1038
+American IPA,299,1297,1032
+American Pale Wheat Ale,299,1298,1039
+English Pale Ale,299,1299,1040
+English Pale Ale,299,1300,1040
+American Brown Ale,375,1301,1041
+Czech Pilsener,375,1302,1042
+Saison / Farmhouse Ale,375,1303,1043
+Belgian Strong Dark Ale,375,1304,1044
+Fruit / Vegetable Beer,375,1305,1045
+American Amber / Red Ale,375,1306,1046
+Witbier,375,1307,1047
+American IPA,375,1308,1048
+American Pale Wheat Ale,375,1309,1049
+Munich Helles Lager,375,1310,1050
+American Porter,375,1311,1051
+American IPA,375,1312,1048
+American Porter,448,1313,1052
+Witbier,448,1314,1053
+American Pale Ale (APA),448,1315,1054
+Cider,254,1316,1055
+Cider,254,1317,1055
+Cider,254,1318,1055
+American IPA,203,1319,1056
+American IPA,203,1320,1056
+American Blonde Ale,203,1321,1057
+American Porter,203,1322,1058
+American Amber / Red Ale,203,1323,1059
+American Pale Ale (APA),203,1324,1060
+Fruit / Vegetable Beer,393,1325,1061
+American Brown Ale,393,1326,1062
+American IPA,393,1327,1063
+American Blonde Ale,393,1328,1064
+American Amber / Red Ale,552,1329,1065
+American IPA,223,1330,1066
+American IPA,223,1331,1066
+Witbier,223,1332,1067
+American Brown Ale,223,1333,1068
+American IPA,223,1334,1066
+American Double / Imperial IPA,3,1335,1069
+American IPA,3,1336,1070
+Wheat Ale,3,1337,1071
+American Double / Imperial IPA,3,1338,1069
+Cream Ale,3,1339,1072
+Kölsch,3,1340,1073
+American Double / Imperial IPA,65,1341,1074
+American IPA,65,1342,1075
+American IPA,65,1343,1075
+Belgian IPA,65,1344,1076
+Saison / Farmhouse Ale,65,1345,1077
+Berliner Weissbier,65,1346,1078
+American IPA,65,1347,1075
+American Pale Ale (APA),65,1348,1079
+American Pilsner,363,1349,1080
+American IPA,363,1350,1081
+Witbier,440,1351,1082
+Irish Red Ale,440,1352,1083
+American Pale Ale (APA),440,1353,1084
+American Double / Imperial IPA,284,1354,1085
+American Amber / Red Ale,284,1355,1086
+American IPA,284,1356,1087
+Saison / Farmhouse Ale,284,1357,1088
+Witbier,284,1358,1089
+Vienna Lager,284,1359,1090
+American Amber / Red Ale,284,1360,1086
+American Malt Liquor,134,1361,1091
+Bock,134,1362,1092
+Light Lager,134,1363,1093
+American Pale Lager,134,1364,1094
+American Pale Lager,134,1365,1094
+American Pale Lager,134,1366,1094
+American Pale Lager,134,1367,1094
+American Pale Lager,134,1368,1094
+American Pale Lager,134,1369,1094
+American Adjunct Lager,134,1370,1095
+Light Lager,134,1371,1093
+American Adjunct Lager,134,1372,1095
+American Adjunct Lager,134,1373,1095
+Belgian Pale Ale,98,1374,1096
+American IPA,98,1375,1097
+American Pale Ale (APA),98,1376,1098
+American Double / Imperial IPA,98,1377,1099
+American Brown Ale,399,1378,1100
+American Pale Wheat Ale,399,1379,1101
+California Common / Steam Beer,399,1380,1102
+American IPA,399,1381,1103
+English Brown Ale,547,1382,1104
+American Pale Ale (APA),547,1383,1105
+American Pale Ale (APA),189,1384,1106
+American IPA,209,1385,1107
+American IPA,209,1386,1107
+American Pale Ale (APA),209,1387,1108
+American Amber / Red Ale,209,1388,1109
+Saison / Farmhouse Ale,209,1389,1110
+American Pale Wheat Ale,209,1390,1111
+American Stout,209,1391,1112
+American Amber / Red Ale,209,1392,1109
+American Amber / Red Ale,549,1393,1113
+American Brown Ale,514,1394,1114
+American Double / Imperial IPA,514,1395,1115
+American Pale Ale (APA),514,1396,1116
+American Blonde Ale,276,1397,1117
+Extra Special / Strong Bitter (ESB),276,1398,1118
+Munich Helles Lager,326,1399,1119
+Märzen / Oktoberfest,326,1400,1120
+American Pale Wheat Ale,326,1401,1121
+Schwarzbier,326,1402,1122
+German Pilsener,326,1403,1123
+Cream Ale,111,1404,1124
+American Pale Ale (APA),540,1405,1125
+Hefeweizen,540,1406,1126
+American Blonde Ale,188,1407,1127
+American IPA,188,1408,1128
+American Amber / Red Ale,260,1409,1129
+Witbier,507,1410,1130
+American IPA,507,1411,1131
+Light Lager,507,1412,1132
+Witbier,507,1413,1130
+Hefeweizen,507,1414,1133
+American Amber / Red Lager,366,1415,1134
+American Pale Lager,366,1416,1135
+American Pale Lager,366,1417,1135
+American Blonde Ale,366,1418,1136
+American Pale Wheat Ale,366,1419,1137
+Light Lager,143,1420,1138
+American Pilsner,143,1421,1139
+Milk / Sweet Stout,143,1422,1140
+German Pilsener,143,1423,1141
+American Pale Wheat Ale,143,1424,1142
+Cream Ale,143,1425,1143
+American Pale Wheat Ale,143,1426,1142
+American Porter,143,1427,1144
+Bock,143,1428,1145
+Märzen / Oktoberfest,143,1429,1146
+American Blonde Ale,387,1430,1147
+American Black Ale,387,1431,1148
+American Double / Imperial IPA,387,1432,1149
+American Double / Imperial IPA,387,1433,1149
+American Black Ale,387,1434,1148
+American Blonde Ale,387,1435,1147
+Pumpkin Ale,337,1436,1150
+American IPA,337,1437,1151
+Hefeweizen,337,1438,1152
+English Brown Ale,337,1439,1153
+American Pale Ale (APA),337,1440,1154
+American IPA,325,1441,1155
+German Pilsener,325,1442,1156
+American IPA,82,1443,1157
+American IPA,82,1444,1157
+American Pale Lager,82,1445,1158
+Euro Dark Lager,82,1446,1159
+Czech Pilsener,82,1447,1160
+American Amber / Red Lager,82,1448,1161
+American Pale Wheat Ale,82,1449,1162
+American Pale Wheat Ale,82,1450,1162
+American Amber / Red Ale,82,1451,1163
+American Pale Lager,82,1452,1158
+American Amber / Red Ale,82,1453,1163
+American Pale Lager,82,1454,1158
+American IPA,82,1455,1157
+American Amber / Red Ale,82,1456,1163
+American IPA,82,1457,1157
+American Pale Wheat Ale,82,1458,1162
+American Amber / Red Ale,82,1459,1163
+Berliner Weissbier,410,1460,1164
+American IPA,410,1461,1165
+American Pilsner,410,1462,1166
+American Amber / Red Ale,410,1463,1167
+Belgian Pale Ale,410,1464,1168
+American Double / Imperial IPA,410,1465,1169
+Belgian Pale Ale,410,1466,1168
+American Double / Imperial IPA,410,1467,1169
+American Pilsner,410,1468,1166
+American Amber / Red Ale,410,1469,1167
+American IPA,410,1470,1165
+American Pale Ale (APA),174,1471,1170
+American Stout,174,1472,1171
+American Double / Imperial IPA,174,1473,1172
+American IPA,174,1474,1173
+English Dark Mild Ale,174,1475,1174
+American Blonde Ale,174,1476,1175
+Dunkelweizen,241,1477,1176
+American Blonde Ale,241,1478,1177
+American Amber / Red Ale,241,1479,1178
+English Brown Ale,518,1480,1179
+Witbier,518,1481,1180
+Cream Ale,238,1482,1181
+American IPA,495,1483,1182
+Witbier,495,1484,1183
+American Pale Ale (APA),495,1485,1184
+American Amber / Red Ale,305,1486,1185
+American Pale Ale (APA),359,1487,1186
+American IPA,359,1488,1187
+English India Pale Ale (IPA),431,1489,1188
+American Stout,431,1490,1189
+Irish Red Ale,431,1491,1190
+German Pilsener,431,1492,1191
+American IPA,0,1493,1192
+Milk / Sweet Stout,0,1494,1193
+English Brown Ale,0,1495,1194
+Pumpkin Ale,0,1496,1195
+American Porter,0,1497,1196
+Extra Special / Strong Bitter (ESB),0,1498,1197
+American IPA,293,1499,1198
+American IPA,450,1500,1199
+American Pale Ale (APA),450,1501,1200
+German Pilsener,529,1502,1201
+American Pale Wheat Ale,529,1503,1202
+American IPA,271,1504,1203
+Czech Pilsener,271,1505,1204
+Pumpkin Ale,442,1506,1205
+American IPA,442,1507,1206
+Fruit / Vegetable Beer,442,1508,1207
+American IPA,150,1509,1208
+American Amber / Red Ale,150,1510,1209
+American Stout,150,1511,1210
+American IPA,150,1512,1208
+Baltic Porter,184,1513,1211
+English Bitter,184,1514,1212
+Keller Bier / Zwickel Bier,184,1515,1213
+American Pale Ale (APA),184,1516,1214
+American Pale Wheat Ale,200,1517,1215
+Dunkelweizen,200,1518,1216
+Altbier,200,1519,1217
+Kölsch,200,1520,1218
+Belgian Strong Dark Ale,148,1521,1219
+Scotch Ale / Wee Heavy,148,1522,1220
+American Porter,148,1523,1221
+Hefeweizen,148,1524,1222
+American Pale Ale (APA),148,1525,1223
+American Pale Ale (APA),148,1526,1223
+Hefeweizen,148,1527,1222
+Scottish Ale,471,1528,1224
+American Brown Ale,471,1529,1225
+Saison / Farmhouse Ale,471,1530,1226
+American Pale Ale (APA),471,1531,1227
+American Stout,471,1532,1228
+Rye Beer,471,1533,1229
+American Pale Lager,301,1534,1230
+American Brown Ale,301,1535,1231
+American Stout,301,1536,1232
+American Porter,301,1537,1233
+Pumpkin Ale,301,1538,1234
+American Pale Wheat Ale,301,1539,1235
+American Blonde Ale,301,1540,1236
+American IPA,301,1541,1237
+American Pale Ale (APA),301,1542,1238
+American Pale Wheat Ale,301,1543,1235
+American Pale Lager,390,1544,1239
+American Amber / Red Lager,390,1545,1240
+American Pale Lager,390,1546,1239
+Euro Dark Lager,390,1547,1241
+Light Lager,390,1548,1242
+Saison / Farmhouse Ale,216,1549,1243
+Saison / Farmhouse Ale,216,1550,1243
+American IPA,166,1551,1244
+American Pale Ale (APA),166,1552,1245
+Scotch Ale / Wee Heavy,166,1553,1246
+,166,1554,1247
+,166,1555,1247
+American IPA,166,1556,1244
+English Brown Ale,166,1557,1248
+American IPA,166,1558,1244
+American Pale Ale (APA),166,1559,1245
+American Pale Ale (APA),166,1560,1245
+Czech Pilsener,166,1561,1249
+American IPA,166,1562,1244
+American IPA,166,1563,1244
+American Pale Ale (APA),166,1564,1245
+American Brown Ale,166,1565,1250
+American Pale Ale (APA),166,1566,1245
+American Pale Ale (APA),166,1567,1245
+American Double / Imperial IPA,166,1568,1251
+American Pale Ale (APA),166,1569,1245
+American Pale Ale (APA),166,1570,1245
+American Double / Imperial IPA,166,1571,1251
+Belgian Dark Ale,166,1572,1252
+Belgian Strong Pale Ale,166,1573,1253
+American Strong Ale,166,1574,1254
+American Double / Imperial IPA,166,1575,1251
+American Double / Imperial IPA,166,1576,1251
+American Double / Imperial IPA,166,1577,1251
+Russian Imperial Stout,166,1578,1255
+Czech Pilsener,166,1579,1249
+American Double / Imperial IPA,166,1580,1251
+Scottish Ale,166,1581,1256
+American Double / Imperial IPA,166,1582,1251
+American Pale Ale (APA),166,1583,1245
+American Double / Imperial IPA,503,1584,1257
+Russian Imperial Stout,503,1585,1258
+Russian Imperial Stout,503,1586,1258
+Scottish Ale,503,1587,1259
+Scottish Ale,503,1588,1259
+Scottish Ale,503,1589,1259
+American Pale Ale (APA),503,1590,1260
+American Pale Ale (APA),503,1591,1260
+American Pale Ale (APA),503,1592,1260
+American Pale Ale (APA),503,1593,1260
+American Pale Ale (APA),503,1594,1260
+American Brown Ale,503,1595,1261
+American Double / Imperial IPA,503,1596,1257
+American Double / Imperial IPA,389,1597,1262
+Russian Imperial Stout,389,1598,1263
+American Double / Imperial IPA,389,1599,1262
+Scottish Ale,389,1600,1264
+American Pale Ale (APA),389,1601,1265
+American Pale Ale (APA),389,1602,1265
+American White IPA,275,1603,1266
+American Pale Ale (APA),261,1604,1267
+American Pale Ale (APA),259,1605,1268
+American IPA,341,1606,1269
+American Dark Wheat Ale,341,1607,1270
+Irish Red Ale,441,1608,1271
+American Pale Ale (APA),441,1609,1272
+Kölsch,441,1610,1273
+English Bitter,441,1611,1274
+American Porter,441,1612,1275
+American Pale Ale (APA),307,1613,1276
+American IPA,307,1614,1277
+American Pale Lager,307,1615,1278
+American Pale Ale (APA),307,1616,1276
+American Brown Ale,307,1617,1279
+Kölsch,468,1618,1280
+American Pilsner,266,1619,1281
+American Pale Wheat Ale,266,1620,1282
+Light Lager,187,1621,1283
+American Pilsner,187,1622,1284
+American IPA,205,1623,1285
+American IPA,205,1624,1285
+American Pale Wheat Ale,205,1625,1286
+German Pilsener,205,1626,1287
+American Brown Ale,13,1627,1288
+American Blonde Ale,13,1628,1289
+American Black Ale,13,1629,1290
+American IPA,13,1630,1291
+American Pale Ale (APA),13,1631,1292
+American IPA,13,1632,1291
+American Pale Lager,470,1633,1293
+American Pale Wheat Ale,470,1634,1294
+Czech Pilsener,470,1635,1295
+American Pale Ale (APA),470,1636,1296
+American Pale Wheat Ale,470,1637,1294
+American Pale Wheat Ale,470,1638,1294
+American Pale Wheat Ale,470,1639,1294
+American Pale Lager,11,1640,1297
+American Amber / Red Ale,11,1641,1298
+Dubbel,11,1642,1299
+American IPA,11,1643,1300
+American IPA,157,1644,1301
+American Pale Ale (APA),355,1645,1302
+American Amber / Red Ale,355,1646,1303
+American IPA,355,1647,1304
+Milk / Sweet Stout,310,1648,1305
+American Pale Ale (APA),310,1649,1306
+Chile Beer,314,1650,1307
+American Black Ale,314,1651,1308
+Fruit / Vegetable Beer,314,1652,1309
+American Blonde Ale,314,1653,1310
+American Porter,314,1654,1311
+American Dark Wheat Ale,314,1655,1312
+American Amber / Red Ale,314,1656,1313
+American IPA,314,1657,1314
+American Amber / Red Ale,52,1658,1315
+American IPA,324,1659,1316
+American Pale Ale (APA),324,1660,1317
+American IPA,370,1661,1318
+American Amber / Red Ale,370,1662,1319
+American IPA,370,1663,1318
+American Pilsner,147,1664,1320
+American Pale Ale (APA),55,1665,1321
+American Barleywine,274,1666,1322
+American IPA,548,1667,1323
+American Amber / Red Ale,548,1668,1324
+American Pale Wheat Ale,135,1669,1325
+Munich Helles Lager,135,1670,1326
+Munich Dunkel Lager,135,1671,1327
+Czech Pilsener,135,1672,1328
+American Pale Ale (APA),135,1673,1329
+Czech Pilsener,135,1674,1328
+American Pale Wheat Ale,135,1675,1325
+Hefeweizen,544,1676,1330
+Hefeweizen,544,1677,1330
+Belgian Pale Ale,246,1678,1331
+American Porter,246,1679,1332
+Munich Helles Lager,176,1680,1333
+American Pale Ale (APA),176,1681,1334
+Gose,128,1682,1335
+Witbier,128,1683,1336
+American Black Ale,128,1684,1337
+American Blonde Ale,128,1685,1338
+English Pale Ale,128,1686,1339
+German Pilsener,128,1687,1340
+American Blonde Ale,128,1688,1338
+American Blonde Ale,128,1689,1338
+American Brown Ale,475,1690,1341
+American IPA,475,1691,1342
+Czech Pilsener,475,1692,1343
+American Blonde Ale,68,1693,1344
+American IPA,68,1694,1345
+Belgian IPA,68,1695,1346
+American Porter,68,1696,1347
+Rye Beer,68,1697,1348
+Cider,403,1698,1349
+American IPA,487,1699,1350
+American IPA,487,1700,1350
+American Amber / Red Ale,487,1701,1351
+Mead,421,1702,1352
+Mead,421,1703,1352
+Mead,421,1704,1352
+Witbier,225,1705,1353
+American Pale Ale (APA),110,1706,1354
+Russian Imperial Stout,110,1707,1355
+American IPA,110,1708,1356
+American Double / Imperial IPA,110,1709,1357
+American Blonde Ale,110,1710,1358
+American IPA,110,1711,1356
+American Stout,386,1712,1359
+American Stout,386,1713,1359
+American Porter,386,1714,1360
+American Blonde Ale,386,1715,1361
+Vienna Lager,386,1716,1362
+American Pale Ale (APA),386,1717,1363
+American Amber / Red Ale,386,1718,1364
+American Blonde Ale,386,1719,1361
+American Pale Ale (APA),44,1720,1365
+Belgian Pale Ale,44,1721,1366
+Herbed / Spiced Beer,44,1722,1367
+Herbed / Spiced Beer,44,1723,1367
+Märzen / Oktoberfest,44,1724,1368
+American Porter,44,1725,1369
+American IPA,44,1726,1370
+Witbier,44,1727,1371
+American Amber / Red Ale,93,1728,1372
+American Pale Ale (APA),93,1729,1373
+American Amber / Red Ale,93,1730,1372
+American Porter,93,1731,1374
+Märzen / Oktoberfest,93,1732,1375
+American Pale Ale (APA),93,1733,1373
+American IPA,93,1734,1376
+American Blonde Ale,93,1735,1377
+Cream Ale,162,1736,1378
+Gose,42,1737,1379
+American Pale Ale (APA),42,1738,1380
+Witbier,459,1739,1381
+American Amber / Red Ale,459,1740,1382
+American IPA,321,1741,1383
+American Pale Ale (APA),321,1742,1384
+American IPA,43,1743,1385
+Märzen / Oktoberfest,43,1744,1386
+Pumpkin Ale,43,1745,1387
+American IPA,43,1746,1385
+Oatmeal Stout,43,1747,1388
+American White IPA,43,1748,1389
+American Pale Ale (APA),43,1749,1390
+American Amber / Red Ale,43,1750,1391
+American Amber / Red Ale,43,1751,1391
+American Blonde Ale,43,1752,1392
+Scottish Ale,43,1753,1393
+Witbier,43,1754,1394
+American Amber / Red Lager,43,1755,1395
+American IPA,43,1756,1385
+Fruit / Vegetable Beer,43,1757,1396
+American Amber / Red Lager,427,1758,1397
+Czech Pilsener,229,1759,1398
+American Porter,229,1760,1399
+American Adjunct Lager,229,1761,1400
+American Amber / Red Ale,229,1762,1401
+Milk / Sweet Stout,229,1763,1402
+American IPA,229,1764,1403
+American Adjunct Lager,229,1765,1400
+American Amber / Red Ale,289,1766,1404
+American Strong Ale,376,1767,1405
+American IPA,376,1768,1406
+American Stout,376,1769,1407
+Saison / Farmhouse Ale,164,1770,1408
+Belgian Strong Pale Ale,164,1771,1409
+American Pale Ale (APA),164,1772,1410
+English Brown Ale,164,1773,1411
+American Black Ale,164,1774,1412
+American IPA,164,1775,1413
+Kölsch,164,1776,1414
+American Amber / Red Ale,397,1777,1415
+American Black Ale,397,1778,1416
+American Amber / Red Lager,397,1779,1417
+American Black Ale,397,1780,1416
+American Amber / Red Ale,397,1781,1415
+Witbier,288,1782,1418
+American IPA,288,1783,1419
+American Pale Ale (APA),288,1784,1420
+Kölsch,288,1785,1421
+American Porter,30,1786,1422
+Winter Warmer,30,1787,1423
+American Double / Imperial IPA,30,1788,1424
+Märzen / Oktoberfest,30,1789,1425
+American Blonde Ale,30,1790,1426
+American Pale Wheat Ale,30,1791,1427
+Belgian IPA,30,1792,1428
+American Amber / Red Ale,30,1793,1429
+Hefeweizen,30,1794,1430
+American IPA,30,1795,1431
+American Porter,30,1796,1422
+American Pale Ale (APA),30,1797,1432
+Herbed / Spiced Beer,30,1798,1433
+Fruit / Vegetable Beer,30,1799,1434
+American Pale Ale (APA),30,1800,1432
+American IPA,30,1801,1431
+Hefeweizen,30,1802,1430
+American Pale Ale (APA),30,1803,1432
+American Amber / Red Ale,30,1804,1429
+Saison / Farmhouse Ale,419,1805,1435
+American Black Ale,419,1806,1436
+American Double / Imperial IPA,252,1807,1437
+American Brown Ale,252,1808,1438
+English India Pale Ale (IPA),252,1809,1439
+Saison / Farmhouse Ale,392,1810,1440
+American Black Ale,392,1811,1441
+Irish Red Ale,392,1812,1442
+Märzen / Oktoberfest,392,1813,1443
+Russian Imperial Stout,392,1814,1444
+German Pilsener,392,1815,1445
+American IPA,392,1816,1446
+American Blonde Ale,398,1817,1447
+Cider,394,1818,1448
+Cider,394,1819,1448
+Cider,394,1820,1448
+American Pale Wheat Ale,428,1821,1449
+Schwarzbier,428,1822,1450
+American IPA,428,1823,1451
+American Brown Ale,428,1824,1452
+Hefeweizen,428,1825,1453
+Munich Helles Lager,428,1826,1454
+Fruit / Vegetable Beer,502,1827,1455
+American IPA,432,1828,1456
+Cider,411,1829,1457
+Cider,411,1830,1457
+American IPA,494,1831,1458
+American Porter,494,1832,1459
+American Strong Ale,183,1833,1460
+English Brown Ale,183,1834,1461
+American Amber / Red Ale,183,1835,1462
+American Pale Ale (APA),183,1836,1463
+American IPA,183,1837,1464
+American Black Ale,130,1838,1465
+English Pale Ale,511,1839,1466
+American IPA,385,1840,1467
+American Pale Wheat Ale,385,1841,1468
+Pumpkin Ale,385,1842,1469
+American Blonde Ale,385,1843,1470
+German Pilsener,83,1844,1471
+American IPA,83,1845,1472
+Maibock / Helles Bock,83,1846,1473
+Rye Beer,83,1847,1474
+American Pale Ale (APA),83,1848,1475
+American Pale Wheat Ale,83,1849,1476
+Czech Pilsener,83,1850,1477
+American IPA,83,1851,1472
+American Pale Ale (APA),83,1852,1475
+Cider,137,1853,1478
+American Brown Ale,551,1854,1479
+American Amber / Red Ale,551,1855,1480
+American IPA,551,1856,1481
+Baltic Porter,46,1857,1482
+Gose,46,1858,1483
+Belgian Pale Ale,46,1859,1484
+Fruit / Vegetable Beer,46,1860,1485
+American IPA,46,1861,1486
+American Pale Ale (APA),46,1862,1487
+American Double / Imperial IPA,46,1863,1488
+American Strong Ale,46,1864,1489
+American IPA,46,1865,1486
+German Pilsener,46,1866,1490
+Cream Ale,46,1867,1491
+Rye Beer,46,1868,1492
+American IPA,46,1869,1486
+Baltic Porter,46,1870,1482
+American Brown Ale,46,1871,1493
+American Pale Wheat Ale,46,1872,1494
+Saison / Farmhouse Ale,46,1873,1495
+American Double / Imperial IPA,46,1874,1488
+American Stout,46,1875,1496
+Pumpkin Ale,46,1876,1497
+German Pilsener,46,1877,1490
+Cream Ale,46,1878,1491
+Rye Beer,46,1879,1492
+American IPA,46,1880,1486
+American IPA,264,1881,1498
+Doppelbock,264,1882,1499
+American IPA,264,1883,1498
+American Stout,264,1884,1500
+American Stout,264,1885,1500
+Foreign / Export Stout,264,1886,1501
+American Stout,264,1887,1500
+American Pale Lager,264,1888,1502
+American Blonde Ale,264,1889,1503
+American Pale Ale (APA),264,1890,1504
+Extra Special / Strong Bitter (ESB),264,1891,1505
+American IPA,264,1892,1498
+American Amber / Red Ale,313,1893,1506
+American IPA,313,1894,1507
+Belgian IPA,64,1895,1508
+Tripel,64,1896,1509
+English Pale Ale,557,1897,1510
+American IPA,163,1898,1511
+Winter Warmer,371,1899,1512
+Grisette,371,1900,1513
+American IPA,371,1901,1514
+Munich Helles Lager,371,1902,1515
+Winter Warmer,371,1903,1512
+American Double / Imperial IPA,371,1904,1516
+Märzen / Oktoberfest,371,1905,1517
+American IPA,371,1906,1514
+Munich Dunkel Lager,371,1907,1518
+Hefeweizen,371,1908,1519
+German Pilsener,371,1909,1520
+American Pale Ale (APA),371,1910,1521
+American IPA,115,1911,1522
+American Amber / Red Ale,115,1912,1523
+Saison / Farmhouse Ale,115,1913,1524
+American Pilsner,191,1914,1525
+American Pale Ale (APA),191,1915,1526
+Foreign / Export Stout,191,1916,1527
+English Brown Ale,191,1917,1528
+Vienna Lager,191,1918,1529
+American Pale Ale (APA),191,1919,1526
+American IPA,191,1920,1530
+Kölsch,309,1921,1531
+American Double / Imperial IPA,309,1922,1532
+American IPA,309,1923,1533
+American IPA,309,1924,1533
+Märzen / Oktoberfest,309,1925,1534
+American Double / Imperial IPA,309,1926,1532
+American Double / Imperial Stout,309,1927,1535
+Saison / Farmhouse Ale,309,1928,1536
+Witbier,309,1929,1537
+Maibock / Helles Bock,309,1930,1538
+American Barleywine,309,1931,1539
+American Blonde Ale,309,1932,1540
+American Pale Ale (APA),309,1933,1541
+American Pale Wheat Ale,309,1934,1542
+American Porter,309,1935,1543
+American Strong Ale,309,1936,1544
+American IPA,309,1937,1533
+Bock,257,1938,1545
+American IPA,257,1939,1546
+Saison / Farmhouse Ale,257,1940,1547
+Kölsch,257,1941,1548
+Light Lager,249,1942,1549
+Czech Pilsener,436,1943,1550
+American IPA,436,1944,1551
+American IPA,133,1945,1552
+American IPA,133,1946,1552
+Extra Special / Strong Bitter (ESB),133,1947,1553
+American Pale Ale (APA),133,1948,1554
+American Blonde Ale,133,1949,1555
+American Amber / Red Ale,133,1950,1556
+Oatmeal Stout,133,1951,1557
+American Blonde Ale,133,1952,1555
+American Pale Ale (APA),133,1953,1554
+American Pale Ale (APA),118,1954,1558
+Saison / Farmhouse Ale,118,1955,1559
+Bière de Garde,118,1956,1560
+American Double / Imperial IPA,118,1957,1561
+American Double / Imperial IPA,118,1958,1561
+American Double / Imperial IPA,118,1959,1561
+Old Ale,118,1960,1562
+American Blonde Ale,118,1961,1563
+American Double / Imperial IPA,118,1962,1561
+Saison / Farmhouse Ale,118,1963,1559
+Bière de Garde,118,1964,1560
+Foreign / Export Stout,118,1965,1564
+American Pale Ale (APA),118,1966,1558
+American Blonde Ale,118,1967,1563
+American IPA,78,1968,1565
+English India Pale Ale (IPA),508,1969,1566
+American Pale Ale (APA),175,1970,1567
+American Double / Imperial IPA,175,1971,1568
+American Porter,175,1972,1569
+American Double / Imperial IPA,175,1973,1568
+American Amber / Red Ale,175,1974,1570
+American Stout,175,1975,1571
+American Double / Imperial IPA,175,1976,1568
+American Pale Ale (APA),175,1977,1567
+American IPA,175,1978,1572
+American Pale Ale (APA),175,1979,1567
+Irish Red Ale,175,1980,1573
+American Pale Wheat Ale,175,1981,1574
+Vienna Lager,498,1982,1575
+Vienna Lager,498,1983,1575
+American Pale Ale (APA),372,1984,1576
+Cider,186,1985,1577
+German Pilsener,383,1986,1578
+American IPA,383,1987,1579
+Märzen / Oktoberfest,383,1988,1580
+American IPA,383,1989,1579
+American Pale Ale (APA),119,1990,1581
+Kölsch,119,1991,1582
+American Amber / Red Lager,119,1992,1583
+American IPA,119,1993,1584
+American Adjunct Lager,131,1994,1585
+American Adjunct Lager,131,1995,1585
+American Pale Ale (APA),131,1996,1586
+American Adjunct Lager,131,1997,1585
+American Black Ale,131,1998,1587
+American IPA,131,1999,1588
+American Adjunct Lager,131,2000,1585
+American Adjunct Lager,131,2001,1585
+American Adjunct Lager,131,2002,1585
+Winter Warmer,131,2003,1589
+Märzen / Oktoberfest,131,2004,1590
+American Pale Wheat Ale,131,2005,1591
+American Pale Wheat Ale,131,2006,1591
+American Pale Wheat Ale,131,2007,1591
+American Blonde Ale,131,2008,1592
+Kölsch,131,2009,1593
+Märzen / Oktoberfest,131,2010,1590
+American Brown Ale,131,2011,1594
+American Pale Wheat Ale,131,2012,1591
+American Pale Ale (APA),131,2013,1586
+American Amber / Red Lager,131,2014,1595
+American Adjunct Lager,131,2015,1585
+American Amber / Red Ale,486,2016,1596
+American Black Ale,255,2017,1597
+American Black Ale,255,2018,1597
+Saison / Farmhouse Ale,255,2019,1598
+American Blonde Ale,492,2020,1599
+Kölsch,412,2021,1600
+Milk / Sweet Stout,412,2022,1601
+American IPA,412,2023,1602
+American Adjunct Lager,129,2024,1603
+American Adjunct Lager,129,2025,1603
+American Amber / Red Lager,129,2026,1604
+Light Lager,129,2027,1605
+American Pale Ale (APA),138,2028,1606
+Extra Special / Strong Bitter (ESB),58,2029,1607
+American Pale Ale (APA),58,2030,1608
+American Double / Imperial IPA,58,2031,1609
+Altbier,25,2032,1610
+Scottish Ale,25,2033,1611
+American Porter,25,2034,1612
+Belgian Pale Ale,25,2035,1613
+Scotch Ale / Wee Heavy,25,2036,1614
+Belgian Dark Ale,25,2037,1615
+Scotch Ale / Wee Heavy,25,2038,1614
+Scotch Ale / Wee Heavy,25,2039,1614
+American IPA,25,2040,1616
+American IPA,25,2041,1616
+American IPA,25,2042,1616
+American IPA,25,2043,1616
+Belgian IPA,25,2044,1617
+Scotch Ale / Wee Heavy,25,2045,1614
+Extra Special / Strong Bitter (ESB),25,2046,1618
+American IPA,25,2047,1616
+American Pale Ale (APA),25,2048,1619
+Russian Imperial Stout,25,2049,1620
+Flanders Oud Bruin,25,2050,1621
+American Porter,25,2051,1612
+German Pilsener,25,2052,1622
+Irish Dry Stout,25,2053,1623
+Scottish Ale,25,2054,1611
+English Barleywine,25,2055,1624
+American Brown Ale,25,2056,1625
+Quadrupel (Quad),25,2057,1626
+Märzen / Oktoberfest,25,2058,1627
+Dortmunder / Export Lager,25,2059,1628
+Dortmunder / Export Lager,25,2060,1628
+Belgian Strong Pale Ale,25,2061,1629
+American Double / Imperial IPA,25,2062,1630
+Scotch Ale / Wee Heavy,25,2063,1614
+American IPA,25,2064,1616
+Märzen / Oktoberfest,25,2065,1627
+English Barleywine,25,2066,1624
+Scottish Ale,25,2067,1611
+Cream Ale,25,2068,1631
+American Pale Ale (APA),25,2069,1619
+American Amber / Red Lager,455,2070,1632
+American IPA,455,2071,1633
+American IPA,61,2072,1634
+Extra Special / Strong Bitter (ESB),61,2073,1635
+American Black Ale,61,2074,1636
+American IPA,61,2075,1634
+American IPA,61,2076,1634
+English Bitter,61,2077,1637
+Rye Beer,61,2078,1638
+American Brown Ale,61,2079,1639
+American Brown Ale,61,2080,1639
+American Double / Imperial IPA,61,2081,1640
+Keller Bier / Zwickel Bier,61,2082,1641
+Saison / Farmhouse Ale,61,2083,1642
+American IPA,61,2084,1634
+American IPA,447,2085,1643
+Witbier,447,2086,1644
+American Pale Ale (APA),447,2087,1645
+Oatmeal Stout,447,2088,1646
+Cream Ale,447,2089,1647
+Herbed / Spiced Beer,381,2090,1648
+German Pilsener,49,2091,1649
+Hefeweizen,49,2092,1650
+American IPA,49,2093,1651
+American Pale Ale (APA),49,2094,1652
+American Double / Imperial IPA,449,2095,1653
+Saison / Farmhouse Ale,449,2096,1654
+American IPA,449,2097,1655
+American IPA,449,2098,1655
+Hefeweizen,449,2099,1656
+American Blonde Ale,449,2100,1657
+American Blonde Ale,449,2101,1657
+Hefeweizen,449,2102,1656
+Tripel,45,2103,1658
+Saison / Farmhouse Ale,45,2104,1659
+American Porter,45,2105,1660
+Saison / Farmhouse Ale,45,2106,1659
+Oatmeal Stout,45,2107,1661
+American IPA,45,2108,1662
+American Brown Ale,45,2109,1663
+Extra Special / Strong Bitter (ESB),45,2110,1664
+Milk / Sweet Stout,45,2111,1665
+American Pale Wheat Ale,45,2112,1666
+American Pale Ale (APA),45,2113,1667
+Tripel,45,2114,1658
+American Pale Wheat Ale,45,2115,1666
+German Pilsener,45,2116,1668
+American Double / Imperial IPA,45,2117,1669
+American Brown Ale,45,2118,1663
+Milk / Sweet Stout,45,2119,1665
+American IPA,45,2120,1662
+American IPA,409,2121,1670
+American Amber / Red Ale,409,2122,1671
+Altbier,490,2123,1672
+American IPA,490,2124,1673
+American Porter,7,2125,1674
+American IPA,7,2126,1675
+Witbier,7,2127,1676
+Dubbel,28,2128,1677
+American Brown Ale,480,2129,1678
+American IPA,480,2130,1679
+American Pale Ale (APA),480,2131,1680
+Extra Special / Strong Bitter (ESB),210,2132,1681
+Fruit / Vegetable Beer,210,2133,1682
+English India Pale Ale (IPA),210,2134,1683
+American Pale Ale (APA),469,2135,1684
+Saison / Farmhouse Ale,215,2136,1685
+American Brown Ale,215,2137,1686
+Dunkelweizen,215,2138,1687
+English India Pale Ale (IPA),215,2139,1688
+American Wild Ale,272,2140,1689
+American Double / Imperial IPA,272,2141,1690
+American Double / Imperial Stout,272,2142,1691
+American IPA,272,2143,1692
+American Double / Imperial IPA,272,2144,1690
+American Double / Imperial IPA,272,2145,1690
+American Amber / Red Ale,457,2146,1693
+American IPA,457,2147,1694
+English Brown Ale,457,2148,1695
+American Pale Wheat Ale,457,2149,1696
+Belgian Pale Ale,262,2150,1697
+Belgian Pale Ale,262,2151,1697
+Dubbel,262,2152,1698
+American Pale Ale (APA),329,2153,1699
+American Black Ale,329,2154,1700
+American Pale Ale (APA),329,2155,1699
+American Pale Ale (APA),33,2156,1701
+Kölsch,33,2157,1702
+American IPA,33,2158,1703
+English Brown Ale,33,2159,1704
+American Double / Imperial IPA,33,2160,1705
+American IPA,328,2161,1706
+American Pilsner,90,2162,1707
+American Amber / Red Lager,484,2163,1708
+American Pale Ale (APA),9,2164,1709
+American Amber / Red Ale,438,2165,1710
+American Stout,438,2166,1711
+American Pale Ale (APA),438,2167,1712
+Shandy,334,2168,1713
+American Pale Wheat Ale,142,2169,1714
+American Pale Ale (APA),142,2170,1715
+Cream Ale,142,2171,1716
+American Brown Ale,142,2172,1717
+Fruit / Vegetable Beer,108,2173,1718
+American Blonde Ale,153,2174,1719
+American Porter,153,2175,1720
+American IPA,153,2176,1721
+Irish Red Ale,273,2177,1722
+American IPA,273,2178,1723
+American Pale Wheat Ale,21,2179,1724
+Oatmeal Stout,21,2180,1725
+American Pale Ale (APA),21,2181,1726
+California Common / Steam Beer,21,2182,1727
+American Amber / Red Ale,282,2183,1728
+American IPA,282,2184,1729
+Braggot,282,2185,1730
+American Dark Wheat Ale,282,2186,1731
+American Porter,17,2187,1732
+Fruit / Vegetable Beer,17,2188,1733
+Russian Imperial Stout,17,2189,1734
+Roggenbier,17,2190,1735
+American Double / Imperial IPA,17,2191,1736
+American IPA,17,2192,1737
+Irish Red Ale,17,2193,1738
+American Porter,17,2194,1732
+Czech Pilsener,17,2195,1739
+American Blonde Ale,152,2196,1740
+American IPA,152,2197,1741
+American Porter,152,2198,1742
+Fruit / Vegetable Beer,152,2199,1743
+American Blonde Ale,152,2200,1740
+American Pale Ale (APA),152,2201,1744
+American Amber / Red Ale,152,2202,1745
+American IPA,291,2203,1746
+Vienna Lager,291,2204,1747
+Shandy,474,2205,1748
+American IPA,474,2206,1749
+American IPA,265,2207,1750
+Milk / Sweet Stout,265,2208,1751
+American Amber / Red Ale,265,2209,1752
+American IPA,524,2210,1753
+Witbier,524,2211,1754
+Belgian Strong Pale Ale,524,2212,1755
+Doppelbock,97,2213,1756
+American Amber / Red Ale,97,2214,1757
+American Pilsner,97,2215,1758
+Doppelbock,97,2216,1756
+American IPA,97,2217,1759
+American Pale Ale (APA),539,2218,1760
+American IPA,520,2219,1761
+American Amber / Red Lager,38,2220,1762
+American IPA,38,2221,1763
+American Adjunct Lager,38,2222,1764
+American IPA,190,2223,1765
+American IPA,190,2224,1765
+American Amber / Red Ale,190,2225,1766
+American IPA,190,2226,1765
+Czech Pilsener,190,2227,1767
+American IPA,190,2228,1765
+American Pale Ale (APA),190,2229,1768
+American Brown Ale,190,2230,1769
+American Amber / Red Ale,190,2231,1766
+American IPA,190,2232,1765
+American IPA,190,2233,1765
+American Pale Wheat Ale,190,2234,1770
+American IPA,74,2235,1771
+American Dark Wheat Ale,74,2236,1772
+American Dark Wheat Ale,74,2237,1772
+Dortmunder / Export Lager,74,2238,1773
+American Pale Ale (APA),74,2239,1774
+Märzen / Oktoberfest,74,2240,1775
+Bière de Garde,74,2241,1776
+American Pale Ale (APA),74,2242,1774
+American Strong Ale,74,2243,1777
+American IPA,74,2244,1771
+Munich Helles Lager,243,2245,1778
+Hefeweizen,435,2246,1779
+American White IPA,435,2247,1780
+American Double / Imperial IPA,435,2248,1781
+Saison / Farmhouse Ale,435,2249,1782
+German Pilsener,435,2250,1783
+Pumpkin Ale,159,2251,1784
+American Amber / Red Lager,159,2252,1785
+American IPA,159,2253,1786
+American IPA,159,2254,1786
+American Blonde Ale,159,2255,1787
+Schwarzbier,159,2256,1788
+American IPA,159,2257,1786
+American Pale Ale (APA),159,2258,1789
+American Pale Ale (APA),159,2259,1789
+German Pilsener,555,2260,1790
+American IPA,126,2261,1791
+Maibock / Helles Bock,126,2262,1792
+Cider,338,2263,1793
+Cider,338,2264,1793
+Cider,338,2265,1793
+Low Alcohol Beer,522,2266,1794
+American Brown Ale,522,2267,1795
+Belgian Pale Ale,522,2268,1796
+Baltic Porter,522,2269,1797
+Dubbel,522,2270,1798
+American Double / Imperial IPA,71,2271,1799
+Gose,71,2272,1800
+American Pale Ale (APA),71,2273,1801
+Altbier,71,2274,1802
+American IPA,202,2275,1803
+Witbier,202,2276,1804
+American IPA,202,2277,1803
+Quadrupel (Quad),51,2278,1805
+Rye Beer,51,2279,1806
+American Wild Ale,51,2280,1807
+American Double / Imperial Stout,51,2281,1808
+American Brown Ale,51,2282,1809
+Saison / Farmhouse Ale,51,2283,1810
+American White IPA,51,2284,1811
+American Wild Ale,51,2285,1807
+American Double / Imperial IPA,51,2286,1812
+Winter Warmer,51,2287,1813
+Pumpkin Ale,51,2288,1814
+Belgian Pale Ale,51,2289,1815
+Foreign / Export Stout,51,2290,1816
+Vienna Lager,51,2291,1817
+Vienna Lager,51,2292,1817
+English Brown Ale,51,2293,1818
+American Pale Ale (APA),51,2294,1819
+American IPA,51,2295,1820
+American Brown Ale,546,2296,1821
+American IPA,546,2297,1822
+American Pale Ale (APA),302,2298,1823
+American Double / Imperial IPA,302,2299,1824
+Doppelbock,302,2300,1825
+American White IPA,302,2301,1826
+American White IPA,302,2302,1826
+Fruit / Vegetable Beer,302,2303,1827
+American Double / Imperial IPA,302,2304,1824
+American Pale Ale (APA),302,2305,1823
+Cider,185,2306,1828
+Cider,185,2307,1828
+Cider,185,2308,1828
+Cider,185,2309,1828
+Cider,185,2310,1828
+American Stout,113,2311,1829
+Tripel,322,2312,1830
+Witbier,322,2313,1831
+American Brown Ale,322,2314,1832
+Belgian Strong Pale Ale,322,2315,1833
+American IPA,322,2316,1834
+American Double / Imperial Pilsner,322,2317,1835
+American IPA,295,2318,1836
+American IPA,295,2319,1836
+American IPA,295,2320,1836
+Witbier,295,2321,1837
+American Double / Imperial IPA,295,2322,1838
+American Pale Wheat Ale,295,2323,1839
+English Pale Ale,295,2324,1840
+American IPA,295,2325,1836
+Pumpkin Ale,295,2326,1841
+Fruit / Vegetable Beer,295,2327,1842
+American IPA,295,2328,1836
+American Amber / Red Ale,506,2329,1843
+American IPA,94,2330,1844
+Cream Ale,94,2331,1845
+Oatmeal Stout,94,2332,1846
+American IPA,94,2333,1844
+Herbed / Spiced Beer,100,2334,1847
+American Porter,100,2335,1848
+American Amber / Red Ale,100,2336,1849
+American IPA,100,2337,1850
+American Pale Ale (APA),384,2338,1851
+Gose,384,2339,1852
+Witbier,384,2340,1853
+American IPA,384,2341,1854
+Märzen / Oktoberfest,351,2342,1855
+American Amber / Red Lager,351,2343,1856
+American IPA,351,2344,1857
+American Pale Lager,132,2345,1858
+Bock,132,2346,1859
+English Stout,132,2347,1860
+American IPA,132,2348,1861
+Cream Ale,132,2349,1862
+Chile Beer,132,2350,1863
+American Amber / Red Ale,132,2351,1864
+Berliner Weissbier,47,2352,1865
+American IPA,47,2353,1866
+Berliner Weissbier,47,2354,1865
+Berliner Weissbier,47,2355,1865
+American IPA,396,2356,1867
+Radler,296,2357,1868
+Hefeweizen,296,2358,1869
+Hefeweizen,296,2359,1869
+American Double / Imperial IPA,361,2360,1870
+Pumpkin Ale,361,2361,1871
+American Brown Ale,361,2362,1872
+American Blonde Ale,361,2363,1873
+American Double / Imperial IPA,361,2364,1870
+American Double / Imperial IPA,361,2365,1870
+Witbier,361,2366,1874
+Oatmeal Stout,361,2367,1875
+Pumpkin Ale,361,2368,1871
+American Pale Ale (APA),361,2369,1876
+Belgian Pale Ale,181,2370,1877
+Scotch Ale / Wee Heavy,181,2371,1878
+American Pilsner,181,2372,1879
+American Pale Ale (APA),181,2373,1880
+Irish Dry Stout,499,2374,1881
+Bock,499,2375,1882
+Munich Helles Lager,499,2376,1883
+American Pale Ale (APA),550,2377,1884
+American Blonde Ale,550,2378,1885
+American IPA,509,2379,1886
+American Porter,509,2380,1887
+American Amber / Red Lager,211,2381,1888
+American IPA,211,2382,1889
+American Porter,211,2383,1890
+American IPA,211,2384,1889
+Saison / Farmhouse Ale,239,2385,1891
+American IPA,239,2386,1892
+American Pilsner,239,2387,1893
+American IPA,14,2388,1894
+American Brown Ale,14,2389,1895
+American IPA,344,2390,1896
+American Pale Lager,402,2391,1897
+Cider,501,2392,1898
+American IPA,109,2393,1899
+American Pilsner,109,2394,1900
+American IPA,339,2395,1901
+American IPA,199,2396,1902
+Kölsch,199,2397,1903
+American Double / Imperial IPA,199,2398,1904
+American IPA,199,2399,1902
+American Pale Ale (APA),199,2400,1905
+Chile Beer,424,2401,1906
+American Strong Ale,424,2402,1907
+Pumpkin Ale,424,2403,1908
+American Stout,424,2404,1909
+Belgian IPA,424,2405,1910
+American Amber / Red Ale,424,2406,1911
+Schwarzbier,424,2407,1912
+American Pale Ale (APA),424,2408,1913
+American Amber / Red Ale,424,2409,1911

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The address details in column 3 may suggest connections with the hospital identifier in column 1, particularly for sorting or identifying local entities.
+
+  The following is a formatted table with the unique data to be checked.
+  

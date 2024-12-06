@@ -1,0 +1,40 @@
+{
+  "output": [
+    {
+      "columns": [2, 3],
+      "dependency": "The flight identifier in column 2 indicates the specific flight, which determines the departure time in column 3."
+    },
+    {
+      "columns": [2, 4],
+      "dependency": "The flight identifier in column 2 is associated with arrival times, specifically indicated in column 4."
+    },
+    {
+      "columns": [2, 5],
+      "dependency": "The flight identifier in column 2 is linked to the scheduled time of a connecting flight, represented in column 5."
+    },
+    {
+      "columns": [2, 6],
+      "dependency": "The flight identifier in column 2 relates to the actual time of arrival or departure, which is noted in column 6."
+    },
+    {
+      "columns": [3, 4],
+      "dependency": "The scheduled departure time in column 3 is related to the scheduled arrival time in column 4 for the same flight."
+    },
+    {
+      "columns": [3, 5],
+      "dependency": "The scheduled departure time in column 3 may relate to other scheduled flights indicated in column 5."
+    },
+    {
+      "columns": [4, 5],
+      "dependency": "The scheduled arrival time in column 4 could potentially relate to subsequent scheduled flight times indicated in column 5."
+    },
+    {
+      "columns": [4, 6],
+      "dependency": "The scheduled arrival time in column 4 is expected to correlate with the actual arrival time noted in column 6."
+    },
+    {
+      "columns": [5, 6],
+      "dependency": "The scheduled time of a connecting flight in column 5 should relate to the actual time of arrival or departure as shown in column 6."
+    }
+  ]
+}

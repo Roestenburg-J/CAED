@@ -1,0 +1,410 @@
+{
+  "output": [
+    {
+      "explanation": "Scheduled arrival time '12/02/2011 6:55 a.m.' has an invalid format, as it contains a date and time rather than just time.",
+      "index": 5,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "6:55 a.m."
+    },
+    {
+      "explanation": "Scheduled arrival time '12/02/2011 5:50 a.m.' has an invalid format, as it contains a date and time rather than just time.",
+      "index": 31,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "5:50 a.m."
+    },
+    {
+      "explanation": "Scheduled arrival time '12/02/2011 12:15 a.m.' has an invalid format, as it contains a date and time rather than just time.",
+      "index": 32,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "12:15 a.m."
+    },
+    {
+      "explanation": "Scheduled arrival time '12/2/11 6:35 a.m.' has an invalid format, as it contains a date and time rather than just time.",
+      "index": 60,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "6:35 a.m."
+    },
+    {
+      "explanation": "Scheduled arrival time '12/2/11 12:21 a.m.' has an invalid format, as it contains a date and time rather than just time.",
+      "index": 94,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "12:21 a.m."
+    },
+    {
+      "explanation": "Scheduled arrival time '12/2/11 5:50 a.m.' has an invalid format, as it contains a date and time rather than just time (similar to earlier entries).",
+      "index": 31,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "5:50 a.m."
+    },
+    {
+      "explanation": "Actual arrival time '12/2/11 12:01 a.m.' does not match the expected time format (HH:MM a.m./p.m.).",
+      "index": 110,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "'12:01 a.m.'"
+    },
+    {
+      "explanation": "Actual arrival time '10:39 p.m.&nbsp(Estimated)' contains invalid HTML character '&nbsp' which violates expected format.",
+      "index": 151,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "'10:39 p.m. (Estimated)'"
+    },
+    {
+      "explanation": "Scheduled arrival time '12/2/11 5:11 a.m.' does not match the expected time format (HH:MM a.m./p.m.).",
+      "index": 119,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "'5:11 a.m.'"
+    },
+    {
+      "explanation": "The scheduled arrival time '5:50 a.m.Dec 02' is incorrectly formatted as it lacks a space between the time and the date.",
+      "index": 202,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "5:50 a.m. Dec 02"
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' is not a valid entry for an actual arrival corresponding to the scheduled time '12:29 a.m. Dec 02'.",
+      "index": 203,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "12:29 a.m. Dec 02"
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' does not correspond to valid scheduled time '12:15 a.m. Dec 02'. It should have a proper time, not an unavailable status.",
+      "index": 204,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "12:15 a.m. Dec 02"
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' is improper for the scheduled time '11:50 p.m.', as it should indicate an actual time.",
+      "index": 205,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:50 p.m."
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' should have a specific time to match the scheduled arrival '10:34 a.m.'.",
+      "index": 206,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "10:34 a.m."
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' is not a valid entry corresponding to '3:50 p.m.' which must show the actual arrival.",
+      "index": 209,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "3:50 p.m."
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' cannot correspond to scheduled arrival '6:09 p.m.' and should provide a valid actual arrival time.",
+      "index": 213,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:09 p.m."
+    },
+    {
+      "explanation": "The actual arrival time 'Not Available' is not appropriate for scheduled time '2:25 p.m.' since an actual arrival should be recorded.",
+      "index": 231,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "2:25 p.m."
+    },
+    {
+      "explanation": "The scheduled time '4:05 p.m.' should have a corresponding actual arrival time and cannot be 'null'.",
+      "index": 291,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:05 p.m."
+    },
+    {
+      "explanation": "The actual arrival time '11:34 a.m.' is not accurate when compared to scheduled '11:55 a.m.' as it should be later or at the same time.",
+      "index": 243,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:55 a.m."
+    },
+    {
+      "explanation": "The scheduled time '6:55 a.m.' indicates that actual arrival should be recorded, and yet it is 'null'.",
+      "index": 249,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:55 a.m."
+    },
+    {
+      "explanation": "The scheduled arrival time '6:40 p.m.' should have a valid corresponding actual time, not '6:09 p.m.' which is earlier.",
+      "index": 230,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:40 p.m."
+    },
+    {
+      "explanation": "The scheduled arrival time '12:15 a.m.' should have a recorded actual time instead of being 'null'.",
+      "index": 281,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "12:15 a.m."
+    },
+    {
+      "explanation": "The actual arrival of '11:07 a.m.' is incorrect for '11:35 a.m.' schedule as it should be before or at the same time.",
+      "index": 221,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:35 a.m."
+    },
+    {
+      "explanation": "Placed at index 264, actual arrival '2:17 p.m.' must be valid or happen not before the scheduled '2:25 p.m.'",
+      "index": 264,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "2:25 p.m."
+    },
+    {
+      "explanation": "Scheduled time '11:05 a.m.' should correspond with a proper actual time not to be 'null'.",
+      "index": 296,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:05 a.m."
+    },
+    {
+      "explanation": "Scheduled time '6:30 p.m.' requires a corresponding actual arrival time, but it is null, indicating a missed arrival that needs correction.",
+      "index": 300,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Add an actual arrival time, e.g., '6:35 p.m.'"
+    },
+    {
+      "explanation": "Scheduled time '6:40 p.m.' requires a corresponding actual arrival time, but it is null, indicating a missed arrival that needs correction.",
+      "index": 301,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Add an actual arrival time, e.g., '6:45 p.m.'"
+    },
+    {
+      "explanation": "Scheduled time '6:17 p.m.' requires a corresponding actual arrival time, but it is null, indicating a missed arrival that needs correction.",
+      "index": 302,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Add an actual arrival time, e.g., '6:20 p.m.'"
+    },
+    {
+      "explanation": "Scheduled time '12:55 p.m.' requires a corresponding actual arrival time, but it is null, indicating a missed arrival that needs correction.",
+      "index": 303,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Add an actual arrival time, e.g., '1:00 p.m.'"
+    },
+    {
+      "explanation": "Scheduled time '6:40 a.m.' requires a corresponding actual arrival time, but it is null, indicating a missed arrival that needs correction.",
+      "index": 304,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Add an actual arrival time, e.g., '6:45 a.m.'"
+    },
+    {
+      "explanation": "Scheduled time '3:30 p.m.' requires a corresponding actual arrival time, but it is null, indicating a missed arrival that needs correction.",
+      "index": 306,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Add an actual arrival time, e.g., '3:35 p.m.'"
+    },
+    {
+      "explanation": "Actual arrival time '10:29 p.m.' indicates an arrival without a scheduled time, which is improper as per the dependency rule.",
+      "index": 307,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "Add a scheduled time, e.g., '10:15 p.m.'"
+    },
+    {
+      "explanation": "The scheduled time '6:55 a.m. Dec 02' includes a date, which should only include time. No valid actual arrival time can correspond with this entry, indicating a violation.",
+      "index": 312,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change '6:55 a.m. Dec 02' to '6:55 a.m.'."
+    },
+    {
+      "explanation": "Scheduled time '12:21 a.m. Dec 02' includes a date, which should only include time. No valid actual arrival time can correspond with this entry, indicating a violation.",
+      "index": 326,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change '12:21 a.m. Dec 02' to '12:21 a.m.'."
+    },
+    {
+      "explanation": "Scheduled time '7:05 p.m.' corresponds to an improper actual time '7:25 p.m. (Estimated runway)', as it indicates an estimated value rather than a definitive actual arrival time.",
+      "index": 349,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change actual time to a definitive time, e.g., '7:10 p.m.'."
+    },
+    {
+      "explanation": "Scheduled time '12:15 a.m. Dec 02' includes a date, which should only include time. No valid actual arrival time can correspond with this entry, indicating a violation.",
+      "index": 336,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change '12:15 a.m. Dec 02' to '12:15 a.m.'."
+    },
+    {
+      "explanation": "Scheduled time '12:29 a.m. Dec 02' includes a date, which should only include time. No valid actual arrival time can correspond with this entry, indicating a violation.",
+      "index": 335,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change '12:29 a.m. Dec 02' to '12:29 a.m.'."
+    },
+    {
+      "explanation": "Scheduled time '1:40 p.m.' correlates to an improper actual time '2:00 p.m.', which is after the scheduled arrival, indicating a violation.",
+      "index": 386,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change actual time to a time before or equal to '1:40 p.m.', e.g., '1:30 p.m.'."
+    },
+    {
+      "explanation": "The scheduled time '2:45P 12-01-11' uses an incorrect format for the date and should have a consistent 24-hour notation instead of mixed notations.",
+      "index": 409,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "2:45 PM 12/01/2011"
+    },
+    {
+      "explanation": "The actual time '2:46P' has an incorrect format and should use a space between the time and the AM/PM notation.",
+      "index": 409,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "2:46 PM"
+    },
+    {
+      "explanation": "The actual time '10:30 p.m.*' appears to have an invalid asterisk which is inconsistent with date/time formatting rules in this context.",
+      "index": 459,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "10:30 p.m."
+    },
+    {
+      "explanation": "The scheduled time '9:20 p.m.' has an invalid character asterisk (*) in its corresponding actual time '9:19 p.m.*', which is not standard notation for expressing time.",
+      "index": 480,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "9:19 p.m."
+    },
+    {
+      "explanation": "Scheduled time '9:40aDec 1' lacks necessary spacing and consistent date format, causing a syntactic error.",
+      "index": 487,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "9:40 a.m. Dec 1"
+    },
+    {
+      "explanation": "The actual arrival time '9:32aDec 1' lacks spacing and has incorrect date formatting.",
+      "index": 487,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "9:32 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled time '11:55aDec 1' is in an incorrect format and should include space and consistent date notation.",
+      "index": 490,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "11:55 a.m. Dec 1"
+    },
+    {
+      "explanation": "The actual arrival time '11:58aDec 1' lacks necessary spacing and proper date formatting, violating the dependency.",
+      "index": 490,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:58 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled arrival time '9:20aDec 1' is not correctly formatted due to the lack of spacing and use of 'a' instead of 'a.m.' or 'p.m.'.",
+      "index": 500,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "9:20 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled arrival time '10:54aDec 1' is not correctly formatted due to the lack of spacing and use of 'a' instead of 'a.m.' or 'p.m.'.",
+      "index": 502,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "10:54 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled arrival time '12:10 p.m.' is valid, but the actual arrival time '11:56aDec 1' is incorrectly formatted (missing spacing and using 'a' instead of 'a.m.' or 'p.m.').",
+      "index": 503,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:56 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled arrival time and actual arrival time both need to follow the same format; '10:45 aDec 1' uses the invalid abbreviation 'a' instead of 'a.m.'.",
+      "index": 529,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "10:45 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled arrival time '11:43 a.m.' does not match the actual arrival time '11:50 a.m.' within an acceptable range of delay, suggesting a behavior violation.",
+      "index": 560,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change actual arrival to reflect a time closer to scheduled time."
+    },
+    {
+      "explanation": "The scheduled arrival time '11:19 a.m.' is valid, however the actual arrival time '11:21 a.m.' exceeds a reasonable delay, indicating an inconsistency.",
+      "index": 593,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change actual arrival to reflect a time closer to scheduled time."
+    },
+    {
+      "explanation": "The scheduled arrival time '12:21aDec 2' is incorrectly formatted due to the lack of spacing before 'a' and 'Dec 2'.",
+      "index": 507,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "12:21 a.m. Dec 2"
+    },
+    {
+      "explanation": "The scheduled arrival time '10:35aDec 1' lacks spacing around 'a' and 'Dec 1', which is a formatting error.",
+      "index": 506,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "10:35 a.m. Dec 1"
+    },
+    {
+      "explanation": "The actual arrival time '11:56aDec 1' lacks proper formatting without spaces before 'a' or 'Dec 1'.",
+      "index": 503,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:56 a.m. Dec 1"
+    },
+    {
+      "explanation": "The scheduled arrival time '11/30 9:10 p.m.' lacks proper format. Date should be separated properly from the time indicated.",
+      "index": 540,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "November 30, 9:10 p.m."
+    },
+    {
+      "explanation": "The value in column 6 '11:56aDec 1' lacks proper spacing around 'a' and 'Dec 1'. This is considered a formatting error.",
+      "index": 503,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:56 a.m. Dec 1"
+    },
+    {
+      "explanation": "The actual arrival time of 3:29 p.m. is earlier than the scheduled arrival time of 3:50 p.m., which violates the dependency that actual arrival times must be later than or equal to scheduled arrival times.",
+      "index": 600,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "3:50 p.m."
+    }
+  ]
+}

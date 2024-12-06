@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The filmmaker (fifth column) appears to be the same as one of the contributors (sixth column), suggesting a possible dependency where the filmmaker may also have contributed to the film.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The first column contains an identifier or code that is likely associated with the hospital or facility, while the second column identifies the hospital name. There is a semantic dependency because each code relates specifically to 'huntsville hospital'.
+
+  The following is a formatted table with the unique data to be checked.
+  

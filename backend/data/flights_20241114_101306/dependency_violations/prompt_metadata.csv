@@ -1,0 +1,12 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+5548,42665,48213,00:48.824,14,"src, sched_dep_time"
+12286,60375,72661,01:37.876,19,"src, act_dep_time"
+6606,10082,16688,00:46.552,3,"flight, sched_dep_time"
+3971,16687,20658,00:29.758,5,"flight, act_dep_time"
+1734,13375,15109,00:16.926,4,"flight, sched_arr_time"
+1670,17157,18827,00:26.829,5,"flight, act_arr_time"
+9728,17613,27341,01:09.766,6,"sched_dep_time, act_dep_time"
+2292,11408,13700,00:19.443,4,"sched_dep_time, sched_arr_time"
+4980,20836,25816,00:40.019,7,"act_dep_time, sched_arr_time"
+4824,18736,23560,00:35.794,6,"act_dep_time, act_arr_time"
+3659,19993,23652,00:27.000,7,"sched_arr_time, act_arr_time"

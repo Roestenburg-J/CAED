@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column describing the name of the hospital (huntsville hospital) is dependent on the column describing the type of care (children's asthma care, heart attack, etc.), as the hospital provides various specific types of care.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -67,10 +67,8 @@ interface AttributeResult {
     precision: string;
     recall: string;
     f1_score: string;
-    class_1_accuracy: string;
     roc_auc: string;
     predicted_positives_count: string;
-    true_positives_count: string;
   };
 }
 
@@ -580,10 +578,7 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
                         ROC AUC:
                       </Typography>
                       <Typography sx={{ fontWeight: "bold" }}>
-                        Predicted true errors:
-                      </Typography>
-                      <Typography sx={{ fontWeight: "bold" }}>
-                        True Errors:
+                        Predicted error count:
                       </Typography>
                     </Box>
                     <Box sx={{ ml: 1 }}>
@@ -598,16 +593,10 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
                         {attributeResults.metrics.f1_score}
                       </Typography>
                       <Typography>
-                        {attributeResults.metrics.class_1_accuracy}
-                      </Typography>
-                      <Typography>
                         {attributeResults.metrics.roc_auc}
                       </Typography>
                       <Typography>
                         {attributeResults.metrics.predicted_positives_count}
-                      </Typography>
-                      <Typography>
-                        {attributeResults.metrics.true_positives_count}
                       </Typography>
                     </Box>
                   </Box>

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The zip code (column 8) provides a geographical reference that is related to the exact street address (column 3) of the hospital.
+
+  The following is a formatted table with the unique data to be checked.
+  

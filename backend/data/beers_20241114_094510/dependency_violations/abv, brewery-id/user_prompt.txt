@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column representing the alcohol percentage has a dependency on the column indicating a quality score, suggesting that certain alcohol content levels may influence or correlate with higher or lower quality ratings.
+
+  The following is a formatted table with the unique data to be checked.
+  

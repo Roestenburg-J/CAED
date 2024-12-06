@@ -1,0 +1,1 @@
+{"output":[{"columns":[0,1],"dependency":"The first column represents a unique identifier for records, while the second column contains titles of articles or studies. There is a dependency where each unique identifier corresponds to a specific article title."}]}

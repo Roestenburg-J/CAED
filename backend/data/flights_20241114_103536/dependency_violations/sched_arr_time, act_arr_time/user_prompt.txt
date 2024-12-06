@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Each recorded time in the fifth column (potentially representing scheduled arrival times) is related to the subsequent times in the sixth column (representing actual arrival times), with a possible semantic dependency where the 'scheduled' arrival time often relates to the 'actual' recorded arrival time.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The type of medical condition specifies the category of hospital (acute care hospitals) which thus might suggest that all listed conditions are treated at such hospitals.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The scheduled arrival time in the fifth column may have a dependency on the recorded arrival time in the sixth column, indicating that the two times are closely related.
+
+  The following is a formatted table with the unique data to be checked.
+  

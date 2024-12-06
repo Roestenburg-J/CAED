@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The flight identifier (column 2) is associated with the status or additional timing related to the flight (column 6), which could indicate a delay or another relevant update.
+
+  The following is a formatted table with the unique data to be checked.
+  

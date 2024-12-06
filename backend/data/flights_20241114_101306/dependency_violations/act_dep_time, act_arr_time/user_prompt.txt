@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The fourth column represents departure times, while the sixth column represents arrival times, indicating a direct temporal relationship between when a flight departs and when it arrives.
+
+  The following is a formatted table with the unique data to be checked.
+  

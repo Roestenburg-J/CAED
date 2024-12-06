@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import styles from "./EvaluateForm.module.css";
 import Papa from "papaparse";
 import * as XLSX from "xlsx";
@@ -12,6 +12,7 @@ import {
   Box,
   Button,
   Checkbox,
+  CircularProgress,
   FormControlLabel,
   Typography,
 } from "@mui/material";
@@ -79,6 +80,11 @@ interface EvaluateFormProps<T> {
   >;
 }
 
+type FileState = {
+  dirty: File | null;
+  clean: File | null;
+};
+
 const EvaluateForm = <T,>({
   setAttributeResults,
   setDependencyResults,
@@ -89,19 +95,51 @@ const EvaluateForm = <T,>({
   setDetectionError,
   setDataset,
 }: EvaluateFormProps<T>) => {
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
   const theme = useTheme();
 
-  const dataset_name = searchParams.get("dataset_name");
-  const timestamp = searchParams.get("timestamp");
+  const SearchParamsComponent = () => {
+    const searchParams = useSearchParams();
 
-  const attribute_string = searchParams.get("attribute");
-  const dep_string = searchParams.get("dep");
-  const dep_viol_string = searchParams.get("depViol");
+    // Use searchParams safely here
+    const dataset_name = searchParams.get("dataset_name");
+    const timestamp = searchParams.get("timestamp");
+    if (dataset_name) {
+      setDataset_name(dataset_name);
+    }
+    if (timestamp) {
+      setTimestamp(timestamp);
+    }
 
-  const attribute = attribute_string == "true" ? true : false;
-  const dep = dep_string == "true" ? true : false;
-  const depViol = dep_viol_string == "true" ? true : false;
+    // const dataset_name = searchParams.get("dataset_name");
+    // const timestamp = searchParams.get("timestamp");
+
+    const attribute_string = searchParams.get("attribute");
+    const dep_string = searchParams.get("dep");
+    const dep_viol_string = searchParams.get("depViol");
+
+    if (attribute_string == "true") {
+      setAttribute(true);
+    }
+    if (dep_string == "true") {
+      setDep(true);
+    }
+    if (dep_viol_string == "true") {
+      setDepViol(true);
+    }
+    // const attribute = attribute_string == "true" ? true : false;
+    // const dep = dep_string == "true" ? true : false;
+    // const depViol = dep_viol_string == "true" ? true : false;
+
+    return <div></div>;
+  };
+
+  const [dataset_name, setDataset_name] = useState("");
+  const [timestamp, setTimestamp] = useState("");
+
+  const [attribute, setAttribute] = useState(false);
+  const [dep, setDep] = useState(false);
+  const [depViol, setDepViol] = useState(false);
 
   const [detectionSettings, setDetectionSettings] = useState({
     attribute: false,
@@ -114,7 +152,7 @@ const EvaluateForm = <T,>({
     clean: { loading: false, success: false, error: false },
   });
 
-  const [uploadedFiles, setUploadedFiles] = useState({
+  const [uploadedFiles, setUploadedFiles] = useState<FileState>({
     dirty: null,
     clean: null,
   });
@@ -492,12 +530,13 @@ const EvaluateForm = <T,>({
       setModelName(dataset.gpt_model);
 
       // Step 2: Sort columns of the dataset based on the schema's index
-      const sortedData = dataset.dataset.map((row) => {
-        const orderedRow = {};
-        // Sort columns based on dataset.schema
+      const sortedData = dataset.dataset.map((row: Record<string, any>) => {
+        const orderedRow: Record<string, any> = {};
         dataset.dataset_schema
-          .sort((a, b) => a.index - b.index)
-          .forEach(({ name }) => {
+          .sort(
+            (a: { index: number }, b: { index: number }) => a.index - b.index
+          )
+          .forEach(({ name }: { name: string }) => {
             orderedRow[name] = row[name];
           });
         return orderedRow;
@@ -511,7 +550,7 @@ const EvaluateForm = <T,>({
       }));
 
       // Step 3: Prepare parallel fetches for attribute, dependency, and depViolation
-      const fetchPromises = [];
+      const fetchPromises: Promise<void>[] = [];
 
       if (attribute) {
         setLoadingStates((prev) => ({ ...prev, attribute: true }));
@@ -600,7 +639,7 @@ const EvaluateForm = <T,>({
 
   useEffect(() => {
     // Check if router.query params exist
-    if (dataset_name && timestamp) {
+    if (dataset_name.length > 0 && timestamp.length > 0) {
       // Pre-select settings based on query params
       setDetectionSettings({
         attribute: attribute, // Set based on your logic
@@ -645,100 +684,123 @@ const EvaluateForm = <T,>({
   }, [dataset_name, timestamp, attribute, dep, depViol]);
 
   return (
-    <Box component="form" onSubmit={handleSubmit} className={styles.container}>
-      <Box className={styles.uploadInput}>
-        <LoadingButton
-          loading={fileUploadState.dirty.loading}
-          variant="outlined"
-          component="label"
-          disabled={Boolean(dataset_name)}
-          color={
-            fileUploadState.dirty.error
-              ? theme.palette.error.main
-              : theme.palette.primary.main
-          }
-        >
-          {fileUploadState.dirty.success ? <DoneIcon /> : null}
-          {fileUploadState.dirty.error ? <ErrorIcon /> : null}
-          {!fileUploadState.dirty.error && !fileUploadState.dirty.success ? (
-            <UploadFileIcon />
-          ) : null}
-          Upload Dirty Dataset
-          <VisuallyHiddenInput
-            type="file"
-            onChange={(e) => handleFileChange(e, "dirty")}
-          />
-        </LoadingButton>
+    <Suspense fallback={<CircularProgress />}>
+      <SearchParamsComponent />
+      <Box
+        component="form"
+        onSubmit={handleSubmit}
+        className={styles.container}
+      >
+        <Box className={styles.uploadInput}>
+          <LoadingButton
+            loading={fileUploadState.dirty.loading}
+            variant="outlined"
+            component="label"
+            disabled={Boolean(dataset_name)}
+            // color={
+            //   fileUploadState.dirty.error
+            //     ? theme.palette.error.main
+            //     : theme.palette.primary.main
+            // }
+            sx={{
+              color: fileUploadState.dirty.error
+                ? theme.palette.error.main
+                : theme.palette.primary.main,
+              borderColor: fileUploadState.dirty.error
+                ? theme.palette.error.main
+                : theme.palette.primary.main,
+            }}
+          >
+            {fileUploadState.dirty.success ? <DoneIcon /> : null}
+            {fileUploadState.dirty.error ? <ErrorIcon /> : null}
+            {!fileUploadState.dirty.error && !fileUploadState.dirty.success ? (
+              <UploadFileIcon />
+            ) : null}
+            Upload Dirty Dataset
+            <VisuallyHiddenInput
+              type="file"
+              onChange={(e) => handleFileChange(e, "dirty")}
+            />
+          </LoadingButton>
 
-        <LoadingButton
-          loading={fileUploadState.clean.loading}
-          variant="outlined"
-          component="label"
-          disabled={Boolean(dataset_name)}
-          color={
-            fileUploadState.dirty.error
-              ? theme.palette.error.main
-              : theme.palette.primary.main
-          }
-        >
-          {fileUploadState.clean.success ? <DoneIcon /> : null}
-          {fileUploadState.clean.error ? <ErrorIcon /> : null}
-          {!fileUploadState.clean.error && !fileUploadState.clean.success ? (
-            <UploadFileIcon />
-          ) : null}
-          Upload Clean Dataset
-          <VisuallyHiddenInput
-            type="file"
-            onChange={(e) => handleFileChange(e, "clean")}
-          />
-        </LoadingButton>
+          <LoadingButton
+            loading={fileUploadState.clean.loading}
+            variant="outlined"
+            component="label"
+            disabled={Boolean(dataset_name)}
+            sx={{
+              color: fileUploadState.dirty.error
+                ? theme.palette.error.main
+                : theme.palette.primary.main,
+              borderColor: fileUploadState.dirty.error
+                ? theme.palette.error.main
+                : theme.palette.primary.main,
+            }}
+            // color={
+            //   fileUploadState.dirty.error
+            //     ? theme.palette.error.main
+            //     : theme.palette.primary.main
+            // }
+          >
+            {fileUploadState.clean.success ? <DoneIcon /> : null}
+            {fileUploadState.clean.error ? <ErrorIcon /> : null}
+            {!fileUploadState.clean.error && !fileUploadState.clean.success ? (
+              <UploadFileIcon />
+            ) : null}
+            Upload Clean Dataset
+            <VisuallyHiddenInput
+              type="file"
+              onChange={(e) => handleFileChange(e, "clean")}
+            />
+          </LoadingButton>
 
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={detectionSettings.attribute}
-              onChange={handleCheckboxChange}
-              name="attribute"
-              disabled={Boolean(dataset_name)}
-            />
-          }
-          label="Detect Attribute Errors"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={detectionSettings.dependency}
-              onChange={handleCheckboxChange}
-              name="dependency"
-              disabled={Boolean(dataset_name)}
-            />
-          }
-          label="Detect Dependencies"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={detectionSettings.violations}
-              onChange={handleCheckboxChange}
-              name="violations"
-              disabled={Boolean(dataset_name)}
-            />
-          }
-          label="Detect Violations"
-        />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={detectionSettings.attribute}
+                onChange={handleCheckboxChange}
+                name="attribute"
+                disabled={Boolean(dataset_name)}
+              />
+            }
+            label="Detect Attribute Errors"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={detectionSettings.dependency}
+                onChange={handleCheckboxChange}
+                name="dependency"
+                disabled={Boolean(dataset_name)}
+              />
+            }
+            label="Detect Dependencies"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={detectionSettings.violations}
+                onChange={handleCheckboxChange}
+                name="violations"
+                disabled={Boolean(dataset_name)}
+              />
+            }
+            label="Detect Violations"
+          />
+        </Box>
+        {dataset_name ? (
+          <Typography color="textDisabled">Model: {modelName}</Typography>
+        ) : (
+          <Button
+            variant="outlined"
+            type="submit"
+            disabled={Boolean(dataset_name)}
+          >
+            Evaluate
+          </Button>
+        )}
       </Box>
-      {dataset_name ? (
-        <Typography color="textDisabled">Model: {modelName}</Typography>
-      ) : (
-        <Button
-          variant="outlined"
-          type="submit"
-          disabled={Boolean(dataset_name)}
-        >
-          Evaluate
-        </Button>
-      )}
-    </Box>
+    </Suspense>
   );
 };
 

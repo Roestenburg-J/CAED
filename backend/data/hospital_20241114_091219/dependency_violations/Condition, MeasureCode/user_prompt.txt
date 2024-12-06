@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column indicating the type of heart condition is directly related to the column specifying specific measures or criteria related to that condition.
+
+  The following is a formatted table with the unique data to be checked.
+  

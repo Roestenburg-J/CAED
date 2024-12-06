@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The year of release column seems to correspond with the release date column, indicating a film's release year typically aligns with the release date.
+
+  The following is a formatted table with the unique data to be checked.
+  

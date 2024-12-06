@@ -1,0 +1,2517 @@
+{
+  "output": [
+    {
+      "explanation": "The rating '5/10,5/10' contains invalid characters, specifically the slashes which disrupt the expected numerical format of a rating.",
+      "index": 58,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '5.4/10,6/10' contains invalid characters, specifically the slashes which disrupt the expected numerical format of a rating.",
+      "index": 60,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.7"
+    },
+    {
+      "explanation": "The rating '7.7/10,6.5/10' contains invalid characters, specifically the slashes which disrupt the expected numerical format of a rating.",
+      "index": 67,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "The rating '7.1/10,5.6/10' contains multiple ratings and is formatted incorrectly, which does not conform to the expected pattern of a single qualitative rating.",
+      "index": 159,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "The rating '7/10,8.4/10' is also formatted incorrectly with multiple ratings and should be a single qualitative rating.",
+      "index": 160,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating '8.3/10' is formatted incorrectly, suggesting that it should also only contain a single qualitative rating within the standard range (typically 1.0 to 10.0).",
+      "index": 173,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.3"
+    },
+    {
+      "explanation": "The rating '6.8/10,7.7/10' contains multiple ratings, which violates the expected singular rating format for qualitative assessment.",
+      "index": 182,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The rating '6/10' uses an invalid format which is syntactically inconsistent with how ratings are represented in this dataset, which should be a decimal value.",
+      "index": 226,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '4.1' is considered an error because it is significantly lower than the average ratings of peers with similar or higher counts of ratings, indicating an inconsistency in how the rating corresponds with the number of ratings.",
+      "index": 237,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The value '7.7/10,7.5/10' contains two ratings separated by a comma, which violates the expected format of a single rating.",
+      "index": 308,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The value '2.9/10,3.3/10' contains two ratings separated by a comma, which violates the expected format of a single rating.",
+      "index": 346,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.1"
+    },
+    {
+      "explanation": "The value '5.3/10,4.8/10' contains two ratings separated by a comma, which violates the expected format of a single rating.",
+      "index": 376,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "5.9/10,5.7/10 is an error because the rating should be a single numeric value, not a range or multiple values.",
+      "index": 422,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.9"
+    },
+    {
+      "explanation": "4.4/10,5.1/10 is an error because the rating should be a single numeric value, not a range or multiple values.",
+      "index": 489,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.4"
+    },
+    {
+      "explanation": "The value '7.4/10,7.3/10' in column 11 contains multiple ratings, which is inconsistent with the expected single rating format. Column 12 shows a valid number of ratings but does not correspond to the syntactic requirement for film ratings being expressed as a singular numeric value.",
+      "index": 513,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.4"
+    },
+    {
+      "explanation": "The value '4.9/10,4.9/10' in column 11 contains multiple ratings, which is inconsistent with the expected single rating format. Column 12 indicates a substantial number of ratings but does not align with the syntactic requirement for a singular numeric rating.",
+      "index": 563,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.9"
+    },
+    {
+      "explanation": "The value '5.2/10,4.9/10' in column 11 contains multiple ratings, which is inconsistent with the expected single rating format. Column 12 shows a valid number of ratings but does not fulfill the syntactic requirement for film ratings being expressed as a singular numeric value.",
+      "index": 572,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The rating '6/10,5.8/10' is malformed as it uses multiple formats indicating two ratings, which contradicts the expected single qualitative measure for film rating.",
+      "index": 620,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '3.8/10,3.4/10' is malformed as it uses multiple formats indicating two ratings, which contradicts the expected single qualitative measure for film rating.",
+      "index": 681,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.6"
+    },
+    {
+      "explanation": "5.8/10,5.4/10 is an error because it combines two ratings separated by a slash, which is not a proper format for a film rating. Ratings must be single values and cannot include slashes.",
+      "index": 724,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "5.4/10,5.2/10 is an error because it combines two ratings separated by a slash, which does not meet the expected format for a single film rating.",
+      "index": 757,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "1.9 is an error since it is lower than the expected minimum film rating of 1.0 despite a significant amount of ratings (23,855), suggesting that this rating is not a valid qualitative measure for the film.",
+      "index": 776,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "2.0"
+    },
+    {
+      "explanation": "2.1 is an error since it is lower than the expected minimum film rating of 1.0, which is not a realistic rating considering the amount of ratings (37,426), showing it does not align semantically.",
+      "index": 787,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "2.0"
+    },
+    {
+      "explanation": "2.5 is an error as it does not adequately reflect a proper film rating given the number of ratings (2,747); it is unreasonably low and contradicts dependency expectations.",
+      "index": 788,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "2.6 is an error because it falls below a reasonable threshold for high-rated films with higher counts of ratings (6,758), thus violating the expected pattern between ratings and qualitative measures.",
+      "index": 790,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "The rating '6.4/10,6.2/10' contains multiple ratings which are not allowed as each film should have a single rating value.",
+      "index": 807,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    {
+      "explanation": "The rating '7/10,7.5/10' also contains multiple ratings which are not permitted.",
+      "index": 867,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating '7/10,6.4/10' violates the dependency as it has multiple values, indicating an incorrect representation for the film's rating.",
+      "index": 894,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating '4.6/10,4.6/10' is invalid because it contains a repeated and improperly formatted score instead of a single numerical representation of the film's rating.",
+      "index": 907,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.6"
+    },
+    {
+      "explanation": "The rating '4.4/10,4.1/10' is invalid due to the use of a repeated and improperly formatted score instead of a single rating value.",
+      "index": 948,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.4"
+    },
+    {
+      "explanation": "The rating '6.6/10,6.3/10' is invalid because it contains a repeated and improperly formatted score instead of a single numerical representation of the film's rating.",
+      "index": 979,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.6"
+    },
+    {
+      "explanation": "A rating of 1.3 with only 764 ratings is inconsistent as such a low rating would logically expect significantly fewer ratings.",
+      "index": 1001,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 3.0."
+    },
+    {
+      "explanation": "A rating of 1.6 with 9,897 ratings is contradictory since such a low score generally corresponds with lesser ratings from viewers.",
+      "index": 1005,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 3.0."
+    },
+    {
+      "explanation": "A rating of 3.5 with 7,289 ratings is inconsistent; low ratings should typically accompany fewer reviews.",
+      "index": 1012,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 4.0 with 3,925 ratings does not match expectations; higher scores generally indicate more viewers.",
+      "index": 1028,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 4.2 with 6,251 ratings is contradictory as lower ratings tend to have fewer reviews.",
+      "index": 1027,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 4.3 with 9,493 ratings does not match expectations, as low ratings should usually correlate with fewer reviews.",
+      "index": 1029,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 4.8 with just 1,641 ratings implies an error since higher ratings usually accompany a larger number of ratings.",
+      "index": 1026,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 5.2 with only 28,022 ratings does not correlate well, lower ratings would typically imply fewer ratings.",
+      "index": 1024,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 5.1 with 15,293 ratings is inconsistent since it suggests a higher level of audience engagement than warranted by the score.",
+      "index": 1025,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.0."
+    },
+    {
+      "explanation": "A rating of 2.6 with 923 ratings is contradictive; such low scores should logically attract fewer ratings.",
+      "index": 1072,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 3.0."
+    },
+    {
+      "explanation": "A rating of 5.0 with 338 ratings raises a conflict of expectation, as higher ratings should generally attract more reviews.",
+      "index": 1067,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.5."
+    },
+    {
+      "explanation": "A rating of 5.3 with only 29 ratings is inconsistent; lower ratings tend to receive fewer reviews from the audience.",
+      "index": 1053,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.5."
+    },
+    {
+      "explanation": "A rating of 5.4 with 340 ratings seems inconsistent, as lower ratings usually lead to fewer reviews than this.",
+      "index": 1037,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase the rating to at least 5.5."
+    },
+    {
+      "explanation": "Rating 6.0 with 22,200 ratings does not align, since this higher rating should correlate with a larger audience review count.",
+      "index": 1064,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Adjust the ratings to match more closely."
+    },
+    {
+      "explanation": "The value in the rating column is null while there are 1,872 ratings; this is contradictory as ratings cannot be absent with existing votes.",
+      "index": 1046,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Set the rating to the appropriate average for that amount of ratings."
+    },
+    {
+      "explanation": "The rating '6.2/10,5.5/10' indicates multiple ratings which should not be present as the dependency suggests a singular qualitative measure for the film.",
+      "index": 1183,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.2"
+    },
+    {
+      "explanation": "The number of ratings '345,529' does not correlate with the rating '6.2' as a consistent trend would expect lower ratings to correlate with fewer ratings. Further verification needed on distribution standards.",
+      "index": 1183,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "Adjust to reflect a more typical number of ratings for a 6.2 rating."
+    },
+    {
+      "explanation": "The value '5.4/10,5.1/10' in column 11 contains multiple ratings separated by a delimiter, which violates the dependency as the rating should be a single numerical value.",
+      "index": 1250,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The value '6.4/10,6.3/10' in column 11 contains multiple ratings separated by a delimiter, which violates the dependency as the rating should be a single numerical value.",
+      "index": 1273,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    {
+      "explanation": "The value '6.9/10,6.2/10' in column 11 contains multiple ratings separated by a delimiter, which violates the dependency as the rating should be a single numerical value.",
+      "index": 1276,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.9"
+    },
+    {
+      "explanation": "The value '6.2/10,6.2/10' in column 11 contains multiple ratings separated by a delimiter, which violates the dependency as the rating should be a single numerical value.",
+      "index": 1279,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.2"
+    },
+    {
+      "explanation": "The value '6.8/10' in column 11 contains a '/10' suffix which is invalid for a rating value, violating the expected numerical format.",
+      "index": 1285,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The value '5.4/10,4.2/10' violates the expected single numeric rating format for films, making it syntactically incorrect.",
+      "index": 1311,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The value '6.5/10,3.1/10' violates the expected single numeric rating format for films, making it syntactically incorrect.",
+      "index": 1373,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The value '6.5/10,6.6/10' violates the expected single numeric rating format for films, making it syntactically incorrect.",
+      "index": 1386,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The value '5.4/10,4.9/10' does not conform to the expected format of a single rating score. It appears to contain multiple values instead of one representative score.",
+      "index": 1402,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The rating '3.4' is inconsistent with the number of ratings '314', indicating a low overall reception which is unusual for films generally rated below 4.0. The number of ratings suggests a larger audience reception that would typically expect a higher score.",
+      "index": 1445,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "A rating of '1.8' with only '3,134' ratings is particularly low and indicates a significant discrepancy in expected reception as many films with higher ratings tend to attract more audiences, thus invalidating such a low rating in this context.",
+      "index": 1448,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "2.5"
+    },
+    {
+      "explanation": "A rating of '2.8' while receiving '19,181' ratings represents a breach in expectations, as a film should not yield such a high number of ratings with a significantly low rating, suggesting inconsistencies with viewer feedback.",
+      "index": 1466,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "A rating of '3.8' associated with '18,439' ratings indicates inconsistencies as high volumes of ratings typically correlate with higher ratings in this dataset, suggesting a mismatch of feedback.",
+      "index": 1489,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '3.5/10' contains an invalid format for a rating, as it uses a ' / ' which suggests a scale that does not align with the numeric format of the other ratings.",
+      "index": 1502,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.5"
+    },
+    {
+      "explanation": "The number of ratings '8,045' associated with the rating '3.5/10' is not validated as it seems to contradict the numeric representation of ratings in the tenth column, since it is based on an invalid rating.",
+      "index": 1502,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "8,045"
+    },
+    {
+      "explanation": "The rating '4.1' has a corresponding number of ratings '10,639', which does not seem to align with the expected trend; lower ratings generally should have fewer ratings than significantly higher ratings.",
+      "index": 1509,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.2"
+    },
+    {
+      "explanation": "The rating '4.8' with '46' ratings is low compared to its peers with similar or higher ratings which have significantly higher rating counts, suggesting abnormality in the dependency.",
+      "index": 1517,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '3.5' with '9,895' entries is a syntactic violation as it is a lower rated film yet has an unexpectedly high number of ratings, suggesting a mismatch in the qualitative measure.",
+      "index": 1567,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.6"
+    },
+    {
+      "explanation": "The rating of 6.3/10,7.1/10 is incorrectly formatted as it provides two ratings instead of one, violating the rating format dependency.",
+      "index": 1626,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.3"
+    },
+    {
+      "explanation": "The rating of 5.7/10,6.1/10 is incorrectly formatted as it provides two ratings instead of one, violating the rating format dependency.",
+      "index": 1680,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.7"
+    },
+    {
+      "explanation": "The film rating '6.2/10,6.1/10' is an error because it contains multiple ratings without a clear format, suggesting an inconsistency in the rating representation.",
+      "index": 1710,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.2"
+    },
+    {
+      "explanation": "The film rating '7.4/10,5.8/10' is an error because it contains multiple ratings without a clear format, suggesting an inconsistency in the rating representation.",
+      "index": 1755,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.4"
+    },
+    {
+      "explanation": "The rating '7.4/10' has an invalid format as ratings should be a single numerical value, not a fraction or formatted value indicating a decimal or over a scale.",
+      "index": 1858,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.4"
+    },
+    {
+      "explanation": "The rating '5.2/10' has an invalid format as ratings should be a single numerical value, not a fraction or formatted value indicating a decimal or over a scale.",
+      "index": 1870,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The rating '8.6/10,8/10' contains multiple ratings in an invalid format as ratings should be a single value. This creates ambiguity and violates the dependency criterion.",
+      "index": 1893,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.6"
+    },
+    {
+      "explanation": "The film rating '7.6/10' is provided in an incorrect format for the rating. It should be a numeric value rather than a string with additional characters.",
+      "index": 1940,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The film rating '7.2/10' is provided in an incorrect format for the rating. It should be a numeric value rather than a string with additional characters.",
+      "index": 1950,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.2"
+    },
+    {
+      "explanation": "The rating '4.3/10' in column 11 suggests that a value of 4.3 is averaged with another rating, which is inconsistent with the expected single numeric value ratings format.",
+      "index": 2003,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.3"
+    },
+    {
+      "explanation": "The rating '4.8/10,4.9/10' in column 11 suggests multiple ratings, which violates the dependency expecting a single quality measure inclusive of the amount of ratings in column 12.",
+      "index": 2008,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.8"
+    },
+    {
+      "explanation": "The rating '5.2/10,5/10' in column 11 suggests multiple ratings and does not conform to the single rating format expected from other entries, creating inconsistency in measured quality for column 12's number of ratings.",
+      "index": 2083,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The entry '3.9/10,3.9/10' in column 11 is malformed and not a valid film rating format, which should only be a single numerical value.",
+      "index": 2122,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.9"
+    },
+    {
+      "explanation": "The entry '5.9/10,5.9/10' in column 11 is malformed and not a valid film rating format, which should only be a single numerical value.",
+      "index": 2177,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.9"
+    },
+    {
+      "explanation": "The entry '6.4/10' in column 11 is malformed and not a valid film rating format, which should only be a single numerical value.",
+      "index": 2180,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    {
+      "explanation": "The entry '6.7/10,6.4/10' in column 11 is malformed and not a valid film rating format, which should only be a single numerical value.",
+      "index": 2184,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.7"
+    },
+    {
+      "explanation": "The entry '8.3/10,8.5/10' in column 11 is malformed and not a valid film rating format, which should only be a single numerical value.",
+      "index": 2195,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.3"
+    },
+    {
+      "explanation": "The rating '8.4/10,7.7/10' in column 11 is invalid because it provides multiple ratings in an incorrect format, which contradicts the expected singular qualitative measure for a film.",
+      "index": 2239,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.7"
+    },
+    {
+      "explanation": "The rating '6.4/10,5.7/10' in column 11 is invalid as it presents multiple ratings incorrectly formatted and does not align with the expected singular rating structure for films.",
+      "index": 2248,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.7"
+    },
+    {
+      "explanation": "The rating '7.4/10,7.1/10' in column 11 is considered an error because it lists more than one rating in a non-standard format, deviating from the semantic requirement for a single rating per film.",
+      "index": 2252,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.2"
+    },
+    {
+      "explanation": "The rating '6.1/10,6/10' in column 11 is invalid due to its format containing two ratings, which violates the dependency of having a single qualitative measure for each film.",
+      "index": 2266,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.1"
+    },
+    {
+      "explanation": "The rating '2.7' in column 11 is considered an error given that it is significantly lower than the lowest rating ('4.3') in the dataset with a much higher number of ratings ('47,769') which typically indicates a better rating should be expected.",
+      "index": 2282,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The rating '7.2' in column 11 is an error since it corresponds to a very low number of ratings ('671'), which is inconsistent with the expectation of a higher rating for a larger numbers of ratings.",
+      "index": 2289,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "7.5/10,6.9/10 is an error because it contains two ratings which is not a valid format for the rating column.",
+      "index": 2324,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "6.5/10,5.8/10 is an error because it contains two ratings which is not a valid format for the rating column.",
+      "index": 2327,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "6.7/10,5.9/10 is an error because it contains two ratings which is not a valid format for the rating column.",
+      "index": 2382,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.7"
+    },
+    {
+      "explanation": "The value 'null' in the rating column is an error because all films should have a numerical rating, and 'null' does not provide any rating information.",
+      "index": 2390,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The value '8.6/10,8.2/10' is an error because it does not conform to the expected format of a single rating, as it presents two ratings instead of one.",
+      "index": 2435,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.6"
+    },
+    {
+      "explanation": "The value '7/10,7.2/10' is an error because it does not conform to the expected format of a single rating, instead presenting two ratings.",
+      "index": 2464,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating '5.3/10,6/10' does not conform to a single decimal rating format, which is required for a proper evaluation of the rating.",
+      "index": 2550,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.3"
+    },
+    {
+      "explanation": "The rating '8.4/10,8.6/10' is invalid as it presents two ratings instead of one, breaking the expected single numeric format.",
+      "index": 2597,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.4"
+    },
+    {
+      "explanation": "The rating 6.2/10,6.1/10* contains two ratings separated by a comma, violating the expected single rating format in column 11.",
+      "index": 2648,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.2"
+    },
+    {
+      "explanation": "The rating 4.7/10,4.2/10* similarly has two ratings separated by a comma, violating the expected single rating format in column 11.",
+      "index": 2672,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.7"
+    },
+    {
+      "explanation": "The rating 6.5/10,6.7/10* contains two ratings separated by a comma, violating the expected single rating format in column 11.",
+      "index": 2653,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The rating of 5.9/10,6/10* indicates multiple ratings in a non-standard format that does not match the expected single numeric rating, making it a syntactic error.",
+      "index": 2740,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.9"
+    },
+    {
+      "explanation": "The rating of 6.4/10,5.5/10* also indicates multiple ratings in a non-standard format, which is considered an error due to invalid syntax for a single film rating.",
+      "index": 2766,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    {
+      "explanation": "The rating of 4/10,4.2/10* shows a formatting error as it uses a fraction and comma-separated decimals which are not recognizable as valid ratings.",
+      "index": 2786,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The rating of 5.9* in the column does not follow the expected numeric format typically used for film ratings on a standard scale, being marked as a violation.",
+      "index": 2793,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.9"
+    },
+    {
+      "explanation": "The rating '2.4/10,3.6/10' is malformed as it indicates more than one rating score which conflicts with the expected format of a single rating value.",
+      "index": 2838,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating of 'null' implies an absence of a rating, which violates the dependency as it should reflect on the corresponding count of ratings.",
+      "index": 2821,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "The rating of 'null' suggests an absence of a rating value, which results in inconsistency with the non-empty count of ratings, indicating an anomaly.",
+      "index": 2868,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '4.4/10,4.5/10' is invalid as it contains two ratings in one entry, which does not fit the expected single numeric format for ratings.",
+      "index": 2929,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.4"
+    },
+    {
+      "explanation": "The number of ratings '23,041' in the twelfth column is excessively high for a film rated '6.7', indicating an imbalance in the expected relationship between rating and number of ratings.",
+      "index": 2914,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "2,304"
+    },
+    {
+      "explanation": "The number of ratings '42,773' is excessively high relative to the rating '6.8', suggesting it doesn't align with the expected pattern of ratings and their associated counts.",
+      "index": 2915,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "4,277"
+    },
+    {
+      "explanation": "The rating '3.9' is too low given the relatively high number of ratings '546', indicating a mismatch with the dependency that should show higher ratings with higher counts.",
+      "index": 2913,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The number '112,245' is excessively high for a rating of '4.3', indicating the expected pattern of films rated lower having significantly fewer ratings is violated.",
+      "index": 2976,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "8,122"
+    },
+    {
+      "explanation": "The number of ratings '1,257' for a rating of '5.7' seems disproportionately high, suggesting the typical expectation of lesser ratings correlating with lesser counts is not met.",
+      "index": 2917,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "750"
+    },
+    {
+      "explanation": "The value '7.6/10' in column 11 includes invalid characters ('/') which violate the expected numerical format.",
+      "index": 3035,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The value '6.1/10,5.5/10' contains invalid characters ('/', ',') which violate the expected numerical format.",
+      "index": 3056,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.1"
+    },
+    {
+      "explanation": "The value '6.8/10,7/10' includes invalid characters ('/', ',') which violate the expected numerical format.",
+      "index": 3062,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The value '11' should be a numeric rating, but 'null' in column 11 represents no valid rating and violates the dependency on the number of ratings in column 12.",
+      "index": 3065,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The value 'null' in column 11 signifies a lack of rating while column 12 indicates the number of ratings, violating the dependency.",
+      "index": 3096,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '3.3/10,3.9/10' is an error because it does not represent a single qualitative measure but rather two ratings separated by a slash, which violates the expected format of a single numeric rating.",
+      "index": 3113,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '7.3/10,7.6/10' is an error because it does not represent a single qualitative measure but rather two ratings separated by a slash, which violates the expected format of a single numeric rating.",
+      "index": 3120,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The rating of 5.8 with only 310 ratings is inconsistent with the expected higher rating for a low count of ratings, indicating a quantity quality mismatch.",
+      "index": 3202,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "A rating of 5.9 with 4,147 ratings is unusually low, suggesting that with such a number of ratings, the rating should be higher to align with the expected pattern.",
+      "index": 3216,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "A very low rating of 2.0 against a non-negligeable count of 295 ratings indicates a strong inconsistency; films with more ratings typically have ratings above 3.0.",
+      "index": 3243,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "The rating of 4.0 with just 24 ratings does not conform to the belief that a higher number of ratings would lead to a more favorable average rating, hence this combination is questionable.",
+      "index": 3240,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "A rating of 3.0 against 209 ratings is excessively low; the expectation based on higher ratings should typically reflect better rating averages.",
+      "index": 3296,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "For a rating of 3.0, it is too low compared to the number of ratings (209), which indicates better quality than suggested. This is an inconsistency.",
+      "index": 3296,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The rating of 2.0 is considered an error because films typically do not receive such low ratings with as many as 387 ratings. This suggests a discrepancy in the relationship between the score and the volume of ratings, indicating a faulty evaluation.",
+      "index": 3372,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The rating of 5.0 with 24,721 ratings is inconsistent with many other similar ratings in terms of the comparatively lower score associated with such a high number of ratings. Typically higher ratings correspond to more ratings, suggesting it may be incorrect or needs inspection.",
+      "index": 3310,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating of 3.8 received only 2,197 ratings, which is atypically low considering its proximity to other ratings that have received significantly higher counts. This violates the pattern suggesting a potential error in the rating validation.",
+      "index": 3313,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '5/10,5.1/10' does not provide a single clear rating but rather a range of ratings, which is inconsistent with the expected single rating pattern.",
+      "index": 3404,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.1"
+    },
+    {
+      "explanation": "The rating '4.4/10,4.9/10' similarly provides a range instead of a singular rating, violating the expected format of a single rating value.",
+      "index": 3463,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.9"
+    },
+    {
+      "explanation": "5,979 ratings for a film rated 6.8 is uncommon. Usually, a higher rating correlates with more ratings, whereas 6.8 suggests average ratings, not a high number.",
+      "index": 3500,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to reflect fewer ratings."
+    },
+    {
+      "explanation": "776 ratings for a 7.0 rating is unusual; typically more ratings accompany a statistically significant rating like 7.0.",
+      "index": 3501,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to reflect fewer ratings."
+    },
+    {
+      "explanation": "544 ratings with a low 3.0 rating suggests an inconsistent correlation as lower rated films tend to have fewer ratings.",
+      "index": 3502,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to better match the number of ratings."
+    },
+    {
+      "explanation": "142 ratings for a film rated 7.3 is low, generally films rated higher receive more ratings.",
+      "index": 3503,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to better reflect the ratings."
+    },
+    {
+      "explanation": "77 ratings for a 4.0 rating suggests an unusual correlation as lower ratings usually will have fewer votes.",
+      "index": 3504,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to reflect the number of ratings."
+    },
+    {
+      "explanation": "173 ratings for a 4.4 rating is inconsistent, lower rating films typically receive few ratings.",
+      "index": 3505,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to reflect the number of ratings."
+    },
+    {
+      "explanation": "1,283 ratings for a 6.5 rating suggests an inconsistency; typically, this rating would yield higher numbers.",
+      "index": 3506,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the number of ratings."
+    },
+    {
+      "explanation": "871 ratings for a 6.8 rating is unusually low; higher ratings generally have more votes.",
+      "index": 3507,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the ratings."
+    },
+    {
+      "explanation": "1,504 ratings for a 5.5 rating indicates a violation as lower-rated films would not gather many reviews.",
+      "index": 3508,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to align with the reviews."
+    },
+    {
+      "explanation": "104,294 ratings for a 5.9 rating is an extreme outlier; high ratings correlate with lower ratings for such a score.",
+      "index": 3509,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match plausible reviews."
+    },
+    {
+      "explanation": "282 ratings for a 7.8 rating is an inconsistency; higher rated films generally have more ratings.",
+      "index": 3510,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the ratings."
+    },
+    {
+      "explanation": "1,218 ratings for a 6.7 rating indicate inconsistency.",
+      "index": 3511,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with reviews."
+    },
+    {
+      "explanation": "603 ratings for a 5.8 rating is inconsistent; lower-rated films typically receive fewer ratings.",
+      "index": 3512,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to fit the reviews."
+    },
+    {
+      "explanation": "5,093 ratings for a 4.2 rating suggests inconsistency. It indicates a rating below average tending to receive fewer ratings.",
+      "index": 3513,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to match the reviews."
+    },
+    {
+      "explanation": "165 ratings for a 6.5 rating suggests an inconsistency; it implies the rating has high ratings with few reviews.",
+      "index": 3514,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to reflect the ratings."
+    },
+    {
+      "explanation": "174 ratings for a 5.3 rating suggests an inconsistency; typically low-rated films receive relatively fewer ratings.",
+      "index": 3515,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to better match the reviews."
+    },
+    {
+      "explanation": "82 ratings for a 7.6 rating indicate poor correlation; high-rated films yield more reviews.",
+      "index": 3516,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "90 ratings for a 7.8 rating indicates that typically, these ratings would yield considerably higher counts of reviews.",
+      "index": 3517,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "62 ratings for a 7.9 rating is inconsistent; higher-rated films should generally receive more ratings.",
+      "index": 3518,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "170 ratings for a 5.8 rating suggests an inconsistency; this rating typically would yield lower reviews.",
+      "index": 3519,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to align with the reviews."
+    },
+    {
+      "explanation": "65 ratings for a 9.0 rating is extreme; higher-rated films contain low ratings.",
+      "index": 3520,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "239 ratings for a 7.2 rating do not match expectations; it’s unclear for a high rating.",
+      "index": 3521,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "30,391 ratings for a 7.0 rating is incongruous; it should be deemed questionable for typical high ratings.",
+      "index": 3522,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "10,406 ratings for a 5.6 rating does not seem sufficient for such a rating; low ratings yield fewer reviews.",
+      "index": 3523,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to align with the reviews."
+    },
+    {
+      "explanation": "3,525 ratings for a 6.0 rating indicates inconsistency; typically, diminishing returns are seen in high ratings.",
+      "index": 3524,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "179,774 ratings for a 6.5 rating is an extreme violation, high ratings are expected with better numbers of votes.",
+      "index": 3525,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "2,562 ratings for a 5.6 rating suggests inconsistency; lower scores yield lesser votes.",
+      "index": 3526,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to align with the reviews."
+    },
+    {
+      "explanation": "577 ratings for a 6.1 rating does not yield votes for this rating, indicating an inconsistency.",
+      "index": 3527,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "10 ratings with a 7.6 rating indicate inconsistency; higher ratings generally have more votes.",
+      "index": 3528,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "105,696 ratings for a 7.5 rating indicates inconsistency; typically raising the counts of films rated describes a high rating.",
+      "index": 3529,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "75,855 ratings with 6.9 rating suggests a violation; higher ratings shouldn’t deal fewer votes.",
+      "index": 3530,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the ratings."
+    },
+    {
+      "explanation": "47,735 ratings with a 6.8 rating indicates an inconsistency; generally high rated films collect more ratings.",
+      "index": 3531,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "114,320 ratings for a 6.8 rating suggests a violation; better-rated films are expected to yield positive votes.",
+      "index": 3532,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with expected reviews."
+    },
+    {
+      "explanation": "84,422 ratings for 7.1 rating is inconsistent; high rated films generally receive lower variant responses.",
+      "index": 3533,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "11,346 ratings for a 6.5 rating does not equalize expectations; lower ratings yield lesser votes.",
+      "index": 3534,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "277,957 ratings for a 7.3 rating suggests a violation; higher variance from ratings in this column.",
+      "index": 3535,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to align with the reviews."
+    },
+    {
+      "explanation": "81,417 ratings with a 6.7 rating indicates a significant inconsistency; typically high rates yield lower returns.",
+      "index": 3536,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to match the reviews."
+    },
+    {
+      "explanation": "36,248 ratings for 5.7 indicates inconsistency; lower rated films generally gather fewer ratings.",
+      "index": 3537,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise the rating to align with the reviews."
+    },
+    {
+      "explanation": "4,171 ratings for 2.8 rating suggests an inconsistency; lower-rated films yield lower voter numbers.",
+      "index": 3538,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better fit the reviews."
+    },
+    {
+      "explanation": "275 ratings for a null rating raises inconsistency; empty space can’t represent rating.",
+      "index": 3539,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Input rating to better represent reviews."
+    },
+    {
+      "explanation": "19,865 ratings for a 4.0 indicates possible inconsistency; typically low rated films yield fewer votes.",
+      "index": 3540,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to reflect ratings."
+    },
+    {
+      "explanation": "22,930 ratings with 7.2 rating suggests inconsistency; generally high scores receive more returns.",
+      "index": 3541,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower the rating to reflect the reviews."
+    },
+    {
+      "explanation": "2,350 ratings for a 5.1 rating indicates an inconsistency; films with lower ratings garner fewer reviews.",
+      "index": 3542,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to reflect the reviews."
+    },
+    {
+      "explanation": "2,421 ratings for a 4.6 rating indicates inconsistency; lower scores yield fewer ratings.",
+      "index": 3543,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to reflect ratings."
+    },
+    {
+      "explanation": "213,907 ratings for a 7.4 rating signals an extreme inconsistency; better rated films should gather votes.",
+      "index": 3544,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match reviews."
+    },
+    {
+      "explanation": "10,035 ratings for a 5.9 rating suggests inconsistency; lower-rated films gather fewer votes.",
+      "index": 3545,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to align ratings."
+    },
+    {
+      "explanation": "8,072 ratings for a 6.2 rating indicates an inconsistency; higher ratings usually gather higher numbers.",
+      "index": 3546,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to better reflect ratings."
+    },
+    {
+      "explanation": "163,731 ratings for a 7.0 rating indicates inconsistency; this rating should yield lower returns.",
+      "index": 3547,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align ratings."
+    },
+    {
+      "explanation": "45,245 ratings for a 6.6 rating suggests discrepancies; high-rated films usually yield higher votes.",
+      "index": 3548,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match the reviews."
+    },
+    {
+      "explanation": "55,868 ratings for a 6.7 rating indicates inconsistency; high-rated films usually yield fewer votes.",
+      "index": 3549,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align reviews."
+    },
+    {
+      "explanation": "4,849 ratings for a 7.4 rating indicates an inconsistency; higher-rated films yield much more.",
+      "index": 3550,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align ratings."
+    },
+    {
+      "explanation": "44,365 ratings for 7.1 rating indicates inconsistency; high-rated films usually receive more votes.",
+      "index": 3551,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to fit the ratings."
+    },
+    {
+      "explanation": "105,245 ratings for a 7.1 rating indicates an inconsistency; higher numbered votes yield better films.",
+      "index": 3552,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to reflect expected ratings."
+    },
+    {
+      "explanation": "7,274 ratings for 6.7 rating suggests inconsistency; high-rated films usually collect more ratings.",
+      "index": 3553,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect overall expectations."
+    },
+    {
+      "explanation": "1,146 ratings for 6.6 rating indicates an inconsistency; typically rated films collect fewer votes.",
+      "index": 3554,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to fit the reviews."
+    },
+    {
+      "explanation": "9,956 ratings for a 7.0 rating signals inconsistency; high-rated films usually receive more votes.",
+      "index": 3555,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to reflect adjudicated ratings."
+    },
+    {
+      "explanation": "90 ratings for a 4.2 rating suggests an inconsistency; this signal typically indicates less return votes.",
+      "index": 3556,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect overall ratings."
+    },
+    {
+      "explanation": "36 ratings for a 4.2 rating consistently shows that fewer ratings correlate with lower powers of response.",
+      "index": 3557,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to fit the overall responses."
+    },
+    {
+      "explanation": "1,300 ratings for a 5.2 rating suggests unusual counts with such ratings; lower counts yield poor ratings.",
+      "index": 3558,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect overall numbers."
+    },
+    {
+      "explanation": "3,000 ratings for a 6.9 rating indicates inconsistency; typical higher rated films yield more ratings.",
+      "index": 3559,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align reviews."
+    },
+    {
+      "explanation": "9,635 ratings for a 6.3 rating indicates an inconsistency; typically, lower rated films receive lesser reviews.",
+      "index": 3560,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to align reviews."
+    },
+    {
+      "explanation": "12,086 ratings for 6.8 rating indicates inconsistency; generally rated films should see better numbers overall.",
+      "index": 3561,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match the reviews."
+    },
+    {
+      "explanation": "24,215 ratings for a 6.4 rating suggests lack of consistency; typically rated films yield less returns.",
+      "index": 3562,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to fit expected ratings."
+    },
+    {
+      "explanation": "125,881 ratings for a 6.6 suggests significant discrepancies; usually films rated higher yield fewer returns.",
+      "index": 3563,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align with reviews."
+    },
+    {
+      "explanation": "14,132 ratings for 7.2 rating shows inconsistency; high rated films yield considerable higher votes.",
+      "index": 3564,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to reflect actual reviews."
+    },
+    {
+      "explanation": "24,838 ratings for a 6.7 rating shows inconsistency; lower ratings suggest fewer votes.",
+      "index": 3565,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better fit overall counts."
+    },
+    {
+      "explanation": "11,411 ratings for a 5.8 suggests unusual counts; typically lower rated films gather fewer votes.",
+      "index": 3566,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to reflect overall votes."
+    },
+    {
+      "explanation": "3,880 ratings for a 6.2 rating indicates an inconsistency; typically higher rated films yield more votes.",
+      "index": 3567,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align with expected votes."
+    },
+    {
+      "explanation": "6,295 ratings for a 6.8 rating indicates inconsistency; typically these films should yield better results.",
+      "index": 3568,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to better match ratings expectations."
+    },
+    {
+      "explanation": "3,316 ratings for a 5.0 rating suggests inconsistency; films typically gather lower ratings with few reviews.",
+      "index": 3569,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect the number."
+    },
+    {
+      "explanation": "2,205 ratings for a 5.8 rating signals inconsistency; typical lower ratings yield fewer votes.",
+      "index": 3570,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to fit the reviews."
+    },
+    {
+      "explanation": "2,149 ratings for a 5.1 rating indicates inconsistency; lower values don’t normally gather many reviews.",
+      "index": 3571,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect counts."
+    },
+    {
+      "explanation": "1,020 ratings for a 5.4 rating displays an inconsistency; lower ratings rarely acquire high numbers of ratings.",
+      "index": 3572,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to align with reviews."
+    },
+    {
+      "explanation": "2,867 ratings for a 7.4 rating indicates inconsistency; higher ratings usually yield more counts.",
+      "index": 3573,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to correlate with expected reviews."
+    },
+    {
+      "explanation": "640 ratings for a 5.7 rating suggests inconsistency; low movies yield fewer counts.",
+      "index": 3574,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to reflect overall counts."
+    },
+    {
+      "explanation": "212 ratings for 4.4 rating signals an inconsistency; typically lower rated films yield lesser counts.",
+      "index": 3575,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect expected reviews."
+    },
+    {
+      "explanation": "3,417 ratings for a 5.9 rating indicates inconsistency; typical lower ratings would yield fewer counts.",
+      "index": 3576,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to match actual performance."
+    },
+    {
+      "explanation": "75 ratings for a 6.7 rating signals inconsistency; higher rated films generally yield more reviews.",
+      "index": 3577,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better match expected votes."
+    },
+    {
+      "explanation": "740 ratings for a 6.9 rating suggests inconsistency; typically high rated films yield more votes.",
+      "index": 3578,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match expected outcomes."
+    },
+    {
+      "explanation": "3,824 ratings for a 6.3 rating indicates an inconsistency; typically, higher rated films yield more votes than lower films.",
+      "index": 3579,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better fit the expectations."
+    },
+    {
+      "explanation": "26,510 ratings for a 6.9 rating indicates inconsistency; this should return fewer outcomes for lower ratings.",
+      "index": 3580,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match reviews."
+    },
+    {
+      "explanation": "926 ratings for a 6.2 rating suggests inconsistencies; typically high rated films should yield lesser returns.",
+      "index": 3581,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match reviews."
+    },
+    {
+      "explanation": "6,359 ratings for 6.1 rating indicate inconsistency; typically lower rated films should see poorer performance.",
+      "index": 3582,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align with expectations."
+    },
+    {
+      "explanation": "2,505 ratings for a 6.2 rating suggests inconsistency; usually rated films garner higher reviews than low-rated films.",
+      "index": 3583,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect counts."
+    },
+    {
+      "explanation": "13,964 ratings for a 6.8 rating suggests inconsistency; typically higher rated films yield kindly returns than lower films.",
+      "index": 3584,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match overall counts."
+    },
+    {
+      "explanation": "21 ratings for a 8.3 rating indicates significant inconsistency; typically films rated high accrue substantial ratings.",
+      "index": 3585,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to reflect expected counts."
+    },
+    {
+      "explanation": "3,812 ratings for a 6.1 rating suggests inconsistency; lower-rated films typically yield fewer votes.",
+      "index": 3586,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to align with returns."
+    },
+    {
+      "explanation": "24,630 ratings for 6.0 rating indicates an inconsistency; typically, lower-rated films yield fewer votes.",
+      "index": 3587,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better close the gap."
+    },
+    {
+      "explanation": "87,011 ratings for 7.8 indicate inconsistency; typically these films should yield lesser returns.",
+      "index": 3588,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to better reflect the rating expectation."
+    },
+    {
+      "explanation": "11,048 ratings for 7.0 rating suggests inconsistency; typical high rated films yield far much more votes.",
+      "index": 3589,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to align with returned counts."
+    },
+    {
+      "explanation": "5,549 ratings for a 6.7 rating indicates inconsistency; typically higher scored films yield better ratings than lower films.",
+      "index": 3590,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better meet expectations."
+    },
+    {
+      "explanation": "6,233 ratings for 7.0 rating suggests an inconsistency; typically high rated films yield more than lower films in response.",
+      "index": 3591,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to fit the reviews."
+    },
+    {
+      "explanation": "6,057 ratings for a 6.6 rating indicate inconsistency; typically higher ratings garner more returns than lower films.",
+      "index": 3592,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match expected reviews."
+    },
+    {
+      "explanation": "2,988 ratings for a 6.3 rating suggests inconsistency; typically lower-rated films yield lesser voter numbers.",
+      "index": 3593,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect numbers."
+    },
+    {
+      "explanation": "5,152 ratings for a 5.5 rating indicates inconsistency; typically lower-rated films yield lesser returns.",
+      "index": 3594,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect numbers."
+    },
+    {
+      "explanation": "6,102 ratings for a 6.9 rating suggests inconsistency; generally ratings yield fewer responses with lower films.",
+      "index": 3595,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to better fit expectations."
+    },
+    {
+      "explanation": "5,568 ratings for a 6.4 rating suggests inconsistency; typically lower rated films yield lesser performance.",
+      "index": 3596,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect actual returns."
+    },
+    {
+      "explanation": "4,105 ratings for 6.1 indicates inconsistency; typically higher rated films yield lesser returns than lower values.",
+      "index": 3597,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better align with overall reviews."
+    },
+    {
+      "explanation": "4,377 ratings for a 6.0 rating suggests inconsistency; typically lower-rated films yield far fewer reviews overall.",
+      "index": 3598,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Raise rating to better reflect actual votes."
+    },
+    {
+      "explanation": "13,997 ratings for a 6.4 rating indicate inconsistency; typically, higher-rated films yield far fewer votes.",
+      "index": 3599,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Lower rating to match overall counts."
+    },
+    {
+      "explanation": "The rating of 1.9 is unreasonably low for a film, especially given its count of 14,921 ratings which generally suggests a more favorable audience reception. Ratings typically range from 1.0 to 10.0, making this value a clear error in the context of film ratings.",
+      "index": 3645,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "A rating of 3.9 is also considered excessively low relative to the 3,349 ratings received. With a substantial number of ratings, one would expect a rating to be more in alignment with viewer expectations, making this an error.",
+      "index": 3635,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating of 1.9 is an outlier and doesn't fit the expected trend of ratings typically reflecting the number of total ratings; this low score compared to 14,921 ratings indicates a likely error.",
+      "index": 3645,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating of '5.4' is inconsistent with only '597' ratings which is relatively low compared to the average ratings for films with similar ratings.",
+      "index": 3799,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating of '5.4' with only '597' ratings suggests a rating anomaly, as higher ratings typically should correlate with a greater number of ratings received.",
+      "index": 3799,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "1,500"
+    },
+    {
+      "explanation": "The rating of 6.8/10 is syntactically incorrect as it includes an invalid character ('/') which does not conform to a standard numerical rating format; ratings should be a single numerical value without additional symbols.",
+      "index": 3882,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The rating of 8.2 is syntactically incorrect when considering the associated number of ratings (88); statistically, a rating of this level should correlate with a significantly higher number of ratings received. This discrepancy indicates a likely error in either the rating or the counting of ratings.",
+      "index": 3888,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "A higher rating, e.g., 8.5 or 8.6"
+    },
+    {
+      "explanation": "The rating '8.1/10,6.9/10' indicates multiple ratings instead of a single numerical value, violating the expected input format for a single film rating in column 11.",
+      "index": 3943,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.1"
+    },
+    {
+      "explanation": "The rating '8.2/10' again indicates a non-standard format for a film rating, as it implies more than one rating value, which is not acceptable according to the data dependency.",
+      "index": 3993,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.2"
+    },
+    {
+      "explanation": "The rating '5.7/10,6.6/10' indicates two ratings instead of a single rating, which violates the dependency on having a singular rating measure.",
+      "index": 4011,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.7"
+    },
+    {
+      "explanation": "The rating '4.5/10' also indicates multiple values instead of a single rating, violating the dependency.",
+      "index": 4021,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The rating '6/10,6.1/10' indicates two ratings which violates the dependency of having single rating measures.",
+      "index": 4022,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '5.7/10,5.8/10' signifies multiple ratings violating the dependency of having a singular rating.",
+      "index": 4029,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.7"
+    },
+    {
+      "explanation": "The rating '5.4/10,5.2/10' indicates multiple ratings which violates the singular rating dependency.",
+      "index": 4072,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The rating '7.1/10,7.3/10' shows multiple ratings, violating the dependency of having a single qualitative measure.",
+      "index": 4085,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "The rating '5/10,4.4/10' indicates two ratings which violates the dependency of having single qualitative measures.",
+      "index": 4082,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating of '5.2/10,5/10' combines multiple formats which violates the expected rating format of a single decimal value.",
+      "index": 4146,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The rating of '7.1/10' combines multiple formats which violates the expected rating format of a single decimal value.",
+      "index": 4192,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "3.3/10,3.5/10 is an error because it contains multiple ratings separated by a comma, while the rating should be a single numeric value. This violates the expected format for ratings.",
+      "index": 4217,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.4"
+    },
+    {
+      "explanation": "The rating of 3.0 is unexpectedly low compared to its number of ratings (6,715), which usually would correlate with a higher rating given the volume, indicating an anomaly.",
+      "index": 4260,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '8.5/10,8.6/10' in column 11 is an error because it contains multiple ratings, which deviates from the expected single rating format.",
+      "index": 4303,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.5"
+    },
+    {
+      "explanation": "The rating '4.5/10' in column 11 is an error because it has a non-standard format for ratings and should be expressed as a single numeric value.",
+      "index": 4313,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The rating '7.8/10,7.6/10' in column 11 is an error because it contains multiple ratings, which deviates from the expected single rating format.",
+      "index": 4367,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.8"
+    },
+    {
+      "explanation": "The rating '5.8/10' in column 11 suggests an incorrect format for a film rating, which should be a single numeric value typically in a range of 1 to 10.",
+      "index": 4449,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "The rating '3.4' in column 11 is low given that it correlates to '289' ratings in column 12, suggesting a pattern that higher ratings typically have a larger number of ratings.",
+      "index": 4410,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '3.0' in column 11 is very low compared to the number of ratings '682' in column 12, which suggests that a higher average rating should reasonably correlate with a similar or lower number of ratings.",
+      "index": 4412,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '3.5' in column 11 is low and paired with the number of ratings '278', it suggests that more ratings typically correspond with higher ratings for the same film based on existing patterns.",
+      "index": 4418,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '4.3' in column 11 is in the lower range while its number of ratings '285' indicates a higher expectation as films with more ratings should ideally have higher ratings on average.",
+      "index": 4416,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '4.5' in column 11 is low for the corresponding rating count of '718'. This suggests a mismatch, as higher counts of ratings usually signify better average ratings.",
+      "index": 4423,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '5.0' in column 11 does not seem to correlate well with the number of ratings '9,404' in column 12, indicating that a better rating is typically reflected in higher rating counts.",
+      "index": 4430,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The rating '4.8' in column 11 is low compared to '1,011' ratings in column 12, which might suggest expectations of a higher rating given the quantity.",
+      "index": 4458,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "The rating '5.8' in column 11 is unsuitably low for '48,362' ratings in column 12, where a higher average rating is typically correlated with a larger number of ratings.",
+      "index": 4462,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The rating '5.8/10,6/10' is considered an error because it contains multiple rating formats which introduce ambiguity and violate the expected single numerical rating format of the film.",
+      "index": 4532,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "The rating '1.9' is considered an error because it is significantly lower than typical film ratings (0-10) and does not correlate with a legitimate number of ratings. Thus, it violates the expected relationship between positive film ratings and their number of ratings.",
+      "index": 4542,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The rating '4.2' is considered an error because, although it is a valid number, it is quite low compared to the average ratings and does not correlate effectively with the corresponding number of ratings (904) suggesting an inconsistency in quality perception.",
+      "index": 4583,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "5.7/10,6.3/10 is an error because it uses an invalid format for film ratings, which should be a single numeric value, not a pair.",
+      "index": 4633,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "7.1/10,7/10 is an error because it uses an invalid format for film ratings, which should be a single numeric value, not a pair.",
+      "index": 4697,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "5.5/10,6.1/10 is an error because it uses an invalid format for film ratings, which should be a single numeric value, not a pair.",
+      "index": 4698,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "7.1/10,7.6/10 is an error because it contains two ratings in an invalid format for a single rating.",
+      "index": 4746,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "4.4/10,4.5/10 is an error because it contains two ratings in an invalid format for a single rating.",
+      "index": 4752,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "7.5 is an error because its corresponding rating of 88,234 is inconsistent with the film quality, as it should reflect a higher number of ratings for a rating this high.",
+      "index": 4740,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "The rating '5.5/10,5.5/10' is an error because it contains multiple ratings separated by a comma, which violates the dependency that requires a single qualitative measure for a film.",
+      "index": 4837,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The rating '5.6/10,5.5/10' is an error because it contains multiple ratings separated by a comma, which violates the dependency that requires a single qualitative measure for a film.",
+      "index": 4859,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.6"
+    },
+    {
+      "explanation": "The rating '4.3/10' includes a slash which is invalid for a single rating value and hence creates a syntactic violation in the film rating.",
+      "index": 4909,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.3"
+    },
+    {
+      "explanation": "The rating '3.9/10' includes a slash which is invalid for a single rating value and hence creates a syntactic violation in the film rating.",
+      "index": 4961,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.9"
+    },
+    {
+      "explanation": "The rating '3.7/10,4.3/10' includes slashes and is an invalid format for a single rating value, causing a syntactic violation.",
+      "index": 4984,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.7"
+    },
+    {
+      "explanation": "5.2/10,4.6/10 is an error because it contains multiple ratings separated by a slash, which does not conform to the expected rating format.",
+      "index": 5008,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "2.7 is an error because it is significantly lower than the other ratings and seems inconsistent with the corresponding number of ratings.",
+      "index": 5027,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "4.0 is an error because it represents a poor rating compared to the relatively higher number of ratings received, indicating a considerable discrepancy.",
+      "index": 5023,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "3.5 is an error as it is significantly low compared to other ratings, suggesting it does not correlate well with the received number of ratings.",
+      "index": 5085,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating '5.1/10,5/10' combines different ratings which is invalid as it should be a single qualitative measure.",
+      "index": 5143,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.1"
+    },
+    {
+      "explanation": "The number of ratings '120,163' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5128,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "120163"
+    },
+    {
+      "explanation": "The number of ratings '119,121' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5129,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "119121"
+    },
+    {
+      "explanation": "The number of ratings '427,441' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5130,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "427441"
+    },
+    {
+      "explanation": "The number of ratings '70,381' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5131,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "70381"
+    },
+    {
+      "explanation": "The number of ratings '188,464' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5137,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "188464"
+    },
+    {
+      "explanation": "The number of ratings '21,291' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5138,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "21291"
+    },
+    {
+      "explanation": "The number of ratings '28,291' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5139,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "28291"
+    },
+    {
+      "explanation": "The number of ratings '52,789' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5140,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "52789"
+    },
+    {
+      "explanation": "The number of ratings '54,062' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5141,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "54062"
+    },
+    {
+      "explanation": "The number of ratings '2,019' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5109,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "2019"
+    },
+    {
+      "explanation": "The number of ratings '23,275' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5115,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "23275"
+    },
+    {
+      "explanation": "The number of ratings '20,767' is invalid due to the presence of a comma; it should be a single numeric value without commas.",
+      "index": 5111,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "20767"
+    },
+    {
+      "explanation": "The rating '4.8/10' is considered an error because it is not a proper representation of a numeric rating in the format used for ratings in this dataset (numeric values without slashes or additional characters).",
+      "index": 5218,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.8"
+    },
+    {
+      "explanation": "The rating '5.7/10' is considered an error because it has a slash, which is not consistent with the format used for numeric ratings in this dataset. Ratings should be represented as decimal numbers.",
+      "index": 5269,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.7"
+    },
+    {
+      "explanation": "The number of ratings '11,077' is not an error; however, it indicates that a very high rating should typically correspond with a significantly higher user rating. The rating '6.8' may not align logically with such a high volume of ratings, suggesting a potential inconsistency in the dataset.",
+      "index": 5203,
+      "column": 12,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The number of ratings '121,457' suggests an incredibly high volume of users but corresponds to a rating of '6.4', which may not be semantically consistent; typically, a higher number of ratings correlates with a higher average rating.",
+      "index": 5205,
+      "column": 12,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The rating '4.0' is too low for what would expect to correspond with a number of ratings '450', suggesting inconsistencies in the qualitative measure against the volume of feedback received.",
+      "index": 5242,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The rating '3.5' is notably low for the number of ratings '244'. A rating this low typically would indicate a much lower number of ratings, implying potential inconsistency in this case.",
+      "index": 5268,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The rating '8.1' with only '88' ratings is inconsistent because a high rating such as 8.1 generally suggests a larger volume of ratings, leading to possible statistical anomalies if these ratings are accurate.",
+      "index": 5295,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The rating '5.2/10,4.9/10' is considered an error because the value contains multiple ratings, which violates the expected single rating format in the column.",
+      "index": 5320,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The rating '3.6' is considered an error because the expected rating according to typical patterns would be higher when considering the number of ratings is 16,389, which usually correlates with a higher rating score.",
+      "index": 5356,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating of 7.6/10 contains an invalid format as it should be a single numerical value without text.",
+      "index": 5463,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The rating of 3.4 is exceptionally low compared to the number of ratings received (284), indicating a possible inconsistency in how films are rated based on their rating vs. popularity.",
+      "index": 5471,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating of null in the eleventh column is an error as every film must have a rating, indicating a missing value that cannot be explained by the number of ratings.",
+      "index": 5481,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The value '5.4/10,5.4/10' is invalid because it includes slashes and commas which are not appropriate characters for a film rating, which should be a single numerical value.",
+      "index": 5528,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The value '7.5/10,6.8/10' is invalid because it includes slashes and commas which are not appropriate characters for a film rating, which should be a single numerical value.",
+      "index": 5551,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The value '5.1/10' is invalid because it includes a slash which is not an appropriate character for a film rating, which should be a single numerical value.",
+      "index": 5580,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.1"
+    },
+    {
+      "explanation": "The value '7.6/10,7.8/10' is an error because it should be a single numeric rating, not multiple ratings concatenated together.",
+      "index": 5637,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The value 'null' indicates a missing rating which is an error because every film should have a rating.",
+      "index": 5625,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The entry '6.1/10,6.2/10' is an error because it presents multiple ratings in a single field, which violates the expected structure of a singular rating value.",
+      "index": 5754,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.1"
+    },
+    {
+      "explanation": "The entry '5.8/10,5.5/10' similarly presents multiple ratings in one field, which is not compatible with the expected format of a single rating value.",
+      "index": 5777,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "The entry '3.8/10,3.8/10' also contains multiple ratings, which breaks the expected singular format for the rating value.",
+      "index": 5790,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.8"
+    },
+    {
+      "explanation": "Rating of 1.9 in column 11 indicates an extremely low quality that is not compatible with 29,833 ratings in column 12 which suggests popularity and potentially a better rating.",
+      "index": 5807,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "Rating of 1.9 in column 11 is considered an error because the corresponding 32,758 total ratings in column 12 suggests popularity that is inconsistent with such a low quality rating.",
+      "index": 5809,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "Rating of 2.0 in column 11 with only 13,706 ratings in column 12 is likely an anomaly since a low rating does not provide a rationale for a significant count of ratings, suggesting a mismatch in the dependency relationship.",
+      "index": 5810,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "Rating of 2.1 appears to be inconsistent with 23,352 total ratings; such a low rating would not likely originate from a significantly high number of ratings, indicating a mismatch in expected dependency.",
+      "index": 5812,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "Rating of 1.9 with 10,101 ratings is incongruous, as a film with such a low rating would not usually attract that level of averages, violating the dependency between ratings and number of ratings.",
+      "index": 5815,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "A rating of 1.9 against 29,833 ratings suggests a popular film that surprisingly scores so low, indicating a conflict in expected quality versus popularity criteria.",
+      "index": 5827,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "Rating of 1.9 coupled with 10,101 ratings conflicts with the expected quality range for such a high number of ratings, suggesting an anomaly in rating expectations.",
+      "index": 5815,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "Rating of 2.3 linked with only 414 ratings raises questions about the quality perception of a film with such a high number of associated ratings, indicating a potential inconsistency in the dataset.",
+      "index": 5857,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "The rating of 2.7 in column 11 against 300 associated ratings in column 12 suggests a mismatch where a higher rating number should be expected for a viable quality score.",
+      "index": 5853,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "The entry of '3.1/10,2.9/10' in column 11 suggests conflicting ratings for a single film, a situation that violates the dependency as it presents an unclear qualitative measure.",
+      "index": 5881,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "\"3.1\" or \"2.9\""
+    },
+    {
+      "explanation": "The value '5.4/10,5.4/10' is not a valid rating; it should be a single numerical value instead of a format with multiple values and slashes.",
+      "index": 5917,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The value '6.8/10,7.1/10' is not a valid rating; it should be a single numerical value instead of a format with multiple values and slashes.",
+      "index": 5924,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The value '3.4/10,3.6/10' is not a valid rating; it should be a single numerical value instead of a format with multiple values and slashes.",
+      "index": 5930,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.4"
+    },
+    {
+      "explanation": "The value '7.5/10' is not a valid rating; it should be a single numerical value instead of a format that includes a slash.",
+      "index": 5946,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The rating '2.4/10' is invalid as it does not conform to the expected numeric rating format (e.g. X.X) which indicates a violation with the number of ratings associated as it suggests an error in input format.",
+      "index": 6007,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating '6/10' is invalid as it implies a non-standard format that does not conform to the expected numeric rating format (e.g. X.X). This is misleading given the number of ratings provided.",
+      "index": 6032,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The rating '7.7/10,8.1/10' shows multiple values where only one rating should be present, violating the expected single rating dependency. This causes confusion with the corresponding number of ratings.",
+      "index": 6048,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.9"
+    },
+    {
+      "explanation": "8.2/10,8/10 is an error because ratings should be represented as a single decimal value, not as multiple values.",
+      "index": 6103,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.2"
+    },
+    {
+      "explanation": "5.3/10 is an error because ratings should be represented as a single decimal value, not as a fraction or multiple ratings.",
+      "index": 6195,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.3"
+    },
+    {
+      "explanation": "3.7/10 is an error because film ratings should be in a numerical format without a denominator. The presence of '/10' indicates an incorrect rating format.",
+      "index": 6201,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.7"
+    },
+    {
+      "explanation": "6.2 is an error because the rating of 6.2 suggests a moderate quality film, but its high number of ratings, 55,931, indicates it should have a higher rating.",
+      "index": 6249,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The rating '6.8/10,6.9/10' indicates multiple ratings which are not suitable for a single qualitative measure as expected in the dataset's dependency definition.",
+      "index": 6302,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The rating '6.6/10' similarly indicates multiple ratings which are not suitable for a single qualitative measure as expected in the dataset's dependency definition.",
+      "index": 6378,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.6"
+    },
+    {
+      "explanation": "The rating '6.8/10,7/10' has an invalid format as it contains two ratings, which is not acceptable given the dependency. It should be a single numerical rating.",
+      "index": 6451,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The rating '8.4/10' has an invalid format as it includes a slash, rather than being a simple numerical value.",
+      "index": 6458,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.4"
+    },
+    {
+      "explanation": "The rating '6.5/10,6.5/10' has an invalid format as it contains two ratings, which is not permissible given the dependency. It should reflect a single score.",
+      "index": 6473,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The entry '8.6/10,6.7/10' includes two ratings violating the expected format of a single numerical rating.",
+      "index": 6483,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.6"
+    },
+    {
+      "explanation": "The rating '4.2/10,3.7/10' is invalid as it presents multiple rating formats which are not consistent with the expected single rating format.",
+      "index": 6561,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.2"
+    },
+    {
+      "explanation": "The value '4.4/10,4.1/10' is an error because it does not conform to the expected numeric rating format—it contains multiple scores separated by slashes and commas, which is not typical for a single rating.",
+      "index": 6629,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.4"
+    },
+    {
+      "explanation": "The value '5.1/10' is an error because it also contains a slash which indicates an invalid format for a single rating entry.",
+      "index": 6692,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.1"
+    },
+    {
+      "explanation": "The value '4/10,3.9/10' has an invalid format for a film rating, as it should be a single numerical value. This is a syntactic error because it fails to comply with the expected format for ratings.",
+      "index": 6702,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The value '6.2/10' is formatted incorrectly as it should only have a single decimal number for the rating instead of a fraction. This introduces a syntactic violation.",
+      "index": 6707,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.2"
+    },
+    {
+      "explanation": "The value '7.3/10,7.6/10' contains multiple ratings in a single cell, which does not conform to the expected format for film ratings. This syntactic error arises from having more than one rating in the designated column.",
+      "index": 6738,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.3"
+    },
+    {
+      "explanation": "The value '4.8/10,4.4/10' similarly contains multiple ratings where only one is expected. This syntactic violation prevents proper interpretation of the entry as a single film rating.",
+      "index": 6796,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.8"
+    },
+    {
+      "explanation": "The rating '4.5/10,2.3/10' contains invalid syntax as it has multiple ratings instead of a single numerical value, leading to confusion about how many ratings were used to derive this film's qualitative measure.",
+      "index": 6896,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The rating '8.0' is significantly high when compared to the number of ratings '26', which is too low to support a high average rating, indicating a possible mismatch in film rating quality versus quantity.",
+      "index": 6897,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The rating '3,320' is significantly high in relation to its rating '6.0', suggesting an inconsistency as a lower rating would usually not be expected with such a high number of ratings indicating a lack of quality in this film.",
+      "index": 6803,
+      "column": 12,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The entry '2.7' has a rating that is considered very low for a film, suggesting that it should have received a significantly lower number of ratings, but it has 750 ratings which indicates a higher popularity than expected.",
+      "index": 6977,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The entry '3.9' has a rating that is relatively low compared to the number of ratings (2,406), which suggests that a film with this rating should generally have lower ratings received.",
+      "index": 6932,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The entry 'null' in the ratings column indicates a missing rating for the film, which violates the dependency that a valid rating must correspond to the number of ratings.",
+      "index": 6990,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "6.1/10 is an error because it does not match the expected rating format which should be a single numeric value (e.g., 5.6).",
+      "index": 7074,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.1"
+    },
+    {
+      "explanation": "5/10 is an error because it does not match the expected rating format which should be a single numeric value (e.g., 5.6).",
+      "index": 7067,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "3.1/10,3.6/10 is an error because it contains multiple values where only one singular rating is expected.",
+      "index": 7020,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.1"
+    },
+    {
+      "explanation": "5.2/10 is an error because it does not match the expected rating format which should be a single numeric value (e.g., 5.6).",
+      "index": 7073,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.2"
+    },
+    {
+      "explanation": "The lack of a value in index 7062 (which corresponds to a null rating) violates the numerical dependency as every film should have a rating that correlates with its number of ratings.",
+      "index": 7062,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    }
+  ]
+}

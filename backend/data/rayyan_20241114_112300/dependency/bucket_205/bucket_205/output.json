@@ -1,0 +1,1 @@
+{"output":[{"columns":[0,1],"dependency":"The first column, a numeric identifier, can be seen as a primary key for the rows of research articles which gives context to the second column, the title of the research articles. Each title is associated with its unique identifier."}]}

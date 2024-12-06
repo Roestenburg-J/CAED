@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The fourth column represents the size of the beer's packaging, which semantically relates to the beer name in the second column, as the name may suggest packaging size conventions.
+
+  The following is a formatted table with the unique data to be checked.
+  

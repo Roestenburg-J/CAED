@@ -1,0 +1,3819 @@
+{
+  "output": [
+    {
+      "explanation": "The entry in column 9 lists 'USA,Germany' but the corresponding location in column 15 is 'Amboseli National Park, Kenya' which is not in the USA.",
+      "index": 15,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA' while the corresponding location in column 15 indicates 'Ait Benhaddou, Morocco' which is not in the USA.",
+      "index": 16,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'UK,Germany,Hungary,USA' while the corresponding location in column 15 is 'Budapest, Hungary', which does not match the dependency of the USA.",
+      "index": 17,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA,Germany' while the corresponding location in column 15 is 'Berlin, Germany', which does not match the dependency of being in the USA.",
+      "index": 12,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'Chile,USA' while the corresponding location in column 15 is 'Santiago, Chile' which does not match the dependency of being in the USA.",
+      "index": 40,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA,UK' but the corresponding location in column 15 is 'London, England, UK' which is not in the USA.",
+      "index": 22,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'Japan,USA' but the corresponding location in column 15 is 'Japan' which does not match the dependency of being in the USA.",
+      "index": 64,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA,Australia' while the corresponding location in column 15 is 'Gare Windsor, Montréal, Québec, Canada', which does not match the dependency of being in the USA.",
+      "index": 42,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA,Germany' but the corresponding location in column 15 is 'Hanover, Pennsylvania, USA', which does not match the dependency of being in the USA only for movies produced there.",
+      "index": 43,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA,Italy' while the corresponding location in column 15 is 'Malta' which does not match the dependency of being in the USA.",
+      "index": 52,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 lists 'USA,New Zealand,Japan' but the corresponding location in column 15 is 'Santa Clarita, California, USA', which does not match the dependency of being in the USA when only USA is listed.",
+      "index": 26,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 is 'USA,Netherlands' while the corresponding location is 'Budapest, Hungary', which does not match the dependency of USA being the only country.",
+      "index": 65,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Albert R. Broccoli 007 Stage, Pinewood Studios, Iver Heath, Buckinghamshire, England, UK' indicates that a film is produced in the UK whereas column 9 suggests the country of production is USA, which is contradictory.",
+      "index": 102,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Associated British Picture Studios, Borehamwood, Hertfordshire, England, UK' indicates that a film is produced in the UK whereas column 9 suggests the country of production is USA, which is contradictory.",
+      "index": 103,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The value 'Chatham Historic Dockyard, Chatham, Kent, England, UK' indicates that a film is produced in the UK whereas column 9 suggests the country of production is USA, which is contradictory.",
+      "index": 105,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The value 'Antony House, Torpoint, Cornwall, England, UK' indicates that a film is produced in the UK whereas column 9 suggests the country of production is USA, which is contradictory.",
+      "index": 108,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The value 'England, UK' indicates that a film is produced in the UK whereas column 9 suggests the country of production is USA, which is contradictory.",
+      "index": 109,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The value 'Fox Studios, Moore Park, Sydney, New South Wales, Australia' indicates that a film is produced in Australia, whereas column 9 suggests the country of production is USA, which is contradictory.",
+      "index": 112,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Australia"
+    },
+    {
+      "explanation": "The value 'Arusha National Park, Tanzania' suggests a production location in Tanzania while column 9 specifies the country of production as USA, which is contradictory.",
+      "index": 135,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Morocco' indicates a production location in Morocco while column 9 specifies the country of production as USA, which is contradictory.",
+      "index": 136,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Church of Saint Paul the Apostle, Columbus Avenue & West 60th Street, New York City, New York, USA' suggests production in the USA, but additional confirmation that location aligns fully with stated country is required to avoid ambiguity about production origins.",
+      "index": 113,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Belvedere Island, California, USA' denotes a US production, while the presence of foreign entities like 'USA,Hong Kong' impacts the provenance of the production as listed, indicating irregularities in dependency consistency.",
+      "index": 148,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country listed ('USA,Canada') cannot be produced in 'Canada' as the primary location; it should only indicate 'USA' as the production country.",
+      "index": 200,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Prague, Czech Republic' does not align with the production country 'USA'.",
+      "index": 201,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The place 'Chandigarh, Punjab, India' cannot correspond with the production country 'USA'.",
+      "index": 202,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "With an empty location, it is incorrect to have 'USA,UK' listed as the country of production, which implies a lack of proper association with a correct location.",
+      "index": 203,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Africa' does not correlate with the production country 'USA'; it is misleading regarding the dependency definition.",
+      "index": 208,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Hôtel de Sully, Paris 4, Paris, France' does not support the production being listed in the USA as one of the countries.",
+      "index": 217,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Sokolec, Czech Republic' is not a place consistent with the production country 'USA,Germany'.",
+      "index": 221,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "A location in 'China' contradicts the country of production being listed as 'USA'.",
+      "index": 269,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Bahamas' contradicts with the production country being 'USA'.",
+      "index": 263,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Hungary' does not align with the country of production provided ('USA').",
+      "index": 236,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Peru,USA' indicates two countries, but the location is in the USA, which makes this ambiguous and contradictory since only the USA should be mentioned under the dependency rule.",
+      "index": 301,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Spain,USA' indicates two countries while the location describes a place in Spain, creating a contradiction since only the USA should be allowed given the production location is in Spain.",
+      "index": 305,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,UK,Germany' indicates multiple countries, violating the rule that only the USA should be stated as the country of production when the location clearly specifies a place in the USA.",
+      "index": 318,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,Germany,Japan,USA' also indicates multiple countries, which is incorrect as the production location should specify only the USA given the described dependency.",
+      "index": 322,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Germany' indicates the presence of Germany even though the location is in the USA, violating the outlined dependency that requires solely USA to be mentioned.",
+      "index": 323,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'China,USA,Canada' lacks consistency, as the location is specifically stated as in China, while the rule indicates the dependency should only declare USA.",
+      "index": 364,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Philippines,USA' is an errant indication of the Philippines as it contradicts the requirement that production must state only the USA as the country when the location is stated as just Philippines.",
+      "index": 389,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA,Canada' shows multiple countries which is not permissible as per the dependency stating it should only feature the USA when its location includes a place that is within the US jurisdiction.",
+      "index": 393,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,UK' indicates multiple countries which is incorrect since the location is clearly in the USA and should not reflect the presence of another non-USA country.",
+      "index": 382,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA' is inconsistent with the location 'Bulgaria' as movies are not typically produced in Bulgaria but declared as 'USA'.",
+      "index": 400,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA, Bulgaria"
+    },
+    {
+      "explanation": "The entry 'Ait Benhaddou, Morocco' indicates a location in Morocco, while the country of production states 'USA,UK', which is inconsistent with the location indicating production.",
+      "index": 401,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA' cannot match with 'Cleveland, Ohio, USA' since both indicate a specific U.S. location and thus are redundant for the context.",
+      "index": 402,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Germany,Canada' contradicts the location 'White Stallion Ranch, Tucson, Arizona, USA' which does not indicate foreign production.",
+      "index": 404,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Match found between 'USA' and non-US location 'Sierra Madre del Sur, Mexico', indicating an inconsistency that violates production origins.",
+      "index": 413,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The culture of production indicates 'Shepperton Studios, Shepperton, Surrey, England, UK' cannot be assigned to 'USA'; hence it represents an error.",
+      "index": 417,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production listed as Canada contradicts the declared USA origin—indicating an inconsistency with 'Dublin, Ireland'.",
+      "index": 423,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Production declaration 'USA,Germany,Netherlands' incompatible with the location 'Handy Market - 2514 W. Magnolia Boulevard', as it implies US production.",
+      "index": 430,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The specified country 'UK,Italy,USA' conflicts with the production location '77 Pottery Lane, Notting Hill, London', indicating potential non-US production.",
+      "index": 442,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Country listing 'USA,South Africa,Japan' mismatches with a location in Cape Town, which complicates evidence of USA based production.",
+      "index": 450,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "France indicated in 'Paris, France' conflicts with production listing as 'USA'.",
+      "index": 467,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The declaration 'France,USA' implies inconsistency as 'Estudios Churubusco Azteca, Mexico City' indicates production should not cover USA.",
+      "index": 468,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "A clear contradiction emerges with the production 'USA' conflicting on 'Alberta, Canada' showing no indication of production in US.",
+      "index": 496,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production country 'Amecameca, Estado de México, Mexico' indicates Mexico, but the country of production states 'USA', which does not match.",
+      "index": 502,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Mexico"
+    },
+    {
+      "explanation": "The production country 'Ait Benhaddou, Morocco' indicates Morocco, but the country of production states 'Germany,USA,Netherlands,France,UK,Italy', which does not correspond to the location in USA.",
+      "index": 510,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Morocco"
+    },
+    {
+      "explanation": "The production country 'Ardmore Studios, Herbert Road, Bray, County Wicklow, Ireland' indicates Ireland, but the country of production states 'USA,UK,Ireland'; however, the primary location in USA is not valid for production.",
+      "index": 511,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Ireland"
+    },
+    {
+      "explanation": "The production country 'Palazzi Barbaro, Grand Canal, Venice, Veneto, Italy' indicates Italy, but the country of production states 'USA', which does not match.",
+      "index": 515,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The production country 'Montreal, Québec, Canada' does not belong to the USA as per the rule, but it states 'USA,Canada,Japan,Panama'.",
+      "index": 533,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "In index 543, the production country entry states 'USA' but location indicates 'Los Angeles, California, USA', which correctly supports USA but pairs with non-local values as well.",
+      "index": 543,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production country claims to be various but actually has 'Athens, Greece' with 'Greece,USA' as the apparent country of production, not aligned with expected USA production.",
+      "index": 580,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production, which includes 'Botswana', cannot be the production country for a location listed as 'Botswana' as it does not imply that the main production is restricted to those countries, making this an error.",
+      "index": 602,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Canada,USA,Mexico,Micronesia,Japan,Australia,Brazil,Hong Kong,Madagascar,Papua New Guinea,South Africa' cannot be valid as it has no corresponding location, which is required to denote where the movie is produced.",
+      "index": 603,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Alsace, France' does not indicate a valid country of production as it includes 'UK' which is not valid in this context, thus making it an error.",
+      "index": 604,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'California, USA' in the location corresponds to 'UK,USA' in the country of production, which is invalid since the location is distinctly American.",
+      "index": 612,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Ile de Gorée, Dakar, Senegal' corresponds to 'UK,USA' in the country of production, which is not valid since it denotes a non-American location.",
+      "index": 614,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The presence of 'USA' as a specified country of production indicates that it should correlate to a location in the USA, yet location here is in 'Wellington, New Zealand', making this an error.",
+      "index": 623,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Arlington National Cemetery, Arlington, Virginia, USA' suggests a main production country of 'USA,Germany' does not conform, as both countries should not conflict with the location mentioned.",
+      "index": 661,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Kinlochewe, Highland, Scotland, UK' does not match the country of production 'UK,USA,Iceland' for the dependency describing movies produced in the USA, thus indicating an error.",
+      "index": 674,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 15 indicates a location in New Zealand while Column 9 includes the USA; thus it violates the dependency as the production country cannot include the USA if the location is in New Zealand.",
+      "index": 705,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "New Zealand"
+    },
+    {
+      "explanation": "Column 9 includes invalid country in a US dependency; the location indicates a place in Slovenia which does not align with any USA production entries.",
+      "index": 717,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,China' indicates that the movie may be produced in both the USA and China, but the location 'Austin, Texas, USA' is exclusively in the USA. This is considered an error due to inconsistency in the production countries, as 'China' should not be present.",
+      "index": 800,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Athens, New York, USA' is in the USA, which aligns with the production country 'USA'. This is valid and does not represent an error.",
+      "index": 801,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'American Museum of Natural History - Central Park West at 79th Street, Manhattan, New York City, New York, USA' is a valid location within the USA, which corresponds with 'USA' in the production country. No error is present.",
+      "index": 802,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Los Angeles Theatre - 615 S. Broadway, Downtown, Los Angeles, California, USA' is a valid location within the USA and aligns perfectly with the production country 'USA'. There is no error.",
+      "index": 803,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Colton Street & N Edgeware Road, Los Angeles, California, USA' is within the USA, which is consistent with the production country designated as 'USA'. No error found.",
+      "index": 804,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA,France,Italy' is inconsistent with the location 'Hotel Danieli, Venice, Veneto, Italy', as it indicates production in countries outside the USA. This is an error because the location suggests it should exclusively produce in Italy.",
+      "index": 805,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The location 'Southwest Marine - 985 South Seaside Avenue, Wilmington, Los Angeles, California, USA' matches the production country 'USA' and is considered valid without error here.",
+      "index": 806,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA,Czech Republic' conflicts with the location 'Downey Studios - 12214 Lakewood Boulevard, Downey, California, USA', which is in the USA. This represents an error because it falsely includes another country not indicated by the location.",
+      "index": 807,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The movie's production country 'USA' is consistent with the location 'Vincent Thomas Bridge, San Pedro, Los Angeles, California, USA'. Hence, no error is present.",
+      "index": 808,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA,UK,Japan,Germany' is inconsistent with the location 'Iceland', as Iceland is not located in any of these countries. This is an error because it suggests incorrect production location.",
+      "index": 809,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Iceland is not valid; expected is one of the listed countries."
+    },
+    {
+      "explanation": "The location 'Gallery Bar and Cognac Room, Biltmore Hotel - 506 S. Grand Avenue, Downtown, Los Angeles, California, USA' is inside the USA, which is valid with the production country 'USA'. There is no error.",
+      "index": 810,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Makaryev Monastery, Lyskovo, Nizhny Novgorod, Russia' does not align with the production country 'USA' and is therefore an error. The location indicates a film produced in Russia instead.",
+      "index": 811,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Russia"
+    },
+    {
+      "explanation": "The entry 'Barons , Alberta, Canada' has both USA and Canada in the production countries; this entry is inconsistent as the location is fully in Canada and should reflect that without the USA. This indicates an error.",
+      "index": 812,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The location 'Camperdown Studios, Camperdown Road, Miramar, Wellington, New Zealand' contradicts the production country 'USA,New Zealand', where New Zealand is appropriate but being in the USA is not valid. Thus, it is an error.",
+      "index": 813,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "New Zealand"
+    },
+    {
+      "explanation": "The production country 'New Zealand,USA' conflicts with the location 'Arrowtown Recreational Reserve, Arrowtown, Otago, New Zealand' as it implies production in two countries but should reflect a production solely in New Zealand. This is an error.",
+      "index": 814,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "New Zealand"
+    },
+    {
+      "explanation": "The entry 'CTV Services, Tunisia' with production country 'USA' mismatches with , indicating production in the USA and a location in Tunisia, indicating an error.",
+      "index": 815,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Tunisia"
+    },
+    {
+      "explanation": "The production country 'USA' matches precisely with the location 'Chott el Djerid, Nefta, Tunisia'. This indicates an error because the location is located in Tunisia, but not in the USA.",
+      "index": 816,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'University of the Pacific, Stockton, California, USA' aligns with the production country 'USA'. This is valid and there is no error.",
+      "index": 817,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Reid Hall, Manhattanville College, Purchase, New York, USA' is consistent with the production country 'USA'. No error present.",
+      "index": 818,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'UK,USA' is inconsistent with the location 'Realp, Uri, Switzerland', indicating production in Switzerland, representing an error.",
+      "index": 819,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Switzerland."
+    },
+    {
+      "explanation": "The entry 'Agra Fort, Agra, Uttar Pradesh, India' contradicts the production country 'UK,USA' as the location is in India while reflecting productions primarily concerning the USA and UK. This represents an error.",
+      "index": 820,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "India."
+    },
+    {
+      "explanation": "The production country 'USA,Yugoslavia' matches the location 'Pacific Southwest Railway Museum, Campo, California, USA'. There is no error present as it's produced where it's indicated.",
+      "index": 821,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Patagonia, Arizona, USA' matches with the production country 'USA'. No error is present.",
+      "index": 822,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Bavispe, Sonora, Mexico' contradicts the production country 'USA'. It should not include another country as a location should be wholly within a production country defined as the USA. This is error.",
+      "index": 823,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The location '1272 E Calaveras St. Altadena, California, USA' aligns correctly with its production country 'USA'. Thus, no error is present.",
+      "index": 824,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location '1288 S Oakland Avenue, Pasadena, California, USA' is consistent with the production country 'USA'. No error is present here.",
+      "index": 825,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '3rd Street Promenade, Santa Monica, California, USA' matches the production country 'USA', thus no error.",
+      "index": 826,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location '9543 Culver Blvd, Culver City, California, USA' aligns with the production country 'USA'. No error is present.",
+      "index": 827,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Cleveland, Queensland, Australia' contradicts the production country 'USA', representing an error as it suggests a production in Australia.",
+      "index": 828,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The production country 'UK,USA' is conflicting with location 'Wales, UK', indicating it should possibly reflect production primarily based on location in UK. This is considered an error.",
+      "index": 829,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK."
+    },
+    {
+      "explanation": "The entry 'Wiltshire, England, UK' is consistent with the production country 'UK,USA'. There is no error here since England reflects productions also about UK.",
+      "index": 830,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Highland, Scotland, UK' aligns accordingly with the production area 'UK,USA'. No error is present.",
+      "index": 831,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'UK,USA,Germany' is consistent with the location 'Oxford, Oxfordshire, England, UK', indicating valid productions, hence no error is present.",
+      "index": 832,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Venice Boulevard at Georgia Street, Los Angeles, California, USA' is consistent with the production country 'USA'. No error is experienced here.",
+      "index": 833,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Chambers Paper Fibers, Plymouth Street, Brooklyn, New York City, New York, USA' is in the USA, consistent with the production country 'USA'. There is no error.",
+      "index": 834,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Ghana' does not align with the production country 'USA', indicating that the movie description does not hold as valid as it should thus reflect where it was to reflect production.",
+      "index": 835,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The entry '1 State Street Plaza, New York City, New York, USA' is valid as it aligns with the production country 'USA', hence no error is present.",
+      "index": 836,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production location '400 East 14th Street, Manhattan, New York City, New York, USA' aligns validly with the USA production, indicating no error here.",
+      "index": 837,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Interurban Building - 102 Occidental Ave S, Seattle, Washington, USA' matches correctly with its production country 'USA'. There is no error present.",
+      "index": 838,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA,Germany' is consistent with the location 'California, USA', hence is correct and no error is found.",
+      "index": 839,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA' matches the location 'Stage 20, Warner Brothers Burbank Studios - 4000 Warner Boulevard, Burbank, California, USA', hence indicating correct context here with no error.",
+      "index": 840,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Building One, Studios at Las Colinas - 6301 North O'Connor Road, Irving, Texas, USA' aligns with the production country 'USA,Canada' indicating accuracy and thus no error.",
+      "index": 841,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'MacArthur Park, Los Angeles, California, USA' is within the USA validly aligning with its specified production country indicating validity without error.",
+      "index": 842,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA' is validly producing where 'Milo Butterfingers - Dallas, Texas, USA' is located as well, indicating no error found.",
+      "index": 843,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA,Germany' contradicts the location 'New York City, New York, USA' implying either miscommunication regarding production details, hence deemed as an error.",
+      "index": 844,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The production country 'USA,Germany,Canada' contradicts the location 'Koerner Plaza, University of British Columbia, Robson Square Campus - 800 Robson Street, Vancouver, British Columbia, Canada' suggesting contradictions concerning production in Canada as opposed to the USA. This entry reflects the error.",
+      "index": 845,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada."
+    },
+    {
+      "explanation": "The location 'Bangkok, Thailand' contradicts the production country 'France,USA' suggesting the productions are invalid when the location is not in either country. This results in an error.",
+      "index": 846,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France or USA."
+    },
+    {
+      "explanation": "The entry 'Las Vegas, New Mexico, USA' aligns well with its production showing accordingly to USA which indicates no error present.",
+      "index": 847,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country displayed 'USA,UK' contradicts the entry 'Badlands National Park, Interior, South Dakota, USA'. This location aligns within the consistent context but reflects UK's indication therefore represents an error.",
+      "index": 848,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The location 'Alhambra, California, USA' correctly aligns with the production country being 'USA', thus no error presented.",
+      "index": 849,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '11219 S St Lawrence Ave, Chicago, Illinois, USA' reflects correctly with its production matching 'USA', thus indicates no error is present.",
+      "index": 850,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '40 miles south, Great Falls, Montana, USA' aligned within the USA context reflecting on respective production indicated goes as check and gives validity, thus no error.",
+      "index": 851,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'USA,Japan' contradicts the location 'Tokyo, Japan', suggesting an error exists because the location is not within the USA thereby contradicting productions.",
+      "index": 852,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The entry 'Clifton, New Jersey, USA' matches with 'USA' thus reflects accurately as without error.",
+      "index": 853,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Astoria, Queens, New York City, New York, USA' is consistent with its production country 'USA', indicating no error is present.",
+      "index": 854,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Three Clubs, 1123 VINE ST, Hollywood, California, USA' matches with the production country 'USA'. Hence, no error is present.",
+      "index": 855,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'UK,Spain,Germany,USA' conflicts with the location 'UK' showing contradictions towards specified valid productions suggesting an error.",
+      "index": 856,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "TV production locale countries needed."
+    },
+    {
+      "explanation": "The location 'Rickwood Field - 1137 2nd Avenue W, Birmingham, Alabama, USA' aligns well with the production country 'USA', thus no error is seen.",
+      "index": 857,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Covington, Georgia, USA' aligns with the production country 'USA', indicating a match without error.",
+      "index": 858,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Franklin Field - 235 S. 33rd Street, University of Pennsylvania, Philadelphia, Pennsylvania, USA' matches correctly with production country thus indicating proper alignment as valid, hence no errors.",
+      "index": 859,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Agnes Scott College - 141 E. College Avenue, Decatur, Georgia, USA' aligns with the production country 'USA', thus indicates valid without error.",
+      "index": 860,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Agoura High School - 28545 W. Driver Avenue, Agoura Hills, California, USA' is entirely consistent with respect to its respective production country thus no errors are indicated.",
+      "index": 861,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "There's a contradiction with the production country 'USA,Germany' and the location identified as 'Safari Inn - 1911 W. Olive Avenue, Burbank, California, USA'. There isn't a valid representation of Germany hence it brings for mistakes represented as an error entry.",
+      "index": 862,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA only validation."
+    },
+    {
+      "explanation": "There is a mismatch reflected by 'Abbotsford, British Columbia, Canada' situated with production of only 'USA', marking it incorrect therefore an error.",
+      "index": 863,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The entry 'Birchmount Collegiate, Toronto, Ontario, Canada' has production countries marked as 'Germany,USA', which is a mismatch since the location is within Canada thus representing an error.",
+      "index": 893,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada."
+    },
+    {
+      "explanation": "The entry 'Fontana di Trevi, Rome, Lazio, Italy' is only valid with respect to the USA indication hence prompting an error should arise.",
+      "index": 894,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The production country should reflect accuracy through 'Astoria, Oregon, USA' found correctly and thus validates plausibly without any errors present.",
+      "index": 895,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry featuring 'Canada' does not align with the production declared as 'USA', representing inaccuracies hence eliciting errors here.",
+      "index": 896,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The entry represented 'Budapest, Hungary' mismatches with production of 'USA', indicating the films have been produced in a separate country hence an error arises.",
+      "index": 897,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA."
+    },
+    {
+      "explanation": "The valid entry aligns with 'Nashville, Tennessee, USA' marked with the country of display as 'USA', showing there is no error present.",
+      "index": 898,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Fresno, California, USA' matched within its production country 'USA', indicating it to be confirmed as valid hence no errors found.",
+      "index": 899,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The country of production 'USA,Canada' indicates multiple countries, while the location is in Canada, which violates the dependency that says productions should be from the USA only.",
+      "index": 900,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The presence of 'UK,France,USA' implies that the production takes place in multiple countries, but the corresponding location is in England, which is inconsistent as per the dependency that requires producers to be from the USA.",
+      "index": 901,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,Germany' conflicts with the location in Australia, as it should be exclusively in the USA according to the dependency.",
+      "index": 904,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production country 'USA,UK' conflicts with the location in Austria, as it must reflect producers limited to the USA.",
+      "index": 927,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production country 'West Germany,USA' does not match the location in Germany, geospatially the primary production needs to be the USA as per the requirement.",
+      "index": 919,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production indicated is 'USA,UK,Hungary' while the location provided is in France, creating a semantic conflict with the assumption that productions this context should be limited to the USA.",
+      "index": 952,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Germany,UK,USA' conflicts with the location in Italy, as it must indicate a production only from the USA.",
+      "index": 954,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'UK,Canada,USA' is invalid as the location is in Canada, but productions must be identified exclusively within the USA.",
+      "index": 961,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production 'USA,Germany,UK,Italy' is invalid as it conflicts with the location in New Mexico, requiring repairs to showcase they are from the USA.",
+      "index": 965,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production stated as 'USA,Germany,Indonesia' conflicts with the location being in Berlin, thus violating the dependency requires the country of production to solely reflect USA.",
+      "index": 994,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Hong Kong' in column 9 indicates multiple countries, while the corresponding location in column 15 is only in the USA, which violates the dependency that requires the country of production to match the location.",
+      "index": 1001,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Australia' in column 9 indicates multiple countries, while the corresponding location in column 15 is in Canada, which violates the dependency that requires the country of production to match the location.",
+      "index": 1011,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Canada' in column 9 indicates multiple countries, while the corresponding location in column 15 is in Canada which does not align with the dependency condition that requires it to be exclusively USA.",
+      "index": 1019,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA' in column 9 indicates multiple countries, while the corresponding location in column 15 is in the UK, violating the dependency that requires the country of production to solely indicate USA.",
+      "index": 1034,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Australia' in column 9 indicates multiple countries, while location in column 15 is in Canada, which contradicts the dependency that mandates matching countries of production with the location.",
+      "index": 1069,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Germany,UK' in column 9 indicates multiple countries, while the location in column 15 is in the USA, which violates the dependency requiring alignment of the country of production with the location being solely in USA.",
+      "index": 1060,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA' in column 9 indicates multiple countries, while corresponding location in column 15 is in the UK, violating the requirement that production must be exclusively in the USA.",
+      "index": 1086,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Mexico,USA' in column 9 indicates multiple countries, while the location in column 15 is null, violating the dependency requiring a valid USA location.",
+      "index": 1091,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA' in column 9 indicates two countries, but the corresponding location in column 15 is '280 Westbourne Park Road, Notting Hill, London, England, UK', which denotes a location in the UK only, making it a violation because the country of production should only include 'UK' and not 'USA' here.",
+      "index": 1118,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'UK,USA' in column 9 indicates both UK and USA, but the corresponding location in column 15, 'Philippines', is not located in either country, which makes this a violation because it does not align with the country of production.",
+      "index": 1156,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'Norway,UK,Canada,USA,France,Ireland' in column 9 includes multiple countries, however the corresponding location 'Castle Coole, Northern Ireland, UK' only corresponds to UK, making it a violation because the country of production should not indicate more than what's represented in the location.",
+      "index": 1125,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'France,USA' in column 9 indicates two countries, but the location 'Higuerote, Estado Miranda, Venezuela' listed in column 15 is situated in Venezuela, which makes this a violation as the country of production does not match the location.",
+      "index": 1171,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Hong Kong' in column 9 indicates two countries, but the location 'Action Under Water Studios, Hertford Road, Waltham Cross, Hertfordshire, England, UK' is in the UK only, making this a violation because this record should only be associated with one country of production based on the location provided.",
+      "index": 1184,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'USA,Germany' in column 9 indicates two countries, while the corresponding location in column 15 '421 W. Eighth Street, Los Angeles, California, USA' is located entirely in the USA. This is a violation because the country of production includes Germany which is not represented in the location.",
+      "index": 1148,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,India' in column 9 indicates US and India as places of production, but the column 15 value is null, leading to a violation since any entry indicating a country should always have a corresponding location filled out.",
+      "index": 1102,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Malaysia,USA' in column 9 indicates production in two countries, while the location in column 15 is null. This constitutes a violation as it should not indicate any countries unless there is a corresponding location provided.",
+      "index": 1112,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Chile' in column 9 indicates two countries, while the corresponding location 'Nemocón, Colombia' in column 15 is not in either country, which makes this a violation of dependency since the country of production does not match the location.",
+      "index": 1128,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Colombia"
+    },
+    {
+      "explanation": "Col 9 should indicate that movies are produced in countries accurately corresponding to the locations in Col 15. 'Buftea Studios, Bucharest, Romania' (Col 15) suggests a production location in Romania, while Col 9 indicates 'USA', which is contradictory.",
+      "index": 1203,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Romania"
+    },
+    {
+      "explanation": "Col 9 states 'Australia', but the location 'Circus Liquor - 5600 Vineland Avenue, North Hollywood, California, USA' (Col 15) is in the USA, creating a violation since movies cannot be produced in Australia at a USA location.",
+      "index": 1205,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Col 9 shows 'USA,Germany' while the corresponding location in Col 15 is valid as 'Broadway & 20th Street, Chelsea, Manhattan, New York City, New York, USA' but USA is the only correct country, making 'Germany' incorrect for this entry.",
+      "index": 1226,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "In Col 9, 'France,USA' contradicts the location 'Cinecittà Studios, Cinecittà, Rome, Lazio, Italy' (Col 15) which indicates production in Italy and not in the USA, violating the dependency of indicating the production country.",
+      "index": 1222,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "Col 9 indicates 'UK,USA' while Col 15 has 'Coalhouse Fort, East Tilbury, Essex, England, UK', this indicates production in the UK which contradicts the USA indication, thus being an error.",
+      "index": 1228,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "Col 9 has 'USA,UK,Canada' while Col 15 states 'King City Secondary School, King City, Ontario, Canada', which is contradictory since the statement in Col 9 suggests the movie is produced in the USA, violating the dependency.",
+      "index": 1215,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The entry in Col 9 'USA,Germany' corresponds to the location in Col 15 which states 'Broadway & 20th Street, Chelsea, Manhattan, New York City, New York, USA'. USA is relevant for Col 15 but 'Germany' suggests an inconsistency because the listed location is fully identified as USA.",
+      "index": 1226,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Col 9 states 'USA,UK,France,Canada' for the location in Col 15 which is validly a Canadian location. However, having the preamble of USA indicates production base independently which is contradictory making it an error.",
+      "index": 1248,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "Col 9 indicates 'Yugoslavia,USA' but the location in Col 15 is 'Mokrice Castle, Catez ob Savi, Slovenia', suggests production in Slovenia, which is inconsistent since Yugoslavia exists differently today.",
+      "index": 1258,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Slovenia"
+    },
+    {
+      "explanation": "Col 9 lists 'France,USA' when the associated location in Col 15 identifies production as Paris, France, which contradicts the USA specification leading to a dependency violation.",
+      "index": 1269,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The value 'Germany,USA*' suggests another country of production (Germany) which violates the dependency that states production occurs only in the USA.",
+      "index": 1300,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Hôtel du Cap, Antibes*' indicates a location in France, which does not comply with the dependency that states movies should be produced in the USA.",
+      "index": 1302,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Viale del Policlinico, Rome*' suggests a location in Italy, which violates the requirement that production occurs only in the USA.",
+      "index": 1303,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Munich, Bavaria*' indicates a location in Germany, violating the dependency that production must take place only in the USA.",
+      "index": 1314,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Bangour Village Hospital, Dechmont*' indicates a location in the UK, which is incompatible with the dependency stipulating that production occurs exclusively in the USA.",
+      "index": 1327,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Mansion Nightclub - Washington Avenue, South Beach*' suggests a location in Florida, which is not within the stated USA production condition.",
+      "index": 1351,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Rice, California*' indicates a theoretical location which may not exist, casting doubt on the dependency that production should occur in valid US locations.",
+      "index": 1357,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'India*' as a location does not align with the dependency which states that production must occur within the USA.",
+      "index": 1353,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Cape Town, Western Cape*' indicates a location in South Africa, which contradicts the dependency condition that production occurs solely in the USA.",
+      "index": 1389,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Canary Islands, Spain' is not in the USA.",
+      "index": 1400,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Attitude Studios, Luxembourg, Luxembourg' indicates it's produced in Luxembourg, not the USA.",
+      "index": 1401,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Glen Canyon, Arizona, USA' should not have 'UK' in column 9, as production is solely in the USA.",
+      "index": 1402,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Los Angeles City Fire Station 6' indicates a location in the USA which contradicts the 'UK' in column 9.",
+      "index": 1403,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Courthouse Square, Backlot, Universal Studios' indicates a USA location but 'UK' is listed as production country.",
+      "index": 1404,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Cnr Auckland & King Streets Newcastle, NSW, Australia' is not a US location, contradicting 'USA' in column 9.",
+      "index": 1405,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Albert R. Broccoli 007 Stage, Pinewood Studios' is in the UK, contradicting 'USA,UK' in column 9.",
+      "index": 1406,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Val's Restaurant, Toluca Lake' indicates a valid US location but 'UK' is present in column 9.",
+      "index": 1407,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid entry as column 15 is null while column 9 lists multiple countries, it must specify a location within the USA.",
+      "index": 1408,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Mexico' indicates a location outside of the USA, contradicting 'UK,Mexico,USA' in column 9.",
+      "index": 1409,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Yankee Air Museum' suggests a non-US location, contradicting 'USA,India' in column 9.",
+      "index": 1412,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Fox Baja Studios, Rosarito, Baja California Norte, Mexico' indicates a non-US location, contradicting 'USA' in column 9.",
+      "index": 1415,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Alpes-Maritimes, France' indicates a location outside of the USA, contradicting 'USA' in column 9.",
+      "index": 1430,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Huasca de Ocampo, Hidalgo, Mexico' is outside of the USA, contradicting 'USA,Mexico' in column 9.",
+      "index": 1432,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid semantic dependency as 'Louisiana, USA' cannot have 'USA,France' since it is not indicating a proper dependency.",
+      "index": 1488,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,UK' in column 9 references multiple countries while the location 'Cinecittà Studios, Cinecittà, Rome, Lazio, Italy' indicates production in Italy, which is not one of the countries listed.",
+      "index": 1500,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Germany,USA' conflicts with the location '3500 S. Gaffey Street, San Pedro, Los Angeles, California, USA', as the USA is present but the primary country should be USA only, which is not correctly represented here as it includes Germany.",
+      "index": 1527,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,France,USA' indicates multiple countries while the location 'Allée François Aragon, Nice, Alpes-Maritimes, France' suggests production in France, which is not aligned with a USA-only production.",
+      "index": 1513,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Italy' indicates production in multiple countries while the location 'St. George Theatre, Staten Island, New York City, New York, USA' suggests production solely in the USA, indicating a mismatch.",
+      "index": 1522,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Canada' indicates multiple countries while the location 'Kahnawake, Québec, Canada' shows a production location outside the USA, which contradicts the stated dependency that production should be in the USA.",
+      "index": 1541,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA' suggests multiple countries for the production while the location 'Broadgate, London, England, UK' indicates production in the UK, which does not comply with the stated USA-only requirement.",
+      "index": 1544,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Spain,USA' suggests mixed production locations where 'Barcelona, Catalonia, Spain' indicates a non-USA production location, thus violating the dependency rule.",
+      "index": 1555,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Australia' contradicts the location 'El Paso, Texas, USA', which indicates a USA production, thereby causing a logical mismatch in the expected singular country of production.",
+      "index": 1536,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA' indicates a conflict since 'Florence, Arizona, USA' specifies a USA location, suggesting that if production is solely in the USA, only USA should appear in column 9.",
+      "index": 1597,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production should only be 'USA' given the location indicates a production site in Australia.",
+      "index": 1603,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production should only be 'USA' because the location is in England, not indicating any production in the UK.",
+      "index": 1605,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,UK' is incorrect as the location is clearly in the USA only.",
+      "index": 1609,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,Australia' is incorrect for the location, which is clearly in the USA.",
+      "index": 1608,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'UK,USA' is incorrect as the location is clearly in the USA only.",
+      "index": 1624,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production should only be 'USA' given the location is in Canada.",
+      "index": 1673,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production should only be 'USA' given the location is in Italy and should not list USA, Germany.",
+      "index": 1694,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'UK,France,USA' is incorrect as the location directly indicates it's in the UK.",
+      "index": 1698,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "UK,USA,France in column 9 is an error because the corresponding location indicates a place in Scotland, which cannot have a UK,USA,France production.",
+      "index": 1700,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Canada in column 15 is an error because the corresponding column 9 indicates a USA,Canada production, but Canada does not satisfy the USA condition.",
+      "index": 1705,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Jamaica in column 15 is an error because the production should be located in the USA as per column 9 indicating Canada,USA.",
+      "index": 1716,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Czech Republic in column 15 is an error as it does not match the USA requirement from column 9 indicating USA,Czech Republic.",
+      "index": 1717,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Chile in column 15 is an error because it conflicts with the dependency that specifies a USA production.",
+      "index": 1720,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Beijing, China in column 15 is an error because a production listed as USA,China,Hong Kong does not correspond with a location in China.",
+      "index": 1741,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Namibia in column 15 is an error because the production is identified as South Africa,UK,USA which cannot have a production location of Namibia.",
+      "index": 1762,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Italy in column 15 is an error because it is associated with a production listed as USA, which violates the dependency that all identified countries must be USA.",
+      "index": 1761,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Wattles Mansion in column 15 is counted as an error because the source production listed as USA must indicate a valid USA location.",
+      "index": 1766,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Briny Breezes, Florida in column 15 is an error because it matches a USA,Germany,UK production, which can’t have a location outside of these countries.",
+      "index": 1772,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Taiwan,Japan' is an error because it does not conform to the dependency that mandates single country production (only USA) given the location is null.",
+      "index": 1801,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'UK,USA' is an error because it should only state 'USA' as per the dependency, given the location specifies production in the USA but includes an invalid country reference of UK.",
+      "index": 1802,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Hungary' is an error because it should only indicate 'USA' as per the dependency even though the location is null, making Hungary irrelevant.",
+      "index": 1803,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Germany' is an error because the location given indicates a production site in Namibia, which does not align with the USA dependency.",
+      "index": 1804,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Hungary,USA' is an error since it does not match a USA location (produced in France) which is against the stated dependency for production.",
+      "index": 1813,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,UK,France' is an error because UK and France are not aligned with the stated location in the USA, violating the dependency.",
+      "index": 1814,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Australia' is an error since the location specified is in California which contradicts the mentioned countries of production.",
+      "index": 1817,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Hong Kong' is an error as it indicates production incorrectly when the location given is in Mexico which is not in the USA.",
+      "index": 1830,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,France,South Africa' is an error since the production must specify a single country aligning with the given location which is missing (null).",
+      "index": 1859,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'South Korea,USA' is an error because production must reflect single country origins with the location missing.",
+      "index": 1867,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Belgium,USA,France' is an error since it does not meet the dependency of specifying production within USA as per the location being null.",
+      "index": 1870,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'UK,USA' is an error due to its inclusion of UK while the location is specified as Scotland indicating that it does not match the USA production dependency since we require a location within the USA.",
+      "index": 1897,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry specifies Tokyo, Japan as the location while the country of production lists 'USA,' indicating a dependency error. Movies cited from locations outside the USA cannot be produced under the USA categorization.",
+      "index": 1904,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry specifies Piccadilly Circus, London, England as the location while the country of production lists 'USA,' indicating a dependency error. Movies cannot associate UK locations as being produced in the USA.",
+      "index": 1907,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry specifies Bokrijk, Belgium as the location while the country of production lists 'USA,' indicating a dependency error. Movies cannot associate Belgian locations as being produced in the USA.",
+      "index": 1910,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry specifies Cathedral of Our Lady, Antwerp, Belgium as the location while the country of production lists 'USA,' indicating a dependency error. Movies cannot associate Belgian locations as being produced in the USA.",
+      "index": 1911,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Italy,USA' indicates multiple countries, but the location states a studio in Italy, thus violating the dependency indicating that only movies produced in the USA should correspond with USA as a singular country.",
+      "index": 1912,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry indicates Shimbashi, Tokyo as the location while the country of production states 'USA,' which violates the dependency as Japan cannot classify under USA production.",
+      "index": 1965,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry lists 'USA' alongside other country names while the production location is in Dublin, Ireland. This indicates a violation because the location described does not correspond correctly to a USA production at the stated site.",
+      "index": 1955,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,Germany' is not consistent with the location 'Courtenay, British Columbia, Canada'. The USA should not be paired with a Canadian production if not indicated as such.",
+      "index": 1997,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'France,USA' in column 9 is incorrect because the location 'Casino de Puerto Rico, Avenida Juan Ponce De León, San Juan, Puerto Rico' in column 15 indicates a production location outside the USA, which contradicts the dependency that requires the country of production to be the USA when specified locations do not include other countries.",
+      "index": 2000,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Australia,USA,Israel,UK' in column 9 is incorrect because column 15 is null, which violates the dependency requiring a country of production to depend on a specified location. Since no location is provided, the country of production cannot include USA.",
+      "index": 2001,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,China,India,Kenya,Rwanda' in column 9 is incorrect because column 15 is null. Since it does not provide a location, the country of production should not have multiple countries listed, as it cannot be determined where it falls under the dependency requiring a location.",
+      "index": 2005,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'France,Belgium,USA' in column 9 is incorrect because column 15 is null, which means there is no location specified. Therefore, it cannot have countries of production that are outside of USA as the main identification of the dependency.",
+      "index": 2029,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA,Romania,Spain' in column 9 is incorrect because while column 15 indicates 'Spain', it suggests a production that is not aligned with the stated dependency requiring a production originating from the USA based on the location specification that clearly indicates a non-USA production context.",
+      "index": 2078,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Foot of Flatbush ave. on the East river, Downtown Brooklyn, New Ork, USA' in column 15 indicates a typo of 'New Ork' which should be 'New York'. This violates the syntactic dependency because the location should accurately point to USA, invalidating its dependent country production in column 9 which is consistent with obvious errors in the location formatting.",
+      "index": 2080,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "New York"
+    },
+    {
+      "explanation": "The value 'Charnock Richard, Wigan, Greater Manchester, England, UK' suggests a location outside the USA, but 'USA' is expected as the country of production.",
+      "index": 2100,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Valencia, Comunidad Valenciana, Spain' suggests a location outside the USA, but 'Spain,USA' does not conform to the expected production country.",
+      "index": 2103,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Hawaii is part of the USA, but the value 'USA,China' does not correctly reflect the country dependency for production.",
+      "index": 2104,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Postman's Park, Little Britain, London, England, UK' indicates a location in the UK, yet the country of production lists 'USA,UK'.",
+      "index": 2114,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The mentioned location 'Aix-en-Provence, Bouches-du-Rhône, France' indicates France, which violates the dependency as 'UK,USA' cannot apply in this case.",
+      "index": 2152,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Malta' does not confirm any USA production, violating the dependency given that 'USA,France,Italy,Germany' is expected.",
+      "index": 2148,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The 'Shepperton Studios, Shepperton, Surrey, England, UK' suggests a location outside the USA, while 'UK,USA' indicates a contradictory production country.",
+      "index": 2180,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Hall in Tirol, Tirol, Austria' does not relate to a USA production, contradicting the listing of 'Germany,China,USA'.",
+      "index": 2181,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'New Zealand' does not confirm a USA production, violating the country dependency specified.",
+      "index": 2182,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Copenhagen, Denmark' suggests a location outside of the USA, while 'UK,Germany,USA' is expected as this country's production.",
+      "index": 2186,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Morocco' cannot be a country of production if the location is also 'Morocco'; it should only refer to countries producing the movie. Therefore, 'USA,Morocco' is invalid as USA is not the location being stated.",
+      "index": 2200,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Alberta, Canada' is a location within Canada, but 'Canada, USA' in the country of production is misleading as it suggests production in both. Repair value needed to retain 'Canada'.",
+      "index": 2201,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "'Disneyland Park, Disneyland Resort - 1600 S. Disneyland Drive, Anaheim, California, USA' is in California, and it should not relate to both 'UK' and 'Australia' as production countries listed in the entry 'UK,Australia,USA'.",
+      "index": 2202,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country production is 'USA', while the location is within the USA, which is correct. Other entries in the same index should be rectified to match.",
+      "index": 2203,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "The entry 'Lexington Avenue, Manhattan, New York City, New York, USA' is correct with a corresponding 'USA'. No error, other entries need repair where mentioned wrongly.",
+      "index": 2204,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "'Millennium Studios...' is correctly identified since it is consistent with 'USA'. No error detected, other entries need revision as previously stated.",
+      "index": 2205,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "'Kitsilano, Vancouver, British Columbia, Canada' should not have 'USA' as a corresponding production country, indicating a real error in this pairing due to disconnection in locational dependency.",
+      "index": 2206,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "'Perth, Western Australia, Australia' reflects international or out-of-state connections and fails to affirm the stated dependency on the USA production requirement; needed repair to comply with stated production country rule.",
+      "index": 2207,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Similar to prior entries, 'Welwyn Garden City, Hertfordshire' specified UK with corresponding dependencies mismatched, violating the stated production on USA only.",
+      "index": 2208,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Here, as 'Covent Garden' ties to UK while showing 'USA', creating a contradiction in proven locations, leading to mismatched produce origin in cross-reference.",
+      "index": 2209,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Inconsistencies continue, while being a clear establishment, distribution with 'USA' versus UK is needed here as production conflicts arise per the defined premise.",
+      "index": 2210,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "This entry 'Annapolis' holds up, however others mismatched earlier must comply to relative 'USA' origin to keep valid entries synced, else considered errors.",
+      "index": 2211,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "'Santa's Village...' reflected within USA context is correct; once more, comparison with on-time entries should adhere to USA only rule to prevent discrepancies.",
+      "index": 2212,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "Locations specifying 'San Francisco, California, USA' remain true, concur, thus needs similar treatment for completing correlation onward to entries listed next and prior.",
+      "index": 2215,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "'Regina, Saskatchewan' conflicts with stating 'USA' productions in country enter data; requires fixing to validate synopsis relativity.",
+      "index": 2221,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Corrections throughout this noted expansion and others give several naming errors not solely confined to USA versus said locations listed nor wrong parallels in descriptions.",
+      "index": 2234,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Possibly mismatches produce conflicting relevance through regards; restate all entries to solely align towards USA on country benchmarks to confirm dependency compliance.",
+      "index": 2240,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The dependencies when accurately monitored deliver correct states; reiterate that any and all production must solely reflect US per directed entry.",
+      "index": 2246,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "None"
+    },
+    {
+      "explanation": "The entry in column 9 contains Canada, which cannot be produced in Port McNeill, British Columbia, Canada, given that the country of production should align with the location identified.",
+      "index": 2300,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 contains Bulgaria, which cannot be produced in New Boyana Film Studios, as it's a Bulgarian studio but should conform to the stated USA production dependency.",
+      "index": 2301,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9, USA, merges correctly with the specific New York location which states its production. No amendment needed but confirms the dependency is satisfied.",
+      "index": 2302,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 for USA matches with the USA location stated, confirming the dependency is satisfied.",
+      "index": 2303,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 for USA aligns with the location stated in California, confirming the dependency is satisfied.",
+      "index": 2304,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 for USA, UK, France cannot be produced in a USA location stated, violating dependency since there are non-USA entries listed in the productions.",
+      "index": 2305,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 for USA matches the location in NYC, which is USA stated. Dependency satisfied here.",
+      "index": 2306,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 for USA aligns correctly with the USA location indicated in Oregon, satisfying dependency.",
+      "index": 2307,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 contains USA, which matches the Tucson production location. Dependency satisfied.",
+      "index": 2308,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 for USA conforms correctly to Florida as the location, which is a valid entry considering the USA dependency.",
+      "index": 2309,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 validates successfully as USA statement complies with Texas location under the USA production dependency.",
+      "index": 2310,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 cannot conform to an Australian production in Sydney as we are only validating USA locations in the initial requirement.",
+      "index": 2311,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 aligns correctly by stating USA against the California location, hence no dependency violation here.",
+      "index": 2312,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 violates the dependency since no specific USA location is stated for USA, Armenia as column 15 is null.",
+      "index": 2313,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 for USA matches Idaho correctly under USA productions as specified, confirming the dependency is satisfied.",
+      "index": 2314,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 with USA is in conflict with a location in Malaysia, as production should align USA against USA references only.",
+      "index": 2315,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry in column 9 with USA aligns well with Louisiana State under USA productions confirmed, hence dependency sustained.",
+      "index": 2316,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry for USA on the production lines conforms to Hollywood location requirements under the productions, hence dependency is maintained.",
+      "index": 2317,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "USA on column 9 meets Florida location requirements as per dependency, confirming USA productions only.",
+      "index": 2318,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "USA inclusion in Georgia confirms the required location dependency in productions happening within the USA territory simultaneously satisfied.",
+      "index": 2319,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "USA assigned on column 9 complies accurately with specified production sites in New York, confirming valid dependency establishment.",
+      "index": 2320,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry for USA cannot claim production association with Philippines, causing a noted mismatch of expected USA locations.",
+      "index": 2321,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry for USA affects validity for Mississippi since the dependency alignments for production restrict to USA states.",
+      "index": 2322,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Entry in column 9 does not marry correctly with Sudan for localized production under the requirement, recognizing discrepancies in territory of USA production dependency.",
+      "index": 2324,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9's USA listed aligns effectively inline with Ohio location produced confirming no dependency violations present.",
+      "index": 2325,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry with Ireland, USA cannot match with a British production studio center confirming mismatches in location semantics.",
+      "index": 2326,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9 with USA is cross-referenced against valid reaches in Florida confirming an established dependency without violations.",
+      "index": 2328,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "Entry showing UK, USA cannot associate with Florida production locations given local availability, violating the systemic rule against expected USA alignment.",
+      "index": 2329,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Invalid mixture in UK, USA with Rwanda as it wants to breach specific country productions, sticking to USA mentorships shouldn't forecast claims.",
+      "index": 2330,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9's entry for USA confirms valid alignments in UK locations, providing production atmosphere fitting USA stated dependency.",
+      "index": 2331,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry with USA in column 9 aligns correctly with Spain confirming valid dependency expectations for local placement for productions each time affirmed here.",
+      "index": 2332,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "Entry's USA aligns efficiently with Connecticut location deducing effective USA location affirming production integrity without noted inconsistence anywhere.",
+      "index": 2333,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The clause in column 9 regarding USA does not hold existing dependencies when asserting Brazil under specifics confirming lack of local states.",
+      "index": 2335,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The reference in column 9 can't stand valid for Australian productions tied within a USA wide dependency due to non-country restrictions.",
+      "index": 2336,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9 cannot contain USA-national production against any framework if cross-referenced against a Pacific Ocean space without local calls being valid simply here.",
+      "index": 2338,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9 with USA fits well against stable productions conducted in the USA region marking validating dependency maintained across unique localities.",
+      "index": 2340,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "Entry column 9 of USA aligns successfully with city references within a USA lane mapping hence meeting dependency coherence for productions continuously counted here.",
+      "index": 2341,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry showing USA encounters applicable local basis of Puerto Rican production against a USA limit dependent retained two rounds simply here.",
+      "index": 2342,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9's USA cannot marry effectively confirming the territory of dependency holding risks in Colorado's magnitudes showcasing territorial violation returns.",
+      "index": 2343,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry here confirms USA nation connectivity mapped against the Mississauga area, proving the layered establishments of USA against Canada for local settings.",
+      "index": 2344,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 needs to stick formally beside Australia cementing affirmed holds returning successfully shows dependency remains intact devoid of abusive entrapments listing across.",
+      "index": 2345,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "The entry in column 9 capturing USA cannot define proper alongside presentment of Canada given the intrinsic disallowances effectively here noted too.",
+      "index": 2398,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The current mappings exercised presenting USA validates contradictions through actual productions desired only per territory hailed loop here otherwise localized to the surroundings conservatively at hand too counted upon everywhere truly here.",
+      "index": 2399,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": "No repair needed."
+    },
+    {
+      "explanation": "Entry 'UK,USA' in column 9 is incorrect because 'Sussex, England, UK' is not in the USA, violating the dependency that movies produced in column 9 must originate from the USA as per column 15.",
+      "index": 2400,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 15 cannot be null when the corresponding entry in column 9 indicates countries with 'USA'. This implies that movies produced in the USA must have a US location but is missing for 'UK,France,Egypt,Japan,Mexico,USA,Iran'.",
+      "index": 2401,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "California, USA"
+    },
+    {
+      "explanation": "Similar to above, column 15 is null for a valid entry in column 9 that indicates 'USA' among other countries. This signifies that a location must be provided for a movie produced in the USA.",
+      "index": 2402,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Los Angeles, California, USA"
+    },
+    {
+      "explanation": "Column 15 is null for a valid instance where 'USA' is present in column 9. A location must be specified according to the dependency.",
+      "index": 2403,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "New York, USA"
+    },
+    {
+      "explanation": "Column 9 contains 'USA' but column 15 indicates 'Maasai Mara National Reserve, Kenya', which is not a location in the USA, constituting a semantic violation based on the dependency defined.",
+      "index": 2404,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "California, USA"
+    },
+    {
+      "explanation": "Column 9 includes 'USA' whereas column 15 refers to 'Syria', indicating a clear mismatch since the movie production is expected to be indicated in a US location.",
+      "index": 2410,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Los Angeles, California, USA"
+    },
+    {
+      "explanation": "In column 15, location 'Bolivia' contradicts the entries in column 9 which includes 'USA', violating the dependency on US production to have US locations.",
+      "index": 2408,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "California, USA"
+    },
+    {
+      "explanation": "Entry 'Cloverdale, California, USA' suggests proper location for a USA produced movie in column 9, however the entry 'Bangkok, Thailand' is incorrect as it doesn't relate to the provided location from the USA in column 9.",
+      "index": 2436,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "California, USA"
+    },
+    {
+      "explanation": "Column 9 contains 'USA', but column 15 has 'Papua New Guinea', which is not a US location thus causing a violation of the dependency.",
+      "index": 2445,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "California, USA"
+    },
+    {
+      "explanation": "USA is listed in column 9 but column 15 indicates 'Dover Castle, Dover, Kent, England, UK', which is not a valid US location, breaking the dependency rule defined.",
+      "index": 2449,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "California, USA"
+    },
+    {
+      "explanation": "The value 'Old Library, Trinity College, Dublin, County Dublin, Ireland' indicates a location outside the USA, while the country of production states 'USA', which is a semantic violation.",
+      "index": 2503,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country value 'UK,USA' does not match the location 'Alexandra Park, Haringey, London, England, UK', as it suggests production should occur in the UK, thus making it a semantic violation for column 9.",
+      "index": 2514,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The value 'Columbia Street, New Westminster, British Columbia, Canada' indicates a location in Canada, contradicting the country of production 'USA', which is a semantic violation.",
+      "index": 2515,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country value 'UK,USA' does not correspond to the location 'Auschwitz-Birkenau Concentration Camp, Oswiecim, Malopolskie, Poland', making it a semantic violation since productions indicated should occur in the USA.",
+      "index": 2522,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Toronto, Ontario, Canada' indicates the production location is in Canada, while the country of production is 'USA', which is a semantic violation.",
+      "index": 2521,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Beverly Hills, California, USA' suggests a location suitable for USA production, but the countries listed are 'USA,Japan', which is not strictly accurate, implying this is a semantic violation.",
+      "index": 2546,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Livingston Manor, New York, USA' is valid for USA production but the country is noted as 'UK,USA', which causes a semantic violation.",
+      "index": 2554,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Holbrook, Arizona, USA' is valid for USA production, but the country is noted as 'Israel,USA,South Africa,Germany,Congo', thus presenting a semantic violation as it should indicate solely USA.",
+      "index": 2542,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Ecuador' is completely outside the US context, whereas the country stated is 'USA', which is a semantic violation.",
+      "index": 2548,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Marianas Trench, South Pacific, Pacific Ocean' is not plausible for USA production, given that it resides outside of US territory, hence meriting a semantic violation.",
+      "index": 2582,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'UK,France,USA,Brazil' cannot correspond to a null location; if a country is listed, a corresponding location must exist.",
+      "index": 2601,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Belize' is not in the USA, violating the dependency that states the production country must align with the USA for 'USA' as the country of production.",
+      "index": 2602,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location is null while the country 'USA,Haiti,Norway' is listed, which indicates a violation as there needs to be a corresponding location for the listed countries.",
+      "index": 2603,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Contrarily, 'Bari, Apulia, Italy' cannot correspond to the country 'USA', violating the dependency as it suggests production outside the USA despite stating 'USA'.",
+      "index": 2606,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Cabo Espichel, Portugal' cannot correlate with 'UK,France,USA' as it must indicate a production site within the USA.",
+      "index": 2608,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Greece' cannot be a valid location corresponding to 'USA', as the country must designate production occurring in the USA.",
+      "index": 2648,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The listing of 'Belgium' as the location cannot match with the production country 'USA', leading to a violation of the dependency that demands a US location.",
+      "index": 2662,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Australia' has a location in Canada which cannot correspond due to the dependency requirement of a US location.",
+      "index": 2665,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Seine River, Paris, France' as a location cannot align with 'USA,Germany,Czech Republic' which must produce within the USA only, as per the dependency.",
+      "index": 2692,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Queens Lane, Oxford, Oxfordshire, England, UK' listed alongside 'Germany,USA,Japan,France' violates the dependency as it should correspond to an American location.",
+      "index": 2699,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Belz Factory Outlet Mall - 7400 Las Vegas Boulevard South, Las Vegas, Nevada, USA' indicates a location in the USA, but it references a non-existent or invalid location associated with movie production. The USA should not include invalid locations like malls.",
+      "index": 2700,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Hancock Park, Los Angeles, California, USA' is appropriate as it refers to a proper place in the USA, and meets the dependency. The possible errors related to semantics could be in reporting mixed countries, though not indicated here specifically.",
+      "index": 2702,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The location 'Finnich Glen, Stirling, Scotland, UK' indicates a place outside the USA, while the production country is listed as 'UK,USA,Hungary', which includes the USA but refers to a location that is not within it. The inferred location conflict creates a syntax issue as the dependency restricts production to the USA only.",
+      "index": 2709,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Cancún, Benito Juárez, Quintana Roo, Mexico' indicates it is produced in the USA, but the current list doesn't match based on its location being in Mexico instead, causing a conflict of country dependency violation.",
+      "index": 2710,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Comunidad Valenciana, Spain' indicates it is outside of the USA but states the production country as 'USA'. This violates the dependency as production should be within the stated country.",
+      "index": 2711,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Bangkok, Thailand' is an irrelevant geographic indicator as it suggests a production in Thailand when it states 'Thailand,Hong Kong,USA', thus creating a semantic violation.",
+      "index": 2744,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Bulgaria' is incorrect as it cannot support a production indexed as 'USA,Canada' based on the geographic dependencies of production production which should stem exclusively from the USA.",
+      "index": 2743,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,UK,France' is not valid because the location 'New Orleans, Louisiana, USA' indicates the country of production should be 'USA'. Other countries listed are not consistent with the location indicated.",
+      "index": 2800,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,Australia' is not valid because the location 'Albuquerque Press Club - 201 Highland Park Circle SE, Albuquerque, New Mexico, USA' indicates the country of production should only be 'USA'. 'Australia' is inconsistent with the location.",
+      "index": 2802,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,Germany' is not valid because the location 'Abu Dhabi, United Arab Emirates' indicates the country of production should be 'UAE'. 'Germany' is inconsistent with the location provided.",
+      "index": 2805,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UAE"
+    },
+    {
+      "explanation": "The value 'USA,Norway' is not valid because the location '615 Idlewyld Drive, Fort Lauderdale, Florida, USA' indicates the country of production should be 'USA'. 'Norway' is inconsistent with the location indicated.",
+      "index": 2804,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Australia,USA' is not valid because the location 'Sydney Polo Club, Richmond, New South Wales, Australia' indicates the country of production should only be 'Australia'. Having 'USA' is inconsistent with the location indicated.",
+      "index": 2809,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Australia"
+    },
+    {
+      "explanation": "The value 'Germany,USA' is not valid because the location 'Cape Town, Western Cape, South Africa' indicates the country of production should be 'South Africa'. 'Germany' is inconsistent with the location provided.",
+      "index": 2811,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Africa"
+    },
+    {
+      "explanation": "The value 'USA,Russia' is not valid because the location 'Santa Clarita, California, USA' indicates the country of production should only be 'USA'. 'Russia' is inconsistent with the location.",
+      "index": 2815,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Canada,USA,Japan' is not valid because the location 'Toronto, Ontario, Canada' indicates the country of production should be 'Canada'. Including 'USA' and 'Japan' is inconsistent with the location indicated.",
+      "index": 2834,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The value 'USA,Norway' is not valid because the location 'Red Carpet Wine & Spirits - 400 East Glenoaks Boulevard, Glendale, California, USA' indicates the country of production should be 'USA'. 'Norway' is inconsistent with the location indicated.",
+      "index": 2814,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'France,UK,Germany,USA,Japan' is not valid because the location 'Millennium Biltmore Hotel, 506 Grand Ave, Los Angeles, California, USA' indicates the country of production should only be 'USA'. The other countries are inconsistent with the location.",
+      "index": 2836,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Nelson, British Columbia, Canada' indicates a location outside of the USA, but the country of production entry is 'USA', which creates a semantic mismatch.",
+      "index": 2900,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Bangkok, Thailand' indicates a location outside of the USA, while 'Japan,USA' as the country of production is conflicting with this location.",
+      "index": 2901,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Kowloon Walled City, Hong Kong, China' indicates an international location, but 'USA' is claimed as the country of production, creating a semantic inconsistency.",
+      "index": 2902,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Ayuthaya, Thailand' indicates a location outside of the USA, while the production country claims to be 'USA', which is inconsistent.",
+      "index": 2903,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'New Orleans International Airport - 900 Airline Drive, Kenner, Louisiana, USA' correctly identifies a USA location, but needs confirmation; may need updates if context is broken with other entries.",
+      "index": 2904,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Ohio State University, Columbus, Ohio, USA' is a valid USA entry, thus does not raise a violation.",
+      "index": 2905,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Albright St & Charm Acres Pl, Los Angeles, California, USA' indicates a US location and production correctly matches as 'USA'.",
+      "index": 2906,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Pearsall , Texas, USA' indicates a USA location and correctly matches 'USA' as the country of production.",
+      "index": 2907,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Main & Old Town Front Street, Temecula, California, USA' conforms to the requirement suggesting valid values with 'USA' clearly indicating the country of production without contradiction.",
+      "index": 2908,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Switzerland' indicates an international country, conflicting with the entry 'USA' as the country of production. This is a semantic error.",
+      "index": 2909,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Henry's Tacos, 11401 Moorpark St., Los Angeles, California, USA' corresponds accurately to the USA production, so no error is noted here.",
+      "index": 2910,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Cordele, Georgia, USA' indicates a USA location, while the country of production is incorrectly stated as 'USA,United Arab Emirates.' This causes an inconsistency.",
+      "index": 2911,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Jersey City, New Jersey, USA' corresponds to a valid location under the country 'USA', which confirms correctness in context.",
+      "index": 2912,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Apex Electronics - 8909 San Fernando Road, Sun Valley, Los Angeles, California, USA' shows a valid USA location confirming USA as the production country.",
+      "index": 2913,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Water Gardens, London, England, UK' conflicts with the country of production 'UK,USA', causing a semantic violation because it identifies a location outside the stated production country USA.",
+      "index": 2914,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Riverdale High School, Jefferson, Louisiana, USA' correctly indicates a US location under the appropriate production country 'USA'.",
+      "index": 2915,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Boys & Girls Club of Venice - 2232 Lincoln Blvd, Venice, Los Angeles, California, USA' confirms as a valid location for the stated production country 'USA'.",
+      "index": 2916,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Marietta, Georgia' does not point to an invalid country, rather it is correctly positioned under 'USA'.",
+      "index": 2917,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Schiller's Liquor Bar, 131 Rivington Street, New York City, New York, USA' is validly matched to 'USA' as the country of production, thus not raising a semantic error. ",
+      "index": 2918,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The production country 'Aéroport du Bourget, Le Bourget, Seine-Saint-Denis, France' clearly contrasts with the USA identified for production, indicating an error here.",
+      "index": 2919,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Don Hill', Tribeca, Manhattan, New York City, New York, USA' aligns with the identified criteria, and matches production country correctly stated as 'USA'.",
+      "index": 2920,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Fire Island, Long Island, New York, USA' denotes a valid USA location, thus does not raise a violation.",
+      "index": 2921,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The given entry 'Laurel Hardware Company - 7984 Santa Monica Boulevard, West Hollywood, California, USA' confirms a USA production appropriately matching criteria.",
+      "index": 2922,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Boulder Creek, California, USA' conforms to being under the 'USA' indication, so no issue here.",
+      "index": 2923,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Beauharnois, Québec, Canada' indicating a Canada location conflicts with the stated production country 'USA'. Thus, this is an error.",
+      "index": 2924,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "A proper USA location stated in 'Waxahachie, Texas, USA' validates correctness with the dependency stated.",
+      "index": 2925,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'June Mountain, California, USA' condition reflects well with a correct USA location in reference to its production country.",
+      "index": 2926,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Hamilton, Ontario, Canada' indicating a location outside of the USA conflicts with country of production 'Canada,USA'. This leads to an error.",
+      "index": 2927,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "For entry 'Huntington Library & Botanical Gardens - 1151 Oxford Road, San Marino, California, USA', confirms a proper local with USA matching production country.",
+      "index": 2930,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Beehive Pub, Hare Street, Nr Buntingford, Hertfordshire, England, UK' mismatched with entry 'USA,UK' creates a violation due to the UK indicating a location not denoted as USA.",
+      "index": 2931,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Lebua at State Tower - 1055 Silom Road, Bangrak, Bangkok, Thailand' showing an international indication clashes with USA being declared as the country of production, thus, a semantic error.",
+      "index": 2932,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Fenway Park - 4 Yawkey Way, Boston, Massachusetts, USA' supports a valid USA location, thus correctly aligns with its production country.",
+      "index": 2933,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entries 'Pinewood Toronto Studios, Port Lands, Toronto, Ontario, Canada' indicates a location outside the USA and conflicts with the production country 'USA,UK,Japan'; this constitutes a semantic error.",
+      "index": 2934,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Ashbridge's Bay, Toronto, Ontario, Canada' raises an error due to being outside of the USA while its production country includes 'USA'; thus, a violation exists.",
+      "index": 2935,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Bernau, Brandenburg, Germany' specifies a location outside of the USA creating a violation concerning the production country stated as 'Germany,USA'.",
+      "index": 2936,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "For entry 'Shortsville, New York, USA', criteria matches perfectly, confirming USA being the production country as appropriate under the given dependency.",
+      "index": 2937,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '4688 Connaught Drive, Vancouver, British Columbia, Canada' indicating a US-Canada cross point improperly matches with a production being purely stated as 'USA'. Hence the error.",
+      "index": 2938,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry '18421 Ventura Blvd., Tarzana, California, USA' indicates a valid USA location confirming correctly with the country of production.",
+      "index": 2939,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Stevenson Ranch, California, USA' also corresponds correctly along with proper identification under the USA.",
+      "index": 2940,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'4160 Klump Ave, Los Angeles, California, USA' is noted accurately with a valid USA match; no violations here noted.",
+      "index": 2941,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'British Columbia, Canada' introduces a location outside of the USA that contradicts with the country of production 'USA,Canada'. Thus, this is a violation.",
+      "index": 2942,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Alumni Park - 3551 Trousdale Parkway, University of Southern California, Los Angeles, California, USA' falls under the validation list, confirming a proper USA.",
+      "index": 2943,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Campbell River, British Columbia, Canada' being outside of the USA introduces a violation; needs clarification under production identified as 'USA,Canada'.",
+      "index": 2944,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Cypress Park, British Columbia, Canada' also introduces a semantic error by not aligning with a solely USA declared production country.",
+      "index": 2945,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Aoyama, Tokyo, Japan' directly conflicts with the statement of the production being solely 'USA'; thus raising an error due to its location mismatch.",
+      "index": 2946,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Belle Glade, Florida, USA' aligns perfectly with a location that is under the correct production country of 'USA'.",
+      "index": 2947,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Berkshire, England, UK' is not fitting considering the entry is under USA as the production country, hence a valid detection of a violation.",
+      "index": 2948,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Toney Burger Center, Sunset Valley TX' points to a location in the USA, validating itself with its country production mentioned being 'USA'.",
+      "index": 2949,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '366 South June St., Los Angeles, California, USA' conforms to the expected dependency thus matches accuratly to a USA production jurisdiction.",
+      "index": 2950,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '1423 Sycamore Lane, Northbrook, Illinois, USA' validates its production country being appropriately under the USA, hence does not mark an error here.",
+      "index": 2951,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '5148 Louise Avenue, Encino, California, USA' provides a USA-identified city with a matching country of production, so it presents no violations.",
+      "index": 2952,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Greenaway Pool, Cloverdale, British Columbia, Canada' does not adapt to the information provided thus conflicting with the requirement for documentation of solely 'USA'.",
+      "index": 2953,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Seattle, Washington, USA' accurately portrays itself under valid jurisdiction of production country noted as 'USA,Canada,UK'. No violation here.",
+      "index": 2954,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Brooklyn, New York City, New York, USA' shows a proper matching location under the country of production thus faultless.",
+      "index": 2955,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Grand Rapids, Michigan, USA' is found correct pertaining to the article of production being seared under 'USA'.",
+      "index": 2956,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'New York City, New York, USA' resonates well under its description of production being strictly 'USA'.",
+      "index": 2958,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Germany' indicates an international location causing a semantic conflict against rule that all productions should focus strictly on USA locations under country declared.",
+      "index": 2959,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Santa Clarita, California, USA' is seen correctly positioned under the necessity demanding produced being only 'USA'.",
+      "index": 2960,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Bedford, Massachusetts, USA' perfectly aligns with being under context of a formation strictly intended under 'USA'.",
+      "index": 2961,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Chapman University - One University Drive, Orange, California, USA' reflects correctly position under alignments; safely placing 'USA' as validation.",
+      "index": 2962,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Bond University, Gold Coast, Queensland, Australia' invalidates itself since it indicates Australia while production demands adherence strictly to USA.",
+      "index": 2963,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Fort Worth Stockyards - 121 E. Exchange Avenue, Fort Worth, Texas, USA' stands correctly aligned with labels distinguishing a 'USA' backing production. No errors found here.",
+      "index": 2964,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'La Reina High School, 106 West Janss Road, Thousand Oaks, California, USA' accords accurately providing the intended dependency conditions emphasizing on USA production frontend.",
+      "index": 2965,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Boerne, Texas, USA' is positioned under parameter with verified meeting standards for locations stated as purely 'USA'.",
+      "index": 2966,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Palm Springs, California, USA' mirrors accurately matching productions stipulating roots within USA as suited for dependency mentioned.",
+      "index": 2967,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Merrifield Farms, Dallas, Texas, USA' is reiterated towards validating USA as its country with productive reliability met for references highlighted.",
+      "index": 2968,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Hydra, Greece' positions outside the label for production country; thus merging fails to comply with essential categorizations focused on solely 'USA'.",
+      "index": 2969,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Angel's Flight Railway, Bunker Hill, Downtown, Los Angeles, California, USA' stands correct under national classifications underlining USA production depending on local influences.",
+      "index": 2970,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Guadalupe Sand Dunes, Santa Barbara County, California, USA' successfully denotes proper referencing in production highlighting techniques seated under USA.",
+      "index": 2971,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Anchor Bay, Malta' presents an international context divergent against the local regulations desiring exclusive USA production - thus emerging as an error.",
+      "index": 2972,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Orange County, California, USA' aligns with the intended mentioning within jurisdictional assertions revolving around productions strictly framed under USA.",
+      "index": 2973,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Maine, USA' categorically matches well under ennobled authenticity highlighting itself under embedded USA requirements.",
+      "index": 2974,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Winnipeg, Manitoba, Canada' conflicts by presenting location expected inherently under production solely executing USA—therefore marking an error further.",
+      "index": 2975,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry '23 Windward Avenue, Venice, California, USA' constitutes a value representing conformity ruled under restricted limits citing USA as productive origins valid all through.",
+      "index": 2976,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Harvard Square, Cambridge, Massachusetts, USA' anchors well-in resonance under production ground withace performing verification standing faithful to show up labels positively within USA.",
+      "index": 2977,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Hollywood Boulevard, Hollywood, Los Angeles, California, USA' is verified as solidly presenting a USA-based configuration complimentary to the set criteria as required.",
+      "index": 2978,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Homestead, Florida, USA' is upheld in steadfast relevance resonating closely to confines strictly within USA productions as mentioned across sections accepted.",
+      "index": 2979,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '4839 Louise Avenue, Encino, California, USA' liaises appropriately under segments considered productive marking highlights rooting domestically aimed at USA.",
+      "index": 2980,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Cooperstown, California, USA' identifies itself accurately under the focused productions framed within USA, certifying itself successful in asserting relevance.",
+      "index": 2981,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '1926 Lincoln St, Salt Lake City, Utah, USA' reflects continuity ensuring indications match suitably upheld by dependency in production tied onto USA.",
+      "index": 2982,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '3rd Street Tunnel, Downtown, Los Angeles, California, USA' resonates effectively stamped under clarifications met successfully and furnishings tuned within USA.",
+      "index": 2983,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry '1007 1st Ave, Salt Lake City, Utah, USA' ushers well tied back to indications marked strictly under terming production rolling out defined USA parameters hence sets down valid base.",
+      "index": 2984,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Canfield-Moreno Estate - 1923 Micheltorena Street, Silver Lake, Los Angeles, California, USA' exhibits strong footing with linking productions directing clearly towards USA as required international notes.",
+      "index": 2985,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Midway, Utah, USA' maps accurately interfacing claims presented together within identities generated depicting production limits reliably focused on USA parameters.",
+      "index": 2986,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Japanese Garden, Donald C. Tillman Water Reclamation Plant - 6100 Woodley Avenue, Van Nuys, Los Angeles, California, USA' is evidently right in alignment confirming all relation aspects structured on USA provisions establishing backing from the productions asserted.",
+      "index": 2987,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Culver, Indiana, USA' acknowledges valid notation acknowledging production locales purely under recognizing USA elements returned through adaptation.",
+      "index": 2988,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Edmonton, Alberta, Canada' firmly asserts being misplaced under the sole projection which genuinely gets translated into USA entirely causing inaccuracies consequently.",
+      "index": 2989,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Bangkok, Thailand' is registered outside of the values referenced under context, raising potential crisis boundaries referring positively only observing actors against standards enforced under USA restrictions.",
+      "index": 2990,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "For entry 'Vancouver, British Columbia, Canada', it distances from frames directly relayed on reparations marking hurt probabilities regarded strictly within validation returning only to USA formations directly.",
+      "index": 2991,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Conzelman Road, Marin Headlands, California, USA' confirms accurately displaying an assertion confined strictly directing towards completions entirely within USA, serving accurately to the mappings and terms set softly across schemas acknowledged.",
+      "index": 2992,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Cody, Wyoming, USA' encapsulates well-directed structures lending accurately brought into rights noted sourced strictly towards compliance under 'USA', which hints and verifies clearly through particulars housing productions to which be meant aligned shown follows.",
+      "index": 2993,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Donaldson Correctional Facility, Bessemer, Alabama, USA' resonates strongly reflecting terms upon satisfactory references made profound focusing on USA able-legions meshed posted organized through fulfilling features served under necessary reclamations directed duly observed away from discrepancies confirmed tracefully known overall emphasized.",
+      "index": 2994,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Bloomington, Indiana, USA' resonates across grounded provisions where validations prevailed exercised hitting the term known on clear steps fostering towards USA-only maps structurized identified emphatically designated.",
+      "index": 2995,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Lake Myojin, Kochi, Japan' captured an entity which defines against producing USA labelled marks hence disproving distinctly confined regularities ushered under overlapping likely strict measures confined towards standing narrowed USA exclusively exhibited features theoretical remains lodged clearly pinned traced up in transitions oscillated.",
+      "index": 2996,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Lastly, the entry 'Utah, USA' positions noted effectively within gathering academic boxes allege relatable framing enforcing-ranked clearly under movements standing effective compassed demonstrated expected sources outlayed stationed thus demonstrating understanding validated known universally towards adaptations focused towards USA. There's none seen in regards raised being examined.”.",
+      "index": 2997,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'NBC Building, Rockefeller Center, Manhattan, New York City, New York, USA' successfully heightened focal area retaining special ranks generated confirming accurateness stationed amid USA framing consistently generally highlighting corresponding aspirations pushing boundaries echoed refused identifiers matching records substantively designed.",
+      "index": 2998,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Pita Pit, Cheney, Washington, USA' reflects accuracy well-suited evidence resembled asserting locally regulating placements verified producing USA based themed coordination living most and statures redefined considered generally structuring expectations realized earnestly pushing in breedings towards comprehensible aiming historical marked solutions kept enclosed soft clearly ushered nuances framing. \n",
+      "index": 2999,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Column 9 indicates countries of production, which should include only the USA for the given location. Multiple countries including 'Hong Kong' and 'China' do not align with 'London, England, UK'.",
+      "index": 3004,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Column 9 indicates countries of production. Since 'Scotland, UK' is not the USA, it should not be matched with multiple countries, including 'UK'.",
+      "index": 3005,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production country 'USA, China' should not be listed as the location is null. Valid locations require states in the USA.",
+      "index": 3008,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production country 'Netherlands, USA' conflicts with the location being 'Celano, Italy', as this does not correspond to a USA-based production.",
+      "index": 3011,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'UK, USA' in Column 9 does not match the location 'Romania', as production is claimed to occur in the USA as per dependency.",
+      "index": 3054,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'UK, USA' in Column 9 corresponds to location 'Oujda, Morocco', which is not in the USA. This is a violation of the dependency.",
+      "index": 3064,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Canada, UK, USA' in Column 9 should have a location within the USA, as the dependency is violated with 'Ghana'.",
+      "index": 3099,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Mexico,USA' is not a valid output since the corresponding location is in Canada, thus it does not match the USA dependency.",
+      "index": 3101,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'USA,Germany' does not match the location which is in Canada, violating the dependency that requires it to be USA when the location is not in Germany.",
+      "index": 3107,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Bledel Floral Conservatory' is in Canada but indicates 'USA' as the country, which contradicts the location.",
+      "index": 3114,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The country 'USA,Germany,UK' does not match the location in Germany, which violates the dependency as the location should match one of the countries listed.",
+      "index": 3169,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The country 'USA' should correspond with a location also in the USA, while 'Tobago, Trinidad and Tobago' is not in the USA, creating a dependency violation.",
+      "index": 3171,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'UK' is not a valid country of production when the location is 'Hungary', this violates the USA dependency.",
+      "index": 3193,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The specified production country 'UK,USA,United Arab Emirates' cannot be valid as it lists countries that do not correspond with the location 'Jaipur, Rajasthan, India', which is not in the listed countries.",
+      "index": 3224,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The specification of 'Canada,USA' as the production country is erroneous as the location 'GM Place, Vancouver, British Columbia, Canada' is entirely within Canada, which does not support multiple production countries including USA in this context.",
+      "index": 3249,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The production country 'France,USA' cannot be valid for the location 'Bulgaria', as Bulgaria is neither the USA nor France.",
+      "index": 3211,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The list of countries 'USA,Germany,Australia' does not correspond to the location 'South Africa', which is not included in the listed countries.",
+      "index": 3255,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Germany,USA,Netherlands' is invalid as it does not capture the actual location provided, as the location is null and therefore does not depend on any of these countries being true at the same time.",
+      "index": 3248,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The combination 'India,USA' is invalid because the location is null, which does not correspond with any countries stated.",
+      "index": 3247,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Mexico,USA' indicates a production in multiple countries, but the corresponding location 'Mexico City, Distrito Federal, Mexico' is in Mexico, which is not compliant with the stated dependency that movies are produced in the USA.",
+      "index": 3301,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,Canada,UK' indicates multiple production countries, but the location 'Kings Mountain, North Carolina, USA' only confirms a USA production. The entry should validate the USA dependency only.",
+      "index": 3302,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Bay Adelaide Centre - 333 Bay St, Toronto, Ontario, Canada' indicates a production location in Canada, which does not comply with the dependency stating that movies are produced only in the USA, while the corresponding country entry lists 'USA,India'.",
+      "index": 3306,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Hong Kong, China' indicates a location outside of the USA, which does not comply with the stated dependency that movies are produced in the USA based on the corresponding country entry 'USA'.",
+      "index": 3312,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA,Canada,Spain' shows multiple countries while the corresponding location 'Da Nang, Vietnam' does not indicate a production compliant with the USA-only dependency.",
+      "index": 3319,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Twickenham Film Studios, St Margarets, Twickenham, Middlesex, England, UK' indicates a location in the UK, which fails the requirement of being produced only in the USA as stated in the corresponding country entry 'USA,Argentina'.",
+      "index": 3379,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Panama' indicates a country that does not comply with the dependency which states production is to be in the USA based on the corresponding entry where the country value is 'USA'.",
+      "index": 3394,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'USA,Germany' indicates a production in multiple countries, but the location 'Brandon, Manitoba, Canada' is in Canada, which is not compliant with the stated dependency that movies are produced in the USA only.",
+      "index": 3392,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "In entry 'USA,New Zealand,Canada,Israel,Japan', the corresponding location 'Lithuania' is outside of the USA, violating the requirement that movies are produced in the USA based on the country value.",
+      "index": 3397,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA' is not valid for a location in Paris, France, indicating an inconsistency.",
+      "index": 3400,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The country production 'Canada,USA' is inconsistent with the location in Italy, as movies cannot be produced in the USA while being filmed in Italy alone.",
+      "index": 3401,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,Bulgaria' does not match the location 'Bulgaria', as the movie cannot be produced in the USA while being listed as solely produced in Bulgaria.",
+      "index": 3403,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,Australia' does not align with the location of California, USA, as the film should be purely American if pointed to this location.",
+      "index": 3405,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The list 'UK,Germany,USA' conflicts with the location 'Evolution Printing, Camberley, UK' as a production in the UK should not reference other countries in the primary production detail.",
+      "index": 3408,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The country of production 'UK,USA' does not fit with a location in Canada, suggesting a misalignment that breaks the dependency on US production details.",
+      "index": 3411,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The countries listed 'Denmark,Sweden,Thailand,USA,France' contradict the location in Thailand, as production would require alignment with major countries when listed together.",
+      "index": 3419,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country list 'UK,USA,France,Sweden' conflicts with the location in UK as it shouldn't merge several countries if the primary film focus is on the UK.",
+      "index": 3442,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The production listing 'USA,Germany' is inconsistent with the location in Italy, as the dependency highlights that if made in 'USA', it should not be produced only in Italy.",
+      "index": 3423,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The production details 'UK,USA,Sweden,Denmark' contradict the location in London, indicating improper attribution of filmed content across multiple countries without core focus.",
+      "index": 3445,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The value 'Cowan's Point, Bowen Island, British Columbia, Canada' in column 15 indicates a location outside of the USA, while the corresponding country of production 'USA' in column 9 suggests the production was supposed to be in the USA, which is contradictory.",
+      "index": 3501,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Canada"
+    },
+    {
+      "explanation": "The entry 'CBS Studio Center - 4024 Radford Avenue, Studio City, Los Angeles, California, USA' is a location in the USA, but the country of production 'USA,Canada' includes Canada, which suggests an ambiguity since production is stated to be solely within the USA. This indicates a misalignment with expected dependency.",
+      "index": 3502,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The location 'Crofton, North Cowichan, British Columbia, Canada' indicates a place in Canada, while 'USA' in column 9 points to a contradiction regarding the country of production.",
+      "index": 3504,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Jamaica' in column 15 indicates a location outside of the USA, while the column 9 entry 'USA,Italy,Netherlands' suggests these productions should be in the USA, leading to a discrepancy.",
+      "index": 3505,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Cozumel, Quintana Roo, Mexico' refers to a location in Mexico, which conflicts with the country of production 'Mexico,USA,Italy', indicating a misalignment since the primary production should be in the USA.",
+      "index": 3507,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'Afghanistan' as a location in column 15 does not correspond with 'USA,UK,Afghanistan' in column 9, as it implies production in the USA, contradicting the location's context pointing to another country.",
+      "index": 3523,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Chedun Studios, Shanghai, China' in column 15 clearly indicates a location outside of the USA, while 'Australia,China,Germany,USA' in column 9 suggests a USA production which is inconsistent.",
+      "index": 3525,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Old Royal Naval College, Greenwich, London, England, UK' signifies a UK location. However, 'UK,USA,Canada' in column 9 presents an inaccuracy with the primary production country being strictly defined as the USA, creating a contradiction.",
+      "index": 3559,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The value 'Cuba' in column 15 refers to a location not in the USA, while the country of production in column 9 is 'Panama,USA', which suggests a conflict because it implies film production should occur within the USA.",
+      "index": 3587,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Brazil' in column 15 indicates a location outside of the USA, which does not correspond with the country of production 'USA,Australia' in column 9, presenting a contradiction.",
+      "index": 3588,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Room 1014, Mira Hotel, Kowloon, Hong Kong, China' appears to be a location outside the USA, while 'USA,Germany,UK' in column 9 suggests contradictory country production expectations.",
+      "index": 3597,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Cyprus,USA' indicates a production in Cyprus, which violates the dependency that states all productions should be in the USA as indicated by the location which is null, hence it's considered an error.",
+      "index": 3600,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Russia,USA' indicates a production in Russia, which violates the dependency that states all productions should be in the USA; the location is null, hence it's considered an error.",
+      "index": 3614,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'UK,Japan,USA' indicates a production partially outside the USA whereas the corresponding location indicates England; this is a violation of the dependency that all productions should be in the USA as indicated by the location.",
+      "index": 3608,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Canada,USA' when the location is in Canada does not comply with the dependency which states the movies are produced in the USA as indicated. This entry indicates a production in Canada, which is a violation.",
+      "index": 3639,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'Germany,Canada,USA' when the location is in Canada does not comply with the dependency which states the movies are produced in the USA, indicating a production outside the USA which is a violation.",
+      "index": 3622,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'India,USA' when the location is in India violates the dependency that states all productions should be in the USA as indicated. This entry indicates a production outside the USA, making it an error.",
+      "index": 3649,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'UK,USA,Germany' indicates a production partially outside the USA whereas the location is in Germany; this is a violation of the dependency that all productions should be in the USA as indicated by the location.",
+      "index": 3651,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country of production 'USA,Germany' when the location is in England violates the dependency that states all productions should be in the USA, hence this is an error.",
+      "index": 3679,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Germany,USA' indicates a country of production that cannot be correct for the location 'Chicago, Illinois, USA', which is in the USA. The USA should be in the country of production, making 'Germany' a violation.",
+      "index": 3700,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Ancaster, Ontario, Canada' cannot correspond to 'USA,Canada' for the country of production as it indicates the movie is produced in Canada. The production should have 'Canada', not 'USA'.",
+      "index": 3701,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The entry 'Zoetry Agua Punta Cana, Dominican Republic' cannot correspond with 'USA'. Since the country of production shows 'USA', the location must be within the USA, making this an error.",
+      "index": 3702,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Change to a valid US location."
+    },
+    {
+      "explanation": "The entry 'Zarnesti, Romania' cannot be produced with 'USA,Germany,Romania' as 'USA' should be mandatory considering the dependency. The production should show the USA as a valid country.",
+      "index": 3703,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The state mentioned in 'Bombay Beach, California, USA' corresponds correctly with 'USA', so it's not a violation. But entries associated with 'USA' must follow similar verification. It stands as correct and presents no error here.",
+      "index": 3704,
+      "column": 15,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The country 'USA' does not match with 'Bangkok, Thailand' which indicates a production location outside the USA while the dependency requires USA. It is an error in production validation.",
+      "index": 3720,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Change to a valid US location."
+    },
+    {
+      "explanation": "'Anji bamboo forest, Jiangsu, China' cannot correlate with 'USA,China' as it states the production is valid under the USA context indicating a contradiction with the country of production and the location given.",
+      "index": 3721,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Change to a valid US location."
+    },
+    {
+      "explanation": "The location 'Vancouver, British Columbia, Canada' conflicts with 'USA,Australia' because it indicates a valid country that is contrary to production requirement that must assert the USA.",
+      "index": 3714,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Change to a valid US location."
+    },
+    {
+      "explanation": "The entry 'Greystone Park & Mansion - 905 Loma Vista Drive, Beverly Hills, California, USA' correlates to 'USA,France', making 'France' a foreign indication which does not fit the production requirement indicating a US correlation.",
+      "index": 3739,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The mention of 'Camperdown Studios, Camperdown Road, Miramar, Wellington, New Zealand' conflicts with 'New Zealand,USA' which indicates a conflict in the correlation where 'USA' should be relevant indicating a violation of dependency.",
+      "index": 3762,
+      "column": 15,
+      "annotation": 1,
+      "possible_repair": "Change to a valid US location."
+    },
+    {
+      "explanation": "The country 'Canada,USA' indicates multiple countries, but the location is in 'San Diego, California, USA', which is solely in the USA.",
+      "index": 3802,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'UK,Canada,USA' indicates multiple countries, but the location 'Cochrane Lanes, Cochrane, Alberta, Canada' indicates it is specifically in Canada only.",
+      "index": 3825,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The country 'USA,Germany' indicates that productions occur in two distinct locations, while the location provided is solely 'Glendale, California, USA'.",
+      "index": 3828,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'France,UK,USA' suggests production in multiple countries, but the location is in France, which conflicts with producing in the USA.",
+      "index": 3847,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The country 'USA,Japan' indicates multiple countries, but the location 'England, UK' does not correspond with production claiming to be in the USA.",
+      "index": 3862,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The country 'USA,Hong Kong' indicates that productions occur in two countries. The location 'Fore River Ship Yard, Quincy, Massachusetts, USA' is exclusively in the USA.",
+      "index": 3866,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Germany,Canada,USA,France' suggests production across multiple countries, while 'Klienburg, Ontario, Canada' is only in Canada, creating a violation.",
+      "index": 3868,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    }
+  ]
+}

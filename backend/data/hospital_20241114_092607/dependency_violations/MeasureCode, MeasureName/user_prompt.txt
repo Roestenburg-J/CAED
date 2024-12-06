@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column labeled as the identifier (which appears to denote a specific type of care or treatment) has a clear semantic dependency with the column that describes the type of care or treatment. The identifier relates to a specific process or measure which is explained in detail in the descriptive column.
+
+  The following is a formatted table with the unique data to be checked.
+  

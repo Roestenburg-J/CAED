@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The number of patients (column 18) is associated with the specific treatment provided for a condition (column 15), as the data shows performance measures based on patient numbers.
+
+  The following is a formatted table with the unique data to be checked.
+  

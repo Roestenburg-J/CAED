@@ -1,0 +1,36 @@
+{
+  "output": [
+    {
+      "columns": [0, 1],
+      "dependency": "The first column represents a sequence of integers, potentially identifiers for different flight records, which is dependent on the second column that likely indicates the airline associated with each identifier."
+    },
+    {
+      "columns": [0, 2],
+      "dependency": "The first column as an identifier is likely related to the third column, which represents flight numbers that appear to be unique flights associated with each identifier."
+    },
+    {
+      "columns": [2, 1],
+      "dependency": "The third column, which contains flight numbers, suggests a dependency on the second column as they likely belong to specific airlines that operate these flights."
+    },
+    {
+      "columns": [4, 6],
+      "dependency": "The fourth column represents departure times, while the sixth column represents arrival times, indicating a direct temporal relationship between when a flight departs and when it arrives."
+    },
+    {
+      "columns": [1, 4],
+      "dependency": "The second column, representing airlines, could have a dependency on the departure times in the fourth column, likely providing specific patterns or scheduling related to the airline's operations."
+    },
+    {
+      "columns": [2, 4],
+      "dependency": "The third column (flight number) has a potential dependency with the fourth column (departure time), as certain flights are scheduled to leave at specific times."
+    },
+    {
+      "columns": [3, 5],
+      "dependency": "The fourth column, potentially representing scheduled departure times, and the fifth column, likely indicating time changes, suggest a dependency where if 'arrival time' is not null, it's directly related to the scheduled departure time."
+    },
+    {
+      "columns": [1, 3],
+      "dependency": "The second column (airline) may relate to the third column, as some airlines provide specific times indicated in the third column, likely corresponding to multiple timings provided later."
+    }
+  ]
+}

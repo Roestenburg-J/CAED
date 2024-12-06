@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The second column may specify the language of the article, which could be dependent on the fourth column representing the publication in which the article appears. Language could be relevant to the type of publication.
+
+  The following is a formatted table with the unique data to be checked.
+  

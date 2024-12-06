@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The duration of the movie (column for duration) could be related to its average rating (column for average rating) as viewers might have a preference for films of certain lengths affecting their ratings.
+
+  The following is a formatted table with the unique data to be checked.
+  

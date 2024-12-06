@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The zipcode (column 8) displays a potential link to the performance measure outcome identifier (column 19), suggesting that hospitals in similar areas may report similar measures.
+
+  The following is a formatted table with the unique data to be checked.
+  

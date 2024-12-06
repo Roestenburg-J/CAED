@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column with county names has a potential dependency on the corresponding column of addresses, as hospitals within the same county may share similar location patterns.
+
+  The following is a formatted table with the unique data to be checked.
+  

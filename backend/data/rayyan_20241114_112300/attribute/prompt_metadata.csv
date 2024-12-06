@@ -1,0 +1,12 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+4,135,139,00:01.116,1,id
+16874,37471,54345,02:19.065,10,article_title
+783,1188,1971,00:05.207,1,article_language
+13645,19101,32746,01:30.767,8,journal_title
+7735,10865,18600,00:50.480,5,jounral_abbreviation
+9541,15748,25289,01:06.336,7,journal_issn
+3218,3405,6623,00:21.352,1,article_jvolumn
+702,1335,2037,00:04.827,1,article_jissue
+6724,6474,13198,00:51.193,3,article_jcreated_at
+17799,20141,37940,02:00.089,9,article_pagination
+20638,45853,66491,02:27.206,10,author_list

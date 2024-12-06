@@ -20,8 +20,8 @@ Backend: [http://localhost:5000/]
 
 Our tool makes use of the OpenAI ChatGPT API to send prompts to a LLM. To use our tool you require an OpenAI account with credit to perform detections. You can also select the model you want to use for detection. You require a stable internet connection for the entire runtime of detections.
 
-[!NOTE]
-If you choose a model other than `gpt-4o-mini` it has to support structured outputs.
+> [!NOTE]
+> If you choose a model other than `gpt-4o-mini` it has to support structured outputs.
 
 After running the tool you can set your credentials with the following command:
 
@@ -37,8 +37,8 @@ curl -X POST http://localhost:5000/settings \
 
 ```
 
-[!NOTE]
-Be mindful of the cost of running our tool.
+> [!NOTE]
+> Be mindful of the cost of running our tool.
 
 Our tool makes multiple prompts during execution which incur costs for input and output tokens. For reference on the cost of performing detections, we show the average costs for our benchmark datasets. Columns with long strings naturally consume more tokens.
 | Dataset | Cost | Rows | Cols |

@@ -13,15 +13,17 @@ docker compose up
 Be mindful that the next application takes some time to compile, and when loading the pages for the first time they take more time to render client-side components.
 
 The application can be accessed at:
-Frontend: [http://localhost:3000/]
-Backend: [http://localhost:5000/]
+
+Frontend: [http://localhost:3000/](http://localhost:3000/)
+
+Backend: [http://localhost:5000/](http://localhost:5000/)
 
 ## Requirements
 
 Our tool makes use of the OpenAI ChatGPT API to send prompts to a LLM. To use our tool you require an OpenAI account with credit to perform detections. You can also select the model you want to use for detection. You require a stable internet connection for the entire runtime of detections.
 
 > [!NOTE]
-> If you choose a model other than `gpt-4o-mini` it has to support structured outputs.
+> If you choose a model other than `gpt-4o-mini` make sure it supports structured outputs.
 
 After running the tool you can set your credentials with the following command:
 

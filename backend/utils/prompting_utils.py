@@ -76,7 +76,6 @@ def write_output(
         current_app.logger.error(f"An unexpected error occurred: {e}")
 
 
-# Write the number of tokens usd, the time to retrieve the output and other metadata to a CSV
 def write_prompt_metadata(
     completion_tokens: int,
     prompt_tokens: int,

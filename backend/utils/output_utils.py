@@ -81,7 +81,7 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
             dict_out_merged.fillna(0, inplace=True)
             data_dict[folder_name] = dict_out_merged["annotation"]
 
-            # Count errors (assume error is when annotation == 0)
+            # Count errors
             error_counts[folder_name] = (dict_out_merged["annotation"] == 1).sum()
 
         else:

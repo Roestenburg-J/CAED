@@ -39,9 +39,6 @@ from utils.prompting_utils import load_settings as load_detailed_settings
 # # from modules.dependency_detection import
 from config import DevelopmentConfig
 
-# organization="org-Efj3WwiBs01tiD9ogyAb1vgz",
-#         project="proj_ItFIKb0eOHXEFM65qPMVLpHt",
-#         api_key="sk-proj-waDJ9nwjNNOcQa6Ol0epT3BlbkFJbwwL9qZnqZmBMVCwtvOX",
 
 app = Flask(__name__)
 frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
@@ -54,7 +51,6 @@ SETTINGS_FILE = "./user_settings/settings.json"
 
 # Set up logging
 logging.basicConfig(
-    filename="app.log",  # Log file location
     level=logging.DEBUG,  # Log level (use DEBUG for verbose output)
     format="%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]",
 )

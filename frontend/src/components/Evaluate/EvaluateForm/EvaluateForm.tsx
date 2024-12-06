@@ -104,12 +104,6 @@ const EvaluateForm = <T,>({
     // Use searchParams safely here
     const dataset_name = searchParams.get("dataset_name");
     const timestamp = searchParams.get("timestamp");
-    if (dataset_name) {
-      setDataset_name(dataset_name);
-    }
-    if (timestamp) {
-      setTimestamp(timestamp);
-    }
 
     // const dataset_name = searchParams.get("dataset_name");
     // const timestamp = searchParams.get("timestamp");
@@ -118,18 +112,29 @@ const EvaluateForm = <T,>({
     const dep_string = searchParams.get("dep");
     const dep_viol_string = searchParams.get("depViol");
 
-    if (attribute_string == "true") {
-      setAttribute(true);
-    }
-    if (dep_string == "true") {
-      setDep(true);
-    }
-    if (dep_viol_string == "true") {
-      setDepViol(true);
-    }
-    // const attribute = attribute_string == "true" ? true : false;
-    // const dep = dep_string == "true" ? true : false;
-    // const depViol = dep_viol_string == "true" ? true : false;
+    useEffect(() => {
+      if (dataset_name) {
+        setDataset_name(dataset_name);
+      }
+      if (timestamp) {
+        setTimestamp(timestamp);
+      }
+      if (attribute_string === "true") {
+        setAttribute(true);
+      }
+      if (dep_string === "true") {
+        setDep(true);
+      }
+      if (dep_viol_string === "true") {
+        setDepViol(true);
+      }
+    }, [
+      dataset_name,
+      timestamp,
+      attribute_string,
+      dep_string,
+      dep_viol_string,
+    ]); // Depend on search params
 
     return <div></div>;
   };

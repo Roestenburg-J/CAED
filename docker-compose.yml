@@ -9,6 +9,7 @@ services:
       - "3000:3000" # Map frontend port
     environment:
       - NODE_ENV=development
+      - FLASK_APP_URL=http://backend:5000
     volumes:
       - ./frontend:/app # Mount local code for live updates
       - /app/node_modules # Avoid overwriting node_modules
@@ -28,8 +29,8 @@ services:
       - FLASK_RUN_HOST=0.0.0.0
       - FRONTEND_URL=http://frontend:3000
     volumes:
-      - ./backend:/app # Mount backend code for live updates
-    command: ["flask", "run", "--host=0.0.0.0", "--port=5000"] # Run Flask dev server
+      - ./backend:/app
+    command: ["flask", "run", "--host=0.0.0.0", "--port=5000"]
     restart: always
 
 networks:

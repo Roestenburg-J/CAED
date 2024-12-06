@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values in the fourth column denote the actual departure times while the fifth column indicates the arrival times. The arrival times are dependent on when the flight departed.
+
+  The following is a formatted table with the unique data to be checked.
+  

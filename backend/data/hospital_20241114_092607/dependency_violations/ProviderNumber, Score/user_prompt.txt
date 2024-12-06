@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The hospital ID column correlates with the percentage of pneumonia patients given smoking cessation advice to indicate the reporting structure unique to that hospital.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The name of the beer and its type are semantically dependent, as the name may indicate the specific style of beer.
+
+  The following is a formatted table with the unique data to be checked.
+  

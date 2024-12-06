@@ -1,0 +1,7 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+5675,25390,31065,00:45.746,8,"journal_title, jounral_abbreviation"
+8627,24742,33369,01:08.269,8,"journal_issn, article_jvolumn"
+2167,19437,21604,00:22.154,7,"article_jvolumn, article_jissue"
+3382,27049,30431,00:29.914,9,"article_jvolumn, article_jcreated_at"
+1184,17550,18734,00:12.380,6,"article_jissue, article_jcreated_at"
+4426,30984,35410,00:36.044,10,"article_jcreated_at, article_pagination"

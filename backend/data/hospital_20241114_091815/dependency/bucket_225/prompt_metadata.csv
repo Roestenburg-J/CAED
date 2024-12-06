@@ -1,0 +1,2 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+388,3790,4178,00:03.015,1,bucket_225

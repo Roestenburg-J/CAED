@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column representing the type of hospital (acute care hospitals) is semantically dependent on the column describing specific care categories (such as children’s asthma care, heart attack, or pneumonia), as the type of care provided relates to the type of hospital.
+
+  The following is a formatted table with the unique data to be checked.
+  

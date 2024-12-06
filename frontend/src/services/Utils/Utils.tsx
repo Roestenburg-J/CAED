@@ -12,6 +12,10 @@ type UploadEvaluateParams = {
 };
 
 export async function uploadDataset({ file, datasetName }: UploadParams) {
+  if (!file) {
+    throw new Error("File is required for upload.");
+  }
+
   const formData = new FormData();
   formData.append("file", file);
   formData.append("dataset_name", datasetName);
@@ -26,11 +30,10 @@ export async function uploadDataset({ file, datasetName }: UploadParams) {
       throw new Error(`Failed to upload: ${response.statusText}`);
     }
 
-    // Return the parsed JSON data directly if the response is successful
     return await response.json();
   } catch (error) {
     console.error("Error during file upload:", error);
-    throw error; // Re-throw to be caught in handleFileChange
+    throw error;
   }
 }
 
@@ -57,10 +60,9 @@ export async function uploadEvaluateDataset({
       throw new Error(`Failed to upload: ${response.statusText}`);
     }
 
-    // Return the parsed JSON data directly if the response is successful
     return await response.json();
   } catch (error) {
     console.error("Error during file upload:", error);
-    throw error; // Re-throw to be caught in handleFileChange
+    throw error;
   }
 }

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The country of origin (tenth column) often correlates with the filming location (sixteenth column), suggesting that films produced in a specific country may also be set or filmed in that country.
+
+  The following is a formatted table with the unique data to be checked.
+  

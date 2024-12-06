@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The country listed in one column may influence or indicate the genre of the movie, as certain countries may have trends in specific movie genres.
+
+  The following is a formatted table with the unique data to be checked.
+  

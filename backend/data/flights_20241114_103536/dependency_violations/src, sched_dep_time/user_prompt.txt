@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The fourth column represents the scheduled departure time which may be influenced by the airline in the second column.
+
+  The following is a formatted table with the unique data to be checked.
+  

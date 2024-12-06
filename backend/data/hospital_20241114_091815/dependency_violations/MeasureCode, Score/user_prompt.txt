@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The care codes (like cac-3 for children s asthma care) have a percentage success rate associated with them (like 14%), thus showing a dependency between the type of care provided and its corresponding success rate.
+
+  The following is a formatted table with the unique data to be checked.
+  

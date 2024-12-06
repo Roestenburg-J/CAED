@@ -1,0 +1,1001 @@
+Condition,Score,original_index,unique_index
+surgical infection prevention,empty,0,0
+surgical infection prevention,empty,1,0
+surgical infection prevention,empty,2,0
+surgical infection prevention,empty,3,0
+surgical infection prevention,empty,4,0
+surgical infection prevention,empty,5,0
+surgical infection prevention,empty,6,0
+surgical infection prevention,empty,7,0
+heart attack,97%,8,1
+heart attack,92%,9,2
+heart attack,75%,10,3
+heart attack,100%,11,4
+heart attack,86%,12,5
+heart attack,empty,13,6
+heart attack,empty,14,6
+heart failure,80%,15,7
+heart failure,99%,16,8
+heart failure,92%,17,9
+heart failure,100%,18,10
+heart attack,98%,19,11
+heart attack,99%,20,12
+heart attaxk,96%,21,13
+hearx axxack,100%,22,14
+heart attack,99%,23,12
+heart attack,empty,24,6
+heart attack,72%,25,15
+heart failure,78%,26,16
+heart failure,99%,27,8
+heart failure,91%,28,17
+heart failure,100%,29,10
+pneumonia,93%,30,18
+pneumonia,89%,31,19
+pneumonia,99%,32,20
+pneumonia,92%,33,21
+pneumonia,80%,34,22
+pneumonia,84%,35,23
+surgical infection prevention,72%,36,24
+surgical infection prevention,94%,37,25
+surgical infection prevention,98%,38,26
+surgical infection prevention,88%,39,27
+surgical infection prevention,96%,40,28
+surgical infection prevention,90%,41,29
+surgical infection prevention,86%,42,30
+surgical infection prevention,83%,43,31
+heart attack,80%,44,32
+heart attack,60%,45,33
+heart attack,100%,46,4
+heart attack,empty,47,6
+heart attack,100%,48,4
+heart attack,empty,49,6
+heart attack,empty,50,6
+heart failure,78%,51,16
+heart failure,99%,52,8
+heart failure,90%,53,34
+heart failure,94%,54,35
+pneumonia,97%,55,36
+pneumonia,97%,56,36
+pneumonia,97%,57,36
+pneumonia,96%,58,37
+pneumonia,92%,59,21
+pneumonia,81%,60,38
+surgical infection prevention,36%,61,39
+surgical infection prevention,96%,62,28
+surgical infection prevention,93%,63,40
+surgical infection prevention,95%,64,41
+surgical infection prevention,empty,65,0
+surgical infection prevention,100%,66,42
+surgical infection prevention,78%,67,43
+surgical infection prevention,74%,68,44
+heart attack,97%,69,1
+heart attack,96%,70,45
+heart attack,93%,71,46
+heart attack,100%,72,4
+hearx axxack,96%,73,47
+heart attack,empty,74,6
+heart attack,98%,75,11
+heart failure,79%,76,48
+heart failure,97%,77,49
+heart failure,82%,78,50
+heart failure,100%,79,10
+pneumonia,90%,80,51
+pneumonia,95%,81,52
+pneumonia,100%,82,53
+pneumonia,96%,83,37
+pneumonia,91%,84,54
+pneumonia,88%,85,55
+surgical infection prevention,96%,86,28
+surgical infection prevention,99%,87,56
+surgical infection prevention,99%,88,56
+surgical infection prevention,94%,89,25
+surgical infection prevention,89%,90,57
+surgical infection prevention,100%,91,42
+surgical infection prevention,95%,92,41
+surgical infection prevention,92%,93,58
+heart attack,60%,94,33
+heart attack,50%,95,59
+heart attack,empty,96,6
+heart attack,empty,97,6
+heart attack,100%,98,4
+heart attack,empty,99,6
+heart attack,empty,100,6
+heart failure,98%,101,60
+heart failure,87%,102,61
+heart failure,64%,103,62
+heart failure,100%,104,10
+pneumonia,87%,105,63
+pneumonia,78%,106,64
+pneumonia,100%,107,53
+pneumonia,95%,108,52
+pneumonia,88%,109,55
+pneumonia,90%,110,51
+surgical infection prevention,91%,111,65
+surgical infection prevention,88%,112,27
+surgical infection prevention,91%,113,65
+surgical infection prevention,93%,114,40
+surgical infection prevention,empty,115,0
+surgical infection prevention,100%,116,42
+surgical infection prevention,87%,117,66
+surgical infection prevention,88%,118,27
+heart attack,0%,119,67
+heart attack,x00%,120,68
+heart attack,empty,121,6
+heart attack,empty,122,6
+heart attack,0%,123,67
+heart attack,empty,124,6
+heart attack,empty,125,6
+heart failure,4%,126,69
+heaxt failuxe,72%,127,70
+heart failure,75%,128,71
+heart failure,0%,129,72
+pneumonia,25%,130,73
+pneumonia,93%,131,18
+pneumonia,33%,132,74
+pneumonia,95%,133,52
+pneumonia,62%,134,75
+pneumonia,47%,135,76
+surgical infection prevention,100%,136,42
+surgical infection prevention,100%,137,42
+surgical infection prevention,100%,138,42
+surgical infection prevention,100%,139,42
+surgical infection prevention,empty,140,0
+surgical infection prevention,100%,141,42
+surgical infection prevention,100%,142,42
+surgical infection prevention,100%,143,42
+heart attack,100%,144,4
+heart attack,100%,145,4
+heart attack,100%,146,4
+heart attack,100%,147,4
+heart attack,100%,148,4
+heart attack,empty,149,6
+heart attack,empty,150,6
+heart failure,97%,151,49
+heart failure,98%,152,60
+heart failure,100%,153,10
+heart failure,100%,154,10
+pneumonia,98%,155,77
+pneumonia,100%,156,53
+pneumonia,100%,157,53
+pneumonia,9x%,158,78
+pneumonia,100%,159,53
+pneumonia,97%,160,36
+surgical infection prevention,67%,161,79
+surgical infection prevention,100%,162,42
+surgical infection prevention,x7%,163,80
+surgical infection prevention,80%,164,81
+surgical infection prevention,empty,165,0
+surgical infection prevention,100%,166,42
+surgical infection prevention,78%,167,43
+surgical infection prevention,78%,168,43
+heart attack,100%,169,4
+heart attack,100%,170,4
+heart attack,50%,171,59
+heart attack,100%,172,4
+heart attack,83%,173,82
+heart attack,empty,174,6
+heart attack,empty,175,6
+heart failure,93%,176,83
+heart failure,84%,177,84
+heart failure,78%,178,16
+heart failure,100%,179,10
+pneumonia,87%,180,63
+pneumonia,94%,181,85
+pneumonia,94%,182,85
+pneumonia,97%,183,36
+pneumonia,93%,184,18
+pneumonia,90%,185,51
+surgical infection prevention,86%,186,30
+surgical infection prevention,95x,187,86
+surgical infection prevention,91%,188,65
+surgical infection prevention,100%,189,42
+surgical infection prevention,empty,190,0
+surgical infection prevention,100%,191,42
+surgical infection prevention,86%,192,30
+surgical infection prevention,84%,193,87
+heart attack,99%,194,12
+heart attack,96%,195,45
+heart attack,91%,196,88
+heart attack,100%,197,4
+heart attack,99%,198,12
+heaxt attack,empty,199,89
+heart attack,85%,200,90
+heart failure,94%,201,35
+heart failure,98%,202,60
+heart failure,98%,203,60
+heart failure,100%,204,10
+pneumonia,87%,205,63
+pneumonia,96%,206,37
+pneumonia,100%,207,53
+pneumonia,x5%,208,91
+pneumonia,91%,209,54
+pneumonia,85%,210,92
+surgical infection prevention,83%,211,31
+surgical infection prevention,97%,212,93
+surgical infection prevention,98%,213,26
+surgical infection prevention,81%,214,94
+surgical infection prevention,60%,215,95
+surgical infection prevention,100%,216,42
+surgical infection prevention,89%,217,57
+surgical infection prevention,83%,218,31
+heart attack,100%,219,4
+heart attack,95%,220,96
+heart attack,91%,221,88
+heart attack,100%,222,4
+heart attack,95%,223,96
+heart attack,100%,224,4
+hexrt attxck,40%,225,97
+heart failure,89%,226,98
+heart failure,100%,227,10
+heart failure,94%,228,35
+heart faxlure,100%,229,99
+pneumonia,97%,230,36
+pneumonia,93%,231,18
+pneumonia,100%,232,53
+pneumonia,99%,233,20
+pneumonia,88%,234,55
+pneumonia,98%,235,77
+suxgical infection pxevention,100%,236,100
+surgical infection prevention,9x%,237,101
+surgical infection prevention,xx%,238,102
+surgxcal infectxon preventxon,98%,239,103
+surgical infection prevention,empty,240,0
+surgical infection prevention,100%,241,42
+surgical infection prevention,97%,242,93
+surgical infection prevention,97%,243,93
+heart attack,empty,244,6
+heart attack,empty,245,6
+heart attack,empty,246,6
+heart attack,empty,247,6
+heart attack,empty,248,6
+heart attack,empty,249,6
+heart attack,empty,250,6
+heart failure,100%,251,10
+heart failure,89x,252,104
+heart failure,88%,253,105
+heart failure,88%,254,105
+pneumonia,92%,255,21
+xneumonia,x6%,256,106
+pneumonia,100%,257,53
+pneumonia,96%,258,37
+pneumonia,100%,259,53
+pneumonia,92%,260,21
+surgical infection prevention,empty,261,0
+surgical infection prevention,86%,262,30
+surgical infection prevention,93%,263,40
+surgical infection prevention,86%,264,30
+surgical infection prevention,empty,265,0
+surgical infection prevention,100%,266,42
+surgical infection prevention,90%,267,29
+surgical infection prevention,90%,268,29
+heart attack,99%,269,12
+heart attack,97%,270,1
+heart attack,100%,271,4
+heart attack,100%,272,4
+heart attack,97%,273,1
+heart attack,empty,274,6
+heart attack,83%,275,82
+heart failure,86%,276,107
+heart failure,100%,277,10
+heart failure,97%,278,49
+xeart failure,100%,279,108
+pneumonia,97%,280,36
+pneumonia,100%,281,53
+pneumonia,100%,282,53
+pneumonia,96%,283,37
+pneumonia,93%,284,18
+pneumonia,92%,285,21
+surgical infection prevention,89%,286,57
+surgical infection prevention,98%,287,26
+surgical infection prevention,99%,288,56
+surgical infection prevention,91%,289,65
+surgical infection prevention,93%,290,40
+surgical infection prevention,100%,291,42
+surgical infection prevention,97%,292,93
+surgical infection prevention,94%,293,25
+heart attack,empty,294,6
+heart attack,empty,295,6
+heart attack,empty,296,6
+heart attack,empty,297,6
+heart attack,empty,298,6
+heart attack,empty,299,6
+heart attack,empty,300,6
+heart failure,empty,301,109
+heart failure,empty,302,109
+heart failure,empty,303,109
+heart failure,empty,304,109
+pneumonia,empty,305,110
+pneumonia,empty,306,110
+pneumonia,empty,307,110
+pneumonia,empty,308,110
+pneumonia,empty,309,110
+pneumonia,empty,310,110
+children s asthma care,100%,311,111
+children s asthma care,33%,312,112
+heart attack,98%,313,11
+heart attack,96%,314,45
+heart attack,93%,315,46
+heart attack,100%,316,4
+heart attack,93%,317,46
+heart attack,0%,318,67
+heart attack,87%,319,113
+heart failure,87%,320,61
+heart failure,100%,321,10
+heart failure,90%,322,34
+heart failure,100%,323,10
+pneumonia,97%,324,36
+pneumonia,100%,325,53
+pneumonia,100%,326,53
+pneumonia,97%,327,36
+pneumonia,92%,328,21
+pneumonia,91%,329,54
+surgical infection prevention,83%,330,31
+heart failure,100%,331,10
+heart failure,100%,332,10
+heart failure,100%,333,10
+pneumonia,100%,334,53
+pneumonia,100%,335,53
+pneumonia,x00%,336,114
+pneumonia,99%,337,20
+pneumonia,99%,338,20
+pneumonia,99%,339,20
+surgical infection prevention,100%,340,42
+surgical infection prevention,100%,341,42
+surgical infection prevention,100%,342,42
+surgical infection prevention,99%,343,56
+surgical infection prevention,98%,344,26
+surgical infection prevention,100%,345,42
+surgical infection prevention,100%,346,42
+surgical infection prevention,100%,347,42
+heart attack,97%,348,1
+heart attack,98%,349,11
+heart attack,85%,350,90
+heart attack,100%,351,4
+heart attack,96%,352,45
+surgical infection prevention,87%,353,66
+heart attack,100%,354,4
+heart attack,100%,355,4
+heart attack,100%,356,4
+heart attack,100%,357,4
+heart attack,100%,358,4
+heart attack,0%,359,67
+heart attack,empty,360,6
+heart failure,90%,361,34
+heart failure,100%,362,10
+heart failure,85%,363,115
+heart failure,100%,364,10
+pneumonia,91%,365,54
+pnxumonia,98%,366,116
+pneumonia,98%,367,77
+pneumonia,100%,368,53
+pnexmonia,100%,369,117
+pneumonia,82%,370,118
+surgical infection prevention,89%,371,57
+surgical infection prevention,98%,372,26
+surgical infection prevention,99%,373,56
+surgical infection prevention,94%,374,25
+surgical infection prevention,empty,375,0
+surgical infection prevention,100%,376,42
+surgical infection prevention,95%,377,41
+surgical infection prevention,x5%,378,119
+heart attack,99%,379,12
+heart attack,97%,380,1
+heart attack,100%,381,4
+heart attack,100%,382,4
+heart attack,96%,383,45
+heart attack,empty,384,6
+heart attack,50%,385,59
+hxart failurx,83%,386,120
+heart failure,98%,387,60
+heart failure,96%,388,121
+heart failure,100%,389,10
+pneumonia,71%,390,122
+pneumonia,89%,391,19
+heart attack,100%,392,4
+heart attack,67%,393,123
+heart attack,empty,394,6
+heart attack,100%,395,4
+heart attack,empty,396,6
+heart attack,empty,397,6
+heart failure,96%,398,121
+heart failure,94%,399,35
+hxart failurx,94%,400,124
+heart failure,96%,401,121
+pneumonia,94%,402,85
+pneumonia,95%,403,52
+pneumonia,100%,404,53
+pneumonia,x4%,405,125
+pneumonia,92%,406,21
+pneumonia,99%,407,20
+surgical infection prevention,100%,408,42
+surgical infection prevention,90%,409,29
+surgical infection prevention,90%,410,29
+surgical infection prevention,1xx%,411,126
+surgical infection prevention,100%,412,42
+surgical infection prevention,98%,413,26
+heart attack,90%,414,127
+heart attack,100%,415,4
+heart attack,100%,416,4
+heart attack,empty,417,6
+heart attack,100%,418,4
+heart attack,empty,419,6
+heart attack,empty,420,6
+heart failure,77%,421,128
+heart failure,99%,422,8
+heart failure,85%,423,115
+heart failure,100%,424,10
+pneumonia,93%,425,18
+pneumonia,x7%,426,129
+pneumonia,100%,427,53
+pneumonia,97%,428,36
+pneumonia,96%,429,37
+pneumonia,88%,430,55
+surgical infection prevention,82%,431,130
+heart failure,91%,432,17
+heart failure,98%,433,60
+heart failure,100%,434,10
+heart failure,100%,435,10
+pneumonia,97%,436,36
+pneumonia,100%,437,53
+pneumonia,96%,438,37
+pneumonia,97%,439,36
+pneumonia,95%,440,52
+pneumonia,90%,441,51
+surgical infection prevention,87%,442,66
+surgical infection prevention,96%,443,28
+surgical infection prevention,98%,444,26
+surgical infection prevention,88%,445,27
+surgical infection prevention,94%,446,25
+surgical infection prevention,100%,447,42
+surgical infection prevention,94%,448,25
+surgical infection prevention,94%,449,25
+heart attack,empty,450,6
+heart attack,empty,451,6
+pneumonia,89%,452,19
+pneumonia,99%,453,20
+pneumonia,97%,454,36
+pneumonia,98%,455,77
+pneumonia,86%,456,131
+pneumonia,82%,457,118
+surgical infection prevention,81%,458,94
+surgical infection prevention,92%,459,58
+surgical infection prevention,91%,460,65
+surgical infection prevention,84%,461,87
+surgical infection prevention,empty,462,0
+surgical infection prevention,97%,463,93
+surgical infection prevention,85%,464,132
+surgical infection prevention,79%,465,133
+heart attack,100%,466,4
+hexrt attxck,100%,467,134
+heart attack,empty,468,6
+heart attack,100%,469,4
+heart attack,83%,470,82
+heart attack,0%,471,67
+heart attack,empty,472,6
+heart failure,66%,473,135
+heart failure,96%,474,121
+heart failure,94%,475,35
+heart failure,94%,476,35
+pneumonia,85%,477,92
+pneumonia,94%,478,85
+pneumonia,87%,479,63
+pneumonia,95%,480,52
+pneumonia,64%,481,136
+pneumonia,90%,482,51
+surgical infection prevention,100%,483,42
+surgical infection prevention,94%,484,25
+surgical infection prevention,96%,485,28
+surgical infection prevention,85%,486,132
+surgical infection prevention,empty,487,0
+surgical infection prevention,1xx%,488,126
+surgical infection prevention,88%,489,27
+surgical infection prevention,68%,490,137
+heart attack,empty,491,6
+heart attack,100%,492,4
+heart attack,empty,493,6
+heart attack,empty,494,6
+heart attack,empty,495,6
+heart attack,empty,496,6
+heart attack,empty,497,6
+heart failure,83%,498,138
+heart failure,94%,499,35
+heart failure,90%,500,34
+heart failure,100%,501,10
+pneumonia,93%,502,18
+pneumonia,97%,503,36
+pneumonia,100%,504,53
+pneumonia,89%,505,19
+pneumonix,93x,506,139
+pneumonia,81%,507,38
+surgical infection prevention,empty,508,0
+surgical infection prevention,0%,509,140
+surgical infection prevention,100%,510,42
+surgical infection prevention,0%,511,140
+surgical infection prevention,empty,512,0
+surgical infection prevention,100%,513,42
+surgical infection prevention,1xx%,514,126
+surgical infection prevention,100%,515,42
+heart attack,100%,516,4
+heart attack,100%,517,4
+heart attack,100%,518,4
+heart attack,100%,519,4
+heart attack,100%,520,4
+heart attack,empty,521,6
+heart attack,96%,522,45
+heart failure,100%,523,10
+heart failure,100%,524,10
+heart failure,100%,525,10
+heart failure,100%,526,10
+pneumonia,94%,527,85
+pneumonia,96%,528,37
+pneumonia,94%,529,85
+pneumonia,95%,530,52
+pneumonia,90%,531,51
+pneumonia,92%,532,21
+surgical infection prevention,97%,533,93
+surgical infection prevention,97%,534,93
+surgical infection prevention,97%,535,93
+surgical infection prevention,94%,536,25
+surgical infection prevention,95%,537,41
+surgical infection prevention,100%,538,42
+surgical infection prevention,98%,539,26
+surgical infection prevention,94%,540,25
+heart attack,95%,541,96
+heart attack,92%,542,2
+heart attack,79%,543,141
+heart attack,97%,544,1
+heart attack,95%,545,96
+heart attack,empty,546,6
+heart attack,40%,547,142
+heart failure,45%,548,143
+heart failure,90%,549,34
+heart failure,85%,550,115
+heart failure,99%,551,8
+pneumonia,85%,552,92
+pneumonia,95%,553,52
+pneumonia,91%,554,54
+pxeumoxia,88%,555,144
+pneumonia,82%,556,118
+pneumonia,82%,557,118
+surgical infection prevention,67%,558,79
+surgical infection prevention,78%,559,43
+surgical infection prevention,98%,560,26
+surgical infection prevention,83%,561,31
+surgical infection prevention,72%,562,24
+surgical infection prevention,97%,563,93
+surgical infection prevention,92%,564,58
+surgical infection prevention,87%,565,66
+heart attack,92%,566,2
+heart attack,90%,567,127
+heart attack,100%,568,4
+heart attack,50%,569,59
+heart attack,92%,570,2
+heart attack,0%,571,67
+heart attack,empty,572,6
+heart failure,54%,573,145
+heart failure,99%,574,8
+heart failure,96%,575,121
+heart failure,97%,576,49
+pneumonia,80%,577,22
+pneumonia,95%,578,52
+pneumonia,91%,579,54
+pneumonia,82%,580,118
+pneumonia,85%,581,92
+pneumonia,75%,582,146
+surgical infection prevention,32%,583,147
+surgical infection prevention,100%,584,42
+surgical infection prevention,93%,585,40
+surgical infection prevention,79%,586,133
+surgical infection prevention,empty,587,0
+surgical infection prevention,96%,588,28
+surgical infection prevention,88%,589,27
+surgical infection prevention,82%,590,130
+heart attack,empty,591,6
+heart attack,empty,592,6
+heart attack,empty,593,6
+heart attack,empty,594,6
+heart attack,empty,595,6
+heart attack,empty,596,6
+heart attack,empty,597,6
+heart failure,100%,598,10
+heart faixure,100%,599,148
+heart failure,empty,600,109
+heart failure,empty,601,109
+pneumonia,100%,602,53
+pneumonia,100%,603,53
+pneumonia,100%,604,53
+pneumonia,100%,605,53
+pneumonia,93%,606,18
+pneumonia,100%,607,53
+surgical ixfectiox prevextiox,empty,608,149
+surgical infection prevention,empty,609,0
+surgical infection prevention,empty,610,0
+surgical infection prevention,empty,611,0
+surgical infection prevention,empty,612,0
+surgical infection prevention,empty,613,0
+surgical infection prevention,empty,614,0
+surgical infection prevention,empty,615,0
+heart attack,98%,616,11
+heart attack,97%,617,1
+heart attack,93%,618,46
+heart attack,100%,619,4
+heart attack,98%,620,11
+heart attack,empty,621,6
+heart attack,85%,622,90
+heart failure,82%,623,50
+heart failure,100%,624,10
+heart failure,92%,625,9
+heart failure,100%,626,10
+pneumonia,92%,627,21
+pneumonia,91%,628,54
+pneumonia,100%,629,53
+pneumonia,96%,630,37
+pneumonxa,97%,631,150
+pneumonia,88%,632,55
+surgical infection prevention,98%,633,26
+surgical infection prevention,99%,634,56
+surgical infection prevention,99%,635,56
+surgical infection prevention,97%,636,93
+surgical infection prevention,98%,637,26
+surgical infection prevention,100%,638,42
+surgical infection prevention,92%,639,58
+surgical infection prevention,90%,640,29
+heart attack,50%,641,59
+heart attack,67%,642,123
+heart attack,empty,643,6
+heart attack,empty,644,6
+heart attack,67%,645,123
+heart attack,empty,646,6
+heart attack,empty,647,6
+heart failure,0%,648,72
+heart failure,38%,649,151
+heart failure,25%,650,152
+heart failure,100%,651,10
+pneumonia,25%,652,73
+pneumonia,100%,653,53
+pneumonia,67%,654,153
+pneumonia,90%,655,51
+pneumonia,96%,656,37
+pneumonia,12%,657,154
+surgical infection prevention,empty,658,0
+surgical infection prevention,empty,659,0
+surgical infection prevention,empty,660,0
+surgical infection prevention,empty,661,0
+surgical infection prevention,empty,662,0
+surgical infection prevention,empty,663,0
+surgical infection prevention,empty,664,0
+surgical infection prevention,empty,665,0
+heart attack,98%,666,11
+heart attack,98%,667,11
+heart attack,91%,668,88
+heart attack,100%,669,4
+heart attack,97%,670,1
+heart attack,empty,671,6
+heart attack,98%,672,11
+heart failure,46%,673,155
+heart failure,96%,674,121
+heart failure,94%,675,35
+heart failure,100%,676,10
+pneumonia,74%,677,156
+pneumonia,92%,678,21
+xneumonia,100%,679,157
+pneumonia,92%,680,21
+pneumonia,85%,681,92
+pneumonia,79%,682,158
+surgical infection prevention,69%,683,159
+surgical infection prevention,88%,684,27
+surgical infection prevention,95%,685,41
+surgical infection prevention,87%,686,66
+surgical infection prevention,76%,687,160
+surgical infection prevention,97%,688,93
+surgical infection prevention,79%,689,133
+surgical infection prevention,77%,690,161
+heart attack,77%,691,162
+heart attack,100%,692,4
+heart attack,100%,693,4
+heart attack,empty,694,6
+heart attaxk,75%,695,163
+heart attack,empty,696,6
+heart attack,empty,697,6
+hexrt fxilure,xx%,698,164
+heart failure,100%,699,10
+heart failure,100%,700,10
+heart failure,100%,701,10
+pneumonia,87%,702,63
+pneumonia,95%,703,52
+pneumonia,90%,704,51
+pneumonia,97%,705,36
+pneumonia,96%,706,37
+pneumonia,93%,707,18
+surgical infection prevention,100%,708,42
+surgical infection prevention,100%,709,42
+surgical infection prevention,100%,710,42
+surgical infection prevention,1xx%,711,126
+surgical infection xrevention,empty,712,165
+surgical infection prevention,100%,713,42
+surgical infection prevention,88%,714,27
+surgical infection prevention,88%,715,27
+heartxattack,100%,716,166
+heart attack,100%,717,4
+heart attack,x7%,718,167
+heart attack,100%,719,4
+heart attack,100%,720,4
+heart attack,empty,721,6
+heart attack,empty,722,6
+heart failure,99%,723,8
+heart failure,100%,724,10
+heart failure,97%,725,49
+heart failure,100%,726,10
+pneumonia,100%,727,53
+pneumonia,100%,728,53
+pneumonia,100%,729,53
+pneumonia,99%,730,20
+pneumonia,98%,731,77
+pneumonia,98%,732,77
+suxgical infection pxevention,99%,733,168
+surgical infection prevention,99%,734,56
+surgical infection prevention,98%,735,26
+surgical infection prevention,98%,736,26
+surgical infection prevention,empty,737,0
+surgical infection prevention,100%,738,42
+surgical infection prevention,95%,739,41
+surgical infection prevention,95%,740,41
+heart attack,100%,741,4
+heart attack,60%,742,33
+heart attack,100%,743,4
+heart attack,empty,744,6
+heart attack,100%,745,4
+heart attack,empty,746,6
+heart attack,empty,747,6
+heart failure,100%,748,10
+heart failure,91%,749,17
+heart failure,86%,750,107
+heart failure,100%,751,10
+pneumonia,100%,752,53
+pneumonia,89%,753,19
+pneumonia,100%,754,53
+pneumonia,97%,755,36
+pneumonia,75%,756,146
+pneumonia,92%,757,21
+surgical infection prevention,89%,758,57
+surgical infection prevention,97%,759,93
+surgical infection prevention,88%,760,27
+surgical infection prevention,99%,761,56
+surgical infection prevention,empty,762,0
+surgical infection prevention,100%,763,42
+surgical infection prevention,80%,764,81
+surgical infection prevention,80%,765,81
+children s asthma care,100%,766,111
+surgical infection prevention,99%,767,56
+surgical infection prevention,93%,768,40
+surgical infection prevention,x3%,769,169
+surgical infection prevention,empty,770,0
+surgical infection prevention,100%,771,42
+surgical infection prevention,90%,772,29
+surgical infection prevention,89%,773,57
+children s asthma care,100%,774,111
+children s asthma care,98%,775,170
+children s asthma care,14%,776,171
+heart attack,98%,777,11
+heart attack,100%,778,4
+heart attack,97%,779,1
+heart attaxk,100%,780,172
+heart attack,100%,781,4
+heart attack,empty,782,6
+heart attack,82%,783,173
+heart failure,72%,784,174
+heart failure,95%,785,175
+heart failure,98%,786,60
+heart failure,100%,787,10
+pneumonia,96%,788,37
+pneumonia,99%,789,20
+pneumonia,97%,790,36
+pneumonia,93%,791,18
+pneumonia,89%,792,19
+pneumonia,89%,793,19
+surgical infection prevention,90%,794,29
+surgical infection prevention,95%,795,41
+surgical infection prevention,99%,796,56
+surgical infection prevention,93%,797,40
+surgical infection prevention,95%,798,41
+surgical infection prevention,99%,799,56
+surgical infection prevention,93%,800,40
+surgical infection prevention,90%,801,29
+heart attack,94%,802,176
+heart attack,99%,803,12
+heart attack,89%,804,177
+heart attack,100%,805,4
+heart attack,95%,806,96
+heart attack,68%,807,178
+heart attack,83%,808,82
+heart failure,47%,809,179
+heart failure,100%,810,10
+heart failure,93%,811,83
+heart failure,100%,812,10
+pneumonia,96%,813,37
+pneumonia,96%,814,37
+pneumonia,100%,815,53
+pneumonia,94%,816,85
+pneumonia,89%,817,19
+pneumonia,96%,818,37
+surgical infection prevention,91%,819,65
+surgical infection prevention,98%,820,26
+surgical infection prevention,97%,821,93
+surgical infection prevention,90%,822,29
+surgical infection prevention,94%,823,25
+surgical infection prevention,100%,824,42
+surgical infection prevention,95%,825,41
+surgical infection prevention,87%,826,66
+heart attack,100%,827,4
+heart attack,100%,828,4
+heart attack,100%,829,4
+heart attack,empty,830,6
+heart attack,100%,831,4
+heart attack,empty,832,6
+heart attack,empty,833,6
+heart failure,84%,834,84
+heart failure,89%,835,98
+heart failure,75%,836,71
+heart failure,100%,837,10
+pneumonia,89%,838,19
+pneumonia,92%,839,21
+pneumonia,94%,840,85
+pneumonia,98%,841,77
+pneumonia,95%,842,52
+pneumonia,81%,843,38
+surgical infection prevention,50%,844,180
+surgical infection prevention,100%,845,42
+surgical infection prevention,100%,846,42
+surgical infection prevention,100%,847,42
+surgical infection prevention,empty,848,0
+surgical infection prevention,100%,849,42
+surgical infection prevention,empty,850,0
+surgical infxction prxvxntion,empty,851,181
+heart attack,67%,852,123
+heart attack,67%,853,123
+heart attack,100%,854,4
+heart attack,empty,855,6
+heart attack,33%,856,182
+heart attack,empty,857,6
+heart attack,empty,858,6
+heart failure,74%,859,183
+heart failure,80x,860,184
+heart failure,78%,861,16
+heart failure,80%,862,7
+pneumonia,96%,863,37
+pneumonia,99%,864,20
+pneumonia,90%,865,51
+pneumonia,98%,866,77
+pneumonia,76%,867,185
+pneumonia,91%,868,54
+surgical ixfectiox prevextiox,67%,869,186
+surgical infection prevention,80%,870,81
+surgical infection prevention,87%,871,66
+surgical infection prevention,87%,872,66
+surgical infection prevention,empty,873,0
+surgical infection prevention,100%,874,42
+surgical infection prevention,100%,875,42
+surgical infection prevention,100%,876,42
+heart attack,100%,877,4
+heart attack,100%,878,4
+heart attack,0%,879,67
+heart attack,100%,880,4
+heart attack,82%,881,173
+heart attack,empty,882,6
+heart attack,empty,883,6
+heart failure,87%,884,61
+heart failure,94%,885,35
+heart failure,89%,886,98
+heart failure,100%,887,10
+pneumonia,x5%,888,91
+pneumonia,100%,889,53
+pneumonia,100%,890,53
+pneumonia,97%,891,36
+pneumonia,87%,892,63
+pneumonia,87%,893,63
+surgical infection prevention,empty,894,0
+surgical infection prevention,empty,895,0
+surgical infection prevention,empty,896,0
+surgical infection prevention,empty,897,0
+surgical infection prevention,empty,898,0
+surgical infection prevention,100%,899,42
+surgical infection prevention,100%,900,42
+surgical infection prevention,100%,901,42
+children s asthma care,100%,902,111
+children s asthma care,100%,903,111
+children s asthma care,100%,904,111
+heart attack,100%,905,4
+heart attack,100%,906,4
+heart attack,100%,907,4
+heart attack,100%,908,4
+heart attack,100%,909,4
+heart attack,88%,910,187
+heart attack,100%,911,4
+heart failure,100%,912,10
+heart failure,100%,913,10
+heart failure,100%,914,10
+heart failure,100%,915,10
+pneumonia,99%,916,20
+pneumonia,97%,917,36
+pneumonia,100%,918,53
+pneumonia,87%,919,63
+pneumonia,76%,920,185
+pneumonia,99%,921,20
+surgical infection prevention,95%,922,41
+surgical infection prevention,95%,923,41
+surgical infection prevention,95%,924,41
+surgical infection prevention,79%,925,133
+surgical infection prevention,76%,926,160
+surgical infection prevention,100%,927,42
+surgical infection prevention,91%,928,65
+surgical infection prevention,84%,929,87
+heart attack,53%,930,188
+heart attack,50%,931,59
+heart attack,100%,932,4
+heart attack,33%,933,182
+heart attack,60%,934,33
+heart attack,empty,935,6
+heart attack,empty,936,6
+heart failure,53%,937,189
+heart failure,63%,938,190
+heart failure,67%,939,191
+heart failure,75%,940,71
+pneumonia,90%,941,51
+pneumonia,50%,942,192
+pneumonia,80%,943,22
+pneumonia,97%,944,36
+pneumonia,50%,945,192
+pneumonia,65%,946,193
+surgical infection prevention,empty,947,0
+surgical infection prevention,empty,948,0
+surgical infection prevention,empty,949,0
+surgical infection prevention,empty,950,0
+surgical infection prevention,empty,951,0
+surgical infection prevention,empty,952,0
+surgical infection prevention,empty,953,0
+surgical infection prevention,empty,954,0
+hexrt attxck,100%,955,134
+heart attack,100%,956,4
+heart attack,empty,957,6
+heart attack,empty,958,6
+heart attack,100%,959,4
+heart attack,empty,960,6
+heart attack,empty,961,6
+heart failure,96%,962,121
+heart failure,99%,963,8
+heart failure,100%,964,10
+heart failure,100%,965,10
+pneumonia,100%,966,53
+pneumonia,98%,967,77
+pneumonia,100%,968,53
+pneumonia,99%,969,20
+pneumonia,99%,970,20
+pneumonia,100%,971,53
+surgical infection prevention,100%,972,42
+surgical infection prevention,99%,973,56
+surgical xnfection prevention,100%,974,194
+surgical infection prevention,100%,975,42
+surgical infection prevention,empty,976,0
+surgical infection prevention,100%,977,42
+surgical infection prevention,100%,978,42
+surgical infection prevention,100%,979,42
+heart attack,100%,980,4
+heart attack,100%,981,4
+heart attack,100%,982,4
+heart attack,empty,983,6
+heart attack,100%,984,4
+heart attack,empty,985,6
+heart attack,empty,986,6
+heart failure,50%,987,195
+heart failure,85%,988,115
+heart failure,100%,989,10
+heart failure,43%,990,196
+pneumonia,74%,991,156
+pneumonia,83%,992,197
+pneumonia,83%,993,197
+pneumonia,98%,994,77
+pneumonia,77%,995,198
+pneumonia,64%,996,136
+surgical infection prevention,25%,997,199
+surgical infection prevention,64%,998,200
+surgical infection prevention,88%,999,27

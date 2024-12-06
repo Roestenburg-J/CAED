@@ -1,0 +1,1001 @@
+MeasureName,Sample,original_index,unique_index
+surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,empty,0,0
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,empty,1,1
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,empty,2,2
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),empty,3,3
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,empty,4,4
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),empty,5,5
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,empty,6,6
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,empty,7,7
+heart attack patients given aspirin at arrival,33 patients,8,8
+heart attack patients given aspirin at discharge,13 patients,9,9
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),4 patients,10,10
+heart attack patients given smoking cessation advice/counseling,4 patients,11,11
+heart attack patients given beta blocker at discharge,14 patients,12,12
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,13,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,14,14
+heart failure patients given discharge instructions,114 patients,15,15
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,149 patients,16,16
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),3x patients,17,17
+heart failure patients given smoking cessation advice/counseling,41 patients,18,18
+heart attack patients given aspirin at arrival,270 patients,19,19
+heart attack patients given aspirin at discharge,516 patients,20,20
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),71 patients,21,21
+heart attack patients given smoking cessation advice/counseling,244 patients,22,22
+heart attack patients given beta blocker at discharge,441 patients,23,23
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,24,13
+heart attack patients given pci within 90 minutes of arrival,40 patients,25,24
+heart failure patients given discharge instructions,455 patients,26,25
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,514 patients,27,26
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),165 patients,28,27
+heart failure patients given smoking cessation advice/counseling,110 patients,29,28
+pneumonia patients assessed and given pneumococcal vaccination,191 patients,30,29
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,125 patients,31,30
+pneumonia patients given smoking cessation advice/counseling,107 patients,32,31
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,196 patients,33,32
+pneumonia patients given the most appropriate initial antibiotic(s),147 patients,34,33
+pneumonia patients assessed and given influenza vaccination,160 patients,35,34
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,79 patients,36,35
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,399 patients,37,36
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,405 patients,38,37
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),385 patients,39,38
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,136 patients,40,39
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),537 patients,41,40
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,185 patients,42,41
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,184 patients,43,42
+heart attack patients given aspirin at arrival,20 patients,44,43
+heart attack patients given aspirin at discharge,5 patients,45,44
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),2 patients,46,45
+heart attack patients given smoking cessation advice/counseling,0 patients,47,46
+heart attack patients given beta blocker at discharge,5 patients,48,47
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,49,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,50,14
+heart failure patients given discharge instructions,110 patients,51,48
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,160 patients,52,49
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),69 patients,53,50
+heart failure patients given smoking cessation advice/counseling,34 patients,54,51
+pneumonia patients assessed and given pneumococcal vaccination,172 patients,55,52
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,120 patients,56,53
+pneumonia patients given smoking cessation advice/counseling,98 patients,57,54
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,211 patients,58,55
+pneumonia patients given the most appropriate initial antibiotic(s),175 patients,59,56
+pneumonia patients assessed and given influenza vaccination,118 patients,60,57
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,14 patients,61,58
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,168 patients,62,59
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,167 patients,63,60
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),158 patients,64,61
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,65,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),237 patients,66,63
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,76 patients,67,64
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,76 patients,68,65
+heart attack patients given aspirin at arrival,159 patients,69,66
+heart attack patients given aspirin at discharge,247 patients,70,67
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),43 patients,71,68
+heart attack patients given smoking cessation advice/counseling,103 patients,72,69
+heart attack patients given beta blocker at discharge,227 patients,73,70
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,74,13
+heart attack patients given pci within 90 minutes of arrival,61 patients,75,71
+heart failure patients given discharge instructions,217 patients,76,72
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,259 patients,77,73
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),84 patients,78,74
+heart failure patients given smoking cessation advice/counseling,53 patients,79,75
+pneumonia patients assessed and given pneumococcal vaccination,174 patients,80,76
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,137 patients,81,77
+pneumonia patients given smoking cessation advice/counseling,65 patients,82,78
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,200 patients,83,79
+pneumonia patients given the most appropriate initial antibiotic(s),138 patients,84,80
+pneumonia patients assessed and given influenza vaccination,85 patients,85,81
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,107 patients,86,82
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,457 patients,87,83
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,462 patients,88,84
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),439 patients,89,85
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,130 patients,90,86
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),619 paxienxs,91,87
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,242 patients,92,88
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,242 patients,93,89
+xeart attack patients given aspirin at arrival,5 patients,94,90
+heart attack patients given aspirin at discharge,2 patients,95,91
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,96,92
+heart attack patients given smoking cessation advice/counseling,0 patients,97,46
+heart attack patients given beta blocker at discharge,2 patients,98,93
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,99,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,100,14
+heart failure patients given discharge instructions,59 patients,101,94
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,76 patients,102,95
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),14 patients,103,96
+heart failure patients given smoking cessation advice/counseling,8 patients,104,97
+pneumonia patients assessed and given pneumococcal vaccination,85 patients,105,98
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,64 patients,106,99
+pneumonia patients given smoking cessation advice/counseling,28 patients,107,100
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,87 patients,108,101
+pneumonia patients given the most appropriate initial antibiotic(s),57 patients,109,102
+pneumonia patients assessed and given influenza vaccination,63 patients,110,103
+surgery patiexts who were takixg heart drugs called beta blockers before comixg to the hospital who were kept ox the beta blockers durixg the period just before axd after their surgery,11 patients,111,104
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,101 patients,112,105
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,101 patients,113,106
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),100 patients,114,107
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patixnts,115,108
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),123 patients,116,109
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,77 patients,117,110
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,76 patients,118,65
+heart attack patients given aspirin at arrivax,1 patients,119,111
+heart attack patients given aspirin at discharge,1 patients,120,112
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,121,92
+heart attack patients given smoking cessation advice/counseling,0 patients,122,46
+heart attack patients given beta blocker at discharge,1 patients,123,113
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,124,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,125,14
+heart failure patients given discharge instructions,26 patients,126,114
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,39 patients,127,115
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),8 patients,128,116
+heart failure patients given smoking cessation advice/counseling,5 patients,129,117
+pneumonia patients assessed and given pneumococcal vaccination,16 patients,130,118
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,15 patients,131,119
+pneumonia patients given smoking cessation advice/counseling,9 patients,132,120
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,21 pxtients,133,121
+pneumonia patients given the most appropriate initial antibiotic(s),21 patients,134,122
+pneumonia patients assessed and given influenza vaccination,15 patients,135,123
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,1 patients,136,124
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,2 patients,137,125
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,2 patients,138,126
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),2 patients,139,127
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,140,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),4 patients,141,128
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,4 patients,142,129
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,4 patients,143,130
+heart attack patients given aspirin at arrival,6 patients,144,131
+heart attaxk patients given aspirin at disxharge,1 patients,145,132
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,146,133
+heart attack patients given smoking cessation advice/counseling,2 patients,147,134
+heart attack patients given beta blocker at discharge,3 patients,148,135
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,149,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,150,14
+heart failure patients given discharge instructions,35 patients,151,136
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,42 patients,152,137
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),10 patients,153,138
+heart failure patients given smoking cessation advice/counseling,12 patients,154,139
+pneumonia patients assessed and given pneumococcal vaccination,44 patients,155,140
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,30 patients,156,141
+pneumonia patients given smoking cessation advice/counseling,25 patients,157,142
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,51 patients,158,143
+pneumonia patients given the most appropriate initial antibiotic(s),45 patients,159,144
+pneumonia patients assessed and given influenza vaccination,30 patients,160,145
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,3 patients,161,146
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,6 patients,162,147
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,7 patients,163,148
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),5 patients,164,149
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,165,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),xx patients,166,150
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,9 patients,167,151
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,9 patients,168,152
+heart attack patients given aspirin at arrival,8 patients,169,153
+heart attack patients given aspirin at discharge,6xpatients,170,154
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),2 patients,171,45
+heart attack patients given smoking cessation advice/counseling,2 patients,172,134
+heart attack patients given beta blocker at discharge,6 patients,173,155
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,174,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,175,14
+heart failure patients given discharge instructions,55 patients,176,156
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,80 patients,177,157
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),27 patients,178,158
+heart failure patients given smoking cessation advice/counseling,10 patients,179,159
+pneumonia patients assessed and given pneumococcal vaccination,128 patients,180,160
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,115 patients,181,161
+pneumonia patients given smoking cessation advice/counseling,65 patients,182,78
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,158 patients,183,162
+pneumonia patients given the most appropriate initial antibiotic(s),133 patients,184,163
+pneumonia patients assessed and given influenza vaccination,101 patients,185,164
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,14 patients,186,58
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,66 patients,187,165
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,64 patients,188,166
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),63 patients,189,167
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,190,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),155 patients,191,168
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,56 patients,192,169
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,56 patients,193,170
+heart attack patients given aspirin at arrival,240 patients,194,171
+heart attack patients given aspirin at discharge,295 patients,195,172
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),70 patients,196,173
+heart attack patients given smoking cessation advice/counseling,131 patients,197,174
+heart attack patients given beta blocker at discharge,288 patients,198,175
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,199,13
+heart attack patients given pci within 90 minutes of arrival,48 patients,200,176
+heart failure patients given discharge instructions,316 patients,201,177
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,372 patients,202,178
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),130 patients,203,179
+heart failure patients given smoking cessation advice/counseling,69 patients,204,180
+pneumonia patients assessed and given pneumococcal vaccination,125 patients,205,181
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,131 patients,206,182
+pneumonia patients given smoking cessation advice/counseling,69 patients,207,183
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,135 patients,208,184
+pneumonia patients given the most appropriate initial antibiotic(s),112 patients,209,185
+pneumoniaxpatientsxassessedxandxgivenxinfluenzaxvaccination,89 patients,210,186
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,125 patients,211,187
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,461 patients,212,188
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,473 patients,213,189
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),442 patients,214,190
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,127 patients,215,191
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),601 patients,216,192
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,229 patients,217,193
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,224 patients,218,194
+heartxattackxpatientsxgivenxaspirinxatxarrival,46 patients,219,195
+heart attack patients given aspirin at discharge,39 patients,220,196
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),11 patients,221,197
+heart attack patients given smoking cessation advice/counseling,14 patients,222,198
+heart attack patients given beta blocker at discharge,41 patients,223,199
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,1 patiexts,224,200
+heart attack patients given pci within 90 minutes of arrival,5 patients,225,201
+heart failure patients given discharge instructions,76 patients,226,202
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,94 patients,227,203
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),36 patients,228,204
+heart failure patients given smoking cessation advice/counseling,15 patients,229,205
+pneumonia patients assessed and given pneumococcal vaccination,69 patients,230,206
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,91 patients,231,207
+pneumonia patients given smoking cessation advice/counseling,37 patients,232,208
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,88 patients,233,209
+pneumonia patients given the most appropriate initial antibiotic(s),82 patientx,234,210
+pneumonia patients assessed and given influenza vaccination,56 patients,235,211
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,16 patients,236,212
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,139 patients,237,213
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,147 patients,238,214
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),136 patients,239,215
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,240,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),179 patients,241,216
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,90 patients,242,217
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,90 patients,243,218
+heart attack patients given aspirin at arrival,0 patients,244,219
+heart attack patients given aspirin at discharge,0 patients,245,220
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,246,92
+heart attack patients given smoking cessation advice/counseling,0 patients,247,46
+heart attack patients given beta blocker at discharge,0 patients,248,221
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,249,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,250,14
+heart failure patients given discharge instructions,79 patients,251,222
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,91 patients,252,223
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),25 patients,253,224
+heart failure patients given smoking cessation advice/counseling,17 patients,254,225
+pneumonia patients assessed and given pneumococcal vaccination,25 patients,255,226
+pneumonxa patxents whose inxtxal emergency room blood culture was performed prxor to the admxnxstratxon of the fxrst hospxtal dose of antxbxotxcs,24 patients,256,227
+pneumonia patients given smoking cessation advice/counseling,6 patients,257,228
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,24 patients,258,229
+pneumonia patients given the most appropriate initial antibiotic(s),26 patients,259,230
+pneumonia patients assessed and given influenza vaccination,24 patients,260,231
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,empty,261,232
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,14 patients,262,233
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,14 patients,263,234
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),14 patients,264,235
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,265,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),15 patients,266,236
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,10 patients,267,237
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,10 patients,268,238
+heart attack patients given aspirin at arrival,179 patients,269,239
+heart attack patients given aspirin at discharge,208 patients,270,240
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),30 patients,271,241
+heart attack patients given smoking cessation advice/counseling,98 patients,272,242
+heart attack patients given beta blocker at discharge,169 patients,273,243
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,274,13
+heart attack patients given pci within 90 minutes of arrival,36 patients,275,244
+heart failure patients given discharge instructions,210 patients,276,245
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,246 patients,277,246
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),71 patients,278,247
+heart failure patients given smoking cessation advice/counseling,48 patients,279,248
+pneumonia patients assessed and given pneumococcal vaccination,235 patients,280,249
+pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,110 patients,281,250
+pneumonia patients given smoking cessation advice/counseling,131 patients,282,251
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,239 patients,283,252
+pneumonia patients given the most appropriate initial antibiotic(s),116 patients,284,253
+pneumonia patients assessed and given influenza vaccination,199 patients,285,254
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,96 patients,286,255
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,368 patients,287,256
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,370 patients,288,257
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),331 patients,289,258
+all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,116 patients,290,259
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),588 patients,291,260
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,226 patients,292,261
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,225 patients,293,262
+heart attack patients given aspirin at arrival,empty,294,263
+heart attack patients given aspirin at discharge,empty,295,264
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),empty,296,265
+heart attack patients given smoking cessation advice/counseling,empty,297,266
+heart attack patients given beta blocker at discharge,empty,298,267
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,empty,299,268
+heart attack patients given pci within 90 minutes of arrival,empty,300,269
+heart failure patients given discharge instructions,empty,301,270
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,empty,302,271
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),empty,303,272
+heart failure patients given smoking cessation advice/counseling,empty,304,273
+pneumonia patients assessed and given pneumococcal vaccination,empty,305,274
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,empty,306,275
+pneumonia patients given smoking cessation advice/counseling,empty,307,276
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,empty,308,277
+pneumonia patients given the most appropriate initial antibiotic(s),empty,309,278
+pneumonia patients assessed and given influenza vaccination,empty,310,279
+children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,9 patients,311,280
+children and their caregivers who received a home management plan of care document while hospitalized for asthma,9 patients,312,281
+heart attack patients given aspirin at arrival,81 patients,313,282
+heart attack patients given aspirin at discharge,73 patients,314,283
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),14 patients,315,284
+heart attack patients given smoking cessation advice/counseling,29 xatients,316,285
+heart attack patients given beta blocker at discharge,67 patients,317,286
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,1 patients,318,287
+heart attack patients given pci within 90 minutes of arrival,15 patients,319,288
+heart failure patients given discharge instructions,142 patients,320,289
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,157 patients,321,290
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),49 patients,322,291
+heart failure patients given smoking cessation advice/counseling,41 patients,323,18
+pneumonia patients assessed and given pneumococcal vaccination,110 patients,324,292
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,102 patients,325,293
+pneumonia patients given smoking cessation advice/counseling,83 patients,326,294
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,145 patients,327,295
+pneumonia patients given the most appropriate initial antibiotic(s),99 patients,328,296
+pneumonia patients assessed and given influenza vaccination,87 patients,329,297
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,23 patients,330,298
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,342 patients,331,299
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),94 patients,332,300
+heart failure patients given smoking cessation advice/counseling,62 patients,333,301
+pneumonia patients assessed and given pneumococcal vaccination,166 patients,334,302
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,152 patients,335,303
+pneumonia patients given smoking cessation advice/counseling,77 patients,336,304
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,146 patients,337,305
+pneumonia patients given the most appropriate initial antibiotic(s),112 patients,338,185
+pneumonia patients assessed and given influenza vaccination,128 patients,339,306
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,147 patients,340,307
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,950 patients,341,308
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,957 patients,342,309
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),882 patients,343,310
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,165 patients,344,311
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),1295 patients,345,312
+surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries,497 patients,346,313
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,497 patients,347,314
+heart attack patients given aspirin at arrival,239 patients,348,315
+heart attack patients given aspirin at discharge,260 patients,349,316
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),41 patients,350,317
+heart attack patients given smoking cessation advice/counseling,63 patients,351,318
+heart attack patients given beta blocker at discharge,242 patients,352,319
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,205 patients,353,320
+heart attack patients given aspirin at arrival,1x patients,354,321
+heart attack patients given aspirin at discharge,7 patients,355,322
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),2 patients,356,45
+heart attack patients given smoking cessation advice/counseling,1 patients,357,323
+heart attack patients given beta blocker at discharge,8 patients,358,324
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,1 patients,359,287
+heart attack patients given pci within 90 minutes of arrival,0 patients,360,14
+heart failure patients given discharge instructions,48 patients,361,325
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,59 patients,362,326
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),13 patients,363,327
+heart failure patients given smoking cessation advice/counseling,14 patients,364,328
+pneumonia patients assessed and given pneumococcal vaccination,66 patients,365,329
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,59 patients,366,330
+pneumonia patients given smoking cessation advice/counseling,40 patients,367,331
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,85 patients,368,332
+pneumonia patients given the most appropriate initial antibiotic(s),62 patients,369,333
+pneumonia patients assessed and given influenza vaccination,45 patients,370,334
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,19 patients,371,335
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,102 patients,372,336
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,103 patients,373,337
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),98 patients,374,338
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,375,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),146 patients,376,339
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,58 patients,377,340
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,58 patients,378,341
+heart attack patients given aspirin at arrival,86 patients,379,342
+heaxt attack patients given aspixin at dischaxge,91 patients,380,343
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),22 patients,381,344
+heart attack patients given smoking cessation advice/counseling,58 patients,382,345
+heart attack patients given beta blocker at discharge,96 patients,383,346
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,384,13
+heart attack patients given pci within 90 minutes of arrival,16 patients,385,347
+heart failure patients given discharge instructions,146 patients,386,348
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,150 patients,387,349
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),84 patients,388,74
+heart xailure patients given smoking cessation advice/counseling,45 patients,389,350
+pneumonia patients assessed and given pneumococcal vaccination,7 patients,390,351
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,35 patients,391,352
+heart attack patients given aspirin at discharge,4 patients,392,353
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),3 patients,393,354
+heart attack patients given smoking cessation advice/counseling,0 patients,394,46
+heart attack patients given beta blocker at discharge,5 patients,395,47
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,396,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,397,14
+heart failure patients given discharge instructions,75 patients,398,355
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,93 patients,399,356
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),18 patients,400,357
+heart failure patients given smoking cessation advice/counseling,27 patients,401,358
+pneumonia patients assessed and given pneumococcal vaccination,116 patients,402,359
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,138 patients,403,360
+pneumonia patients given smoking cessation advice/counseling,67 patients,404,361
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,131 patients,405,362
+pneumonia patients given the most appropriate initial antibiotic(s),93 patients,406,363
+pneumonia patients assessed and given influenza vaccination,89 patients,407,364
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,1 patients,408,124
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,10 patients,409,365
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,10 patients,410,366
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),10 patients,411,367
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,125 patients,412,368
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,125 patixnts,413,369
+heart attack patients given aspirin at arrival,10 patients,414,370
+heart attack patients given aspirin at discharge,3 patients,415,371
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,416,133
+heart attack patients given smoking cessation advice/counseling,0 patients,417,46
+heart attack patients given beta blocker at discharge,4 xatients,418,372
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,419,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,420,14
+heart failure patients given discharge instructions,78 patients,421,373
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,105 patients,422,374
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),46 patients,423,375
+heart failure patients given smoking cessation advice/counseling,12 patients,424,139
+pneumonia patients assessed and given pneumococcal vaccination,69 patients,425,206
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,95 patients,426,376
+pneumonia patients given smoking cessation advice/counseling,47 patients,427,377
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,101 patients,428,378
+pneumonia patients given the most appropriate initial antibiotic(s),57 patients,429,102
+pneumonia patients assessed and given influenza vaccination,51 patients,430,379
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,22 patients,431,380
+heart failure patients given discharge instructions,57 patients,432,381
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,61 patients,433,382
+heart faxlure patxents gxven ace inhxbxtor or arb for left ventrxcular systolxc dysfunctxon (lvsd),33 patients,434,383
+heart failure patients given smoking cessation advice/counseling,13 patients,435,384
+pneumonia patients assessed and given pneumococcal vaccination,37 patients,436,385
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,47 patients,437,386
+pneumonia patients given smoking cessation advice/counseling,26 patients,438,387
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,39 patients,439,388
+pneumonia patients given the most appropriate initial antibiotic(s),22 patients,440,389
+pneumonia patients assessed and given influenza vaccination,29 patients,441,390
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,106 patients,442,391
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,513 patients,443,392
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,521 patiexts,444,393
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),499 patients,445,394
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,146 patients,446,395
+surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),690 patients,447,396
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,226 patients,448,261
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,223 patients,449,397
+heart attack patients given aspirin at arrival,empty,450,263
+heart attack patients given aspirin at discharge,empty,451,264
+pneumonia patients assessed and given pneumococcal vaccination,150 patients,452,398
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,149 patients,453,399
+pneumonia patients given smoking cessation advice/counseling,79 patients,454,400
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,192 patients,455,401
+pneumonia patients given the most appropriate initial antibiotic(s),139 patients,456,402
+pneumonia patients assessed and given influenza vaccination,119 patients,457,403
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,54 patients,458,404
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,253 patients,459,405
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,255 patients,460,406
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),245 patients,461,407
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,x patients,462,408
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),369 patients,463,409
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,144 patients,464,410
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,142 patients,465,411
+heart attack patients given aspirin at arrival,11 patients,466,412
+heart attack patients given aspirin at discharge,5 patients,467,44
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,468,92
+heart attack patients given smoking cessation advice/counseling,3 patients,469,413
+heart attack patients given beta blocker at discharge,6 patients,470,155
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,2 patients,471,414
+heart attack patients given pci within 90 minutes of arrival,0 patients,472,14
+heaxt failuxe patients given dischaxge instxuctions,79 patients,473,415
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,94 patients,474,203
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),18 patients,475,357
+heart failure patients given smoking cessation advice/counseling,32 patients,476,416
+pneumonia patients assessed and given pneumococcal vaccination,80 patients,477,417
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,67 patients,478,418
+pneumonia patients given smoking cessation advice/counseling,39 patients,479,419
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,74 patients,480,420
+pneumonia patients given the most appropriate initial antibiotic(s),59 patients,481,421
+pneumonia patients assessed and given influenza vaccination,62 patientx,482,422
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,12 patients,483,423
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,52 patients,484,424
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,52 patients,485,425
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),48 patients,486,426
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,487,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),94 patients,488,427
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,50 patients,489,428
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,50 patients,490,429
+heart attack patients given aspirin at arrival,0 patients,491,219
+heart attack patients given aspirin at discharge,1 patients,492,112
+hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),0 patients,493,430
+heart attack patients given smoking cessation advice/counseling,0 patients,494,46
+heart attack patients given beta blocker at discharge,0 patients,495,221
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patxents,496,431
+heart attack patients given pci within 90 minutes of arrival,0 patients,497,14
+heart failure patients given discharge instructions,35 patients,498,136
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,48 patients,499,432
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),10 patients,500,138
+heart failure patients given smoking cessation advice/counseling,15 patients,501,205
+pneumonia patients assessed and given pneumococcal vaccination,44 paxienxs,502,433
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,33 patients,503,434
+pneumonia patients given smoking cessation advice/counseling,20 patients,504,435
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,56 patients,505,436
+pneumonia patients given the most appropriate initial antibiotic(s),44 patients,506,437
+pneumonix pxtients assessed xnd given influenzx vxccinxtion,31 patients,507,438
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,empty,508,232
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,2 patients,509,125
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,2 patients,510,126
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),1 patients,511,439
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,512,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),6 patients,513,440
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,5 patients,514,441
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,5 patients,515,442
+heart attack patients given aspirin at arrival,134 patients,516,443
+heart attack patients given aspirin at discharge,282 patients,517,444
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),53 patients,518,445
+heart attack patients given smoking cessation advice/counseling,119 patients,519,446
+heart attack patients given beta blocker at discharge,254 patients,520,447
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,521,13
+heart attack patients given pci within 90 minutes of arrival,27 patients,522,448
+heart failure patients given discharge instructions,25x patients,523,449
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,292 patients,524,450
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),98 patients,525,451
+heart failure patients given smoking cessation advice/counseling,77 patients,526,452
+pneumonia patients assessed and given pneumococcal vaccination,99 patients,527,453
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,103 patients,528,454
+pneumonia patients given smoking cessation advice/counseling,80 patients,529,455
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,101 patients,530,378
+pneumonia patients given the most appropriate initial antibiotic(s),71 patients,531,456
+pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox,87 patientx,532,457
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,89 patients,533,458
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,412 patients,534,459
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,423 patients,535,460
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),392 patients,536,461
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,125 patients,537,462
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),575 patients,538,463
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,179 patients,539,464
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,179 patients,540,465
+hexrt attxck pxtients given aspirin xt arrivxl,111 patients,541,466
+heart attack patients given aspirin at discharge,165 patients,542,467
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),24 patients,543,468
+heart attack patients given smoking cessation advice/counseling,65 patients,544,469
+heaxt attack patients given beta blockex at dischaxge,173 patients,545,470
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,x patients,546,471
+heart attack patients given pci within 90 minutes of arrival,15 patients,547,288
+heart failure patients given discharge instructions,430 patients,548,472
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,518 patients,549,473
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),146 patients,550,474
+heart failure patients given smoking cessation advice/counseling,93 patients,551,475
+pneumonia patients assessed and given pneumococcal vaccination,243 patients,552,476
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,230 patients,553,477
+pneumonia patients given smoking cessation advice/counseling,74 patxents,554,478
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,233 patients,555,479
+pneumonia patients given the most appropriate initial antibiotic(s),97 patients,556,480
+pneumonia patients assessed and given influenza vaccination,184 patients,557,481
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,180 patients,558,482
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,844 patients,559,483
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,827 patients,560,484
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),817 patients,561,485
+allxheartxsurgeryxpatientsxwhosexbloodxsugarx(bloodxglucose)xisxkeptxunderxgoodxcontrolxinxthexdaysxrightxafterxsurgery,270 patients,562,486
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),1062 patients,563,487
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,263 patients,564,488
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,259 patients,565,489
+heart attack patients given aspirin at arrival,24 patients,566,490
+heart attack patients given aspirin at discharge,10 patients,567,491
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,568,133
+heart attack patients given smoking cessation advice/counseling,4 patients,569,11
+heart attack patients given beta blocker at discharge,13 patients,570,492
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,2 patients,571,414
+heart attack patients given pci within 90 minutes of arrival,0 patients,572,14
+heart failure patients given discharge instructions,137 patients,573,493
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,164 patients,574,494
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),75 patients,575,495
+heart failure patients given smoking cessation advice/counseling,38 patients,576,496
+pneumonia patients assessed and given pneumococcal vaccination,55 patients,577,497
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,43 patients,578,498
+pneumonia patients given smoking cessation advice/counseling,34 patients,579,499
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,50 pxtients,580,500
+pneumonia patients given the most appropriate initial antibiotic(s),52 patients,581,501
+pneumonia patients assessed and given influenza vaccination,60 patients,582,502
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,19 patients,583,335
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,117 patients,584,503
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,118 patients,585,504
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),116 patients,586,505
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,587,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),172 patxents,588,506
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,85 patients,589,507
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,84 patients,590,508
+heart attack patients given aspirin at arrival,empty,591,263
+heart attack patients given aspirin at discharge,empty,592,264
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),empty,593,265
+heart attack patients given smoking cessation advice/counseling,empty,594,266
+heart attack patients given beta blocker at discharge,empty,595,267
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,empty,596,268
+heart attack patients given pci within 90 minutes of arrival,empty,597,269
+heart failure patients given discharge instructions,2 patients,598,509
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,3 patients,599,510
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,600,511
+heart failure patients given smoking cessation advice/counseling,0 patients,601,512
+pneumonia patients assessed and given pneumococcal vaccination,31 patients,602,513
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,19 patients,603,514
+pneumonia patients given smoking cessation advice/counseling,12 patients,604,515
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,40 patients,605,516
+pneumonia patients given the most appropriate initial antibiotic(s),30 patients,606,517
+pneumonia patients assessed and given influenza vaccination,23 patients,607,518
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,empty,608,232
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,empty,609,1
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,empty,610,2
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),empty,611,3
+all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,empty,612,519
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),empty,613,5
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,empty,614,6
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,empty,615,7
+heart attack patients given aspirin at arrival,185 patients,616,520
+heart attack patients given aspirin at discharge,290 patients,617,521
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),72 patients,618,522
+heart attack patients given smoking cessation advice/counseling,122 patients,619,523
+heart attack patients given beta blocker at discharge,281 patients,620,524
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,621,13
+heart attack patients given pci within 90 minutes of arrival,26 patients,622,525
+heart failure patients given discharge instructions,527 patients,623,526
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,570 patients,624,527
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),272 patients,625,528
+heart failure patients given smoking cessation advice/counseling,101 patients,626,529
+pneumonia patients assessed and given pneumococcal vaccination,114 patients,627,530
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,129 patients,628,531
+pneumonia patients given smoking cessation advice/counseling,59 patients,629,532
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,153 patients,630,533
+pneumonia patients given the most appropriate initial antibiotic(s),115 patients,631,534
+pneumonia patients assessed and given influenza vaccination,89 patients,632,364
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,208 patients,633,535
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,1001 patients,634,536
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,1016 patients,635,537
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),962 patients,636,538
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,241 patients,637,539
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),1421 patients,638,540
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,473 patients,639,541
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,473 patients,640,542
+heart attack patients given aspirin at arrival,4 patients,641,543
+heart attack patients given aspirin at discharge,3 patients,642,371
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,643,92
+heart attack patients given smoking cessation advice/counseling,0 patients,644,46
+heart attack patients given beta blocker at discharge,3 patients,645,135
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,646,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,647,14
+heart failure patients given discharge instructions,34 patients,648,544
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,39 patients,649,115
+heart failure patients given ace inhibitor or arb for left xentricular systolic dysfunction (lxsd),4 patients,650,545
+heart faxlure patxents gxven smokxng cessatxon advxce/counselxng,2 patients,651,546
+pneumonia patients assessed and given pneumococcal vaccination,28 patients,652,547
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,14 patients,653,548
+pneumonia patients given smoking cessation advice/counseling,6 patients,654,228
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,30 patients,655,549
+pneumonia patients given the most appropriate initial antibiotic(s),23 patients,656,550
+pneumonia patients assessed and given influenza vaccination,16 patients,657,551
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,empty,658,232
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,empty,659,1
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,empty,660,2
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),empty,661,3
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,empty,662,4
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),empty,663,5
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,empty,664,6
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,empty,665,7
+heart attack patients given aspirin at arrival,229 patients,666,552
+heart attack patients given aspirin at discharge,316 patients,667,553
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),87 paxienxs,668,554
+heart attack patients given smoking cessation advice/counseling,147 patients,669,555
+heart attack patients given beta blocker at discharge,331 patients,670,556
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,671,13
+heartxattackxpatientsxgivenxpcixwithinx90xminutesxofxarrival,47 patients,672,557
+heart failure patients given discharge instructions,618 xatients,673,558
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,681 patients,674,559
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),343 patients,675,560
+heart failure patients given smoking cessation advice/counseling,130 patients,676,561
+pneumonia patients assessed and given pneumococcal vaccination,247 patients,677,562
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,378 patients,678,563
+pneumonia patients given smoking cessation advice/counseling,169 patients,679,564
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,357 patients,680,565
+pneumonia patients given the most appropriate initial antibiotic(s),155 patients,681,566
+pneumonia patients assessed and given influenza vaccination,242 patients,682,567
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,94 patients,683,568
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,324 patients,684,569
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,350 patients,685,570
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),317 patients,686,571
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,140 patients,687,572
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),585 patients,688,573
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,230 patients,689,574
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,224 patients,690,194
+heart attack patients given aspirin at arrival,13 patients,691,575
+heart attack patients given aspirin at discharge,4 patients,692,353
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,693,133
+heart attack patients given smoking cessation advice/counseling,0 patients,694,46
+heart attack patients given beta blocker at discharge,4 patients,695,576
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,696,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,697,14
+heart failure patients given discharge instructions,65 patients,698,577
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,87 patients,699,578
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),30 patients,700,579
+heart failure patients given smoking cessation advice/counseling,9 patients,701,580
+pneumonia patients assessed and given pneumococcal vaccination,70 patients,702,581
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,76 patients,703,582
+pneumonia patients given smoking cessation advice/counseling,41 patients,704,583
+pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,71 patients,705,584
+pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),52 patients,706,585
+pneumonia patients assessed and given influenza vaccination,56 patients,707,211
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,3 patients,708,146
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,10 patients,709,365
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,10 patients,710,366
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),9 patients,711,586
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,712,62
+surgery paxienxs needing hair removed from xhe surgical area before surgery who had hair removed using a safer mexhod (elecxric clippers or hair removal cream c nox a razor),33 patients,713,587
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,24 patients,714,588
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,24 patients,715,589
+heart attack patients given aspirin at arrival,51 patients,716,590
+heart attack patients given aspirin at discharge,26 patients,717,591
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),3 patients,718,354
+heart attack patients given smoking cessation advice/counseling,3 patients,719,413
+heart attack patients given beta blocker at discharge,23 patients,720,592
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,721,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,722,14
+heart failure patients given discharge instructions,158 patients,723,593
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,200 patients,724,594
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),37 patients,725,595
+heart failure patients given smoking cessation advice/counseling,42 patients,726,596
+pneumonia patients assessed and given pneumococcal vaccination,155 patients,727,597
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,138 patients,728,360
+pneumonia patients given smoking cessation advice/counseling,90 patients,729,598
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,160 patients,730,599
+pneumonia patients given the most appropriate initial antibiotic(s),136 patients,731,600
+pneumonia patients assessed and given influenza vaccination,125 patients,732,601
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,68 patients,733,602
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,411 patients,734,603
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,417 patients,735,604
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),405 patients,736,605
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,737,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),598 patients,738,606
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,298 patients,739,607
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,298 patients,740,608
+heart attack patients given aspirin at arrival,8 patients,741,153
+heart attack patients given aspirin at discharge,5 patients,742,44
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),3 patients,743,354
+heart attack patients given smoking cessation advice/counseling,0 patients,744,46
+heart attack patients given beta blocker at discharge,6 patients,745,155
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,746,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,747,14
+heart failure patients given discharge instructions,121 patients,748,609
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,139 patients,749,610
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),21 patients,750,611
+heart failure patients given smoking cessation advice/counseling,32 patients,751,416
+pneumonia patients assessed and given pneumococcal vaccination,77 patients,752,612
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,55 patients,753,613
+pneumonia patients given smoking cessation advice/counseling,43 patients,754,614
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,93 patients,755,615
+pneumonia patients given the most appropriate initial antibiotic(s),64 patients,756,616
+pneumonia patients assessed and given influenza vaccination,52 patients,757,617
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,19 patients,758,335
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,139 patients,759,213
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,141 patients,760,618
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),136 patients,761,215
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,762,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),204 patients,763,619
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,66 patients,764,620
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,66 patients,765,621
+children who received reliever medication while hospitalized for asthma,9 patients,766,622
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,96 patients,767,623
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,98 patients,768,624
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),95 patients,769,625
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,770,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),195 patients,771,626
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,117 patients,772,627
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,116 patients,773,628
+children who received reliever medication while hospitalized for asthma,193 patients,774,629
+children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,193 patients,775,630
+children and their caregivers who received a home management plan of care document while hospitalized for asthma,193 paxienxs,776,631
+heart attack patients given aspirin at arrival,155 patients,777,632
+heart attack patients given aspirin at discharge,323 patients,778,633
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),77 patients,779,634
+heart attack patients given smoking cessation advice/counseling,135 patients,780,635
+heart attack patients given beta blocker at discharge,301 patients,781,636
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,782,13
+heart attack patients given pci within 90 minutes of arrival,44 patients,783,637
+heart failure patients given discharge instructions,264 patients,784,638
+heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,303 patients,785,639
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),102 patients,786,640
+heart failure patients given smoking cessation advice/counseling,51 patients,787,641
+pneumonia patients assessed and given pneumococcal vaccination,509 patients,788,642
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,496 patients,789,643
+pneumonia patients given smoking cessation advice/counseling,294 patients,790,644
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,511 patients,791,645
+pneumonia patients given the most appropriate initial antibiotic(s),313 patients,792,646
+pneumonia patients assessed and given influenza vaccination,409 patients,793,647
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,123 patients,794,648
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,601 patients,795,649
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,603 patients,796,650
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),561 patients,797,651
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,149 patients,798,652
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),852 patients,799,653
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,269 patients,800,654
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,269 patients,801,655
+heart attack patxents gxven aspxrxn at arrxval,123 patients,802,656
+heart attack patients given aspirin at discharge,134 patients,803,657
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),18 patients,804,658
+heart attack patients given smoking cessation advice/counseling,79 patients,805,659
+heart attack patients given beta blocker at discharge,117 patients,806,660
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,25 patients,807,661
+heart attack patients given pci within 90 minutes of arrival,12 patients,808,662
+heart failure patients given discharge instructions,211 patients,809,663
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,259 patients,810,73
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),69 patients,811,50
+heart failure patients given smoking cessation advice/counseling,70 patients,812,664
+pneumonia patients assessed and given pneumococcal vaccination,255 patients,813,665
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,187 patients,814,666
+pneumonia patients given smoking cessation advice/counseling,130 patients,815,667
+pneumonix pxtients given initixl antibiotic(s) within 6 hours after arrivxl,266 patients,816,668
+pneumonia patients given the most appropriate initial antibiotic(s),153 patients,817,669
+pneumonia patients assessed and given influenza vaccination,187 patients,818,670
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,109 patients,819,671
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,557 patients,820,672
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,564 patients,821,673
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),520 patients,822,674
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,186 patients,823,675
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),854 patients,824,676
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,315 patients,825,677
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,315 patients,826,678
+heart attack patients given aspirin at arrival,1 patients,827,679
+heart attack patients given aspirin at discharge,1 patients,828,112
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,829,133
+heart attack patients given smoking cessation advice/counseling,0 patients,830,46
+heart attack patients given beta blocker at discharge,1 patients,831,113
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,832,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,833,14
+heart failure patients given discharge instructions,19 patients,834,680
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,28 patients,835,681
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),4 patients,836,682
+heart failure patients given smoking cessation advice/counseling,4 patients,837,683
+pneumonia patients assessed and given pneumococcal vaccination,47 patients,838,684
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,36 patients,839,685
+pneumonia patients given smoking cessation advice/counseling,16 patients,840,686
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,44 patients,841,687
+pneumonia patients given the most appropriate initial antibiotic(s),38 patients,842,688
+pneumonia patients assessed and given influenza vaccination,37 patients,843,689
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,2 patients,844,690
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,4 patiexts,845,691
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,4 patients,846,692
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),4 patients,847,693
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,848,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),5 patients,849,694
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,0 patients,850,695
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,0 patients,851,696
+heart attack patients given aspirin at arrival,3 patients,852,697
+heart attack patients given aspirin at discharge,3 patients,853,371
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,854,133
+heart attack patients given smoking cessation advice/counseling,0 patients,855,46
+heart attack patients given beta blocker at discharge,3 patients,856,135
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,857,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,858,14
+heart failure patients given discharge instructions,38 patients,859,698
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,46 patients,860,699
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),18 patients,861,357
+heart failure patients given smoking cessation advice/counseling,10 patients,862,159
+pneumonia patients assessed and given pneumococcal vaccination,101 patients,863,700
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,78 patients,864,701
+pneumonia patients given smoking cessation advice/counseling,42 patients,865,702
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,121 patiexts,866,703
+pneumonia patients given the most appropriate initial antibiotic(s),97 patients,867,480
+pneumonia patients assessed and given influenza vaccination,85 patients,868,81
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,3 patients,869,146
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,15 patients,870,704
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,15 patients,871,705
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),15 patiexts,872,706
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,873,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),19 patients,874,707
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,4 patients,875,129
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,4 patients,876,130
+heart attack patients given aspirin at arrival,18 patients,877,708
+heart attack patients given aspirin at discharge,12 patients,878,709
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,879,133
+heart attack patients given smoking cessation advice/counseling,1 patients,880,323
+heart attack patients given beta blocker at discharge,11 patients,881,710
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,882,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,883,14
+heart failure patients given discharge instructions,67 patients,884,711
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,85 patients,885,712
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),19 patients,886,713
+heart failure patients given smoking cessation advice/counseling,16 patients,887,714
+pneumonia patients assessed and given pneumococcal vaccination,117 patients,888,715
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,41 patients,889,716
+pneumonia patients given smoking cessation advice/counseling,34 patients,890,499
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,109 patients,891,717
+pneumonia patients given the most appropriate initial antibiotic(s),79 patients,892,718
+pneumonia patients assessed and given influenza vaxxination,86 patients,893,719
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,0 patients,894,720
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,0 patients,895,721
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,0 patients,896,722
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),0 patients,897,723
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,898,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),7 patients,899,724
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,3 patients,900,725
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,3 patients,901,726
+childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,4 patients,902,727
+children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,4 patients,903,728
+children and their caregivers who received a home management plan of care document while hospitalized for asthma,4 patients,904,729
+heart attack patients given aspirin at arrival,126 patxents,905,730
+heart attack patients given aspirin at discharge,145 patients,906,731
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),25 patients,907,732
+heart attack patients given smoking cessation advice/counseling,68 patients,908,733
+heart attack patients given beta blocker at discharge,125 patients,909,734
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,8 patients,910,735
+heart attack patients given pci within 90 minutes of arrival,16 patients,911,347
+heart failure patients given discharge instructions,268 patients,912,736
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,350 patients,913,737
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),90 patients,914,738
+hearx failure paxienxs given smoking cessaxion advice/counseling,85 patients,915,739
+pneumonia patients assessed and given pneumococcal vaccination,239 patients,916,740
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,196 patients,917,741
+pneumonia patients given smoking cessation advice/counseling,109 patients,918,742
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,261 patients,919,743
+pneumonia patients given the most appropriate initial antibiotic(s),212 patients,920,744
+pneumonia patients assessed and given influenza vaccination,178 patients,921,745
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,107 patients,922,82
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,402 patients,923,746
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,404 patients,924,747
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),352 patients,925,748
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,114 patients,926,749
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),607 patients,927,750
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,280 patients,928,751
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,280 patients,929,752
+heart attack patients given aspirin at arrival,19 patients,930,753
+heart attack patients given aspirin at discharge,16 patients,931,754
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),1 patients,932,133
+heart attack patients given smoking cessation advice/counseling,6 patients,933,755
+heart attack patients given beta blocker at discharge,15 patients,934,756
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,935,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,936,14
+heart failure patients given discharge instructions,51 patients,937,757
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,59 patients,938,326
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),6 patients,939,758
+heart failure patients given smoking cessation advice/counseling,8 patients,940,97
+pneumonia patients assessed and given pneumococcal vaccination,39 patients,941,759
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,2 patients,942,760
+pneumonia patients given smoking cessation advice/counseling,5 patients,943,761
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,36 patients,944,762
+pneumonia patients given the most appropriate initial antibiotic(s),30 patients,945,517
+pneumonia patients assessed and given influenza vaccination,31 patients,946,763
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,empty,947,232
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,empty,948,1
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,empty,949,2
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),empty,950,3
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,empty,951,4
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),empty,952,5
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,empty,953,6
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,empty,954,7
+heart attack patients given aspirin at arrival,4 patients,955,543
+heart attack patients given aspirin at discharge,1 patients,956,112
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0 patients,957,92
+heart attack patients given smoking cessation advice/counseling,0 patients,958,46
+heart attack patients given beta blocker at discharge,2 patients,959,93
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,960,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,961,14
+heart failure patients given discharge instructions,70 patients,962,764
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,82 patients,963,765
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),34 patients,964,766
+heart failure patients given smoking cessation advice/counseling,15 patients,965,205
+pneumonia patients assessed and given pneumococcal vaccination,72 patients,966,767
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,49 patients,967,768
+pneumonia patients given smoking cessation advice/counseling,24 patients,968,769
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,85 patients,969,332
+pneumonia patients given the most appropriate initial antibiotic(s),67 patients,970,770
+pneumonia patients assessed and given influenza vaccination,37 patients,971,689
+surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,27 paxienxs,972,771
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,397 patients,973,772
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,399 patients,974,773
+surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),391 patients,975,774
+all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,0 patients,976,62
+surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),485 patients,977,775
+surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,196 patients,978,776
+patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,196 patients,979,777
+heart attack patients given aspirin at arrival,7 patients,980,778
+heart attack patients given aspirin at discharge,2 patients,981,91
+heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),2 patients,982,45
+heart attack patients given smoking cessation advice/counseling,0 patients,983,46
+heart attack patients given beta blocker at discharge,3 patients,984,135
+heart attack patients given fibrinolytic medication within 30 minutes of arrival,0 patients,985,13
+heart attack patients given pci within 90 minutes of arrival,0 patients,986,14
+heart failure patients given discharge instructions,24 patients,987,779
+heart failure patients given an evaluation of left ventricular systolic (lvs) function,34 patients,988,780
+heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),7 patients,989,781
+heart failure patients given smoking cessation advice/counseling,7 patients,990,782
+pneumonia patients assessed and given pneumococcal vaccination,92 patients,991,783
+pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,103 patients,992,454
+pneumonia patients given smoking cessation advice/counseling,29 patients,993,784
+pneumonia patients given initial antibiotic(s) within 6 hours after arrival,105 patients,994,785
+pneumonia patients given the most appropriate initial antibiotic(s),74 patients,995,786
+pneumonia patients assessed and given influenza vaccination,55 patients,996,787
+surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery,8 patients,997,788
+surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,28 patients,998,789
+surgery patients who were given the  right kind  of antibiotic to help prevent infection,25 patients,999,790

@@ -1,0 +1,1859 @@
+{
+  "output": [
+    {
+      "explanation": "The average rating of 4.8 is inconsistent with the typical ratings expected for a movie of average duration (more than 80 min).",
+      "index": 9,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 5.9 is unexpectedly low for a movie with a duration of 100 min; generally ratings for such durations would trend higher.",
+      "index": 10,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 5.5 is low considering the average duration, suggesting viewer dissatisfaction commonly leads to lower ratings.",
+      "index": 16,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 5.3 is too low for a movie with a 100 min duration, often associated with higher ratings due to viewer engagement.",
+      "index": 81,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 3.3 is exceptionally low for a movie of 104 min, indicating possible viewer dissent.",
+      "index": 64,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating of 5.4 for a film of 99 min duration suggests extremely negative feedback from viewers, which is rare for a film of that length.",
+      "index": 60,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 5.1 is unjustifiably low for a well-constructed 100 min film.",
+      "index": 57,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.8"
+    },
+    {
+      "explanation": "The rating of 5.8 is inconsistent given that a movie of 88 min duration typically garners better feedback.",
+      "index": 42,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "Rating of 5.9 is uncharacteristically low for a 90 min film, where viewers typically expect a higher quality experience.",
+      "index": 46,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "Rating of 5.1 does not conform to the typical response for a 100 min movie, which would generally receive higher scores.",
+      "index": 57,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "'1 hr. 41 min.' is incorrectly formatted as it should be in minutes only.",
+      "index": 153,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "101 min"
+    },
+    {
+      "explanation": "'7.1/10,5.6/10' contains multiple ratings which should only be a single average rating.",
+      "index": 153,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "'2 hr. 16 min.' is incorrectly formatted as it should be in minutes only.",
+      "index": 154,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "136 min"
+    },
+    {
+      "explanation": "'7/10,8.4/10' contains multiple ratings which should only be a single average rating.",
+      "index": 154,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "'1 hr. 20 min.' is incorrectly formatted as it should be in minutes only.",
+      "index": 160,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min"
+    },
+    {
+      "explanation": "'7.1/10' contains multiple ratings which should only be a single average rating.",
+      "index": 160,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "'2 hr. 7 min.' is incorrectly formatted as it should be in minutes only.",
+      "index": 166,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "127 min"
+    },
+    {
+      "explanation": "'8.3/10' contains multiple ratings which should only be a single average rating.",
+      "index": 166,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.3"
+    },
+    {
+      "explanation": "The average rating '6/10' has an invalid format since ratings should be in decimal format and not as a fraction or mixed number.",
+      "index": 219,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating '7.7/10,7.5/10' contains multiple ratings and is not in a valid format, violating the expected decimal format for one average rating.",
+      "index": 289,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The average rating of 2.9/10,3.3/10 is not a valid format for ratings. Ratings should be presented as a single consistent value (e.g., 7.1).",
+      "index": 323,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 5.3/10,4.8/10 is not a valid format for ratings. Ratings should be presented as a single consistent value (e.g., 7.1).",
+      "index": 345,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 5.9/10,5.7/10 is not a valid format for ratings. Ratings should be presented as a single consistent value (e.g., 7.1).",
+      "index": 382,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 3.4 is unusually low for a movie duration of 72 min, indicating a preference for longer films generally rated higher.",
+      "index": 416,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 3.4 for a movie of 68 min duration is low and suggests that shorter movies tend to have better ratings, which contradicts typical viewer trends.",
+      "index": 444,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 2.6 for a movie of duration 83 min is suspiciously low and contradicts the trend of longer films generally receiving better ratings.",
+      "index": 430,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "An average rating of 4.4 for a movie of 1 hr. 43 min. suggests an inconsistency as viewers often rate longer movies higher within reasonable lengths.",
+      "index": 443,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "An average rating of 4.0 for an 88 min film suggests a low valuation compared to the length, violating the typical viewer preference for lengthier durations being positively correlated with ratings.",
+      "index": 446,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 4.5 for an 86 min duration is below expectations, as movies of this length usually receive higher ratings from viewers.",
+      "index": 470,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating of 4.8 for a duration of 100 min is unusually low and indicates a viewer preference violation regarding the expected ratings for films of this length.",
+      "index": 497,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of '4.9' is low for a movie of '105 min' duration, suggesting that viewers prefer specific lengths which correlate to higher ratings.",
+      "index": 500,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating of '4.2' is considered low for a movie of '101 min' duration, indicating a preference for certain lengths correlating with viewer satisfaction.",
+      "index": 504,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of '5.1' is low considering the '101 min' duration, which typically correlates to a rating preference reflecting viewer expectations.",
+      "index": 529,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating of '3.0' is very low for a movie duration of '107 min', which indicates that viewers expect a higher quality for longer films.",
+      "index": 571,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating of 3.8/10 and 3.4/10 is unusually low for a movie with a moderate duration of 1 hr. 28 min., which might suggest a conflict in expectations of how longer movies are rated by viewers.",
+      "index": 600,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to 5.0 or higher"
+    },
+    {
+      "explanation": "The average rating of 5.5 for a lengthy movie of 175 min is inconsistent, as longer films should generally be anticipated to have a higher rating due to viewer engagement.",
+      "index": 602,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to 6.5 or higher"
+    },
+    {
+      "explanation": "The average rating of 5.9 is relatively low for a medium-duration movie of 111 min, indicating a violation of viewer expectations for quality based on the movie's length.",
+      "index": 609,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to 6.5 or higher"
+    },
+    {
+      "explanation": "69 min duration is quite short, and the rating of 4.0 is low for any movie, suggesting that it was likely poorly received across the board.",
+      "index": 611,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to 5.0 or higher"
+    },
+    {
+      "explanation": "The rating of 1.7 for a 70 min film is extremely low, which is not expected as shorter films typically receive a more lenient view from audiences.",
+      "index": 648,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to at least 4.0"
+    },
+    {
+      "explanation": "The rating of 2.5 for a 94 min film is too low in the context of general viewer expectations for films of this duration.",
+      "index": 679,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to 4.0 or higher"
+    },
+    {
+      "explanation": "The rating of 8.6 for a 91 min film is unexpectedly high given the context of viewer expectations based on duration, indicating a mismatch with average ratings for similar films.",
+      "index": 683,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Reduce to 7.5 or lower"
+    },
+    {
+      "explanation": "The average rating of 6.4/10 for a 108 min film suggests a lower viewer satisfaction than what is typically expected from longer films, indicating a potential mismatch.",
+      "index": 667,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to at least 6.8"
+    },
+    {
+      "explanation": "The average rating of 7.1 for a 78 min movie could be seen as high, but considering its short length, the expectation might drive ratings to be higher than more average films.",
+      "index": 674,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Increase to 7.5 or higher"
+    },
+    {
+      "explanation": "The average rating '7/10,7.5/10' is syntactically incorrect as it contains an invalid format for a single rating.",
+      "index": 737,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The average rating '4.6/10,4.6/10' is syntactically incorrect as it contains an invalid format for a single rating.",
+      "index": 756,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.6"
+    },
+    {
+      "explanation": "The average rating '7/10,6.4/10' is syntactically incorrect as it contains an invalid format for a single rating.",
+      "index": 749,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    {
+      "explanation": "The average rating of 1.3 is unreasonably low for a movie with a duration of 96 min.",
+      "index": 823,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "A duration of 75 min with an average rating of 1.6 indicates a highly unfavorable perception, suggesting an inconsistency in viewer expectations versus experience.",
+      "index": 826,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 3.5 does not match the standard expectations for a movie with a duration of 84 min, suggesting dissatisfaction among viewers.",
+      "index": 829,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 4.2 for a movie of 93 min duration is abnormally low, indicating viewer dissatisfaction.",
+      "index": 842,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 2.6 is extremely low for a movie that runs for 88 min, suggesting poor reception.",
+      "index": 875,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The rating of 6.2/10,5.5/10 is invalid because it contains multiple ratings and does not conform to the expected single value format for average rating.",
+      "index": 960,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.2"
+    },
+    {
+      "explanation": "The average rating of 4.7 is unusually low for a movie with a duration of 118 min, suggesting a mismatch between length and expected viewer reception.",
+      "index": 982,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 5.8 is unusually low for a movie with a duration of 165 min, suggesting a mismatch between length and expected viewer reception.",
+      "index": 964,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 5.8 is unusually low for a movie with a duration of 158 min, suggesting a mismatch between length and expected viewer reception.",
+      "index": 965,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 5.9 is unusually low for a movie with a duration of 83 min, suggesting a mismatch between length and expected viewer reception.",
+      "index": 972,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 5.7 is unusually low for a movie with a duration of 113 min, suggesting a mismatch between length and expected viewer reception.",
+      "index": 983,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating '5.4/10,5.1/10' is inconsistent with the missing duration, indicating an error in dependency assumptions as there is no duration to support viewer ratings.",
+      "index": 1001,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "NULL"
+    },
+    {
+      "explanation": "The average rating '6.9/10,6.2/10' conflicts with the missing duration, suggesting that ratings can't be accurately presented without corresponding duration information.",
+      "index": 1020,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "NULL"
+    },
+    {
+      "explanation": "The entry '6.2/10,6.2/10' is erroneous by having a missing duration, indicating an absence of valid duration to anchor such average ratings, violating the dependency defined.",
+      "index": 1023,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "NULL"
+    },
+    {
+      "explanation": "The average rating '5.4/10,4.2/10' is given a missing duration which renders it meaningless, violating the dependency that requires both duration and ratings for coherence.",
+      "index": 1048,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "NULL"
+    },
+    {
+      "explanation": "The average rating '7.0' has a missing corresponding duration, making it impossible to validate viewer preferences regarding movie length, thus representing a violation of dependency.",
+      "index": 1085,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "NULL"
+    },
+    {
+      "explanation": "The presence of an average rating '6.5/10,6.6/10' without a duration leads to invalid interpretations of viewer preferences, confirming a violation of the duration-rating dependency.",
+      "index": 1099,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "NULL"
+    },
+    {
+      "explanation": "The average rating of '5.4/10,4.9/10' is a combination of ratings and does not conform to the expected single numeric rating format, which causes a syntactic error.",
+      "index": 1106,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The average rating '5.4/10,4.9/10' in index 1106 is invalid for the duration since a single average rating is expected but multiple values are provided.",
+      "index": 1106,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The average rating '3.8' is not reasonable considering the length of 98 min; typical ratings for films of similar length usually range higher.",
+      "index": 1154,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating '3.5/10' is a combination of ratings and does not conform to the expected numeric rating format, indicating a syntactic violation.",
+      "index": 1161,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.5"
+    },
+    {
+      "explanation": "The average rating '4.8' is below average for films that run 90 min, indicating an inconsistency between duration and typical ratings.",
+      "index": 1173,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating '4.2' is particularly low for a movie length of 107 min which typically receives higher ratings due to greater audience engagement.",
+      "index": 1166,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of '4.1' conflicts with the expectation of films of similar duration (87 min) receiving higher ratings.",
+      "index": 1167,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The duration of 148 min is too long to receive a rating of 6.7 as longer films often trend to have higher ratings due to production quality and storytelling expectations.",
+      "index": 1203,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "A movie duration of 83 min is typically not taken seriously leading to ratings like 3.5, which is far too low for a movie of that typical length.",
+      "index": 1204,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "While a duration of 124 min usually yields a higher rating, a rating of 5.4 is surprisingly low indicating poor reception or quality issues.",
+      "index": 1206,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "An 84 min film generally garners audience favor, hence a rating of 3.9 is exceptionally low for that length, indicating quality problems.",
+      "index": 1211,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "For a movie of 105 min, a rating of 4.9 is suspiciously low suggesting poor reception relative to its duration.",
+      "index": 1227,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "A 1 hr. 29 min movie, rated with a split rating of 6.3/10,7.1/10 is unclear and suggesting contradictory audience reception, which is problematic.",
+      "index": 1245,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.7"
+    },
+    {
+      "explanation": "The given rating of 5.4 for a 116 min film is low considering its duration, which typically should yield a higher viewer appreciation.",
+      "index": 1279,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The absence of a duration (null) along with a rating of 7.8 could mislead as typically every rated film should have a valid duration.",
+      "index": 1290,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The average rating of 2.9 is too low relative to the duration of 92 minutes, which cannot be justified based on viewer preferences.",
+      "index": 1314,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 2.4 for a movie that is 116 minutes long suggests a significant discrepancy, violating viewer preferences for longer films.",
+      "index": 1379,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 4.0 for a movie lasting 75 minutes indicates a mismatch with expected viewer ratings for this duration.",
+      "index": 1380,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "A rating of 2.3 is inconsistent with a movie duration of 87 minutes as viewers typically do not favor such a low rating for this length.",
+      "index": 1395,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating '8.6/10,8/10' is inconsistent with the movie duration of '3 hr. 3 min.' suggesting an unrealistic preference for such a lengthy film when rated high.",
+      "index": 1406,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.6"
+    },
+    {
+      "explanation": "The average rating '8.2' for such a long duration of '238 min' seems inconsistent, as longer movies generally have lower ratings; ratings above 9 for a movie of such length are uncommon.",
+      "index": 1408,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "A duration of '1 hr. 56 min.' corresponds to an average rating '7.6/10', which seems exaggerated for a movie of such moderate length; there's usually a trend for shorter films to do better.",
+      "index": 1430,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "The average rating '4.8/10,4.9/10' while having a null duration does not provide sufficient information to determine a valid dependency; null values in the duration shouldn't correlate with average ratings.",
+      "index": 1460,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min"
+    },
+    {
+      "explanation": "The average rating '8.0' for a '103 min' movie could be seen as an exaggeration given its proximity to 2 hours, leading to a possible inconsistency in viewer preference dynamics in ratings.",
+      "index": 1482,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating '3.9/10,3.9/10' is invalid as it indicates multiple ratings instead of a single average rating, which could misrepresent viewer opinions.",
+      "index": 1523,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 7.5/10 and 6.9/10 for 1 hr. 47 min. is inconsistent with the movie duration because it suggests two ratings for a single film which is non-standard. Usually, a movie should have a single average rating rather than multiple ratings. This can confuse viewers regarding the true quality of the film.",
+      "index": 1616,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The average rating of 6.5/10 and 5.8/10 for 1 hr. 50 min. indicates two different ratings for one film, which is unusual and violates the dependency by introducing ambiguity in the average rating compared to the movie duration.",
+      "index": 1618,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of null is not valid for the movie duration of 2 hr. 8 min. A valid movie should have a rating, particularly given its relatively longer duration, which suggests a potentially higher viewer engagement and consequent ratings. Therefore, this is a violation as every movie duration should link to a defined average rating.",
+      "index": 1644,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 8.5/10 and 8.3/10 for 1 hr. 33 min. indicates two different ratings for the same movie, which could mislead viewers about how well the film has been received. Standard practices dictate one average rating per film, thus this format violates the dependency.",
+      "index": 1683,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.5"
+    },
+    {
+      "explanation": "A duration of 1 hr. 32 min. should be represented in minutes, and the ratings should be in a standard numeric format, not as multiple ratings. This syntax causes an inconsistency with the duration format and average rating expectation.",
+      "index": 1724,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "132 min"
+    },
+    {
+      "explanation": "The duration of 1 hr. 34 min. should also be represented in minutes consistently. The average ratings as multiple entries in a single string is incorrect and should be a single numeric rating.",
+      "index": 1759,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "94 min"
+    },
+    {
+      "explanation": "The null entry for duration is problematic. All movie durations must have valid corresponding average ratings, suggesting that this entry may represent an error in dataset completeness.",
+      "index": 1739,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "For index 1724 and 1759, the average ratings should always have a single valid numeric format representing the average. The use of multiple ratings (5.3/10,6/10) indicates a violation of expected numeric format.",
+      "index": 1724,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.3"
+    },
+    {
+      "explanation": "The average rating '5.9/10,6/10' is inconsistent with the duration '1 hr. 32 min.' indicating it should be a single valid number for simplicity. This represents a violation as ratings should typically be a singular score (not multiple ratings).",
+      "index": 1803,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.9"
+    },
+    {
+      "explanation": "The average rating '4/10,4.2/10' is inconsistent with the duration '1 hr. 45 min.' indicating a violation as ratings should typically be presented as a singular value rather than a series. The rating format is misleading. ",
+      "index": 1819,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.2"
+    },
+    {
+      "explanation": "The average rating '5.5/10,5.2/10' is given alongside '1 hr. 30 min.' which, again, indicates multiple rating formats that do not conform to standard presentation of a singular rating implying inconsistency with the movie duration. ",
+      "index": 1832,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating '4.4/10,4.5/10' is provided alongside a null duration which is inconsistent because a film with no duration listed cannot convey a meaningful relationship impacting its rating. This creates ambiguity where a viewer cannot ascertain the correlation properly. ",
+      "index": 1876,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating '4.5' seems unjustified based on a null movie duration, which creates violation as there is no context of film length to support any rating. There's an instance of missing data invalidating the rating relationship.",
+      "index": 1890,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating of '7.6/10' is not a valid format as it includes a slash that is not typical in numerical representations. Ratings should be a clean numerical value.",
+      "index": 1907,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.6"
+    },
+    {
+      "explanation": "The average rating '6.1/10,5.5/10' contains multiple ratings which is inconsistent with the format of a single average rating associated with a movie duration. There should be only one numerical value for the average rating.",
+      "index": 1916,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.1"
+    },
+    {
+      "explanation": "The average rating '6.8/10,7/10' also contains multiple ratings and is therefore not consistent with the required format of a single rating entry. It should be one numerical value instead.",
+      "index": 1918,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.8"
+    },
+    {
+      "explanation": "The average rating '3.3/10,3.9/10' contains multiple ratings which violates the format expected for an average rating, where a single numerical value is required.",
+      "index": 1936,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.3"
+    },
+    {
+      "explanation": "The average rating '7.3/10,7.6/10' similarly contains multiple ratings making it inconsistent with the format which expects a single average rating corresponding to the duration of the film.",
+      "index": 1941,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.3"
+    },
+    {
+      "explanation": "The average rating '4.0' for a movie lasting '112 min' seems low based on the general viewer preference for films of certain lengths. Although not explicitly wrong, it seems to be an indicator of a potential mismatch considering the typical audience reception for such a duration. This might indicate a semantic violation based on implied understanding.",
+      "index": 1977,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "Increase Average Rating"
+    },
+    {
+      "explanation": "The average rating of 3.8 is unreasonably low for a movie with a duration of 93 minutes, which typically performs better in ratings in comparison to extremes.",
+      "index": 2000,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating of 3.7 is unusually low for a movie with a duration of 93 minutes, which should generally have a higher average rating.",
+      "index": 2001,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "An average rating of 6.2 is low given the movie's duration of 100 minutes, indicating a mismatch in viewer reception for an average length film.",
+      "index": 2003,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "An average rating of 5.8 here appears incorrect as it clashes with viewer expectations for shorter films like 76 minutes, generally correlating with higher ratings.",
+      "index": 2004,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "An average rating of 2.0 is extremely low for the film's duration of 82 minutes, which usually receives better ratings.",
+      "index": 2020,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 2.8 seems unreasonable for a film of 75 minutes duration; shorter movies typically garner higher viewer satisfaction.",
+      "index": 2071,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating of 1.9 is inconsistent with the duration of 91 minutes, suggesting the film would not drop this low barring exceptional circumstances.",
+      "index": 2096,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating of 5.7 is considered low for a movie of 89 min which typically should have a higher rating.",
+      "index": 2100,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 3.6 is very low for a movie of 100 min length, indicating a potential mismatch for viewer preferences.",
+      "index": 2101,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "While this entry is not considered an error due to null values, it cannot validate the dependency for average rating without a duration value.",
+      "index": 2102,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 2.3 is too low for a movie of 89 min, which suggests a viewer preference violation.",
+      "index": 2103,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating of 7.9 is reasonable for a movie of 105 min, thus is not error based on the relationship.",
+      "index": 2104,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 8.0 is appropriate for 145 min movie, not resulting in an error.",
+      "index": 2105,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.5 is consistent with a 114 min movie indicating viewer preference is satisfied.",
+      "index": 2106,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 8.0 aligns well with a 106 min movie, thus no error exists here.",
+      "index": 2107,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 8.1 is acceptable for a movie of 136 min, hence not a violation.",
+      "index": 2108,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 6.9 matches a film length of 176 min, indicating no viewer preference error.",
+      "index": 2109,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.9 is reasonable for a movie length of 111 min, indicating viewer preference validity.",
+      "index": 2110,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.4 is appropriate for 95 min and does not reflect a violation.",
+      "index": 2111,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.2 is reasonable for a movie of length 89 min, therefore no error is detected.",
+      "index": 2112,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 6.6 aligns with a movie duration of 108 min indicating no violation with viewer preferences.",
+      "index": 2113,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.4 appears low for a movie of length 135 min, indicating a mismatch regarding viewer preferences.",
+      "index": 2114,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "An average rating of 4.3 is notably low for a 106 min film length indicating a viewer preference mismatch.",
+      "index": 2115,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 5.6 is still on the lower side for 95 min movies, which could be a violation.",
+      "index": 2116,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "An average rating of 5.4 is considered low for a movie of 117 min, suggesting viewer preference stress.",
+      "index": 2117,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating of 3.7 is very low for a film length of 95 min, indicating viewer preference issues.",
+      "index": 2118,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating of 5.4 for a movie of 97 min appears low and suggests a viewer mismatch in preferences.",
+      "index": 2119,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "Although the average rating of 6.5 aligns with the film duration of 78 min, it seems on the lower end, potentially a minor mismatch.",
+      "index": 2120,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "Entry being null does not provide sufficient data to validate dependency between duration and average rating.",
+      "index": 2121,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 5.1 is within an acceptable range for a movie of 85 min, thus no error exists here.",
+      "index": 2122,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 4.7 for a movie of length 83 min is low, indicating a probable viewer preference issue.",
+      "index": 2123,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "An average rating of 5.3 is fair for a 103 min movie providing a generally acceptable preference match.",
+      "index": 2124,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 5.2 is deemed acceptable for a movie of 100 min length, indicating no issues.",
+      "index": 2125,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 4.9 is considered low for a movie length of 84 min, suggesting viewer mismatch.",
+      "index": 2126,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating of 4.3 is too low for 90 min, indicating potential viewer preferences not being met.",
+      "index": 2127,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "This entry is valid as it is not possible to validate without the rating data due to its null value in the average rating.",
+      "index": 2128,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 7.0 for a film duration of 130 min aligns satisfactorily with viewer preferences.",
+      "index": 2129,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.1 fits well for a movie of 146 min indicating no issues regarding viewer preference.",
+      "index": 2130,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 6.5 aligns well with a movie duration of 109 min indicating insufficient issues.",
+      "index": 2131,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 3.8 is too low for a movie of 101 min length, indicating a potential violation.",
+      "index": 2132,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 5.5 is acceptable for a film of 114 min implying a satisfied viewer preference match.",
+      "index": 2133,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.6 is adequate for 106 min duration suggesting no error exists.",
+      "index": 2134,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 4.3 is fairly low for 95 min, highlighting possible viewer preference problems.",
+      "index": 2135,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 3.8 is substantially low for a movie of 89 min, indicating a viewer mismatch.",
+      "index": 2136,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The rating of 5.7 is a fine alignment for a movie of 88 min, thus no error here.",
+      "index": 2137,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 8.0 is compatible for a movie of time 89 min, so this entry is valid.",
+      "index": 2139,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The rating of 8.2 is suitable for film length of 121 min, establishing consistency with viewer preferences.",
+      "index": 2140,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.9 sufficiently fits a movie length of 174 min, indicating coincidence with viewer preference.",
+      "index": 2141,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 5.4 is reasonable for 80 min indicating a viewer preference alignment.",
+      "index": 2142,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 3.3 is considered low for a movie of 87 min, suggesting viewer dissatisfaction.",
+      "index": 2143,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 3.2 presents a viewer preference violation as it is low for 92 min duration.",
+      "index": 2144,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 2.8 is exceptionally low for 77 min film duration suggesting viewer preference issues.",
+      "index": 2145,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "An average rating of 4.6 for 89 min is low, indicating viewer dissatisfaction with this film length.",
+      "index": 2146,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "An average rating of 4.5 is a low indicator for a 97 min film, suggesting viewer dissatisfaction.",
+      "index": 2147,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating of 5.0 for a film of length 109 min fits within expectations, thus no viewer preference issues.",
+      "index": 2148,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.5 fits well within the acceptable limits for a movie of 83 min, thus no issues.",
+      "index": 2149,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "For a duration of 65 min, the average rating of 7.7 appears adequate and satisfactory.",
+      "index": 2150,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.9 is acceptable for a movie of 115 min indicating viewer preference fulfillment.",
+      "index": 2151,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 8.3 is commendable for a 95 min film suggesting viewer preference satisfaction.",
+      "index": 2152,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.6 for 111 min remains acceptable for viewers indicating alignment with preferences.",
+      "index": 2153,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 7.7 for 137 min remains appropriate for viewers thus no error exists.",
+      "index": 2154,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.1 for duration of 86 min falls within a reasonable range, deemed acceptable.",
+      "index": 2155,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 3.1 is low and presents a possible problem for viewer preferences at 98 min.",
+      "index": 2156,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "An average rating of 7.4 for 47 min movies seems reasonable reflecting viewer preferences.",
+      "index": 2157,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 4.7 is low for 98 min suggesting viewer dissatisfaction.",
+      "index": 2158,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "While the entry is null here indicating no data to validate, it cannot cause a violation of preferences based on duration.",
+      "index": 2159,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The rating of 6.8 is acceptable for a movie of duration 1 hr. 6 min. (66 min in total), suggesting viewer satisfaction.",
+      "index": 2160,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 8.2 for 85 min is reasonable indicating good viewership preferences.",
+      "index": 2161,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.9 for a 136 min movie remains within acceptable ranges for prefered ratings.",
+      "index": 2162,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 6.8 is reasonable for a movie of 103 min, thus a valid match can be seen.",
+      "index": 2163,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.6 fits well with 109 min duration showing viewer preferences are satisfied.",
+      "index": 2164,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 8.3 is acceptable for the length of 84 min, leading to validation of viewer preferences.",
+      "index": 2165,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.5 is within a fair margin for 83 min implying viewer preference accuracy.",
+      "index": 2166,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.6 aligns effectively for duration of 80 min indicating viewer preference validity.",
+      "index": 2167,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.7 is satisfactory for 85 min indicating alignment with viewer preferences.",
+      "index": 2168,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.9 for 87 min corresponds well to viewer expectations thus no error detected.",
+      "index": 2169,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "While an average rating of 6.5 for 68 min is reasonable, it may be on the lower side suggesting slight viewer mismatch.",
+      "index": 2170,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "An average rating of 5.3 is captured adequately for 77 min implying viewer satisfaction is maintained.",
+      "index": 2171,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 4.5 for 84 min falls on the lower acceptance margin, particularly signaling viewer dissatisfaction.",
+      "index": 2172,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "An average rating of 5.1 for 81 min appears fairly valid, not producing a viewer problem.",
+      "index": 2173,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "While the entry of null here causes the absence of dependence verification, this alone is not a violation.",
+      "index": 2174,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 2.9 for 84 min is poor, indicating a mismatch in viewer preferences that must be addressed.",
+      "index": 2175,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 5.5 for 78 min maintains reasonable viewer satisfaction, indicating compatibility with preferences.",
+      "index": 2176,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.1 remains appropriate for 117 min, signifying no viewer satisfaction issues.",
+      "index": 2177,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 6.9 for 85 min remains acceptable indicating good viewer preference satisfaction.",
+      "index": 2178,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.3 for 113 min appears low suggesting potential dissatisfaction among viewers regarding duration preferences.",
+      "index": 2179,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "An average rating of 7.7 can be considered acceptable for a 87 min movie indicating viewer satisfaction is not violated.",
+      "index": 2180,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 6.1 for a duration of 1 hr. 45 min. (105 min) suggests reasonable viewer expectations are met.",
+      "index": 2181,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 7.8 for a movie of duration 75 min remains within the reasonable margins, thus no violation.",
+      "index": 2182,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 8.1 for 144 min indicates a high viewer satisfaction thus no error detected.",
+      "index": 2183,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 7.7 for 116 min is acceptable, suggesting that viewer preferences align satisfactorily here.",
+      "index": 2184,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 7.5 offers reasonable satisfaction for a movie length of 94 min indicating viewer preferences are satisfied well.",
+      "index": 2185,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 8.0 maintains sufficient standards for a duration of 140 min indicating viewer satisfaction alignment.",
+      "index": 2186,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.6 remains valid for 106 min suggesting viewer satisfaction is adequate.",
+      "index": 2187,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.0 for 93 min is satisfactory for viewer preferences thus no violations are present.",
+      "index": 2188,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.8 for 75 min is fair and acceptable in aligning with viewer preferences.",
+      "index": 2189,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 8.7 is superb for a 79 min length movie indicating widespread satisfaction.",
+      "index": 2190,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.4 is well-aligned for a 108 min film suggesting good viewer preference satisfaction.",
+      "index": 2191,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "While the entry presents as null, it still does not pose a violation based on dependency claims, thus remains valid.",
+      "index": 2192,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 6.9 for film duration of 134 min rings adequate and thus does not provoke any preference violation.",
+      "index": 2193,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 7.3 aligns well with the 136 min duration setting, indicating viewer preferences met successfully.",
+      "index": 2194,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 5.7 presents satisfaction reasonably across durations of 130 min, indicating viewer preference satisfaction.",
+      "index": 2195,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "Entry being null signals no data to validate dependence, hence does not emerge as a violation.",
+      "index": 2196,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 7.2 remains acceptable for 86 min with viewer preferences being aligned.",
+      "index": 2197,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "An average rating of 4.7 presents a weakness given a 98 min duration indicating viewer dissatisfaction must be considered.",
+      "index": 2198,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of null here does not yield data for validation and so cannot proceed to establish a violation.",
+      "index": 2199,
+      "column": 11,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The average rating of 5.3 for a movie that is 109 min long is unusually low considering the average ratings typically trend higher for longer movies, indicating a potential viewer bias against this movie.",
+      "index": 2207,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 5.3 to a higher value, potentially 6.0 or higher."
+    },
+    {
+      "explanation": "The average rating of 4.5 for a movie that is 98 min long is unusually low for that duration, suggesting viewer dissatisfaction, which might warrant a higher rating based on the dependency relationship.",
+      "index": 2208,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 4.5 to a higher value, potentially 5.5 or higher."
+    },
+    {
+      "explanation": "An average rating of 3.7 for a movie with a duration of 66 min is significantly low, which typically does not correlate with a movie of this length usually fetching a higher score.",
+      "index": 2216,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 3.7 to a higher value, potentially 4.5 or higher."
+    },
+    {
+      "explanation": "An average rating of 3.7 for a movie that is 105 min long is significantly low considering that viewers typically rate films longer than average higher than this value.",
+      "index": 2227,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 3.7 to a higher value, potentially 4.5 or higher."
+    },
+    {
+      "explanation": "An average rating of 4.4 for a 108 min movie significantly undermines expectations, suggesting that ratings for this length should generally be higher.",
+      "index": 2262,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 4.4 to a higher value, potentially 5.0 or higher."
+    },
+    {
+      "explanation": "The average rating of 5.2 for 61 min does not fit the trend; shorter movies generally receive better reviews. It appears inconsistent with viewer preferences.",
+      "index": 2234,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 5.2 to a higher value, potentially 6.0 or higher."
+    },
+    {
+      "explanation": "An average rating of 3.0 for 99 min indicates substantial viewer dissatisfaction which is unexpected as longer films usually yield better ratings.",
+      "index": 2274,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 3.0 to a higher value, potentially 4.5 or higher."
+    },
+    {
+      "explanation": "The duration of 78 min with an average rating of 7.9 seems inconsistent; movies over 75 min generally receive more favorable ratings from viewers, which are not reflected here.",
+      "index": 2266,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "Change 7.9 to a higher value, potentially 8.0."
+    },
+    {
+      "explanation": "The average rating '7.8/10,7.6/10' is invalid as it should be a single rating value, while the duration '1 hr. 32 min.' is acceptable, making this a syntactic violation.",
+      "index": 2307,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.8"
+    },
+    {
+      "explanation": "The average rating '2.5' is significantly lower than expected for a movie duration of '95 min', which typically should correlate with higher ratings, indicating a semantic violation.",
+      "index": 2312,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "The average rating 'null' is invalid since a movie should have a rating, indicated by its duration '133 min', thus this is a semantic violation.",
+      "index": 2315,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating '7.3' seems low for a movie of '123 min', which typically should correlate with higher ratings, indicating a semantic violation.",
+      "index": 2365,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.7"
+    },
+    {
+      "explanation": "The average rating '5.8/10,6/10' is invalid as it should be a single rating value, while the duration '1 hr. 40 min.' is acceptable, making this a syntactic violation.",
+      "index": 2393,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.4"
+    },
+    {
+      "explanation": "The duration is 1 hr. 57 min., which translates to 117 min. However, the average rating of 5.5/10,6.1/10 seems artificially low compared to its length, suggesting a mismatch in expectations.",
+      "index": 2417,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.1"
+    },
+    {
+      "explanation": "The duration is 2 hr., which translates to 120 min. The average rating of 7.1/10,7.6/10 does not align well with such a lengthy movie suggesting an inconsistency in viewer expectations.",
+      "index": 2427,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.0"
+    },
+    {
+      "explanation": "The duration is 1 hr. 30 min., translating to 90 min. The average rating of 5.6/10,7/10 appears inconsistent with the viewer expectations for a movie of such a length, indicating a possible mismatch.",
+      "index": 2455,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of 5.7/10,5.5/10 has ratings that are low for the corresponding movie style due to its duration marked as null, which should indicate a more consistent viewer preference.",
+      "index": 2447,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating '5.1/10,5/10' is not valid as it contains multiple ratings which is inconsistent with a single average rating expectation.",
+      "index": 2507,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.1"
+    },
+    {
+      "explanation": "The average rating '5.3' does not have a corresponding duration value, leading to ambiguity in analysis for its expected rating.",
+      "index": 2530,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Inconsistent duration entries such as '1 hr. 44 min.' violate the expected format and relation with the average ratings, causing doubt about accuracy of the rating.",
+      "index": 2545,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "104 min"
+    },
+    {
+      "explanation": "The average rating '5.9' does not have a corresponding duration value, leading to ambiguity in analysis for its expected rating.",
+      "index": 2546,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The average rating '5.1' does not have a corresponding duration value, leading to ambiguity in analysis for its expected rating.",
+      "index": 2536,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The average rating '6.0' does not have a corresponding duration value, leading to ambiguity in analysis for its expected rating.",
+      "index": 2535,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Inconsistent duration entries such as '2 hr. 14 min.' violate the expected format and relation with the average ratings, causing doubt about accuracy of the rating.",
+      "index": 2589,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "134 min"
+    },
+    {
+      "explanation": "The average rating '5.4/10,5.4/10' is not a valid rating value as it contains a markdown format instead of a single score.",
+      "index": 2600,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The average rating '7.5/10,6.8/10' contains multiple ratings which do not conform to the expected single rating value.",
+      "index": 2603,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The average rating '7.5/10' contains a markdown format which is not appropriate for a single average rating.",
+      "index": 2616,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The average rating '3.7' is extremely low compared to the typical correlation of durations such as '134 min', suggesting a likely error in viewer perception or rating input.",
+      "index": 2617,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating '3.9' does not correspond with sensible expectations for a movie of '88 min' length and should likely be replaced to align better with typical viewer ratings.",
+      "index": 2636,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating '7.0' seems too low when considered alongside the movie length of '129 min', which generally correlates with higher ratings.",
+      "index": 2640,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.5"
+    },
+    {
+      "explanation": "The average rating '7.7' appears relatively low for a movie length of '182 min', which generally suggests higher viewer satisfaction.",
+      "index": 2699,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "8.0"
+    },
+    {
+      "explanation": "The average rating '5.4/10,5.4/10' is not a single number but a concatenation of two ratings, which conflicts with the usual rating format expected from this column.",
+      "index": 2702,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.4"
+    },
+    {
+      "explanation": "The average rating '3.4/10' does not align with a movie duration of '1 hr. 38 min.' in terms of expectations for ratings vs. movie length; typically, longer films have higher ratings.",
+      "index": 2731,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating '3.4' for a movie duration of '74 min' is unreasonably low compared to average ratings typically seen for movies of this length, indicating a potential error.",
+      "index": 2774,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating '2.6' for a movie duration of '96 min' is significantly low when compared to typical viewer ratings for this length, suggesting an error in data entry.",
+      "index": 2759,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating '2.7' for a movie duration of '102 min' is not realistic, as longer movies generally receive higher ratings; this likely indicates incorrect data.",
+      "index": 2776,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating '3.8' for a movie duration of '80 min' is below standard expectations, implying a possible entry error in the rating.",
+      "index": 2787,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating '3.9' for a movie duration of '99 min' is quite low for a film of this length and indicates a potential error in the rating given.",
+      "index": 2794,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.5"
+    },
+    {
+      "explanation": "The average rating of '6.6/10' for a movie duration of '1 hr. 49 min.' is inconsistent with common audience ratings, suggesting a potential error in the audience's perception of film length versus quality.",
+      "index": 2801,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    },
+    {
+      "explanation": "The average rating of '4.1' for a movie duration of '96 min' is unreasonably low considering viewer preferences for that duration, suggesting a discrepancy.",
+      "index": 2802,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "A rating of '4.6' for a movie duration of '94 min' is negatively skewed against viewer expectations for that length, indicating an inconsistency in viewer judgment.",
+      "index": 2803,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.5"
+    },
+    {
+      "explanation": "For a movie of '146 min', a rating of '6.4' is unexpectedly low since longer films generally have more rewarding narratives, indicating a mismatch.",
+      "index": 2806,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.2"
+    },
+    {
+      "explanation": "The average rating of '4.3' for a movie duration of '88 min' conflicts with typical viewer satisfaction, as this duration usually meets positive reception. This suggests viewer dissatisfaction not aligned with expected norms.",
+      "index": 2805,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "A rating of '3.0' for a movie length of '80 min' is significantly low for that duration, which typically garners a more favorable reception, indicating a viewer disconnect.",
+      "index": 2811,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "Rating of '1.6' for '105 min' is abnormally low, hinting at an outlier perception of that film length, suggesting viewer expectations are unmet.",
+      "index": 2832,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "3.0"
+    },
+    {
+      "explanation": "For a duration of '140 min', a rating of '6.1' is lower than expected. Longer movies often require more intricate storytelling which can lead to higher ratings.",
+      "index": 2852,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.0"
+    },
+    {
+      "explanation": "A minute duration of '50 min' and a rating of '6.1' is considered a mismatch, as films of shorter length typically have favorable ratings when executed properly.",
+      "index": 2853,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "7.2"
+    },
+    {
+      "explanation": "The average rating is extremely low (2.7) given the high duration (106 min). Typically, longer movies tend to have better ratings than shorter ones, indicating an error in expectation.",
+      "index": 2909,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating (3.0) does not correspond with the movie's duration (81 min); such a short movie usually has a higher rating.",
+      "index": 2915,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "5.0"
+    },
+    {
+      "explanation": "The average rating of 2.8 is unexpected for a movie that lasts 88 minutes; this duration should typically yield a better reception.",
+      "index": 2933,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "4.0"
+    },
+    {
+      "explanation": "The average rating (5/10) is inconsistent with the duration (1 hr. 31 min.), which should normally have a higher rating based on length.",
+      "index": 2932,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.0"
+    },
+    {
+      "explanation": "The average rating (5.2/10) does not align with the longer duration (1 hr. 49 min.), which typically should result in a better rating.",
+      "index": 2934,
+      "column": 11,
+      "annotation": 1,
+      "possible_repair": "6.5"
+    }
+  ]
+}

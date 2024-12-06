@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The running time of the movie (eleventh column) might relate to the number of user ratings (twelfth column), suggesting that longer films may gather more ratings due to broader viewership.
+
+  The following is a formatted table with the unique data to be checked.
+  

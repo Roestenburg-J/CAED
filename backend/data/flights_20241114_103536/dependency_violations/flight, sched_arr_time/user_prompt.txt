@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The flight number column also correlates with gate arrival times, indicating that specific flights arrive at certain gates within a predictable time frame.
+
+  The following is a formatted table with the unique data to be checked.
+  

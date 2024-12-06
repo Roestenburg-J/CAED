@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The list of actors featured in the movie (column for actors) correlates with the review count (column for user and critic ratings) suggesting that more known actors might lead to a higher number of reviews.
+
+  The following is a formatted table with the unique data to be checked.
+  

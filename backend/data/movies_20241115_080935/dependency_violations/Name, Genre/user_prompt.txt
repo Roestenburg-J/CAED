@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The film title in the second column semantically determines the genre of the film in the fourteenth column, indicating that all these titles belong in the horror genre.
+
+  The following is a formatted table with the unique data to be checked.
+  

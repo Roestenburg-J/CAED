@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  There is a semantic dependency between the column representing the brewery name and the column representing the city. Each brewery listed corresponds to its specific city.
+
+  The following is a formatted table with the unique data to be checked.
+  

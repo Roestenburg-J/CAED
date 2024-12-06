@@ -44,7 +44,8 @@ from config import DevelopmentConfig
 #         api_key="sk-proj-waDJ9nwjNNOcQa6Ol0epT3BlbkFJbwwL9qZnqZmBMVCwtvOX",
 
 app = Flask(__name__)
-CORS(app)
+frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
+CORS(app, resources={r"/*": {"origins": frontend_url}})
 app.config.from_object(DevelopmentConfig)
 app.secret_key = "supersecretkey"
 # app.config["UPLOAD_FOLDER"] = "uploads"

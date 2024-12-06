@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The percentage of patients receiving a certain treatment (column with percentage values) has a syntactic dependency on the number of patients assessed (column with patient counts) because the percentage is derived from the count of patients.
+
+  The following is a formatted table with the unique data to be checked.
+  

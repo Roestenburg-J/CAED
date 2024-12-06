@@ -1,0 +1,1541 @@
+{
+  "output": [
+    { "explanation": "", "index": 0, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Invalid character comma inside a value list instead of being a separate logical structure.",
+      "index": 1,
+      "annotation": 1,
+      "possible_repair": "English Dutch Latvian"
+    },
+    { "explanation": "", "index": 2, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 3, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 4, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 5, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 6, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 7, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 8, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 9, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 10, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 11, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 12, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 13, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 14, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 15, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 16, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 17, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 18, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 19, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 20, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 21, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 22, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 23, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 24, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 25, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 26, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 27, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 28, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 29, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 30, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 31, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 32, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 33, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 34, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 35, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 36, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 37, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 38, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 39, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 40, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 41, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 42, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 43, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 44, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 45, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 46, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 47, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 48, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 49, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 50, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 51, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 52, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 53, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 54, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 55, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 56, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 57, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 58, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 59, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 60, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 61, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 62, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 63, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 64, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 65, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 66, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 67, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 68, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 69, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 70, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 71, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 72, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 73, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 74, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 75, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 76, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 77, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 78, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 79, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 80, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 81, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 82, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 83, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 84, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 85, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 86, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 87, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 88, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 89, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 90, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 91, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 92, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 93, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 94, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 95, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 96, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 97, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 98, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 99, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 100, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 101, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 102, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 103, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 104, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 105, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 106, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 107, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 108, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 109, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 110, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 111, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 112, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 113, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 114, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 115, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 116, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 117, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 118, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 119, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 120, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 121, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 122, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 123, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 124, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 125, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 126, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 127, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 128, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 129, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 130, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 131, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 132, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 133, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 134, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 135, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 136, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 137, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 138, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 139, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 140, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 141, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 142, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 143, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 144, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 145, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 146, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 147, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 148, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 149, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 150, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 151, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 152, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 153, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 154, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 155, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 156, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 157, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 158, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 159, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 160, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 161, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 162, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 163, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 164, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 165, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 166, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 167, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 168, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 169, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 170, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 171, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 172, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 173, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 174, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 175, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 176, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 177, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 178, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 179, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 180, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "",
+      "index": 181,
+      "annotation": 1,
+      "possible_repair": "English,German,Polish,French,Greek,Ancient (to 1453)"
+    },
+    { "explanation": "", "index": 182, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 183, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 184, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 185, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 186, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 187, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 188, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "",
+      "index": 189,
+      "annotation": 1,
+      "possible_repair": "English,Greek,Ancient (to 1453)"
+    },
+    { "explanation": "", "index": 190, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 191, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 192, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 193, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 194, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 195, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 196, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 197, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 198, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 199, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 200,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 201,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 202,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 203,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 204,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 205,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 206,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 207,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 208,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 209,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 210,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 211,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 212,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 213,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 214,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 215,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 216,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 217,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 218,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 219,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 220,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 221,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 222,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 223,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 224,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 225,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 226,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 227,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 228,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 229,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 230,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 231,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 232,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 233,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 234,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 235,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 236,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 237,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 238,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 239,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 240,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 241,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 242,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 243,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 244,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 245,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 246,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 247,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 248,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 249,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 250,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 251,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 252,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 253,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 254,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 255,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 256,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 257,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 258,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 259,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 260,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Languages string is too long and contains too many uncommon references.",
+      "index": 261,
+      "annotation": 1,
+      "possible_repair": "English,Spanish,French"
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 262,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 263,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 264,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 265,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 266,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 267,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 268,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 269,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 270,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 271,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 272,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 273,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 274,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 275,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 276,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 277,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 278,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 279,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 280,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 281,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 282,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 283,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 284,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 285,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 286,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 287,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 288,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 289,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 290,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 291,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 292,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 293,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 294,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 295,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 296,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 297,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 298,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Correctly formatted languages listed in a single string separated by commas.",
+      "index": 299,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    { "explanation": "", "index": 300, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 301, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 302, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 303, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 304, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 305, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 306, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 307, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 308, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 309, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 310, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 311, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 312, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 313, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 314, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 315, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 316, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 317, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 318, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 319, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 320, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 321, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 322, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 323, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 324, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 325, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 326, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 327, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 328, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 329, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 330, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 331, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 332, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 333, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 334, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 335, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 336, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 337, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 338, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 339, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 340, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 341, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 342, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 343, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 344, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 345, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 346, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 347, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 348, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 349, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 350, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 351, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 352, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 353, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 354, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 355, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 356, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "",
+      "index": 357,
+      "annotation": 1,
+      "possible_repair": "English,Spanish,French,Arabic,Hebrew,Persian,French Sign Language,Japanese"
+    },
+    {
+      "explanation": "The value includes 'French Sign Language,' which does not fit with the pattern of language names being primarily single words or widely recognized languages without complex descriptors. This indicates a pattern non-conformity with simpler language listings.",
+      "index": 358,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    { "explanation": "", "index": 359, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 360, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 361, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 362, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 363, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 364, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 365, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 366, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 367, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 368, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 369, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 370, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 371, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 372, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 373, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 374, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 375, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 376, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 377, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 378, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 379, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 380, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 381, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 382, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 383, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 384, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 385, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 386, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 387, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 388, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 389, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 390, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 391, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 392, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 393, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 394, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 395, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 396, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 397, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 398, "annotation": 0, "possible_repair": "" },
+    { "explanation": "", "index": 399, "annotation": 0, "possible_repair": "" },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 400,
+      "annotation": 1,
+      "possible_repair": "English Italian Russian Spanish German"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 401,
+      "annotation": 1,
+      "possible_repair": "English French Russian German Spanish Greek"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 402,
+      "annotation": 1,
+      "possible_repair": "English Greek Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 403,
+      "annotation": 1,
+      "possible_repair": "English Japanese Chinese Arabic"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 404,
+      "annotation": 1,
+      "possible_repair": "English Russian Italian Mandarin French"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 405,
+      "annotation": 1,
+      "possible_repair": "English Latin Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 406,
+      "annotation": 1,
+      "possible_repair": "English Syriac German Greek Hebrew Latin Aramaic"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 407,
+      "annotation": 1,
+      "possible_repair": "English Tonga"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 408,
+      "annotation": 1,
+      "possible_repair": "English French Albanian Spanish Hungarian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 409,
+      "annotation": 1,
+      "possible_repair": "English Spanish Latin Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 410,
+      "annotation": 1,
+      "possible_repair": "English French Swedish Thai"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 411,
+      "annotation": 1,
+      "possible_repair": "English Mende Afrikaans"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 412,
+      "annotation": 1,
+      "possible_repair": "English Klingon Russian French"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 413,
+      "annotation": 1,
+      "possible_repair": "English Russian Spanish Indonesian Danish Cantonese"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 414,
+      "annotation": 1,
+      "possible_repair": "English French Ukrainian Russian Hungarian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 415,
+      "annotation": 1,
+      "possible_repair": "English French Japanese Mandarin Latin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 416,
+      "annotation": 1,
+      "possible_repair": "English Russian French Arabic Swedish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 417,
+      "annotation": 1,
+      "possible_repair": "English Yiddish Hebrew"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 418,
+      "annotation": 1,
+      "possible_repair": "English French Latin Portuguese Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 419,
+      "annotation": 1,
+      "possible_repair": "English French Urdu Arabic"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 420,
+      "annotation": 1,
+      "possible_repair": "English Amharic Khmer German Chechen"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 421,
+      "annotation": 1,
+      "possible_repair": "English Creek"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 422,
+      "annotation": 1,
+      "possible_repair": "Cree English Mohawk Algonquin Latin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 423,
+      "annotation": 1,
+      "possible_repair": "English German Yiddish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 424,
+      "annotation": 1,
+      "possible_repair": "English Japanese Esperanto"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 425,
+      "annotation": 1,
+      "possible_repair": "English Spanish Italian French Swiss German German"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 426,
+      "annotation": 1,
+      "possible_repair": "English Spanish Hungarian Czech"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 427,
+      "annotation": 1,
+      "possible_repair": "English Cantonese French German Hindi Turkish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 428,
+      "annotation": 1,
+      "possible_repair": "French English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 429,
+      "annotation": 1,
+      "possible_repair": "Spanish English Ewe"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 430,
+      "annotation": 1,
+      "possible_repair": "English Navajo Mandarin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 431,
+      "annotation": 1,
+      "possible_repair": "English Norwegian French Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 432,
+      "annotation": 1,
+      "possible_repair": "English Romanian French Hebrew"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 433,
+      "annotation": 1,
+      "possible_repair": "English Portuguese French Breton"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 434,
+      "annotation": 1,
+      "possible_repair": "English Japanese Mandarin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 435,
+      "annotation": 1,
+      "possible_repair": "English German Italian Romanian Spanish Arabic Georgian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 436,
+      "annotation": 1,
+      "possible_repair": "English German Cantonese"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 437,
+      "annotation": 1,
+      "possible_repair": "English Icelandic Filipino Portuguese French Tagalog German Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 438,
+      "annotation": 1,
+      "possible_repair": "English Spanish Latin French"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 439,
+      "annotation": 1,
+      "possible_repair": "English Lao"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 440,
+      "annotation": 1,
+      "possible_repair": "English Hindi German Tibetan"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 441,
+      "annotation": 1,
+      "possible_repair": "English German Greek Latin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 442,
+      "annotation": 1,
+      "possible_repair": "Indonesian Japanese English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 443,
+      "annotation": 1,
+      "possible_repair": "English Arabic Sioux"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 444,
+      "annotation": 1,
+      "possible_repair": "English Spanish Italian Polish French"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 445,
+      "annotation": 1,
+      "possible_repair": "English Russian Serbo-Croatian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 446,
+      "annotation": 1,
+      "possible_repair": "English Japanese German Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 447,
+      "annotation": 1,
+      "possible_repair": "English French German Vietnamese"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 448,
+      "annotation": 1,
+      "possible_repair": "English Japanese Korean"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 449,
+      "annotation": 1,
+      "possible_repair": "English Russian French Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 450,
+      "annotation": 1,
+      "possible_repair": "English Portuguese Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 451,
+      "annotation": 1,
+      "possible_repair": "English Sanskrit"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 452,
+      "annotation": 1,
+      "possible_repair": "Hindi English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 453,
+      "annotation": 1,
+      "possible_repair": "English Spanish Japanese German French Korean"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 454,
+      "annotation": 1,
+      "possible_repair": "English Russian Serbian Bosnian Croatian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 455,
+      "annotation": 1,
+      "possible_repair": "English Brazilian Sign Language Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 456,
+      "annotation": 1,
+      "possible_repair": "Danish English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 457,
+      "annotation": 1,
+      "possible_repair": "Slovenian English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 458,
+      "annotation": 1,
+      "possible_repair": "English Norwegian Danish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 459,
+      "annotation": 1,
+      "possible_repair": "English Ukrainian Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 460,
+      "annotation": 1,
+      "possible_repair": "English French Spanish Italian Sign Languages Russian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 461,
+      "annotation": 1,
+      "possible_repair": "English Spanish Swedish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 462,
+      "annotation": 1,
+      "possible_repair": "English Bulgarian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 463,
+      "annotation": 1,
+      "possible_repair": "English French Portuguese German"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 464,
+      "annotation": 1,
+      "possible_repair": "English Romanian Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 465,
+      "annotation": 1,
+      "possible_repair": "English Russian German French Finnish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 466,
+      "annotation": 1,
+      "possible_repair": "English Aboriginal Chinese Japanese"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 467,
+      "annotation": 1,
+      "possible_repair": "English Japanese Hebrew Portuguese French Arabic Filipino German"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 468,
+      "annotation": 1,
+      "possible_repair": "English French Indonesian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 469,
+      "annotation": 1,
+      "possible_repair": "English German Italian French Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 470,
+      "annotation": 1,
+      "possible_repair": "English Syriac Aramaic Italian Latin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 471,
+      "annotation": 1,
+      "possible_repair": "Hebrew Arabic German English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 472,
+      "annotation": 1,
+      "possible_repair": "English Dutch German"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 473,
+      "annotation": 1,
+      "possible_repair": "English Turkish Greek Russian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 474,
+      "annotation": 1,
+      "possible_repair": "English Spanish Russian Italian French"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 475,
+      "annotation": 1,
+      "possible_repair": "English Aboriginal"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 476,
+      "annotation": 1,
+      "possible_repair": "English Norse Old Latin"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 477,
+      "annotation": 1,
+      "possible_repair": "English Pushto Dari"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 478,
+      "annotation": 1,
+      "possible_repair": "English Afrikaans Zulu Portuguese"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 479,
+      "annotation": 1,
+      "possible_repair": "French English Creole"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 480,
+      "annotation": 1,
+      "possible_repair": "English Czech Serbian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 481,
+      "annotation": 1,
+      "possible_repair": "English Polish Russian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 482,
+      "annotation": 1,
+      "possible_repair": "Thai English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 483,
+      "annotation": 1,
+      "possible_repair": "English Italian Mandarin Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 484,
+      "annotation": 1,
+      "possible_repair": "English Portuguese German"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 485,
+      "annotation": 1,
+      "possible_repair": "English French Chinese Albanian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 486,
+      "annotation": 1,
+      "possible_repair": "Greek English Arabic"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 487,
+      "annotation": 1,
+      "possible_repair": "English French Hindi"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 488,
+      "annotation": 1,
+      "possible_repair": "English Japanese Italian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 489,
+      "annotation": 1,
+      "possible_repair": "English Vietnamese Spanish Thai"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 490,
+      "annotation": 1,
+      "possible_repair": "Thai English Mandarin Vietnamese"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 491,
+      "annotation": 1,
+      "possible_repair": "English Arabic Acholi"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 492,
+      "annotation": 1,
+      "possible_repair": "English French Hebrew Yiddish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 493,
+      "annotation": 1,
+      "possible_repair": "English Japanese Russian Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 494,
+      "annotation": 1,
+      "possible_repair": "English Ukrainian Italian Spanish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 495,
+      "annotation": 1,
+      "possible_repair": "English Latin Icelandic"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 496,
+      "annotation": 1,
+      "possible_repair": "English German Russian French Flemish"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 497,
+      "annotation": 1,
+      "possible_repair": "Hebrew Spanish English"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 498,
+      "annotation": 1,
+      "possible_repair": "English Albanian"
+    },
+    {
+      "explanation": "Value contains invalid characters (comma used as separator instead of being consistent with space or semicolon).",
+      "index": 499,
+      "annotation": 1,
+      "possible_repair": "English French American Sign Language"
+    },
+    {
+      "explanation": "The value 'English,Estonian' contains a syntax error due to the absence of a space after the comma, making it difficult to interpret the languages correctly. Most values in similar contexts should include a space after the comma for clarity.",
+      "index": 500,
+      "annotation": 1,
+      "possible_repair": "English, Estonian"
+    },
+    {
+      "explanation": "The value 'English,Japanese,German' similarly contains a syntax error for the same reason as the first value, lacking spaces after the commas. The most common pattern includes spaces after commas, thus causing it to be an error.",
+      "index": 501,
+      "annotation": 1,
+      "possible_repair": "English, Japanese, German"
+    }
+  ]
+}

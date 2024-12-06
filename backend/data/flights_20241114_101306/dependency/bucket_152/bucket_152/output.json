@@ -1,0 +1,16 @@
+{
+  "output": [
+    {
+      "columns": [1, 2],
+      "dependency": "The values in the second column reference various flight service providers, while the third column represents a specific flight identifier (UA-2830-MCO-CLT). This indicates a semantic dependency where the service provider (column 1) provides services for the specific flight (column 2)."
+    },
+    {
+      "columns": [3, 4],
+      "dependency": "The values in the third column represent scheduled departure times, while those in the fourth column represent actual departure times. This indicates a syntactic dependency, where the actual departure times (column 4) are determined based on the scheduled times (column 3)."
+    },
+    {
+      "columns": [5, 6],
+      "dependency": "The values in the fifth column denote scheduled arrival times, whereas those in the sixth column indicate actual arrival times. This presents a syntactic dependency where the actual arrival times (column 6) can be derived from the scheduled arrival times (column 5)."
+    }
+  ]
+}

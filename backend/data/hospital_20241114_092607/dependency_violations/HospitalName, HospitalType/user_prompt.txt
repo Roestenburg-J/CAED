@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The name of the medical center (column 2) is likely to determine or be related to the type of facility it is categorized as (column 11). That is, the type of reporting (acute care hospitals) is expected to correspond with the specific medical center names.
+
+  The following is a formatted table with the unique data to be checked.
+  

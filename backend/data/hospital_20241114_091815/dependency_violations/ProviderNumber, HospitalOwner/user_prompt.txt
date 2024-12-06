@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The postal code (column 1) and hospital type (column 12) have a semantic dependency as specific areas may be associated with particular hospital types.
+
+  The following is a formatted table with the unique data to be checked.
+  

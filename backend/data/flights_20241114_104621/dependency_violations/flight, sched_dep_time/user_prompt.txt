@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The flight code column indicates specific flight information, and therefore any departure time listed here must align with the same flight code.
+
+  The following is a formatted table with the unique data to be checked.
+  

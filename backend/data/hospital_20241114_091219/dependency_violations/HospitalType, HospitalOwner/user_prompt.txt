@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The type of hospital specified in one column likely correlates with the governing category of that hospital in another column, indicating a dependency between the type of healthcare provider and the regulatory framework.
+
+  The following is a formatted table with the unique data to be checked.
+  

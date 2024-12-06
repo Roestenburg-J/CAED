@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The duration of the movie (first column) could be linked to the release date (second column), since longer films might be released in specific periods during the year.
+
+  The following is a formatted table with the unique data to be checked.
+  

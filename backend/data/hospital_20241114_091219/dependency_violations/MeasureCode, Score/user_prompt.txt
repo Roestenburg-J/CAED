@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The measure codes (e.g., ami-2, hf-2) relate to percentages showing the adherence or performance level related to that specific quality measure, indicating a syntactic dependency where the code corresponds to a specific quality performance percentage.
+
+  The following is a formatted table with the unique data to be checked.
+  

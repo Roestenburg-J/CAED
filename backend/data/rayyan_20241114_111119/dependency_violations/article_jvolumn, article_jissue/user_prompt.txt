@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The numerical values represent two distinct measurements or aspects concerning the studies and are likely used to indicate some form of comparative scale related to each entry, possibly indicating scores or assessments relevant to the subject of the study.
+
+  The following is a formatted table with the unique data to be checked.
+  

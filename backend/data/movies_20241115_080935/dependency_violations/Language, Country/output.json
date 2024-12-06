@@ -1,0 +1,452 @@
+{
+  "output": [
+    {
+      "explanation": "The entry 'English,Dutch,Latvian' suggests that the movie is in three languages, with no indication that 'Latvian' aligns with the USA's typical movie languages.",
+      "index": 1,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Dutch,Spanish (or any common USA language) instead of Latvian."
+    },
+    {
+      "explanation": "The entry 'English,French' with 'USA,UK' suggests that French could be valid, but when in USA context, it usually caters to English predominantly.",
+      "index": 2,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'English' or 'English,French' (keeping French but primary as English is common in USA films)."
+    },
+    {
+      "explanation": "The entry 'English, Arabic, Spanish' with 'USA' generally would raise doubts since Arabic is not locally mainstream despite it being a valid entry, yet when considering country and language dynamics, it indicates an inconsistency with how movies are produced in the USA.",
+      "index": 13,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Change to 'English, Spanish, or English only'."
+    },
+    {
+      "explanation": "The entry 'English, Spanish' with 'USA, UK' raises queries, since for both countries the primary language is English and mixing with Spanish here does not indicate a clear guide of language based on country for movies.",
+      "index": 57,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'English' only."
+    },
+    {
+      "explanation": "The entry 'English, Old English' with 'USA' presents a syntactic mismatch as 'Old English' ceases to be a relevant language in contemporary movies in the USA.",
+      "index": 77,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Change to 'English'."
+    },
+    {
+      "explanation": "The entry 'English, Spanish' with 'USA, United Arab Emirates' suggests a mismatch since the expectation in the USA context would lean more towards English.",
+      "index": 92,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'English'."
+    },
+    {
+      "explanation": "The languages 'Irish', 'Welsh', and 'Scottish Gaelic' do not belong to the countries listed (USA, UK, Ireland).",
+      "index": 143,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Latin,Irish,Welsh,Scottish Gaelic' with 'English,Latin'."
+    },
+    {
+      "explanation": "The language 'Klingon' does not correspond to any country associated with it (USA).",
+      "index": 105,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Klingon' with 'English'."
+    },
+    {
+      "explanation": "The language 'Hawaiian' does not fit with the contextual countries (USA).",
+      "index": 180,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Hawaiian' with 'English'."
+    },
+    {
+      "explanation": "The language 'Mandarin', 'Cantonese', and 'Japanese' must correlate semantically with countries known to speak them (USA).",
+      "index": 184,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Japanese,Cantonese,Mandarin' with 'English'."
+    },
+    {
+      "explanation": "The combination 'English,Nyanja,Afrikaans,Zulu,Xhosa,Southern Sotho' indicates languages not fitting for the mentioned countries.",
+      "index": 185,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Nyanja,Afrikaans,Zulu,Xhosa,Southern Sotho' with 'English'."
+    },
+    {
+      "explanation": "The entry 'English,Sign Languages' does not have any known country fit as the main audio languages.",
+      "index": 187,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Sign Languages' with 'English'."
+    },
+    {
+      "explanation": "The language 'English,Dutch' reflects a mix that is inconsistent since Germany primarily speaks German, not Dutch. Thus, this represents a violation of the country-language dependency.",
+      "index": 200,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "German"
+    },
+    {
+      "explanation": "Here 'English,French,Klingon,Korean,Arabic' contains Klingon, which is a fictional language and does not correspond to any country, including the USA. This is a violation.",
+      "index": 204,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Remove 'Klingon'"
+    },
+    {
+      "explanation": "The presence of 'English,Yiddish' is problematic as it has no typical association with the USA; Yiddish specifically indicates a Jewish cultural context but is not a mainstream language in Amercian films. This is a violation.",
+      "index": 203,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "Considering 'English,German' where 'USA,UK,Japan,West Germany' mentioned as countries doesn't reflect a semantic dependency as West Germany no longer exists; it violates the validity of the language-country pair.",
+      "index": 229,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,UK,Japan"
+    },
+    {
+      "explanation": "The entry 'English,Spanish' for the country 'USA,France' is inconsistent as Spanish is directly related to the USA, but France doesn't commonly engage with Spanish films to this extent. Hence, it violates the relations defined.",
+      "index": 236,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Spanish"
+    },
+    {
+      "explanation": "In this case, 'English,Spanish,Hebrew,Arabic' for the country 'USA,Malta' is problematic. Malta's primary languages are Maltese and English, making 'Hebrew' and 'Arabic' less reflective of the country. This represents a dependency violation.",
+      "index": 260,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Maltese"
+    },
+    {
+      "explanation": "The 'English,Korean,Estonian' languages reflecting 'USA,Australia' is incorrect as Estonian is not spoken in these countries prominently, indicating a violation of the language-country consistency.",
+      "index": 223,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English,Korean"
+    },
+    {
+      "explanation": "USA cannot be associated with the languages Mandarin and Vietnamese, which are primarily spoken in China and Vietnam respectively, causing a violation of the language-country dependency.",
+      "index": 336,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'Mandarin,English' with 'English'"
+    },
+    {
+      "explanation": "The presence of the language Klingon is not syntactically correct in relation to the USA as a country because Klingon is a fictional language that does not represent the population of the USA.",
+      "index": 327,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'Klingon,German' with 'English,German'"
+    },
+    {
+      "explanation": "The language 'Assyrian Neo-Aramaic' is not commonly associated with the USA as it is predominantly spoken in specific regions of the Middle East rather than being widely used in the USA.",
+      "index": 351,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Spanish,Assyrian Neo-Aramaic' with 'English,Spanish'"
+    },
+    {
+      "explanation": "'Inuktitut' is indigenous to Canada and not traditionally associated with the USA, thereby creating a semantic dependency violation.",
+      "index": 352,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'English,Inuktitut' with 'English'"
+    },
+    {
+      "explanation": "The presence of 'Hebrew' in association with USA creates a semantic issue as it is not predominantly spoken in the USA compared to English, suggesting territory mismatch.",
+      "index": 350,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'Hebrew,English,Arabic' with 'English'"
+    },
+    {
+      "explanation": "Spanish is indeed spoken in USA, but 'Hebrew,Spanish,German,Polish' indicates a mismatch about typical language distribution, which violates expected linguistic scenarios.",
+      "index": 375,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Replace 'Hebrew,English,Arabic,Spanish,Polish' with 'English'"
+    },
+    {
+      "explanation": "The listed languages 'English' and 'Yiddish' do not correspond properly to the countries 'USA' and 'UK'. USA and UK primarily associate with the English language and not Yiddish.",
+      "index": 401,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'Yiddish' from column 8"
+    },
+    {
+      "explanation": "The language list includes 'Cantonese', which is not commonly associated with the countries listed, 'USA'. 'English' is appropriate, but 'Latin' implies a non-standard application and does not correlate directly with USA as the origin.",
+      "index": 403,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Replace 'Cantonese' and 'Latin' with 'English' in column 8"
+    },
+    {
+      "explanation": "'German' is mentioned as a language but appears with 'UK, USA, Luxembourg', which does not align with film industries where English is predominantly used.",
+      "index": 404,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'German' from column 8"
+    },
+    {
+      "explanation": "The countries listed ('UK, USA, Canada') do not correspond with languages like 'Japanese', which is not native to them.",
+      "index": 416,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'Japanese' from column 8"
+    },
+    {
+      "explanation": "The combination 'Spanish, English' as a language does not fit within the countries 'France, Spain, USA', especially as a primary language for films.",
+      "index": 467,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Replace 'Spanish' with 'English' in column 8"
+    },
+    {
+      "explanation": "'Spanish Sign Language' is unexpected in the context of its countries listed ('USA'), suggesting an irregularity with film distribution and language usage.",
+      "index": 472,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'Spanish Sign Language' from column 8"
+    },
+    {
+      "explanation": "Languages like 'Mandarin' contradict the countries 'USA', 'Germany', 'Canada' in this context due to their specific cultural implications that don't resonate with American films primarily.",
+      "index": 440,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'Mandarin' from column 8"
+    },
+    {
+      "explanation": "The language 'Hopi' indicates a specific indigenous language, which is not commonly associated with the USA as a primary country. USA primarily speaks English, Spanish, or other languages from immigrant populations.",
+      "index": 525,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The language 'Korean' is typically associated with South Korea. The entry lists 'South Korea,USA' as countries, leading to a dependency violation because it suggests that 'Korean' should only be associated with South Korea.",
+      "index": 551,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The string 'American Sign Language' implies a specific language that is typically categorized under sign languages, which is not commonly mentioned in association with the country USA in a mainstream context. USA predominantly speaks English.",
+      "index": 596,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The languages listed (Mandarin, English, Cantonese, Vietnamese, Polish) exceed the country dependency, as Mandarin and Cantonese are of Chinese origin, while the associated countries include USA and France; no Chinese regions are included for Chinese languages.",
+      "index": 693,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The multiple languages (English, Italian, Serbo-Croatian) do not match the country categories (USA), as Serbo-Croatian is not commonly associated with the USA but with countries from the Balkans.",
+      "index": 686,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The language combination (English, French, Spanish) does not reflect the countries (USA, Argentina, Spain, Italy) properly; while Spanish is common in Argentina and Spain, it does not justify English and French for the USA and Italy without more context.",
+      "index": 689,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "Including languages (English, French, Arabic, Spanish) that suggest ties with non-associated countries (USA, UK) without further proof of use in those locales is misleading, specifically with Arabic overall presence matching closer to Middle Eastern origins.",
+      "index": 643,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The language 'Sindarin', a fictional language from 'The Lord of the Rings', does not have a country dependency backing it when associated with USA, indicating a violation of the expected real-world categorization.",
+      "index": 694,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry contains languages (Mandarin, English and Cantonese) for a USA origin, but it lacks the appropriate associated country that validates usage for Mandarin and Cantonese which are associated with China.",
+      "index": 693,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry 'German' suggests that the film likely originated from Germany, but other languages present such as 'Russian' and 'English' lack reflection of the primary market, causing a semantic mismatch.",
+      "index": 790,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The inclusion of 'French, Latin' indicates usage in France; however, 'USA' also appears without justification of being a primary market for these languages, indicating a mismatch.",
+      "index": 796,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The entry 'USA' does not match 'Somali' as a primary language representative for the country, leading to a semantic mismatch as Somali predominantly represents Somalia.",
+      "index": 792,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Somalia"
+    },
+    {
+      "explanation": "The languages 'Danish, German' coupled with the countries listed do not properly reflect the language correlation, suggesting that the primary language depicted may not align with the countries categorized as the markets.",
+      "index": 747,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The language 'Cree' is not commonly associated with Australia as a primary country in film production.",
+      "index": 803,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry 'Mandarin,English' implies a language scheme where Mandarin may not be the primary expected language for USA and China scenarios in movies.",
+      "index": 830,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The inclusion of 'Zulu' is inappropriate as it is not known to be a prevalent language in Germany or Australia in relation to movies providing a syntactic violation.",
+      "index": 880,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The language 'Lao' does not align with the primary countries associated with the USA in the context of movies.",
+      "index": 851,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "Latin is seldom used in modern movies reflecting primary languages of the countries listed such as France and Japan.",
+      "index": 897,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "'Sign Languages' is not a regular language typically associated with the countries listed especially when looking at the context of movies.",
+      "index": 895,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry contains 'English,Bulgarian' as its language, but the country 'USA' does not typically associate with Bulgarian as a prevalent language in films.",
+      "index": 900,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry contains 'English,Latin' as its language, but 'Latin' is not commonly used in Italian films, which is one reason why 'Italy,USA' is an error for languages.",
+      "index": 901,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry lists 'English,Spanish,German' as its languages, but 'USA,Argentina' indicates a likely inconsistency since 'Spanish' should be dominant due to Argentina, making 'English' an inappropriate leading language here.",
+      "index": 903,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "Spanish"
+    },
+    {
+      "explanation": "The entry consists of languages 'English,Russian,German,French,Finnish' while listing 'USA' as the country. Russian and Finnish films aren't predominantly American.",
+      "index": 906,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "In this row, it claims 'English,Native,' which seems problematic because there isn’t a specific language recognized as 'Native' for films in these countries, including the USA.",
+      "index": 908,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry has 'English,Syriac,Aramaic,Italian,Latin', where languages like 'Syriac,Aramaic' are not widely associated with American cinema, thus making 'USA,Germany' problematic.",
+      "index": 919,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The 'English,Norse, Old,Latin' entry implies languages that are not commonly prevalent in film for the countries tagged, creating a mismatch.",
+      "index": 933,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The language list includes 'French,Arabic,German' with 'USA,Canada' which may suggest a rarity in common film selections; it's better described just as 'English'.",
+      "index": 934,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The entry includes 'Thai,English,Mandarin,Vietnamese' alongside 'Thailand,USA,Hong Kong', it misaligns typical language usage in films represented by these regions; it should be just 'English'.",
+      "index": 982,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The country 'Germany' does not commonly produce movies in Latin, making this a semantic error.",
+      "index": 1004,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,UK"
+    },
+    {
+      "explanation": "The combination of 'Italian' as a language and 'USA' as a country does not fit typical movie language-country associations, creating a semantic error.",
+      "index": 1005,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The presence of 'Albanian' in 'English,Albanian' along with 'USA,Albania' is a semantic error since English is not primarily associated with Albania.",
+      "index": 1003,
+      "column": 8,
+      "annotation": 1,
+      "possible_repair": "English"
+    },
+    {
+      "explanation": "The language 'Cantonese' is not expected to correspond to 'Germany', thus this entry is semantically incorrect.",
+      "index": 1014,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Hong Kong"
+    }
+  ]
+}

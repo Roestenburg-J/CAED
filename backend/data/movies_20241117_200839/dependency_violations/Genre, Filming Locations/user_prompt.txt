@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The genre of the movie (fourteenth column) is related to the filming location (fifteenth column) as certain genres are more commonly filmed in specific locations, indicating a potential correlation between film genre and filming area.
+
+  The following is a formatted table with the unique data to be checked.
+  

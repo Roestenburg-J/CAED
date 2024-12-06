@@ -1,0 +1,3504 @@
+{
+  "output": [
+    {
+      "explanation": "The director 'Pierre Coffin,Chris Renaud' is invalid as it contains multiple names without separation by 'and' or similar. A single director cannot be credited in this format.",
+      "index": 20,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Pierre Coffin"
+    },
+    {
+      "explanation": "The director 'Joel Coen,Ethan Coen' as listed for 'Miller's Crossing' cannot be correct because there was a single directorial credit for this film. It should typically be attributed to a single person or represent co-directors properly separated. This entry violates the expected dependency for a movie title that should correspond to a single recognized director.",
+      "index": 110,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Joel Coen"
+    },
+    {
+      "explanation": "The director 'Alfonso Cuarón' is associated with 'Harry Potter and the Prisoner of Azkaban', which is a correct attribution. However, it appears a potential issue could arise if there was an over attribution compared to official credits. Accepting the dependency as valid, it does not appear to contain an inherent error, hence warranting assessment. No changes are required to this existing title-director dependency.",
+      "index": 142,
+      "column": 4,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The directors 'Bibo Bergeron,Don Paul' for 'The Road to El Dorado' provide a valid attribute of co-directorship and consequently fulfills the dependency. As attributed directors to features reflecting co-direction responsibilities do conform to creative credits in context. No error is identifiable hence no modifications are required.",
+      "index": 149,
+      "column": 4,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Doug Aarniokoski' is attributed to 'Highlander: Endgame', which diverges from the recognized direction. The movie was actually directed by Douglas Aarniokoski and should be corrected to match known records, as per the dependency of title to defined director operations for clarity in credit. This signaling a dependency breach requires an update.",
+      "index": 115,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Douglas Aarniokoski"
+    },
+    {
+      "explanation": "The several attributes for directors like 'Gary Trousdale,Kirk Wise' which connect to the title 'Beauty and the Beast' articulate a co-directorship organized acknowledgment which is appropriate under this dependency format of creative works. Nothing omits legitimacy therein and do not signify an error as defined.",
+      "index": 145,
+      "column": 4,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The director's name contains multiple individuals, but the title belongs to a single director and should be one name only. It is syntactically incorrect and violates the dependency relation.",
+      "index": 221,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Arthur J. Beckhard"
+    },
+    {
+      "explanation": "The titles 'Captain America: The Winter Soldier' and 'The Amazing Spider-Man 2' cannot both have Anthony Russo and Joe Russo, and Marc Webb listed as their directors respectively. This results in an inconsistency since only one film can be directed by a person.",
+      "index": 312,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove 'Joe Russo' from the director of 'Captain America: The Winter Soldier'."
+    },
+    {
+      "explanation": "The title 'Singin' in the Rain' has two directors (Stanley Donen and Gene Kelly), which violates the dependency as each movie title should correspond to one director in a simpler format.",
+      "index": 306,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace 'Stanley Donen,Gene Kelly' with 'Stanley Donen'."
+    },
+    {
+      "explanation": "The title 'G.I. Jane' has the same director 'Ridley Scott', which conflicts with the same director working on multiple titles without clarification of different films, which can lead to confusion.",
+      "index": 329,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Clarify if both films are directed by Ridley Scott or if any entry is incorrect."
+    },
+    {
+      "explanation": "The name 'Gus Van Sant' listed as the director of 'The Sea of Trees' is inaccurate as the film is actually directed by Gus Van Sant. This discrepancy indicates a violation of the dependency.",
+      "index": 365,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Correct director of 'The Sea of Trees' to 'Gus Van Sant'."
+    },
+    {
+      "explanation": "The title 'Death Becomes Her' has 'Robert Zemeckis' as the director, which does not match the well-known director associated with this movie. This signifies an error.",
+      "index": 326,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace 'Robert Zemeckis' with 'Robert Zemeckis'."
+    },
+    {
+      "explanation": "Howard Deutch is known for directing 'The Great Outdoors'. Any other values for this index would be incorrect as they do not represent the correct movie.",
+      "index": 400,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Great Outdoors"
+    },
+    {
+      "explanation": "John Hughes directed 'Weird Science'. Other values would be incorrect as they do not match with the right movie from the correct director.",
+      "index": 401,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Weird Science"
+    },
+    {
+      "explanation": "Joe Dante is associated with 'Innerspace'. Values differing from this would indicate a syntactic or semantic error.",
+      "index": 402,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Innerspace"
+    },
+    {
+      "explanation": "Stephen Herek directed 'Don't Tell Mom the Babysitter's Dead', requiring adjustment for inconsistencies in the data.",
+      "index": 403,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Don't Tell Mom the Babysitter's Dead"
+    },
+    {
+      "explanation": "Michael Gottlieb directed 'Mannequin'; any deviation would signify inaccuracies in the records.",
+      "index": 404,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Mannequin"
+    },
+    {
+      "explanation": "Scott Coffey directed 'Adult World', different titles break the linkage.",
+      "index": 405,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Adult World"
+    },
+    {
+      "explanation": "The movie 'That Awkward Moment' is directed by Tom Gormican. Incorrect titles should be corrected accordingly.",
+      "index": 406,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "That Awkward Moment"
+    },
+    {
+      "explanation": "Superbad is correctly directed by Greg Mottola; discrepancies need to be amended.",
+      "index": 407,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Superbad"
+    },
+    {
+      "explanation": "Zombieland was directed by Ruben Fleischer, necessitating updates to align with the right title.",
+      "index": 408,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Zombieland"
+    },
+    {
+      "explanation": "Greg Mottola also directed 'Paul', and any mismatch would indicate an error in the directory for movies.",
+      "index": 409,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Paul"
+    },
+    {
+      "explanation": "Ben Stiller directed 'Tropic Thunder'; incorrect titles must be updated to maintain integrity.",
+      "index": 410,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Tropic Thunder"
+    },
+    {
+      "explanation": "Adam McKay is associated with 'The Other Guys', any title that diverges needs to be corrected.",
+      "index": 411,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Other Guys"
+    },
+    {
+      "explanation": "Jay Roach is known for 'The Campaign', any divergence in title is an error.",
+      "index": 412,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Campaign"
+    },
+    {
+      "explanation": "Kent Alterman directed 'Semi-Pro'; deviations denote clear errors in the association.",
+      "index": 413,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Semi-Pro"
+    },
+    {
+      "explanation": "There is no movie 'There's Something About Mary' directed by Bobby Farrelly and Peter Farrelly noted in the dataset - requires correction to associaate director with the correct title.",
+      "index": 414,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "There's Something About Mary"
+    },
+    {
+      "explanation": "Tom Shadyac's movie is accurately associated with 'Liar Liar'; other titles would invoke errors in directorship.",
+      "index": 415,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Liar Liar"
+    },
+    {
+      "explanation": "Milos Forman directed 'Man on the Moon', unreconciled titles create faults in the database.",
+      "index": 416,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Man on the Moon"
+    },
+    {
+      "explanation": "Brett Ratner is tied to 'Red Dragon'; incorrect titles require rectification.",
+      "index": 417,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Red Dragon"
+    },
+    {
+      "explanation": "Albert Hughes and Allen Hughes directed 'From Hell', any misspelling or mismatch dereferences correct data.",
+      "index": 418,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "From Hell"
+    },
+    {
+      "explanation": "Terry Gilliam is associated with 'Fear and Loathing in Las Vegas', needs revalidation against discrepancies in the database.",
+      "index": 419,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Fear and Loathing in Las Vegas"
+    },
+    {
+      "explanation": "Bruce Robinson directed 'The Rum Diary', requiring consistent data across the dataset.",
+      "index": 420,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Rum Diary"
+    },
+    {
+      "explanation": "Robert Schwentke directed 'R.I.P.D.'; incorrect listings must be amended.",
+      "index": 421,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "R.I.P.D."
+    },
+    {
+      "explanation": "Tommy Wirkola is associated with 'Hansel & Gretel: Witch Hunters'; incorrect data generates inaccuracies.",
+      "index": 422,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Hansel & Gretel: Witch Hunters"
+    },
+    {
+      "explanation": "Peter Berg's movie is 'Battleship', requiring straightforward updates for any mismatches.",
+      "index": 423,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Battleship"
+    },
+    {
+      "explanation": "Jon Favreau directed 'Cowboys & Aliens'; discrepancies require fixing.",
+      "index": 424,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Cowboys & Aliens"
+    },
+    {
+      "explanation": "Michael Bay is linked to 'The Island', needing updates for ensuring seamless data flow.",
+      "index": 425,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Island"
+    },
+    {
+      "explanation": "Tony Scott is correctly linked to 'Déjà Vu'; errors arise from mismatches in values.",
+      "index": 426,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Déjà Vu"
+    },
+    {
+      "explanation": "Nick Cassavetes operates on 'John Q'; alterations must be made wherever titles mismatch.",
+      "index": 427,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "John Q"
+    },
+    {
+      "explanation": "Sidney Lumet is associated with 'Dog Day Afternoon', other titles need correction.",
+      "index": 428,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Dog Day Afternoon"
+    },
+    {
+      "explanation": "Guy Ritchie is known for 'Sherlock Holmes', necessitating amendments to data when misrepresented.",
+      "index": 429,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Sherlock Holmes"
+    },
+    {
+      "explanation": "Barry Sonnenfeld directed 'Men in Black 3', any title variation constitutes a data violation.",
+      "index": 430,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Men in Black 3"
+    },
+    {
+      "explanation": "Joseph M. Newman is associated with 'This Island Earth', invalid entries necessitate correction in the dataset.",
+      "index": 431,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "This Island Earth"
+    },
+    {
+      "explanation": "Edward L. Cahn directed 'Invisible Invaders'; typos or mismatch denote significant errors.",
+      "index": 432,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Invisible Invaders"
+    },
+    {
+      "explanation": "Herbert L. Strock is related to 'Gog', needing orderly correction where errors have manifested.",
+      "index": 433,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Gog"
+    },
+    {
+      "explanation": "Lucien Hubbard and Benjamin Christensen directed 'The Mysterious Island', ensure your dataset comprehensively aligns with accurate data.",
+      "index": 434,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Mysterious Island"
+    },
+    {
+      "explanation": "Victor Halperin directed 'White Zombie'; conflicts in titles must be swiftly addressed.",
+      "index": 435,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "White Zombie"
+    },
+    {
+      "explanation": "Terry Hughes directs 'The Butcher's Wife'; mismatches lead to errors that need rectification.",
+      "index": 436,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Butcher's Wife"
+    },
+    {
+      "explanation": "Paul Verhoeven directed 'Showgirls'; irregular titles must be unified with accuracy accordingly.",
+      "index": 437,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Showgirls"
+    },
+    {
+      "explanation": "Joseph G. Quinn directed 'Revolutions'; inaccuracies drive the need for corrections.",
+      "index": 438,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Revolutions"
+    },
+    {
+      "explanation": "Jesse Hibbs is the director for 'Black Horse Canyon'; requirement for an accurate representation of entries.",
+      "index": 439,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Black Horse Canyon"
+    },
+    {
+      "explanation": "Victor Fleming directs 'The Virginian'; mismatches bring about deviations that warrant adjustment.",
+      "index": 440,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Virginian"
+    },
+    {
+      "explanation": "James W. Horne is tied to 'Way Out West'; care must be taken for consistent records through correction.",
+      "index": 441,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Way Out West"
+    },
+    {
+      "explanation": "William A. Seiter directed 'Sons of the Desert', requiring accuracy in correspondence.",
+      "index": 442,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Sons of the Desert"
+    },
+    {
+      "explanation": "Steven Soderbergh directed 'Che: Part Two'; amendments are critical to assure validity of data.",
+      "index": 443,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Che: Part Two"
+    },
+    {
+      "explanation": "William K. Howard is linked to 'The Valiant'; correction balances the data integrity.",
+      "index": 444,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Valiant"
+    },
+    {
+      "explanation": "Mervyn LeRoy is recognized for 'I Am a Fugitive from a Chain Gang'; corrections uphold the values in question.",
+      "index": 445,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "I Am a Fugitive from a Chain Gang"
+    },
+    {
+      "explanation": "Mervyn LeRoy directed 'Gold Diggers of 1933'; mismatches produce inaccuracies that demand rectification.",
+      "index": 446,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Gold Diggers of 1933"
+    },
+    {
+      "explanation": "Lloyd Bacon directed 'Gold Diggers of 1937'; erroneous entries require attention to resolve conflicts.",
+      "index": 447,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Gold Diggers of 1937"
+    },
+    {
+      "explanation": "William Keighley directed 'Varsity Show'; discrepancies disrupt the overall flow of data.",
+      "index": 448,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Varsity Show"
+    },
+    {
+      "explanation": "Henry Koster is associated with 'It Started with Eve'; indications of error appear when mismatched.",
+      "index": 449,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "It Started with Eve"
+    },
+    {
+      "explanation": "Ronald Neame and Cliff Owen directed 'A Man Could Get Killed', evolving incorrect entries throw inconsistencies.",
+      "index": 450,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A Man Could Get Killed"
+    },
+    {
+      "explanation": "Abraham Polonsky directed 'Tell Them Willie Boy Is Here'; inconsistencies disrupt data integrity.",
+      "index": 451,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Tell Them Willie Boy Is Here"
+    },
+    {
+      "explanation": "Sydney Pollack directed 'This Property Is Condemned'; such titles require clear association to the director.",
+      "index": 452,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "This Property Is Condemned"
+    },
+    {
+      "explanation": "Gene Saks is linked to 'Barefoot in the Park'; unaligned titles need reconstitution for accuracy.",
+      "index": 453,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Barefoot in the Park"
+    },
+    {
+      "explanation": "Gene Saks again appears as the director of 'The Odd Couple', directing mismatches should be clarified.",
+      "index": 454,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Odd Couple"
+    },
+    {
+      "explanation": "Howard Deutch is noted as the directing authority for 'The Odd Couple II'; any deviations necessitate revision as it links to titles.",
+      "index": 455,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Odd Couple II"
+    },
+    {
+      "explanation": "James Franco directed 'In Dubious Battle'; mismatched entries undermine the validity of the connection.",
+      "index": 456,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "In Dubious Battle"
+    },
+    {
+      "explanation": "Alexander Hall is tied to 'Little Miss Marker'; inconsistencies detract from precise data presentation.",
+      "index": 457,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Little Miss Marker"
+    },
+    {
+      "explanation": "Josh Evans directed 'Che Guevara'; discrepancies generate observable inaccuracies that necessitate validation.",
+      "index": 458,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Che Guevara"
+    },
+    {
+      "explanation": "Steven Soderbergh directed 'The Girlfriend Experience'; errors in titles must be correlated.",
+      "index": 459,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Girlfriend Experience"
+    },
+    {
+      "explanation": "Spike Lee is known for 'Malcolm X'; such associations must remain intact across datasets.",
+      "index": 460,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Malcolm X"
+    },
+    {
+      "explanation": "William Dieterle and George Cukor directed 'I'll Be Seeing You'; inaccuracies must be rectified.",
+      "index": 461,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "I'll Be Seeing You"
+    },
+    {
+      "explanation": "Fielder Cook directed 'From the Mixed-Up Files of Mrs. Basil E. Frankweiler'; correct associations are critical.",
+      "index": 462,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "From the Mixed-Up Files of Mrs. Basil E. Frankweiler"
+    },
+    {
+      "explanation": "Don Chaffey is recognized for directing 'The Magic of Lassie'; corrections must restore accurate links.",
+      "index": 463,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Magic of Lassie"
+    },
+    {
+      "explanation": "Jessie Nelson directed 'I Am Sam'; any incorrectness needs redress for accurate associations.",
+      "index": 464,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "I Am Sam"
+    },
+    {
+      "explanation": "David Lynch is linked to 'Mulholland Dr.'; indirect errors must be retained for correction clarity.",
+      "index": 465,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Mulholland Dr."
+    },
+    {
+      "explanation": "Richard Thorpe directs 'Challenge to Lassie', errors appearing need immediate amendments.",
+      "index": 466,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Challenge to Lassie"
+    },
+    {
+      "explanation": "David DeCoteau is associated with 'Creepozoids', mismatched listings must find veracity in corrections.",
+      "index": 467,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Creepozoids"
+    },
+    {
+      "explanation": "Silvia St. Croix is recognized for 'Gingerdead Man 2: Passion of the Crust'; adjust faulty titles correspondingly.",
+      "index": 468,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Gingerdead Man 2: Passion of the Crust"
+    },
+    {
+      "explanation": "Charles Band directed 'Gingerdead Man Vs. Evil Bong'; finding rectify for mismatch becomes crucial in this case.",
+      "index": 469,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Gingerdead Man Vs. Evil Bong"
+    },
+    {
+      "explanation": "Charles Band is associated with 'Nazithon: Decadence and Destruction'; discrepancies need pressing adjustments.",
+      "index": 470,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Nazithon: Decadence and Destruction"
+    },
+    {
+      "explanation": "Spike Lee directed 'She Hate Me'; inaccuracies should be clarified for continuity in titles.",
+      "index": 471,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "She Hate Me"
+    },
+    {
+      "explanation": "Russ Meyer is associated with 'Supervixens'; errors must be cross-verified for accuracy.",
+      "index": 472,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Supervixens"
+    },
+    {
+      "explanation": "Gorman Bechard is noted for directing 'Psychos in Love'; need for assurance in consistent clearness arises.",
+      "index": 473,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Psychos in Love"
+    },
+    {
+      "explanation": "Carol Frank is directed this way in 'Sorority House Massacre'; amend any inconsistencies.",
+      "index": 474,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Sorority House Massacre"
+    },
+    {
+      "explanation": "Michael A. Simpson confer 'Sleepaway Camp II: Unhappy Campers'; correctness in indexing must survive scrutiny.",
+      "index": 475,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Sleepaway Camp II: Unhappy Campers"
+    },
+    {
+      "explanation": "Dave Campfield directed 'Caesar and Otto's Paranormal Halloween'; any discrepancies cause major data loss.",
+      "index": 476,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Caesar and Otto's Paranormal Halloween"
+    },
+    {
+      "explanation": "Dennis Devine directed 'Fat Planet'; any mistakes leading towards divergent associations sometimes necessitate clear updates.",
+      "index": 477,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Fat Planet"
+    },
+    {
+      "explanation": "Dennis Devine also directed 'Lizzie Borden's Revenge'; ensuring accuracy should guide through presentations.",
+      "index": 478,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Lizzie Borden's Revenge"
+    },
+    {
+      "explanation": "Charles Webb directed 'The G-string Horror: Demon Cut'; errors must seek out proper associations.",
+      "index": 479,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The G-string Horror: Demon Cut"
+    },
+    {
+      "explanation": "John Curran directed 'The Painted Veil'; clearing misrepresentations raise data assurance entries.",
+      "index": 480,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Painted Veil"
+    },
+    {
+      "explanation": "Philippe Blot directed 'The Arrogant'; cross-mismatches detailing require immediate corrections.",
+      "index": 481,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Arrogant"
+    },
+    {
+      "explanation": "Spike Lee's direction tie-in with 'Do the Right Thing'; inconsistences generate necessary amendments in the documents.",
+      "index": 482,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Do the Right Thing"
+    },
+    {
+      "explanation": "Spike Lee again mentioned directs 'Clockers'; titles must maintain directorship implications.",
+      "index": 483,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Clockers"
+    },
+    {
+      "explanation": "Spike Jonze directed 'Being John Malkovich'; maintaining correctness is pivotal in these associations.",
+      "index": 484,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Being John Malkovich"
+    },
+    {
+      "explanation": "Alfred Hitchcock directed 'Saboteur'; titles must be unified with respective directors necessary.",
+      "index": 485,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Saboteur"
+    },
+    {
+      "explanation": "Alfred Hitchcock also associated with 'Torn Curtain'; correctness demands perpetual checks to enforce uniformity.",
+      "index": 486,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Torn Curtain"
+    },
+    {
+      "explanation": "Oliver Stone directed 'Castro in Winter'; any discrepancies in titles should receive swift accuracy checks.",
+      "index": 487,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Castro in Winter"
+    },
+    {
+      "explanation": "Gilles Paquet-Brenner directed 'Dark Places'; ensure accuracy proliferates keeping associations genuine.",
+      "index": 488,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Dark Places"
+    },
+    {
+      "explanation": "Tarsem Singh linked to 'Self/less'; inaccuracies need easing through amendments in correct batch first.",
+      "index": 489,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Self/less"
+    },
+    {
+      "explanation": "John Francis Daley and Jonathan M. Goldstein directed 'Vacation'; rectification of errors sustains authenticity.",
+      "index": 490,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Vacation"
+    },
+    {
+      "explanation": "Jake Schreier directs 'Paper Towns'; maintaining accurate reconnaissance is vital across the dataset needs verified links.",
+      "index": 491,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Paper Towns"
+    },
+    {
+      "explanation": "Tony McNamara is tied with 'Ashby'; discrepancies will incur observational errors requiring checks.",
+      "index": 492,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Ashby"
+    },
+    {
+      "explanation": "Shari Springer Berman and Robert Pulcini directed '10,000 Saints'; correctness must be maintained as discrepancies arise.",
+      "index": 493,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "10,000 Saints"
+    },
+    {
+      "explanation": "Rachel Davis and Mora Stephens directed 'Zipper'; title errors need alignment with their accurate counterparts.",
+      "index": 494,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Zipper"
+    },
+    {
+      "explanation": "Harold F. Kress was recognized for directing 'The Painted Hills'; any mismatch needs addressing promptly.",
+      "index": 495,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Painted Hills"
+    },
+    {
+      "explanation": "Chad Burns directed 'Beyond the Mask'; factual counters must lead to justified corrections.",
+      "index": 496,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Beyond the Mask"
+    },
+    {
+      "explanation": "Kevin Carraway directs 'Chain of Command'; any alternative titles need validation for present consistency.",
+      "index": 497,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Chain of Command"
+    },
+    {
+      "explanation": "Ryan Little directed 'War Pigs'; conflicting entries should consolidate for fact-checking purposes.",
+      "index": 498,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "War Pigs"
+    },
+    {
+      "explanation": "The directors 'Fax Bahr' and 'George Hickenlooper' are not the sole directors for the film title which would need to be supported by only one name in the dependency context. This creates ambiguity regarding the authorship of the film.",
+      "index": 501,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Set to 'Fax Bahr' or 'George Hickenlooper'."
+    },
+    {
+      "explanation": "The directors 'Joel Coen' and 'Ethan Coen' are not recognized as co-directors of the film title. A movie should preferably have a single credited director when referenced in this format.",
+      "index": 528,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Set to 'Joel Coen' or 'Ethan Coen'."
+    },
+    {
+      "explanation": "The directors 'Clyde Bruckman' and 'Buster Keaton' listed here were not both directors for the film. This indicates possible confusion or incorrect association of the film title to multiple directors and does not conform to typical credit standards. This should only refer to one director.",
+      "index": 531,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Set to 'Clyde Bruckman' or 'Buster Keaton'."
+    },
+    {
+      "explanation": "The directors 'Michael Curtiz' and 'John Wayne' are not validly associated as co-directors for the film title which typically would have only one recognized director. This represents a misclassification of roles.",
+      "index": 542,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Set to 'Michael Curtiz' or 'John Wayne'."
+    },
+    {
+      "explanation": "The entry 'Jesse Baget,Elias Benavidez' suggests co-direction, but generally film headings require a single director point of reference. Co-directorship must be established correctly to avoid dependency violation.",
+      "index": 549,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Set to 'Jesse Baget' or 'Elias Benavidez'."
+    },
+    {
+      "explanation": "The director 'Douglas Hickox,Eugène Lourié' has multiple names but is not known to have directed the movie 'The Giant Behemoth' as only one director was responsible for this film. This violation occurs because the title should correspond to a single director in relation to their recognized works.",
+      "index": 601,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Douglas Hickox"
+    },
+    {
+      "explanation": "The director 'George Marshall,Ray McCarey' is not commonly associated with the movie 'Pack Up Your Troubles'. These names are likely incorrectly attributed to this specific film since it is known to have only one director.",
+      "index": 607,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "George Marshall"
+    },
+    {
+      "explanation": "The entry 'David Keith' corresponds to 'The Curse', however, he is not associated as a director of this film. This is a violation regarding the relationship of the film title to its correct director.",
+      "index": 616,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "James B. Harris"
+    },
+    {
+      "explanation": "The director 'Daniel Taradash' is not known for directing 'Storm Center'. This does not match his known directorial works, hence violating the dependency between title and correct director.",
+      "index": 640,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Robert Wise"
+    },
+    {
+      "explanation": "The movie 'Halloween H20: 20 Years Later' is directed by 'Steve Miner,Mark Cullingham', but 'Mark Cullingham' is not a recognized director for this title, indicating a violation of the dependency.",
+      "index": 689,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Steve Miner"
+    },
+    {
+      "explanation": "The title 'Chasing Liberty' should correspond to a recognized director. The names 'Andy Cadiff' and 'Shelly Ziegler' do not seem to be mutually viable directors of a movie with such a title, which is a dependency violation.",
+      "index": 700,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Andy Cadiff"
+    },
+    {
+      "explanation": "The director 'Bill Couturié' does not match with the movie title 'Ed', which is a family comedy about a baseball player and his pet chimp, suggesting the director may not be associated with such a film. This title might imply a different genre or subject matter, indicating a potential error in the dependency.",
+      "index": 801,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Consider changing the movie title to a different film associated with Bill Couturié, such as 'Life with Mikey'."
+    },
+    {
+      "explanation": "The movie title 'Cinderella' typically is associated with a well-known adaptation that has specific directors, primarily Kenneth Branagh, and 'Any Given Sunday' does not directly relate to a project directed by Oliver Stone, indicating a mismatch in the dependency of movie title and director.",
+      "index": 830,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change the title to a work by Kenneth Branagh, such as 'Hamlet'."
+    },
+    {
+      "explanation": "'Judy Moody and the Not Bummer Summer' features a plot centered around children's adventures, which might not suit John Schultz's body of work, creating uncertainty in the dependency between the title and its corresponding director.",
+      "index": 802,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change the title to a more appropriate film directed by John Schultz, like 'Big Momma's House 2'."
+    },
+    {
+      "explanation": "'Bratz' does not correlate with the director Sean McNamara who is more recognizable for different projects, suggesting an error in the dependency.",
+      "index": 853,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'Bratz' with another film associated with Sean McNamara such as 'The Great Raid'."
+    },
+    {
+      "explanation": "The title 'Finding Dory' suggests an animated film, which might not correspond to Andrew Stanton's directorial work, contributing to possible errors in the dependency with the director.",
+      "index": 873,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Adjust the title to 'Finding Nemo' which Stanton co-directed."
+    },
+    {
+      "explanation": "The title 'WALL·E' contains an invalid character, which is not appropriate for a title.",
+      "index": 901,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "WALL-E"
+    },
+    {
+      "explanation": "Peter Pan should have a single director, but it lists two directors which violates the dependency that expects one title to correlate with one director.",
+      "index": 1002,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Consider using only 'Clyde Geronimi' or 'Wilfred Jackson' as the director."
+    },
+    {
+      "explanation": "Planet 51 cites two directors, which contravenes the dependency of one movie title to one director.",
+      "index": 1008,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Consider using only 'Jorge Blanco' or 'Javier Abad' as the director."
+    },
+    {
+      "explanation": "Pocahontas lists two directors, contradicting the dependency where a movie title must correspond with a single director.",
+      "index": 1017,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Use either 'Mike Gabriel' or 'Eric Goldberg' as the director."
+    },
+    {
+      "explanation": "Dumb & Dumber has two directors listed, which goes against the rule of a one-to-one dependency between a movie title and its director.",
+      "index": 1028,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Select either 'Peter Farrelly' or 'Bobby Farrelly' as the director."
+    },
+    {
+      "explanation": "An American Tail: Fievel Goes West lists two directors, violating the dependency demanding one title to map to just one director.",
+      "index": 1033,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Choose either 'Phil Nibbelink' or 'Simon Wells' as the director."
+    },
+    {
+      "explanation": "The Dark Crystal has two directors mentioned, which breaks the core dependency that mandates one title is linked to a single director.",
+      "index": 1035,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Consider using only 'Jim Henson' or 'Frank Oz' as the director."
+    },
+    {
+      "explanation": "The last entry, Money Monster, has a director listed that is not known for production of a movie that correlates back to it, which can cause semantic errors.",
+      "index": 1099,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Confirm that 'Jodie Foster' directed 'Money Monster' accurately."
+    },
+    {
+      "explanation": "The entry 'Inglourious Basterds' contains a spelling mistake in the title. The correct spelling is 'Inglorious Basterds'.",
+      "index": 1107,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Inglorious Basterds"
+    },
+    {
+      "explanation": "The entry 'Bee Movie' has multiple directors 'Steve Hickner,Simon J. Smith', which violates the dependency as each movie should have a single director listed. This is considered an error.",
+      "index": 1115,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Steve Hickner"
+    },
+    {
+      "explanation": "The entry 'The Lorax' has multiple directors 'Chris Renaud,Kyle Balda', which violates the dependency as it should reference a single director.",
+      "index": 1120,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Chris Renaud"
+    },
+    {
+      "explanation": "The entry 'Horton Hears a Who!' has multiple directors 'Jimmy Hayward,Steve Martino', which implies it could reference multiple works, violating the dependency.",
+      "index": 1124,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Jimmy Hayward"
+    },
+    {
+      "explanation": "The entry 'The Matrix' has multiple directors 'Andy Wachowski,Lana Wachowski', which indicates a violation of the dependency as it requires a single director.",
+      "index": 1137,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Andy Wachowski"
+    },
+    {
+      "explanation": "The entry 'Tora! Tora! Tora!' has multiple directors 'Richard Fleischer,Kinji Fukasaku', which conflicts with the dependency indicating a single director is required for each movie.",
+      "index": 1161,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Richard Fleischer"
+    },
+    {
+      "explanation": "The entry 'The Hunchback of Notre Dame' has multiple directors 'Gary Trousdale,Kirk Wise', which is a violation of the dependency requiring a singular director for a movie.",
+      "index": 1162,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Gary Trousdale"
+    },
+    {
+      "explanation": "The entry 'Atlantis: The Lost Empire' has multiple directors 'Gary Trousdale,Kirk Wise', which suggests a violation of the singular director requirement.",
+      "index": 1163,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Gary Trousdale"
+    },
+    {
+      "explanation": "The entry 'Treasure Planet' also has multiple listed directors 'Ron Clements,John Musker', violating the dependency that requires a single director for each film.",
+      "index": 1164,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Ron Clements"
+    },
+    {
+      "explanation": "The director 'Gregory Nava' has not directed the movie 'A Time of Destiny'.",
+      "index": 1245,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Remove 'Gregory Nava' or replace with the correct director."
+    },
+    {
+      "explanation": "The directors 'Kevin Jarre' and 'George P. Cosmatos' are not the verified directors of 'Tombstone'.",
+      "index": 1246,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace 'George P. Cosmatos,Kevin Jarre' with 'Kevin Jarre'."
+    },
+    {
+      "explanation": "The entry 'Hancock' does not match the director 'Peter Berg'.",
+      "index": 1221,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace 'Peter Berg' with a verified director name."
+    },
+    {
+      "explanation": "The movie title 'The Tourist' is incorrectly matched with the director 'Florian Henckel von Donnersmarck' as it is misattributed. Correct attribution is 'Phillip Noyce'.",
+      "index": 1225,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace 'Florian Henckel von Donnersmarck' with 'Phillip Noyce'."
+    },
+    {
+      "explanation": "Some entries attribute incorrect movies to the director 'Oliver Stone', like 'World Trade Center' which should be correctly attributed. Such discrepancies need correcting.",
+      "index": 1291,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Verify and correct the director name for 'World Trade Center'."
+    },
+    {
+      "explanation": "The title 'The Matrix Reloaded' should correspond to a single director. However, it lists two directors, which is not standard for this dataset and violates the syntactic dependency.",
+      "index": 1318,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Matrix Reloaded (Andy Wachowski) or The Matrix Reloaded (Lana Wachowski)"
+    },
+    {
+      "explanation": "The title 'The Matrix Revolutions' should also correspond to a single director. However, it lists two directors, violating the syntactic dependency.",
+      "index": 1319,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Matrix Revolutions (Andy Wachowski) or The Matrix Revolutions (Lana Wachowski)"
+    },
+    {
+      "explanation": "The title 'Damn Yankees!' lists two directors which should correspond to a single title only, which violates the syntax rules for this dataset.",
+      "index": 1328,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Damn Yankees! (George Abbott) or Damn Yankees! (Stanley Donen)"
+    },
+    {
+      "explanation": "The title 'The Wizard of Oz' lists two directors which should not be the case, violating the dependency of having a single director per movie title.",
+      "index": 1334,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Wizard of Oz (Victor Fleming) or The Wizard of Oz (George Cukor)"
+    },
+    {
+      "explanation": "The title 'Alien³' contains an invalid character (³) which is not semantically relevant to a movie title.",
+      "index": 1464,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Alien III"
+    },
+    {
+      "explanation": "The title 'Hoodwinked' is associated with multiple directors, which does not align with a singular identified work of a director.",
+      "index": 1429,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change to a single director's name."
+    },
+    {
+      "explanation": "The Great Mouse Detective is an error because it was directed by Ron Clements and Burny Mattinson, who are not known for this specific work.",
+      "index": 1500,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Great Mouse Detective*"
+    },
+    {
+      "explanation": "The Rescuers is an error because it was directed by John Lounsbery and Wolfgang Reitherman, who did not direct this movie.",
+      "index": 1501,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Rescuers*"
+    },
+    {
+      "explanation": "The title \"The Swan Princess: The Mystery of the Enchanted Treasure\" is a violation because Richard Rich is not known as the director of this specific work.",
+      "index": 1503,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Swan Princess: The Mystery of the Enchanted Treasure*"
+    },
+    {
+      "explanation": "All Dogs Go to Heaven 2 is an error attributed to the wrong directors Larry Leker and Paul Sabella because the movie's known director does not match the title.",
+      "index": 1505,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "All Dogs Go to Heaven 2*"
+    },
+    {
+      "explanation": "The title \"Ernest Goes to Camp\" is incorrect for the director John R. Cherry III; the film was not solely directed by him but by several other directors as well, making this an error.",
+      "index": 1529,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Ernest Goes to Camp*"
+    },
+    {
+      "explanation": "The title 'The Zeroes' is an error because it does not match with the director Steve Royall as the known work is incorrectly attributed to him here.",
+      "index": 1571,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Zeroes*"
+    },
+    {
+      "explanation": "The title 'Catching Faith' is attributed incorrectly because its director John K.D. Graham is not associated with this title.",
+      "index": 1572,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Catching Faith*"
+    },
+    {
+      "explanation": "Into the Sun is an error because 'mink' is not a recognized director of a movie, creating a semantic mismatch with the title.",
+      "index": 1645,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Unknown Director"
+    },
+    {
+      "explanation": "The entry for 'Born Free' has two directors listed: James Hill,Tom McGowan, which is not standard practice for a single title in this context.",
+      "index": 1619,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "James Hill"
+    },
+    {
+      "explanation": "The entry for 'Ice Age: Collision Course' lists Mike Thurmeier,Galen T. Chu as directors, which is not standard for a single entry in a list intended for singular directors per movie title.",
+      "index": 1623,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Mike Thurmeier"
+    },
+    {
+      "explanation": "The entry for 'Documented' has multiple directors listed: Jose Antonio Vargas,Ann Raffaela Lupo, which is inconsistent with the expected singular directors for each title.",
+      "index": 1658,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Jose Antonio Vargas"
+    },
+    {
+      "explanation": "The 'Rugrats Movie' entry lists Igor Kovalyov,Norton Virgien, indicating multiple directors for a single title, which is a violation of the assumed dependency.",
+      "index": 1682,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Igor Kovalyov"
+    },
+    {
+      "explanation": "The movie title 'Mothers Day' is incorrect as it should be 'Mother's Day' to indicate the proper title of the film directed by Paul Duddridge and Nigel Levy.",
+      "index": 1710,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Mother's Day"
+    },
+    {
+      "explanation": "The entry 'Hail, Caesar!' is an error as it is directed by Ethan Coen and Joel Coen, whereas the title should only be attributed to one of them as typically movie titles are listed singularly unless denoting co-directorship in common naming.",
+      "index": 1730,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Hail, Caesar!"
+    },
+    {
+      "explanation": "The movie title 'God Is Good' is a violation as it does not correlate with Caryn Waechter's known works as a director; this title is not recognized as a film directed by her.",
+      "index": 1758,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Title or Relevant Movie Directed by Caryn Waechter"
+    },
+    {
+      "explanation": "Inconsistent naming of directors occurs with 'Albert Hughes,Allen Hughes' for 'Menace II Society' and 'Dead Presidents', as it appears both films are associated with both directors; it represented as such lacks correct context in usual film listing.",
+      "index": 1766,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "List only one director or clarify co-directorship."
+    },
+    {
+      "explanation": "The title 'Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb' appears incorrect as it should formally adhere to a recognized condensed movie title format, which is usually abbreviated for listings.",
+      "index": 1777,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Dr. Strangelove"
+    },
+    {
+      "explanation": "The title 'Gigi' does not represent a work commonly directed by 'Corinne Marchand' who is primarily an actress, and 'Charles Walters' who did not direct this film; thus it's considered an error based on the dependency.",
+      "index": 1809,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "'Charles Walters' should not be associated with 'Gigi'. Correct director is 'Vincente Minnelli'."
+    },
+    {
+      "explanation": "The director 'David Twohy' is not associated with the film 'Paycheck' which was directed by John Woo, indicating a mismatch in dependency.",
+      "index": 1835,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change director to 'John Woo'."
+    },
+    {
+      "explanation": "The director 'Garin Hovannisian' is not linked with the film '1915'; this film is associated with a different production team, indicating a factual error.",
+      "index": 1838,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Correct director to 'Alec Mouhibian'."
+    },
+    {
+      "explanation": "The movie 'Sleepaway Camp III: Teenage Wasteland' was directed by Michael A. Simpson alone, and not associated with others who are mainly known for different genres, implying a reporting error.",
+      "index": 1840,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Assign the correct director 'Michael A. Simpson' alone."
+    },
+    {
+      "explanation": "The movie 'The Arrival' incorrectly lists 'David Twohy' with a film associated with another director; it violates the dependency of proper director attribution.",
+      "index": 1836,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Confirm 'David Twohy' as director for 'The Arrival'."
+    },
+    {
+      "explanation": "The entry for 'The Zero Theorem' contains incorrect information as the director 'Terry Gilliam' is incorrectly attributed; it must align with the proper work.",
+      "index": 1831,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change the film title to align with Gilliam's known works."
+    },
+    {
+      "explanation": "The title 'Lady Magdalene's' does not seem to correspond correctly with J. Neil Schulman, who is more associated with different genres like sci-fi/b-movies than a religious-themed story.",
+      "index": 1905,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Correction of movie title: 'Lady Magdalene's' should reflect a different director or be changed."
+    },
+    {
+      "explanation": "The title 'Phantom of the Opera' is associated with multiple directors in film history. The corresponding directors should include those primarily known for their adaptations, but Anthony D.P. Mann and Arthur Lubin are not the directors most associated with famous versions of this title.",
+      "index": 1913,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Correction of directors: Consider replacing with appropriate directors like George Cukor or others known for this title."
+    },
+    {
+      "explanation": "The movie 'Fallen' does not correspond with Gregory Hoblit in a notable way. Hoblit is not primarily known for this film, indicating a possible error in association.",
+      "index": 1970,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change movie title or director to align better with known works."
+    },
+    {
+      "explanation": "The entry 'The Night of the Hunter' features two directors, which is unconventional as a film typically has a primary director. The syntactic dependency violation arises because authorship should be clear and unambiguous.",
+      "index": 1982,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Correct to single director: choose either Charles Laughton or Robert Mitchum."
+    },
+    {
+      "explanation": "The director 'George Stevens,George Stevens Jr.' for the movie 'A Place in the Sun' is incorrect because George Stevens Jr. is not a recognized director of this film - it was directed solely by George Stevens.",
+      "index": 2005,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "George Stevens"
+    },
+    {
+      "explanation": "The director 'John Cromwell,Edward F. Cline' for the movie 'Since You Went Away' is problematic as only John Cromwell is recognized as its director, thus making Edward F. Cline's mention invalid.",
+      "index": 2044,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "John Cromwell"
+    },
+    {
+      "explanation": "The director 'William Wyler' for the movie 'Mrs. Miniver' cannot include multiple directors. Only one, William Wyler, is recognized, as there shouldn't be an issue of inference concerning multiple producers unless otherwise stated. Thus, 'William Wyler' remains correct and the mention of another is an error.",
+      "index": 2036,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "William Wyler"
+    },
+    {
+      "explanation": "The directors Daniel Boyle and Loveleen Tandan are not known to have collaborated on 'Slumdog Millionaire', making this a semantic error based on the dependency that the title represents the work of the director.",
+      "index": 2101,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change 'Danny Boyle,Loveleen Tandan' to 'Danny Boyle'"
+    },
+    {
+      "explanation": "'Star Trek: USS PAN' is likely an error as it does not align with the known films associated with the director Carl Miller, indicating a semantic violation.",
+      "index": 2105,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Star Trek: USS PAN' to 'Star Trek: Into Darkness'"
+    },
+    {
+      "explanation": "In 'The War Wagon' directed by Burt Kennedy, the movie title does not correlate with the actions or themes typically associated with Kennedy's known style, causing this semantic error.",
+      "index": 2114,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The War Wagon' to 'The Train Robbers'"
+    },
+    {
+      "explanation": "The title 'Get Shorty' does not align with the works typically attributed to its director, Barry Sonnenfeld, indicating a semantic violation.",
+      "index": 2117,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Get Shorty' to 'Men in Black'"
+    },
+    {
+      "explanation": "The movie titled 'The Scorpion King' is incorrectly attributed to Chuck Russell, who is not recognized for this title, reflecting a semantic violation.",
+      "index": 2137,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The Scorpion King' to 'The Mask'"
+    },
+    {
+      "explanation": "The title 'The Transporter' is not consistent with Louis Leterrier's filmography, which could suggest an error in the semantic dependency.",
+      "index": 2147,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The Transporter' to 'The Incredible Hulk'"
+    },
+    {
+      "explanation": "A Night at the Opera* is an error because Sam Wood and Edmund Goulding are not typically credited together as co-directors on a single film. This indicates a potential incorrect relationship in the context of director-movie dependency.",
+      "index": 2216,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A Night at the Opera"
+    },
+    {
+      "explanation": "The Comebacks* is considered an error because Tom Brady is not primarily known as a film director but a professional football player, creating a semantic dependency violation.",
+      "index": 2364,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Comebacks"
+    },
+    {
+      "explanation": "The title 'The Animatrix' is attributed to multiple directors ('Peter Chung,Andrew R. Jones') which violates the dependency, as typically a movie has a single recognizable director.",
+      "index": 2409,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Animatrix (single director, e.g., 'Peter Chung')"
+    },
+    {
+      "explanation": "The title 'Fantasia' includes an excessive number of directors, which is unusual for feature films and violates the dependency of attributing a work to a single director.",
+      "index": 2497,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Fantasia (single director, e.g., 'Walt Disney')"
+    },
+    {
+      "explanation": "The title 'A Christmas Story' should not have two mentions of 'Bob Clark' as directors; multiple directors must contribute distinctively to a film.",
+      "index": 2515,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A Christmas Story: Bob Clark"
+    },
+    {
+      "explanation": "The title '(500) Days of Summer' is incorrectly attributed to 'Marc Webb' instead of its actual title with the lowercase 'D' which conforms to its original title style.",
+      "index": 2503,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "(500) Days of Summer: Marc Webb"
+    },
+    {
+      "explanation": "The title 'So Dear to My Heart' is inaccurately directed by 'Harold D. Schuster,Hamilton Luske' without clarity on whether one of them should be principal or co-direction, leading to potential confusion.",
+      "index": 2502,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "So Dear to My Heart: Harold D. Schuster"
+    },
+    {
+      "explanation": "The title 'Herbie Rides Again' is directed by 'Robert Stevenson', contradicting the film's consistency of having 'Vincent McEveety' for other Herbie films due to continuity errors in series directing.",
+      "index": 2508,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Herbie Rides Again: Vincent McEveety"
+    },
+    {
+      "explanation": "The title 'Northville Cemetery Massacre' implies a specific movie, yet it lists two directors which is against the dependency where each title is meant to represent a work of a single director.",
+      "index": 2604,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Northville Cemetery Massacre - single entry with one director."
+    },
+    {
+      "explanation": "The title 'Beavis and Butt-Head Do America' mentions two directors, which violates the dependency stating a single movie title should correspond to a single director.",
+      "index": 2639,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Beavis and Butt-Head Do America - single entry with one director."
+    },
+    {
+      "explanation": "'Scary Movie 5' lists multiple directors which violates the dependency, as the title is meant to represent a single director's work.",
+      "index": 2668,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Scary Movie 5 - single entry with one director."
+    },
+    {
+      "explanation": "'American Reunion' lists two directors which conflicts with the dependency that each movie title must be linked to a single director.",
+      "index": 2673,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "American Reunion - single entry with one director."
+    },
+    {
+      "explanation": "The entry 'This Is the End' has multiple directors, conflicting with the dependency that requires a title to be singular.",
+      "index": 2663,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "This Is the End - single entry with one director."
+    },
+    {
+      "explanation": "Walter Lang,Dorothy Davenport is incorrect because there should only be one director listed for each movie title.",
+      "index": 2700,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Walter Lang"
+    },
+    {
+      "explanation": "The title 'The Man Called Flintstone' does not align with the multi-director 'Joseph Barbera,William Hanna', indicating a potential error.",
+      "index": 2799,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Joseph Barbera"
+    },
+    {
+      "explanation": "The title 'Rugrats Go Wild' is not a work directed solely by 'John Eng,Norton Virgien'. This is a syntactic dependency violation because the title suggests a collaboration of multiple directors but is not specified as such.",
+      "index": 2801,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Rugrats Go Wild (John Eng & Norton Virgien)"
+    },
+    {
+      "explanation": "The entry 'Problem Child' with directors 'Robert Simonds,Dennis Dugan' has two listed directors, which is unusual and potentially incorrect depending on the context of the title, as it may imply collaboration where only one director is typically credited per film.",
+      "index": 2904,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove one of the directors or clarify the credit as co-directors."
+    },
+    {
+      "explanation": "The movie 'The Expert' has two directors 'Rick Avery,William Lustig' which raises questions regarding the title's attribution to a single director, which is the typical expectation.",
+      "index": 2910,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove one of the directors or clarify the credit as co-directors."
+    },
+    {
+      "explanation": "The title 'Kingpin' is paired with directors 'Bobby Farrelly,Peter Farrelly' which may suggest a specific interpretation of the credit system, as it features two directors which may conflict with the typical single director attribution.",
+      "index": 2913,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove one of the directors or clarify the credit as co-directors."
+    },
+    {
+      "explanation": "The entry 'The Ghost Club' with multiple directors 'Rafe M. Portilo,Ralph Portillo,Ralph E. Portillo' raises concerns regarding the typical attribution of a single director per title; it suggests a potential mislabeling or confusion about directorial credit.",
+      "index": 2934,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove one or more of the directors or clarify the credit as co-directors."
+    },
+    {
+      "explanation": "The film 'The Reef 2: High Tide' has two directors 'Mark A.Z. Dippé,Taedong Park' listed, which is against the typical convention of attributing films to a single director unless explicitly stated otherwise.",
+      "index": 2981,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove one of the directors or clarify the credit as co-directors."
+    },
+    {
+      "explanation": "The title 'Escape from L.A.' lists a director 'John Carpenter' alongside co-director entries, which can imply a dual-directorial involvement that may not conventionally appear for the film's crediting standards.",
+      "index": 2990,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Avoid multiple directorial credits unless confirmed as co-directors."
+    },
+    {
+      "explanation": "The title 'R.A.D.I.C.A.L.S' contains invalid/nonsensical characters and does not represent an appropriate movie title with proper syntax.",
+      "index": 3000,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "RADICALS"
+    },
+    {
+      "explanation": "The title 'The Boxcar Children' has an improper director attribution containing multiple names, which violates the dependency because it must represent a single work of the director.",
+      "index": 3012,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Daniel Chuba"
+    },
+    {
+      "explanation": "The title 'Logan' has a director attributed as 'Kyle Lawrence,Caleb Doyle', containing multiple names, which violates the dependency as it should represent a single work of the director.",
+      "index": 3045,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Kyle Lawrence"
+    },
+    {
+      "explanation": "The title 'Ziegfeld Follies' has multiple names attributed to the director, which violates the dependency by not representing a singular work of one director.",
+      "index": 3048,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Lemuel Ayers"
+    },
+    {
+      "explanation": "The title 'It's Always Fair Weather' has multiple directors attributed, which violates the dependency as it should represent a single work of one director.",
+      "index": 3049,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Stanley Donen"
+    },
+    {
+      "explanation": "The title 'The Princess and the Pirate' has multiple names attributed to the director, violating the dependency because it must represent a single work of the director.",
+      "index": 3087,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "David Butler"
+    },
+    {
+      "explanation": "The title 'Daffy Duck's Quackbusters' has multiple names attributed to the director which violates the dependency as it should be attributed to a single director.",
+      "index": 3090,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Greg Ford"
+    },
+    {
+      "explanation": "The title 'A Dog of Flanders' is associated with two different directors (Kevin Brodie and James B. Clark). This is an error as one title should ideally correspond to one director.",
+      "index": 3107,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'A Dog of Flanders' to a different movie."
+    },
+    {
+      "explanation": "The title 'The Prisoner of Zenda' is associated with two different directors (Richard Thorpe and John Cromwell,W.S. Van Dyke). This is an error as one title should ideally correspond to one director.",
+      "index": 3121,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'The Prisoner of Zenda' to a different movie."
+    },
+    {
+      "explanation": "The title 'John Wick' is associated with two different directors (Chad Stahelski and David Leitch). This is an error as one title should ideally correspond to one director.",
+      "index": 3124,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'John Wick' to a different movie."
+    },
+    {
+      "explanation": "The title 'Daybreakers' is associated with two different directors (Peter Spierig and Michael Spierig). This is an error as one title should ideally correspond to one director.",
+      "index": 3133,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'Daybreakers' to a different movie."
+    },
+    {
+      "explanation": "The title 'The Adventures of Tom Sawyer' is associated with two different directors (Norman Taurog and George Cukor). This is an error as one title should ideally correspond to one director.",
+      "index": 3172,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'The Adventures of Tom Sawyer' to a different movie."
+    },
+    {
+      "explanation": "The title 'The Court Jester' is associated with two different directors (Melvin Frank and Norman Panama). This is an error as one title should ideally correspond to one director.",
+      "index": 3186,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'The Court Jester' to a different movie."
+    },
+    {
+      "explanation": "The title 'The Croods 2' is associated with two different directors (Kirk De Micco and Chris Sanders). This is an error as one title should ideally correspond to one director.",
+      "index": 3190,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change one of the directors for 'The Croods 2' to a different movie."
+    },
+    {
+      "explanation": "The title 'Annie Get Your Gun' does not seem to correspond with the directors George Sidney,Busby Berkeley, as this movie is primarily associated with George Sidney only.",
+      "index": 3201,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Annie Get Your Gun (George Sidney)"
+    },
+    {
+      "explanation": "The title 'Boys Briefs 5' does not appear to match the directors Soman Chainani,Lisa Marie Gamlem, as there is no credible movie known by that title.",
+      "index": 3209,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Boys Briefs 5 (Corrected title if applicable)"
+    },
+    {
+      "explanation": "The director 'Edwin L. Marin' is not known to have directed a movie titled 'The Santa Clause 3: The Escape Clause'. This represents a semantic error.",
+      "index": 3345,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Michael Lembeck"
+    },
+    {
+      "explanation": "The director 'Agnieszka Holland' is not associated with the movie 'Copying Beethoven'. This is a semantic violation.",
+      "index": 3355,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Vera Storozheva"
+    },
+    {
+      "explanation": "The director 'Richard Martin' is not known for directing the movie 'Air Bud: Golden Receiver'. This represents a semantic error.",
+      "index": 3383,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Roger Kumble"
+    },
+    {
+      "explanation": "The director 'Scott Sanders' did not direct the movie 'Black Dynamite'. This is a semantic violation.",
+      "index": 3390,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Rook Productions"
+    },
+    {
+      "explanation": "The title 'JacobJosefAimee' does not appear to be a recognized title of a movie and lacks spaces, which indicates a possible error in entry.",
+      "index": 3454,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Jacob, Josef, Aimee"
+    },
+    {
+      "explanation": "The title 'Mr. Bug Goes to Town' is attributed incorrectly to multiple directors (Dave Fleischer, Shamus Culhane), which does not comply with the format of having a single director per movie title.",
+      "index": 3470,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Dave Fleischer"
+    },
+    {
+      "explanation": "The director 'Chris Weitz,Paul Weitz' should not include a comma without a conjunction in this context, as it might imply a syntactic, rather than semantic, dependency violation. It is misleading, suggesting two individuals instead of potentially one collaborative pair.",
+      "index": 3513,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Chris Weitz and Paul Weitz"
+    },
+    {
+      "explanation": "The director 'Daniel Myrick,Eduardo Sánchez' should not include a comma without a conjunction in this context, as it might imply a syntactic, rather than semantic, dependency violation. It is misleading, suggesting two individuals instead of potentially one collaborative pair.",
+      "index": 3519,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Daniel Myrick and Eduardo Sánchez"
+    },
+    {
+      "explanation": "The director 'Keith Fulton,Louis Pepe' should not include a comma without a conjunction in this context, as it might imply a syntactic, rather than semantic, dependency violation. It is misleading, suggesting two individuals instead of potentially one collaborative pair.",
+      "index": 3549,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Keith Fulton and Louis Pepe"
+    },
+    {
+      "explanation": "The director 'Phil Morrison,Simon Sandquist' should not include a comma without a conjunction in this context, as it might imply a syntactic, rather than semantic, dependency violation. It is misleading, suggesting two individuals instead of potentially one collaborative pair.",
+      "index": 3565,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Phil Morrison and Simon Sandquist"
+    },
+    {
+      "explanation": "The director 'Shari Springer Berman,Robert Pulcini' should not include a comma without a conjunction in this context, as it might imply a syntactic, rather than semantic, dependency violation. It is misleading, suggesting two individuals instead of potentially one collaborative pair.",
+      "index": 3573,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Shari Springer Berman and Robert Pulcini"
+    },
+    {
+      "explanation": "The title 'House Party 3' is considered an error because the corresponding director 'Eric Meza' is not known for this movie.",
+      "index": 3603,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "House Party 3"
+    },
+    {
+      "explanation": "The title 'House Party 2' is an error because the director 'Doug McHenry,George Jackson' should not have a comma; it should list only one director.",
+      "index": 3604,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "House Party 2, Doug McHenry"
+    },
+    {
+      "explanation": "The title 'Winnie the Pooh' is inappropriate as it has multiple directors listed, 'Stephen J. Anderson,Don Hall', which is not a singular correct representation.",
+      "index": 3628,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Winnie the Pooh, Stephen J. Anderson"
+    },
+    {
+      "explanation": "The title 'Anomalisa' has multiple directors 'Duke Johnson,Charlie Kaufman' listed, which causes a violation as it should be directed by a single director.",
+      "index": 3630,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Anomalisa, Duke Johnson"
+    },
+    {
+      "explanation": "The title 'Descention' is misspelled and should be 'Descension' and thus creates a dependency issue with the director's recognition.",
+      "index": 3658,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Descension"
+    },
+    {
+      "explanation": "The title 'Dance, Girl, Dance' contains multiple directors, 'Dorothy Arzner,Roy Del Ruth', creating a violation as a film is usually credited to one director.",
+      "index": 3695,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Dance, Girl, Dance, Dorothy Arzner"
+    },
+    {
+      "explanation": "The title 'Better Living Through Chemistry' is incorrectly attributed to directors 'Geoff Moore,David Posamentier', as there is no known work by this title associated with these directors.",
+      "index": 3701,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "'Chemistry 101','Geoff Moore'"
+    },
+    {
+      "explanation": "Andrew Monument is not a recognized director, making 'Nightmares in Red, White and Blue: The Evolution of the American Horror Film' invalid since a valid movie title must belong to a valid director.",
+      "index": 3804,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Evolution of the American Horror Film - Remove invalid entry."
+    },
+    {
+      "explanation": "Arlene Marechal is not a widely known director, rendering 'I Am Nancy' invalid due to the director-title dependency.",
+      "index": 3805,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove invalid title or associate with a valid director."
+    },
+    {
+      "explanation": "On the Town has two directors listed (Stanley Donen and Gene Kelly), which violates the dependency that requires a single director for a movie title.",
+      "index": 3827,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Fix to single director or separate into distinct entries."
+    },
+    {
+      "explanation": "The Resistance has a director listed (Peng Zhang Li) who does not have a widely known filmography, making 'The Resistance' invalid under the dependency criterion.",
+      "index": 3865,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Remove or replace with a valid title or director."
+    },
+    {
+      "explanation": "Starry Eyes has two directors listed (Kevin Kolsch and Dennis Widmyer), violating the dependency that necessitates a single director per movie title.",
+      "index": 3891,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Fix to single director or separate into distinct entries."
+    },
+    {
+      "explanation": "The title \"The Arrival\" is dependent on a single director but lists multiple directors (Nick Pettit, Michael Poley).",
+      "index": 3909,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Arrival, Nick Pettit"
+    },
+    {
+      "explanation": "The title \"New York, I Love You\" is dependent on a single director but lists multiple directors (Fatih Akin, Yvan Attal).",
+      "index": 3926,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "New York, I Love You, Fatih Akin"
+    },
+    {
+      "explanation": "The title \"Humanoids from the Deep\" is dependent on a single director but lists multiple directors (Barbara Peeters, Jimmy T. Murakami).",
+      "index": 3930,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Humanoids from the Deep, Barbara Peeters"
+    },
+    {
+      "explanation": "The title \"Legends of Oz: Dorothy's Return\" is dependent on a single director but lists multiple directors (Will Finn, Daniel St. Pierre).",
+      "index": 3931,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Legends of Oz: Dorothy's Return, Will Finn"
+    },
+    {
+      "explanation": "The title \"God Grew Tired of Us\" is dependent on a single director but lists multiple directors (Christopher Dillon Quinn, Tommy Walker).",
+      "index": 3943,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "God Grew Tired of Us, Christopher Dillon Quinn"
+    },
+    {
+      "explanation": "The title \"The Evil Below\" is dependent on a single director but lists multiple directors (Jean-Claude Dubois, Wayne Crawford).",
+      "index": 3953,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Evil Below, Jean-Claude Dubois"
+    },
+    {
+      "explanation": "Nighthawks is attributed to both Bruce Malmuth and Gary Nelson, which suggests an error as each title should only correspond to one director.",
+      "index": 4020,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Bruce Malmuth"
+    },
+    {
+      "explanation": "The title 'The Mask of Fu Manchu' contains two directors (Charles Brabin, Charles Vidor) which is considered an error since each movie title should only have a single director associated with it.",
+      "index": 4053,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Charles Brabin"
+    },
+    {
+      "explanation": "The title 'E-Team' is not commonly associated with the directors Katy Chevigny and Ross Kauffman, who are known for documentaries, suggesting a mismatch in genre or thematic fit.",
+      "index": 4100,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'E-Team' to 'The Last Documentary'"
+    },
+    {
+      "explanation": "'Gummo' is a film directed by 'Harmony Korine', which matches the film's unconventional style, reflective of the director's distinctive approach, meaning no error here. No action required.",
+      "index": 4101,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Ken Park' aligns with both directors' work, representing their collaborative efforts without semantic issue. Thus, no action necessary here.",
+      "index": 4102,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Small Apartments' is accurately tied to Jonas Åkerlund’s directorial style, validated by genre relevance, hence no violation exists.",
+      "index": 4103,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Kids' directed by Larry Clark is consistent with Clark's work focusing on youth themes, resulting in no violation.",
+      "index": 4104,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Opening Night' is accurately tied to John Cassavetes, whose works often delve into complex relationships, affirming correct cinematic projection.",
+      "index": 4105,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Restless' reflects Gus Van Sant's thematic style, validating correct match without discrepancies.",
+      "index": 4106,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Fabulous! The Story of Queer Cinema' aligns with Lisa Ades, Lesli Klainberg's known documentary filmmaking, confirming no validation issue.",
+      "index": 4107,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Dark Blood' matches director George Sluizer's film style focused on intense narratives, affirming correct alignment.",
+      "index": 4108,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Running on Empty' aligns with Sidney Lumet's cinematic storytelling, demonstrating no dependency violation.",
+      "index": 4109,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'I Love You to Death' corresponds correctly to Lawrence Kasdan's thematic fabric of complex relationships in film, confirming no error.",
+      "index": 4110,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Thing Called Love' is in line with Peter Bogdanovich's work, indicating correct dependency fulfillment.",
+      "index": 4111,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Dogfight' produces a fit with Nancy Savoca's unique storytelling perspective, showing correct alignment.",
+      "index": 4112,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'A Night in the Life of Jimmy Reardon' correlates with William Richert’s artistic direction, indicating no violation.",
+      "index": 4113,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Another World' aligns closely with the directorial collaboration of Chaiklin and Stevens, confirming correct thematic ties.",
+      "index": 4114,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Dancer in the Dark' is fitting with Lars von Trier's style and subject matter, thus showing no error.",
+      "index": 4115,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Milk' appropriately connects to Gus Van Sant's filmography, showing correct semantic alignment.",
+      "index": 4116,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Freaked' by Tom Stern and Alex Winter stays true to creative stylings, thus error-free.",
+      "index": 4117,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Night Before' correctly aligns with Thom Eberhardt's unique storytelling approach, indicating no issues.",
+      "index": 4118,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Wassup Rockers' stays consistent with Larry Clark’s previous work indicating accurate alignment without violation.",
+      "index": 4119,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Free Willy 2: The Adventure Home' matches Dwight H. Little's children's storytelling approach, indicating no error.",
+      "index": 4120,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Promised Land' aligns with Gus Van Sant’s narrative style, thus indicating correctness in dependency.",
+      "index": 4121,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Opposite of Sex' matches Don Roos's storytelling themes effectively, indicating no semantic violation.",
+      "index": 4122,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Tetro' aligns with Francis Ford Coppola's narrative style indicating no violation in dependencies.",
+      "index": 4123,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'TauTona' by William Eubank matches the director's style of compelling science fiction, indicating no violation.",
+      "index": 4124,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Black Snake Moan' accurately reflects Craig Brewer's work and creative vision, demonstrating no errors.",
+      "index": 4125,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Free Willy 3: The Rescue' aligns with Sam Pillsbury’s children's content creation, thus no errors found.",
+      "index": 4126,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Brown Bunny' reflects Vincent Gallo’s narrative style indicating no issue in dependency.",
+      "index": 4127,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Ghost World' is appropriately tied to Terry Zwigoff’s unique storytelling, hence no violation.",
+      "index": 4128,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Happiness' by Todd Solondz reflects the director's thematic viewpoint, indicating no semantic violations.",
+      "index": 4129,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Coffee and Cigarettes' aligns with Jim Jarmusch’s narrative choices, demonstrating accuracy in the dependency violation analysis.",
+      "index": 4130,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Promises Written in Water' reflects Vincent Gallo's thematic style showcasing accurate depiction without violation.",
+      "index": 4131,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Extracted' matches Nir Paniry’s narrative style, showing no dependency inconsistency.",
+      "index": 4132,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Angels & Airwaves: Start the Machine' is a thematic fit for Mark Eaton, indicating no error present.",
+      "index": 4133,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Europa Report' aligns correctly with Sebastián Cordero’s narrative style, confirming accurate dependency fulfillment.",
+      "index": 4134,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Birth' correctly matches Jonathan Glazer's thematic focus, showing no violation.",
+      "index": 4135,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Malice' aligns with Harold Becker’s directorial style, which validates no errors in dependency.",
+      "index": 4136,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Birthday Girl' aligns correctly with Jez Butterworth’s narrative views, indicating no violations.",
+      "index": 4137,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Control' matches Anton Corbijn's film style accurately, confirming no issue in dependencies.",
+      "index": 4138,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Rhinoceros Eyes' aligns with Aaron Woodley’s artistic style, confirming correctness in dependence.",
+      "index": 4139,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Kurt Cobain About a Son' corresponds with AJ Schnack's known documentary style, indicating no violations.",
+      "index": 4140,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Liar's Moon' appropriately reflects David Fisher's narrative themes, affirming no violation in this dependency.",
+      "index": 4141,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Kansas' aligns well with David Stevens's subject styles, confirming correctness without discrepancies.",
+      "index": 4142,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Over the Edge' is correctly attributed to Jonathan Kaplan whose work is fitting in style, affirming no errors.",
+      "index": 4143,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Little Darlings' maintains appropriate ties to Ron Maxwell's directorial style, indicating no violation.",
+      "index": 4144,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Saint of Fort Washington' fits Tim Hunter’s thematic storytelling styles, thus no dependency violation.",
+      "index": 4145,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Foxes' provides accurate representation of Adrian Lyne’s thematic concerns, confirming no error.",
+      "index": 4146,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Outsiders' fits with Francis Ford Coppola's known storytelling style, validating correct alignment.",
+      "index": 4147,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Mr. Wonderful' aligns with Anthony Minghella's narrative techniques, indicating no violations present.",
+      "index": 4148,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'That Was Then... This Is Now' matches Christopher Cain’s narrative style effectively, showing accuracy in alignment.",
+      "index": 4149,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Tucker: The Man and His Dream' aligns with Francis Ford Coppola's thematic stylings, confirming no error.",
+      "index": 4150,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Peggy Sue Got Married' fits well to Francis Ford Coppola’s storytelling norms, confirming no violation.",
+      "index": 4151,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Cotton Club' matches Francis Ford Coppola's known storytelling effectively, thus indicating no violations.",
+      "index": 4152,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Rain People' aligns with Francis Ford Coppola’s thematic storytelling, showing correctness in dependency.",
+      "index": 4153,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Year of the Dragon' fits Michael Cimino’s known narrative focus accurately, confirming no violation.",
+      "index": 4154,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'One from the Heart' appropriately reflects Francis Ford Coppola's cinematic style, indicating no error.",
+      "index": 4155,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Gardens of Stone' matches Francis Ford Coppola's storytelling themes accurately, thus no violation exists here.",
+      "index": 4156,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Finding Forrester' reflects Gus Van Sant's directorial style accurately, showing no violation present.",
+      "index": 4157,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Lonesome Jim' aligns with Steve Buscemi’s cinematic presentation showcasing no errors in thematic dependencies.",
+      "index": 4158,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'At the Edge of the World' fits Dan Stone and Patrick Gambuti Jr.'s collaborative style accurately, indicating no violations.",
+      "index": 4159,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Feast' correctly matches John Gulager’s known story style and thematic concerns ensuring accuracy.",
+      "index": 4160,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Lord of the Rings' by Ralph Bakshi aligns correctly with thematic genres showing no violation exists.",
+      "index": 4161,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Devolved' is accurately ringed to John Cregan’s known directorial style indicating correctness and suitable representation.",
+      "index": 4162,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Searching for Camelot: The Quest to Reclaim the Throne' aligns accurately with Roger Paradiso’s documentary style, confirming no violation.",
+      "index": 4163,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'What's Eating Gilbert Grape' accurately reflects Lasse Hallström’s narrative techniques, indicating no semantic violation.",
+      "index": 4164,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Alive' fits well with Frank Marshall's storytelling style confirming accuracy in provided dependencies.",
+      "index": 4165,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Blue Lagoon' aligns with Randal Kleiser's thematic output indicating correctness thus no violation here.",
+      "index": 4166,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Ghost and the Darkness' maintains suitable connection to Stephen Hopkins's directorial themes indicating no errors.",
+      "index": 4167,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Robinson Crusoe' aligns fitly with directors Rod Hardy and George Miller's collaboration indicating no dependency breach.",
+      "index": 4168,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Edge' correctly reflects Lee Tamahori’s thematic storytelling confirming no violation in a dependency.",
+      "index": 4169,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Deliverance' fits John Boorman's narrative style perfectly ensuring no semantic issues.",
+      "index": 4170,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Farmageddon' maintains proper representation of Kristin Canty's directorial themes indicating no dependency violations.",
+      "index": 4171,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'King Lear' by Jean-Luc Godard shows suitable thematic fit indicating no error in dependencies; another 'King Lear' by Alexander Barnett maintains the same.",
+      "index": 4172,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Southpaw' accurately connects with Antoine Fuqua's style and action narrative, confirming no semantic breach.",
+      "index": 4174,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Hamlet' aligns with Franco Zeffirelli’s known direction, ensuring no breach in dependencies.",
+      "index": 4175,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Macbeth' is an accurate reflection of Roman Polanski's style, thus ensuring correctness in provided narratives.",
+      "index": 4176,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'I Origins' stays true to Mike Cahill's thematic style indicating no semantic violations present.",
+      "index": 4177,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Primer' matches Shane Carruth's directorial style accurately indicating no error.",
+      "index": 4178,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Days of Heaven' aligns with Terrence Malick’s style and storytelling capabilities indicating accurate representation.",
+      "index": 4179,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Last Picture Show' by Peter Bogdanovich accurately reflects the director's cinematic approach; no violation found.",
+      "index": 4180,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The 11th Hour' aligns effectively with Nadia Conners and Leila Conners Petersen's documentary styles confirming no breach.",
+      "index": 4181,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Dinosaur 13' by Todd Douglas Miller correctly aligns with thematic storytelling showing no semantic issues.",
+      "index": 4182,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Racing Extinction' fits Louie Psihoyos’s known themes ensuring no breach in dependencies.",
+      "index": 4183,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Fountain' aligns accurately with Darren Aronofsky’s narrative style indicating correctness in cinematic representation.",
+      "index": 4184,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Wake in Fright' correlates correctly with Ted Kotcheff to signify accurate narrative alignment ensuring no breaches.",
+      "index": 4185,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Give Up Tomorrow' aligns accurately with Michael Collins’s documentary styles demonstrating no thematic inconsistencies.",
+      "index": 4186,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'No Impact Man: The Documentary' reflects Laura Gabbert and Justin Schein’s directing styles accurately indicating no breaches.",
+      "index": 4187,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Fritz the Cat' attributes correctly to Ralph Bakshi's narrative voice and thematic expression showing no issues.",
+      "index": 4188,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Plague Dogs' matches Martin Rosen’s familiar themes perfectly indicating no violations found.",
+      "index": 4189,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Vanishing of the Bees' shows fitting connection with Maryam Henein and George Langworthy's styles, confirming no violations.",
+      "index": 4190,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'1984' matches well with Michael Anderson's cinematic vision ensuring no dependency violations.",
+      "index": 4191,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Sound of My Voice' aligns correctly to Zal Batmanglij’s cinematic narratives, thus confirming accuracy.",
+      "index": 4192,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Tell Me Lies' fits Peter Brook's style, indicating no error present in the dependencies.",
+      "index": 4193,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The East' accurately correlates with Zal Batmanglij’s directorial narratives confirming correctness without issues.",
+      "index": 4194,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Arthur' aligns closely with Jason Winer's stylistic approaches, indicating no errors present.",
+      "index": 4195,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Particle Fever' correlates with Mark Levinson showing compatibility with directorial vision ensuring no violation present.",
+      "index": 4196,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Sitter' correlates correctly with David Gordon Green's direction showcasing no errors in dependencies.",
+      "index": 4197,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'What the #$*! Do We (K)now!?' reflects the documentary styles of William Arntz and Betsy Chasse signifying accuracy in representation.",
+      "index": 4198,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Soylent Green' fits designologically with Richard Fleischer’s known cinematic approaches, indicating no errors in dependencies.",
+      "index": 4199,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The director 'Joe Berlinger,Bruce Sinofsky' is invalid as it includes multiple entries in a single cell where only one director's name is expected.",
+      "index": 4205,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Joe Berlinger"
+    },
+    {
+      "explanation": "The director 'David Twohy' is valid, but the movie 'The Chronicles of Riddick' cannot be associated with this director when his other work, 'Riddick', is present, suggesting a possible misalignment in directorial works leading to a semantic error.",
+      "index": 4224,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Riddick - please check the director for proper association."
+    },
+    {
+      "explanation": "The director 'Albert Hughes,Allen Hughes' is invalid as it contains multiple names in a single entry; only one director's name should be associated with each movie.",
+      "index": 4215,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Albert Hughes"
+    },
+    {
+      "explanation": "The title 'The Twilight Saga: New Moon' does not correctly correspond to the director 'Chris Weitz'. 'The Twilight Saga: New Moon' was directed by Chris Weitz, however, if related dependencies from background knowledge suggest any other movies directed by the same director should match, it might indicate incorrect associations. Here, 'Chris Weitz' has inconsistencies in entries to correlate with movie titles in previous entries.",
+      "index": 4301,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Chris Weitz' to 'David Slade'"
+    },
+    {
+      "explanation": "The title 'The Mortal Instruments: City of Bones' cannot be attributed to the director 'Harald Zwart' given that the dependencies from known public information contradict this association. It might suggest that the director should instead be someone more syntactically relevant or previously correlating with this film work.",
+      "index": 4309,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Harald Zwart' to 'Scott Stewart' or substitute the title accordingly."
+    },
+    {
+      "explanation": "The entry 'Lewis Milestone,Carol Reed' contains two directors; however, this should have only one director per movie title.",
+      "index": 4415,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Lewis Milestone"
+    },
+    {
+      "explanation": "The entry 'H.C. Potter,Victor Saville' contains two directors; however, this should have only one director per movie title.",
+      "index": 4434,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "H.C. Potter"
+    },
+    {
+      "explanation": "The entry 'Ralph Ince,William Boyd' contains two directors; however, this should have only one director per movie title.",
+      "index": 4435,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Ralph Ince"
+    },
+    {
+      "explanation": "The entry 'Frank Capra,Anatole Litvak' contains two directors; however, this should have only one director per movie title.",
+      "index": 4438,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Frank Capra"
+    },
+    {
+      "explanation": "The entry 'John Ford,Gregg Toland' contains two directors; however, this should have only one director per movie title.",
+      "index": 4442,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "John Ford"
+    },
+    {
+      "explanation": "The entry 'Richard Marquand' appears multiple times; a movie should have one unique entry for a director.",
+      "index": 4449,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Richard Marquand"
+    },
+    {
+      "explanation": "The entry 'Michael A. Simpson' appears multiple times; a movie should have one unique entry for a director.",
+      "index": 4478,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Michael A. Simpson"
+    },
+    {
+      "explanation": "The entry 'Will Finn,John Sanford' contains two directors; however, this should have only one director per movie title.",
+      "index": 4491,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Will Finn"
+    },
+    {
+      "explanation": "The entry 'Mervyn LeRoy' appears multiple times; a movie should have one unique entry for a director.",
+      "index": 4495,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Mervyn LeRoy"
+    },
+    {
+      "explanation": "The entry 'Coming Attractions: The History of the Movie Trailer' does not match with 'Michael J. Shapiro,Jeff Werner' as both individuals did not co-direct any movie titled this.",
+      "index": 4504,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'Coming Attractions: The History of the Movie Trailer' with 'Untitled Trailer Documentary'."
+    },
+    {
+      "explanation": "The entry 'Scarface' does not logically align with 'Howard Hawks,Richard Rosson' as these directors did not co-direct any version of 'Scarface'.",
+      "index": 4553,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'Scarface' with 'Scarface (1932)'."
+    },
+    {
+      "explanation": "The entry 'The Man from Cairo' as directed by 'Ray Enright,Edoardo Anton' does not match factual records as no film by this title was co-directed by them.",
+      "index": 4592,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'The Man from Cairo' with 'The Man Who Knew Too Much (1956)'."
+    },
+    {
+      "explanation": "The movie 'Tom' is a common noun and does not represent the title of a specific film directed by Greydon Clark, thus violating the dependency that requires a proper movie title.",
+      "index": 4687,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Specify a valid movie title for the director Greydon Clark."
+    },
+    {
+      "explanation": "The movie title 'Femmes enragées' is considered an error because Philippe Darsac is not widely recognized as a director associated with this film. It may have been misattributed, leading to a semantic violation of the dependency.",
+      "index": 4714,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Check the correct director for 'Femmes enragées'."
+    },
+    {
+      "explanation": "The movie title 'The Terror' is considered an error because it has more than one director (Roger Corman and Francis Ford Coppola), which is unusual for dependency enforcement in a format where typically one title has one primary director.",
+      "index": 4722,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Use a single director, likely Roger Corman, for 'The Terror'."
+    },
+    {
+      "explanation": "Richard Ledes is not known as the director of 'A Hole in One'.",
+      "index": 4800,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'A Hole in One' to 'Magnolia' or 'Dune'"
+    },
+    {
+      "explanation": "Jim Simpson is not known as the director of 'The Guys'.",
+      "index": 4802,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The Guys' to 'Dance with Me' or a title Jim Simpson has directed."
+    },
+    {
+      "explanation": "Bernard B. Ray is not known as the director of 'Suicide Squad'.",
+      "index": 4804,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Suicide Squad' to 'Animal House' or 'The Dark Knight'."
+    },
+    {
+      "explanation": "Anthony Russo, Joe Russo are not known as the director of 'Avengers: Infinity War - Part II'.",
+      "index": 4807,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Avengers: Infinity War - Part II' to 'Avengers: Endgame'."
+    },
+    {
+      "explanation": "Scott Derrickson is not known as the director of 'Doctor Strange'.",
+      "index": 4809,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Doctor Strange' to 'Sinister' or a title Scott Derrickson has directed."
+    },
+    {
+      "explanation": "Garson Kanin is not known as the director of 'My Favorite Wife'.",
+      "index": 4811,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'My Favorite Wife' to 'My Favorite Year' or another title directed by Garson Kanin."
+    },
+    {
+      "explanation": "Famke Janssen is not known as the director of 'Bringing Up Bobby'.",
+      "index": 4812,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'Bringing Up Bobby' to 'X-Men' or another title directed by Famke Janssen."
+    },
+    {
+      "explanation": "Howard Hawks is not the sole director for all movies attributed to him; multiple titles have different directors.",
+      "index": 4816,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change titles attributed solely to Howard Hawks to their correct directors: e.g. 'Monkey Business' to 'Howard Hawks' correctly."
+    },
+    {
+      "explanation": "Preston Sturges is not the director for 'The Great McGinty'.",
+      "index": 4821,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The Great McGinty' to 'The Miracle of Morgan's Creek' or another title directed by Preston Sturges."
+    },
+    {
+      "explanation": "Joss Whedon is not known as the director of 'Avengers: Age of Ultron', nor is he the credited director for 'Serenity'.",
+      "index": 4861,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change to 'Firefly'."
+    },
+    {
+      "explanation": "A. Blaine Miller and Julian Adams are not known as the directors of 'The Last Confederate: The Story of Robert Adams'.",
+      "index": 4854,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change to 'The Last Rebel' or another title."
+    },
+    {
+      "explanation": "*batteries not included is not a recognizable title attributed to Matthew Robbins, creating a semantic mismatch.",
+      "index": 4957,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Batteries Not Included"
+    },
+    {
+      "explanation": "Super Mario Bros. has ambiguous titles attributed to Annabel Jankel and Rocky Morton indicating it was directed by multiple individuals without proper credit notation, which is a semantic violation.",
+      "index": 4958,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Super Mario Bros."
+    },
+    {
+      "explanation": "The title 20 Million Miles to Earth is misattributed to Nathan Juran; the title does not match the known bibliography of the director, resulting in a semantic violation.",
+      "index": 4994,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "20 Million Miles to Earth"
+    },
+    {
+      "explanation": "The title 'Inside Deep Throat' does not represent a work by the directors listed, who are known for different types of productions instead of adult films.",
+      "index": 5000,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The title should be 'Unknown Title' or a title correctly attributed to Fenton Bailey or Randy Barbato"
+    },
+    {
+      "explanation": "'Undercover Brother' is not a known film directed by Malcolm D. Lee; it has different known credits.",
+      "index": 5003,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The title should be 'Unknown Title' or a title correctly attributed to Malcolm D. Lee"
+    },
+    {
+      "explanation": "The title 'The Ladykillers' does not represent a film directed by Ethan Coen and Joel Coen as they did not direct this film; it was directed by a different set of directors.",
+      "index": 5013,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The title should be 'Unknown Title' or a title correctly attributed to Ethan Coen or Joel Coen."
+    },
+    {
+      "explanation": "The title 'Resident Evil: Extinction' does not have Paul W.S. Anderson as its director; it was directed by a different known director.",
+      "index": 5029,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The title should be 'Unknown Title' or a title correctly attributed to the correct director."
+    },
+    {
+      "explanation": "The title 'Sleepy Hollow' is attributed to Tim Burton, while in fact it was directed primarily by a different director.",
+      "index": 5044,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The title should be 'Unknown Title' or a title correctly attributed to Tim Burton."
+    },
+    {
+      "explanation": "The title 'Pootie Tang' does not seem to align with Louis C.K. as its credited director; it has a different known credit.",
+      "index": 5088,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The title should be 'Unknown Title' or a title correctly attributed to the appropriate director."
+    },
+    {
+      "explanation": "The title 'Sgt. Kabukiman N.Y.P.D.' does not correspond to the work of Michael Herz, who is known for directing different types of films, indicating a mismatch in expected content.",
+      "index": 5105,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change movie title to a known work of Michael Herz, such as 'Class of Nuke 'Em High'."
+    },
+    {
+      "explanation": "The title 'Love! Valour! Compassion!' is directed by Joe Mantello, but it does not match the director's profile, as he is more known for stage productions than film direction.",
+      "index": 5129,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change title to a known work directed by Joe Mantello, possibly 'The Boys in the Band'."
+    },
+    {
+      "explanation": "The title 'Escape from Guantanamo Bay' typically does not match Jon Hurwitz and Hayden Schlossberg's works, as they are known primarily for their involvement in comedy and related genres, suggesting an error in this pairing.",
+      "index": 5101,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change title to 'Harold & Kumar Go to White Castle' which is aligned with their known works."
+    },
+    {
+      "explanation": "The title 'The Hitchhiker's Guide to the Galaxy' does not align with the directorial style of Garth Jennings, who focused more on unique original films rather than adaptions, indicating potential mismatch.",
+      "index": 5146,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change title to 'Son of Rambow', which better fits the style of Garth Jennings' works."
+    },
+    {
+      "explanation": "The entry 'Natalie Bible'' contains an invalid character (the trailing single quote) which is not syntactically correct for a name in this context.",
+      "index": 5221,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Natalie Bible"
+    },
+    {
+      "explanation": "The title 'Who the F#@K Took My Daughter?' contains invalid characters for a movie title, which violates the syntactical dependency with the director's name.",
+      "index": 5339,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Who Took My Daughter? (Adjusting for inappropriate characters)"
+    },
+    {
+      "explanation": "The movie title 'tom thumb' is an error because it should be capitalized as 'Tom Thumb', which is the proper case for a movie title.",
+      "index": 5496,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Tom Thumb"
+    },
+    {
+      "explanation": "The movie title 'The Dangerous' is an error because it does not match the structure of a recognized movie Title or may be misleading as it lacks further context about what 'The Dangerous' refers to. Therefore, it is advisable to consider removing or clarifying the title.",
+      "index": 5488,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Clarify/Rephrase title"
+    },
+    {
+      "explanation": "The title 'The Sign of Zorro' is an error because it should be 'The Sign of Zorro', denoting it needs to be properly formatted as a recognized classic movie title.",
+      "index": 5492,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Sign of Zorro"
+    },
+    {
+      "explanation": "The value 'Edward Sedgwick,Buster Keaton' contains both Edward Sedgwick and Buster Keaton. Since 'The Cameraman' is a movie typically associated with Buster Keaton alone, it's misleading to imply dual direction.",
+      "index": 5500,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Buster Keaton"
+    },
+    {
+      "explanation": "'Charles Reisner,Buster Keaton' implies dual directors when 'Steamboat Bill, Jr.' is primarily linked to Buster Keaton only.",
+      "index": 5501,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Buster Keaton"
+    },
+    {
+      "explanation": "The value 'Fred C. Newmeyer,Sam Taylor' suggests dual direction for 'The Freshman', which should correctly be attributed to a single director, in this case Fred C. Newmeyer only.",
+      "index": 5503,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Fred C. Newmeyer"
+    },
+    {
+      "explanation": "'The Prince and the Surfer' is attributed to both Arye Gross and Gregory Gieras but should only reflect one director for clarity regarding the film's direction.",
+      "index": 5526,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Arye Gross"
+    },
+    {
+      "explanation": "The value 'D.M.W. Greer' is misleading in relation to the movie 'Burning Blue'; it caused ambiguity about the singularity of direction.",
+      "index": 5518,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "D.M.W. Greer"
+    },
+    {
+      "explanation": "Entries like 'William H. Macy' for 'Rudderless' indicate a misallocation since William H. Macy's role was primarily as an actor, not a director.",
+      "index": 5547,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "William H. Macy"
+    },
+    {
+      "explanation": "Tarzan & Jane is not a recognized film by Steve Loter or Lisa Schaffer as it was specifically directed by Kevin Lima.",
+      "index": 5600,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Tarzan (1999) or a relevant movie name."
+    },
+    {
+      "explanation": "The movie Flipper is directed by Alan Shapiro, which is associated with a different title. This title should correspond to a particular work of his, potentially a better-known one.",
+      "index": 5602,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Flipper (1996) or a relevant movie name."
+    },
+    {
+      "explanation": "Big Trouble does not align with John Cassavetes' typical filmography, which generally includes more dramatic content. This suggests a potential error in either the title or director.",
+      "index": 5612,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Another title associated with John Cassavetes, like 'A Woman Under the Influence'."
+    },
+    {
+      "explanation": "The title Captain January is an old film and may not correspond with  David Butler's other directorial successes, indicating a verification need.",
+      "index": 5631,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Another title that feels contemporary to David Butler's oeuvre."
+    },
+    {
+      "explanation": "The Adventures of Huckleberry Finn listed for Michael Curtiz may not reflect a directorial match and seems inaccurate given the film was chiefly led by Richard Thorpe.",
+      "index": 5656,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Adventures of Huckleberry Finn (1939) or a notable title by Richard Thorpe."
+    },
+    {
+      "explanation": "Boyhood is directed by Richard Linklater, but needs a verification of film characteristics to align perfectly with his artistry, suggesting a potential error in title.",
+      "index": 5643,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Another title closely associated with Linklater."
+    },
+    {
+      "explanation": "The Life Aquatic with Steve Zissou's director Wes Anderson’s film repertoire should not include such a broad mismatch in titles, indicating an error present here.",
+      "index": 5671,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Another title recognized from Anderson's portfolio."
+    },
+    {
+      "explanation": "Where the Red Fern Grows is associated with a different type of filmmaking than Norman Tokar's usual direction, suggesting a need for reviewing.",
+      "index": 5692,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Title correctly attributed to another work directed by Norman Tokar."
+    },
+    {
+      "explanation": "The director 'John Fortenberry,Amy Heckerling' cannot be associated with the movie 'A Night at the Roxbury', as it is atypical for multiple directors to be credited in such a format without clear separation. This also does not follow the common convention of listing directors in movie credits.",
+      "index": 5706,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "John Fortenberry, Amy Heckerling"
+    },
+    {
+      "explanation": "The director 'Simon Chung,Pierre Yves Clouin' cannot be associated with the movie 'Boys Briefs', as it is atypical for multiple directors to be credited in such a format without clear separation. This also does not follow the common convention of listing directors in movie credits.",
+      "index": 5709,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Simon Chung, Pierre Yves Clouin"
+    },
+    {
+      "explanation": "The director 'Mervyn LeRoy,Albert Lewin' cannot be associated with the movie 'Madame Curie', as it is atypical for multiple directors to be credited in such a format without clear separation. This also does not follow the common convention of listing directors in movie credits.",
+      "index": 5738,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Mervyn LeRoy, Albert Lewin"
+    },
+    {
+      "explanation": "The director 'Henry Joost,Ariel Schulman' cannot be associated with the movie 'Paranormal Activity 4', as it is atypical for multiple directors to be credited in such a format without clear separation. This also does not follow the common convention of listing directors in movie credits.",
+      "index": 5785,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Henry Joost, Ariel Schulman"
+    },
+    {
+      "explanation": "The director 'Henry Joost,Ariel Schulman' cannot be associated with the movie 'Paranormal Activity 3', as it is atypical for multiple directors to be credited in such a format without clear separation. This also does not follow the common convention of listing directors in movie credits.",
+      "index": 5787,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Henry Joost, Ariel Schulman"
+    },
+    {
+      "explanation": "The director 'Charles Guard,Thomas Guard' cannot be associated with the movie 'The Uninvited', as it is atypical for multiple directors to be credited in such a format without clear separation. This also does not follow the common convention of listing directors in movie credits.",
+      "index": 5789,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Charles Guard, Thomas Guard"
+    },
+    {
+      "explanation": "The movie title '1941' does not correspond to a known work of director Steven Spielberg. '1941' is not a widely recognized or notable title in relation to his filmography.",
+      "index": 5800,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid title such as 'Jaws'."
+    },
+    {
+      "explanation": "'Twilight Zone: The Movie' is attributed to directors Joe Dante and John Landis, indicating a potential issue with the representation of a singular director in the dependency identified.",
+      "index": 5804,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Remove one director or replace with a title directed solely by Joe Dante or John Landis."
+    },
+    {
+      "explanation": "The title 'No Lost Cause' does not correspond to any recognized film corresponding to the directors Ashley Raymer-Brown or Rachael Yeager, leading to a semantic error in the dependency.",
+      "index": 5808,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid title such as 'A Quiet Place' or another recognized film."
+    },
+    {
+      "explanation": "The title 'Glamarus' does not have a well-known connection to director Dylan Greenberg, thus failing to meet the semantic dependency.",
+      "index": 5832,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace with a recognized title like 'Shiver'."
+    },
+    {
+      "explanation": "The title 'Beauty and the Beast' appears twice with different directors (Eugene Marner and Edward L. Cahn), suggesting an inconsistency in the director assignment for the same film title.",
+      "index": 5885,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Specify a distinct film title for one of the rows, or correct the director to only one known director for this title."
+    },
+    {
+      "explanation": "The repair suggests replacing 'Natalie Bible'' because the name includes an invalid punctuation mark, causing a syntactic error as it misrepresents a proper name.",
+      "index": 5928,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Natalie Bible"
+    },
+    {
+      "explanation": "The repair suggests replacing 'Robert Lee King' because the absence of any known movie directed by this director leads to a semantic dependency violation between the title 'Psycho Beach Party' and the director's body of work.",
+      "index": 5901,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Robert Lee King (known to have directed Psycho Beach Party)"
+    },
+    {
+      "explanation": "The entry '37' does not represent a valid movie title, it seems to be a numerical value instead of a name.",
+      "index": 6088,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A valid movie title such as '37: A Final Promise'."
+    },
+    {
+      "explanation": "The title 'Quo Vadis' is not directed by Mervyn LeRoy or Anthony Mann. The film is directed solely by Mervyn LeRoy and is not associated with Anthony Mann, causing a semantic mismatch.",
+      "index": 6100,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Quo Vadis -> Mervyn LeRoy"
+    },
+    {
+      "explanation": "The title 'Cleopatra' is not associated with Joseph L. Mankiewicz and Rouben Mamoulian together. It is directed solely by Joseph L. Mankiewicz, which leads to a semantic mismatch with the director listed.",
+      "index": 6102,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Cleopatra -> Joseph L. Mankiewicz"
+    },
+    {
+      "explanation": "The title 'Rough Night in Jericho' is not directed by Arnold Laven; rather, it was directed by Michael J. O'Herlihy which causes a semantic mismatch.",
+      "index": 6117,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Rough Night in Jericho -> Michael J. O'Herlihy"
+    },
+    {
+      "explanation": "The title 'Valdez Is Coming' is directed by Edwin Sherin and not associated with Ed Harris or Robert Duvall, leading to a semantic mismatch in the data.",
+      "index": 6114,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Valdez Is Coming -> Edwin Sherin"
+    },
+    {
+      "explanation": "The title 'Invitation to a Gunfighter' is attributed to Richard Wilson alone, not as a combination with any other names. This results in a semantic inconsistency in the listed directors.",
+      "index": 6115,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Invitation to a Gunfighter -> Richard Wilson"
+    },
+    {
+      "explanation": "The title 'Frances' is not directed by Graeme Clifford as listed; it was directed by  other individuals, causing a semantic error in the dependency relationship.",
+      "index": 6162,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Frances -> Graeme Clifford"
+    },
+    {
+      "explanation": "The title 'Staying Alive' is attributed to director 'Sylvester Stallone', but Stallone did not direct this film; it was directed by John Badham. This is a semantic error where the movie title does not correspond correctly to the credited director.",
+      "index": 6200,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Correct director to John Badham."
+    },
+    {
+      "explanation": "The title 'Damien: Omen II' is associated with directors 'Don Taylor,Mike Hodges'. Don Taylor directed this movie alone, and Mike Hodges is not credited for the direction, leading to a semantic inconsistency.",
+      "index": 6204,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change directors to only Don Taylor."
+    },
+    {
+      "explanation": "The title 'Tales of Halloween' is attributed to directors 'Darren Lynn Bousman,Axelle Carolyn', but this movie should only credit Axelle Carolyn as the director for this title while Darren Lynn Bousman directed another.",
+      "index": 6206,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change directors to only Axelle Carolyn."
+    },
+    {
+      "explanation": "The title 'ABCs of Death 2' is associated with an exhaustive list of directors including 'Ahron Keshales,Various,...', but 'Various' is not an appropriate director naming. This leads to a syntactical error as it disrupts the expected format for a director's name.",
+      "index": 6216,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Remove 'Various' from the director list."
+    },
+    {
+      "explanation": "For 'V/H/S/2', the credited directors include 'Matt Bettinelli-Olpin,David Bruckner', both of whom are correct, so there is no error here; however, it's noteworthy that even when multiple directors are listed, as long as both contributed, it's valid. There is no violation for this entry.",
+      "index": 6217,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "In 'The House of the Devil' directed by 'Ti West', there is no violation as Ti West is indeed the credited director. Thus, this entry does not have any associated errors.",
+      "index": 6214,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "For the movie 'Night Shadows', it mentions directors 'John 'Bud' Cardos,Mark Rosman'. Both are indeed credited which creates no semantic dissonance, so this entry is error-free.",
+      "index": 6255,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Slaughterhouse' has 'Rick Roessler' as the sole director which corresponds correctly. As a result, no errors are noted for this entry as it matches expectations.",
+      "index": 6257,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "In the case of 'Becoming Jane', with 'Julian Jarrold' as the director, this is accurate and creates no violations, confirming its validity in the dataset.",
+      "index": 0,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "In regard to 'Hellraiser: Hellworld', directed by 'Rick Bota', this correctly identifies the sole director and thus fits the expectation set by the movie's information.",
+      "index": 0,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "In 'I Smile Back', the director is 'Adam Salky', correctly associating him with the title, with no detected errors in this allocation of authorship.",
+      "index": 6294,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Joy Ride 3' claims 'Declan O'Brien' as the director, which aligns accurately, sustaining the integrity of the relationship defined in the dataset.",
+      "index": 6260,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Midnight Meat Train' lists 'Ryûhei Kitamura' as the director, maintaining proper alignment thereby indicating no discrepancies.",
+      "index": 6248,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Naked Edge' credited 'Michael Anderson' as the director, providing no cause for concern regarding proofing, affirming the correctness of this entry.",
+      "index": 6218,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "In 'We Are What We Are', Jim Mickle is correctly named, establishing an accurate relationship with the respective title noted.",
+      "index": 6242,
+      "column": 1,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Stephen Tobolowsky's Birthday Party' should be associated with a recognized director, but does not correspond to any known film by Stephen Tobolowsky, violating the dependency that a movie title must reflect the work of its director.",
+      "index": 6377,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid movie title for director Stephen Tobolowsky."
+    },
+    {
+      "explanation": "The director 'James Cameron,Ovidio G. Assonitis' indicates that this entry has multiple directors, which is not a typical representation for a single movie title. Since the title 'Piranha Part Two: The Spawning' should only have one corresponding director, this creates confusion and is considered an error.",
+      "index": 6444,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "James Cameron"
+    },
+    {
+      "explanation": "The director 'Robert Collector,Ernst R. von Theumer' suggests that there are multiple directors for the film 'Red Heat', which goes against the expectation of a single director responsible for that title. This ambiguity makes it an error.",
+      "index": 6454,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Robert Collector"
+    },
+    {
+      "explanation": "The title 'The Dark Side of Tomorrow' is paired with two directors 'Jack Deerson,Barbara Peeters', which is inconsistent with the expectation of having a single director for one title. This error arises from the lack of clarity associated with dual directors for a single film.",
+      "index": 6473,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Jack Deerson"
+    },
+    {
+      "explanation": "The title 'American Radical: The Trials of Norman Finkelstein' implies a documentary or dramatization related to the figure Norman Finkelstein. However, it is associated with the directors David Ridgen and Nicolas Rossier, who do not have a significant public connection to this case, marking it as a potential misrepresentation of their work.",
+      "index": 6506,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change to 'American Radical'."
+    },
+    {
+      "explanation": "The title 'The Wild Heart' suggests a depiction of an artistic or romance theme, which may not align with the directorial abilities of Michael Powell and Emeric Pressburger, who are more known for classic, elaborate narratives. Their respective works do not cumulate to a connection with this title, indicating a mismatch in logical dependency.",
+      "index": 6536,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change to a title fitting Powell and Pressburger's style."
+    },
+    {
+      "explanation": "The title 'Steve McQueen: The Man & Le Mans' indicates a documentary about Steve McQueen that is not convincingly connected with Gabriel Clarke and John McKenna in their respective filmographies, which typically do not center around this particular subject matter, suggesting this title is an inconsistent entry given their directing roles.",
+      "index": 6520,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Adjust to a title connected to Clarke and McKenna's known works."
+    },
+    {
+      "explanation": "The title 'The Last Straight Man' may imply a narrative that explores a specific social theme which is not evidently connected to J.C. Calciano, who is more recognized for LGBTQ themes rather than this assertion. It raises questions about the context that Calciano provides through his other works, suggesting a discrepancy in direction.",
+      "index": 6597,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Include a title reflecting Calciano's established thematic direction."
+    },
+    {
+      "explanation": "The director listed, Caroline Abbey,Tyler Pina*, is invalid because a movie commonly has a single director, and the format with a comma indicates that this entry could lead to multiple directors, which is a syntactic violation of the dependency rule.",
+      "index": 6605,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Caroline Abbey"
+    },
+    {
+      "explanation": "The director, Kyle Broom*, is incorrectly linked to the movie 'Tabloid Vivant' as it does not correspond to a known work of this director, representing a semantic violation.",
+      "index": 6614,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace with a known director for 'Tabloid Vivant'."
+    },
+    {
+      "explanation": "The director, Michael Biehn*, is linked to 'The Victim', which does not appear to correspond to his recognized works, indicating a semantic violation.",
+      "index": 6651,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Replace with a known director associated with 'The Victim'."
+    },
+    {
+      "explanation": "The director, Amanda Wilder*, does not correspond correctly with his or her known works linked to 'Approaching the Elephant', making it a semantic violation.",
+      "index": 6670,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Correct to Amanda Wilder's recognized works."
+    },
+    {
+      "explanation": "The director entry 'Carter' does not match with a recognizable film director, making 'Maladies' an error. There is no known film director by that name related to this title.",
+      "index": 6706,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Rename director to 'Carter Smith'"
+    },
+    {
+      "explanation": "The entry 'Happy Valley' is directed by multiple directors which typically denotes a collaborative work. However, the entry 'Brian DePalma' is known for fictional and narrative films, not documentaries or joint directorship, which raises a question about the validity of this entry pairing.",
+      "index": 6710,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change director to 'Amir Bar-Lev'"
+    },
+    {
+      "explanation": "More than one director are listed ('William Epstein, Rob Epstein') but the movie 'The Times of Harvey Milk' is primarily associated with 'Rob Epstein', the second name does not have a known link with the production. Hence it's flagged as a violation.",
+      "index": 6717,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change to 'Rob Epstein'"
+    },
+    {
+      "explanation": "The movie 'The D Train' directed by multiple people suggests a collaborative work, which typically is valid. However, both directors are primarily known for fictional scripts. Hence it's flagged as a violation because 'Andrew Mogel' and 'Jarrad Paul' lack critical acclaim for directorial success on this subject matter.",
+      "index": 6731,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Change to 'Andrew Niccol'"
+    },
+    {
+      "explanation": "The entry 'Supermensch: The Legend of Shep Gordon' directed by 'Beth Aala,Mike Myers' is invalid as it lists two directors. The format should only have one director per entry.",
+      "index": 6816,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Supermensch: The Legend of Shep Gordon and only list one director."
+    },
+    {
+      "explanation": "The movie 'Skatopia: 88 Acres of Anarchy' is directed by 'Laurie House,Colin Powers', indicating two directors which violates the syntactic dependency rule of one director per movie.",
+      "index": 6822,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Skatopia: 88 Acres of Anarchy and only list one director."
+    },
+    {
+      "explanation": "The film 'Meru' lists two directors, 'Jimmy Chin,Elizabeth Chai Vasarhelyi', which is incorrect as per the dependency that only allows one director per movie.",
+      "index": 6830,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Meru and only list one director."
+    },
+    {
+      "explanation": "The entry \"The Central Park Five\" directed by \"Ken Burns,Sarah Burns\" violates the dependency rule of one director per title. The entry contains two names instead of one.",
+      "index": 6824,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Central Park Five and only list one director."
+    },
+    {
+      "explanation": "The film 'Cyrus' directed by 'Jay Duplass,Mark Duplass' is an error because it lists two directors which contravenes the dependency rule.",
+      "index": 6841,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Cyrus and only list one director."
+    },
+    {
+      "explanation": "In the title 'Quick Change', there are two directors listed - 'Howard Franklin,Bill Murray'. This violates the syntactic dependency rule that expects only one director per movie.",
+      "index": 6879,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Quick Change and only list one director."
+    },
+    {
+      "explanation": "The movie 'Carriers' is directed by 'David Pastor,Àlex Pastor', listing two directors which is against the identified dependency on movie title.",
+      "index": 6896,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Carriers and only list one director."
+    },
+    {
+      "explanation": "The entry 'Skyline' is directed by 'Colin Strause,Greg Strause', which means it must be a co-direction. As per the dependency, the title should reflect a single, recognized directorial credit. This can cause confusion about the actual authenticity of the title's representation under the director's name.",
+      "index": 6911,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Skyline*"
+    },
+    {
+      "explanation": "The entry 'The Anniversary Party' has a director credit 'Alan Cumming,Jennifer Jason Leigh', indicating that it should include both names in the title if they both directed it. This dual credit violates the dependency, which suggests that each title should correspond clearly to a singular director or a popularly recognized directorial duo representation. Hence, the title representation fails to comply with a singular attributed credit.",
+      "index": 6918,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "The Anniversary Party*"
+    },
+    {
+      "explanation": "The director 'Roger Corman,Charles B. Griffith' is not a valid single individual as it combines two separate names, leading to a syntactic violation. Each movie should be associated with only one director.",
+      "index": 7004,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Roger Corman"
+    },
+    {
+      "explanation": "The director 'Ben Safdie,Joshua Safdie' is not a valid single individual as it combines two separate names, leading to a syntactic violation. Each movie should be associated with only one director.",
+      "index": 7013,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Ben Safdie"
+    },
+    {
+      "explanation": "The director 'Billy 'Bloody Bill' Pon' contains extraneous characters in the title, which does not follow standard naming conventions for directors, resulting in a syntactic violation.",
+      "index": 7015,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Billy Pon"
+    },
+    {
+      "explanation": "The director 'Dean Jones,Dean Jones' is not a valid single individual as it repeats the same name, which is nonsensical and leads to a syntactic violation. A director should have only one valid name associated with each movie.",
+      "index": 7023,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Dean Jones"
+    },
+    {
+      "explanation": "The director 'Bears Fonté' contains a non-standard character 'é', which might create confusion regarding the standard representation of names in this dataset, resulting in a syntactic violation.",
+      "index": 7062,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Bears Fonte"
+    },
+    {
+      "explanation": "'Gorgeous Vortex' is considered an error because there is no known director Todd Lincoln associated with a movie of this title, indicating a semantic violation.",
+      "index": 7101,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'Gorgeous Vortex' with a movie title directed by Todd Lincoln such as 'The Last House on the Left'."
+    },
+    {
+      "explanation": "'Leave Luck to Heaven' is considered an error because there is no known director Todd Lincoln associated with a movie of this title, indicating a semantic violation.",
+      "index": 7102,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'Leave Luck to Heaven' with a movie title directed by Todd Lincoln such as 'The Last House on the Left'."
+    },
+    {
+      "explanation": "'The Houses October Built' is considered an error because the movie title does not seem to be directed by 'Bobby Roe,Jeff Larson' as would typically be expected from a single title.",
+      "index": 7110,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The Houses October Built' to a known title directed by either Bobby Roe or Jeff Larson."
+    },
+    {
+      "explanation": "'La Femme Nikita (remake)' is not associated with Linda Waner, thus presenting a semantic violation.",
+      "index": 7197,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'La Femme Nikita (remake)' with another title directed by Linda Waner."
+    },
+    {
+      "explanation": "'The Masque of the Red Death' is considered an error because the title is not directed by Roger Corman, marking a semantic violation.",
+      "index": 7116,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Change 'The Masque of the Red Death' to a movie title that Roger Corman actually directed."
+    },
+    {
+      "explanation": "'The Amazing Dr. Clitterhouse' is not associated with Anatole Litvak who is not known for this title, indicating a semantic violation.",
+      "index": 7161,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace 'The Amazing Dr. Clitterhouse' with a film title known to be directed by Anatole Litvak."
+    },
+    {
+      "explanation": "The director 'Howard Hughes,Howard Hawks' in column 4 has two names listed with no clear separation, which violates the dependency as it misrepresents the singular work associated with a specific director.",
+      "index": 7205,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Howard Hughes"
+    },
+    {
+      "explanation": "The director 'Howard Hughes,Edmund Goulding' in column 4 has multiple names listed without separation, which creates ambiguity in the authoring of the film, thus violating the dependency.",
+      "index": 7207,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Howard Hughes"
+    },
+    {
+      "explanation": "The director 'Leora Barish,Edgar Michael Bravo' in column 4 has two names listed which can cause confusion regarding which individual directed the movie, violating the dependency.",
+      "index": 7218,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Leora Barish"
+    },
+    {
+      "explanation": "The director 'Dick Richards,Jerry Jameson' in column 4 has multiple names presented together, violating the dependency as it causes confusion about the ownership of the film.",
+      "index": 7234,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Dick Richards"
+    },
+    {
+      "explanation": "The director 'David Worth (II),David Worth,Mark DiSalle,Mark Di Salle' in column 4 has four names listed, which is excessive and violates the dependency as it does not clearly represent a single author for the work.",
+      "index": 7274,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "David Worth (II)"
+    },
+    {
+      "explanation": "Big Momma's House 2 has an invalid director entry which includes multiple names without clear separation, violating the expected single director for each title.",
+      "index": 7307,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "John P. Whitesell"
+    },
+    {
+      "explanation": "Fair Game has an invalid director entry which lists two directors, violating the expected single director for each title.",
+      "index": 7354,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "Michael Whaley"
+    }
+  ]
+}

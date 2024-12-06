@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The code representing the facility (first column) is semantically dependent on the specific care condition (fourteenth column), as certain care conditions are associated with particular facilities.
+
+  The following is a formatted table with the unique data to be checked.
+  

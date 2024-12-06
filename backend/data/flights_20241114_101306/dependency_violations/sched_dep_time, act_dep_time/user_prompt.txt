@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values in the third column represent scheduled departure times of the flight, and the fourth column represents the actual departure times. The departure times suggest a direct dependency where each scheduled time is expected to match or relate closely to the actual departure time.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The hospital name (column 2) depends on its physical location (column 3), indicating that the hospital's name is expected to be associated with its corresponding address.
+
+  The following is a formatted table with the unique data to be checked.
+  

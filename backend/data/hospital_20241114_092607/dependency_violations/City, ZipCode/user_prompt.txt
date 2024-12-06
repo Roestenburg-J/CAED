@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The value indicating the city or location in column 6 corresponds with the state code in column 7, which is a semantic relationship suggesting that these cities belong to the same state.
+
+  The following is a formatted table with the unique data to be checked.
+  

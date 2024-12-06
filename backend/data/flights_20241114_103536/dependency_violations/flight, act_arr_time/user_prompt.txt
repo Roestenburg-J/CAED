@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values in the column representing flight codes may determine the values in the column representing arrival times, as each flight code is associated with specific outgoing and incoming timings.
+
+  The following is a formatted table with the unique data to be checked.
+  

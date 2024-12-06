@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values in the column that describes hospital names determine the type of organization (voluntary non-profit, government, etc.) in the column that describes hospital categories.
+
+  The following is a formatted table with the unique data to be checked.
+  

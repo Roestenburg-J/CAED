@@ -1,0 +1,1001 @@
+HospitalType,Condition,original_index,unique_index
+acute care hospitals,surgical infection prevention,0,0
+acute care hospitals,surgical infection prevention,1,0
+acute care hospitals,surgical infection prevention,2,0
+acute care hospitals,surgical infection prevention,3,0
+acute care hospitals,surgical infection prevention,4,0
+acute care hospitals,surgical infection prevention,5,0
+acute care hospitals,surgical infection prevention,6,0
+acute care hospitals,surgical infection prevention,7,0
+acute care hospitals,heart attack,8,1
+acute care hospitals,heart attack,9,1
+acute care hospitals,heart attack,10,1
+acute care hospitals,heart attack,11,1
+acute care hospitals,heart attack,12,1
+acute care hospitals,heart attack,13,1
+acute care hospitals,heart attack,14,1
+acute care hospitals,heart failure,15,2
+acuxe care hospixals,heart failure,16,3
+acute care hospitals,heart failure,17,2
+acute care hospitals,heart failure,18,2
+acute care hospitals,heart attack,19,1
+acute care hospitals,heart attack,20,1
+acute care hospitals,heart attaxk,21,4
+acute care hospitals,hearx axxack,22,5
+acute care hospitals,heart attack,23,1
+acute care hospitals,heart attack,24,1
+acute care hospitals,heart attack,25,1
+acute care hospitals,heart failure,26,2
+acute care hospitals,heart failure,27,2
+acute care hospitals,heart failure,28,2
+acute care hospitals,heart failure,29,2
+acute care hospitals,pneumonia,30,6
+acute care hospitals,pneumonia,31,6
+acute care hospitals,pneumonia,32,6
+acute care hospitals,pneumonia,33,6
+acute care hospitals,pneumonia,34,6
+acute care hospitals,pneumonia,35,6
+acute care hospitals,surgical infection prevention,36,0
+acute care hospitals,surgical infection prevention,37,0
+acute care hospitals,surgical infection prevention,38,0
+acxte care hospitals,surgical infection prevention,39,7
+acute care hospitals,surgical infection prevention,40,0
+acute care hospitals,surgical infection prevention,41,0
+acute care hospitals,surgical infection prevention,42,0
+acute care hospitals,surgical infection prevention,43,0
+acute care hospitals,heart attack,44,1
+acute care hospitals,heart attack,45,1
+acute care hospitals,heart attack,46,1
+acute care hospitals,heart attack,47,1
+acute care hospitals,heart attack,48,1
+acute care hospitals,heart attack,49,1
+acute care hospitals,heart attack,50,1
+acute care hospitals,heart failure,51,2
+acute care hospitals,heart failure,52,2
+acute care hospitals,heart failure,53,2
+acute care hospitals,heart failure,54,2
+acute care hospitals,pneumonia,55,6
+acute care hospitals,pneumonia,56,6
+acute care hospitals,pneumonia,57,6
+acute care hospitals,pneumonia,58,6
+acute care hospitals,pneumonia,59,6
+acute care hospitals,pneumonia,60,6
+acute care hospitals,surgical infection prevention,61,0
+acute care hospitals,surgical infection prevention,62,0
+acute care hospitals,surgical infection prevention,63,0
+acute care hospitals,surgical infection prevention,64,0
+acute care hospitals,surgical infection prevention,65,0
+acute care hospitals,surgical infection prevention,66,0
+acute care hospitals,surgical infection prevention,67,0
+acute care hospitals,surgical infection prevention,68,0
+acute care hospitals,heart attack,69,1
+acute care hospitals,heart attack,70,1
+acute care hospitals,heart attack,71,1
+acute care hospitals,heart attack,72,1
+acute care hospitals,hearx axxack,73,5
+acute care hospitals,heart attack,74,1
+acute care hospitals,heart attack,75,1
+acute care hospitals,heart failure,76,2
+acute care hospitals,heart failure,77,2
+acute care hospitals,heart failure,78,2
+acute care hospitals,heart failure,79,2
+acute care hospitals,pneumonia,80,6
+acute care hospitals,pneumonia,81,6
+acute care hospitals,pneumonia,82,6
+acute care hospitals,pneumonia,83,6
+acute care hospitals,pneumonia,84,6
+acute care hospitals,pneumonia,85,6
+acute care hospitals,surgical infection prevention,86,0
+acute care hospitals,surgical infection prevention,87,0
+acute care hospitals,surgical infection prevention,88,0
+acute care hospitals,surgical infection prevention,89,0
+acute care hospitals,surgical infection prevention,90,0
+acute care hospitals,surgical infection prevention,91,0
+acute care hospitals,surgical infection prevention,92,0
+acute care hospitals,surgical infection prevention,93,0
+acute care hospitals,heart attack,94,1
+acute care hospitals,heart attack,95,1
+acute care hospitals,heart attack,96,1
+acute care hospitals,heart attack,97,1
+acute care hosxitals,heart attack,98,8
+acute care hospitals,heart attack,99,1
+acute care hospitals,heart attack,100,1
+acute care hospitals,heart failure,101,2
+acute care hospitals,heart failure,102,2
+acute care hospitals,heart failure,103,2
+acute care hospitals,heart failure,104,2
+acute care hospitals,pneumonia,105,6
+acute care hospitals,pneumonia,106,6
+acute care hospitals,pneumonia,107,6
+acute care hospitals,pneumonia,108,6
+acute care hospitals,pneumonia,109,6
+acute care hospitals,pneumonia,110,6
+acute care hospitals,surgical infection prevention,111,0
+acute care hospitals,surgical infection prevention,112,0
+acute care hospitals,surgical infection prevention,113,0
+acute care hospitals,surgical infection prevention,114,0
+acute care hospitals,surgical infection prevention,115,0
+acute care hospitals,surgical infection prevention,116,0
+acute care hospitals,surgical infection prevention,117,0
+acute care hospitals,surgical infection prevention,118,0
+acute care hospitals,heart attack,119,1
+acute care hospitals,heart attack,120,1
+acute care hospitals,heart attack,121,1
+acute care hospitals,heart attack,122,1
+acute care hospitals,heart attack,123,1
+acute care hospitals,heart attack,124,1
+acute care hospitals,heart attack,125,1
+acute care hospitals,heart failure,126,2
+acute care hospitals,heaxt failuxe,127,9
+acute care hospitals,heart failure,128,2
+acute care hospitals,heart failure,129,2
+acute care hospitals,pneumonia,130,6
+acute care hospitals,pneumonia,131,6
+acute care hospitals,pneumonia,132,6
+acute care hospitals,pneumonia,133,6
+acute care hospitals,pneumonia,134,6
+acute care hospitals,pneumonia,135,6
+acute care hospitals,surgical infection prevention,136,0
+acute care hospitals,surgical infection prevention,137,0
+acute care hospitals,surgical infection prevention,138,0
+acute care hospitals,surgical infection prevention,139,0
+acute care hospitals,surgical infection prevention,140,0
+acute care hospitals,surgical infection prevention,141,0
+acute care hospitals,surgical infection prevention,142,0
+acute care hospitals,surgical infection prevention,143,0
+acute care hospitals,heart attack,144,1
+acute care hospitals,heart attack,145,1
+acute care hospitals,heart attack,146,1
+acute care hospitals,heart attack,147,1
+acute care hospitals,heart attack,148,1
+acute care hospitals,heart attack,149,1
+acute care hospitals,heart attack,150,1
+acute care hospitals,heart failure,151,2
+acute care hospitals,heart failure,152,2
+acute care hospitals,heart failure,153,2
+acute care hospitals,heart failure,154,2
+acute care hospitals,pneumonia,155,6
+acute care hospitals,pneumonia,156,6
+acute care hospitals,pneumonia,157,6
+acute care hospitals,pneumonia,158,6
+acute care hospitals,pneumonia,159,6
+acute care hospitals,pneumonia,160,6
+acute care hospitals,surgical infection prevention,161,0
+acute care hospitals,surgical infection prevention,162,0
+acute care hospitals,surgical infection prevention,163,0
+acute care hospitals,surgical infection prevention,164,0
+acute care hospitals,surgical infection prevention,165,0
+acute care hospitals,surgical infection prevention,166,0
+acute care hospitals,surgical infection prevention,167,0
+acute care hospitals,surgical infection prevention,168,0
+acute care hospitals,heart attack,169,1
+acute care hospitals,heart attack,170,1
+acute care hospitals,heart attack,171,1
+acute care hospitals,heart attack,172,1
+acute care hospitals,heart attack,173,1
+acute care hospitals,heart attack,174,1
+acute care hospitals,heart attack,175,1
+acute care hospitals,heart failure,176,2
+acute care hospitals,heart failure,177,2
+acute care hospitals,heart failure,178,2
+acute care hospitals,heart failure,179,2
+acute care hospitals,pneumonia,180,6
+acute care hospitals,pneumonia,181,6
+acute care hospitals,pneumonia,182,6
+acute care hospitals,pneumonia,183,6
+acute care hospitals,pneumonia,184,6
+acute care hospitals,pneumonia,185,6
+acute care hospitals,surgical infection prevention,186,0
+acute care hospitals,surgical infection prevention,187,0
+acute care hospitals,surgical infection prevention,188,0
+acute care hospitals,surgical infection prevention,189,0
+acute care hospitals,surgical infection prevention,190,0
+acute care hospitals,surgical infection prevention,191,0
+acute care hospitals,surgical infection prevention,192,0
+acute care hospitals,surgical infection prevention,193,0
+acute care hospitals,heart attack,194,1
+acute care hospitals,heart attack,195,1
+acute care hospitals,heart attack,196,1
+acute care hospitals,heart attack,197,1
+acute care hospitals,heart attack,198,1
+acute care hosxitals,heaxt attack,199,10
+acute care hospitals,heart attack,200,1
+acute care hospitals,heart failure,201,2
+acute care hospitals,heart failure,202,2
+acute care hospitals,heart failure,203,2
+acute care hospitals,heart failure,204,2
+acute care hospitals,pneumonia,205,6
+acute care hospitals,pneumonia,206,6
+acute care hospitals,pneumonia,207,6
+acute care hospitals,pneumonia,208,6
+acute care hospitals,pneumonia,209,6
+acute care hospitals,pneumonia,210,6
+acute care hospitals,surgical infection prevention,211,0
+acute care hospitals,surgical infection prevention,212,0
+acutx carx hospitals,surgical infection prevention,213,11
+acute care hospitals,surgical infection prevention,214,0
+acute care hospitals,surgical infection prevention,215,0
+acute care hospitals,surgical infection prevention,216,0
+acute care hospitals,surgical infection prevention,217,0
+acute care hospitals,surgical infection prevention,218,0
+acute care hospitals,heart attack,219,1
+acute care hospitals,heart attack,220,1
+acute care hospitals,heart attack,221,1
+acute care hospitals,heart attack,222,1
+acute care hospitals,heart attack,223,1
+acute care hospitals,heart attack,224,1
+acute care hospitals,hexrt attxck,225,12
+acute care hospitals,heart failure,226,2
+acute care hospitals,heart failure,227,2
+acute care hospitals,heart failure,228,2
+acute care hospitals,heart faxlure,229,13
+acute care hospitals,pneumonia,230,6
+acute care hospitals,pneumonia,231,6
+acute care hospitals,pneumonia,232,6
+acute care hospitals,pneumonia,233,6
+acute care hospitals,pneumonia,234,6
+acute care hospitals,pneumonia,235,6
+acute care hospitals,suxgical infection pxevention,236,14
+acute care hospitals,surgical infection prevention,237,0
+acute care hospitals,surgical infection prevention,238,0
+acute care hospitals,surgxcal infectxon preventxon,239,15
+acute care hospitals,surgical infection prevention,240,0
+acute care hospitals,surgical infection prevention,241,0
+acute care hospitals,surgical infection prevention,242,0
+acute care hospitals,surgical infection prevention,243,0
+acute care hospitals,heart attack,244,1
+acute care hospitals,heart attack,245,1
+acute care hospitals,heart attack,246,1
+acute care hospitals,heart attack,247,1
+acute care hospitals,heart attack,248,1
+acute care hospitals,heart attack,249,1
+acute care hospitals,heart attack,250,1
+acute care hospitals,heart failure,251,2
+acute care hospitals,heart failure,252,2
+acute care hospitals,heart failure,253,2
+acute care hospitals,heart failure,254,2
+acute care hospitals,pneumonia,255,6
+acute care hospitals,xneumonia,256,16
+acute care hospitals,pneumonia,257,6
+acute care hospitals,pneumonia,258,6
+acute care hospitals,pneumonia,259,6
+acute care hospitals,pneumonia,260,6
+acute care hospitals,surgical infection prevention,261,0
+acute care hospitals,surgical infection prevention,262,0
+acute care hospitals,surgical infection prevention,263,0
+acute care hospitals,surgical infection prevention,264,0
+acute care hospitals,surgical infection prevention,265,0
+acuxe care hospixals,surgical infection prevention,266,17
+acute care hospitals,surgical infection prevention,267,0
+acute care hospitals,surgical infection prevention,268,0
+acute care hospitals,heart attack,269,1
+acute care hospitals,heart attack,270,1
+acute care hospitals,heart attack,271,1
+acute care hospitals,heart attack,272,1
+acute care hospitals,heart attack,273,1
+acute care hospitals,heart attack,274,1
+acute care hospitals,heart attack,275,1
+acute care hospitals,heart failure,276,2
+acute care hospitals,heart failure,277,2
+acute care hospitals,heart failure,278,2
+acute care hospitals,xeart failure,279,18
+acutexcarexhospitals,pneumonia,280,19
+acute care hospitals,pneumonia,281,6
+acute care hospitals,pneumonia,282,6
+acute care hospitals,pneumonia,283,6
+acute care hospitals,pneumonia,284,6
+acute care hospitals,pneumonia,285,6
+acute care hospitals,surgical infection prevention,286,0
+acute care hospitals,surgical infection prevention,287,0
+acute care hospitals,surgical infection prevention,288,0
+acute care hospitals,surgical infection prevention,289,0
+acute care hospitals,surgical infection prevention,290,0
+acute care hospitals,surgical infection prevention,291,0
+acute care hospitals,surgical infection prevention,292,0
+acuxe care hospixals,surgical infection prevention,293,17
+acute care hospitals,heart attack,294,1
+acute care hospitals,heart attack,295,1
+acute care hospitals,heart attack,296,1
+acute care hospitals,heart attack,297,1
+acute care hospitals,heart attack,298,1
+acute care hospitals,heart attack,299,1
+acute care hospitals,heart attack,300,1
+acute care hospitals,heart failure,301,2
+acute care hospitals,heart failure,302,2
+acute care hospitals,heart failure,303,2
+acute care hospitals,heart failure,304,2
+acute care hospitals,pneumonia,305,6
+acute care hospitals,pneumonia,306,6
+acute care hospitals,pneumonia,307,6
+acute care hospitals,pneumonia,308,6
+acute care hospitals,pneumonia,309,6
+acute care hospitals,pneumonia,310,6
+acute care hospitals,children s asthma care,311,20
+acute care hospitals,children s asthma care,312,20
+acute care hospitals,heart attack,313,1
+acute care hospitals,heart attack,314,1
+acute care hospitals,heart attack,315,1
+acute care hospitals,heart attack,316,1
+acute care hospitals,heart attack,317,1
+acute care hospitals,heart attack,318,1
+acute care hospitals,heart attack,319,1
+acute care hospitals,heart failure,320,2
+acute care hospitals,heart failure,321,2
+acute care hospitals,heart failure,322,2
+acute care hospitals,heart failure,323,2
+acute care hospitals,pneumonia,324,6
+acute care hospitals,pneumonia,325,6
+acute care hospitals,pneumonia,326,6
+acute care hospitals,pneumonia,327,6
+acute care hospitals,pneumonia,328,6
+acute care hospitals,pneumonia,329,6
+acute care hospitals,surgical infection prevention,330,0
+acute care hospitals,heart failure,331,2
+acute care hospitals,heart failure,332,2
+acute care hospitals,heart failure,333,2
+acute care hospitals,pneumonia,334,6
+acute care hospitals,pneumonia,335,6
+acute care hospitals,pneumonia,336,6
+acute care hospitals,pneumonia,337,6
+acute care hospitals,pneumonia,338,6
+acute care hospitals,pneumonia,339,6
+acute care hospitals,surgical infection prevention,340,0
+acute care hospitals,surgical infection prevention,341,0
+acute care hospitals,surgical infection prevention,342,0
+acute care hospitals,surgical infection prevention,343,0
+acute care hospitals,surgical infection prevention,344,0
+acute care hospitals,surgical infection prevention,345,0
+acute care hospitals,surgical infection prevention,346,0
+acute care hospitals,surgical infection prevention,347,0
+acute care hospitals,heart attack,348,1
+acute care hospitals,heart attack,349,1
+acute care hospitals,heart attack,350,1
+acute care hospitals,heart attack,351,1
+acute care hospitals,heart attack,352,1
+acute care hospitals,surgical infection prevention,353,0
+acute care hospitals,heart attack,354,1
+acute care hospitals,heart attack,355,1
+acute care hospitals,heart attack,356,1
+acute care hospitals,heart attack,357,1
+acute care hospitals,heart attack,358,1
+acute care hospitals,heart attack,359,1
+acute care hospitals,heart attack,360,1
+acute care hospitals,heart failure,361,2
+acute care hospitals,heart failure,362,2
+acute care hospitals,heart failure,363,2
+acute care hospitals,heart failure,364,2
+acute care hospitals,pneumonia,365,6
+acute care hospitals,pnxumonia,366,21
+acute care hospitals,pneumonia,367,6
+acute care hospitals,pneumonia,368,6
+acute care hospitals,pnexmonia,369,22
+acute care hospitals,pneumonia,370,6
+acute care hospitals,surgical infection prevention,371,0
+acute care hospitals,surgical infection prevention,372,0
+acute care hospitals,surgical infection prevention,373,0
+acute care hospitals,surgical infection prevention,374,0
+acute care hospitals,surgical infection prevention,375,0
+acute care hospitals,surgical infection prevention,376,0
+acute care hospitals,surgical infection prevention,377,0
+acute care hospitals,surgical infection prevention,378,0
+acute care hospitals,heart attack,379,1
+acute care hospitals,heart attack,380,1
+acute care hospitals,heart attack,381,1
+acute care hospitals,heart attack,382,1
+acute care hospitals,heart attack,383,1
+acute care hospitals,heart attack,384,1
+acute care hospitals,heart attack,385,1
+acute care hospitals,hxart failurx,386,23
+acute care hospitals,heart failure,387,2
+acute care hospitals,heart failure,388,2
+acute care hospitals,heart failure,389,2
+acute care hospitals,pneumonia,390,6
+acute care hospitals,pneumonia,391,6
+acute care hospitals,heart attack,392,1
+acute care hospitals,heart attack,393,1
+acute care hospitals,heart attack,394,1
+acute care hospitals,heart attack,395,1
+acute care hospitals,heart attack,396,1
+acute care hospitals,heart attack,397,1
+acute care hospitals,heart failure,398,2
+acute care hospitals,heart failure,399,2
+acute care hospitals,hxart failurx,400,23
+acute care hospitals,heart failure,401,2
+acute care hospitals,pneumonia,402,6
+acute care hospitals,pneumonia,403,6
+acute care hospitals,pneumonia,404,6
+acute care hospitals,pneumonia,405,6
+acute care hospitals,pneumonia,406,6
+acute care hospitals,pneumonia,407,6
+acute care hospitals,surgical infection prevention,408,0
+acute care hospitals,surgical infection prevention,409,0
+acute care hospitals,surgical infection prevention,410,0
+acute care hosxitals,surgical infection prevention,411,24
+acute care hospitals,surgical infection prevention,412,0
+acuxe care hospixals,surgical infection prevention,413,17
+acute care hospitals,heart attack,414,1
+acute care hospitals,heart attack,415,1
+acute care hospitals,heart attack,416,1
+acute care hospitals,heart attack,417,1
+acute care hospitals,heart attack,418,1
+acute care hospitals,heart attack,419,1
+acute care hospitals,heart attack,420,1
+acute care hospitals,heart failure,421,2
+acute care hospitals,heart failure,422,2
+acute care hospitals,heart failure,423,2
+acute care hospitals,heart failure,424,2
+acute care hospitals,pneumonia,425,6
+acute care hospitals,pneumonia,426,6
+acute care hospitals,pneumonia,427,6
+acute care hospitals,pneumonia,428,6
+acute care hospitals,pneumonia,429,6
+acute care hospitals,pneumonia,430,6
+acute care hospitals,surgical infection prevention,431,0
+acute care hospitals,heart failure,432,2
+acute care hospitals,heart failure,433,2
+acute care hospitals,heart failure,434,2
+acute care hospitals,heart failure,435,2
+acute care hospitals,pneumonia,436,6
+acute care hospitals,pneumonia,437,6
+acute care hospitals,pneumonia,438,6
+acute care hospitals,pneumonia,439,6
+acute care hospitals,pneumonia,440,6
+acute care hospitals,pneumonia,441,6
+acute care hospitals,surgical infection prevention,442,0
+acute care hospitals,surgical infection prevention,443,0
+acute care hospitals,surgical infection prevention,444,0
+acute care hospitals,surgical infection prevention,445,0
+acute care hospitals,surgical infection prevention,446,0
+acute care hospitals,surgical infection prevention,447,0
+acute care hospitals,surgical infection prevention,448,0
+acute care hospitals,surgical infection prevention,449,0
+acute care hospitals,heart attack,450,1
+acute care hospitals,heart attack,451,1
+acute care hospitals,pneumonia,452,6
+acute care hospitaxs,pneumonia,453,25
+acute care hospitals,pneumonia,454,6
+acute care hospitals,pneumonia,455,6
+acute care hospitals,pneumonia,456,6
+acute care hospitals,pneumonia,457,6
+acute care hospitals,surgical infection prevention,458,0
+acute care hospitals,surgical infection prevention,459,0
+acute care hospitals,surgical infection prevention,460,0
+acute care hospitals,surgical infection prevention,461,0
+acute care hospitals,surgical infection prevention,462,0
+acute care hospitals,surgical infection prevention,463,0
+acute care hospitals,surgical infection prevention,464,0
+acute care hospitals,surgical infection prevention,465,0
+acute care hospitals,heart attack,466,1
+acute care hospitals,hexrt attxck,467,12
+acute care hospitals,heart attack,468,1
+acute care hospitals,heart attack,469,1
+acute care hospitals,heart attack,470,1
+acute care hospitals,heart attack,471,1
+acute care hospitals,heart attack,472,1
+acute care hospitals,heart failure,473,2
+acute care hospitals,heart failure,474,2
+acute care hospitals,heart failure,475,2
+acute care hospitals,heart failure,476,2
+acute care hospitals,pneumonia,477,6
+acute care hospitals,pneumonia,478,6
+acute care hospitals,pneumonia,479,6
+acute care hospitals,pneumonia,480,6
+acute care hospitals,pneumonia,481,6
+acute care hospitals,pneumonia,482,6
+acute care hospitals,surgical infection prevention,483,0
+acute care hospitals,surgical infection prevention,484,0
+acute care hospitals,surgical infection prevention,485,0
+acute care hospitals,surgical infection prevention,486,0
+acute care hospitals,surgical infection prevention,487,0
+acute care hospitals,surgical infection prevention,488,0
+acute care hospitals,surgical infection prevention,489,0
+acute caxe hospitals,surgical infection prevention,490,26
+acute care hospitals,heart attack,491,1
+acute care hospitals,heart attack,492,1
+acute care hxspitals,heart attack,493,27
+acute care hospitals,heart attack,494,1
+acute care hospitals,heart attack,495,1
+acute care hospitals,heart attack,496,1
+acutx carx hospitals,heart attack,497,28
+acute care hospitals,heart failure,498,2
+acute care hospitals,heart failure,499,2
+acute care hospitals,heart failure,500,2
+acute care hospitals,heart failure,501,2
+acute care hospitals,pneumonia,502,6
+acute care hospitals,pneumonia,503,6
+acute care hospitals,pneumonia,504,6
+acute care hospitals,pneumonia,505,6
+acute care hospitals,pneumonix,506,29
+acute care hospitals,pneumonia,507,6
+acute care hospitals,surgical infection prevention,508,0
+acute care hospitals,surgical infection prevention,509,0
+acute care hospitals,surgical infection prevention,510,0
+acuxe care hospixals,surgical infection prevention,511,17
+acute care hospitals,surgical infection prevention,512,0
+acute care hospitals,surgical infection prevention,513,0
+acute care hospitals,surgical infection prevention,514,0
+acute care hospitals,surgical infection prevention,515,0
+acute care hospitals,heart attack,516,1
+acute care hospitals,heart attack,517,1
+acute care hospitals,heart attack,518,1
+acute care hospitals,heart attack,519,1
+acute care hospitals,heart attack,520,1
+acute care hospitals,heart attack,521,1
+acute care hospitals,heart attack,522,1
+acute care hospitals,heart failure,523,2
+acute care hospitals,heart failure,524,2
+acute care hospitals,heart failure,525,2
+acute care hospitals,heart failure,526,2
+acute care hospitals,pneumonia,527,6
+acute care hospitals,pneumonia,528,6
+acute care hospitals,pneumonia,529,6
+acute care hospitals,pneumonia,530,6
+acute care hospitals,pneumonia,531,6
+acute care hosxitals,pneumonia,532,30
+acute care hospitals,surgical infection prevention,533,0
+acute care hospitals,surgical infection prevention,534,0
+acute care hospitals,surgical infection prevention,535,0
+acute care hospitals,surgical infection prevention,536,0
+acute care hospitals,surgical infection prevention,537,0
+acute care hospitals,surgical infection prevention,538,0
+acute care hospitals,surgical infection prevention,539,0
+acute care hospitals,surgical infection prevention,540,0
+acute care hospitals,heart attack,541,1
+acute care hospitals,heart attack,542,1
+acute care hospitals,heart attack,543,1
+acute care hospitals,heart attack,544,1
+acute care hospitals,heart attack,545,1
+acute care hospitals,heart attack,546,1
+acute care hospitals,heart attack,547,1
+acute care hospitals,heart failure,548,2
+acute care hospitals,heart failure,549,2
+acute care hospitals,heart failure,550,2
+acute care hospitals,heart failure,551,2
+acute care hospitals,pneumonia,552,6
+acute care hospitals,pneumonia,553,6
+acute care hospitals,pneumonia,554,6
+acute care hospitals,pxeumoxia,555,31
+acute care hospitals,pneumonia,556,6
+acute care hospitals,pneumonia,557,6
+acute care hospitals,surgical infection prevention,558,0
+acute care hospitals,surgical infection prevention,559,0
+acute care hospitals,surgical infection prevention,560,0
+acute care hospitals,surgical infection prevention,561,0
+acute care hospitals,surgical infection prevention,562,0
+acute care hospitals,surgical infection prevention,563,0
+acute care hospitals,surgical infection prevention,564,0
+acute care hospitals,surgical infection prevention,565,0
+acute care hospitals,heart attack,566,1
+acute care hospitals,heart attack,567,1
+acute care hospitals,heart attack,568,1
+acute care hospitals,heart attack,569,1
+acute care hospitals,heart attack,570,1
+acute care hospitals,heart attack,571,1
+acute care hospitals,heart attack,572,1
+acute care hospitals,heart failure,573,2
+acute care hospitals,heart failure,574,2
+acute care hospitals,heart failure,575,2
+acute care hospitals,heart failure,576,2
+acute care hospitals,pneumonia,577,6
+acute care hospitals,pneumonia,578,6
+acute care hospitals,pneumonia,579,6
+acute care hospitals,pneumonia,580,6
+acute care hospitals,pneumonia,581,6
+acute care hospitals,pneumonia,582,6
+acute care hospitals,surgical infection prevention,583,0
+acute care hospitals,surgical infection prevention,584,0
+acute care hospitals,surgical infection prevention,585,0
+acute care hospitals,surgical infection prevention,586,0
+acute care hospitals,surgical infection prevention,587,0
+acuxe care hospixals,surgical infection prevention,588,17
+acute care hospitals,surgical infection prevention,589,0
+acute care hospitals,surgical infection prevention,590,0
+acute care hospitals,heart attack,591,1
+acute care hospitals,heart attack,592,1
+acute care hospitals,heart attack,593,1
+acute care hospitals,heart attack,594,1
+acute care hospitals,heart attack,595,1
+acute care hospitals,heart attack,596,1
+acute care hospitals,heart attack,597,1
+acute care hospitals,heart failure,598,2
+acute care hospitals,heart faixure,599,32
+acute care hospitals,heart failure,600,2
+acute care hospitals,heart failure,601,2
+acute care hospitals,pneumonia,602,6
+acute care hospitals,pneumonia,603,6
+acute care hospitals,pneumonia,604,6
+acute care hospitals,pneumonia,605,6
+acute care hospitals,pneumonia,606,6
+acute care hospitals,pneumonia,607,6
+acute care hospitals,surgical ixfectiox prevextiox,608,33
+acute care hospitals,surgical infection prevention,609,0
+acute care hospitals,surgical infection prevention,610,0
+acute care hospitals,surgical infection prevention,611,0
+acute care hospitals,surgical infection prevention,612,0
+acute care hospitals,surgical infection prevention,613,0
+acute care hospitals,surgical infection prevention,614,0
+acute care hospitals,surgical infection prevention,615,0
+acute care hospitals,heart attack,616,1
+acute care hospitals,heart attack,617,1
+acute care hospitals,heart attack,618,1
+acute care hospitals,heart attack,619,1
+acute care hospitals,heart attack,620,1
+acute care hospitals,heart attack,621,1
+acute care hospitals,heart attack,622,1
+acute care hospitals,heart failure,623,2
+acute care hospitals,heart failure,624,2
+acute care hospitals,heart failure,625,2
+acute care hospitals,heart failure,626,2
+acute care hospitals,pneumonia,627,6
+acute care hospitals,pneumonia,628,6
+acute care hospitals,pneumonia,629,6
+acute care hospitals,pneumonia,630,6
+acute care hospitals,pneumonxa,631,34
+acute care hospitals,pneumonia,632,6
+acute care hospitals,surgical infection prevention,633,0
+acuxe care hospixals,surgical infection prevention,634,17
+acute care hospitals,surgical infection prevention,635,0
+acute care hospitals,surgical infection prevention,636,0
+acute care hospitals,surgical infection prevention,637,0
+acute care hospitals,surgical infection prevention,638,0
+acute care hospitals,surgical infection prevention,639,0
+acute care hospitals,surgical infection prevention,640,0
+acute care hospitals,heart attack,641,1
+acute care hospitals,heart attack,642,1
+acute care hospitals,heart attack,643,1
+acute care hospitals,heart attack,644,1
+acute care hospitals,heart attack,645,1
+acute care hospitals,heart attack,646,1
+acute care hospitals,heart attack,647,1
+acute care hospitals,heart failure,648,2
+acute care hospitals,heart failure,649,2
+acute care hospitals,heart failure,650,2
+acute care hospitals,heart failure,651,2
+acute care hospitals,pneumonia,652,6
+acute care hospitals,pneumonia,653,6
+acute care hospitals,pneumonia,654,6
+acute care hospitals,pneumonia,655,6
+acute care hospitals,pneumonia,656,6
+acute care hospitals,pneumonia,657,6
+acute care hospitals,surgical infection prevention,658,0
+acute care hospitals,surgical infection prevention,659,0
+acute care hospitals,surgical infection prevention,660,0
+acute care hospitals,surgical infection prevention,661,0
+acute care hospitals,surgical infection prevention,662,0
+acute care hospitals,surgical infection prevention,663,0
+acute care hospitals,surgical infection prevention,664,0
+acute care hospitals,surgical infection prevention,665,0
+acute care hospitals,heart attack,666,1
+acute care hospitals,heart attack,667,1
+acute care hospitals,heart attack,668,1
+acute care hospitals,heart attack,669,1
+acute care hospitals,heart attack,670,1
+acute care hospitals,heart attack,671,1
+acute care hospitals,heart attack,672,1
+acute care hospitals,heart failure,673,2
+acute care hospitals,heart failure,674,2
+acute care hospitals,heart failure,675,2
+acute care hospitals,heart failure,676,2
+acute care hospitals,pneumonia,677,6
+acute care hospitals,pneumonia,678,6
+acute care hospitals,xneumonia,679,16
+acute care hospitals,pneumonia,680,6
+acute care hospitals,pneumonia,681,6
+acute care hospitals,pneumonia,682,6
+acute care hospitals,surgical infection prevention,683,0
+acute care hospitals,surgical infection prevention,684,0
+acute care hospitals,surgical infection prevention,685,0
+acute care hospitals,surgical infection prevention,686,0
+acute care hospitals,surgical infection prevention,687,0
+acute care hospitals,surgical infection prevention,688,0
+acute care hospitals,surgical infection prevention,689,0
+acute care hospitals,surgical infection prevention,690,0
+acute care hospitals,heart attack,691,1
+acute care hospitals,heart attack,692,1
+acute care hospitals,heart attack,693,1
+acute care hospitals,heart attack,694,1
+acute cxre hospitxls,heart attaxk,695,35
+acute care hospitals,heart attack,696,1
+acute care hospitals,heart attack,697,1
+acute care hospitals,hexrt fxilure,698,36
+acute care hospitals,heart failure,699,2
+acute care hospitals,heart failure,700,2
+acute care hospitals,heart failure,701,2
+acute care hospitals,pneumonia,702,6
+acute care hospitals,pneumonia,703,6
+acute care hospitals,pneumonia,704,6
+acutexcarexhospitals,pneumonia,705,19
+acute care hospitals,pneumonia,706,6
+acute care hospitals,pneumonia,707,6
+acute care hospitals,surgical infection prevention,708,0
+acute care hospitals,surgical infection prevention,709,0
+acute care hospitals,surgical infection prevention,710,0
+acute care hospitals,surgical infection prevention,711,0
+acute care hospitals,surgical infection xrevention,712,37
+acute care hospitals,surgical infection prevention,713,0
+acute care hospitals,surgical infection prevention,714,0
+acute care hospitals,surgical infection prevention,715,0
+acute care hospitals,heartxattack,716,38
+acute care hospitals,heart attack,717,1
+acute care hospitals,heart attack,718,1
+acute care hospitals,heart attack,719,1
+acute care hospitals,heart attack,720,1
+acute care hospitals,heart attack,721,1
+acute care hospitals,heart attack,722,1
+acute care hospitals,heart failure,723,2
+acute care hospitals,heart failure,724,2
+acute care hospitals,heart failure,725,2
+acute care hospitals,heart failure,726,2
+acute care hospitals,pneumonia,727,6
+acute care hospitals,pneumonia,728,6
+acutexcarexhospitals,pneumonia,729,19
+acute care hospitals,pneumonia,730,6
+acute care hospitals,pneumonia,731,6
+acute care hospitals,pneumonia,732,6
+acute care hospitals,suxgical infection pxevention,733,14
+acute care hospitals,surgical infection prevention,734,0
+acute care hospitals,surgical infection prevention,735,0
+acute care hospitals,surgical infection prevention,736,0
+acute care hospitals,surgical infection prevention,737,0
+acute care hospitals,surgical infection prevention,738,0
+acute care hospitals,surgical infection prevention,739,0
+acute care hospitals,surgical infection prevention,740,0
+acute care hospitals,heart attack,741,1
+acute care hospitals,heart attack,742,1
+acute care hospitals,heart attack,743,1
+acute care hospitals,heart attack,744,1
+acute care hospitals,heart attack,745,1
+acute care hospitals,heart attack,746,1
+acute care hospitals,heart attack,747,1
+acute care hospitals,heart failure,748,2
+acute care hospitals,heart failure,749,2
+acute care hospitals,heart failure,750,2
+acute care hospitals,heart failure,751,2
+acute care hospitals,pneumonia,752,6
+acute care hospitals,pneumonia,753,6
+acute care hospitals,pneumonia,754,6
+acute care hospitals,pneumonia,755,6
+acute care hospitals,pneumonia,756,6
+acute care hospitals,pneumonia,757,6
+acute care hospitals,surgical infection prevention,758,0
+acute care hospitals,surgical infection prevention,759,0
+acute care hospitals,surgical infection prevention,760,0
+acute care hospitals,surgical infection prevention,761,0
+acute care hospitals,surgical infection prevention,762,0
+acute care hospitals,surgical infection prevention,763,0
+acute care hospitals,surgical infection prevention,764,0
+acute care hospitals,surgical infection prevention,765,0
+acute care hospitals,children s asthma care,766,20
+acute care hospitals,surgical infection prevention,767,0
+acute care hospitals,surgical infection prevention,768,0
+acute care hospitals,surgical infection prevention,769,0
+acute care hospitals,surgical infection prevention,770,0
+acute care hospitals,surgical infection prevention,771,0
+acute care hospitals,surgical infection prevention,772,0
+acute care hospitals,surgical infection prevention,773,0
+acute care hospitals,children s asthma care,774,20
+acute care hospitals,children s asthma care,775,20
+acute care hospitals,children s asthma care,776,20
+acute care hospitals,heart attack,777,1
+acute care hospitals,heart attack,778,1
+acutexcarexhospitals,heart attack,779,39
+acute care hospitals,heart attaxk,780,4
+acute care hospitals,heart attack,781,1
+acute care hospitaxs,heart attack,782,40
+acute care hospitals,heart attack,783,1
+acute care hospitals,heart failure,784,2
+acute care hospitals,heart failure,785,2
+acute care hospitals,heart failure,786,2
+acute care hospitals,heart failure,787,2
+acute care hospitals,pneumonia,788,6
+acute care hospitals,pneumonia,789,6
+acute care hospitals,pneumonia,790,6
+acute care hospitals,pneumonia,791,6
+acute care hospitals,pneumonia,792,6
+acute care hospitals,pneumonia,793,6
+acute care hospitals,surgical infection prevention,794,0
+acute care hospitals,surgical infection prevention,795,0
+acute care hospitals,surgical infection prevention,796,0
+acute care hospitals,surgical infection prevention,797,0
+acute care hospitals,surgical infection prevention,798,0
+acute care hospitals,surgical infection prevention,799,0
+acute care hospitals,surgical infection prevention,800,0
+acute care hospitals,surgical infection prevention,801,0
+acute care hospitals,heart attack,802,1
+acute care hospitals,heart attack,803,1
+acute care hospitals,heart attack,804,1
+acute care hospitals,heart attack,805,1
+acute care hospitals,heart attack,806,1
+acute care hospitals,heart attack,807,1
+acute care hospitals,heart attack,808,1
+acute care hospitals,heart failure,809,2
+acute care hospitals,heart failure,810,2
+acute care hospitals,heart failure,811,2
+acute care hospitals,heart failure,812,2
+acute care hospitals,pneumonia,813,6
+axute care hospitals,pneumonia,814,41
+acute care hospitals,pneumonia,815,6
+acute care hospitals,pneumonia,816,6
+acute care hospitals,pneumonia,817,6
+acute care hospitals,pneumonia,818,6
+acute care hospitals,surgical infection prevention,819,0
+acute care hospitals,surgical infection prevention,820,0
+acute care hospitals,surgical infection prevention,821,0
+acute care hospitals,surgical infection prevention,822,0
+acute care hospitals,surgical infection prevention,823,0
+acute care hospitals,surgical infection prevention,824,0
+acute care hospitals,surgical infection prevention,825,0
+acute care hospitals,surgical infection prevention,826,0
+acute care hospitals,heart attack,827,1
+acute care hospitals,heart attack,828,1
+acute care hospitals,heart attack,829,1
+acute care hospitals,heart attack,830,1
+acute care hospitals,heart attack,831,1
+acute care hospitals,heart attack,832,1
+acute care hospitals,heart attack,833,1
+acute care hospitals,heart failure,834,2
+acute care hospitals,heart failure,835,2
+acute care hospitals,heart failure,836,2
+acute care hospitals,heart failure,837,2
+acute care hospitals,pneumonia,838,6
+acute care hospitals,pneumonia,839,6
+acute care hospitals,pneumonia,840,6
+acute care hospitals,pneumonia,841,6
+acute care hospitals,pneumonia,842,6
+acute care hospitals,pneumonia,843,6
+acute care hospitals,surgical infection prevention,844,0
+acute care hospitals,surgical infection prevention,845,0
+acute care hospitals,surgical infection prevention,846,0
+acute care hospitals,surgical infection prevention,847,0
+acute caxe hospitals,surgical infection prevention,848,26
+acute care hospitals,surgical infection prevention,849,0
+acute care hospitals,surgical infection prevention,850,0
+acute care hospitals,surgical infxction prxvxntion,851,42
+acute care hospitals,heart attack,852,1
+acute care hospitals,heart attack,853,1
+acute care hospitals,heart attack,854,1
+acute care hospitals,heart attack,855,1
+acute care hospitals,heart attack,856,1
+acute care hospitals,heart attack,857,1
+acute care hospitals,heart attack,858,1
+acute care hospitals,heart failure,859,2
+acute care hospitals,heart failure,860,2
+acute care hospitals,heart failure,861,2
+acute care hospitals,heart failure,862,2
+acute care hospitals,pneumonia,863,6
+acute care hospitals,pneumonia,864,6
+acute care hospitals,pneumonia,865,6
+acute care hospitals,pneumonia,866,6
+acute care hospitals,pneumonia,867,6
+acute care hospitals,pneumonia,868,6
+acute care hospitals,surgical ixfectiox prevextiox,869,33
+acute care hospitals,surgical infection prevention,870,0
+acute care hospitals,surgical infection prevention,871,0
+acute care hospitals,surgical infection prevention,872,0
+acute care hospitals,surgical infection prevention,873,0
+acute care hospitals,surgical infection prevention,874,0
+acute care hospitals,surgical infection prevention,875,0
+acute care hospitals,surgical infection prevention,876,0
+acute care hoxpitalx,heart attack,877,43
+acute care hospitals,heart attack,878,1
+acute care hospitals,heart attack,879,1
+acute care hospitals,heart attack,880,1
+acute care hospitals,heart attack,881,1
+acute care hospitals,heart attack,882,1
+acute care hospitals,heart attack,883,1
+acute care hospitals,heart failure,884,2
+acute care hospitals,heart failure,885,2
+acute care hospitals,heart failure,886,2
+acute care hospitals,heart failure,887,2
+acute care hospitals,pneumonia,888,6
+acute care hospitals,pneumonia,889,6
+acute care hospitals,pneumonia,890,6
+acute care hospitals,pneumonia,891,6
+acute care hospitals,pneumonia,892,6
+acute care hospitals,pneumonia,893,6
+acute care hospitals,surgical infection prevention,894,0
+acute care hospitals,surgical infection prevention,895,0
+acute care hospitals,surgical infection prevention,896,0
+acute care hospitals,surgical infection prevention,897,0
+acute care hospitals,surgical infection prevention,898,0
+acute care hospitals,surgical infection prevention,899,0
+acute care hospitals,surgical infection prevention,900,0
+acute care hospitals,surgical infection prevention,901,0
+acutexcarexhospitals,children s asthma care,902,44
+acute care hospitals,children s asthma care,903,20
+acute care hospitals,children s asthma care,904,20
+acute care hospitals,heart attack,905,1
+acute care hospitals,heart attack,906,1
+acute care hospitals,heart attack,907,1
+acute care hospitals,heart attack,908,1
+acute care hospitals,heart attack,909,1
+acute care hospitals,heart attack,910,1
+acute care hospitals,heart attack,911,1
+acute care hospitals,heart failure,912,2
+acute care hospitals,heart failure,913,2
+acute care hospitals,heart failure,914,2
+acute care hospitals,heart failure,915,2
+acute care hospitals,pneumonia,916,6
+acute care hospitals,pneumonia,917,6
+acute care hospitals,pneumonia,918,6
+acute care hospitals,pneumonia,919,6
+acute care hospitals,pneumonia,920,6
+acute care hospitals,pneumonia,921,6
+acute care hospitals,surgical infection prevention,922,0
+acute care hospitals,surgical infection prevention,923,0
+acute care hospitals,surgical infection prevention,924,0
+acute care hospitals,surgical infection prevention,925,0
+acuxe care hospixals,surgical infection prevention,926,17
+acute care hospitals,surgical infection prevention,927,0
+acute care hospitals,surgical infection prevention,928,0
+acute care hospitals,surgical infection prevention,929,0
+acute care hospitals,heart attack,930,1
+acute care hospitals,heart attack,931,1
+acute care hospitals,heart attack,932,1
+acute care hospitals,heart attack,933,1
+acute care hospitals,heart attack,934,1
+acute care hospitals,heart attack,935,1
+acute care hospitals,heart attack,936,1
+acute care hospitals,heart failure,937,2
+acute care hospitals,heart failure,938,2
+acute care hospitals,heart failure,939,2
+acute care hospitals,heart failure,940,2
+acute care hospitals,pneumonia,941,6
+acute care hospitals,pneumonia,942,6
+acute care hospitals,pneumonia,943,6
+acute care hospitals,pneumonia,944,6
+acute care hospitals,pneumonia,945,6
+acute care hospitals,pneumonia,946,6
+acute care hospitals,surgical infection prevention,947,0
+acute care hospitals,surgical infection prevention,948,0
+acute care hosxitals,surgical infection prevention,949,24
+acute care hospitals,surgical infection prevention,950,0
+acute care hospitals,surgical infection prevention,951,0
+acute care hospitals,surgical infection prevention,952,0
+acute care hospitals,surgical infection prevention,953,0
+acute care hospitals,surgical infection prevention,954,0
+acute care hospitals,hexrt attxck,955,12
+acute xare hospitals,heart attack,956,45
+acute care hospitals,heart attack,957,1
+acute care hospitals,heart attack,958,1
+acute care hospitals,heart attack,959,1
+acute care hospitals,heart attack,960,1
+acute care hospitals,heart attack,961,1
+acute care hospitals,heart failure,962,2
+acute care hospitals,heart failure,963,2
+acutexcarexhospitals,heart failure,964,46
+acute care hospitals,heart failure,965,2
+acute care hospitals,pneumonia,966,6
+acute care hospitals,pneumonia,967,6
+acute care hospitals,pneumonia,968,6
+acute care hospitals,pneumonia,969,6
+acute care hospitals,pneumonia,970,6
+acute care hospitals,pneumonia,971,6
+acute care hospitals,surgical infection prevention,972,0
+acute care hospitals,surgical infection prevention,973,0
+acute care hospitals,surgical xnfection prevention,974,47
+acute care hospitals,surgical infection prevention,975,0
+acutexcarexhospitals,surgical infection prevention,976,48
+acute care hospitals,surgical infection prevention,977,0
+acute care hospitals,surgical infection prevention,978,0
+acute care hospitals,surgical infection prevention,979,0
+acute care hospitals,heart attack,980,1
+acute care hospitals,heart attack,981,1
+acute care hospitals,heart attack,982,1
+acute care hospitals,heart attack,983,1
+acute care hospitals,heart attack,984,1
+acute care hospitals,heart attack,985,1
+acute care hospitals,heart attack,986,1
+acute care hospitals,heart failure,987,2
+acute care hospitals,heart failure,988,2
+acute care hospitals,heart failure,989,2
+acute care hospitals,heart failure,990,2
+acute care hospitals,pneumonia,991,6
+acute care hospitals,pneumonia,992,6
+acute care hospitals,pneumonia,993,6
+acute care hospitals,pneumonia,994,6
+acute care hospitals,pneumonia,995,6
+acute care hospitals,pneumonia,996,6
+acute care hospitals,surgical infection prevention,997,0
+acute care hospitals,surgical infection prevention,998,0
+acute care hospitals,surgical infection prevention,999,0

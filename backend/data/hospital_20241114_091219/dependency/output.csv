@@ -1,0 +1,26 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,index,ProviderNumber,The ID number (column 0) may relate to a unique internal identifier and could impact how the associated medical center (column 1) is tracked in records.
+1,2,ProviderNumber,HospitalName,The value in the column representing postal codes (Column 1) could indicate the location of the hospital (Column 2) in that postal area.
+1,3,ProviderNumber,Address1,The hospital identification number has a format that links to the hospital name in the corresponding column based on shared records.
+1,8,ProviderNumber,ZipCode,"One column encodes the location using a ZIP code format, while another provides the city, indicating that the ZIP code corresponds to a specific geographic area, implying a dependency based on regional segmentation."
+1,9,ProviderNumber,CountyName,"The identification number of the hospital may show a pattern related to the patient demographics or region covered, suggesting a dependency."
+1,14,ProviderNumber,Condition,The values in the column representing a unique identifier may depend on the values in the column representing the type of heart condition; those unique identifiers are specifically formatted to indicate the type of heart attack.
+1,19,ProviderNumber,Stateavg,"The hospital identification number has a semantic relationship with the identifier column that combines the state code (al) with the performance measure (pn-4), indicating a consolidated reference for pneumonia-related cases in Alabama."
+2,3,HospitalName,Address1,"The medical center name (column 2) is tied to its physical address (column 3), since each medical center is located at a distinct address."
+2,11,HospitalName,HospitalType,"The name of the medical center (column 2) can be related to the type of facility it is (column 11), as it indicates that the center specializes in acute care hospitals."
+2,12,HospitalName,HospitalOwner,The name of the hospital is related to its classification or the ownership structure provided in the corresponding column.
+6,7,City,State,"The column with city information (column 6) is related to the column containing state codes (column 7), indicating that the city listed is found within the stated state."
+7,8,State,ZipCode,"The zip code (column 8) is generally linked to the state abbreviation (column 7), confirming that the two relate geographically within the same area."
+8,9,ZipCode,CountyName,"The postal code provided in one column is dependent on the city or county information listed in another column, indicating that the two columns represent geographical dependencies."
+11,12,HospitalType,HospitalOwner,"The type of hospital specified in one column likely correlates with the governing category of that hospital in another column, indicating a dependency between the type of healthcare provider and the regulatory framework."
+11,14,HospitalType,Condition,"The column representing the type of hospital (acute care hospitals) is semantically dependent on the column describing specific care categories (such as children’s asthma care, heart attack, or pneumonia), as the type of care provided relates to the type of hospital."
+14,15,Condition,MeasureCode,The column indicating the type of heart condition is directly related to the column specifying specific measures or criteria related to that condition.
+14,17,Condition,Score,"The column that indicates pneumonia as the illness semantically relates to the column representing the success percentage (e.g., '67%'), as the success rate would pertain specifically to pneumonia cases."
+14,18,Condition,Sample,"The column indicating the type of illness (pneumonia) semantically relates to the column representing the number of patients, implying the count of patients who received care for pneumonia."
+14,19,Condition,Stateavg,The prefix in the identifier relates to the type of medical condition or treatment described in the other column.
+15,16,MeasureCode,MeasureName,The pneumonia codes in this column also rely directly on the corresponding descriptions that detail the treatment protocols or outcomes specific to pneumonia patients.
+15,17,MeasureCode,Score,"The measure codes (e.g., ami-2, hf-2) relate to percentages showing the adherence or performance level related to that specific quality measure, indicating a syntactic dependency where the code corresponds to a specific quality performance percentage."
+15,18,MeasureCode,Sample,"The number of patients (column 18) is associated with the specific treatment provided for a condition (column 15), as the data shows performance measures based on patient numbers."
+15,19,MeasureCode,Stateavg,"The unique identifier patterns in one column suggest specific related health measures (i.e., the prefix relates to the type of treatments covered in the other column)."
+17,18,Score,Sample,The percentage of patients receiving a certain treatment (column with percentage values) has a syntactic dependency on the number of patients assessed (column with patient counts) because the percentage is derived from the count of patients.
+18,19,Sample,Stateavg,"The number of patients in one column likely matches the identifier in another column, indicating their relationship is based on the treatment or condition measure they belong to."

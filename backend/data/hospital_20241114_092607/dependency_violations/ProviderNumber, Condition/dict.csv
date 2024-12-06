@@ -1,0 +1,1001 @@
+ProviderNumber,Condition,original_index,unique_index
+10018,surgical infection prevention,0,0
+10018,surgical infection prevention,1,0
+10018,surgical infection prevention,2,0
+10018,surgical infection prevention,3,0
+10018,surgical infection prevention,4,0
+10018,surgical infection prevention,5,0
+10018,surgical infection prevention,6,0
+10018,surgical infection prevention,7,0
+10019,heart attack,8,1
+10019,heart attack,9,1
+10019,heart attack,10,1
+10019,heart attack,11,1
+10019,heart attack,12,1
+1xx19,heart attack,13,2
+10019,heart attack,14,1
+10019,heart failure,15,3
+10019,heart failure,16,3
+10019,heart failure,17,3
+10019,heart failure,18,3
+10001,heart attack,19,4
+10001,heart attack,20,4
+10001,heart attaxk,21,5
+10001,hearx axxack,22,6
+10001,heart attack,23,4
+10001,heart attack,24,4
+10001,heart attack,25,4
+10001,heart failure,26,7
+10001,heart failure,27,7
+10001,heart failure,28,7
+10001,heart failure,29,7
+10001,pneumonia,30,8
+10001,pneumonia,31,8
+10001,pneumonia,32,8
+10001,pneumonia,33,8
+10001,pneumonia,34,8
+10001,pneumonia,35,8
+10001,surgical infection prevention,36,9
+10001,surgical infection prevention,37,9
+10001,surgical infection prevention,38,9
+10001,surgical infection prevention,39,9
+10001,surgical infection prevention,40,9
+10001,surgical infection prevention,41,9
+10001,surgical infection prevention,42,9
+10001,surgical infection prevention,43,9
+10005,heart attack,44,10
+x0005,heart attack,45,11
+10005,heart attack,46,10
+10005,heart attack,47,10
+10005,heart attack,48,10
+10005,heart attack,49,10
+10005,heart attack,50,10
+10005,heart failure,51,12
+10005,heart failure,52,12
+10005,heart failure,53,12
+10005,heart failure,54,12
+10005,pneumonia,55,13
+10005,pneumonia,56,13
+10005,pneumonia,57,13
+10005,pneumonia,58,13
+10005,pneumonia,59,13
+10005,pneumonia,60,13
+10005,surgical infection prevention,61,14
+10005,surgical infection prevention,62,14
+10005,surgical infection prevention,63,14
+10005,surgical infection prevention,64,14
+10005,surgical infection prevention,65,14
+10005,surgical infection prevention,66,14
+10005,surgical infection prevention,67,14
+10005,surgical infection prevention,68,14
+10006,heart attack,69,15
+10006,heart attack,70,15
+10006,heart attack,71,15
+10006,heart attack,72,15
+10006,hearx axxack,73,16
+10006,heart attack,74,15
+10006,heart attack,75,15
+10006,heart failure,76,17
+10006,heart failure,77,17
+10006,heart failure,78,17
+10006,heart failure,79,17
+10006,pneumonia,80,18
+1000x,pneumonia,81,19
+10006,pneumonia,82,18
+10006,pneumonia,83,18
+10006,pneumonia,84,18
+10006,pneumonia,85,18
+10006,surgical infection prevention,86,20
+10006,surgical infection prevention,87,20
+10006,surgical infection prevention,88,20
+10006,surgical infection prevention,89,20
+10006,surgical infection prevention,90,20
+10006,surgical infection prevention,91,20
+10006,surgical infection prevention,92,20
+10006,surgical infection prevention,93,20
+10007,heart attack,94,21
+10007,heart attack,95,21
+10007,heart attack,96,21
+10007,heart attack,97,21
+10007,heart attack,98,21
+10007,heart attack,99,21
+10007,heart attack,100,21
+10007,heart failure,101,22
+10007,heart failure,102,22
+10007,heart failure,103,22
+10007,heart failure,104,22
+10007,pneumonia,105,23
+10007,pneumonia,106,23
+10007,pneumonia,107,23
+10007,pneumonia,108,23
+10007,pneumonia,109,23
+10007,pneumonia,110,23
+10007,surgical infection prevention,111,24
+10007,surgical infection prevention,112,24
+10007,surgical infection prevention,113,24
+10007,surgical infection prevention,114,24
+10007,surgical infection prevention,115,24
+10007,surgical infection prevention,116,24
+10007,surgical infection prevention,117,24
+10007,surgical infection prevention,118,24
+10008,heart attack,119,25
+10008,heart attack,120,25
+10008,heart attack,121,25
+10008,heart attack,122,25
+10008,heart attack,123,25
+10008,heart attack,124,25
+10008,heart attack,125,25
+10008,heart failure,126,26
+10008,heaxt failuxe,127,27
+10008,heart failure,128,26
+10008,heart failure,129,26
+10008,pneumonia,130,28
+10008,pneumonia,131,28
+10008,pneumonia,132,28
+10008,pneumonia,133,28
+10008,pneumonia,134,28
+10008,pneumonia,135,28
+10008,surgical infection prevention,136,29
+10008,surgical infection prevention,137,29
+10008,surgical infection prevention,138,29
+10008,surgical infection prevention,139,29
+10008,surgical infection prevention,140,29
+10008,surgical infection prevention,141,29
+10008,surgical infection prevention,142,29
+10008,surgical infection prevention,143,29
+10009,heart attack,144,30
+10009,heart attack,145,30
+10009,heart attack,146,30
+10009,heart attack,147,30
+10009,heart attack,148,30
+10009,heart attack,149,30
+10009,heart attack,150,30
+10009,heart failure,151,31
+10009,heart failure,152,31
+10009,heart failure,153,31
+10009,heart failure,154,31
+10009,pneumonia,155,32
+10009,pneumonia,156,32
+10009,pneumonia,157,32
+10009,pneumonia,158,32
+10009,pneumonia,159,32
+10009,pneumonia,160,32
+10009,surgical infection prevention,161,33
+10009,surgical infection prevention,162,33
+10009,surgical infection prevention,163,33
+10009,surgical infection prevention,164,33
+10009,surgical infection prevention,165,33
+10009,surgical infection prevention,166,33
+10009,surgical infection prevention,167,33
+10009,surgical infection prevention,168,33
+10010,heart attack,169,34
+10010,heart attack,170,34
+10010,heart attack,171,34
+10010,heart attack,172,34
+10010,heart attack,173,34
+10010,heart attack,174,34
+10010,heart attack,175,34
+10010,heart failure,176,35
+10010,heart failure,177,35
+10010,heart failure,178,35
+10010,heart failure,179,35
+10010,pneumonia,180,36
+10010,pneumonia,181,36
+10010,pneumonia,182,36
+10010,pneumonia,183,36
+10010,pneumonia,184,36
+10010,pneumonia,185,36
+10010,surgical infection prevention,186,37
+10010,surgical infection prevention,187,37
+10010,surgical infection prevention,188,37
+10010,surgical infection prevention,189,37
+10010,surgical infection prevention,190,37
+10010,surgical infection prevention,191,37
+10010,surgical infection prevention,192,37
+10010,surgical infection prevention,193,37
+10011,heart attack,194,38
+10011,heart attack,195,38
+10011,heart attack,196,38
+10011,heart attack,197,38
+10011,heart attack,198,38
+10011,heaxt attack,199,39
+10011,heart attack,200,38
+10011,heart failure,201,40
+10011,heart failure,202,40
+10011,heart failure,203,40
+10011,heart failure,204,40
+10011,pneumonia,205,41
+10011,pneumonia,206,41
+10011,pneumonia,207,41
+10011,pneumonia,208,41
+10011,pneumonia,209,41
+10011,pneumonia,210,41
+10011,surgical infection prevention,211,42
+10011,surgical infection prevention,212,42
+x00xx,surgical infection prevention,213,43
+10011,surgical infection prevention,214,42
+10011,surgical infection prevention,215,42
+10011,surgical infection prevention,216,42
+10011,surgical infection prevention,217,42
+10011,surgical infection prevention,218,42
+10012,heart attack,219,44
+10012,heart attack,220,44
+10012,heart attack,221,44
+10012,heart attack,222,44
+10012,heart attack,223,44
+10012,heart attack,224,44
+10012,hexrt attxck,225,45
+10012,heart failure,226,46
+10012,heart failure,227,46
+10012,heart failure,228,46
+10012,heart faxlure,229,47
+10012,pneumonia,230,48
+10012,pneumonia,231,48
+10012,pneumonia,232,48
+10012,pneumonia,233,48
+10012,pneumonia,234,48
+10012,pneumonia,235,48
+10012,suxgical infection pxevention,236,49
+10012,surgical infection prevention,237,50
+10012,surgical infection prevention,238,50
+10012,surgxcal infectxon preventxon,239,51
+10012,surgical infection prevention,240,50
+10012,surgical infection prevention,241,50
+10012,surgical infection prevention,242,50
+10012,surgical infection prevention,243,50
+x00x5,heart attack,244,52
+10015,heart attack,245,53
+10015,heart attack,246,53
+10015,heart attack,247,53
+10015,heart attack,248,53
+10015,heart attack,249,53
+10015,heart attack,250,53
+10015,heart failure,251,54
+10015,heart failure,252,54
+1xx15,heart failure,253,55
+10015,heart failure,254,54
+10015,pneumonia,255,56
+10015,xneumonia,256,57
+10015,pneumonia,257,56
+10015,pneumonia,258,56
+10015,pneumonia,259,56
+10015,pneumonia,260,56
+10015,surgical infection prevention,261,58
+10015,surgical infection prevention,262,58
+10015,surgical infection prevention,263,58
+10015,surgical infection prevention,264,58
+10015,surgical infection prevention,265,58
+10015,surgical infection prevention,266,58
+10015,surgical infection prevention,267,58
+10015,surgical infection prevention,268,58
+10016,heart attack,269,59
+10016,heart attack,270,59
+10016,heart attack,271,59
+10016,heart attack,272,59
+1xx16,heart attack,273,60
+10016,heart attack,274,59
+10016,heart attack,275,59
+10016,heart failure,276,61
+10016,heart failure,277,61
+10016,heart failure,278,61
+10016,xeart failure,279,62
+10016,pneumonia,280,63
+10016,pneumonia,281,63
+10016,pneumonia,282,63
+10016,pneumonia,283,63
+10016,pneumonia,284,63
+10016,pneumonia,285,63
+10016,surgical infection prevention,286,64
+10016,surgical infection prevention,287,64
+10016,surgical infection prevention,288,64
+10016,surgical infection prevention,289,64
+10016,surgical infection prevention,290,64
+10016,surgical infection prevention,291,64
+10016,surgical infection prevention,292,64
+10016,surgical infection prevention,293,64
+10018,heart attack,294,65
+10018,heart attack,295,65
+10018,heart attack,296,65
+10018,heart attack,297,65
+10018,heart attack,298,65
+10018,heart attack,299,65
+10018,heart attack,300,65
+10018,heart failure,301,66
+10018,heart failure,302,66
+10018,heart failure,303,66
+10018,heart failure,304,66
+10018,pneumonia,305,67
+10018,pneumonia,306,67
+10018,pneumonia,307,67
+10018,pneumonia,308,67
+10018,pneumonia,309,67
+10018,pneumonia,310,67
+10038,children s asthma care,311,68
+10038,children s asthma care,312,68
+10038,heart attack,313,69
+100x8,heart attack,314,70
+10038,heart attack,315,69
+10038,heart attack,316,69
+10038,heart attack,317,69
+10038,heart attack,318,69
+10038,heart attack,319,69
+10038,heart failure,320,71
+10038,heart failure,321,71
+10038,heart failure,322,71
+10038,heart failure,323,71
+10038,pneumonia,324,72
+10038,pneumonia,325,72
+10038,pneumonia,326,72
+10038,pneumonia,327,72
+10038,pneumonia,328,72
+10038,pneumonia,329,72
+10038,surgical infection prevention,330,73
+10055,heart failure,331,74
+10055,heart failure,332,74
+10055,heart failure,333,74
+10055,pneumonia,334,75
+10055,pneumonia,335,75
+10055,pneumonia,336,75
+10055,pneumonia,337,75
+10055,pneumonia,338,75
+10055,pneumonia,339,75
+10055,surgical infection prevention,340,76
+10055,surgical infection prevention,341,76
+10055,surgical infection prevention,342,76
+10055,surgical infection prevention,343,76
+10055,surgical infection prevention,344,76
+10055,surgical infection prevention,345,76
+10055,surgical infection prevention,346,76
+10055,surgical infection prevention,347,76
+10056,heart attack,348,77
+10056,heart attack,349,77
+10056,heart attack,350,77
+10056,heart attack,351,77
+10056,heart attack,352,77
+10085,surgical infection prevention,353,78
+10086,heart attack,354,79
+10086,heart attack,355,79
+10086,heart attack,356,79
+10086,heart attack,357,79
+10086,heart attack,358,79
+10086,heart attack,359,79
+100x6,heart attack,360,80
+10086,heart failure,361,81
+10086,heart failure,362,81
+10086,heart failure,363,81
+10086,heart failure,364,81
+10086,pneumonia,365,82
+10086,pnxumonia,366,83
+10086,pneumonia,367,82
+10086,pneumonia,368,82
+10086,pnexmonia,369,84
+10086,pneumonia,370,82
+10086,surgical infection prevention,371,85
+10086,surgical infection prevention,372,85
+10086,surgical infection prevention,373,85
+10086,surgical infection prevention,374,85
+10086,surgical infection prevention,375,85
+10086,surgical infection prevention,376,85
+10086,surgical infection prevention,377,85
+10086,surgical infection prevention,378,85
+10087,heart attack,379,86
+10087,heart attack,380,86
+10087,heart attack,381,86
+10087,heart attack,382,86
+10087,heart attack,383,86
+10087,heart attack,384,86
+10087,heart attack,385,86
+10087,hxart failurx,386,87
+10087,heart failure,387,88
+10087,heart failure,388,88
+10087,heart failure,389,88
+10087,pneumonia,390,89
+10087,pneumonia,391,89
+10108,heart attack,392,90
+10108,heart attack,393,90
+10108,heart attack,394,90
+10108,heart attack,395,90
+10108,heart attack,396,90
+10108,heart attack,397,90
+10108,heart failure,398,91
+10108,heart failure,399,91
+10108,hxart failurx,400,92
+10108,heart failure,401,91
+10108,pneumonia,402,93
+10108,pneumonia,403,93
+10108,pneumonia,404,93
+10108,pneumonia,405,93
+10108,pneumonia,406,93
+10108,pneumonia,407,93
+x0x08,surgical infection prevention,408,94
+10108,surgical infection prevention,409,95
+10108,surgical infection prevention,410,95
+10108,surgical infection prevention,411,95
+10158,surgical infection prevention,412,96
+10158,surgical infection prevention,413,96
+10164,heart attack,414,97
+10164,heart attack,415,97
+10164,heart attack,416,97
+10164,heart attack,417,97
+10164,heart attack,418,97
+10164,heart attack,419,97
+10164,heart attack,420,97
+10164,heart failure,421,98
+10164,heart failure,422,98
+10164,heart failure,423,98
+10164,heart failure,424,98
+10164,pneumonia,425,99
+10164,pneumonia,426,99
+10164,pneumonia,427,99
+10164,pneumonia,428,99
+10164,pneumonia,429,99
+10164,pneumonia,430,99
+10164,surgical infection prevention,431,100
+20017,heart failure,432,101
+20017,heart failure,433,101
+20017,heart failure,434,101
+20017,heart failure,435,101
+20017,pneumonia,436,102
+20017,pneumonia,437,102
+20017,pneumonia,438,102
+20017,pneumonia,439,102
+20017,pneumonia,440,102
+20017,pneumonia,441,102
+20017,surgical infection prevention,442,103
+20017,surgical infection prevention,443,103
+20017,surgical infection prevention,444,103
+20017,surgical infection prevention,445,103
+20017,surgical infection prevention,446,103
+20017,surgical infection prevention,447,103
+20017,surgical infection prevention,448,103
+20017,surgical infection prevention,449,103
+20018,heart attack,450,104
+20018,heart attack,451,104
+10019,pneumonia,452,105
+10019,pneumonia,453,105
+10019,pneumonia,454,105
+10019,pneumonia,455,105
+10019,pneumonia,456,105
+10019,pneumonia,457,105
+10019,surgical infection prevention,458,106
+10019,surgical infection prevention,459,106
+10019,surgical infection prevention,460,106
+10019,surgical infection prevention,461,106
+10019,surgical infection prevention,462,106
+10019,surgical infection prevention,463,106
+10019,surgical infection prevention,464,106
+10019,surgical infection prevention,465,106
+10021,heart attack,466,107
+10021,hexrt attxck,467,108
+10021,heart attack,468,107
+10021,heart attack,469,107
+10021,heart attack,470,107
+10021,heart attack,471,107
+10021,heart attack,472,107
+10021,heart failure,473,109
+10021,heart failure,474,109
+10021,heart failure,475,109
+10021,heart failure,476,109
+10021,pneumonia,477,110
+10021,pneumonia,478,110
+10021,pneumonia,479,110
+10021,pneumonia,480,110
+10021,pneumonia,481,110
+10021,pneumonia,482,110
+10021,surgical infection prevention,483,111
+10021,surgical infection prevention,484,111
+10021,surgical infection prevention,485,111
+10021,surgical infection prevention,486,111
+10021,surgical infection prevention,487,111
+10021,surgical infection prevention,488,111
+10021,surgical infection prevention,489,111
+10021,surgical infection prevention,490,111
+10022,heart attack,491,112
+10022,heart attack,492,112
+10022,heart attack,493,112
+10022,heart attack,494,112
+10022,heart attack,495,112
+10022,heart attack,496,112
+10022,heart attack,497,112
+10022,heart failure,498,113
+10022,heart failure,499,113
+10022,heart failure,500,113
+10022,heart failure,501,113
+10022,pneumonia,502,114
+10022,pneumonia,503,114
+10022,pneumonia,504,114
+10022,pneumonia,505,114
+10022,pneumonix,506,115
+10022,pneumonia,507,114
+10022,surgical infection prevention,508,116
+10022,surgical infection prevention,509,116
+10022,surgical infection prevention,510,116
+10022,surgical infection prevention,511,116
+10022,surgical infection prevention,512,116
+10022,surgical infection prevention,513,116
+10022,surgical infection prevention,514,116
+10022,surgical infection prevention,515,116
+10023,heart attack,516,117
+10023,heart attack,517,117
+10023,heart attack,518,117
+10023,heart attack,519,117
+10023,heart attack,520,117
+10023,heart attack,521,117
+10023,heart attack,522,117
+10023,heart failure,523,118
+10023,heart failure,524,118
+10023,heart failure,525,118
+10023,heart failure,526,118
+10023,pneumonia,527,119
+10023,pneumonia,528,119
+10023,pneumonia,529,119
+10023,pneumonia,530,119
+10023,pneumonia,531,119
+10023,pneumonia,532,119
+10023,surgical infection prevention,533,120
+10023,surgical infection prevention,534,120
+10023,surgical infection prevention,535,120
+10023,surgical infection prevention,536,120
+10023,surgical infection prevention,537,120
+10023,surgical infection prevention,538,120
+10023,surgical infection prevention,539,120
+10023,surgical infection prevention,540,120
+10024,heart attack,541,121
+10024,heart attack,542,121
+10024,heart attack,543,121
+10024,heart attack,544,121
+10024,heart attack,545,121
+10024,heart attack,546,121
+10024,heart attack,547,121
+10024,heart failure,548,122
+10024,heart failure,549,122
+10024,heart failure,550,122
+10024,heart failure,551,122
+10024,pneumonia,552,123
+10024,pneumonia,553,123
+10024,pneumonia,554,123
+10024,pxeumoxia,555,124
+10024,pneumonia,556,123
+10024,pneumonia,557,123
+10024,surgical infection prevention,558,125
+1xx24,surgical infection prevention,559,126
+10024,surgical infection prevention,560,125
+10024,surgical infection prevention,561,125
+10024,surgical infection prevention,562,125
+10024,surgical infection prevention,563,125
+10024,surgical infection prevention,564,125
+10024,surgical infection prevention,565,125
+10025,heart attack,566,127
+10025,heart attack,567,127
+10025,heart attack,568,127
+10025,heart attack,569,127
+10025,heart attack,570,127
+10025,heart attack,571,127
+10025,heart attack,572,127
+10025,heart failure,573,128
+10025,heart failure,574,128
+10025,heart failure,575,128
+10025,heart failure,576,128
+10025,pneumonia,577,129
+10025,pneumonia,578,129
+10025,pneumonia,579,129
+10025,pneumonia,580,129
+10025,pneumonia,581,129
+10025,pneumonia,582,129
+10025,surgical infection prevention,583,130
+10025,surgical infection prevention,584,130
+10025,surgical infection prevention,585,130
+10025,surgical infection prevention,586,130
+10025,surgical infection prevention,587,130
+10025,surgical infection prevention,588,130
+10025,surgical infection prevention,589,130
+10025,surgical infection prevention,590,130
+10027,heart attack,591,131
+10027,heart attack,592,131
+10027,heart attack,593,131
+10027,heart attack,594,131
+10027,heart attack,595,131
+10027,heart attack,596,131
+10027,heart attack,597,131
+10027,heart failure,598,132
+10027,heart faixure,599,133
+10027,heart failure,600,132
+10027,heart failure,601,132
+10027,pneumonia,602,134
+10027,pneumonia,603,134
+10027,pneumonia,604,134
+10027,pneumonia,605,134
+10027,pneumonia,606,134
+10027,pneumonia,607,134
+x0027,surgical ixfectiox prevextiox,608,135
+10027,surgical infection prevention,609,136
+10027,surgical infection prevention,610,136
+10027,surgical infection prevention,611,136
+10027,surgical infection prevention,612,136
+10027,surgical infection prevention,613,136
+10027,surgical infection prevention,614,136
+10027,surgical infection prevention,615,136
+10029,heart attack,616,137
+10029,heart attack,617,137
+10029,heart attack,618,137
+10029,heart attack,619,137
+10029,heart attack,620,137
+10029,heart attack,621,137
+10029,heart attack,622,137
+10029,heart failure,623,138
+10029,heart failure,624,138
+10029,heart failure,625,138
+10029,heart failure,626,138
+x0029,pneumonia,627,139
+10029,pneumonia,628,140
+10029,pneumonia,629,140
+10029,pneumonia,630,140
+10029,pneumonxa,631,141
+10029,pneumonia,632,140
+10029,surgical infection prevention,633,142
+10029,surgical infection prevention,634,142
+10029,surgical infection prevention,635,142
+10029,surgical infection prevention,636,142
+10029,surgical infection prevention,637,142
+10029,surgical infection prevention,638,142
+1xx29,surgical infection prevention,639,143
+10029,surgical infection prevention,640,142
+10032,heart attack,641,144
+10032,heart attack,642,144
+10032,heart attack,643,144
+10032,heart attack,644,144
+1xx32,heart attack,645,145
+10032,heart attack,646,144
+10032,heart attack,647,144
+10032,heart failure,648,146
+10032,heart failure,649,146
+10032,heart failure,650,146
+10032,heart failure,651,146
+10032,pneumonia,652,147
+10032,pneumonia,653,147
+10032,pneumonia,654,147
+1xx32,pneumonia,655,148
+10032,pneumonia,656,147
+10032,pneumonia,657,147
+10032,surgical infection prevention,658,149
+10032,surgical infection prevention,659,149
+10032,surgical infection prevention,660,149
+10032,surgical infection prevention,661,149
+10032,surgical infection prevention,662,149
+10032,surgical infection prevention,663,149
+10032,surgical infection prevention,664,149
+10032,surgical infection prevention,665,149
+10033,heart attack,666,150
+10033,heart attack,667,150
+10033,heart attack,668,150
+10033,heart attack,669,150
+10033,heart attack,670,150
+10033,heart attack,671,150
+10033,heart attack,672,150
+10033,heart failure,673,151
+10033,heart failure,674,151
+10033,heart failure,675,151
+10033,heart failure,676,151
+10033,pneumonia,677,152
+10033,pneumonia,678,152
+10033,xneumonia,679,153
+10033,pneumonia,680,152
+10033,pneumonia,681,152
+10033,pneumonia,682,152
+10033,surgical infection prevention,683,154
+10033,surgical infection prevention,684,154
+10033,surgical infection prevention,685,154
+10033,surgical infection prevention,686,154
+10033,surgical infection prevention,687,154
+10033,surgical infection prevention,688,154
+10033,surgical infection prevention,689,154
+10033,surgical infection prevention,690,154
+10034,heart attack,691,155
+10034,heart attack,692,155
+10034,heart attack,693,155
+10034,heart attack,694,155
+10034,heart attaxk,695,156
+10034,heart attack,696,155
+10034,heart attack,697,155
+10034,hexrt fxilure,698,157
+10034,heart failure,699,158
+10034,heart failure,700,158
+10034,heart failure,701,158
+10034,pneumonia,702,159
+10034,pneumonia,703,159
+100x4,pneumonia,704,160
+10034,pneumonia,705,159
+10034,pneumonia,706,159
+10034,pneumonia,707,159
+10034,surgical infection prevention,708,161
+10034,surgical infection prevention,709,161
+10034,surgical infection prevention,710,161
+10034,surgical infection prevention,711,161
+10034,surgical infection xrevention,712,162
+10034,surgical infection prevention,713,161
+10034,surgical infection prevention,714,161
+10034,surgical infection prevention,715,161
+10035,heartxattack,716,163
+10035,heart attack,717,164
+10035,heart attack,718,164
+10035,heart attack,719,164
+10035,heart attack,720,164
+100x5,heart attack,721,165
+10035,heart attack,722,164
+10035,heart failure,723,166
+1xx35,heart failure,724,167
+10035,heart failure,725,166
+10035,heart failure,726,166
+10035,pneumonia,727,168
+10035,pneumonia,728,168
+10035,pneumonia,729,168
+10035,pneumonia,730,168
+10035,pneumonia,731,168
+10035,pneumonia,732,168
+10035,suxgical infection pxevention,733,169
+10035,surgical infection prevention,734,170
+10035,surgical infection prevention,735,170
+10035,surgical infection prevention,736,170
+10035,surgical infection prevention,737,170
+10035,surgical infection prevention,738,170
+10035,surgical infection prevention,739,170
+10035,surgical infection prevention,740,170
+10036,heart attack,741,171
+10036,heart attack,742,171
+10036,heart attack,743,171
+10036,heart attack,744,171
+10036,heart attack,745,171
+10036,heart attack,746,171
+10036,heart attack,747,171
+10036,heart failure,748,172
+10036,heart failure,749,172
+10036,heart failure,750,172
+10036,heart failure,751,172
+10036,pneumonia,752,173
+10036,pneumonia,753,173
+10036,pneumonia,754,173
+1xx36,pneumonia,755,174
+10036,pneumonia,756,173
+10036,pneumonia,757,173
+10036,surgical infection prevention,758,175
+10036,surgical infection prevention,759,175
+10036,surgical infection prevention,760,175
+10036,surgical infection prevention,761,175
+10036,surgical infection prevention,762,175
+10036,surgical infection prevention,763,175
+10036,surgical infection prevention,764,175
+10036,surgical infection prevention,765,175
+10038,children s asthma care,766,68
+10038,surgical infection prevention,767,73
+10038,surgical infection prevention,768,73
+10038,surgical infection prevention,769,73
+10038,surgical infection prevention,770,73
+10038,surgical infection prevention,771,73
+10038,surgical infection prevention,772,73
+10038,surgical infection prevention,773,73
+10039,children s asthma care,774,176
+10039,children s asthma care,775,176
+10039,children s asthma care,776,176
+10039,heart attack,777,177
+10039,heart attack,778,177
+10039,heart attack,779,177
+1003x,heart attaxk,780,178
+10039,heart attack,781,177
+10039,heart attack,782,177
+10039,heart attack,783,177
+10039,heart failure,784,179
+10039,heart failure,785,179
+10039,heart failure,786,179
+10039,heart failure,787,179
+10039,pneumonia,788,180
+1xx39,pneumonia,789,181
+10039,pneumonia,790,180
+10039,pneumonia,791,180
+10039,pneumonia,792,180
+100x9,pneumonia,793,182
+10039,surgical infection prevention,794,183
+10039,surgical infection prevention,795,183
+10039,surgical infection prevention,796,183
+10039,surgical infection prevention,797,183
+10039,surgical infection prevention,798,183
+10039,surgical infection prevention,799,183
+10039,surgical infection prevention,800,183
+10039,surgical infection prevention,801,183
+10040,heart attack,802,184
+10040,heart attack,803,184
+10040,heart attack,804,184
+10040,heart attack,805,184
+10040,heart attack,806,184
+10040,heart attack,807,184
+10040,heart attack,808,184
+10040,heart failure,809,185
+10040,heart failure,810,185
+10040,heart failure,811,185
+10040,heart failure,812,185
+10040,pneumonia,813,186
+10040,pneumonia,814,186
+10040,pneumonia,815,186
+10040,pneumonia,816,186
+10040,pneumonia,817,186
+10040,pneumonia,818,186
+10040,surgical infection prevention,819,187
+10040,surgical infection prevention,820,187
+10040,surgical infection prevention,821,187
+10040,surgical infection prevention,822,187
+10040,surgical infection prevention,823,187
+10040,surgical infection prevention,824,187
+10040,surgical infection prevention,825,187
+10040,surgical infection prevention,826,187
+10043,heart attack,827,188
+10043,heart attack,828,188
+10043,heart attack,829,188
+10043,heart attack,830,188
+10043,heart attack,831,188
+10043,heart attack,832,188
+10043,heart attack,833,188
+10043,heart failure,834,189
+10043,heart failure,835,189
+10043,heart failure,836,189
+10043,heart failure,837,189
+10043,pneumonia,838,190
+10043,pneumonia,839,190
+10043,pneumonia,840,190
+10043,pneumonia,841,190
+10043,pneumonia,842,190
+10043,pneumonia,843,190
+10043,surgical infection prevention,844,191
+10043,surgical infection prevention,845,191
+10043,surgical infection prevention,846,191
+10043,surgical infection prevention,847,191
+10043,surgical infection prevention,848,191
+10043,surgical infection prevention,849,191
+10043,surgical infection prevention,850,191
+10043,surgical infxction prxvxntion,851,192
+10044,heart attack,852,193
+10044,heart attack,853,193
+10044,heart attack,854,193
+10044,heart attack,855,193
+10044,heart attack,856,193
+10044,heart attack,857,193
+10044,heart attack,858,193
+1xx44,heart failure,859,194
+10044,heart failure,860,195
+10044,heart failure,861,195
+10044,heart failure,862,195
+10044,pneumonia,863,196
+10044,pneumonia,864,196
+10044,pneumonia,865,196
+10044,pneumonia,866,196
+10044,pneumonia,867,196
+10044,pneumonia,868,196
+10044,surgical ixfectiox prevextiox,869,197
+10044,surgical infection prevention,870,198
+10044,surgical infection prevention,871,198
+10044,surgical infection prevention,872,198
+10044,surgical infection prevention,873,198
+10044,surgical infection prevention,874,198
+10044,surgical infection prevention,875,198
+10044,surgical infection prevention,876,198
+10045,heart attack,877,199
+1xx45,heart attack,878,200
+10045,heart attack,879,199
+10045,heart attack,880,199
+10045,heart attack,881,199
+10045,heart attack,882,199
+10045,heart attack,883,199
+10045,heart failure,884,201
+10045,heart failure,885,201
+10045,heart failure,886,201
+10045,heart failure,887,201
+x0045,pneumonia,888,202
+10045,pneumonia,889,203
+10045,pneumonia,890,203
+10045,pneumonia,891,203
+10045,pneumonia,892,203
+10045,pneumonia,893,203
+10045,surgical infection prevention,894,204
+10045,surgical infection prevention,895,204
+10045,surgical infection prevention,896,204
+10045,surgical infection prevention,897,204
+10045,surgical infection prevention,898,204
+10045,surgical infection prevention,899,204
+10045,surgical infection prevention,900,204
+10045,surgical infection prevention,901,204
+10046,children s asthma care,902,205
+10046,children s asthma care,903,205
+10046,children s asthma care,904,205
+10046,heart attack,905,206
+10046,heart attack,906,206
+10046,heart attack,907,206
+10046,heart attack,908,206
+10046,heart attack,909,206
+10046,heart attack,910,206
+10046,heart attack,911,206
+10046,heart failure,912,207
+10046,heart failure,913,207
+10046,heart failure,914,207
+10046,heart failure,915,207
+10046,pneumonia,916,208
+10046,pneumonia,917,208
+10046,pneumonia,918,208
+10046,pneumonia,919,208
+10046,pneumonia,920,208
+10046,pneumonia,921,208
+10046,surgical infection prevention,922,209
+10046,surgical infection prevention,923,209
+10046,surgical infection prevention,924,209
+10046,surgical infection prevention,925,209
+10046,surgical infection prevention,926,209
+10046,surgical infection prevention,927,209
+10046,surgical infection prevention,928,209
+10046,surgical infection prevention,929,209
+10047,heart attack,930,210
+10047,heart attack,931,210
+10047,heart attack,932,210
+1xx47,heart attack,933,211
+10047,heart attack,934,210
+10047,heart attack,935,210
+10047,heart attack,936,210
+10047,heart failure,937,212
+10047,heart failure,938,212
+10047,heart failure,939,212
+10047,heart failure,940,212
+10047,pneumonia,941,213
+10047,pneumonia,942,213
+10047,pneumonia,943,213
+10047,pneumonia,944,213
+10047,pneumonia,945,213
+10047,pneumonia,946,213
+10047,surgical infection prevention,947,214
+10047,surgical infection prevention,948,214
+10047,surgical infection prevention,949,214
+10047,surgical infection prevention,950,214
+10047,surgical infection prevention,951,214
+10047,surgical infection prevention,952,214
+10047,surgical infection prevention,953,214
+10047,surgical infection prevention,954,214
+1004x,hexrt attxck,955,215
+10049,heart attack,956,216
+10049,heart attack,957,216
+10049,heart attack,958,216
+10049,heart attack,959,216
+10049,heart attack,960,216
+10049,heart attack,961,216
+10049,heart failure,962,217
+10049,heart failure,963,217
+10049,heart failure,964,217
+10049,heart failure,965,217
+10049,pneumonia,966,218
+10049,pneumonia,967,218
+10049,pneumonia,968,218
+10049,pneumonia,969,218
+10049,pneumonia,970,218
+10049,pneumonia,971,218
+10049,surgical infection prevention,972,219
+10049,surgical infection prevention,973,219
+10049,surgical xnfection prevention,974,220
+10049,surgical infection prevention,975,219
+10049,surgical infection prevention,976,219
+10049,surgical infection prevention,977,219
+10049,surgical infection prevention,978,219
+10049,surgical infection prevention,979,219
+10050,heart attack,980,221
+10050,heart attack,981,221
+10050,heart attack,982,221
+10050,heart attack,983,221
+10050,heart attack,984,221
+10050,heart attack,985,221
+10050,heart attack,986,221
+10050,heart failure,987,222
+10050,heart failure,988,222
+10050,heart failure,989,222
+10050,heart failure,990,222
+10050,pneumonia,991,223
+10050,pneumonia,992,223
+10050,pneumonia,993,223
+10050,pneumonia,994,223
+10050,pneumonia,995,223
+10050,pneumonia,996,223
+10050,surgical infection prevention,997,224
+10050,surgical infection prevention,998,224
+10050,surgical infection prevention,999,224

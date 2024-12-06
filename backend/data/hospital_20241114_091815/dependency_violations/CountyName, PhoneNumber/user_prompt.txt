@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The first column lists counties or regions, while the second column contains phone numbers associated with the hospital, implying that the phone numbers may relate to those particular regions.
+
+  The following is a formatted table with the unique data to be checked.
+  

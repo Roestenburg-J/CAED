@@ -61,7 +61,9 @@ interface AttributeResult {
     accuracy: string;
     precision: string;
     recall: string;
-    f_score: string;
+    f1_score: string;
+    roc_auc: string;
+    predicted_positives_count: string;
   };
 }
 
@@ -107,7 +109,9 @@ interface DepViolationResult {
     accuracy: string;
     precision: string;
     recall: string;
-    f_score: string;
+    f1_score: string;
+    roc_auc: string;
+    predicted_positives_count: string;
   };
 }
 
@@ -132,7 +136,9 @@ export default function Evaluate() {
       accuracy: "",
       precision: "",
       recall: "",
-      f_score: "",
+      f1_score: "",
+      roc_auc: "",
+      predicted_positives_count: "",
     },
   });
   const [dependencyResults, setDependencyResults] = useState<DependencyResults>(
@@ -157,7 +163,9 @@ export default function Evaluate() {
         accuracy: "",
         precision: "",
         recall: "",
-        f_score: "",
+        f1_score: "",
+        roc_auc: "",
+        predicted_positives_count: "",
       },
     });
 

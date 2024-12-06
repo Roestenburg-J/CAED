@@ -1,0 +1,760 @@
+{
+  "output": [
+    {
+      "explanation": "The entry '0.09%' indicates an ABV percentage but its format is inconsistent with a standard numeric representation. It uses a percentage sign rather than a numeric value which is expected.",
+      "index": 3,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.09"
+    },
+    {
+      "explanation": "The entry '0.045%' also incorrectly includes a percentage sign, which makes it inconsistent with expected numeric formatting.",
+      "index": 6,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045"
+    },
+    {
+      "explanation": "The entry '0.069%' uses a percentage sign at the end which represents an inconsistency with the numeric format expected for the ABV percentage.",
+      "index": 12,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.069"
+    },
+    {
+      "explanation": "The entry '0.049%' indicates an ABV as a percentage, which conflicts with the expectation of a numeric representation in this context.",
+      "index": 22,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.049"
+    },
+    {
+      "explanation": "The entry '0.07%' is formatted incorrectly as it has a percentage sign, instead of a standard numeric representation.",
+      "index": 24,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07"
+    },
+    {
+      "explanation": "The entry '0.079%' similarly has a percentage sign, which is not the standard expected format for a numeric ABV percentage.",
+      "index": 27,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.079"
+    },
+    {
+      "explanation": "The entry '0.085%' is formatted incorrectly as it includes the percentage sign, which should be removed to conform to numeric expectations.",
+      "index": 96,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.085"
+    },
+    {
+      "explanation": "The entry '0.051%' includes a percentage sign, which does not align with the required numeric representation.",
+      "index": 62,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.051"
+    },
+    {
+      "explanation": "The entry '0.059000000000000004%' is an inconsistency due to the inclusion of a percentage sign rather than adhering to the numeric format required.",
+      "index": 78,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.059"
+    },
+    {
+      "explanation": "The entry '0.055999999999999994%' is incorrect as it uses a percentage sign, which is not compatible with the expected numeric values.",
+      "index": 80,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.0559"
+    },
+    {
+      "explanation": "The entry '0.062' in column 5 is considered an error as it lacks the percentage sign, which is expected for ABV values.",
+      "index": 101,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.062%"
+    },
+    {
+      "explanation": "The entry '0.051%' in column 5 is inconsistent with its corresponding sweetness value of 20.0 in column 6, suggesting an unusually sweet profile for this low ABV level.",
+      "index": 104,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045%"
+    },
+    {
+      "explanation": "The entry '0.07%' in column 5 corresponds with a sweetness value of 67.0 in column 6, which is unusually high for the ABV percentage.",
+      "index": 112,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05%"
+    },
+    {
+      "explanation": "The entry '0.08199999999999999%' in column 5 suggests a very high ABV, but it correlates with an unrealistic sweetness of 138.0 in column 6, indicating a violation of expected flavor profiles.",
+      "index": 114,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07%"
+    },
+    {
+      "explanation": "The entry '0.051%' in column 5 is inconsistent with a sweetness of 20.0 in column 6, as such a low ABV usually corresponds to lower sweetness levels.",
+      "index": 194,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045%"
+    },
+    {
+      "explanation": "The entry '0.062%' in column 5 shows a somewhat moderate sweetness of 65.0 in column 6. However, this is on the higher side given the ABV, which suggests potential inconsistency in flavor profiles.",
+      "index": 189,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.06%"
+    },
+    {
+      "explanation": "The value '0.045%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 204,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045"
+    },
+    {
+      "explanation": "The value '0.048%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 212,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.048"
+    },
+    {
+      "explanation": "The value '0.073%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 214,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.073"
+    },
+    {
+      "explanation": "The value '0.055999999999999994%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 222,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.055999999999999994"
+    },
+    {
+      "explanation": "The value '0.08%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 224,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.08"
+    },
+    {
+      "explanation": "The value '0.062%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 258,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.062"
+    },
+    {
+      "explanation": "The value '0.05%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 260,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05"
+    },
+    {
+      "explanation": "The value '0.052000000000000005%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 278,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.052000000000000005"
+    },
+    {
+      "explanation": "The value '0.068%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 288,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.068"
+    },
+    {
+      "explanation": "The value '0.05%' includes a percent sign, which is not a valid representation of alcohol by volume (ABV). ABV should be a numeric value indicated as a decimal without any additional symbols.",
+      "index": 290,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05"
+    },
+    {
+      "explanation": "The ABV percentage '0.061%' indicates a low alcohol content, while a sweetness rating of 94.0 is unusually high and atypical for this ABV level, which generally indicates less sweetness.",
+      "index": 300,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07%"
+    },
+    {
+      "explanation": "ABV '0.056' does not correspond with a sweetness level of 55.0, which is unexpectedly high for this alcohol content indicated, suggesting potential inconsistency in the flavor profile.",
+      "index": 301,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.06%"
+    },
+    {
+      "explanation": "The value of 130.0 for sweetness is excessively high for an ABV of '0.09', indicating a violation as typical flavor profiles wouldn't support such a high sweetness at this alcohol content.",
+      "index": 303,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "0.08%"
+    },
+    {
+      "explanation": "The ABV '0.049%' suggests very low alcohol content, while the sweetness level of 10.0 appears to be unusually low, which is inconsistent with expected flavor profiles. Generally low ABV beverages have higher perceived sweetness.",
+      "index": 307,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "0.06%"
+    },
+    {
+      "explanation": "The ABV of '0.035' is very low and does not align with a sweetness rating of 100.0. Typically, lower ABV indicates less sweetness, thus indicating a discrepancy.",
+      "index": 317,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.04%"
+    },
+    {
+      "explanation": "A sweetness rating of 130.0 is excessively high for an ABV of '0.09'. Such a mismatch signifies a likely error in values, as higher ABV generally relates to lower sweetness.",
+      "index": 343,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "0.08%"
+    },
+    {
+      "explanation": "ABV '0.051' along with a sweetness of 15.0 does not match typical profiles where one would expect higher sweetness for this low ABV indicating a potential inconsistency in the flavor profile.",
+      "index": 331,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.06%"
+    },
+    {
+      "explanation": "The ABV '0.07200000000000001%' is characterized by slight discrepancies while the sweetness of 75.0 is therefore not consistent indicating a potential error in values with such low ABV.",
+      "index": 351,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.08%"
+    },
+    {
+      "explanation": "The sweetness of 50.0 alongside an ABV of '0.069' suggests an excessively low sweetness ratio compared to the alcohol, indicating potential inconsistency in how the profiles should relate.",
+      "index": 361,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "0.07%"
+    },
+    {
+      "explanation": "ABV '0.044' along with a sweetness level of 13.0 suggests an unexpected sweetness that does not align with the expected characteristics of beverages at this alcohol level, marking a semantic error.",
+      "index": 355,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05%"
+    },
+    {
+      "explanation": "The value 0.06% in column 5 indicates an alcohol by volume of 6%, which is considered unsuitable or impossible with a sweetness profile of 104.0 in column 6, as high sweetness generally correlates with lower ABV values.",
+      "index": 427,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.06%"
+    },
+    {
+      "explanation": "The alcohol by volume value of 0.06 associating with a sweetness profile higher than those typically expected at that ABV indicates a violation of the dependency.",
+      "index": 427,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The alcohol by volume of 0.094 does not correlate well with any sweetness values that would suggest this level of sweetness (92.0) is likely with that alcohol content, as sweetness at this level typically aligns with lower ABV values.",
+      "index": 463,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.08%"
+    },
+    {
+      "explanation": "The alcohol by volume percentage of 0.094 suggesting a high sweetness level of 92.0 creates an incongruence per the dependency indicating high sweetness would likely suggest lower ABV values.",
+      "index": 463,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The ABV percentage value '0.052' does not contain a '%' symbol suggesting it is improperly formatted for what should be a percentage value.",
+      "index": 501,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.052%"
+    },
+    {
+      "explanation": "The value '0.07200000000000001%' is semantically incorrect because it represents an alcohol percentage that should be related to the flavor profile of 100.0, which is atypical since 100% ABV suggests a very high sweetness that does not align with typical beverage profiles.",
+      "index": 602,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.072% (or a value less than 100) for Index 602"
+    },
+    {
+      "explanation": "The value '0.064' is semantically incorrect because it corresponds to a sweetness of 95.0, which is extraordinarily high for an ABV of only 6.4%, suggesting an imbalanced flavor profile.",
+      "index": 607,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.064% for Index 607"
+    },
+    {
+      "explanation": "The value '0.065' is semantically incorrect because it corresponds to a sweetness of 115.0, which exceeds typical beverage sweetness levels given the low ABV of 6.5%.",
+      "index": 679,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.065% (or a lower sweetness value) for Index 679"
+    },
+    {
+      "explanation": "Column 5 should represent percentages as decimal values without a '%' character for consistency. The entry '0.05%' is a mix of formats and can cause confusion. ",
+      "index": 701,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05"
+    },
+    {
+      "explanation": "Column 5 should represent percentages as decimal values without a '%' character to maintain format consistency. The entry '0.055999999999999994%' is a mix of formats which can lead to misinterpretation of values.",
+      "index": 702,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.056"
+    },
+    {
+      "explanation": "Column 5 should represent percentages as decimal values without a '%' character for consistency. The entry '0.065%' is a mix of formats and can cause confusion. ",
+      "index": 704,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.065"
+    },
+    {
+      "explanation": "Column 5 has inconsistent formats. The entry '0.052000000000000005%' should be expressed in decimal format without a '%' character to align with the others.",
+      "index": 710,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.052"
+    },
+    {
+      "explanation": "Column 5 should represent percentages as decimal values without a '%' character for consistency. The entry '0.042%' is a mix of formats and can cause confusion.",
+      "index": 711,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.042"
+    },
+    {
+      "explanation": "Column 5 should represent percentages as decimal values without a '%' character for consistency. The entry '0.051%' is a mix of formats and can cause confusion.",
+      "index": 712,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.051"
+    },
+    {
+      "explanation": "Column 5 should represent percentages as decimal values without a '%' character for consistency. The entry '0.045%' is a mix of formats and can cause confusion.",
+      "index": 713,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045"
+    },
+    {
+      "explanation": "Column 5 shows inconsistent formats. The entry '0.049%' needs to be expressed in decimal format to align with other entries.",
+      "index": 714,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.049"
+    },
+    {
+      "explanation": "Column 5 needs consistent formatting. The entry '0.048%' should be in decimal format without a '%' character for uniformity.",
+      "index": 715,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.048"
+    },
+    {
+      "explanation": "Column 5's formatting varies; '0.051%' is inconsistent with the overall decimal format required in the column.",
+      "index": 726,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.051"
+    },
+    {
+      "explanation": "Column 5's formatting varies; '0.092%' is inconsistent with the overall decimal format required in the column.",
+      "index": 727,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.092"
+    },
+    {
+      "explanation": "Column 5 shows inconsistent formats. The entry '0.09%' needs to be expressed in decimal format to align with other entries.",
+      "index": 741,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.09"
+    },
+    {
+      "explanation": "Column 5 has inconsistent formats. The entry '0.08%' should be expressed in decimal format without a '%' character to align with the others.",
+      "index": 746,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.08"
+    },
+    {
+      "explanation": "Column 5 should use uniform formatting without a '%' character. The value '0.057%' does not conform to this requirement.",
+      "index": 792,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.057"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 801,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.071"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 803,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.063"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 804,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 805,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.056"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 810,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.068"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 811,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.052"
+    },
+    {
+      "explanation": "The ABV value contains an invalid formatting; it should be expressed without the '%' character.",
+      "index": 815,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.091"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 817,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.058"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 818,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.089"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 820,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 821,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 822,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.041"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 825,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 826,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 828,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.077"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 830,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.069"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 831,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.048"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 837,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.099"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 844,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.06"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 845,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.054"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 853,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.06"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 860,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.056"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 862,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 865,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.052"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 871,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.07"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 873,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.055"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 885,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.079"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 886,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.096"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 892,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.052"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 894,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.047"
+    },
+    {
+      "explanation": "The ABV value should not contain a '%' character when expressed as a decimal value.",
+      "index": 898,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.05"
+    },
+    {
+      "explanation": "The ABV percentage of 0.09699999999999999% (column 5) is a valid format but semantically suggests an excessive sweetness level of 120.0 (column 6), which is not feasible for a beverage with such a low alcohol content.",
+      "index": 928,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.10% (column 5)"
+    },
+    {
+      "explanation": "The ABV percentage of 0.12 (column 5) is too high and suggests an unrealistically high sweetness level of 90.0 (column 6). Most beverages with such alcohol content generally do not reach this level of sweetness.",
+      "index": 970,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.10% (column 5)"
+    },
+    {
+      "explanation": "The ABV percentage of 0.099 (column 5) combined with a sweetness value of 101.0 (column 6) indicates an unreasonable sweetness for this alcohol content level, suggesting it is a violation.",
+      "index": 959,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "99.9 (column 6)"
+    },
+    {
+      "explanation": "The ABV percentage of 0.086 (the maximum of the last few entries) should have reasonable sweetness levels, but 99.0 (column 6) is excessive given the alcohol content. This implies a dependency violation.",
+      "index": 950,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "90.0 (column 6)"
+    },
+    {
+      "explanation": "The ABV percentage of 0.09699999999999999% (column 5) combined with a sweetness of 120.0 (column 6) indicates an unrealistic level of sweetness for that amount of alcohol, pointing to a dependency violation.",
+      "index": 928,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "around 80.0 (column 6)"
+    },
+    {
+      "explanation": "0.073 should be formatted as a percentage (e.g., '0.073%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1002,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.073%"
+    },
+    {
+      "explanation": "0.04 should be formatted as a percentage (e.g., '0.04%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1004,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.04%"
+    },
+    {
+      "explanation": "0.045 should be formatted as a percentage (e.g., '0.045%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1007,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045%"
+    },
+    {
+      "explanation": "0.068 should be formatted as a percentage (e.g., '0.068%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1010,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.068%"
+    },
+    {
+      "explanation": "0.099 should be formatted as a percentage (e.g., '0.099%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1011,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.099%"
+    },
+    {
+      "explanation": "0.068 should be formatted as a percentage (e.g., '0.068%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1030,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.068%"
+    },
+    {
+      "explanation": "0.045 should be formatted as a percentage (e.g., '0.045%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1032,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.045%"
+    },
+    {
+      "explanation": "0.057999999999999996% has a numeric format with excessive precision which may cause confusion or misinterpretation of value. Combining clarity with a standard format is essential.",
+      "index": 1037,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.058%"
+    },
+    {
+      "explanation": "0.059000000000000004% has a numeric format with excessive precision which may cause confusion or misinterpretation of value. Combining clarity with a standard format is essential.",
+      "index": 1038,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.059%"
+    },
+    {
+      "explanation": "0.047 should be formatted as a percentage (e.g., '0.047%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1039,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.047%"
+    },
+    {
+      "explanation": "0.028 should be formatted as a percentage (e.g., '0.028%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1041,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.028%"
+    },
+    {
+      "explanation": "0.065 should be formatted as a percentage (e.g., '0.065%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1042,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.065%"
+    },
+    {
+      "explanation": "0.067 should be formatted as a percentage (e.g., '0.067%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1044,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.067%"
+    },
+    {
+      "explanation": "0.055 should be formatted as a percentage (e.g., '0.055%'). This inconsistency can lead to confusion when interpreting ABV values.",
+      "index": 1045,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "0.055%"
+    }
+  ]
+}

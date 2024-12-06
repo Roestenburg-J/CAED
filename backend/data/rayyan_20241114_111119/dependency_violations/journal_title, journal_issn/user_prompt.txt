@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The third column denotes the journal name where the article is published, and the fifth column represents the journal's ISSN. A journal's name could be dependent on the ISSN, as the ISSN defines the publication.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The county of origin (column 9) relates to the name of the hospital (column 2), indicating hospitals are located in specific counties.
+
+  The following is a formatted table with the unique data to be checked.
+  

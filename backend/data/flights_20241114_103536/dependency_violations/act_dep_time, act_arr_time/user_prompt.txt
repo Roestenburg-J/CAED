@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The departure time column (describing the time a flight departs) and the arrival time column (describing the time a flight arrives) are syntactically dependent. The values in these columns represent time entries that are likely based on the same scheduled flight.
+
+  The following is a formatted table with the unique data to be checked.
+  

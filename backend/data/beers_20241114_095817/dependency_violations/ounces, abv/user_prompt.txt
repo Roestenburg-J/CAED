@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The alcohol content column often varies based on the packaging size and type. Hence, the alcohol percentage may be dependent on the volume description of the beer.
+
+  The following is a formatted table with the unique data to be checked.
+  

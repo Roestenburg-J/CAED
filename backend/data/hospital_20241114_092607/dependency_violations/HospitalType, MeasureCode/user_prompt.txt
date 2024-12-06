@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Both columns show an established relationship since they represent the same condition (pneumonia) being treated in hospitals, indicating organized treatment for this specific illness.
+
+  The following is a formatted table with the unique data to be checked.
+  

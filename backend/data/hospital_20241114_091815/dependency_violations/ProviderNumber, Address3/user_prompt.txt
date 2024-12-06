@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  There is a dependency as the column representing a specific location code (postal code-like format) is linked with the corresponding entries in the records, indicating the same facility.
+
+  The following is a formatted table with the unique data to be checked.
+  

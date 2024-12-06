@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The title of the movie (first column) appears to be associated with its release year (second column), indicating that each title corresponds to a specific release year.
+
+  The following is a formatted table with the unique data to be checked.
+  

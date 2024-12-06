@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The genre of the film in column 14 is likely dependent on the movie title in column 1, as each movie falls under a particular genre.
+
+  The following is a formatted table with the unique data to be checked.
+  

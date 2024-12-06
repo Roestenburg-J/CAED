@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The article number or unique identifier (ninth column) might depend on the authors listed in the tenth column, by indicating the specific work as represented through its authorship.
+
+  The following is a formatted table with the unique data to be checked.
+  

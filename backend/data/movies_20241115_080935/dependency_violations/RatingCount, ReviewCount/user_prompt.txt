@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The number of user ratings (twelfth column) is semantically linked to the count of critic ratings (thirteenth column), indicating both columns reflect audience reception.
+
+  The following is a formatted table with the unique data to be checked.
+  

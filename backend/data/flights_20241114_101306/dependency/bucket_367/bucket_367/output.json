@@ -1,0 +1,20 @@
+{
+  "output": [
+    {
+      "columns": [2, 3],
+      "dependency": "The flight identifier suggests a specific route and is used to determine the departure time, indicating that the unique flight route is associated with specific departure times."
+    },
+    {
+      "columns": [2, 4],
+      "dependency": "The flight identifier suggests a specific route and is used to determine the arrival time, indicating that the unique flight route is associated with specific arrival times."
+    },
+    {
+      "columns": [2, 5],
+      "dependency": "The flight identifier suggests a specific route and is used to determine the estimated arrival time at a specific destination, indicating that the unique flight route is associated with specific estimated arrival times."
+    },
+    {
+      "columns": [2, 6],
+      "dependency": "The flight identifier suggests a specific route and is used to determine the actual arrival time, indicating that the unique flight route is associated with specific actual arrival times."
+    }
+  ]
+}

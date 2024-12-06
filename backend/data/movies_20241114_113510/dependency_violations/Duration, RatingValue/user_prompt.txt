@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The duration of the film (tenth column) suggests a potential influence on the rating (eleventh column), as longer films may have varying quality indicators.
+
+  The following is a formatted table with the unique data to be checked.
+  

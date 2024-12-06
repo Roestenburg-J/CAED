@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The common identifier for the entries (column 7), likely a unique identifier for the record, does not have a direct dependency with the state abbreviation (column 10), however they both relate to the same brewing company and city.
+
+  The following is a formatted table with the unique data to be checked.
+  

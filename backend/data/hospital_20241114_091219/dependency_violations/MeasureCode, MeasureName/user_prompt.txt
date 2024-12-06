@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The pneumonia codes in this column also rely directly on the corresponding descriptions that detail the treatment protocols or outcomes specific to pneumonia patients.
+
+  The following is a formatted table with the unique data to be checked.
+  

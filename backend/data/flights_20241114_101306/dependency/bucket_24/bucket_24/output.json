@@ -1,0 +1,28 @@
+{
+  "output": [
+    {
+      "columns": [1, 2],
+      "dependency": "The values in the first column represent the names of sources reporting flight information, while the third column indicates a specific flight identifier. The presence of a specific flight identifier across different sources suggests a dependency where the flight information reported by the source corresponds to that particular flight."
+    },
+    {
+      "columns": [3, 4],
+      "dependency": "The values in the third column represent scheduled departure times of the flight, and the fourth column represents the actual departure times. The departure times suggest a direct dependency where each scheduled time is expected to match or relate closely to the actual departure time."
+    },
+    {
+      "columns": [0, 1],
+      "dependency": "The first column possibly represents an identifier for each record, while the second column provides the name of the source reporting the flight information. This indicates a dependency where each identifier may correspond to a unique source."
+    },
+    {
+      "columns": [4, 5],
+      "dependency": "The values in the fourth column denote the actual departure times while the fifth column indicates the arrival times. The arrival times are dependent on when the flight departed."
+    },
+    {
+      "columns": [5, 6],
+      "dependency": "The fifth column represents the scheduled arrival times, while the sixth column shows actual arrival times. Each set of actual arrival times depends upon the corresponding scheduled arrival times."
+    },
+    {
+      "columns": [2, 3],
+      "dependency": "The third column denotes a specific flight number involving certain departure and arrival procedures, while the fourth column indicates its scheduled departure time—implying that the flight number has an inherent relation to the scheduled departure."
+    }
+  ]
+}

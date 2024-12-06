@@ -1,0 +1,1001 @@
+HospitalOwner,MeasureCode,original_index,unique_index
+voluntary non-profit - private,scip-card-2,0,0
+voluntary non-profit - private,scip-inf-1,1,1
+voluntary non-profit - private,scip-inf-2,2,2
+voluntary non-profit - private,scip-inf-3,3,3
+voluntary non-profit - private,scip-inf-4,4,4
+voluntary non-profit - private,scip-inf-6,5,5
+voluntary non-profit - private,scip-vte-1,6,6
+voluntary non-profit - private,scip-vte-2,7,7
+government - hospital district or authority,ami-1,8,8
+government - hospital district or authority,ami-2,9,9
+government - hospital district or authority,ami-3,10,10
+government - hospital district or authority,ami-4,11,11
+government - hospital district or authority,ami-5,12,12
+government - hospital district or authority,ami-7a,13,13
+government - hospital district or authority,ami-8a,14,14
+government - hospital district or authority,hf-1,15,15
+government - hospital district or authority,hf-2,16,16
+government - hospital district or authority,hf-3,17,17
+government - hospital district or authority,hf-4,18,18
+government - hospital district or authority,ami-1,19,8
+government - hospital district or authority,ami-2,20,9
+government - hospital district or authority,ami-3,21,10
+government - hospxtal dxstrxct or authorxty,ami-4,22,19
+government - hospital district or authority,ami-5,23,12
+government - hospital district or authority,ami-7a,24,13
+government - hospital district or authority,ami-8a,25,14
+government - hospital district or authority,hf-1,26,15
+government - hospital xistrict or authority,hf-2,27,20
+government - hospital district or authority,hf-3,28,17
+government - hospital district or authority,hf-4,29,18
+government - hospital district or authority,pn-2,30,21
+governmenx - hospixal disxricx or auxhorixy,pn-3b,31,22
+government - hospital district or authority,pn-4,32,23
+government - hospital district or authority,pn-5c,33,24
+government - hospital district or authority,pn-6,34,25
+government - hospital district or authority,pn-7,35,26
+government - hospital district or authority,scip-card-2,36,27
+government - hospital district or authority,scip-inf-1,37,28
+government - hospital district or authority,scip-inf-2,38,29
+government - hospital district or authority,scip-inf-3,39,30
+government - hospital district or authority,scip-inf-4,40,31
+government - hospital district or authority,scip-inf-6,41,32
+gxvernment - hxspital district xr authxrity,scip-vte-1,42,33
+government - hospital district or authority,scip-vte-2,43,34
+government - hospital district or authority,ami-1,44,8
+government - hospital district or authority,ami-2,45,9
+government - hospital district or authority,ami-3,46,10
+government - hospital district or authority,ami-4,47,11
+government - hospital district or authority,ami-5,48,12
+government - hospital district or authority,ami-7a,49,13
+government - hospital district or authority,ami-8a,50,14
+government - hospital district or authority,hf-1,51,15
+government - hospital district or authority,hf-2,52,16
+government - hospital district or authority,hf-3,53,17
+government - hospital district or authority,hf-4,54,18
+government - hospital district or authority,pn-2,55,21
+government - hospital district or authority,pn-3b,56,35
+government - hospital district or authority,pn-4,57,23
+government - hospital district or authority,pn-5c,58,24
+government - hospital district or authority,pn-6,59,25
+government - hospital district or authority,pn-7,60,26
+government - hospital district or authority,scip-card-2,61,27
+government - hospital district or authority,scip-inf-1,62,28
+government - hospital district or authority,scip-inf-2,63,29
+government - hospital district or authority,scip-inf-3,64,30
+government - hospital district or authority,scip-inf-4,65,31
+government - hospital district or authority,scip-inf-6,66,32
+government - hospital district or authority,scip-vte-1,67,36
+government - hospital district or authority,scip-vte-2,68,34
+voluntary non-profit - other,ami-1,69,37
+voluntary non-profit - other,ami-2,70,38
+voluntary non-profit - other,ami-3,71,39
+voluntary non-profit - other,ami-4,72,40
+voluntary non-profit - other,ami-5,73,41
+voluntary non-profit - other,ami-7a,74,42
+voluntary non-profit - other,ami-8a,75,43
+voluntary non-profit - other,hf-1,76,44
+voluntary non-profit - other,hf-2,77,45
+voluntary non-profit - other,hf-3,78,46
+voluntary non-profit - other,hf-4,79,47
+voluntary non-profit - other,pn-2,80,48
+voluntary non-profit - other,pn-3b,81,49
+voluntary non-profit - other,pn-4,82,50
+voluntary non-profit - other,pn-5c,83,51
+voluntary non-profit - other,pn-6,84,52
+voluntary non-profit - other,pn-7,85,53
+voluntary non-profit - other,scip-card-2,86,54
+voluntary non-profit - other,scip-inf-1,87,55
+voluntary non-profit - other,scip-inf-2,88,56
+voluntary non-profit - other,scip-inf-3,89,57
+voluntary non-profit - other,scip-inf-4,90,58
+voluntary non-profit - other,scip-inf-6,91,59
+voluntary non-profit - other,scip-vte-1,92,60
+voluntary non-profit - other,scip-vte-2,93,61
+voluntary non-profit - private,ami-1,94,62
+voluntary non-profit - private,ami-2,95,63
+voluntary non-profit - private,ami-3,96,64
+voluntary non-profit - private,axi-4,97,65
+voluntary non-profit - private,ami-5,98,66
+voluntary non-profit - private,ami-7a,99,67
+voluntary non-profit - private,ami-8a,100,68
+voluntary non-profit - private,hfx1,101,69
+voluntary non-profit - private,hf-2,102,70
+voluntary non-profit - private,hf-3,103,71
+voluntary non-profit - private,hf-4,104,72
+voluntary non-profit - private,pn-2,105,73
+voluntary non-profit - private,pn-3b,106,74
+voluntary non-profit - private,pn-4,107,75
+voluntary non-profit - private,pnx5c,108,76
+voluntary non-profit - private,pn-6,109,77
+voluntary non-profit - private,pn-7,110,78
+voluntary non-profit - private,scip-card-2,111,0
+voluntary non-profit - private,scip-inf-1,112,1
+volunxary non-profix - privaxe,scip-inf-2,113,79
+voluntary non-profit - private,scip-inf-3,114,3
+voluntary non-profit - private,scip-inf-4,115,4
+voluntary non-profit - private,scip-inf-6,116,5
+voluntary non-profit - private,scip-vte-1,117,6
+voluntary non-profit - private,scip-vte-2,118,7
+government - federal,ami-1,119,80
+government - federal,axi-2,120,81
+government - federal,ami-3,121,82
+government - federal,ami-4,122,83
+government - federal,ami-5,123,84
+government - federal,ami-7a,124,85
+government - federal,ami-8a,125,86
+government - federal,hf-1,126,87
+government - federal,hf-2,127,88
+government - federal,hf-3,128,89
+government - federal,hf-4,129,90
+government - federal,pn-2,130,91
+government - federal,pn-3b,131,92
+government - federal,pn-4,132,93
+government - federal,pn-5c,133,94
+government - federal,pn-6,134,95
+government - federal,pn-7,135,96
+government - federal,scip-card-2,136,97
+government - federal,scip-inf-1,137,98
+government - federal,scip-inf-2,138,99
+government - federal,scip-inf-3,139,100
+government - federal,scip-inf-4,140,101
+government - federal,scip-inf-6,141,102
+government - federal,scip-vte-1,142,103
+government - federal,scip-vte-2,143,104
+proprietary,ami-1,144,105
+proprietary,ami-2,145,106
+proprietary,ami-3,146,107
+proprietary,ami-4,147,108
+proprietary,ami-5,148,109
+proprietary,ami-7a,149,110
+proprietary,ami-8a,150,111
+proprietary,hf-1,151,112
+proprietary,hf-2,152,113
+proprietary,hf-3,153,114
+proprietary,hf-4,154,115
+proprietary,pn-2,155,116
+proprietary,pn-3b,156,117
+pxopxietaxy,pn-4,157,118
+proprietary,pn-5c,158,119
+proxrietary,pn-6,159,120
+proprietary,pn-7,160,121
+proprietary,scip-card-2,161,122
+xroprietary,scip-inf-1,162,123
+proprietary,scip-inf-2,163,124
+pxopxietaxy,scip-inf-3,164,125
+proprietary,scip-inf-4,165,126
+proprietary,scip-inf-6,166,127
+proprietary,scip-vte-1,167,128
+proprietary,scip-vte-2,168,129
+government - hospital district or authority,ami-1,169,8
+government - hospital district or authority,ami-2,170,9
+government - hospital district or authority,ami-3,171,10
+government - hospital district or authority,ami-4,172,11
+government - hospital district or authority,ami-5,173,12
+government - hospital district or authority,ami-7a,174,13
+government - hospital district or authority,ami-8a,175,14
+government - hospital district or authority,hf-1,176,15
+government - hospital district or authority,hf-x,177,130
+government - hospital district or authority,hf-3,178,17
+government - hospital district or authority,hf-4,179,18
+government - hospital district or authority,pn-2,180,21
+government - hospital district or authority,pn-3b,181,35
+government - hospital district or authority,pn-4,182,23
+government - hospital district or authority,pn-5c,183,24
+government - hospital district or authority,pn-6,184,25
+government - hospital district or authority,pn-7,185,26
+government - hospital district or authority,scip-card-2,186,27
+government - hospital district or authority,scip-inf-1,187,28
+government - hospital district or authority,scip-inf-2,188,29
+government - hospital district or authority,scip-inf-3,189,30
+government - hospital district or authority,scip-inx-4,190,131
+government - hospital district or authority,scip-inf-6,191,32
+government - hospital district or authority,scip-vte-1,192,36
+government - hospital district or authority,scip-vte-2,193,34
+voluntary non-profit - private,ami-1,194,62
+voluntary non-profit - private,ami-2,195,63
+voluntary non-profit - private,ami-3,196,64
+voluntary non-profit - private,ami-4,197,132
+voluntary non-profit - private,ami-5,198,66
+voluntary non-profit - private,ami-7a,199,67
+voluntary non-profit - private,ami-8a,200,68
+voluntary non-profit - private,hf-1,201,133
+voluntary non-profit - private,hf-2,202,70
+voluntary non-profit - private,hf-3,203,71
+voluntary non-profit - private,hf-4,204,72
+voluntary non-profit - private,pn-2,205,73
+voluntary non-profit - private,pn-3b,206,74
+voluntary non-profit - private,pn-4,207,75
+voluntary non-profit - private,pn-5c,208,134
+voluntary non-profit - private,pn-6,209,77
+voluntary non-profit - private,pn-7,210,78
+voluntary non-profit - private,scip-card-2,211,0
+voluntary non-profit - private,scip-inf-1,212,1
+voluntary non-profit - private,scip-inf-2,213,2
+voluntary non-profit - private,scip-inf-3,214,3
+voluntary non-profit - private,scip-inf-4,215,4
+volunxary non-profix - privaxe,scip-inf-6,216,135
+voluntary non-profit - private,scip-vte-1,217,6
+voluntary nonxprofit x private,scip-vte-2,218,136
+voluntary non-profit - church,ami-1,219,137
+voluntary non-profit - church,ami-2,220,138
+voluntaryxnon-profitx-xchurch,ami-3,221,139
+voluntary non-profit - church,ami-4,222,140
+voluntary non-profit - church,ami-5,223,141
+voluntary non-profit - church,ami-7a,224,142
+voluntary non-profit - church,ami-8a,225,143
+voluntary non-profit - church,hf-1,226,144
+voluntary non-profit - church,hf-2,227,145
+voluntary non-profit - church,hf-3,228,146
+voluntary non-profit - church,hf-4,229,147
+voluntary non-profit - church,pn-2,230,148
+voluntary non-profit - church,pn-3b,231,149
+voluntary non-profit - church,pn-4,232,150
+voluntary non-profit - church,pn-5c,233,151
+voluntary non-profit - church,pn-6,234,152
+voluntary non-profit - church,pn-7,235,153
+voluntary non-profit - church,scip-card-2,236,154
+voluntary non-profit - church,scip-inf-1,237,155
+voxuntary non-profit - church,scip-inf-2,238,156
+voluntary non-profit - church,scip-inf-3,239,157
+voluntary non-profit - church,scip-inf-4,240,158
+voluntary non-profit - church,scip-inf-6,241,159
+voluntary non-profit - church,scip-vte-1,242,160
+voluntary non-profit - church,scip-vte-2,243,161
+government - federal,ami-1,244,80
+government - federal,ami-2,245,162
+government - federal,ami-3,246,82
+governxent - federal,ami-4,247,163
+government - federal,ami-5,248,84
+government - federal,ami-7a,249,85
+government - federal,ami-8a,250,86
+government - federal,hf-1,251,87
+government - federal,hf-2,252,88
+government - federal,hf-3,253,89
+government - federal,hf-4,254,90
+government - federal,pn-2,255,91
+government - federal,pn-3b,256,92
+government - federal,pn-4,257,93
+government - federal,pn-5c,258,94
+government - federal,pn-6,259,95
+government - federal,pn-7,260,96
+government - federal,scip-card-2,261,97
+government - federal,scip-inf-1,262,98
+government - federal,scip-inf-2,263,99
+government - federal,scxp-xnf-3,264,164
+government - federal,scip-inf-4,265,101
+government - federal,scip-inf-6,266,102
+government - federal,scip-vte-1,267,103
+government - federal,scip-vte-2,268,104
+voluntary non-profit - church,ami-1,269,137
+voluntary non-profit - church,ami-2,270,138
+voluntary non-profit - church,ami-3,271,165
+voluntary non-profit - church,ami-4,272,140
+voluntary non-profit - church,ami-5,273,141
+voluntary non-profit - church,ami-7a,274,142
+voluntary non-profit - church,ami-8a,275,143
+voluntary non-profit - church,hf-1,276,144
+voluntary non-profit - church,hf-2,277,145
+voluntary non-profit - church,hf-3,278,146
+voluntary non-profit - church,hf-4,279,147
+voluntary non-profit - church,pn-2,280,148
+voluntary non-profit - church,pn-3b,281,149
+voluntary non-profit - church,pn-4,282,150
+voluntary non-profit - church,pn-5c,283,151
+voluntary non-profit - church,pn-6,284,152
+voluntary non-profit - church,pn-7,285,153
+voluntary non-profit - church,scip-card-2,286,154
+voluntary non-profit - church,scip-inf-1,287,155
+voluntary non-profit - church,scip-inf-2,288,166
+voluntary non-profit - church,scip-inf-3,289,157
+voluntary non-profit - church,scip-inf-4,290,158
+voluntary non-profit - church,scip-inf-6,291,159
+voluntary non-profit - church,scip-vte-1,292,160
+voluntary non-profit - church,scip-vte-2,293,161
+voluntary non-profit - private,ami-1,294,62
+voluntary non-profit - private,ami-2,295,63
+voluntary non-profit - private,ami-3,296,64
+voluntary non-profit - private,ami-4,297,132
+voluntary non-profit - private,ami-5,298,66
+voluntary non-profit - private,ami-7a,299,67
+voluntary non-profit - private,ami-8a,300,68
+voluntary non-profit - private,hf-1,301,133
+voluntary non-profit - private,hf-2,302,70
+voluntary non-profit - private,hf-3,303,71
+voluntary non-profit - private,hf-4,304,72
+voluntary non-profit - private,pn-2,305,73
+voluntary non-profit - private,pn-3b,306,74
+voluntary non-profit - private,pn-4,307,75
+voluntary non-profit - private,pn-5c,308,134
+voluntary non-profit - private,pn-6,309,77
+voluntary non-profit - private,pn-7,310,78
+proprietary,cac-2,311,167
+proprietary,cac-3,312,168
+prxprietary,ami-1,313,169
+proprietary,ami-2,314,106
+proprietary,ami-3,315,107
+proprietary,ami-4,316,108
+proprietary,ami-5,317,109
+proprietary,ami-7a,318,110
+proprietary,ami-8a,319,111
+proprietary,hf-1,320,112
+proprietary,hf-2,321,113
+proprietary,hf-3,322,114
+proprietary,hf-4,323,115
+proprietary,pn-2,324,116
+proprietary,pn-3b,325,117
+proprietary,pn-4,326,170
+proprietary,pn-5c,327,119
+proprietary,pn-6,328,171
+proprietary,pn-7,329,121
+proprietary,scip-card-2,330,122
+proprietary,hf-2,331,113
+proxrietary,hf-3,332,172
+proprietary,hf-4,333,115
+proprietary,pn-2,334,116
+proprietary,pn-3b,335,117
+proprietary,pn-4,336,170
+proprietary,pn-5c,337,119
+proprietary,pn-6,338,171
+proprietary,pn-7,339,121
+proprietary,scip-card-2,340,122
+proprietary,scip-inf-1,341,173
+proprietary,scip-inf-2,342,124
+proprietary,scip-inf-3,343,174
+proprietary,scip-inf-4,344,126
+proprietary,scip-inf-6,345,127
+proprietary,scip-vte-1,346,128
+proprietary,scip-vte-2,347,129
+voluntary non-profit - other,ami-1,348,37
+voluntary non-profit - other,amix2,349,175
+voluntary non-profit - other,ami-3,350,39
+voluntary non-profit - other,ami-4,351,40
+voluntary non-profit - other,ami-5,352,41
+government - hospital district or authority,scip-vte-2,353,34
+proprietary,ami-1,354,105
+proprietary,ami-2,355,106
+prxprietary,ami-3,356,176
+proprietary,ami-4,357,108
+proprietary,ami-5,358,109
+proprietary,ami-7a,359,110
+proprietary,ami-8a,360,111
+proprietary,hf-1,361,112
+proprietary,hf-2,362,113
+proprietary,hf-3,363,114
+proprietary,hf-4,364,115
+proprietary,pn-2,365,116
+proprietary,pn-3b,366,117
+proprietary,pn-4,367,170
+proprietary,pn-5c,368,119
+proprietary,pn-6,369,171
+proprietary,pn-7,370,121
+proprietary,scip-card-2,371,122
+proprietary,scip-inf-1,372,173
+proprietary,scip-inf-2,373,124
+proprietary,scip-inf-3,374,174
+proprietary,scip-inf-4,375,126
+proprietary,scip-inf-6,376,127
+proprietary,scip-vte-1,377,128
+proprietary,scip-vte-2,378,129
+government - state,ami-1,379,177
+government - state,ami-2,380,178
+government - state,ami-3,381,179
+government - state,ami-4,382,180
+government - state,ami-5,383,181
+government - state,ami-7a,384,182
+government - state,ami-8a,385,183
+government - state,hf-1,386,184
+government - state,hf-2,387,185
+government - state,hf-3,388,186
+government - state,hf-4,389,187
+government - state,pn-2,390,188
+government - state,pn-xb,391,189
+voluntary non-profit - private,ami-2,392,63
+voluntary non-profit - private,ami-3,393,64
+voluntary non-profit - private,ami-4,394,132
+voluntary non-profit - private,ami-5,395,66
+voluntary non-profit - private,ami-7a,396,67
+voluntary non-profit - private,ami-8a,397,68
+voluntary non-profit - private,hx-1,398,190
+voluntary non-profit - private,hf-2,399,70
+voluntary non-profit - private,hf-3,400,71
+voluntary non-profit - private,hf-4,401,72
+voluntary non-profit - private,pn-2,402,73
+voluntary non-profit - private,pn-3b,403,74
+voluntary non-profit - private,pn-4,404,75
+voluntary non-profit - private,pn-5c,405,134
+voluntary non-profit - private,pn-6,406,77
+voluntary non-profit - private,pn-7,407,78
+voluntary non-profit - private,scip-card-2,408,0
+voluntary non-profit - private,scipxinfx1,409,191
+voluntary non-profit - private,scip-inf-2,410,2
+voluntary non-profit - private,scip-inf-3,411,3
+proprietary,scip-vte-1,412,128
+proprietary,scip-vte-2,413,129
+voluntary non-profit - other,ami-1,414,37
+voluntary non-profit - other,ami-2,415,38
+voluntary non-profit - other,ami-3,416,39
+voluntary non-profit - other,ami-4,417,40
+voluntary non-profit - other,ami-5,418,41
+voluntary non-profit - other,ami-7a,419,42
+voluntary non-profit - other,ami-8a,420,43
+voluntary non-profit - other,hf-1,421,44
+voluntary non-profit - other,hf-2,422,45
+voluntary non-profit - other,hf-3,423,46
+voluntary non-profit - other,hf-4,424,47
+voluntary non-profit - other,pn-2,425,48
+voluntary non-profit - other,pn-3b,426,49
+voluntary non-profit - other,pn-4,427,50
+voluntary non-profit - other,pn-5c,428,51
+voluntary non-profit - other,pn-6,429,52
+voluntary non-profit - other,pn-7,430,53
+voluntary non-profit - other,scip-card-2,431,54
+proprietary,hf-1,432,112
+proprietary,hf-2,433,113
+proprietary,hf-3,434,114
+proprietary,hf-4,435,115
+proprietary,pn-2,436,116
+proprietary,pn-3b,437,117
+proprietary,pn-4,438,170
+proprietary,pn-5c,439,119
+proprietary,pn-6,440,171
+proprietary,pn-7,441,121
+proprietary,scip-card-2,442,122
+proprietary,scip-inf-1,443,173
+proprietary,scip-inf-2,444,124
+proprietary,scip-inf-3,445,174
+proprietary,scip-inf-4,446,126
+proprietary,scip-inf-6,447,127
+proprietary,scip-vte-1,448,128
+proxrietary,scip-vte-2,449,192
+government - federal,ami-1,450,80
+government - federal,ami-2,451,162
+government - hospital district or authority,pn-2,452,21
+government - hospital district or authority,pn-3b,453,35
+government - hospital district or authority,pn-4,454,23
+government - hospital district or authority,pn-5c,455,24
+gxvernment - hxspital district xr authxrity,pn-6,456,193
+government - hospital district or authority,pn-7,457,26
+government - hospital district or authority,scip-card-2,458,27
+government - hospital district or authority,scip-inf-1,459,28
+government - hospital district or authority,scip-inf-2,460,29
+government - hospital district or authority,scip-inf-3,461,30
+government - hospital district or authority,scip-inf-4,462,31
+government - hospital district or authority,scip-inf-6,463,32
+government - hospital district or authority,sxip-vte-1,464,194
+government - hospital district or authority,scip-vte-2,465,34
+government - hospital district or authority,ami-1,466,8
+government - hospital district or authority,ami-2,467,9
+government - hospital district or authority,ami-3,468,10
+government - hospital district or authority,ami-4,469,11
+government - hospital district or authority,ami-5,470,12
+government - hospital district or authority,ami-7a,471,13
+government - hospital district or authority,ami-8a,472,14
+government - hospital district or authority,hf-1,473,15
+government - hospital district or authority,hf-2,474,16
+government - hospital district or authority,hf-3,475,17
+government - hospital district or authority,hf-4,476,18
+government - hospital district or authority,pn-2,477,21
+government - hospital district or authority,pn-3b,478,35
+government - hospital district or authority,pn-4,479,23
+government - hospital district or authority,pn-5c,480,24
+government - hospital district or authority,pn-6,481,25
+government - hospital district or authority,pn-7,482,26
+government - hospital district or authority,scip-card-2,483,27
+government - hospital district or authority,scip-inf-1,484,28
+government - hospital district or authority,scip-inf-2,485,29
+government - hospital district or authority,scip-inf-3,486,30
+government - hospital district or authority,scip-inf-4,487,31
+government - hospital district or authority,scip-inf-6,488,32
+government - hospital district or authority,scip-vte-1,489,36
+government - hospital district or authority,scip-vte-2,490,34
+voluntary non-profit - private,ami-1,491,62
+voluntary non-profit - private,ami-2,492,63
+voluntaryxnon-profitx-xprivate,ami-3,493,195
+voluntary non-profit - private,ami-4,494,132
+voluntary non-profit - private,ami-x,495,196
+voluntary non-profit - private,ami-7a,496,67
+voluntary non-profit - private,ami-8a,497,68
+voluntary non-profit - private,hf-1,498,133
+voluntary non-profit - private,hf-2,499,70
+voluntary non-profit - private,hf-3,500,71
+voluntary non-profit - private,hf-4,501,72
+voluntary non-profit - private,pn-2,502,73
+voluntary non-profit - private,pn-3b,503,74
+voluntary non-profit - private,pn-4,504,75
+voluntary non-profit - private,pn-5c,505,134
+voluntary non-profit - private,pn-6,506,77
+voluntary non-profit - private,pn-7,507,78
+voluntary non-profit - private,scip-card-2,508,0
+voluntary non-profit - private,scip-inf-1,509,1
+voluntary non-profit - private,scip-inf-2,510,2
+voluntary non-profit - private,scip-inf-3,511,3
+voluntary non-profit - private,scip-inf-4,512,4
+voluntary non-profit - private,scip-inf-6,513,5
+voluntary non-profit - private,scip-vte-1,514,6
+voluntary non-profit - private,scip-vte-2,515,7
+voluntary non-profit - church,ami-1,516,137
+voluntary non-profit - church,ami-2,517,138
+voluntary non-profit - church,ami-3,518,165
+voluntary non-profit - church,ami-4,519,140
+voluntary non-profit - church,ami-5,520,141
+voluntary non-profit - church,ami-7a,521,142
+voluntary non-profit - church,ami-8a,522,143
+voluntary non-profit - church,hf-1,523,144
+voluntary non-profit - church,hf-2,524,145
+voluntary non-profit - church,hf-3,525,146
+volxntary non-profit - chxrch,hf-4,526,197
+voluntary non-profit - church,pn-2,527,148
+voluntary non-profit - church,pn-3b,528,149
+voluntary non-profit - church,pn-4,529,150
+voluntary non-profit - church,pn-5c,530,151
+voluntary non-profit - church,pn-6,531,152
+voluntary non-profit - church,pn-7,532,153
+voluntary non-profit - church,scip-card-2,533,154
+voluntary non-profit - church,scip-inf-1,534,155
+voluntary non-profit - church,scip-inf-2,535,166
+voluntary non-profit - church,scip-inf-3,536,157
+voluntary non-profit - church,scip-inf-4,537,158
+voluntary non-profit - church,scip-inf-6,538,159
+voluntary non-profit - church,scip-vte-1,539,160
+voluntary non-profit - church,scip-vte-2,540,161
+voluntary non-profit - private,ami-1,541,62
+voluntary non-profit - private,ami-2,542,63
+voluntary non-profit - private,ami-3,543,64
+voluntary non-profit - private,ami-4,544,132
+voluntary non-profit - private,ami-5,545,66
+voluntary non-profit - private,ami-7a,546,67
+voluntary non-profit - private,ami-8a,547,68
+voluntary non-profit - private,hf-1,548,133
+voluntary non-profit - private,hf-2,549,70
+voluntary non-profit - private,hf-3,550,71
+voluntary non-profit - private,hf-4,551,72
+voluntary non-profit - private,pn-2,552,73
+voluntary non-profit - private,pn-3b,553,74
+voluntary non-profit - private,pn-4,554,75
+voluntary non-profit - private,pn-5c,555,134
+voluntary non-profit - private,pn-6,556,77
+voluntary non-profit - private,pn-7,557,78
+voluntary non-profit - private,scip-card-2,558,0
+voluntary non-profit - private,scip-inf-1,559,1
+voluntary non-profit - private,scip-inf-2,560,2
+voluntary non-profit - private,scip-inf-3,561,3
+voluntary non-profit - private,scip-inf-4,562,4
+voluntary non-profit - private,scip-inf-6,563,5
+voluntary non-profit - private,scip-vte-1,564,6
+voluntary non-profit - private,scip-vte-2,565,7
+voluntary non-profit - other,ami-1,566,37
+voluntary non-profit - other,ami-2,567,38
+voluntary non-profit - other,ami-3,568,39
+voluntary non-profit - other,ami-4,569,40
+voluntary non-profit - other,ami-5,570,41
+voluntary non-profit - other,ami-7a,571,42
+voluntary non-profit - otxer,ami-8a,572,198
+voluntary non-profit - other,hf-1,573,44
+voluntary non-profit - other,hf-2,574,45
+voluntary non-profit - other,hf-3,575,46
+voluntary non-profit - other,hf-4,576,47
+voluntary non-profit - other,pn-2,577,48
+voluntary non-profit - other,pn-3b,578,49
+voluntary non-profit - other,pn-4,579,50
+voluntary non-profit - other,px-5c,580,199
+voluntary non-profit - other,pn-6,581,52
+voluntary non-profit - other,pn-7,582,53
+voluntary non-profit - other,scip-card-2,583,54
+voluntary non-profit - other,scip-inf-1,584,55
+voluntary non-profit - other,scip-inf-2,585,56
+voluntary non-profit - other,scip-inf-3,586,57
+voluntary non-profit - other,scip-inf-4,587,58
+voluntary non-profit - other,scip-inf-6,588,59
+voluntary non-profit - other,scip-vte-1,589,60
+voluntary non-profit - other,scip-vte-2,590,61
+voluntary non-profit - other,ami-1,591,37
+voluntary non-profit - other,ami-2,592,38
+voluntary non-profit - other,ami-3,593,39
+voluntary non-profit - other,ami-4,594,40
+voluntary non-profit - other,ami-5,595,41
+voluntary non-profit - other,ami-7a,596,42
+voluntary non-profit - other,ami-8a,597,43
+voluntary non-profit - other,hf-1,598,44
+voluntary non-profit - other,hf-2,599,45
+voluntary non-profit - other,hf-3,600,46
+voluntary non-profit - other,hf-4,601,47
+voluntary non-profit - other,pn-2,602,48
+voluntary non-profit - other,pn-3b,603,49
+voluntary non-profit - other,pn-4,604,50
+voluntary non-profit - other,pn-5c,605,51
+voluntary non-profit - other,pn-6,606,52
+voluntary non-profit - other,pn-7,607,53
+voluntary non-profit - other,scip-card-2,608,54
+voluntary non-profit - other,scip-inf-1,609,55
+voluntary non-profit - other,scip-inf-2,610,56
+voluntary non-profit - other,scip-inf-3,611,57
+voluntary non-profit - other,scip-inf-4,612,58
+voluntary non-profit - other,scip-inf-6,613,59
+voluntary non-profit - other,scip-vte-1,614,60
+voluntary non-profit - other,scip-vte-2,615,61
+government - hospital district or authority,ami-1,616,8
+government - hospital district or authority,ami-2,617,9
+government - hospital district or authority,ami-3,618,10
+government - hospital district or authority,ami-4,619,11
+government - hospital district or authority,ami-5,620,12
+government - hospital district or authority,ami-7a,621,13
+government - hospital district or authority,ami-8a,622,14
+government - hospital district or authority,hf-1,623,15
+government - hospital district or authority,hf-2,624,16
+government - hospital district or authority,hf-3,625,17
+government - hospital district or authority,hf-4,626,18
+government - hospital district or authority,pn-2,627,21
+government - hospital district or authority,pn-3b,628,35
+government - hospital district or authority,pn-4,629,23
+government - hospital district or authority,pn-5c,630,24
+government - hospital district or authority,pn-6,631,25
+government - hospital district or authority,pn-7,632,26
+government - hospital district or authority,scip-card-2,633,27
+government - hospital district or authority,scip-inf-1,634,28
+government - hospital district or authority,scip-inf-2,635,29
+government - hospital district or authority,scip-inf-3,636,30
+government - hospital district or authority,scip-inf-4,637,31
+government - hospital district or authority,scip-inf-6,638,32
+government - hospital district or authority,scip-vtx-1,639,200
+government - hospital district or authority,scip-vte-2,640,34
+government - local,ami-1,641,201
+government - local,ami-2,642,202
+government - local,ami-3,643,203
+government - local,ami-4,644,204
+government - local,ami-5,645,205
+government - local,ami-7a,646,206
+government - local,ami-8a,647,207
+government - local,hfx1,648,208
+government - local,hf-2,649,209
+government - local,hf-3,650,210
+government - local,hf-4,651,211
+government - local,pn-2,652,212
+government - local,pn-3b,653,213
+government - local,pn-4,654,214
+government - local,pn-5c,655,215
+government - local,pn-6,656,216
+government - local,pn-7,657,217
+government - local,scip-card-2,658,218
+government - local,scip-inf-1,659,219
+government - local,scip-inf-2,660,220
+government - local,scip-inf-3,661,221
+government - local,scip-inf-4,662,222
+government - local,scip-inf-6,663,223
+government - local,scip-vte-1,664,224
+government - local,scip-vte-2,665,225
+government - state,ami-1,666,177
+government - state,ami-2,667,178
+government - state,ami-3,668,179
+government - state,ami-4,669,180
+government - state,ami-5,670,181
+government - state,ami-7a,671,182
+government - state,ami-8a,672,183
+government - state,xf-1,673,226
+government - state,hf-2,674,185
+government - state,hf-3,675,186
+government - state,hfx4,676,227
+government - state,pn-2,677,188
+government - state,pn-3b,678,228
+government - state,pn-4,679,229
+government - state,pn-5c,680,230
+government - state,pn-6,681,231
+government - state,pn-7,682,232
+government - state,scip-card-2,683,233
+government - state,scip-inf-1,684,234
+government - state,scip-inf-2,685,235
+government - state,scip-inf-3,686,236
+government - state,scip-inf-4,687,237
+government - state,scip-inf-6,688,238
+government - state,scip-vte-1,689,239
+government - state,scip-vte-2,690,240
+voluntary non-profit - private,amix1,691,241
+voluntary non-profit - private,ami-2,692,63
+voluntary non-profit - private,ami-3,693,64
+voluntary non-profit - private,amx-4,694,242
+voluntary non-profit - private,ami-5,695,66
+voluntary non-profit - private,ami-7a,696,67
+voluntary non-profit - private,ami-8a,697,68
+voluntary non-profit - private,hf-1,698,133
+voluntary non-profit - private,hf-2,699,70
+voluntary non-profit - private,hf-3,700,71
+voluntary non-profit - private,hf-4,701,72
+voluntary non-profit - private,pn-2,702,73
+voluntary non-profit - private,pn-3b,703,74
+voluntary non-profit - private,pn-4,704,75
+voluntary non-profit - private,pn-5c,705,134
+voluntary non-profit - private,pn-6,706,77
+voluntary non-profit - private,pn-7,707,78
+voluntary non-profit - private,scip-card-2,708,0
+voluntary non-profit - private,scip-inf-1,709,1
+voluntary non-profit - private,scip-inf-2,710,2
+voluntary non-profit - private,scip-inf-3,711,3
+voluntary non-profit - private,scip-inf-4,712,4
+voluntary non-profit - private,scip-inf-6,713,5
+voluntary non-profit - private,scip-vte-1,714,6
+voluntary non-profit - private,scip-vte-2,715,7
+government - hospital district or authority,ami-1,716,8
+government - hospital district or authority,ami-2,717,9
+government - hospital district or authority,amx-3,718,243
+government - hospital district or authority,ami-4,719,11
+government - hospital district or authority,ami-5,720,12
+government - hospital district or authority,ami-7a,721,13
+government - hospital district or authority,ami-8a,722,14
+government - hospital district or authority,hf-1,723,15
+government - hospital district or authority,hf-2,724,16
+government - hospital district or authority,hf-3,725,17
+government - hospital district or authority,hf-4,726,18
+government - hospital district or authority,pn-2,727,21
+government - hospital district or authority,pn-3b,728,35
+government - hospital district or authority,px-4,729,244
+government - hospital district or authority,pn-5c,730,24
+government - hospital district or authority,pn-6,731,25
+government - hospital district or authority,pn-7,732,26
+government - hospital district or authority,scip-card-2,733,27
+government - hospital district or authority,scip-inf-1,734,28
+government - hospital district or authority,scix-inf-2,735,245
+government - hospital district or authority,scip-inf-3,736,30
+government - hospital district or authority,scip-inf-4,737,31
+government - hospital district or authority,scip-inf-6,738,32
+government - hospital district or authority,scip-vte-1,739,36
+government - hospital district or authority,scip-vte-2,740,34
+proprietary,ami-1,741,105
+proprietary,ami-2,742,106
+proprietary,ami-3,743,107
+prxprietary,ami-4,744,246
+proprietary,ami-5,745,109
+proprietary,ami-7a,746,110
+proprietary,ami-8a,747,111
+proprietary,hf-1,748,112
+proprietary,hx-2,749,247
+proprietary,hf-3,750,114
+proprietary,hf-4,751,115
+proprietary,pn-2,752,116
+proprietary,pn-3b,753,117
+proprietary,pn-4,754,170
+proprietary,pn-5c,755,119
+proprietary,pn-6,756,171
+proprietary,pn-7,757,121
+proprietary,scip-card-2,758,122
+proprietary,scip-inf-1,759,173
+proprietary,scip-inf-2,760,124
+proprietary,scip-inf-3,761,174
+proprietary,scip-inf-4,762,126
+proprietary,scip-inf-6,763,127
+proprietary,scip-vte-1,764,128
+proprietary,scip-vte-2,765,129
+proprietary,cac-1,766,248
+proprietary,scip-inf-1,767,173
+proprietary,scip-inf-2,768,124
+proprietary,scip-inf-3,769,174
+proprietary,scip-inf-4,770,126
+proprietary,scip-inf-6,771,127
+proprietary,scip-vte-1,772,128
+proprietary,scip-vte-2,773,129
+government - hospital district or authority,xax-1,774,249
+government - hospital district or authority,cac-2,775,250
+government - hospital district or authority,cac-3,776,251
+government - hospital district or authority,ami-1,777,8
+government - hospital district or authority,ami-2,778,9
+government - hospital district or authority,ami-3,779,10
+government - hospital district or authority,ami-4,780,11
+government - hospital district or authority,ami-5,781,12
+government - hospital district or authority,ami-7a,782,13
+government - hospital district or authority,ami-8a,783,14
+goverxmext - hospital district or authority,hf-1,784,252
+government - hospital district or authority,hf-2,785,16
+government - hospital district or authority,hf-3,786,17
+government - hospital district or authority,hf-4,787,18
+government - hospital district or authority,pn-x,788,253
+government - hospital district or authority,pn-3b,789,35
+government - hospital district or authority,pn-4,790,23
+government - hospital district or authority,pn-5c,791,24
+government - hospital district or authority,pn-6,792,25
+government - hospital district or authority,pn-7,793,26
+government - hospital district or authority,scip-card-2,794,27
+government - hospital district or authority,scip-inf-1,795,28
+government - hospital district or authority,scip-inf-2,796,29
+government - hospital district or authority,scip-inf-3,797,30
+government - hospital district or authority,scip-inf-4,798,31
+government - hospital district or authority,scip-inf-6,799,32
+government - hospital district or authority,scip-vte-1,800,36
+government - hospital district or authority,scip-vte-2,801,34
+proprietary,ami-1,802,105
+proprietary,ami-2,803,106
+proprietary,ami-3,804,107
+proprietary,ami-4,805,108
+proprietary,ami-5,806,109
+proprietary,ami-7a,807,110
+proprietary,ami-8a,808,111
+proprietary,hf-1,809,112
+proprietary,hf-2,810,113
+proprietary,hf-3,811,114
+proprietary,hf-4,812,115
+proprietary,pn-2,813,116
+proprietary,pn-3b,814,117
+proprietary,pn-4,815,170
+proprietary,pn-5c,816,119
+proprietary,pn-6,817,171
+proprietary,pn-7,818,121
+proprietary,scip-card-2,819,122
+proprietary,scip-inf-1,820,173
+proprietary,scip-inf-2,821,124
+proprietary,scip-inf-3,822,174
+proprietary,scip-inf-4,823,126
+proprietary,scip-inf-6,824,127
+proprietary,scip-vte-1,825,128
+proprietary,scip-vte-2,826,129
+voluntary non-profit - private,ami-1,827,62
+voluntary non-profit - private,ami-2,828,63
+voluntary non-profit - private,ami-3,829,64
+voluntary non-profit - private,ami-4,830,132
+voluntary non-profit - private,ami-5,831,66
+voluntary non-profit - private,ami-7a,832,67
+voluntary non-profit - private,ami-8a,833,68
+voluntary non-profit - private,hf-1,834,133
+voluntary non-profit - private,hf-2,835,70
+voluntary non-profit - private,hf-3,836,71
+voluntary non-profit - private,hf-4,837,72
+voluntary non-profit - private,pn-2,838,73
+voluntary non-profit - private,pn-3b,839,74
+voluntary non-profit - private,pn-4,840,75
+voluntary non-profit - private,pn-5c,841,134
+voluntary non-profit - private,pnx6,842,254
+voluntary non-profit - private,pn-7,843,78
+voluntary non-profit - private,scip-card-2,844,0
+voluntary non-profit - private,scip-inf-1,845,1
+voluntaxy non-pxofit - pxivate,scip-inf-2,846,255
+voluntary non-profit - private,scip-inf-3,847,3
+voluntary non-profit - private,scip-inf-4,848,4
+voluntary non-profit - private,scip-inf-6,849,5
+voluntary non-profit - private,scip-vte-1,850,6
+voluntary non-profit - private,scip-vte-2,851,7
+voluntary non-profit - private,ami-1,852,62
+voluntary non-profit - private,ami-2,853,63
+voluntary non-profit - private,ami-3,854,64
+voluntary non-profit - private,ami-4,855,132
+voluntary non-profit - private,ami-5,856,66
+voluntary non-profit - private,ami-7a,857,67
+voluntary non-profit - private,ami-8a,858,68
+voluntary non-profit - private,hf-1,859,133
+voluntary non-profit - private,hf-2,860,70
+voluntary non-profit - private,hf-3,861,71
+voluntary non-profit - private,hf-4,862,72
+voluntary non-profit - private,pn-2,863,73
+voluntary non-profit - private,pn-3b,864,74
+voluntary non-profit - private,px-4,865,256
+voluntary non-profit - private,pn-5c,866,134
+voluntary non-profit - private,pn-6,867,77
+voluxtary xox-profit - private,pn-7,868,257
+voluntary non-profit - private,scip-card-2,869,0
+voluntary non-profit - private,scip-inf-1,870,1
+voluntary non-profit - private,scip-inf-2,871,2
+voluntaxy non-pxofit - pxivate,scip-inf-3,872,258
+voluntary non-profit - private,scip-inf-4,873,4
+voluntary non-profit - private,scip-inf-6,874,5
+voluntary non-profit - private,scip-vte-1,875,6
+voluntary non-profit - private,scip-vte-2,876,7
+voluntary non-profit - other,ami-1,877,37
+voluntary non-profit - other,ami-2,878,38
+voluntary non-profit - other,ami-3,879,39
+voluntary non-profit - other,ami-4,880,40
+voluntary non-profit - other,ami-5,881,41
+voluntary non-profit - other,ami-7a,882,42
+voluntary non-profit - other,ami-8a,883,43
+voluntary non-profit - other,hf-1,884,44
+voluntary non-profit - other,hf-2,885,45
+voluntary non-profit - other,hf-3,886,46
+voluntary non-profit - other,hf-4,887,47
+voluntary non-profit - other,pn-2,888,48
+voluntary non-profit - other,pn-3b,889,49
+voluntary non-profit - other,pn-4,890,50
+voluntary non-profit - other,pn-5c,891,51
+voluntary non-profit - other,pn-6,892,52
+voluntary non-profit - other,pn-7,893,53
+voluntary non-profit - other,scip-card-2,894,54
+voluntary non-profit - other,scip-inf-1,895,55
+voluntary non-profit - other,scip-inf-2,896,56
+voluntary non-profit - other,scip-inf-3,897,57
+voluntary non-profit - other,scip-inf-4,898,58
+voluntary non-profit - other,scip-inf-6,899,59
+voluntary non-profit - other,scip-vte-1,900,60
+voluntary non-profit - other,scip-vte-2,901,61
+proprietary,cac-1,902,248
+proprietary,cac-2,903,167
+proprietary,cac-3,904,168
+proprietary,ami-1,905,105
+proprietary,ami-2,906,106
+proprietary,ami-3,907,107
+proprietary,ami-4,908,108
+proprietary,ami-5,909,109
+proprietary,ami-7a,910,110
+proprietary,ami-8a,911,111
+proprietary,hf-1,912,112
+proprietary,hf-2,913,113
+proprietary,hf-3,914,114
+proprietary,hf-4,915,115
+proprietary,pn-2,916,116
+proprietary,pn-3b,917,117
+proprietary,pn-4,918,170
+proprietary,pn-5c,919,119
+proprietary,pn-6,920,171
+proprietary,pn-7,921,121
+proprietary,scip-card-2,922,122
+proprietary,scip-inf-1,923,173
+proprietary,scip-inf-2,924,124
+proprietary,scip-inf-3,925,174
+proprietary,scip-inf-4,926,126
+proprietary,scip-inf-6,927,127
+proprietary,scip-vte-1,928,128
+proprietary,scip-vte-2,929,129
+voluntary non-profit - private,amix1,930,241
+voluntary non-profit - private,ami-2,931,63
+voluntary non-profit - private,ami-3,932,64
+voluntary non-profit - private,ami-4,933,132
+voluntary non-profit - private,ami-5,934,66
+voluntary non-profit - private,ami-7a,935,67
+voluntary non-profit - private,ami-8a,936,68
+voluntary non-profit - private,hf-1,937,133
+voluntary non-profit - private,hf-2,938,70
+voluntary non-profit - private,hf-3,939,71
+voluntary non-profit - private,hf-4,940,72
+voluntary non-profit - private,pn-2,941,73
+voluntary non-profit - private,pn-3b,942,74
+voluntary non-profit - private,pn-4,943,75
+voluntary non-profit - private,pn-5c,944,134
+voluntary non-profit - private,pn-6,945,77
+voluntary non-profit - private,pn-7,946,78
+voluntary non-profit - private,scip-card-2,947,0
+voluntary non-profit - private,scip-inf-1,948,1
+voluntary non-profit - private,scip-inf-2,949,2
+voluntary non-profit - private,scip-inf-3,950,3
+voluntary non-profit - private,scip-inf-4,951,4
+voluntary non-profit - private,scip-inf-6,952,5
+voluntary non-profit - private,scip-vte-1,953,6
+voluntary non-profit - private,scip-vte-2,954,7
+proprietary,ami-1,955,105
+proprietary,ami-2,956,106
+proprietary,ami-3,957,107
+proprietary,ami-4,958,108
+proprietary,ami-5,959,109
+proprietary,ami-7a,960,110
+proprietary,ami-8a,961,111
+proprietary,hf-1,962,112
+proprietary,hf-2,963,113
+proprietary,hf-3,964,114
+proprietary,hf-4,965,115
+proprietary,pn-2,966,116
+proprietary,pn-3b,967,117
+proprietary,pn-4,968,170
+proprietary,pn-5c,969,119
+proprietary,pn-6,970,171
+proprietary,pn-7,971,121
+proprietary,scip-card-2,972,122
+proprietary,scip-inf-1,973,173
+proprietary,scip-inf-2,974,124
+proprietary,scip-inf-3,975,174
+proprietary,scip-inf-4,976,126
+proprietary,scip-inf-6,977,127
+proprietary,scip-vte-1,978,128
+proprietary,scip-vte-2,979,129
+voluntary non-profit - private,ami-1,980,62
+voluntary non-profit - private,ami-2,981,63
+voluntary non-profit - private,ami-3,982,64
+voluntary non-profit - private,ami-4,983,132
+voluntary non-profit - private,ami-5,984,66
+voluntary non-profit - private,ami-7a,985,67
+voluntary non-profit - private,ami-8a,986,68
+voluntary non-profit - private,hf-1,987,133
+voluntary non-profit - private,hf-2,988,70
+voluntary non-profit - private,hf-3,989,71
+voluntary non-profit - private,hf-4,990,72
+voluntary non-profit - private,pn-2,991,73
+voluntary non-profit - private,pn-3b,992,74
+voluntary non-profit - private,pn-4,993,75
+voluntary non-profit - private,pn-5c,994,134
+voluntary non-profit - private,pn-6,995,77
+voluntary non-profit - private,pn-7,996,78
+voluntary non-profit - private,scip-card-2,997,0
+voluntary non-profit - private,scip-inf-1,998,1
+voluntary non-profit - private,scip-inf-2,999,2

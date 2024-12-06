@@ -3,29 +3,33 @@ version: "3.8"
 services:
   frontend:
     build:
-      context: ./frontend # Path to your Next.js app
+      context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "3000:3000" # Expose frontend on port 3000
+      - "3000:3000" # Map frontend port
     environment:
-      - NODE_ENV=production
-    depends_on:
-      - dataset_analyzer # Ensure the backend starts first
+      - NODE_ENV=development
     volumes:
-      - ./frontend:/app # Optional, for live updates during development
+      - ./frontend:/app # Mount local code for live updates
+      - /app/node_modules # Avoid overwriting node_modules
+    command: ["npm", "run", "dev"] # Run development server
+    depends_on:
+      - backend
     restart: always
 
   backend:
     build:
-      context: ./backend # Path to your Flask app
+      context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "5000:5000" # Expose backend on port 5000
+      - "5000:5000"
     environment:
       - FLASK_APP=app.py
       - FLASK_RUN_HOST=0.0.0.0
+      - FRONTEND_URL=http://frontend:3000
     volumes:
       - ./backend:/app # Mount backend code for live updates
+    command: ["flask", "run", "--host=0.0.0.0", "--port=5000"] # Run Flask dev server
     restart: always
 
 networks:

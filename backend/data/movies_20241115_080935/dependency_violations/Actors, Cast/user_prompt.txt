@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The main cast of the film (Column 6) may represent a subset of the full cast listed in Column 7, indicating that the primary actors are included in the overall cast.
+
+  The following is a formatted table with the unique data to be checked.
+  

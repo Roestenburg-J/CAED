@@ -1,0 +1,14 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,index,id,"The first column appears to be a unique identifier for each beer, while the second column appears to represent a unique value associated with the beer (possibly a catalog number or product number). This suggests a syntactic dependency where the unique identifier may relate to the unique value."
+1,2,id,beer-name,"Brew ID (column 1) might be a unique identifier that determines the beer name (column 2), suggesting a single beer corresponds to a unique identifier."
+1,6,id,ibu,"The numerical identifier of the beer corresponds to its general alcohol content level; therefore, the ID number may be related to the beer's alcohol level."
+1,7,id,brewery-id,"The unique identifier for the beer (represented by the first column) may correspond to the batch number (represented by the second column) managed by the brewery, suggesting a structure of inventory management."
+1,8,id,brewery-name,"The second column with a suggested product value could have a syntactic or semantic dependency on the eighth column, which represents the brewery name, indicating that products listed under the same brewery likely have similar pricing patterns."
+2,3,beer-name,style,"The name of the beer (column 2) determines its type (column 3), as each beer name is associated with a specific beer style."
+2,4,beer-name,ounces,"The fourth column represents the size of the beer's packaging, which semantically relates to the beer name in the second column, as the name may suggest packaging size conventions."
+2,5,beer-name,abv,"The fifth column includes the alcohol percentage of the beer, suggesting a semantic dependency on the beer name in the second column, where specific beer names could imply certain alcohol content ranges."
+4,5,ounces,abv,The description of container size (described in the fourth column) might imply an expected alcohol content representation (described in the fifth column). There is a clear pattern of container size being consistent with the representation of the alcohol percentage.
+5,6,abv,ibu,"The alcohol by volume (ABV) percentage (column 5) may be semantically related to the sweetness or flavor profile represented in the other column (column 6), although column 6 may contain null values."
+7,10,brewery-id,state,"The common identifier for the entries (column 7), likely a unique identifier for the record, does not have a direct dependency with the state abbreviation (column 10), however they both relate to the same brewing company and city."
+8,9,brewery-name,city,"The brewery name in one column is likely related to the city in another column, indicating a semantic dependency where the brewery is based in that city."
+9,10,city,state,The city indicated in the ninth column suggests a context that is validated by the state shown in the tenth column. This indicates a semantic dependency as each city would correspond to its respective state.

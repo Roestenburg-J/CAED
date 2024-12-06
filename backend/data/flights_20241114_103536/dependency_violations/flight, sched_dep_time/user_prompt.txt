@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The flight identifier in one column indicates a specific flight, while the departure time in another column represents when that flight is scheduled to leave.
+
+  The following is a formatted table with the unique data to be checked.
+  

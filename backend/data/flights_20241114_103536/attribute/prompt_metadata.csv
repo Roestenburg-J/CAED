@@ -1,0 +1,8 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+4,135,139,00:01.627,1,tuple_id
+654,1263,1917,00:05.435,1,src
+5466,2653,8119,00:38.584,1,flight
+2718,3079,5797,00:19.068,1,sched_dep_time
+8547,7080,15627,01:06.765,3,act_dep_time
+6321,6397,12718,00:42.621,3,sched_arr_time
+7940,8415,16355,00:54.459,4,act_arr_time

@@ -1,0 +1,2411 @@
+style,brewery-name,original_index,unique_index
+American Pale Lager,10 Barrel Brewing Company,0,0
+American Pale Ale (APA),18th Street Brewery,1,1
+American IPA,18th Street Brewery,2,2
+American Double / Imperial IPA,18th Street Brewery,3,3
+American IPA,18th Street Brewery,4,2
+Oatmeal Stout,18th Street Brewery,5,4
+American Pale Ale (APA),18th Street Brewery,6,1
+American Porter,18th Street Brewery,7,5
+American Pale Ale (APA),18th Street Brewery,8,1
+American Double / Imperial IPA,18th Street Brewery,9,3
+Saison / Farmhouse Ale,18th Street Brewery,10,6
+Saison / Farmhouse Ale,18th Street Brewery,11,6
+Saison / Farmhouse Ale,18th Street Brewery,12,6
+Belgian IPA,18th Street Brewery,13,7
+American Pale Ale (APA),18th Street Brewery,14,1
+Cider,2 Towns Ciderhouse,15,8
+Cider,2 Towns Ciderhouse,16,8
+Cider,2 Towns Ciderhouse,17,8
+Cider,2 Towns Ciderhouse,18,8
+Baltic Porter,21st Amendment Brewery,19,9
+Tripel,21st Amendment Brewery,20,10
+American Barleywine,21st Amendment Brewery,21,11
+Winter Warmer,21st Amendment Brewery,22,12
+American Stout,21st Amendment Brewery,23,13
+American Pale Ale (APA),21st Amendment Brewery,24,14
+Fruit / Vegetable Beer,21st Amendment Brewery,25,15
+Fruit / Vegetable Beer,21st Amendment Brewery,26,15
+Fruit / Vegetable Beer,21st Amendment Brewery,27,15
+American IPA,21st Amendment Brewery,28,16
+American IPA,21st Amendment Brewery,29,16
+American IPA,21st Amendment Brewery,30,16
+English Strong Ale,21st Amendment Brewery,31,17
+American Double / Imperial IPA,21st Amendment Brewery,32,18
+American Pale Ale (APA),21st Amendment Brewery,33,14
+Winter Warmer,21st Amendment Brewery,34,12
+American Black Ale,21st Amendment Brewery,35,19
+Belgian Dark Ale,21st Amendment Brewery,36,20
+American IPA,21st Amendment Brewery,37,16
+Fruit / Vegetable Beer,21st Amendment Brewery,38,15
+American IPA,3 Daughters Brewing,39,21
+American Blonde Ale,3 Daughters Brewing,40,22
+American Amber / Red Ale,3 Daughters Brewing,41,23
+Berliner Weissbier,4 Hands Brewing Company,42,24
+American Blonde Ale,4 Hands Brewing Company,43,25
+American Brown Ale,4 Hands Brewing Company,44,26
+American Amber / Red Ale,4 Hands Brewing Company,45,27
+American Black Ale,4 Hands Brewing Company,46,28
+American IPA,4 Hands Brewing Company,47,29
+American IPA,4 Hands Brewing Company,48,29
+American Pale Wheat Ale,4 Hands Brewing Company,49,30
+American IPA,450 North Brewing Company,50,31
+American IPA,450 North Brewing Company,51,31
+Belgian Strong Dark Ale,450 North Brewing Company,52,32
+American IPA,450 North Brewing Company,53,31
+English Strong Ale,450 North Brewing Company,54,33
+Kölsch,450 North Brewing Company,55,34
+Belgian Dark Ale,450 North Brewing Company,56,35
+American IPA,7 Seas Brewing Company,57,36
+English Pale Ale,7 Seas Brewing Company,58,37
+English Pale Ale,7 Seas Brewing Company,59,37
+American Double / Imperial IPA,7 Seas Brewing Company,60,38
+Berliner Weissbier,7venth Sun,61,39
+American Amber / Red Lager,AC Golden Brewing Company,62,40
+American Amber / Red Lager,AC Golden Brewing Company,63,40
+American IPA,Abita Brewing Company,64,41
+Fruit / Vegetable Beer,Abita Brewing Company,65,42
+American Amber / Red Lager,Abita Brewing Company,66,43
+American IPA,Against The Grain Brewery,67,44
+American Brown Ale,Against The Grain Brewery,68,45
+American Double / Imperial IPA,Against the Grain Brewery,69,46
+English Barleywine,Against the Grain Brewery,70,47
+Milk / Sweet Stout,Against the Grain Brewery,71,48
+American Pale Ale (APA),Against the Grain Brewery,72,49
+German Pilsener,Against the Grain Brewery,73,50
+Pumpkin Ale,Against the Grain Brewery,74,51
+Belgian Pale Ale,Against the Grain Brewery,75,52
+American Pilsner,Against the Grain Brewery,76,53
+American Double / Imperial IPA,Against the Grain Brewery,77,46
+Saison / Farmhouse Ale,Against the Grain Brewery,78,54
+American Wild Ale,Against the Grain Brewery,79,55
+American IPA,Against the Grain Brewery,80,56
+English Brown Ale,Against the Grain Brewery,81,57
+American Stout,Airways Brewing Company,82,58
+American Pale Ale (APA),Airways Brewing Company,83,59
+American Pilsner,Airways Brewing Company,84,60
+American Pilsner,Alameda Brewing,85,61
+American Pale Ale (APA),Alameda Brewing,86,62
+American Double / Imperial IPA,Alameda Brewing,87,63
+American Pale Ale (APA),Alaskan Brewing Company,88,64
+Altbier,Alaskan Brewing Company,89,65
+American Pale Ale (APA),Ale Asylum,90,66
+Kölsch,Alltech's Lexington Brewing Company,91,67
+American IPA,Alltech's Lexington Brewing Company,92,68
+American Pale Ale (APA),Amnesia Brewing Company,93,69
+American IPA,Amnesia Brewing Company,94,70
+American IPA,Amnesia Brewing Company,95,70
+American IPA,Anchor Brewing Company,96,71
+American IPA,Anchor Brewing Company,97,71
+American Pale Wheat Ale,Anchor Brewing Company,98,72
+American Amber / Red Lager,Anchor Brewing Company,99,73
+California Common / Steam Beer,Anchor Brewing Company,100,74
+Gose,Anderson Valley Brewing Company,101,75
+American Pale Ale (APA),Anderson Valley Brewing Company,102,76
+Gose,Anderson Valley Brewing Company,103,75
+Pumpkin Ale,Anderson Valley Brewing Company,104,77
+Oatmeal Stout,Anderson Valley Brewing Company,105,78
+Cream Ale,Anderson Valley Brewing Company,106,79
+American IPA,Anderson Valley Brewing Company,107,80
+American Amber / Red Ale,Anderson Valley Brewing Company,108,81
+Oatmeal Stout,Anderson Valley Brewing Company,109,78
+Vienna Lager,Anderson Valley Brewing Company,110,82
+American Amber / Red Ale,Anderson Valley Brewing Company,111,81
+Cream Ale,Anderson Valley Brewing Company,112,79
+Oatmeal Stout,Anderson Valley Brewing Company,113,78
+Winter Warmer,Anderson Valley Brewing Company,114,83
+American IPA,Anderson Valley Brewing Company,115,80
+American Amber / Red Ale,Anderson Valley Brewing Company,116,81
+Cream Ale,Anderson Valley Brewing Company,117,79
+American Pale Ale (APA),Anderson Valley Brewing Company,118,76
+American IPA,Angry Minnow,119,84
+American Pale Ale (APA),Angry Minnow Brewing Company,120,85
+Oatmeal Stout,Angry Minnow Brewing Company,121,86
+Cider,Angry Orchard Cider Company,122,87
+Cider,Angry Orchard Cider Company,123,87
+Cider,Angry Orchard Cider Company,124,87
+Belgian Pale Ale,Anthem Brewing Company,125,88
+Witbier,Anthem Brewing Company,126,89
+American Stout,Anthem Brewing Company,127,90
+American IPA,Appalachian Mountain Brewery,128,91
+American Blonde Ale,Appalachian Mountain Brewery,129,92
+American Porter,Appalachian Mountain Brewery,130,93
+American Pale Ale (APA),Arcadia Brewing Company,131,94
+American Pale Wheat Ale,Arcadia Brewing Company,132,95
+American Pale Ale (APA),Arctic Craft Brewery,133,96
+American Double / Imperial Stout,Armadillo Ale Works,134,97
+Saison / Farmhouse Ale,Armadillo Ale Works,135,98
+Gose,Armstrong Brewing Company,136,99
+American IPA,Asher Brewing Company,137,100
+Kölsch,Asheville Brewing Company,138,101
+American Porter,Asheville Brewing Company,139,102
+American IPA,Asheville Brewing Company,140,103
+Kölsch,Aslan Brewing Company,141,104
+American IPA,Aslan Brewing Company,142,105
+American Amber / Red Ale,Aslan Brewing Company,143,106
+American Blonde Ale,Aspen Brewing Company,144,107
+American IPA,Aspen Brewing Company,145,108
+American Stout,Astoria Brewing Company,146,109
+American Double / Imperial IPA,Astoria Brewing Company,147,110
+American Porter,Astoria Brewing Company,148,111
+American Amber / Red Ale,Astoria Brewing Company,149,112
+American Double / Imperial IPA,Atwater Brewery,150,113
+American Porter,Atwater Brewery,151,114
+Fruit / Vegetable Beer,Atwater Brewery,152,115
+American Blonde Ale,Atwater Brewery,153,116
+American IPA,Atwater Brewery,154,117
+Munich Helles Lager,Atwater Brewery,155,118
+American Black Ale,Austin Beerworks,156,119
+American IPA,Austin Beerworks,157,120
+American Pale Ale (APA),Austin Beerworks,158,121
+German Pilsener,Austin Beerworks,159,122
+Schwarzbier,Austin Beerworks,160,123
+American Double / Imperial IPA,Avery Brewing Company,161,124
+Saison / Farmhouse Ale,Avery Brewing Company,162,125
+German Pilsener,Avery Brewing Company,163,126
+Witbier,Avery Brewing Company,164,127
+American IPA,Avery Brewing Company,165,128
+American Brown Ale,Avery Brewing Company,166,129
+Pumpkin Ale,Aviator Brewing Company,167,130
+Märzen / Oktoberfest,Aviator Brewing Company,168,131
+American Pale Wheat Ale,Aviator Brewing Company,169,132
+American IPA,Aviator Brewing Company,170,133
+Tripel,Aviator Brewing Company,171,134
+American Amber / Red Ale,Aviator Brewing Company,172,135
+American Double / Imperial IPA,Back East Brewing Company,173,136
+American Porter,Back East Brewing Company,174,137
+American Blonde Ale,Back East Brewing Company,175,138
+American IPA,Back East Brewing Company,176,139
+American Amber / Red Ale,Back East Brewing Company,177,140
+English Brown Ale,Back Forty Beer Company,178,141
+American Pale Ale (APA),Back Forty Beer Company,179,142
+American IPA,Bale Breaker Brewing Company,180,143
+American Pale Ale (APA),Bale Breaker Brewing Company,181,144
+American IPA,Ballast Point Brewing Company,182,145
+American IPA,Ballast Point Brewing Company,183,145
+Kölsch,Ballast Point Brewing Company,184,146
+American IPA,Ballast Point Brewing Company,185,145
+Munich Helles Lager,Ballast Point Brewing Company,186,147
+American IPA,Ballast Point Brewing Company,187,145
+Extra Special / Strong Bitter (ESB),Banner Beer Company,188,148
+Rye Beer,Banner Beer Company,189,149
+American Amber / Red Ale,Banner Beer Company,190,150
+American IPA,Bare Hands Brewery,191,151
+American IPA,Barrio Brewing Company,192,152
+American Blonde Ale,Barrio Brewing Company,193,153
+American Pilsner,Base Camp Brewing Co.,194,154
+American IPA,Base Camp Brewing Co.,195,155
+American Pale Lager,Base Camp Brewing Co.,196,156
+Witbier,Base Camp Brewing Co.,197,157
+Euro Dark Lager,Base Camp Brewing Co.,198,158
+California Common / Steam Beer,Bauhaus Brew Labs,199,159
+American IPA,Bauhaus Brew Labs,200,160
+Schwarzbier,Bauhaus Brew Labs,201,161
+German Pilsener,Bauhaus Brew Labs,202,162
+California Common / Steam Beer,Baxter Brewing Company,203,163
+Hefeweizen,Baxter Brewing Company,204,164
+American Pale Wheat Ale,Baxter Brewing Company,205,165
+Foreign / Export Stout,Baxter Brewing Company,206,166
+Rye Beer,Baxter Brewing Company,207,167
+American Pale Wheat Ale,Baxter Brewing Company,208,165
+American Amber / Red Ale,Baxter Brewing Company,209,168
+American Pale Ale (APA),Baxter Brewing Company,210,169
+American IPA,Baxter Brewing Company,211,170
+American Double / Imperial IPA,Beach Brewing Company,212,171
+Fruit / Vegetable Beer,Beer Works Brewery,213,172
+American Pale Ale (APA),Beer Works Brewery,214,173
+American IPA,Beer Works Brewery,215,174
+Other,Beer Works Brewery,216,175
+American Pale Wheat Ale,Bell's Brewery,217,176
+Rye Beer,Bell's Brewery,218,177
+Witbier,Bell's Brewery,219,178
+American Pale Wheat Ale,Bell's Brewery,220,176
+American IPA,Bell's Brewery,221,179
+American Brown Ale,Bell's Brewery,222,180
+English India Pale Ale (IPA),Bent Brewstillery,223,181
+American Double / Imperial IPA,Bent Brewstillery,224,182
+American Blonde Ale,Bent Brewstillery,225,183
+American Black Ale,Bent Paddle Brewing Company,226,184
+American IPA,Bent Paddle Brewing Company,227,185
+Extra Special / Strong Bitter (ESB),Bent Paddle Brewing Company,228,186
+American IPA,Bent Paddle Brewing Company,229,185
+American Black Ale,Bent Paddle Brewing Company,230,184
+German Pilsener,Bent Paddle Brewing Company,231,187
+English India Pale Ale (IPA),Berkshire Brewing Company,232,188
+American Pale Ale (APA),Berkshire Brewing Company,233,189
+American IPA,Big Bend Brewing Company,234,190
+Czech Pilsener,Big Bend Brewing Company,235,191
+American Porter,Big Bend Brewing Company,236,192
+Hefeweizen,Big Bend Brewing Company,237,193
+American Blonde Ale,Big Bend Brewing Company,238,194
+American Strong Ale,Big Choice Brewing,239,195
+American Double / Imperial IPA,Big Choice Brewing,240,196
+California Common / Steam Beer,Big Choice Brewing,241,197
+American Amber / Red Ale,Big Choice Brewing,242,198
+American IPA,Big Elm Brewing,243,199
+American Stout,Big Elm Brewing,244,200
+Saison / Farmhouse Ale,Big Elm Brewing,245,201
+American Stout,Big Lake Brewing,246,202
+American IPA,Big Lake Brewing,247,203
+Fruit / Vegetable Beer,Big Muddy Brewing,248,204
+American IPA,Big Muddy Brewing,249,205
+Czech Pilsener,Big River Brewing Company,250,206
+American IPA,Big River Brewing Company,251,207
+American IPA,Big Sky Brewing Company,252,208
+English Pale Ale,Big Sky Brewing Company,253,209
+American Pale Wheat Ale,Big Sky Brewing Company,254,210
+American Brown Ale,Big Sky Brewing Company,255,211
+English Strong Ale,Big Sky Brewing Company,256,212
+American Brown Ale,Big Sky Brewing Company,257,211
+American Pale Wheat Ale,Big Sky Brewing Company,258,210
+American IPA,Big Sky Brewing Company,259,208
+American Blonde Ale,Big Sky Brewing Company,260,213
+English Pale Ale,Big Sky Brewing Company,261,209
+American Pale Wheat Ale,Big Sky Brewing Company,262,210
+American Brown Ale,Big Sky Brewing Company,263,211
+American IPA,Big Storm Brewing Company,264,214
+American Amber / Red Ale,Big Storm Brewing Company,265,215
+American Pale Ale (APA),Big Wood Brewery,266,216
+Rye Beer,Big Wood Brewery,267,217
+American Double / Imperial IPA,Big Wood Brewery,268,218
+Oatmeal Stout,Big Wood Brewery,269,219
+American IPA,Big Wood Brewery,270,220
+American Pale Ale (APA),Birdsong Brewing Company,271,221
+American Brown Ale,Bitter Root Brewing,272,222
+American Pale Ale (APA),Bitter Root Brewing,273,223
+American Blonde Ale,Bitter Root Brewing,274,224
+Rye Beer,Black Acre Brewing Co.,275,225
+American Blonde Ale,Black Market Brewing Company,276,226
+American IPA,Black Market Brewing Company,277,227
+Hefeweizen,Black Market Brewing Company,278,228
+American Pale Ale (APA),Black Market Brewing Company,279,229
+American Strong Ale,Black Shirt Brewing Company,280,230
+American Porter,Black Shirt Brewing Company,281,231
+Saison / Farmhouse Ale,Black Shirt Brewing Company,282,232
+American Amber / Red Ale,Black Shirt Brewing Company,283,233
+American Brown Ale,Black Tooth Brewing Company,284,234
+American Amber / Red Ale,Black Tooth Brewing Company,285,235
+Rye Beer,Blackrocks Brewery,286,236
+American IPA,Blackrocks Brewery,287,237
+Foreign / Export Stout,Blackrocks Brewery,288,238
+American Pale Wheat Ale,Blackrocks Brewery,289,239
+American Brown Ale,Blackrocks Brewery,290,240
+American IPA,Blackrocks Brewery,291,237
+Cream Ale,Blackrocks Brewery,292,241
+American Pale Wheat Ale,Blue Blood Brewing Company,293,242
+American Pilsner,Blue Blood Brewing Company,294,243
+American Brown Ale,Blue Blood Brewing Company,295,244
+American Amber / Red Ale,Blue Blood Brewing Company,296,245
+American Double / Imperial IPA,Blue Blood Brewing Company,297,246
+German Pilsener,Blue Blood Brewing Company,298,247
+American Double / Imperial IPA,Blue Blood Brewing Company,299,246
+American Stout,Blue Blood Brewing Company,300,248
+Saison / Farmhouse Ale,Blue Blood Brewing Company,301,249
+American Pale Ale (APA),Blue Blood Brewing Company,302,250
+Extra Special / Strong Bitter (ESB),Blue Blood Brewing Company,303,251
+Extra Special / Strong Bitter (ESB),Blue Blood Brewing Company,304,251
+Extra Special / Strong Bitter (ESB),Blue Blood Brewing Company,305,251
+American Pale Ale (APA),Blue Blood Brewing Company,306,250
+Mead,Blue Dog Mead,307,252
+Mead,Blue Dog Mead,308,252
+American Double / Imperial IPA,Blue Hills Brewery,309,253
+American Pale Ale (APA),Blue Mountain Brewery,310,254
+Extra Special / Strong Bitter (ESB),Blue Mountain Brewery,311,255
+Euro Pale Lager,Blue Mountain Brewery,312,256
+American Pale Ale (APA),Blue Mountain Brewery,313,254
+Kölsch,Blue Mountain Brewery,314,257
+American Stout,Blue Owl Brewing,315,258
+American Pale Wheat Ale,Blue Owl Brewing,316,259
+American Amber / Red Ale,Blue Owl Brewing,317,260
+American Pale Ale (APA),Blue Owl Brewing,318,261
+American Black Ale,Blue Point Brewing Company,319,262
+American White IPA,Blue Point Brewing Company,320,263
+American Blonde Ale,Blue Point Brewing Company,321,264
+Vienna Lager,Blue Point Brewing Company,322,265
+Dortmunder / Export Lager,Bohemian Brewery,323,266
+Altbier,Bohemian Brewery,324,267
+Schwarzbier,Bohemian Brewery,325,268
+Czech Pilsener,Bohemian Brewery,326,269
+Vienna Lager,Bohemian Brewery,327,270
+American IPA,Bold City Brewery,328,271
+Cream Ale,Bold City Brewery,329,272
+American Brown Ale,Bold City Brewery,330,273
+American IPA,Bolero Snort Brewery,331,274
+Irish Dry Stout,Bolero Snort Brewery,332,275
+Munich Helles Lager,Bomb Beer Company,333,276
+Munich Helles Lager,Bomb Beer Company,334,276
+American IPA,Bonfire Brewing Company,335,277
+Scotch Ale / Wee Heavy,Bonfire Brewing Company,336,278
+Czech Pilsener,Bonfire Brewing Company,337,279
+Märzen / Oktoberfest,Bonfire Brewing Company,338,280
+English India Pale Ale (IPA),Bonfire Brewing Company,339,281
+American Blonde Ale,Bonfire Brewing Company,340,282
+American IPA,Bonfire Brewing Company,341,277
+American Blonde Ale,Bonfire Brewing Company,342,282
+American Blonde Ale,Bonfire Brewing Company,343,282
+Extra Special / Strong Bitter (ESB),Bonfire Brewing Company,344,283
+Munich Dunkel Lager,Bonfire Brewing Company,345,284
+American Pale Ale (APA),Bonfire Brewing Company,346,285
+Winter Warmer,Bonfire Brewing Company,347,286
+American Porter,Bonfire Brewing Company,348,287
+American Pale Ale (APA),Bonfire Brewing Company,349,285
+American Brown Ale,Bonfire Brewing Company,350,288
+Czech Pilsener,Bonfire Brewing Company,351,279
+American Blonde Ale,Bonfire Brewing Company,352,282
+American IPA,Bonfire Brewing Company,353,277
+American Porter,Borderlands Brewing Company,354,289
+Radler,Boston Beer Company,355,290
+American IPA,Boston Beer Company,356,291
+Witbier,Boston Beer Company,357,292
+Bock,Boston Beer Company,358,293
+Vienna Lager,Boston Beer Company,359,294
+Vienna Lager,Boston Beer Company,360,294
+Märzen / Oktoberfest,Boston Beer Company,361,295
+American Pale Wheat Ale,Boston Beer Company,362,296
+Vienna Lager,Boston Beer Company,363,294
+American Pale Ale (APA),Boulder Beer Company,364,297
+American Pale Ale (APA),Boulder Beer Company,365,297
+American Pale Ale (APA),Boulder Beer Company,366,297
+American IPA,Boulevard Brewing Company,367,298
+American Pale Ale (APA),Boxcar Brewing Company,368,299
+American IPA,Boxcar Brewing Company,369,300
+English Dark Mild Ale,Boxcar Brewing Company,370,301
+American Porter,Bozeman Brewing Company,371,302
+American Porter,Bozeman Brewing Company,372,302
+American IPA,Bozeman Brewing Company,373,303
+Hefeweizen,Bozeman Brewing Company,374,304
+American Amber / Red Ale,Bozeman Brewing Company,375,305
+American Amber / Red Ale,Branchline Brewing Company,376,306
+Kölsch,Breakside Brewery,377,307
+American Pale Wheat Ale,Breckenridge Brewery,378,308
+American Pale Wheat Ale,Breckenridge Brewery,379,308
+American IPA,Breckenridge Brewery,380,309
+American Amber / Red Ale,Breckenridge Brewery,381,310
+Fruit / Vegetable Beer,Brew Bus Brewing,382,311
+American IPA,Brew Bus Brewing,383,312
+Irish Red Ale,Brew Bus Brewing,384,313
+American Pale Wheat Ale,Brew Bus Brewing,385,314
+American Pale Ale (APA),Brew Link Brewing,386,315
+American Amber / Red Ale,Brewery Terra Firma,387,316
+Saison / Farmhouse Ale,Brewery Vivant,388,317
+Belgian Pale Ale,Brewery Vivant,389,318
+American Double / Imperial Stout,Brewery Vivant,390,319
+American IPA,Brewery Vivant,391,320
+Rauchbier,Brewery Vivant,392,321
+Bière de Garde,Brewery Vivant,393,322
+Belgian IPA,Brewery Vivant,394,323
+Doppelbock,Brewery Vivant,395,324
+Saison / Farmhouse Ale,Brewery Vivant,396,317
+Witbier,Brewery Vivant,397,325
+Belgian IPA,Brewery Vivant,398,323
+Saison / Farmhouse Ale,Brewery Vivant,399,317
+Belgian IPA,Brewery Vivant,400,323
+Saison / Farmhouse Ale,Brewery Vivant,401,317
+Rye Beer,Brewery Vivant,402,326
+Dunkelweizen,Brewery Vivant,403,327
+Belgian Strong Pale Ale,Brewery Vivant,404,328
+Dubbel,Brewery Vivant,405,329
+Belgian Dark Ale,Brewery Vivant,406,330
+Belgian Dark Ale,Brewery Vivant,407,330
+Belgian Pale Ale,Brewery Vivant,408,318
+Witbier,Brewery Vivant,409,325
+Oatmeal Stout,Brewery Vivant,410,331
+American Porter,Brewery Vivant,411,332
+Quadrupel (Quad),Brewery Vivant,412,333
+Rauchbier,Brewery Vivant,413,321
+Belgian IPA,Brewery Vivant,414,323
+Belgian Dark Ale,Brewery Vivant,415,330
+Belgian IPA,Brewery Vivant,416,323
+Rye Beer,Brewery Vivant,417,326
+American Stout,Brewery Vivant,418,334
+Fruit / Vegetable Beer,Brewery Vivant,419,335
+Belgian Dark Ale,Brewery Vivant,420,330
+Belgian Dark Ale,Brewery Vivant,421,330
+Belgian Pale Ale,Brewery Vivant,422,318
+Bière de Garde,Brewery Vivant,423,322
+Belgian Dark Ale,Brewery Vivant,424,330
+Witbier,Brewery Vivant,425,325
+American Stout,Brewery Vivant,426,334
+Belgian IPA,Brewery Vivant,427,323
+American Wild Ale,Brewery Vivant,428,336
+Fruit / Vegetable Beer,Brewery Vivant,429,335
+American Double / Imperial IPA,Brewery Vivant,430,337
+Bière de Garde,Brewery Vivant,431,322
+American Black Ale,Brewery Vivant,432,338
+Saison / Farmhouse Ale,Brewery Vivant,433,317
+Tripel,Brewery Vivant,434,339
+Belgian Dark Ale,Brewery Vivant,435,330
+American Amber / Red Ale,Brewery Vivant,436,340
+Quadrupel (Quad),Brewery Vivant,437,333
+American Double / Imperial Stout,Brewery Vivant,438,319
+American Wild Ale,Brewery Vivant,439,336
+Bière de Garde,Brewery Vivant,440,322
+Russian Imperial Stout,Brewery Vivant,441,341
+American Amber / Red Ale,Brewery Vivant,442,340
+Saison / Farmhouse Ale,Brewery Vivant,443,317
+Tripel,Brewery Vivant,444,339
+Belgian IPA,Brewery Vivant,445,323
+Belgian Strong Dark Ale,Brewery Vivant,446,342
+Saison / Farmhouse Ale,Brewery Vivant,447,317
+Belgian Pale Ale,Brewery Vivant,448,318
+Belgian IPA,Brewery Vivant,449,323
+American Pale Ale (APA),Brindle Dog Brewing Company,450,343
+American Pale Wheat Ale,Brindle Dog Brewing Company,451,344
+American Amber / Red Ale,Broad Brook Brewing LLC,452,345
+American Amber / Red Ale,Broken Tooth Brewing Company,453,346
+American Pale Ale (APA),Broken Tooth Brewing Company,454,347
+Cream Ale,Broken Tooth Brewing Company,455,348
+American IPA,Broken Tooth Brewing Company,456,349
+English India Pale Ale (IPA),Brooklyn Brewery,457,350
+English Pale Mild Ale,Brooklyn Brewery,458,351
+English India Pale Ale (IPA),Brooklyn Brewery,459,350
+English Pale Mild Ale,Brooklyn Brewery,460,351
+American Amber / Red Lager,Brooklyn Brewery,461,352
+American Amber / Red Lager,Brooklyn Brewery,462,352
+Belgian IPA,Buckbean Brewing Company,463,353
+Maibock / Helles Bock,Buckbean Brewing Company,464,354
+American Black Ale,Buckbean Brewing Company,465,355
+Schwarzbier,Buckbean Brewing Company,466,356
+American Amber / Red Ale,Buckbean Brewing Company,467,357
+Herbed / Spiced Beer,Buckbean Brewing Company,468,358
+Schwarzbier,Buckbean Brewing Company,469,356
+Munich Helles Lager,Buckeye Brewing,470,359
+American Pale Ale (APA),BuckleDown Brewing,471,360
+American Blonde Ale,Buffalo Bayou Brewing Company,472,361
+Witbier,Buffalo Bayou Brewing Company,473,362
+American Double / Imperial IPA,Buffalo Bayou Brewing Company,474,363
+American Brown Ale,Burn 'Em Brewing,475,364
+American Black Ale,Burn 'Em Brewing,476,365
+Fruit / Vegetable Beer,Burn 'Em Brewing,477,366
+American Pale Ale (APA),Burn 'Em Brewing,478,367
+American Double / Imperial IPA,Burn 'Em Brewing,479,368
+Cream Ale,Burn 'Em Brewing,480,369
+American Pale Wheat Ale,Burn 'Em Brewing,481,370
+American Pale Wheat Ale,Burn 'Em Brewing,482,370
+American IPA,Burn 'Em Brewing,483,371
+American IPA,Burn 'Em Brewing,484,371
+American Pale Ale (APA),Burn 'Em Brewing,485,367
+American Pale Lager,Burnside Brewing Co.,486,372
+American Pale Ale (APA),Butcher's Brewing,487,373
+Hefeweizen,Butternuts Beer and Ale,488,374
+American IPA,Butternuts Beer and Ale,489,375
+Milk / Sweet Stout,Butternuts Beer and Ale,490,376
+American Pale Ale (APA),Butternuts Beer and Ale,491,377
+American Double / Imperial Stout,COAST Brewing Company,492,378
+American Brown Ale,COAST Brewing Company,493,379
+American Pale Ale (APA),COAST Brewing Company,494,380
+Kölsch,COAST Brewing Company,495,381
+American IPA,COAST Brewing Company,496,382
+American Double / Imperial IPA,COAST Brewing Company,497,383
+American Porter,COOP Ale Works,498,384
+American Blonde Ale,COOP Ale Works,499,385
+American Amber / Red Ale,COOP Ale Works,500,386
+American IPA,COOP Ale Works,501,387
+American Amber / Red Ale,COOP Ale Works,502,386
+American Blonde Ale,COOP Ale Works,503,385
+American IPA,Caldera Brewing Company,504,388
+American Porter,Caldera Brewing Company,505,389
+American Pale Ale (APA),Caldera Brewing Company,506,390
+American Adjunct Lager,Caldera Brewing Company,507,391
+American Amber / Red Ale,Caldera Brewing Company,508,392
+American IPA,Caldera Brewing Company,509,388
+American IPA,Caldera Brewing Company,510,388
+American Pale Ale (APA),Caldera Brewing Company,511,390
+American Pale Ale (APA),Caldera Brewing Company,512,390
+American Pale Ale (APA),Caldera Brewing Company,513,390
+American Pale Ale (APA),Caldera Brewing Company,514,390
+American Pale Ale (APA),Caldera Brewing Company,515,390
+American Amber / Red Ale,Caldera Brewing Company,516,392
+American IPA,Caldera Brewing Company,517,388
+American Pilsner,Cambridge Brewing Company,518,393
+American IPA,Cambridge Brewing Company,519,394
+Witbier,Cans Bar and Canteen,520,395
+American Amber / Red Ale,Cans Bar and Canteen,521,396
+American Blonde Ale,Cans Bar and Canteen,522,397
+English Dark Mild Ale,Cans Bar and Canteen,523,398
+Pumpkin Ale,Cape Ann Brewing Company,524,399
+American Double / Imperial IPA,Cape Ann Brewing Company,525,400
+American IPA,Cape Ann Brewing Company,526,401
+German Pilsener,Cape Ann Brewing Company,527,402
+American Amber / Red Ale,Cape Ann Brewing Company,528,403
+American Amber / Red Ale,Cape Cod Beer,529,404
+American Blonde Ale,Cape Cod Beer,530,405
+American Black Ale,Capital Brewery,531,406
+Vienna Lager,Capital Brewery,532,407
+Munich Helles Lager,Capital Brewery,533,408
+American IPA,Capital Brewery,534,409
+Munich Helles Lager,Capital Brewery,535,408
+American IPA,Capital Brewery,536,409
+Vienna Lager,Capital Brewery,537,407
+American Pale Wheat Ale,Capital Brewery,538,410
+Vienna Lager,Capital Brewery,539,407
+American Pale Ale (APA),Capital Brewery,540,411
+American Pale Lager,Capital Brewery,541,412
+American Blonde Ale,Carolina Beer & Beverage,542,413
+American Blonde Ale,Carolina Beer & Beverage,543,413
+American Blonde Ale,Carolina Beer & Beverage,544,413
+Winter Warmer,Carolina Brewery,545,414
+English India Pale Ale (IPA),Carolina Brewery,546,415
+Kölsch,Carolina Brewery,547,416
+American Black Ale,Carton Brewing Company,548,417
+Berliner Weissbier,Carton Brewing Company,549,418
+American Double / Imperial IPA,Carton Brewing Company,550,419
+American IPA,Carton Brewing Company,551,420
+Cider,Cascadia Ciderworks United,552,421
+Cider,Cascadia Ciderworks United,553,421
+Cream Ale,Catawba Brewing Company,554,422
+American IPA,Catawba Brewing Company,555,423
+Witbier,Catawba Brewing Company,556,424
+Winter Warmer,Catawba Brewing Company,557,425
+Witbier,Catawba Brewing Company,558,424
+American IPA,Catawba Brewing Company,559,423
+Cream Ale,Catawba Brewing Company,560,422
+Witbier,Catawba Island Brewing,561,426
+Scottish Ale,Catawba Island Brewing,562,427
+American Brown Ale,Catawba Valley Brewing Company,563,428
+American Porter,Catawba Valley Brewing Company,564,429
+American Double / Imperial IPA,Cedar Creek Brewery,565,430
+,Cedar Creek Brewery,566,431
+American IPA,Cedar Creek Brewery,567,432
+Smoked Beer,Cedar Creek Brewery,568,433
+American Pale Ale (APA),Cedar Creek Brewery,569,434
+Cream Ale,Cedar Creek Brewery,570,435
+American Blonde Ale,Centennial Beer Company,571,436
+American Amber / Red Ale,Centennial Beer Company,572,437
+Altbier,Center of the Universe Brewing C...,573,438
+American Amber / Red Lager,Center of the Universe Brewing C...,574,439
+Altbier,Center of the Universe Brewing C...,575,438
+American Pale Ale (APA),Center of the Universe Brewing C...,576,440
+Herbed / Spiced Beer,Central Coast Brewing Company,577,441
+American IPA,Central Coast Brewing Company,578,442
+American Double / Imperial IPA,Central Coast Brewing Company,579,443
+American Black Ale,Central Coast Brewing Company,580,444
+Rye Beer,Champion Brewing Company,581,445
+American Stout,Champion Brewing Company,582,446
+Kölsch,Champion Brewing Company,583,447
+American IPA,Champion Brewing Company,584,448
+Kölsch,Chapman's Brewing,585,449
+Fruit / Vegetable Beer,Chapman's Brewing,586,450
+American Pale Ale (APA),Chapman's Brewing,587,451
+English Brown Ale,Chapman's Brewing,588,452
+American Strong Ale,Chatham Brewing,589,453
+Märzen / Oktoberfest,Chatham Brewing,590,454
+American IPA,Cheboygan Brewing Company,591,455
+Fruit / Vegetable Beer,Cheboygan Brewing Company,592,456
+Altbier,Cheboygan Brewing Company,593,457
+American Double / Imperial IPA,Christian Moerlein Brewing Company,594,458
+American Pilsner,Churchkey Can Company,595,459
+Cider,Ciderboys,596,460
+Cider,Ciderboys,597,460
+Bock,Cigar City Brewing Company,598,461
+American IPA,Cigar City Brewing Company,599,462
+American Black Ale,Cigar City Brewing Company,600,463
+American Brown Ale,Cigar City Brewing Company,601,464
+Märzen / Oktoberfest,Cigar City Brewing Company,602,465
+American Porter,Cigar City Brewing Company,603,466
+American IPA,Cigar City Brewing Company,604,462
+American IPA,Cigar City Brewing Company,605,462
+American IPA,Cigar City Brewing Company,606,462
+American Pale Ale (APA),Cigar City Brewing Company,607,467
+American IPA,Cigar City Brewing Company,608,462
+American IPA,Cigar City Brewing Company,609,462
+American IPA,Cigar City Brewing Company,610,462
+American Pale Ale (APA),Cigar City Brewing Company,611,467
+American Pale Wheat Ale,Cigar City Brewing Company,612,468
+American IPA,Cigar City Brewing Company,613,462
+American IPA,Cigar City Brewing Company,614,462
+American Porter,Cigar City Brewing Company,615,466
+American Pale Ale (APA),Cigar City Brewing Company,616,467
+English Brown Ale,Cigar City Brewing Company,617,469
+American Brown Ale,Cigar City Brewing Company,618,464
+Munich Helles Lager,Cigar City Brewing Company,619,470
+American Amber / Red Ale,Cigar City Brewing Company,620,471
+American IPA,Cigar City Brewing Company,621,462
+Witbier,Cigar City Brewing Company,622,472
+Light Lager,Cisco Brewers,623,473
+Pumpkin Ale,Cisco Brewers,624,474
+Witbier,Cisco Brewers,625,475
+Munich Helles Lager,Cisco Brewers,626,476
+American IPA,Cisco Brewers,627,477
+Light Lager,Cisco Brewers,628,473
+English Pale Ale,Cisco Brewers,629,478
+American IPA,Claremont Craft Ales,630,479
+American Black Ale,Coalition Brewing Company,631,480
+American Pale Wheat Ale,Coalition Brewing Company,632,481
+American Blonde Ale,Coastal Empire Beer Company,633,482
+American Brown Ale,Coastal Empire Beer Company,634,483
+Kölsch,Coastal Extreme Brewing Company,635,484
+American IPA,Coastal Extreme Brewing Company,636,485
+American Amber / Red Ale,Coastal Extreme Brewing Company,637,486
+American Amber / Red Ale,Coastal Extreme Brewing Company,638,486
+Fruit / Vegetable Beer,College Street Brewhouse and Pub,639,487
+American IPA,Confluence Brewing Company,640,488
+German Pilsener,Confluence Brewing Company,641,489
+American Blonde Ale,Confluence Brewing Company,642,490
+American Pilsner,Core Brewing & Distilling Company,643,491
+American Amber / Red Ale,Core Brewing & Distilling Company,644,492
+Oatmeal Stout,Core Brewing & Distilling Company,645,493
+Extra Special / Strong Bitter (ESB),Core Brewing & Distilling Company,646,494
+American Pale Lager,Cottrell Brewing,647,495
+Kölsch,Covington Brewhouse,648,496
+American Blonde Ale,Crabtree Brewing Company,649,497
+Oatmeal Stout,Crabtree Brewing Company,650,498
+American Black Ale,Crabtree Brewing Company,651,499
+American Pale Ale (APA),Crazy Mountain Brewing Company,652,500
+Belgian Strong Pale Ale,Crazy Mountain Brewing Company,653,501
+American Stout,Crazy Mountain Brewing Company,654,502
+American Amber / Red Ale,Crazy Mountain Brewing Company,655,503
+American Amber / Red Ale,Crazy Mountain Brewing Company,656,503
+Witbier,Crazy Mountain Brewing Company,657,504
+American Pale Ale (APA),Crazy Mountain Brewing Company,658,500
+American Amber / Red Ale,Crazy Mountain Brewing Company,659,503
+American IPA,Creature Comforts,660,505
+Berliner Weissbier,Creature Comforts,661,506
+American Blonde Ale,Crooked Fence Brewing Company,662,507
+American Porter,Crooked Fence Brewing Company,663,508
+American Pale Ale (APA),Crooked Fence Brewing Company,664,509
+American Amber / Red Ale,Crow Peak Brewing Company,665,510
+Herbed / Spiced Beer,Crow Peak Brewing Company,666,511
+American Brown Ale,Crow Peak Brewing Company,667,512
+American Blonde Ale,Crow Peak Brewing Company,668,513
+Cream Ale,Crow Peak Brewing Company,669,514
+American Porter,Crow Peak Brewing Company,670,515
+American IPA,Crow Peak Brewing Company,671,516
+American Amber / Red Ale,Crystal Springs Brewing Company,672,517
+Kölsch,Crystal Springs Brewing Company,673,518
+American Blonde Ale,Cutters Brewing Company,674,519
+Witbier,Cutters Brewing Company,675,520
+Scottish Ale,Cutters Brewing Company,676,521
+American IPA,Cutters Brewing Company,677,522
+English Pale Ale,D.L. Geary Brewing Company,678,523
+Kölsch,D.L. Geary Brewing Company,679,524
+Scotch Ale / Wee Heavy,DC Brau Brewing Company,680,525
+American Blonde Ale,DC Brau Brewing Company,681,526
+Hefeweizen,DC Brau Brewing Company,682,527
+American Porter,DC Brau Brewing Company,683,528
+American Double / Imperial IPA,DC Brau Brewing Company,684,529
+American IPA,DC Brau Brewing Company,685,530
+Belgian Pale Ale,DC Brau Brewing Company,686,531
+American Pale Ale (APA),DC Brau Brewing Company,687,532
+American IPA,Dad & Dude's Breweria,688,533
+American IPA,Dad & Dude's Breweria,689,533
+American IPA,Daredevil Brewing Company,690,534
+American Pale Lager,Dave's Brewfarm,691,535
+American Blonde Ale,David's Ale Works,692,536
+American Pale Ale (APA),David's Ale Works,693,537
+American Amber / Red Ale,Dead Armadillo Craft Brewing,694,538
+Euro Pale Lager,Deep Ellum Brewing Company,695,539
+American Brown Ale,Deep Ellum Brewing Company,696,540
+American Double / Imperial IPA,Deep Ellum Brewing Company,697,541
+American Pale Ale (APA),Deep Ellum Brewing Company,698,542
+Baltic Porter,Deep Ellum Brewing Company,699,543
+Saison / Farmhouse Ale,Deep Ellum Brewing Company,700,544
+German Pilsener,Deep Ellum Brewing Company,701,545
+American Blonde Ale,Deep Ellum Brewing Company,702,546
+American IPA,Deep Ellum Brewing Company,703,547
+American IPA,Defiance Brewing Company,704,548
+English Pale Mild Ale,Defiance Brewing Company,705,549
+Irish Dry Stout,Denali Brewing Company,706,550
+American Blonde Ale,Denali Brewing Company,707,551
+American IPA,Denali Brewing Company,708,552
+Irish Red Ale,Denali Brewing Company,709,553
+American IPA,Denver Beer Company,710,554
+American Porter,Denver Beer Company,711,555
+American Pale Ale (APA),Deschutes Brewery,712,556
+Hefeweizen,Destihl Brewery,713,557
+Abbey Single Ale,Destihl Brewery,714,558
+American IPA,Destihl Brewery,715,559
+Gose,Destihl Brewery,716,560
+Fruit / Vegetable Beer,Destihl Brewery,717,561
+American Double / Imperial IPA,Destihl Brewery,718,562
+Abbey Single Ale,Destihl Brewery,719,558
+American Pale Ale (APA),Devil's Backbone Brewing Company,720,563
+American Pale Ale (APA),Devil's Backbone Brewing Company,721,563
+American Amber / Red Ale,Devil's Canyon Brewery,722,564
+American Black Ale,Devil's Canyon Brewery,723,565
+American IPA,Devil's Canyon Brewery,724,566
+Scotch Ale / Wee Heavy,Devil's Canyon Brewery,725,567
+American Pale Ale (APA),Dick's Brewing Company,726,568
+American IPA,Dirty Bucket Brewing Company,727,569
+American Amber / Red Ale,Dock Street Brewery,728,570
+Hefeweizen,Dolores River Brewery,729,571
+Extra Special / Strong Bitter (ESB),Dolores River Brewery,730,572
+American Double / Imperial IPA,Dolores River Brewery,731,573
+American Pale Ale (APA),Dolores River Brewery,732,574
+Irish Dry Stout,Dolores River Brewery,733,575
+English Dark Mild Ale,Dolores River Brewery,734,576
+Cider,Downeast Cider House,735,577
+Cider,Downeast Cider House,736,577
+American IPA,Dry Dock Brewing Company,737,578
+Fruit / Vegetable Beer,Dry Dock Brewing Company,738,579
+Hefeweizen,Dry Dock Brewing Company,739,580
+American Amber / Red Ale,Dry Dock Brewing Company,740,581
+American IPA,Due South Brewing Company,741,582
+American Pale Wheat Ale,Dundee Brewing Company,742,583
+Pumpkin Ale,Eddyline Brewery & Restaurant,743,584
+American IPA,Eddyline Brewery & Restaurant,744,585
+American Pale Ale (APA),Eddyline Brewery & Restaurant,745,586
+Pumpkin Ale,Eddyline Brewery & Restaurant,746,584
+Fruit / Vegetable Beer,Eddyline Brewery & Restaurant,747,587
+German Pilsener,Eddyline Brewery & Restaurant,748,588
+American IPA,Eddyline Brewery & Restaurant,749,585
+Extra Special / Strong Bitter (ESB),Elevator Brewing Company,750,589
+American Amber / Red Lager,Emerald City Beer Company,751,590
+American Brown Ale,Engine 15 Brewing,752,591
+American Adjunct Lager,Engine House 9,753,592
+Fruit / Vegetable Beer,Epic Brewing,754,593
+American Pale Ale (APA),Epic Brewing,755,594
+American Pale Lager,Epic Brewing,756,595
+American IPA,Epic Brewing,757,596
+American IPA,Everybody's Brewing,758,597
+American IPA,Everybody's Brewing,759,597
+American Blonde Ale,Evil Czech Brewery,760,598
+Belgian IPA,Evil Czech Brewery,761,599
+American Pale Wheat Ale,Evil Czech Brewery,762,600
+American Pale Ale (APA),Evil Czech Brewery,763,601
+American Porter,Evil Czech Brewery,764,602
+Czech Pilsener,Evil Czech Brewery,765,603
+Berliner Weissbier,Evil Twin Brewing,766,604
+American Double / Imperial IPA,Evil Twin Brewing,767,605
+American Pale Ale (APA),Evil Twin Brewing,768,606
+American IPA,Evil Twin Brewing,769,607
+American Pale Ale (APA),Evil Twin Brewing,770,606
+American Pale Ale (APA),Fargo Brewing Company,771,608
+Scottish Ale,Fargo Brewing Company,772,609
+American IPA,Fargo Brewing Company,773,610
+American Pale Ale (APA),Fat Head's Brewery,774,611
+American IPA,Fat Head's Brewery,775,612
+American Stout,Fate Brewing Company,776,613
+Belgian Pale Ale,Fate Brewing Company,777,614
+Roggenbier,Fate Brewing Company,778,615
+Kölsch,Fate Brewing Company,779,616
+American IPA,Fate Brewing Company,780,617
+American Amber / Red Ale,Fearless Brewing Company,781,618
+Fruit / Vegetable Beer,Fearless Brewing Company,782,619
+American IPA,Fearless Brewing Company,783,620
+American Amber / Red Ale,Fearless Brewing Company,784,618
+American Double / Imperial IPA,Fearless Brewing Company,785,621
+Scottish Ale,Fearless Brewing Company,786,622
+American Double / Imperial IPA,Fiddlehead Brewing Company,787,623
+American Double / Imperial IPA,Fiddlehead Brewing Company,788,623
+American Double / Imperial IPA,Fiddlehead Brewing Company,789,623
+American Porter,Fiddlehead Brewing Company,790,624
+Kristalweizen,Figueroa Mountain Brewing Company,791,625
+Czech Pilsener,Figueroa Mountain Brewing Company,792,626
+Kölsch,Figueroa Mountain Brewing Company,793,627
+American Double / Imperial IPA,Finch's Beer Company,794,628
+American Black Ale,Finch's Beer Company,795,629
+Belgian Strong Dark Ale,Finch's Beer Company,796,630
+American Pale Wheat Ale,Finch's Beer Company,797,631
+American Stout,Finch's Beer Company,798,632
+American Amber / Red Ale,Finch's Beer Company,799,633
+American Pale Ale (APA),Finch's Beer Company,800,634
+American IPA,Finch's Beer Company,801,635
+American Pale Ale (APA),Finch's Beer Company,802,634
+American Blonde Ale,Finch's Beer Company,803,636
+American IPA,Firestone Walker Brewing Company,804,637
+American IPA,Firestone Walker Brewing Company,805,637
+German Pilsener,Firestone Walker Brewing Company,806,638
+American Blonde Ale,Firestone Walker Brewing Company,807,639
+American Blonde Ale,Firestone Walker Brewing Company,808,639
+Doppelbock,Flat 12 Bierwerks,809,640
+American Blonde Ale,Flat 12 Bierwerks,810,641
+American IPA,Flat 12 Bierwerks,811,642
+American IPA,Flat Rock Brewing Company,812,643
+American Pale Ale (APA),Flesk Brewing Company,813,644
+American IPA,Flying Dog Brewery,814,645
+American Pale Lager,Flying Dog Brewery,815,646
+American Porter,Flying Mouse Brewery,816,647
+American IPA,Flying Mouse Brewery,817,648
+Saison / Farmhouse Ale,Foolproof Brewing Company,818,649
+American IPA,Foolproof Brewing Company,819,650
+American Porter,Foolproof Brewing Company,820,651
+American Blonde Ale,Foolproof Brewing Company,821,652
+Witbier,Forgotten Boardwalk,822,653
+American IPA,Forgotten Boardwalk,823,654
+Belgian Pale Ale,Fort George Brewery,824,655
+American IPA,Fort George Brewery,825,656
+American IPA,Fort George Brewery,826,656
+American IPA,Fort George Brewery,827,656
+American Black Ale,Fort George Brewery,828,657
+American IPA,Fort George Brewery,829,656
+American Pale Ale (APA),Fort George Brewery,830,658
+Witbier,Fort George Brewery,831,659
+American Pale Ale (APA),Fort George Brewery,832,658
+American Double / Imperial Stout,Fort George Brewery,833,660
+American Amber / Red Lager,Fort George Brewery,834,661
+American IPA,Fort George Brewery,835,656
+American Amber / Red Ale,Fort Pitt Brewing Company,836,662
+American Pale Wheat Ale,Fort Point Beer Company,837,663
+American Amber / Red Ale,Fort Point Beer Company,838,664
+Kölsch,Fort Point Beer Company,839,665
+American IPA,Fort Point Beer Company,840,666
+Scotch Ale / Wee Heavy,Founders Brewing Company,841,667
+American IPA,Founders Brewing Company,842,668
+American IPA,Founders Brewing Company,843,668
+American IPA,Four Corners Brewing Company,844,669
+American Porter,Four Corners Brewing Company,845,670
+American Blonde Ale,Four Corners Brewing Company,846,671
+Oatmeal Stout,Four Fathers Brewing,847,672
+Belgian Pale Ale,Four Fathers Brewing,848,673
+American IPA,Four Fathers Brewing,849,674
+American IPA,Four Fathers Brewing,850,674
+American Pale Lager,Four Horsemen Brewing Company,851,675
+Kölsch,Four Peaks Brewing Company,852,676
+,Four Peaks Brewing Company,853,677
+American Porter,Four Peaks Brewing Company,854,678
+Fruit / Vegetable Beer,Four Peaks Brewing Company,855,679
+American IPA,Four Peaks Brewing Company,856,680
+Scottish Ale,Four Peaks Brewing Company,857,681
+Kölsch,Four Peaks Brewing Company,858,676
+American Porter,Four String Brewing Company,859,682
+American Pale Wheat Ale,Four String Brewing Company,860,683
+American Pale Ale (APA),Four String Brewing Company,861,684
+American White IPA,Four String Brewing Company,862,685
+American Amber / Red Ale,Frankenmuth Brewery,863,686
+American IPA,Frankenmuth Brewery,864,687
+Munich Helles Lager,Frankenmuth Brewery,865,688
+,Freetail Brewing Company,866,689
+American Brown Ale,Freetail Brewing Company,867,690
+Witbier,Freetail Brewing Company,868,691
+Munich Helles Lager,Freetail Brewing Company,869,692
+American Amber / Red Ale,Freetail Brewing Company,870,693
+Witbier,Freetail Brewing Company,871,691
+American IPA,Freetail Brewing Company,872,694
+Berliner Weissbier,Freetail Brewing Company,873,695
+American IPA,Fremont Brewing Company,874,696
+American Pale Ale (APA),Fremont Brewing Company,875,697
+English Strong Ale,Fremont Brewing Company,876,698
+Saison / Farmhouse Ale,Fremont Brewing Company,877,699
+American Pale Ale (APA),Fremont Brewing Company,878,697
+American Pale Ale (APA),Fremont Brewing Company,879,697
+American IPA,Fremont Brewing Company,880,696
+Kölsch,French Broad Brewery,881,700
+Scotch Ale / Wee Heavy,French Broad Brewery,882,701
+Extra Special / Strong Bitter (ESB),French Broad Brewery,883,702
+American IPA,Frog Level Brewing Company,884,703
+American Pale Ale (APA),Fullsteam Brewery,885,704
+American IPA,Geneva Lake Brewing Company,886,705
+American Blonde Ale,Geneva Lake Brewing Company,887,706
+American Amber / Red Ale,Geneva Lake Brewing Company,888,707
+American IPA,Glabrous Brewing Company,889,708
+American Pale Lager,Golden Road Brewing,890,709
+Saison / Farmhouse Ale,Golden Road Brewing,891,710
+American IPA,Golden Road Brewing,892,711
+American IPA,Golden Road Brewing,893,711
+American IPA,Golden Road Brewing,894,711
+American IPA,Golden Road Brewing,895,711
+Hefeweizen,Golden Road Brewing,896,712
+American IPA,Golden Road Brewing,897,711
+American IPA,Golden Road Brewing,898,711
+Kölsch,Golden Road Brewing,899,713
+American Brown Ale,Golden Road Brewing,900,714
+American IPA,Golden Road Brewing,901,711
+American IPA,Golden Road Brewing,902,711
+American IPA,Golden Road Brewing,903,711
+Hefeweizen,Golden Road Brewing,904,712
+American Porter,Gonzo's BiggDogg Brewing,905,715
+American IPA,Good Life Brewing Company,906,716
+American Pale Wheat Ale,Good Life Brewing Company,907,717
+American Pale Ale (APA),Good People Brewing Company,908,718
+American Double / Imperial IPA,Good People Brewing Company,909,719
+Oatmeal Stout,Good People Brewing Company,910,720
+American IPA,Good People Brewing Company,911,721
+American Brown Ale,Good People Brewing Company,912,722
+American Pale Ale (APA),Goodlife Brewing Co.,913,723
+American IPA,Goose Island Brewery Company,914,724
+American Pale Ale (APA),Goose Island Brewing Company,915,725
+American Pale Ale (APA),Goose Island Brewing Company,916,725
+American Pale Wheat Ale,Goose Island Brewing Company,917,726
+American Pale Wheat Ale,Goose Island Brewing Company,918,726
+American Pale Wheat Ale,Goose Island Brewing Company,919,726
+American Pale Lager,Gore Range Brewery,920,727
+American Pale Wheat Ale,Grand Canyon Brewing Company,921,728
+American Pilsner,Grand Canyon Brewing Company,922,729
+American Amber / Red Ale,Grand Canyon Brewing Company,923,730
+American IPA,Grand Canyon Brewing Company,924,731
+American Pale Wheat Ale,Grapevine Craft Brewery,925,732
+English Brown Ale,Grapevine Craft Brewery,926,733
+American Pale Ale (APA),Grapevine Craft Brewery,927,734
+American Blonde Ale,Great Crescent Brewery,928,735
+Fruit / Vegetable Beer,Great Crescent Brewery,929,736
+American Porter,Great Crescent Brewery,930,737
+American IPA,Great Crescent Brewery,931,738
+Dortmunder / Export Lager,Great Crescent Brewery,932,739
+American Blonde Ale,Great Crescent Brewery,933,735
+American Porter,Great Crescent Brewery,934,737
+Märzen / Oktoberfest,Great Crescent Brewery,935,740
+American Brown Ale,Great Crescent Brewery,936,741
+Fruit / Vegetable Beer,Great Crescent Brewery,937,736
+Dortmunder / Export Lager,Great Crescent Brewery,938,739
+American Dark Wheat Ale,Great Crescent Brewery,939,742
+Witbier,Great Crescent Brewery,940,743
+American Stout,Great Crescent Brewery,941,744
+English Stout,Great Crescent Brewery,942,745
+American Porter,Great Crescent Brewery,943,737
+Euro Dark Lager,Great Crescent Brewery,944,746
+English Dark Mild Ale,Great Crescent Brewery,945,747
+American IPA,Great Crescent Brewery,946,738
+American Blonde Ale,Great Crescent Brewery,947,735
+American Pale Ale (APA),Great Divide Brewing Company,948,748
+Old Ale,Great Divide Brewing Company,949,749
+American Pale Wheat Ale,Great Divide Brewing Company,950,750
+American IPA,Great Divide Brewing Company,951,751
+Tripel,Great Divide Brewing Company,952,752
+American IPA,Great Divide Brewing Company,953,751
+Russian Imperial Stout,Great Divide Brewing Company,954,753
+Saison / Farmhouse Ale,Great Divide Brewing Company,955,754
+American IPA,Great Divide Brewing Company,956,751
+American Pale Lager,Great Northern Brewing Company,957,755
+American Pale Lager,Great Northern Brewing Company,958,755
+American Pale Ale (APA),Great Raft Brewing Company,959,756
+American Pale Lager,Great Raft Brewing Company,960,757
+Fruit / Vegetable Beer,Great River Brewery,961,758
+American Brown Ale,Great River Brewery,962,759
+American Blonde Ale,Great River Brewery,963,760
+American Blonde Ale,Great River Brewery,964,760
+Vienna Lager,Great River Brewery,965,761
+Irish Red Ale,Great River Brewery,966,762
+Vienna Lager,Great River Brewery,967,761
+Witbier,Great River Brewery,968,763
+Irish Red Ale,Great River Brewery,969,762
+American Pale Ale (APA),Great River Brewery,970,764
+Rye Beer,Great River Brewery,971,765
+American Brown Ale,Great River Brewery,972,759
+American IPA,Great River Brewery,973,766
+Märzen / Oktoberfest,Great River Brewery,974,767
+American Amber / Red Ale,Great River Brewery,975,768
+American Stout,Great River Brewery,976,769
+American Pale Ale (APA),Great River Brewery,977,764
+Irish Red Ale,Great River Brewery,978,762
+American Pale Ale (APA),Green Room Brewing,979,770
+American Pale Ale (APA),Greenbrier Valley Brewing Company,980,771
+American Black Ale,Greenbrier Valley Brewing Company,981,772
+Märzen / Oktoberfest,Grey Sail Brewing Company,982,773
+American Double / Imperial IPA,Grey Sail Brewing Company,983,774
+Märzen / Oktoberfest,Grey Sail Brewing of Rhode Island,984,775
+American Pale Ale (APA),Grey Sail Brewing of Rhode Island,985,776
+Witbier,Grey Sail Brewing of Rhode Island,986,777
+American Blonde Ale,Grey Sail Brewing of Rhode Island,987,778
+American Porter,Grey Sail Brewing of Rhode Island,988,779
+American Pale Ale (APA),Grey Sail Brewing of Rhode Island,989,776
+Cream Ale,Grey Sail Brewing of Rhode Island,990,780
+American Pale Wheat Ale,Griffin Claw Brewing Company,991,781
+Winter Warmer,Griffin Claw Brewing Company,992,782
+Pumpkin Ale,Griffin Claw Brewing Company,993,783
+Czech Pilsener,Griffin Claw Brewing Company,994,784
+American Amber / Red Ale,Griffin Claw Brewing Company,995,785
+American IPA,Griffin Claw Brewing Company,996,786
+American Pale Ale (APA),Griffin Claw Brewing Company,997,787
+American IPA,Griffin Claw Brewing Company,998,786
+Tripel,Griffin Claw Brewing Company,999,788
+Altbier,Grimm Brothers Brewhouse,1000,789
+American IPA,Hale's Ales,1001,790
+American Pale Ale (APA),Hale's Ales,1002,791
+American IPA,Half Acre Beer Company,1003,792
+American Double / Imperial Pilsner,Half Acre Beer Company,1004,793
+German Pilsener,Half Acre Beer Company,1005,794
+American Pale Wheat Ale,Half Acre Beer Company,1006,795
+English India Pale Ale (IPA),Half Acre Beer Company,1007,796
+American Brown Ale,Half Acre Beer Company,1008,797
+American Blonde Ale,Half Acre Beer Company,1009,798
+American Pale Ale (APA),Half Acre Beer Company,1010,799
+American IPA,Half Full Brewery,1011,800
+American Blonde Ale,Half Full Brewery,1012,801
+Fruit / Vegetable Beer,Hangar 24 Craft Brewery,1013,802
+Munich Helles Lager,Hangar 24 Craft Brewery,1014,803
+American IPA,Hardywood Park Craft Brewery,1015,804
+Cream Ale,Hardywood Park Craft Brewery,1016,805
+American Pale Ale (APA),Hardywood Park Craft Brewery,1017,806
+Herbed / Spiced Beer,Harpoon Brewery,1018,807
+American White IPA,Harpoon Brewery,1019,808
+Cider,Harpoon Brewery,1020,809
+Kölsch,Harpoon Brewery,1021,810
+American IPA,Harpoon Brewery,1022,811
+Pumpkin Ale,Harpoon Brewery,1023,812
+Märzen / Oktoberfest,Harpoon Brewery,1024,813
+American IPA,Harpoon Brewery,1025,811
+Kölsch,Harpoon Brewery,1026,810
+American Pale Wheat Ale,Harpoon Brewery,1027,814
+Kölsch,Harpoon Brewery,1028,810
+American IPA,Harpoon Brewery,1029,811
+American Blonde Ale,Harvest Moon Brewing Company,1030,815
+Witbier,Harvest Moon Brewing Company,1031,816
+American Blonde Ale,Hawai'i Nui Brewing Co.,1032,817
+American Pale Ale (APA),Hawai'i Nui Brewing Co.,1033,818
+American Brown Ale,Hawai'i Nui Brewing Co.,1034,819
+American Brown Ale,Hawai'i Nui Brewing Co.,1035,819
+Flanders Red Ale,Hawai'i Nui Brewing Co.,1036,820
+Belgian IPA,Headlands Brewing Company,1037,821
+American Pale Lager,Headlands Brewing Company,1038,822
+American Double / Imperial IPA,Headlands Brewing Company,1039,823
+American IPA,Heavy Seas Beer,1040,824
+Märzen / Oktoberfest,Heavy Seas Beer,1041,825
+Cream Ale,Heavy Seas Beer,1042,826
+Cream Ale,Hess Brewing Company,1043,827
+American IPA,Hess Brewing Company,1044,828
+American Double / Imperial Stout,Hess Brewing Company,1045,829
+American Pilsner,High Hops Brewery,1046,830
+American Pale Ale (APA),High Hops Brewery,1047,831
+American Pale Wheat Ale,High Noon Saloon And Brewery,1048,832
+Fruit / Vegetable Beer,High Noon Saloon And Brewery,1049,833
+American Amber / Red Ale,High Noon Saloon And Brewery,1050,834
+American Pale Ale (APA),Hilliard's Beer,1051,835
+Czech Pilsener,Hilliard's Beer,1052,836
+American Blonde Ale,Hilliard's Beer,1053,837
+American Amber / Red Ale,Hilliard's Beer,1054,838
+Saison / Farmhouse Ale,Hilliard's Beer,1055,839
+American White IPA,Hinterland Brewery,1056,840
+Saison / Farmhouse Ale,Hop Farm Brewing Company,1057,841
+American Brown Ale,Hop Farm Brewing Company,1058,842
+American IPA,Hop Farm Brewing Company,1059,843
+American Blonde Ale,Hop Valley Brewing Company,1060,844
+American Strong Ale,Hop Valley Brewing Company,1061,845
+American IPA,Hop Valley Brewing Company,1062,846
+American Blonde Ale,Hop Valley Brewing Company,1063,844
+American Pale Lager,Hop Valley Brewing Company,1064,847
+American IPA,Hop Valley Brewing Company,1065,846
+American IPA,Hop Valley Brewing Company,1066,846
+American Blonde Ale,Hop Valley Brewing Company,1067,844
+American IPA,Hops & Grain Brewery,1068,848
+American Pale Lager,Hops & Grain Brewery,1069,849
+Altbier,Hops & Grain Brewery,1070,850
+American Pale Ale (APA),Hops & Grain Brewery,1071,851
+American Porter,Hops & Grains Brewing Company,1072,852
+Cider,Hopworks Urban Brewery,1073,853
+Radler,Hopworks Urban Brewery,1074,854
+American Pale Wheat Ale,Hopworks Urban Brewery,1075,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1076,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1077,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1078,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1079,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1080,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1081,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1082,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1083,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1084,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1085,855
+American Pale Wheat Ale,Hopworks Urban Brewery,1086,855
+American Amber / Red Ale,Hopworks Urban Brewery,1087,856
+American Stout,Hopworks Urban Brewery,1088,857
+American IPA,Hopworks Urban Brewery,1089,858
+American Strong Ale,Hopworks Urban Brewery,1090,859
+American White IPA,Hopworks Urban Brewery,1091,860
+American Amber / Red Ale,Hopworks Urban Brewery,1092,856
+American Strong Ale,Hopworks Urban Brewery,1093,859
+Czech Pilsener,Hopworks Urban Brewery,1094,861
+American IPA,Hopworks Urban Brewery,1095,858
+American Pale Wheat Ale,Horny Goat Brew Pub,1096,862
+Hefeweizen,Horny Goat Brew Pub,1097,863
+Märzen / Oktoberfest,Horny Goat Brew Pub,1098,864
+American Pale Ale (APA),Howard Brewing Company,1099,865
+Vienna Lager,Howard Brewing Company,1100,866
+American IPA,Indeed Brewing Company,1101,867
+Winter Warmer,Indeed Brewing Company,1102,868
+Fruit / Vegetable Beer,Indeed Brewing Company,1103,869
+American Pale Wheat Ale,Indeed Brewing Company,1104,870
+American Black Ale,Indeed Brewing Company,1105,871
+American Pale Ale (APA),Indeed Brewing Company,1106,872
+American Amber / Red Ale,Independence Brewing Company,1107,873
+American Pale Ale (APA),Independence Brewing Company,1108,874
+Witbier,Independence Brewing Company,1109,875
+American Pale Ale (APA),Indiana City Brewing,1110,876
+American IPA,Infamous Brewing Company,1111,877
+Cream Ale,Infamous Brewing Company,1112,878
+American Blonde Ale,Intuition Ale Works,1113,879
+American IPA,Intuition Ale Works,1114,880
+American Pale Ale (APA),Intuition Ale Works,1115,881
+American Blonde Ale,Ipswich Ale Brewery,1116,882
+American IPA,Iron Hill Brewery & Restaurant,1117,883
+Keller Bier / Zwickel Bier,Jack's Abby Craft Lagers,1118,884
+American Pale Lager,Jack's Abby Craft Lagers,1119,885
+American India Pale Lager,Jack's Abby Craft Lagers,1120,886
+American India Pale Lager,Jack's Abby Craft Lagers,1121,886
+American India Pale Lager,Jack's Abby Craft Lagers,1122,886
+Cider,Jack's Hard Cider (Hauser Estate...,1123,887
+Cider,Jack's Hard Cider (Hauser Estate...,1124,887
+American Pale Ale (APA),Jackalope Brewing Company,1125,888
+Fruit / Vegetable Beer,Jackie O's Pub & Brewery,1126,889
+American IPA,Jackie O's Pub & Brewery,1127,890
+American IPA,Jackie O's Pub & Brewery,1128,890
+American Amber / Red Ale,Jackie O's Pub & Brewery,1129,891
+English Brown Ale,Jackie O's Pub & Brewery,1130,892
+American IPA,Jailbreak Brewing Company,1131,893
+American Strong Ale,James Page Brewing Company,1132,894
+Hefeweizen,James Page Brewing Company,1133,895
+American Porter,James Page Brewing Company,1134,896
+American Pale Ale (APA),James Page Brewing Company,1135,897
+American Blonde Ale,James Page Brewing Company,1136,898
+American IPA,James Page Brewing Company,1137,899
+Hefeweizen,Joseph James Brewing Company,1138,900
+American Pale Ale (APA),Joseph James Brewing Company,1139,901
+American Double / Imperial IPA,Joseph James Brewing Company,1140,902
+American Adjunct Lager,Joseph James Brewing Company,1141,903
+American IPA,Kalona Brewing Company,1142,904
+Doppelbock,Kalona Brewing Company,1143,905
+Hefeweizen,Karbach Brewing Company,1144,906
+Munich Dunkel Lager,Karbach Brewing Company,1145,907
+American Pale Ale (APA),Karbach Brewing Company,1146,908
+Märzen / Oktoberfest,Karbach Brewing Company,1147,909
+Kölsch,Karbach Brewing Company,1148,910
+Saison / Farmhouse Ale,Karbach Brewing Company,1149,911
+American Double / Imperial IPA,Karbach Brewing Company,1150,912
+American Amber / Red Lager,Karbach Brewing Company,1151,913
+Hefeweizen,Karbach Brewing Company,1152,906
+American IPA,Karbach Brewing Company,1153,914
+Euro Dark Lager,KelSo Beer Company,1154,915
+American IPA,KelSo Beer Company,1155,916
+Czech Pilsener,KelSo Beer Company,1156,917
+Scottish Ale,Kenai River Brewing Company,1157,918
+American Blonde Ale,Kenai River Brewing Company,1158,919
+American IPA,Kenai River Brewing Company,1159,920
+Scottish Ale,Kenai River Brewing Company,1160,918
+Scotch Ale / Wee Heavy,Kettle House Brewing Company,1161,921
+American IPA,Kettle House Brewing Company,1162,922
+American IPA,Kettle House Brewing Company,1163,922
+American Pale Ale (APA),Kettle House Brewing Company,1164,923
+American IPA,Kettle House Brewing Company,1165,922
+Scotch Ale / Wee Heavy,Kettle House Brewing Company,1166,921
+Witbier,Keweenaw Brewing Company,1167,924
+American Pale Ale (APA),Keweenaw Brewing Company,1168,925
+Scottish Ale,Keweenaw Brewing Company,1169,926
+American Brown Ale,Keweenaw Brewing Company,1170,927
+American Brown Ale,Keweenaw Brewing Company,1171,927
+American Blonde Ale,Keweenaw Brewing Company,1172,928
+American Amber / Red Ale,Keweenaw Brewing Company,1173,929
+American Amber / Red Ale,King Street Brewing Company,1174,930
+Czech Pilsener,King Street Brewing Company,1175,931
+American IPA,King Street Brewing Company,1176,932
+Hefeweizen,King Street Brewing Company,1177,933
+American Blonde Ale,King Street Brewing Company,1178,934
+American IPA,Kirkwood Station Brewing Company,1179,935
+American Pale Wheat Ale,Kirkwood Station Brewing Company,1180,936
+American Amber / Red Lager,Kona Brewing Company,1181,937
+American Amber / Red Lager,Kona Brewing Company,1182,937
+American Amber / Red Lager,Kona Brewing Company,1183,937
+American Amber / Red Lager,Kona Brewing Company,1184,937
+American Dark Wheat Ale,Krebs Brewing Company (Pete's Pl...,1185,938
+Belgian Strong Dark Ale,Kulshan Brewery,1186,939
+Hefeweizen,La Cumbre Brewing Company,1187,940
+American IPA,La Cumbre Brewing Company,1188,941
+Maibock / Helles Bock,Lancaster Brewing Company,1189,942
+Kölsch,Lancaster Brewing Company,1190,943
+Hefeweizen,Latitude 42 Brewing Company,1191,944
+American IPA,Latitude 42 Brewing Company,1192,945
+American Amber / Red Ale,Latitude 42 Brewing Company,1193,946
+English Brown Ale,Latitude 42 Brewing Company,1194,947
+Cream Ale,Laughing Dog Brewing Company,1195,948
+American Pilsner,Laughing Dog Brewing Company,1196,949
+American IPA,Laughing Dog Brewing Company,1197,950
+American IPA,Lavery Brewing Company,1198,951
+American IPA,Lavery Brewing Company,1199,951
+Czech Pilsener,Lazy Monk Brewing,1200,952
+Kölsch,Lewis and Clark Brewing Company,1201,953
+American IPA,Lewis and Clark Brewing Company,1202,954
+American Amber / Red Ale,Lewis and Clark Brewing Company,1203,955
+Hefeweizen,Lewis and Clark Brewing Company,1204,956
+Scottish Ale,Lewis and Clark Brewing Company,1205,957
+German Pilsener,Lift Bridge Brewing Company,1206,958
+Saison / Farmhouse Ale,Lift Bridge Brewing Company,1207,959
+American Stout,Liquid Hero Brewery,1208,960
+American Amber / Red Ale,Liquid Hero Brewery,1209,961
+Fruit / Vegetable Beer,Liquid Hero Brewery,1210,962
+American IPA,Liquid Hero Brewery,1211,963
+American Pale Ale (APA),Lone Tree Brewing Company,1212,964
+American Porter,Lonerider Brewing Company,1213,965
+American Stout,Lonerider Brewing Company,1214,966
+American Pale Ale (APA),Lonerider Brewing Company,1215,967
+Hefeweizen,Lonerider Brewing Company,1216,968
+American Brown Ale,Lonerider Brewing Company,1217,969
+English India Pale Ale (IPA),Long Trail Brewing Company,1218,970
+American Amber / Red Ale,Long Trail Brewing Company,1219,971
+Altbier,Long Trail Brewing Company,1220,972
+Fruit / Vegetable Beer,Long Trail Brewing Company,1221,973
+Altbier,Long Trail Brewing Company,1222,972
+Gose,Lost Nation Brewing,1223,974
+German Pilsener,Lost Nation Brewing,1224,975
+American IPA,Lost Nation Brewing,1225,976
+American IPA,Lost Nation Brewing,1226,976
+American IPA,Lost Rhino Brewing Company,1227,977
+Czech Pilsener,Lost Rhino Brewing Company,1228,978
+American Stout,Lucette Brewing Company,1229,979
+Hefeweizen,Lucette Brewing Company,1230,980
+American Pale Ale (APA),Lucette Brewing Company,1231,981
+American Blonde Ale,Lucette Brewing Company,1232,982
+English Dark Mild Ale,Lucky Town Brewing Company,1233,983
+Belgian Pale Ale,Lucky Town Brewing Company,1234,984
+American Pale Ale (APA),Lumberyard Brewing Company,1235,985
+American Pilsner,Lumberyard Brewing Company,1236,986
+American IPA,Lumberyard Brewing Company,1237,987
+American Amber / Red Ale,Lumberyard Brewing Company,1238,988
+American Pale Ale (APA),MacTarnahans Brewing Company,1239,989
+American Amber / Red Ale,MacTarnahans Brewing Company,1240,990
+American Pale Ale (APA),Macon Beer Company,1241,991
+American Brown Ale,Macon Beer Company,1242,992
+American Double / Imperial IPA,Madtree Brewing Company,1243,993
+American Blonde Ale,Madtree Brewing Company,1244,994
+Winter Warmer,Madtree Brewing Company,1245,995
+Fruit / Vegetable Beer,Madtree Brewing Company,1246,996
+Kölsch,Madtree Brewing Company,1247,997
+American Pale Ale (APA),Madtree Brewing Company,1248,998
+American IPA,Madtree Brewing Company,1249,999
+American Brown Ale,Madtree Brewing Company,1250,1000
+American Amber / Red Ale,Madtree Brewing Company,1251,1001
+Fruit / Vegetable Beer,Magic Hat Brewing Company,1252,1002
+Hefeweizen,Magic Hat Brewing Company,1253,1003
+Fruit / Vegetable Beer,Magic Hat Brewing Company,1254,1002
+German Pilsener,Mammoth Brewing Company,1255,1004
+American IPA,Mammoth Brewing Company,1256,1005
+German Pilsener,Mammoth Brewing Company,1257,1004
+American Amber / Red Ale,Mammoth Brewing Company,1258,1006
+Winter Warmer,Manayunk Brewing Company,1259,1007
+Märzen / Oktoberfest,Manayunk Brewing Company,1260,1008
+Belgian Pale Ale,Manayunk Brewing Company,1261,1009
+American IPA,Manayunk Brewing Company,1262,1010
+Pumpkin Ale,Manayunk Brewing Company,1263,1011
+American Pale Wheat Ale,Manayunk Brewing Company,1264,1012
+Tripel,Manayunk Brewing Company,1265,1013
+Fruit / Vegetable Beer,Manayunk Brewing Company,1266,1014
+American Double / Imperial IPA,Manayunk Brewing Company,1267,1015
+American Double / Imperial IPA,Manzanita Brewing Company,1268,1016
+American IPA,Manzanita Brewing Company,1269,1017
+American Blonde Ale,Manzanita Brewing Company,1270,1018
+American Brown Ale,Manzanita Brewing Company,1271,1019
+American Pale Ale (APA),Manzanita Brewing Company,1272,1020
+German Pilsener,Marble Brewery,1273,1021
+American IPA,Marble Brewery,1274,1022
+American IPA,Marshall Wharf Brewing Company,1275,1023
+American Pale Ale (APA),Marshall Wharf Brewing Company,1276,1024
+Russian Imperial Stout,Marshall Wharf Brewing Company,1277,1025
+American Pale Ale (APA),Marshall Wharf Brewing Company,1278,1024
+American Double / Imperial IPA,Marshall Wharf Brewing Company,1279,1026
+Saison / Farmhouse Ale,Martin House Brewing Company,1280,1027
+American Stout,Martin House Brewing Company,1281,1028
+American Amber / Red Ale,Martin House Brewing Company,1282,1029
+American Double / Imperial IPA,Martin House Brewing Company,1283,1030
+American Double / Imperial IPA,Martin House Brewing Company,1284,1030
+Rye Beer,Martin House Brewing Company,1285,1031
+Saison / Farmhouse Ale,Martin House Brewing Company,1286,1027
+American Stout,Martin House Brewing Company,1287,1028
+American IPA,Matt Brewing Company,1288,1032
+Shandy,Matt Brewing Company,1289,1033
+American IPA,Matt Brewing Company,1290,1032
+German Pilsener,Matt Brewing Company,1291,1034
+Light Lager,Matt Brewing Company,1292,1035
+Light Lager,Matt Brewing Company,1293,1035
+American Pale Lager,Matt Brewing Company,1294,1036
+Fruit / Vegetable Beer,Matt Brewing Company,1295,1037
+American Blonde Ale,Matt Brewing Company,1296,1038
+American IPA,Matt Brewing Company,1297,1032
+American Pale Wheat Ale,Matt Brewing Company,1298,1039
+English Pale Ale,Matt Brewing Company,1299,1040
+English Pale Ale,Matt Brewing Company,1300,1040
+American Brown Ale,Maui Brewing Company,1301,1041
+Czech Pilsener,Maui Brewing Company,1302,1042
+Saison / Farmhouse Ale,Maui Brewing Company,1303,1043
+Belgian Strong Dark Ale,Maui Brewing Company,1304,1044
+Fruit / Vegetable Beer,Maui Brewing Company,1305,1045
+American Amber / Red Ale,Maui Brewing Company,1306,1046
+Witbier,Maui Brewing Company,1307,1047
+American IPA,Maui Brewing Company,1308,1048
+American Pale Wheat Ale,Maui Brewing Company,1309,1049
+Munich Helles Lager,Maui Brewing Company,1310,1050
+American Porter,Maui Brewing Company,1311,1051
+American IPA,Maui Brewing Company,1312,1048
+American Porter,Mavericks Beer Company,1313,1052
+Witbier,Mavericks Beer Company,1314,1053
+American Pale Ale (APA),Mavericks Beer Company,1315,1054
+Cider,Meckley's Cidery,1316,1055
+Cider,Meckley's Cidery,1317,1055
+Cider,Meckley's Cidery,1318,1055
+American IPA,Mehana Brewing Co.,1319,1056
+American IPA,Mehana Brewing Co.,1320,1056
+American Blonde Ale,Mehana Brewing Co.,1321,1057
+American Porter,Mehana Brewing Co.,1322,1058
+American Amber / Red Ale,Mehana Brewing Co.,1323,1059
+American Pale Ale (APA),Mehana Brewing Co.,1324,1060
+Fruit / Vegetable Beer,Miami Brewing Company,1325,1061
+American Brown Ale,Miami Brewing Company,1326,1062
+American IPA,Miami Brewing Company,1327,1063
+American Blonde Ale,Miami Brewing Company,1328,1064
+American Amber / Red Ale,Mickey Finn's Brewery,1329,1065
+American IPA,Midnight Sun Brewing Company,1330,1066
+American IPA,Midnight Sun Brewing Company,1331,1066
+Witbier,Midnight Sun Brewing Company,1332,1067
+American Brown Ale,Midnight Sun Brewing Company,1333,1068
+American IPA,Midnight Sun Brewing Company,1334,1066
+American Double / Imperial IPA,Mike Hess Brewing Company,1335,1069
+American IPA,Mike Hess Brewing Company,1336,1070
+Wheat Ale,Mike Hess Brewing Company,1337,1071
+American Double / Imperial IPA,Mike Hess Brewing Company,1338,1069
+Cream Ale,Mike Hess Brewing Company,1339,1072
+Kölsch,Mike Hess Brewing Company,1340,1073
+American Double / Imperial IPA,Mikerphone Brewing,1341,1074
+American IPA,Mikerphone Brewing,1342,1075
+American IPA,Mikerphone Brewing,1343,1075
+Belgian IPA,Mikerphone Brewing,1344,1076
+Saison / Farmhouse Ale,Mikerphone Brewing,1345,1077
+Berliner Weissbier,Mikerphone Brewing,1346,1078
+American IPA,Mikerphone Brewing,1347,1075
+American Pale Ale (APA),Mikerphone Brewing,1348,1079
+American Pilsner,Mikkeller,1349,1080
+American IPA,Mikkeller,1350,1081
+Witbier,MillKing It Productions,1351,1082
+Irish Red Ale,MillKing It Productions,1352,1083
+American Pale Ale (APA),MillKing It Productions,1353,1084
+American Double / Imperial IPA,Milwaukee Brewing Company,1354,1085
+American Amber / Red Ale,Milwaukee Brewing Company,1355,1086
+American IPA,Milwaukee Brewing Company,1356,1087
+Saison / Farmhouse Ale,Milwaukee Brewing Company,1357,1088
+Witbier,Milwaukee Brewing Company,1358,1089
+Vienna Lager,Milwaukee Brewing Company,1359,1090
+American Amber / Red Ale,Milwaukee Brewing Company,1360,1086
+American Malt Liquor,Minhas Craft Brewery,1361,1091
+Bock,Minhas Craft Brewery,1362,1092
+Light Lager,Minhas Craft Brewery,1363,1093
+American Pale Lager,Minhas Craft Brewery,1364,1094
+American Pale Lager,Minhas Craft Brewery,1365,1094
+American Pale Lager,Minhas Craft Brewery,1366,1094
+American Pale Lager,Minhas Craft Brewery,1367,1094
+American Pale Lager,Minhas Craft Brewery,1368,1094
+American Pale Lager,Minhas Craft Brewery,1369,1094
+American Adjunct Lager,Minhas Craft Brewery,1370,1095
+Light Lager,Minhas Craft Brewery,1371,1093
+American Adjunct Lager,Minhas Craft Brewery,1372,1095
+American Adjunct Lager,Minhas Craft Brewery,1373,1095
+Belgian Pale Ale,Mission Brewery,1374,1096
+American IPA,Mission Brewery,1375,1097
+American Pale Ale (APA),Mission Brewery,1376,1098
+American Double / Imperial IPA,Mission Brewery,1377,1099
+American Brown Ale,Moab Brewery,1378,1100
+American Pale Wheat Ale,Moab Brewery,1379,1101
+California Common / Steam Beer,Moab Brewery,1380,1102
+American IPA,Moab Brewery,1381,1103
+English Brown Ale,Moat Mountain Smoke House & Brew...,1382,1104
+American Pale Ale (APA),Moat Mountain Smoke House & Brew...,1383,1105
+American Pale Ale (APA),Modern Monks Brewery,1384,1106
+American IPA,Modern Times Beer,1385,1107
+American IPA,Modern Times Beer,1386,1107
+American Pale Ale (APA),Modern Times Beer,1387,1108
+American Amber / Red Ale,Modern Times Beer,1388,1109
+Saison / Farmhouse Ale,Modern Times Beer,1389,1110
+American Pale Wheat Ale,Modern Times Beer,1390,1111
+American Stout,Modern Times Beer,1391,1112
+American Amber / Red Ale,Modern Times Beer,1392,1109
+American Amber / Red Ale,Mogollon Brewing Company,1393,1113
+American Brown Ale,Monkey Paw Pub & Brewery,1394,1114
+American Double / Imperial IPA,Monkey Paw Pub & Brewery,1395,1115
+American Pale Ale (APA),Monkey Paw Pub & Brewery,1396,1116
+American Blonde Ale,Montauk Brewing Company,1397,1117
+Extra Special / Strong Bitter (ESB),Montauk Brewing Company,1398,1118
+Munich Helles Lager,Morgan Street Brewery,1399,1119
+Märzen / Oktoberfest,Morgan Street Brewery,1400,1120
+American Pale Wheat Ale,Morgan Street Brewery,1401,1121
+Schwarzbier,Morgan Street Brewery,1402,1122
+German Pilsener,Morgan Street Brewery,1403,1123
+Cream Ale,Mother Earth Brew Company,1404,1124
+American Pale Ale (APA),Mother Earth Brewing Company,1405,1125
+Hefeweizen,Mother Earth Brewing Company,1406,1126
+American Blonde Ale,Mother's Brewing,1407,1127
+American IPA,Mother's Brewing,1408,1128
+American Amber / Red Ale,Mountain Town Brewing Company,1409,1129
+Witbier,Mudshark Brewing Company,1410,1130
+American IPA,Mudshark Brewing Company,1411,1131
+Light Lager,Mudshark Brewing Company,1412,1132
+Witbier,Mudshark Brewing Company,1413,1130
+Hefeweizen,Mudshark Brewing Company,1414,1133
+American Amber / Red Lager,Mustang Brewing Company,1415,1134
+American Pale Lager,Mustang Brewing Company,1416,1135
+American Pale Lager,Mustang Brewing Company,1417,1135
+American Blonde Ale,Mustang Brewing Company,1418,1136
+American Pale Wheat Ale,Mustang Brewing Company,1419,1137
+Light Lager,Narragansett Brewing Company,1420,1138
+American Pilsner,Narragansett Brewing Company,1421,1139
+Milk / Sweet Stout,Narragansett Brewing Company,1422,1140
+German Pilsener,Narragansett Brewing Company,1423,1141
+American Pale Wheat Ale,Narragansett Brewing Company,1424,1142
+Cream Ale,Narragansett Brewing Company,1425,1143
+American Pale Wheat Ale,Narragansett Brewing Company,1426,1142
+American Porter,Narragansett Brewing Company,1427,1144
+Bock,Narragansett Brewing Company,1428,1145
+Märzen / Oktoberfest,Narragansett Brewing Company,1429,1146
+American Blonde Ale,Natian Brewery,1430,1147
+American Black Ale,Natian Brewery,1431,1148
+American Double / Imperial IPA,Natian Brewery,1432,1149
+American Double / Imperial IPA,Natian Brewery,1433,1149
+American Black Ale,Natian Brewery,1434,1148
+American Blonde Ale,Natian Brewery,1435,1147
+Pumpkin Ale,Nebraska Brewing Company,1436,1150
+American IPA,Nebraska Brewing Company,1437,1151
+Hefeweizen,Nebraska Brewing Company,1438,1152
+English Brown Ale,Nebraska Brewing Company,1439,1153
+American Pale Ale (APA),Nebraska Brewing Company,1440,1154
+American IPA,Neshaminy Creek Brewing Company,1441,1155
+German Pilsener,Neshaminy Creek Brewing Company,1442,1156
+American IPA,New Belgium Brewing Company,1443,1157
+American IPA,New Belgium Brewing Company,1444,1157
+American Pale Lager,New Belgium Brewing Company,1445,1158
+Euro Dark Lager,New Belgium Brewing Company,1446,1159
+Czech Pilsener,New Belgium Brewing Company,1447,1160
+American Amber / Red Lager,New Belgium Brewing Company,1448,1161
+American Pale Wheat Ale,New Belgium Brewing Company,1449,1162
+American Pale Wheat Ale,New Belgium Brewing Company,1450,1162
+American Amber / Red Ale,New Belgium Brewing Company,1451,1163
+American Pale Lager,New Belgium Brewing Company,1452,1158
+American Amber / Red Ale,New Belgium Brewing Company,1453,1163
+American Pale Lager,New Belgium Brewing Company,1454,1158
+American IPA,New Belgium Brewing Company,1455,1157
+American Amber / Red Ale,New Belgium Brewing Company,1456,1163
+American IPA,New Belgium Brewing Company,1457,1157
+American Pale Wheat Ale,New Belgium Brewing Company,1458,1162
+American Amber / Red Ale,New Belgium Brewing Company,1459,1163
+Berliner Weissbier,New England Brewing Company,1460,1164
+American IPA,New England Brewing Company,1461,1165
+American Pilsner,New England Brewing Company,1462,1166
+American Amber / Red Ale,New England Brewing Company,1463,1167
+Belgian Pale Ale,New England Brewing Company,1464,1168
+American Double / Imperial IPA,New England Brewing Company,1465,1169
+Belgian Pale Ale,New England Brewing Company,1466,1168
+American Double / Imperial IPA,New England Brewing Company,1467,1169
+American Pilsner,New England Brewing Company,1468,1166
+American Amber / Red Ale,New England Brewing Company,1469,1167
+American IPA,New England Brewing Company,1470,1165
+American Pale Ale (APA),New Orleans Lager & Ale Brewing ...,1471,1170
+American Stout,New Orleans Lager & Ale Brewing ...,1472,1171
+American Double / Imperial IPA,New Orleans Lager & Ale Brewing ...,1473,1172
+American IPA,New Orleans Lager & Ale Brewing ...,1474,1173
+English Dark Mild Ale,New Orleans Lager & Ale Brewing ...,1475,1174
+American Blonde Ale,New Orleans Lager & Ale Brewing ...,1476,1175
+Dunkelweizen,New Republic Brewing Company,1477,1176
+American Blonde Ale,New Republic Brewing Company,1478,1177
+American Amber / Red Ale,New Republic Brewing Company,1479,1178
+English Brown Ale,New South Brewing Company,1480,1179
+Witbier,New South Brewing Company,1481,1180
+Cream Ale,Newburgh Brewing Company,1482,1181
+American IPA,Newburyport Brewing Company,1483,1182
+Witbier,Newburyport Brewing Company,1484,1183
+American Pale Ale (APA),Newburyport Brewing Company,1485,1184
+American Amber / Red Ale,Night Shift Brewing,1486,1185
+American Pale Ale (APA),NoDa Brewing Company,1487,1186
+American IPA,NoDa Brewing Company,1488,1187
+English India Pale Ale (IPA),North Country Brewing Company,1489,1188
+American Stout,North Country Brewing Company,1490,1189
+Irish Red Ale,North Country Brewing Company,1491,1190
+German Pilsener,North Country Brewing Company,1492,1191
+American IPA,NorthGate Brewing,1493,1192
+Milk / Sweet Stout,NorthGate Brewing,1494,1193
+English Brown Ale,NorthGate Brewing,1495,1194
+Pumpkin Ale,NorthGate Brewing,1496,1195
+American Porter,NorthGate Brewing,1497,1196
+Extra Special / Strong Bitter (ESB),NorthGate Brewing,1498,1197
+American IPA,Northampton Brewery,1499,1198
+American IPA,Northwest Brewing Company,1500,1199
+American Pale Ale (APA),Northwest Brewing Company,1501,1200
+German Pilsener,Northwoods Brewpub,1502,1201
+American Pale Wheat Ale,Northwoods Brewpub,1503,1202
+American IPA,Notch Brewing Company,1504,1203
+Czech Pilsener,Notch Brewing Company,1505,1204
+Pumpkin Ale,O'Fallon Brewery,1506,1205
+American IPA,O'Fallon Brewery,1507,1206
+Fruit / Vegetable Beer,O'Fallon Brewery,1508,1207
+American IPA,Oakshire Brewing,1509,1208
+American Amber / Red Ale,Oakshire Brewing,1510,1209
+American Stout,Oakshire Brewing,1511,1210
+American IPA,Oakshire Brewing,1512,1208
+Baltic Porter,Oasis Texas Brewing Company,1513,1211
+English Bitter,Oasis Texas Brewing Company,1514,1212
+Keller Bier / Zwickel Bier,Oasis Texas Brewing Company,1515,1213
+American Pale Ale (APA),Oasis Texas Brewing Company,1516,1214
+American Pale Wheat Ale,Occidental Brewing Company,1517,1215
+Dunkelweizen,Occidental Brewing Company,1518,1216
+Altbier,Occidental Brewing Company,1519,1217
+Kölsch,Occidental Brewing Company,1520,1218
+Belgian Strong Dark Ale,Odyssey Beerwerks,1521,1219
+Scotch Ale / Wee Heavy,Odyssey Beerwerks,1522,1220
+American Porter,Odyssey Beerwerks,1523,1221
+Hefeweizen,Odyssey Beerwerks,1524,1222
+American Pale Ale (APA),Odyssey Beerwerks,1525,1223
+American Pale Ale (APA),Odyssey Beerwerks,1526,1223
+Hefeweizen,Odyssey Beerwerks,1527,1222
+Scottish Ale,Okoboji Brewing Company,1528,1224
+American Brown Ale,Okoboji Brewing Company,1529,1225
+Saison / Farmhouse Ale,Okoboji Brewing Company,1530,1226
+American Pale Ale (APA),Okoboji Brewing Company,1531,1227
+American Stout,Okoboji Brewing Company,1532,1228
+Rye Beer,Okoboji Brewing Company,1533,1229
+American Pale Lager,Old Forge Brewing Company,1534,1230
+American Brown Ale,Old Forge Brewing Company,1535,1231
+American Stout,Old Forge Brewing Company,1536,1232
+American Porter,Old Forge Brewing Company,1537,1233
+Pumpkin Ale,Old Forge Brewing Company,1538,1234
+American Pale Wheat Ale,Old Forge Brewing Company,1539,1235
+American Blonde Ale,Old Forge Brewing Company,1540,1236
+American IPA,Old Forge Brewing Company,1541,1237
+American Pale Ale (APA),Old Forge Brewing Company,1542,1238
+American Pale Wheat Ale,Old Forge Brewing Company,1543,1235
+American Pale Lager,Orlison Brewing Company,1544,1239
+American Amber / Red Lager,Orlison Brewing Company,1545,1240
+American Pale Lager,Orlison Brewing Company,1546,1239
+Euro Dark Lager,Orlison Brewing Company,1547,1241
+Light Lager,Orlison Brewing Company,1548,1242
+Saison / Farmhouse Ale,Orpheus Brewing,1549,1243
+Saison / Farmhouse Ale,Orpheus Brewing,1550,1243
+American IPA,Oskar Blues Brewery,1551,1244
+American Pale Ale (APA),Oskar Blues Brewery,1552,1245
+Scotch Ale / Wee Heavy,Oskar Blues Brewery,1553,1246
+,Oskar Blues Brewery,1554,1247
+,Oskar Blues Brewery,1555,1247
+American IPA,Oskar Blues Brewery,1556,1244
+English Brown Ale,Oskar Blues Brewery,1557,1248
+American IPA,Oskar Blues Brewery,1558,1244
+American Pale Ale (APA),Oskar Blues Brewery,1559,1245
+American Pale Ale (APA),Oskar Blues Brewery,1560,1245
+Czech Pilsener,Oskar Blues Brewery,1561,1249
+American IPA,Oskar Blues Brewery,1562,1244
+American IPA,Oskar Blues Brewery,1563,1244
+American Pale Ale (APA),Oskar Blues Brewery,1564,1245
+American Brown Ale,Oskar Blues Brewery,1565,1250
+American Pale Ale (APA),Oskar Blues Brewery,1566,1245
+American Pale Ale (APA),Oskar Blues Brewery,1567,1245
+American Double / Imperial IPA,Oskar Blues Brewery,1568,1251
+American Pale Ale (APA),Oskar Blues Brewery,1569,1245
+American Pale Ale (APA),Oskar Blues Brewery,1570,1245
+American Double / Imperial IPA,Oskar Blues Brewery,1571,1251
+Belgian Dark Ale,Oskar Blues Brewery,1572,1252
+Belgian Strong Pale Ale,Oskar Blues Brewery,1573,1253
+American Strong Ale,Oskar Blues Brewery,1574,1254
+American Double / Imperial IPA,Oskar Blues Brewery,1575,1251
+American Double / Imperial IPA,Oskar Blues Brewery,1576,1251
+American Double / Imperial IPA,Oskar Blues Brewery,1577,1251
+Russian Imperial Stout,Oskar Blues Brewery,1578,1255
+Czech Pilsener,Oskar Blues Brewery,1579,1249
+American Double / Imperial IPA,Oskar Blues Brewery,1580,1251
+Scottish Ale,Oskar Blues Brewery,1581,1256
+American Double / Imperial IPA,Oskar Blues Brewery,1582,1251
+American Pale Ale (APA),Oskar Blues Brewery,1583,1245
+American Double / Imperial IPA,Oskar Blues Brewery,1584,1251
+Russian Imperial Stout,Oskar Blues Brewery,1585,1255
+Russian Imperial Stout,Oskar Blues Brewery,1586,1255
+Scottish Ale,Oskar Blues Brewery,1587,1256
+Scottish Ale,Oskar Blues Brewery,1588,1256
+Scottish Ale,Oskar Blues Brewery,1589,1256
+American Pale Ale (APA),Oskar Blues Brewery,1590,1245
+American Pale Ale (APA),Oskar Blues Brewery,1591,1245
+American Pale Ale (APA),Oskar Blues Brewery,1592,1245
+American Pale Ale (APA),Oskar Blues Brewery,1593,1245
+American Pale Ale (APA),Oskar Blues Brewery,1594,1245
+American Brown Ale,Oskar Blues Brewery,1595,1250
+American Double / Imperial IPA,Oskar Blues Brewery,1596,1251
+American Double / Imperial IPA,Oskar Blues Brewery (North Carol...,1597,1257
+Russian Imperial Stout,Oskar Blues Brewery (North Carol...,1598,1258
+American Double / Imperial IPA,Oskar Blues Brewery (North Carol...,1599,1257
+Scottish Ale,Oskar Blues Brewery (North Carol...,1600,1259
+American Pale Ale (APA),Oskar Blues Brewery (North Carol...,1601,1260
+American Pale Ale (APA),Oskar Blues Brewery (North Carol...,1602,1260
+American White IPA,Otter Creek Brewing,1603,1261
+American Pale Ale (APA),Otter Creek Brewing,1604,1262
+American Pale Ale (APA),Ozark Beer Company,1605,1263
+American IPA,Palisade Brewing Company,1606,1264
+American Dark Wheat Ale,Palisade Brewing Company,1607,1265
+Irish Red Ale,Pateros Creek Brewing Company,1608,1266
+American Pale Ale (APA),Pateros Creek Brewing Company,1609,1267
+Kölsch,Pateros Creek Brewing Company,1610,1268
+English Bitter,Pateros Creek Brewing Company,1611,1269
+American Porter,Pateros Creek Brewing Company,1612,1270
+American Pale Ale (APA),Payette Brewing Company,1613,1271
+American IPA,Payette Brewing Company,1614,1272
+American Pale Lager,Payette Brewing Company,1615,1273
+American Pale Ale (APA),Payette Brewing Company,1616,1271
+American Brown Ale,Payette Brewing Company,1617,1274
+Kölsch,Peace Tree Brewing Company,1618,1275
+American Pilsner,Peak Organic Brewing Company,1619,1276
+American Pale Wheat Ale,Peak Organic Brewing Company,1620,1277
+Light Lager,Pedernales Brewing Company,1621,1278
+American Pilsner,Pedernales Brewing Company,1622,1279
+American IPA,People's Brewing Company,1623,1280
+American IPA,People's Brewing Company,1624,1280
+American Pale Wheat Ale,People's Brewing Company,1625,1281
+German Pilsener,People's Brewing Company,1626,1282
+American Brown Ale,Perrin Brewing Company,1627,1283
+American Blonde Ale,Perrin Brewing Company,1628,1284
+American Black Ale,Perrin Brewing Company,1629,1285
+American IPA,Perrin Brewing Company,1630,1286
+American Pale Ale (APA),Perrin Brewing Company,1631,1287
+American IPA,Perrin Brewing Company,1632,1286
+American Pale Lager,Pete's Brewing Company,1633,1288
+American Pale Wheat Ale,Pete's Brewing Company,1634,1289
+Czech Pilsener,Pete's Brewing Company,1635,1290
+American Pale Ale (APA),Pete's Brewing Company,1636,1291
+American Pale Wheat Ale,Pete's Brewing Company,1637,1289
+American Pale Wheat Ale,Pete's Brewing Company,1638,1289
+American Pale Wheat Ale,Pete's Brewing Company,1639,1289
+American Pale Lager,Petoskey Brewing,1640,1292
+American Amber / Red Ale,Petoskey Brewing,1641,1293
+Dubbel,Petoskey Brewing,1642,1294
+American IPA,Petoskey Brewing,1643,1295
+American IPA,Phoenix Ale Brewery,1644,1296
+American Pale Ale (APA),Pikes Peak Brewing Company,1645,1297
+American Amber / Red Ale,Pikes Peak Brewing Company,1646,1298
+American IPA,Pikes Peak Brewing Company,1647,1299
+Milk / Sweet Stout,Pine Street Brewery,1648,1300
+American Pale Ale (APA),Pine Street Brewery,1649,1301
+Chile Beer,Piney River Brewing Company,1650,1302
+American Black Ale,Piney River Brewing Company,1651,1303
+Fruit / Vegetable Beer,Piney River Brewing Company,1652,1304
+American Blonde Ale,Piney River Brewing Company,1653,1305
+American Porter,Piney River Brewing Company,1654,1306
+American Dark Wheat Ale,Piney River Brewing Company,1655,1307
+American Amber / Red Ale,Piney River Brewing Company,1656,1308
+American IPA,Piney River Brewing Company,1657,1309
+American Amber / Red Ale,Pipeworks Brewing Company,1658,1310
+American IPA,Pisgah Brewing Company,1659,1311
+American Pale Ale (APA),Pisgah Brewing Company,1660,1312
+American IPA,Pizza Port Brewing Company,1661,1313
+American Amber / Red Ale,Pizza Port Brewing Company,1662,1314
+American IPA,Pizza Port Brewing Company,1663,1313
+American Pilsner,Platform Beer Company,1664,1315
+American Pale Ale (APA),Pollyanna Brewing Company,1665,1316
+American Barleywine,Portside Brewery,1666,1317
+American IPA,Prescott Brewing Company,1667,1318
+American Amber / Red Ale,Prescott Brewing Company,1668,1319
+American Pale Wheat Ale,Pug Ryan's Brewery,1669,1320
+Munich Helles Lager,Pug Ryan's Brewery,1670,1321
+Munich Dunkel Lager,Pug Ryan's Brewery,1671,1322
+Czech Pilsener,Pug Ryan's Brewery,1672,1323
+American Pale Ale (APA),Pug Ryan's Brewery,1673,1324
+Czech Pilsener,Pug Ryan's Brewery,1674,1323
+American Pale Wheat Ale,Pug Ryan's Brewery,1675,1320
+Hefeweizen,Pyramid Breweries,1676,1325
+Hefeweizen,Pyramid Breweries,1677,1325
+Belgian Pale Ale,Quest Brewing Company,1678,1326
+American Porter,Quest Brewing Company,1679,1327
+Munich Helles Lager,Rahr & Sons Brewing Company,1680,1328
+American Pale Ale (APA),Rahr & Sons Brewing Company,1681,1329
+Gose,Real Ale Brewing Company,1682,1330
+Witbier,Real Ale Brewing Company,1683,1331
+American Black Ale,Real Ale Brewing Company,1684,1332
+American Blonde Ale,Real Ale Brewing Company,1685,1333
+English Pale Ale,Real Ale Brewing Company,1686,1334
+German Pilsener,Real Ale Brewing Company,1687,1335
+American Blonde Ale,Real Ale Brewing Company,1688,1333
+American Blonde Ale,Real Ale Brewing Company,1689,1333
+American Brown Ale,Red Hare Brewing Company,1690,1336
+American IPA,Red Hare Brewing Company,1691,1337
+Czech Pilsener,Red Hare Brewing Company,1692,1338
+American Blonde Ale,Red Shedman Farm Brewery and Hop...,1693,1339
+American IPA,Red Shedman Farm Brewery and Hop...,1694,1340
+Belgian IPA,Red Shedman Farm Brewery and Hop...,1695,1341
+American Porter,Red Shedman Farm Brewery and Hop...,1696,1342
+Rye Beer,Red Shedman Farm Brewery and Hop...,1697,1343
+Cider,Red Tank Cider Company,1698,1344
+American IPA,Redhook Brewery,1699,1345
+American IPA,Redhook Brewery,1700,1345
+American Amber / Red Ale,Redhook Brewery,1701,1346
+Mead,Redstone Meadery,1702,1347
+Mead,Redstone Meadery,1703,1347
+Mead,Redstone Meadery,1704,1347
+Witbier,Refuge Brewery,1705,1348
+American Pale Ale (APA),Renegade Brewing Company,1706,1349
+Russian Imperial Stout,Renegade Brewing Company,1707,1350
+American IPA,Renegade Brewing Company,1708,1351
+American Double / Imperial IPA,Renegade Brewing Company,1709,1352
+American Blonde Ale,Renegade Brewing Company,1710,1353
+American IPA,Renegade Brewing Company,1711,1351
+American Stout,Revolution Brewing,1712,1354
+American Stout,Revolution Brewing,1713,1354
+American Porter,Revolution Brewing,1714,1355
+American Blonde Ale,Revolution Brewing,1715,1356
+Vienna Lager,Revolution Brewing,1716,1357
+American Pale Ale (APA),Revolution Brewing,1717,1358
+American Amber / Red Ale,Revolution Brewing,1718,1359
+American Blonde Ale,Revolution Brewing,1719,1356
+American Pale Ale (APA),Revolution Brewing Company,1720,1360
+Belgian Pale Ale,Revolution Brewing Company,1721,1361
+Herbed / Spiced Beer,Revolution Brewing Company,1722,1362
+Herbed / Spiced Beer,Revolution Brewing Company,1723,1362
+Märzen / Oktoberfest,Revolution Brewing Company,1724,1363
+American Porter,Revolution Brewing Company,1725,1364
+American IPA,Revolution Brewing Company,1726,1365
+Witbier,Revolution Brewing Company,1727,1366
+American Amber / Red Ale,Rhinegeist Brewery,1728,1367
+American Pale Ale (APA),Rhinegeist Brewery,1729,1368
+American Amber / Red Ale,Rhinegeist Brewery,1730,1367
+American Porter,Rhinegeist Brewery,1731,1369
+Märzen / Oktoberfest,Rhinegeist Brewery,1732,1370
+American Pale Ale (APA),Rhinegeist Brewery,1733,1368
+American IPA,Rhinegeist Brewery,1734,1371
+American Blonde Ale,Rhinegeist Brewery,1735,1372
+Cream Ale,Right Brain Brewery,1736,1373
+Gose,Rising Tide Brewing Company,1737,1374
+American Pale Ale (APA),Rising Tide Brewing Company,1738,1375
+Witbier,River North Brewery,1739,1376
+American Amber / Red Ale,River North Brewery,1740,1377
+American IPA,Rivertown Brewing Company,1741,1378
+American Pale Ale (APA),Rivertown Brewing Company,1742,1379
+American IPA,Rivertowne Brewing Company,1743,1380
+Märzen / Oktoberfest,Rivertowne Brewing Company,1744,1381
+Pumpkin Ale,Rivertowne Brewing Company,1745,1382
+American IPA,Rivertowne Brewing Company,1746,1380
+Oatmeal Stout,Rivertowne Brewing Company,1747,1383
+American White IPA,Rivertowne Brewing Company,1748,1384
+American Pale Ale (APA),Rivertowne Brewing Company,1749,1385
+American Amber / Red Ale,Rivertowne Brewing Company,1750,1386
+American Amber / Red Ale,Rivertowne Brewing Company,1751,1386
+American Blonde Ale,Rivertowne Brewing Company,1752,1387
+Scottish Ale,Rivertowne Brewing Company,1753,1388
+Witbier,Rivertowne Brewing Company,1754,1389
+American Amber / Red Lager,Rivertowne Brewing Company,1755,1390
+American IPA,Rivertowne Brewing Company,1756,1380
+Fruit / Vegetable Beer,Rivertowne Brewing Company,1757,1391
+American Amber / Red Lager,Roanoke Railhouse Brewery,1758,1392
+Czech Pilsener,Rochester Mills Brewing Company,1759,1393
+American Porter,Rochester Mills Brewing Company,1760,1394
+American Adjunct Lager,Rochester Mills Brewing Company,1761,1395
+American Amber / Red Ale,Rochester Mills Brewing Company,1762,1396
+Milk / Sweet Stout,Rochester Mills Brewing Company,1763,1397
+American IPA,Rochester Mills Brewing Company,1764,1398
+American Adjunct Lager,Rochester Mills Brewing Company,1765,1395
+American Amber / Red Ale,Rogue Ales,1766,1399
+American Strong Ale,RoughTail Brewing Company,1767,1400
+American IPA,RoughTail Brewing Company,1768,1401
+American Stout,RoughTail Brewing Company,1769,1402
+Saison / Farmhouse Ale,Round Guys Brewing,1770,1403
+Belgian Strong Pale Ale,Round Guys Brewing,1771,1404
+American Pale Ale (APA),Round Guys Brewing,1772,1405
+English Brown Ale,Round Guys Brewing,1773,1406
+American Black Ale,Round Guys Brewing,1774,1407
+American IPA,Round Guys Brewing,1775,1408
+Kölsch,Round Guys Brewing,1776,1409
+American Amber / Red Ale,Ruhstaller Beer Company,1777,1410
+American Black Ale,Ruhstaller Beer Company,1778,1411
+American Amber / Red Lager,Ruhstaller Beer Company,1779,1412
+American Black Ale,Ruhstaller Beer Company,1780,1411
+American Amber / Red Ale,Ruhstaller Beer Company,1781,1410
+Witbier,Saint Archer Brewery,1782,1413
+American IPA,Saint Archer Brewery,1783,1414
+American Pale Ale (APA),Saint Archer Brewery,1784,1415
+Kölsch,Saint Archer Brewery,1785,1416
+American Porter,SanTan Brewing Company,1786,1417
+Winter Warmer,SanTan Brewing Company,1787,1418
+American Double / Imperial IPA,SanTan Brewing Company,1788,1419
+Märzen / Oktoberfest,SanTan Brewing Company,1789,1420
+American Blonde Ale,SanTan Brewing Company,1790,1421
+American Pale Wheat Ale,SanTan Brewing Company,1791,1422
+Belgian IPA,SanTan Brewing Company,1792,1423
+American Amber / Red Ale,SanTan Brewing Company,1793,1424
+Hefeweizen,SanTan Brewing Company,1794,1425
+American IPA,SanTan Brewing Company,1795,1426
+American Porter,SanTan Brewing Company,1796,1417
+American Pale Ale (APA),SanTan Brewing Company,1797,1427
+Herbed / Spiced Beer,SanTan Brewing Company,1798,1428
+Fruit / Vegetable Beer,SanTan Brewing Company,1799,1429
+American Pale Ale (APA),SanTan Brewing Company,1800,1427
+American IPA,SanTan Brewing Company,1801,1426
+Hefeweizen,SanTan Brewing Company,1802,1425
+American Pale Ale (APA),SanTan Brewing Company,1803,1427
+American Amber / Red Ale,SanTan Brewing Company,1804,1424
+Saison / Farmhouse Ale,Sanitas Brewing Company,1805,1430
+American Black Ale,Sanitas Brewing Company,1806,1431
+American Double / Imperial IPA,Santa Cruz Mountain Brewing,1807,1432
+American Brown Ale,Santa Cruz Mountain Brewing,1808,1433
+English India Pale Ale (IPA),Santa Cruz Mountain Brewing,1809,1434
+Saison / Farmhouse Ale,Santa Fe Brewing Company,1810,1435
+American Black Ale,Santa Fe Brewing Company,1811,1436
+Irish Red Ale,Santa Fe Brewing Company,1812,1437
+Märzen / Oktoberfest,Santa Fe Brewing Company,1813,1438
+Russian Imperial Stout,Santa Fe Brewing Company,1814,1439
+German Pilsener,Santa Fe Brewing Company,1815,1440
+American IPA,Santa Fe Brewing Company,1816,1441
+American Blonde Ale,Saugatuck Brewing Company,1817,1442
+Cider,Schilling & Company,1818,1443
+Cider,Schilling & Company,1819,1443
+Cider,Schilling & Company,1820,1443
+American Pale Wheat Ale,Schlafly Brewing Company,1821,1444
+Schwarzbier,Schlafly Brewing Company,1822,1445
+American IPA,Schlafly Brewing Company,1823,1446
+American Brown Ale,Schlafly Brewing Company,1824,1447
+Hefeweizen,Schlafly Brewing Company,1825,1448
+Munich Helles Lager,Schlafly Brewing Company,1826,1449
+Fruit / Vegetable Beer,Sea Dog Brewing Company,1827,1450
+American IPA,Seabright Brewery,1828,1451
+Cider,Seattle Cider Company,1829,1452
+Cider,Seattle Cider Company,1830,1452
+American IPA,Seven Brides Brewery,1831,1453
+American Porter,Seven Brides Brewery,1832,1454
+American Strong Ale,Seventh Son Brewing Company,1833,1455
+English Brown Ale,Seventh Son Brewing Company,1834,1456
+American Amber / Red Ale,Seventh Son Brewing Company,1835,1457
+American Pale Ale (APA),Seventh Son Brewing Company,1836,1458
+American IPA,Seventh Son Brewing Company,1837,1459
+American Black Ale,Shebeen Brewing Company,1838,1460
+English Pale Ale,Sherwood Forest Brewers,1839,1461
+American IPA,Shipyard Brewing Company,1840,1462
+American Pale Wheat Ale,Shipyard Brewing Company,1841,1463
+Pumpkin Ale,Shipyard Brewing Company,1842,1464
+American Blonde Ale,Shipyard Brewing Company,1843,1465
+German Pilsener,Sierra Nevada Brewing Company,1844,1466
+American IPA,Sierra Nevada Brewing Company,1845,1467
+Maibock / Helles Bock,Sierra Nevada Brewing Company,1846,1468
+Rye Beer,Sierra Nevada Brewing Company,1847,1469
+American Pale Ale (APA),Sierra Nevada Brewing Company,1848,1470
+American Pale Wheat Ale,Sierra Nevada Brewing Company,1849,1471
+Czech Pilsener,Sierra Nevada Brewing Company,1850,1472
+American IPA,Sierra Nevada Brewing Company,1851,1467
+American Pale Ale (APA),Sierra Nevada Brewing Company,1852,1470
+Cider,Sietsema Orchards and Cider Mill,1853,1473
+American Brown Ale,Silverton Brewery,1854,1474
+American Amber / Red Ale,Silverton Brewery,1855,1475
+American IPA,Silverton Brewery,1856,1476
+Baltic Porter,Sixpoint Craft Ales,1857,1477
+Gose,Sixpoint Craft Ales,1858,1478
+Belgian Pale Ale,Sixpoint Craft Ales,1859,1479
+Fruit / Vegetable Beer,Sixpoint Craft Ales,1860,1480
+American IPA,Sixpoint Craft Ales,1861,1481
+American Pale Ale (APA),Sixpoint Craft Ales,1862,1482
+American Double / Imperial IPA,Sixpoint Craft Ales,1863,1483
+American Strong Ale,Sixpoint Craft Ales,1864,1484
+American IPA,Sixpoint Craft Ales,1865,1481
+German Pilsener,Sixpoint Craft Ales,1866,1485
+Cream Ale,Sixpoint Craft Ales,1867,1486
+Rye Beer,Sixpoint Craft Ales,1868,1487
+American IPA,Sixpoint Craft Ales,1869,1481
+Baltic Porter,Sixpoint Craft Ales,1870,1477
+American Brown Ale,Sixpoint Craft Ales,1871,1488
+American Pale Wheat Ale,Sixpoint Craft Ales,1872,1489
+Saison / Farmhouse Ale,Sixpoint Craft Ales,1873,1490
+American Double / Imperial IPA,Sixpoint Craft Ales,1874,1483
+American Stout,Sixpoint Craft Ales,1875,1491
+Pumpkin Ale,Sixpoint Craft Ales,1876,1492
+German Pilsener,Sixpoint Craft Ales,1877,1485
+Cream Ale,Sixpoint Craft Ales,1878,1486
+Rye Beer,Sixpoint Craft Ales,1879,1487
+American IPA,Sixpoint Craft Ales,1880,1481
+American IPA,Ska Brewing Company,1881,1493
+Doppelbock,Ska Brewing Company,1882,1494
+American IPA,Ska Brewing Company,1883,1493
+American Stout,Ska Brewing Company,1884,1495
+American Stout,Ska Brewing Company,1885,1495
+Foreign / Export Stout,Ska Brewing Company,1886,1496
+American Stout,Ska Brewing Company,1887,1495
+American Pale Lager,Ska Brewing Company,1888,1497
+American Blonde Ale,Ska Brewing Company,1889,1498
+American Pale Ale (APA),Ska Brewing Company,1890,1499
+Extra Special / Strong Bitter (ESB),Ska Brewing Company,1891,1500
+American IPA,Ska Brewing Company,1892,1493
+American Amber / Red Ale,Slanted Rock Brewing Company,1893,1501
+American IPA,Slanted Rock Brewing Company,1894,1502
+Belgian IPA,SlapShot Brewing Company,1895,1503
+Tripel,SlapShot Brewing Company,1896,1504
+English Pale Ale,Sleeping Lady Brewing Company,1897,1505
+American IPA,Sly Fox Brewing Company,1898,1506
+Winter Warmer,Sly Fox Brewing Company,1899,1507
+Grisette,Sly Fox Brewing Company,1900,1508
+American IPA,Sly Fox Brewing Company,1901,1506
+Munich Helles Lager,Sly Fox Brewing Company,1902,1509
+Winter Warmer,Sly Fox Brewing Company,1903,1507
+American Double / Imperial IPA,Sly Fox Brewing Company,1904,1510
+Märzen / Oktoberfest,Sly Fox Brewing Company,1905,1511
+American IPA,Sly Fox Brewing Company,1906,1506
+Munich Dunkel Lager,Sly Fox Brewing Company,1907,1512
+Hefeweizen,Sly Fox Brewing Company,1908,1513
+German Pilsener,Sly Fox Brewing Company,1909,1514
+American Pale Ale (APA),Sly Fox Brewing Company,1910,1515
+American IPA,Smartmouth Brewing Company,1911,1516
+American Amber / Red Ale,Smartmouth Brewing Company,1912,1517
+Saison / Farmhouse Ale,Smartmouth Brewing Company,1913,1518
+American Pilsner,Snake River Brewing Company,1914,1519
+American Pale Ale (APA),Snake River Brewing Company,1915,1520
+Foreign / Export Stout,Snake River Brewing Company,1916,1521
+English Brown Ale,Snake River Brewing Company,1917,1522
+Vienna Lager,Snake River Brewing Company,1918,1523
+American Pale Ale (APA),Snake River Brewing Company,1919,1520
+American IPA,Snake River Brewing Company,1920,1524
+Kölsch,Sockeye Brewing Company,1921,1525
+American Double / Imperial IPA,Sockeye Brewing Company,1922,1526
+American IPA,Sockeye Brewing Company,1923,1527
+American IPA,Sockeye Brewing Company,1924,1527
+Märzen / Oktoberfest,Sockeye Brewing Company,1925,1528
+American Double / Imperial IPA,Sockeye Brewing Company,1926,1526
+American Double / Imperial Stout,Sockeye Brewing Company,1927,1529
+Saison / Farmhouse Ale,Sockeye Brewing Company,1928,1530
+Witbier,Sockeye Brewing Company,1929,1531
+Maibock / Helles Bock,Sockeye Brewing Company,1930,1532
+American Barleywine,Sockeye Brewing Company,1931,1533
+American Blonde Ale,Sockeye Brewing Company,1932,1534
+American Pale Ale (APA),Sockeye Brewing Company,1933,1535
+American Pale Wheat Ale,Sockeye Brewing Company,1934,1536
+American Porter,Sockeye Brewing Company,1935,1537
+American Strong Ale,Sockeye Brewing Company,1936,1538
+American IPA,Sockeye Brewing Company,1937,1527
+Bock,South Austin Brewery,1938,1539
+American IPA,South Austin Brewery,1939,1540
+Saison / Farmhouse Ale,South Austin Brewery,1940,1541
+Kölsch,South Austin Brewery,1941,1542
+Light Lager,Southampton Publick House,1942,1543
+Czech Pilsener,Southern Oregon Brewing Company,1943,1544
+American IPA,Southern Oregon Brewing Company,1944,1545
+American IPA,Southern Prohibition Brewing Com...,1945,1546
+American IPA,Southern Prohibition Brewing Com...,1946,1546
+Extra Special / Strong Bitter (ESB),Southern Prohibition Brewing Com...,1947,1547
+American Pale Ale (APA),Southern Prohibition Brewing Com...,1948,1548
+American Blonde Ale,Southern Prohibition Brewing Com...,1949,1549
+American Amber / Red Ale,Southern Prohibition Brewing Com...,1950,1550
+Oatmeal Stout,Southern Prohibition Brewing Com...,1951,1551
+American Blonde Ale,Southern Prohibition Brewing Com...,1952,1549
+American Pale Ale (APA),Southern Prohibition Brewing Com...,1953,1548
+American Pale Ale (APA),Southern Star Brewing Company,1954,1552
+Saison / Farmhouse Ale,Southern Star Brewing Company,1955,1553
+Bière de Garde,Southern Star Brewing Company,1956,1554
+American Double / Imperial IPA,Southern Star Brewing Company,1957,1555
+American Double / Imperial IPA,Southern Star Brewing Company,1958,1555
+American Double / Imperial IPA,Southern Star Brewing Company,1959,1555
+Old Ale,Southern Star Brewing Company,1960,1556
+American Blonde Ale,Southern Star Brewing Company,1961,1557
+American Double / Imperial IPA,Southern Star Brewing Company,1962,1555
+Saison / Farmhouse Ale,Southern Star Brewing Company,1963,1553
+Bière de Garde,Southern Star Brewing Company,1964,1554
+Foreign / Export Stout,Southern Star Brewing Company,1965,1558
+American Pale Ale (APA),Southern Star Brewing Company,1966,1552
+American Blonde Ale,Southern Star Brewing Company,1967,1557
+American IPA,Speakasy Ales & Lagers,1968,1559
+English India Pale Ale (IPA),Spilker Ales,1969,1560
+American Pale Ale (APA),Spiteful Brewing Company,1970,1561
+American Double / Imperial IPA,Spiteful Brewing Company,1971,1562
+American Porter,Spiteful Brewing Company,1972,1563
+American Double / Imperial IPA,Spiteful Brewing Company,1973,1562
+American Amber / Red Ale,Spiteful Brewing Company,1974,1564
+American Stout,Spiteful Brewing Company,1975,1565
+American Double / Imperial IPA,Spiteful Brewing Company,1976,1562
+American Pale Ale (APA),Spiteful Brewing Company,1977,1561
+American IPA,Spiteful Brewing Company,1978,1566
+American Pale Ale (APA),Spiteful Brewing Company,1979,1561
+Irish Red Ale,Spiteful Brewing Company,1980,1567
+American Pale Wheat Ale,Spiteful Brewing Company,1981,1568
+Vienna Lager,Sprecher Brewing Company,1982,1569
+Vienna Lager,Sprecher Brewing Company,1983,1569
+American Pale Ale (APA),Spring House Brewing Company,1984,1570
+Cider,St. Julian Winery,1985,1571
+German Pilsener,Starr Hill Brewery,1986,1572
+American IPA,Starr Hill Brewery,1987,1573
+Märzen / Oktoberfest,Starr Hill Brewery,1988,1574
+American IPA,Starr Hill Brewery,1989,1573
+American Pale Ale (APA),Steamworks Brewing Company,1990,1575
+Kölsch,Steamworks Brewing Company,1991,1576
+American Amber / Red Lager,Steamworks Brewing Company,1992,1577
+American IPA,Steamworks Brewing Company,1993,1578
+American Adjunct Lager,Stevens Point Brewery,1994,1579
+American Adjunct Lager,Stevens Point Brewery,1995,1579
+American Pale Ale (APA),Stevens Point Brewery,1996,1580
+American Adjunct Lager,Stevens Point Brewery,1997,1579
+American Black Ale,Stevens Point Brewery,1998,1581
+American IPA,Stevens Point Brewery,1999,1582
+American Adjunct Lager,Stevens Point Brewery,2000,1579
+American Adjunct Lager,Stevens Point Brewery,2001,1579
+American Adjunct Lager,Stevens Point Brewery,2002,1579
+Winter Warmer,Stevens Point Brewery,2003,1583
+Märzen / Oktoberfest,Stevens Point Brewery,2004,1584
+American Pale Wheat Ale,Stevens Point Brewery,2005,1585
+American Pale Wheat Ale,Stevens Point Brewery,2006,1585
+American Pale Wheat Ale,Stevens Point Brewery,2007,1585
+American Blonde Ale,Stevens Point Brewery,2008,1586
+Kölsch,Stevens Point Brewery,2009,1587
+Märzen / Oktoberfest,Stevens Point Brewery,2010,1584
+American Brown Ale,Stevens Point Brewery,2011,1588
+American Pale Wheat Ale,Stevens Point Brewery,2012,1585
+American Pale Ale (APA),Stevens Point Brewery,2013,1580
+American Amber / Red Lager,Stevens Point Brewery,2014,1589
+American Adjunct Lager,Stevens Point Brewery,2015,1579
+American Amber / Red Ale,Stillmank Beer Company,2016,1590
+American Black Ale,Stillwater Artisanal Ales,2017,1591
+American Black Ale,Stillwater Artisanal Ales,2018,1591
+Saison / Farmhouse Ale,Stillwater Artisanal Ales,2019,1592
+American Blonde Ale,Stone Coast Brewing Company,2020,1593
+Kölsch,Straight to Ale,2021,1594
+Milk / Sweet Stout,Straight to Ale,2022,1595
+American IPA,Straight to Ale,2023,1596
+American Adjunct Lager,Straub Brewery,2024,1597
+American Adjunct Lager,Straub Brewery,2025,1597
+American Amber / Red Lager,Straub Brewery,2026,1598
+Light Lager,Straub Brewery,2027,1599
+American Pale Ale (APA),Summit Brewing Company,2028,1600
+Extra Special / Strong Bitter (ESB),Summit Brewing Company,2029,1601
+American Pale Ale (APA),Summit Brewing Company,2030,1600
+American Double / Imperial IPA,Summit Brewing Company,2031,1602
+Altbier,Sun King Brewing Company,2032,1603
+Scottish Ale,Sun King Brewing Company,2033,1604
+American Porter,Sun King Brewing Company,2034,1605
+Belgian Pale Ale,Sun King Brewing Company,2035,1606
+Scotch Ale / Wee Heavy,Sun King Brewing Company,2036,1607
+Belgian Dark Ale,Sun King Brewing Company,2037,1608
+Scotch Ale / Wee Heavy,Sun King Brewing Company,2038,1607
+Scotch Ale / Wee Heavy,Sun King Brewing Company,2039,1607
+American IPA,Sun King Brewing Company,2040,1609
+American IPA,Sun King Brewing Company,2041,1609
+American IPA,Sun King Brewing Company,2042,1609
+American IPA,Sun King Brewing Company,2043,1609
+Belgian IPA,Sun King Brewing Company,2044,1610
+Scotch Ale / Wee Heavy,Sun King Brewing Company,2045,1607
+Extra Special / Strong Bitter (ESB),Sun King Brewing Company,2046,1611
+American IPA,Sun King Brewing Company,2047,1609
+American Pale Ale (APA),Sun King Brewing Company,2048,1612
+Russian Imperial Stout,Sun King Brewing Company,2049,1613
+Flanders Oud Bruin,Sun King Brewing Company,2050,1614
+American Porter,Sun King Brewing Company,2051,1605
+German Pilsener,Sun King Brewing Company,2052,1615
+Irish Dry Stout,Sun King Brewing Company,2053,1616
+Scottish Ale,Sun King Brewing Company,2054,1604
+English Barleywine,Sun King Brewing Company,2055,1617
+American Brown Ale,Sun King Brewing Company,2056,1618
+Quadrupel (Quad),Sun King Brewing Company,2057,1619
+Märzen / Oktoberfest,Sun King Brewing Company,2058,1620
+Dortmunder / Export Lager,Sun King Brewing Company,2059,1621
+Dortmunder / Export Lager,Sun King Brewing Company,2060,1621
+Belgian Strong Pale Ale,Sun King Brewing Company,2061,1622
+American Double / Imperial IPA,Sun King Brewing Company,2062,1623
+Scotch Ale / Wee Heavy,Sun King Brewing Company,2063,1607
+American IPA,Sun King Brewing Company,2064,1609
+Märzen / Oktoberfest,Sun King Brewing Company,2065,1620
+English Barleywine,Sun King Brewing Company,2066,1617
+Scottish Ale,Sun King Brewing Company,2067,1604
+Cream Ale,Sun King Brewing Company,2068,1624
+American Pale Ale (APA),Sun King Brewing Company,2069,1612
+American Amber / Red Lager,Sunken City Brewing Company,2070,1625
+American IPA,Sunken City Brewing Company,2071,1626
+American IPA,Surly Brewing Company,2072,1627
+Extra Special / Strong Bitter (ESB),Surly Brewing Company,2073,1628
+American Black Ale,Surly Brewing Company,2074,1629
+American IPA,Surly Brewing Company,2075,1627
+American IPA,Surly Brewing Company,2076,1627
+English Bitter,Surly Brewing Company,2077,1630
+Rye Beer,Surly Brewing Company,2078,1631
+American Brown Ale,Surly Brewing Company,2079,1632
+American Brown Ale,Surly Brewing Company,2080,1632
+American Double / Imperial IPA,Surly Brewing Company,2081,1633
+Keller Bier / Zwickel Bier,Surly Brewing Company,2082,1634
+Saison / Farmhouse Ale,Surly Brewing Company,2083,1635
+American IPA,Surly Brewing Company,2084,1627
+American IPA,Swamp Head Brewery,2085,1636
+Witbier,Swamp Head Brewery,2086,1637
+American Pale Ale (APA),Swamp Head Brewery,2087,1638
+Oatmeal Stout,Swamp Head Brewery,2088,1639
+Cream Ale,Swamp Head Brewery,2089,1640
+Herbed / Spiced Beer,Swashbuckler Brewing Company,2090,1641
+German Pilsener,SweetWater Brewing Company,2091,1642
+Hefeweizen,SweetWater Brewing Company,2092,1643
+American IPA,SweetWater Brewing Company,2093,1644
+American Pale Ale (APA),SweetWater Brewing Company,2094,1645
+American Double / Imperial IPA,TailGate Beer,2095,1646
+Saison / Farmhouse Ale,TailGate Beer,2096,1647
+American IPA,TailGate Beer,2097,1648
+American IPA,TailGate Beer,2098,1648
+Hefeweizen,TailGate Beer,2099,1649
+American Blonde Ale,TailGate Beer,2100,1650
+American Blonde Ale,TailGate Beer,2101,1650
+Hefeweizen,TailGate Beer,2102,1649
+Tripel,Tallgrass Brewing Company,2103,1651
+Saison / Farmhouse Ale,Tallgrass Brewing Company,2104,1652
+American Porter,Tallgrass Brewing Company,2105,1653
+Saison / Farmhouse Ale,Tallgrass Brewing Company,2106,1652
+Oatmeal Stout,Tallgrass Brewing Company,2107,1654
+American IPA,Tallgrass Brewing Company,2108,1655
+American Brown Ale,Tallgrass Brewing Company,2109,1656
+Extra Special / Strong Bitter (ESB),Tallgrass Brewing Company,2110,1657
+Milk / Sweet Stout,Tallgrass Brewing Company,2111,1658
+American Pale Wheat Ale,Tallgrass Brewing Company,2112,1659
+American Pale Ale (APA),Tallgrass Brewing Company,2113,1660
+Tripel,Tallgrass Brewing Company,2114,1651
+American Pale Wheat Ale,Tallgrass Brewing Company,2115,1659
+German Pilsener,Tallgrass Brewing Company,2116,1661
+American Double / Imperial IPA,Tallgrass Brewing Company,2117,1662
+American Brown Ale,Tallgrass Brewing Company,2118,1656
+Milk / Sweet Stout,Tallgrass Brewing Company,2119,1658
+American IPA,Tallgrass Brewing Company,2120,1655
+American IPA,Tamarack Brewing Company,2121,1663
+American Amber / Red Ale,Tamarack Brewing Company,2122,1664
+Altbier,Tampa Bay Brewing Company,2123,1665
+American IPA,Tampa Bay Brewing Company,2124,1666
+American Porter,Tapistry Brewing,2125,1667
+American IPA,Tapistry Brewing,2126,1668
+Witbier,Tapistry Brewing,2127,1669
+Dubbel,Taxman Brewing Company,2128,1670
+American Brown Ale,Telluride Brewing Company,2129,1671
+American IPA,Telluride Brewing Company,2130,1672
+American Pale Ale (APA),Telluride Brewing Company,2131,1673
+Extra Special / Strong Bitter (ESB),Temperance Beer Company,2132,1674
+Fruit / Vegetable Beer,Temperance Beer Company,2133,1675
+English India Pale Ale (IPA),Temperance Beer Company,2134,1676
+American Pale Ale (APA),Terrapin Brewing Company,2135,1677
+Saison / Farmhouse Ale,Texian Brewing Co.,2136,1678
+American Brown Ale,Texian Brewing Co.,2137,1679
+Dunkelweizen,Texian Brewing Co.,2138,1680
+English India Pale Ale (IPA),Texian Brewing Co.,2139,1681
+American Wild Ale,The Alchemist,2140,1682
+American Double / Imperial IPA,The Alchemist,2141,1683
+American Double / Imperial Stout,The Alchemist,2142,1684
+American IPA,The Alchemist,2143,1685
+American Double / Imperial IPA,The Alchemist,2144,1683
+American Double / Imperial IPA,The Alchemist,2145,1683
+American Amber / Red Ale,The Black Tooth Brewing Company,2146,1686
+American IPA,The Black Tooth Brewing Company,2147,1687
+English Brown Ale,The Black Tooth Brewing Company,2148,1688
+American Pale Wheat Ale,The Black Tooth Brewing Company,2149,1689
+Belgian Pale Ale,The Brewer's Art,2150,1690
+Belgian Pale Ale,The Brewer's Art,2151,1690
+Dubbel,The Brewer's Art,2152,1691
+American Pale Ale (APA),The Bronx Brewery,2153,1692
+American Black Ale,The Bronx Brewery,2154,1693
+American Pale Ale (APA),The Bronx Brewery,2155,1692
+American Pale Ale (APA),The Dudes' Brewing Company,2156,1694
+Kölsch,The Dudes' Brewing Company,2157,1695
+American IPA,The Dudes' Brewing Company,2158,1696
+English Brown Ale,The Dudes' Brewing Company,2159,1697
+American Double / Imperial IPA,The Dudes' Brewing Company,2160,1698
+American IPA,The Just Beer Project,2161,1699
+American Pilsner,The Lion Brewery,2162,1700
+American Amber / Red Lager,The Manhattan Brewing Company,2163,1701
+American Pale Ale (APA),The Mitten Brewing Company,2164,1702
+American Amber / Red Ale,The Right Brain Brewery,2165,1703
+American Stout,The Right Brain Brewery,2166,1704
+American Pale Ale (APA),The Right Brain Brewery,2167,1705
+Shandy,The Traveler Beer Company,2168,1706
+American Pale Wheat Ale,Third Street Brewhouse,2169,1707
+American Pale Ale (APA),Third Street Brewhouse,2170,1708
+Cream Ale,Third Street Brewhouse,2171,1709
+American Brown Ale,Third Street Brewhouse,2172,1710
+Fruit / Vegetable Beer,Thomas Hooker Brewing Company,2173,1711
+American Blonde Ale,Three Creeks Brewing,2174,1712
+American Porter,Three Creeks Brewing,2175,1713
+American IPA,Three Creeks Brewing,2176,1714
+Irish Red Ale,Three Notch'd Brewing Company,2177,1715
+American IPA,Three Notch'd Brewing Company,2178,1716
+American Pale Wheat Ale,Three Pints Brewing,2179,1717
+Oatmeal Stout,Three Pints Brewing,2180,1718
+American Pale Ale (APA),Three Pints Brewing,2181,1719
+California Common / Steam Beer,Three Pints Brewing,2182,1720
+American Amber / Red Ale,Thunderhead Brewing Company,2183,1721
+American IPA,Thunderhead Brewing Company,2184,1722
+Braggot,Thunderhead Brewing Company,2185,1723
+American Dark Wheat Ale,Thunderhead Brewing Company,2186,1724
+American Porter,Tin Man Brewing Company,2187,1725
+Fruit / Vegetable Beer,Tin Man Brewing Company,2188,1726
+Russian Imperial Stout,Tin Man Brewing Company,2189,1727
+Roggenbier,Tin Man Brewing Company,2190,1728
+American Double / Imperial IPA,Tin Man Brewing Company,2191,1729
+American IPA,Tin Man Brewing Company,2192,1730
+Irish Red Ale,Tin Man Brewing Company,2193,1731
+American Porter,Tin Man Brewing Company,2194,1725
+Czech Pilsener,Tin Man Brewing Company,2195,1732
+American Blonde Ale,Tin Roof Brewing Company,2196,1733
+American IPA,Tin Roof Brewing Company,2197,1734
+American Porter,Tin Roof Brewing Company,2198,1735
+Fruit / Vegetable Beer,Tin Roof Brewing Company,2199,1736
+American Blonde Ale,Tin Roof Brewing Company,2200,1733
+American Pale Ale (APA),Tin Roof Brewing Company,2201,1737
+American Amber / Red Ale,Tin Roof Brewing Company,2202,1738
+American IPA,Tommyknocker Brewery,2203,1739
+Vienna Lager,Tommyknocker Brewery,2204,1740
+Shandy,Tonka Beer Company,2205,1741
+American IPA,Tonka Beer Company,2206,1742
+American IPA,Tractor Brewing Company,2207,1743
+Milk / Sweet Stout,Tractor Brewing Company,2208,1744
+American Amber / Red Ale,Tractor Brewing Company,2209,1745
+American IPA,Triangle Brewing Company,2210,1746
+Witbier,Triangle Brewing Company,2211,1747
+Belgian Strong Pale Ale,Triangle Brewing Company,2212,1748
+Doppelbock,Tröegs Brewing Company,2213,1749
+American Amber / Red Ale,Tröegs Brewing Company,2214,1750
+American Pilsner,Tröegs Brewing Company,2215,1751
+Doppelbock,Tröegs Brewing Company,2216,1749
+American IPA,Tröegs Brewing Company,2217,1752
+American Pale Ale (APA),Twin Lakes Brewing Company,2218,1753
+American IPA,Twisted Pine Brewing Company,2219,1754
+American Amber / Red Lager,Twisted X Brewing Company,2220,1755
+American IPA,Twisted X Brewing Company,2221,1756
+American Adjunct Lager,Twisted X Brewing Company,2222,1757
+American IPA,Two Beers Brewing Company,2223,1758
+American IPA,Two Beers Brewing Company,2224,1758
+American Amber / Red Ale,Two Beers Brewing Company,2225,1759
+American IPA,Two Beers Brewing Company,2226,1758
+Czech Pilsener,Two Beers Brewing Company,2227,1760
+American IPA,Two Beers Brewing Company,2228,1758
+American Pale Ale (APA),Two Beers Brewing Company,2229,1761
+American Brown Ale,Two Beers Brewing Company,2230,1762
+American Amber / Red Ale,Two Beers Brewing Company,2231,1759
+American IPA,Two Beers Brewing Company,2232,1758
+American IPA,Two Beers Brewing Company,2233,1758
+American Pale Wheat Ale,Two Beers Brewing Company,2234,1763
+American IPA,Two Brothers Brewing Company,2235,1764
+American Dark Wheat Ale,Two Brothers Brewing Company,2236,1765
+American Dark Wheat Ale,Two Brothers Brewing Company,2237,1765
+Dortmunder / Export Lager,Two Brothers Brewing Company,2238,1766
+American Pale Ale (APA),Two Brothers Brewing Company,2239,1767
+Märzen / Oktoberfest,Two Brothers Brewing Company,2240,1768
+Bière de Garde,Two Brothers Brewing Company,2241,1769
+American Pale Ale (APA),Two Brothers Brewing Company,2242,1767
+American Strong Ale,Two Brothers Brewing Company,2243,1770
+American IPA,Two Brothers Brewing Company,2244,1764
+Munich Helles Lager,Two Henrys Brewing Company,2245,1771
+Hefeweizen,Two Roads Brewing Company,2246,1772
+American White IPA,Two Roads Brewing Company,2247,1773
+American Double / Imperial IPA,Two Roads Brewing Company,2248,1774
+Saison / Farmhouse Ale,Two Roads Brewing Company,2249,1775
+German Pilsener,Two Roads Brewing Company,2250,1776
+Pumpkin Ale,Uinta Brewing Company,2251,1777
+American Amber / Red Lager,Uinta Brewing Company,2252,1778
+American IPA,Uinta Brewing Company,2253,1779
+American IPA,Uinta Brewing Company,2254,1779
+American Blonde Ale,Uinta Brewing Company,2255,1780
+Schwarzbier,Uinta Brewing Company,2256,1781
+American IPA,Uinta Brewing Company,2257,1779
+American Pale Ale (APA),Uinta Brewing Company,2258,1782
+American Pale Ale (APA),Uinta Brewing Company,2259,1782
+German Pilsener,Ukiah Brewing Company,2260,1783
+American IPA,Uncle Billy's Brewery and Smokeh...,2261,1784
+Maibock / Helles Bock,Uncle Billy's Brewery and Smokeh...,2262,1785
+Cider,Uncle John's Fruit House Winery,2263,1786
+Cider,Uncle John's Fruit House Winery,2264,1786
+Cider,Uncle John's Fruit House Winery,2265,1786
+Low Alcohol Beer,Uncommon Brewers,2266,1787
+American Brown Ale,Uncommon Brewers,2267,1788
+Belgian Pale Ale,Uncommon Brewers,2268,1789
+Baltic Porter,Uncommon Brewers,2269,1790
+Dubbel,Uncommon Brewers,2270,1791
+American Double / Imperial IPA,Union Craft Brewing,2271,1792
+Gose,Union Craft Brewing,2272,1793
+American Pale Ale (APA),Union Craft Brewing,2273,1794
+Altbier,Union Craft Brewing,2274,1795
+American IPA,Upland Brewing Company,2275,1796
+Witbier,Upland Brewing Company,2276,1797
+American IPA,Upland Brewing Company,2277,1796
+Quadrupel (Quad),Upslope Brewing Company,2278,1798
+Rye Beer,Upslope Brewing Company,2279,1799
+American Wild Ale,Upslope Brewing Company,2280,1800
+American Double / Imperial Stout,Upslope Brewing Company,2281,1801
+American Brown Ale,Upslope Brewing Company,2282,1802
+Saison / Farmhouse Ale,Upslope Brewing Company,2283,1803
+American White IPA,Upslope Brewing Company,2284,1804
+American Wild Ale,Upslope Brewing Company,2285,1800
+American Double / Imperial IPA,Upslope Brewing Company,2286,1805
+Winter Warmer,Upslope Brewing Company,2287,1806
+Pumpkin Ale,Upslope Brewing Company,2288,1807
+Belgian Pale Ale,Upslope Brewing Company,2289,1808
+Foreign / Export Stout,Upslope Brewing Company,2290,1809
+Vienna Lager,Upslope Brewing Company,2291,1810
+Vienna Lager,Upslope Brewing Company,2292,1810
+English Brown Ale,Upslope Brewing Company,2293,1811
+American Pale Ale (APA),Upslope Brewing Company,2294,1812
+American IPA,Upslope Brewing Company,2295,1813
+American Brown Ale,Upstate Brewing Company,2296,1814
+American IPA,Upstate Brewing Company,2297,1815
+American Pale Ale (APA),Utah Brewers Cooperative,2298,1816
+American Double / Imperial IPA,Utah Brewers Cooperative,2299,1817
+Doppelbock,Utah Brewers Cooperative,2300,1818
+American White IPA,Utah Brewers Cooperative,2301,1819
+American White IPA,Utah Brewers Cooperative,2302,1819
+Fruit / Vegetable Beer,Utah Brewers Cooperative,2303,1820
+American Double / Imperial IPA,Utah Brewers Cooperative,2304,1817
+American Pale Ale (APA),Utah Brewers Cooperative,2305,1816
+Cider,Vander Mill Ciders,2306,1821
+Cider,Vander Mill Ciders,2307,1821
+Cider,Vander Mill Ciders,2308,1821
+Cider,Vander Mill Ciders,2309,1821
+Cider,Vander Mill Ciders,2310,1821
+American Stout,Vault Brewing Company,2311,1822
+Tripel,Voodoo Brewery,2312,1823
+Witbier,Voodoo Brewery,2313,1824
+American Brown Ale,Voodoo Brewery,2314,1825
+Belgian Strong Pale Ale,Voodoo Brewery,2315,1826
+American IPA,Voodoo Brewery,2316,1827
+American Double / Imperial Pilsner,Voodoo Brewery,2317,1828
+American IPA,Wachusett Brewing Company,2318,1829
+American IPA,Wachusett Brewing Company,2319,1829
+American IPA,Wachusett Brewing Company,2320,1829
+Witbier,Wachusett Brewing Company,2321,1830
+American Double / Imperial IPA,Wachusett Brewing Company,2322,1831
+American Pale Wheat Ale,Wachusett Brewing Company,2323,1832
+English Pale Ale,Wachusett Brewing Company,2324,1833
+American IPA,Wachusett Brewing Company,2325,1829
+Pumpkin Ale,Wachusett Brewing Company,2326,1834
+Fruit / Vegetable Beer,Wachusett Brewing Company,2327,1835
+American IPA,Wachusett Brewing Company,2328,1829
+American Amber / Red Ale,Warbird Brewing Company,2329,1836
+American IPA,Warped Wing Brewing Company,2330,1837
+Cream Ale,Warped Wing Brewing Company,2331,1838
+Oatmeal Stout,Warped Wing Brewing Company,2332,1839
+American IPA,Warped Wing Brewing Company,2333,1837
+Herbed / Spiced Beer,West Sixth Brewing,2334,1840
+American Porter,West Sixth Brewing,2335,1841
+American Amber / Red Ale,West Sixth Brewing,2336,1842
+American IPA,West Sixth Brewing,2337,1843
+American Pale Ale (APA),Westbrook Brewing Company,2338,1844
+Gose,Westbrook Brewing Company,2339,1845
+Witbier,Westbrook Brewing Company,2340,1846
+American IPA,Westbrook Brewing Company,2341,1847
+Märzen / Oktoberfest,Westfield River Brewing Company,2342,1848
+American Amber / Red Lager,Westfield River Brewing Company,2343,1849
+American IPA,Westfield River Brewing Company,2344,1850
+American Pale Lager,Weston Brewing Company,2345,1851
+Bock,Weston Brewing Company,2346,1852
+English Stout,Weston Brewing Company,2347,1853
+American IPA,Weston Brewing Company,2348,1854
+Cream Ale,Weston Brewing Company,2349,1855
+Chile Beer,Weston Brewing Company,2350,1856
+American Amber / Red Ale,Weston Brewing Company,2351,1857
+Berliner Weissbier,White Birch Brewing,2352,1858
+American IPA,White Birch Brewing,2353,1859
+Berliner Weissbier,White Birch Brewing,2354,1858
+Berliner Weissbier,White Birch Brewing,2355,1858
+American IPA,White Flame Brewing Company,2356,1860
+Radler,Widmer Brothers Brewing Company,2357,1861
+Hefeweizen,Widmer Brothers Brewing Company,2358,1862
+Hefeweizen,Widmer Brothers Brewing Company,2359,1862
+American Double / Imperial IPA,Wild Onion Brewing Company,2360,1863
+Pumpkin Ale,Wild Onion Brewing Company,2361,1864
+American Brown Ale,Wild Onion Brewing Company,2362,1865
+American Blonde Ale,Wild Onion Brewing Company,2363,1866
+American Double / Imperial IPA,Wild Onion Brewing Company,2364,1863
+American Double / Imperial IPA,Wild Onion Brewing Company,2365,1863
+Witbier,Wild Onion Brewing Company,2366,1867
+Oatmeal Stout,Wild Onion Brewing Company,2367,1868
+Pumpkin Ale,Wild Onion Brewing Company,2368,1864
+American Pale Ale (APA),Wild Onion Brewing Company,2369,1869
+Belgian Pale Ale,Wild Wolf Brewing Company,2370,1870
+Scotch Ale / Wee Heavy,Wild Wolf Brewing Company,2371,1871
+American Pilsner,Wild Wolf Brewing Company,2372,1872
+American Pale Ale (APA),Wild Wolf Brewing Company,2373,1873
+Irish Dry Stout,Wildwood Brewing Company,2374,1874
+Bock,Wildwood Brewing Company,2375,1875
+Munich Helles Lager,Wildwood Brewing Company,2376,1876
+American Pale Ale (APA),Wind River Brewing Company,2377,1877
+American Blonde Ale,Wind River Brewing Company,2378,1878
+American IPA,Wingman Brewers,2379,1879
+American Porter,Wingman Brewers,2380,1880
+American Amber / Red Lager,Wisconsin Brewing Company,2381,1881
+American IPA,Wisconsin Brewing Company,2382,1882
+American Porter,Wisconsin Brewing Company,2383,1883
+American IPA,Wisconsin Brewing Company,2384,1882
+Saison / Farmhouse Ale,Wiseacre Brewing Company,2385,1884
+American IPA,Wiseacre Brewing Company,2386,1885
+American Pilsner,Wiseacre Brewing Company,2387,1886
+American IPA,Witch's Hat Brewing Company,2388,1887
+American Brown Ale,Witch's Hat Brewing Company,2389,1888
+American IPA,Wolf Hills Brewing Company,2390,1889
+American Pale Lager,Wolverine State Brewing Company,2391,1890
+Cider,Woodchuck Hard Cider,2392,1891
+American IPA,"Woodstock Inn, Station & Brewery",2393,1892
+American Pilsner,"Woodstock Inn, Station & Brewery",2394,1893
+American IPA,Wormtown Brewery,2395,1894
+American IPA,Worthy Brewing Company,2396,1895
+Kölsch,Worthy Brewing Company,2397,1896
+American Double / Imperial IPA,Worthy Brewing Company,2398,1897
+American IPA,Worthy Brewing Company,2399,1895
+American Pale Ale (APA),Worthy Brewing Company,2400,1898
+Chile Beer,Wynkoop Brewing Company,2401,1899
+American Strong Ale,Wynkoop Brewing Company,2402,1900
+Pumpkin Ale,Wynkoop Brewing Company,2403,1901
+American Stout,Wynkoop Brewing Company,2404,1902
+Belgian IPA,Wynkoop Brewing Company,2405,1903
+American Amber / Red Ale,Wynkoop Brewing Company,2406,1904
+Schwarzbier,Wynkoop Brewing Company,2407,1905
+American Pale Ale (APA),Wynkoop Brewing Company,2408,1906
+American Amber / Red Ale,Wynkoop Brewing Company,2409,1904

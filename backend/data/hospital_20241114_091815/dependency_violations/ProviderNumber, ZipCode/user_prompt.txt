@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The first column of zip code seems to determine the city and state paired in another column, indicating a geographical relationship and dependency between the location represented by zip code and the city/state.
+
+  The following is a formatted table with the unique data to be checked.
+  

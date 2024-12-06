@@ -1,0 +1,16 @@
+{
+  "output": [
+    {
+      "columns": [2, 6],
+      "dependency": "The flight number (one column representing the flight identifier) appears related to the arrival time at a specified destination (another column representing the flight's arrival time), as the flight number column outputs a unique identifier for each flight that determines where and when it arrives."
+    },
+    {
+      "columns": [6, 4],
+      "dependency": "The departure time (another column representing the flight's departure time) is significantly related to the arrival time for each flight, as they indicate the schedule of the flight."
+    },
+    {
+      "columns": [2, 4],
+      "dependency": "The flight number (one column representing the flight identifier) is liable to indicate the departure time associated with that particular flight, suggesting a direct connection between the flight identifier and its scheduled departure."
+    }
+  ]
+}

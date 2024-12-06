@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The title of the movie (column 1) is dependent on the director (column 4) as it represents the work of the director.
+
+  The following is a formatted table with the unique data to be checked.
+  

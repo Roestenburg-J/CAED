@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The hospital's name in one column is directly related to its address as represented in another column.
+
+  The following is a formatted table with the unique data to be checked.
+  

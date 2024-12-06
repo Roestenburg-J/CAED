@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The specified quantity described in one column contains a pattern (size) that influences the value of the alcohol by volume percentage represented in the other column.
+
+  The following is a formatted table with the unique data to be checked.
+  

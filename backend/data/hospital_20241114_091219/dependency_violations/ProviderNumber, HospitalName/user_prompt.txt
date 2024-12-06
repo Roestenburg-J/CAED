@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The value in the column representing postal codes (Column 1) could indicate the location of the hospital (Column 2) in that postal area.
+
+  The following is a formatted table with the unique data to be checked.
+  

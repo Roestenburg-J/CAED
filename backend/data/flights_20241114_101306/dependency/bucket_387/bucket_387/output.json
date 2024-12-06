@@ -1,0 +1,20 @@
+{
+  "output": [
+    {
+      "columns": [2, 1],
+      "dependency": "The third column, which represents a flight code, is dependent on the second column, which represents the source name. Each source provides information for the same flight code (CO-1193-EWR-MCO)."
+    },
+    {
+      "columns": [3, 4],
+      "dependency": "The fourth column, which represents the departure time is dependent on the third column that indicates the scheduled flight. The values in the fourth column (actual departure times) might be influenced by the scheduled departure time in the third column."
+    },
+    {
+      "columns": [5, 6],
+      "dependency": "The sixth column, which appears to represent actual arrival times, is dependent on the fifth column that indicates scheduled arrival times. The sixth-column values are often expected to correlate with the fifth-column values."
+    },
+    {
+      "columns": [3, 5],
+      "dependency": "The times in the third column (scheduled departure time) and the fifth column (scheduled arrival time) are likely dependent on the same flight code represented in the third column, indicating a temporal relationship between departure and arrival times."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,Id,Name,"The value in the first column, which represents a film identifier, semantically relates to the title of the film in the second column."
+0,3,Id,Release Date,"The identifier for the movie seems to be consistent with the release year and country information, indicating that the movie represented by the identifier is released in the year and country specified in the respective columns."
+1,2,Name,Year,"The title of the film (second column) is related to its release year (third column), as each film title corresponds to a specific year."
+1,4,Name,Director,The title of the movie (column 1) is dependent on the director (column 4) as it represents the work of the director.
+1,10,Name,Duration,The title of the film in the second column may semantically determine the length of the film in minutes represented in the tenth column by implicitly suggesting that different titles often have varying runtimes.
+1,14,Name,Genre,"The film title in the second column semantically determines the genre of the film in the fourteenth column, indicating that all these titles belong in the horror genre."
+2,3,Year,Release Date,"The release year of the movie is repeated in the column specifying the release year and country, indicating that all entries belong to the same release year."
+2,15,Year,Filming Locations,"The filming location may provide additional context to the release year, as certain places are known for cinema from specific periods."
+3,9,Release Date,Country,"The release date of a movie (column for release date) can imply the country of its premiere (column for country) since the format includes the country, indicating the geographical context of the premiere."
+4,5,Director,Creator,"The main contributor of the film in the fifth column is often the same as or closely related to the contributor listed in the fourth column, indicating a syntactic dependency."
+4,6,Director,Actors,"The director (fifth column) is likely associated with the primary actor (seventh column), indicating that the director may also contribute to or influence the casting of main characters."
+5,6,Creator,Actors,"The role of producers in making the movie seems to be dependent on the cast, indicating that different producers may have produced films featuring the same cast members."
+6,7,Actors,Cast,"The main cast of the film (Column 6) may represent a subset of the full cast listed in Column 7, indicating that the primary actors are included in the overall cast."
+7,13,Cast,ReviewCount,The list of actors featured in the movie (column for actors) correlates with the review count (column for user and critic ratings) suggesting that more known actors might lead to a higher number of reviews.
+8,9,Language,Country,"The language of the movie (ninth column) is often determined by the country (tenth column) where it is categorized, suggesting a dependency where the language chosen reflects the country of origin."
+8,10,Language,Duration,"The language of the film (eighth column) is semantically connected to its duration (tenth column), where a particular language often appears in certain duration constraints."
+9,14,Country,Genre,"The genre listed in the fourteenth column likely indicates a relationship with the country of origin in the ninth column, as certain genres may be more prevalent in specific countries."
+9,15,Country,Filming Locations,"The country of production (column 9) is dependent on the location (column 15), indicating that the movies are produced in the USA as stated."
+10,11,Duration,RatingValue,The duration of the movie (column for duration) could be related to its average rating (column for average rating) as viewers might have a preference for films of certain lengths affecting their ratings.
+11,12,RatingValue,RatingCount,"The rating of the film in the eleventh column provides a qualitative measure which could be related to the number of ratings received in the twelfth column, suggesting a pattern that influences how films are rated."
+12,13,RatingCount,ReviewCount,"The number of user ratings (twelfth column) is semantically linked to the count of critic ratings (thirteenth column), indicating both columns reflect audience reception."
+14,15,Genre,Filming Locations,"The genre of the movie (fifteenth column) might shape the location (sixteenth column) described in the movie, indicating that certain genres might be more likely to use specific settings."
+14,16,Genre,Description,"The genre of the movie (column 14) may inform us about the theme or subject of the movie (column 16), suggesting a relationship between the two."
+15,16,Filming Locations,Description,"The filming location described in the fifteenth column might provide contextual information about the film's narrative, as described in the second column."

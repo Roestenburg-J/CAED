@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The genre of the movie (column 14) may inform us about the theme or subject of the movie (column 16), suggesting a relationship between the two.
+
+  The following is a formatted table with the unique data to be checked.
+  

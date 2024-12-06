@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column representing a postal code appears dependent on the facility name to determine which facility corresponds to the specific postal code.
+
+  The following is a formatted table with the unique data to be checked.
+  

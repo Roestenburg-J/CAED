@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The alcohol content percentage and the measured value may show a syntactical dependency where specific alcohol content might correlate with a certain measure.
+
+  The following is a formatted table with the unique data to be checked.
+  

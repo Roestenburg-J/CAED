@@ -1,0 +1,2909 @@
+{
+  "output": [
+    {
+      "explanation": "The genre 'Horror' indicates a theme surrounding fear or the supernatural. The description suggests a family in a fallout shelter, which does not primarily evoke horror themes but rather survival or thriller elements. This creates a mismatch.",
+      "index": 59,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The genre 'Action & Adventure,Comedy' suggests a blend of high-energy and humorous elements, yet the description conveys a more serious tone involving a dangerous government operation. This disconnect indicates the genres do not align with the described subject appropriately.",
+      "index": 60,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Thriller"
+    },
+    {
+      "explanation": "The genre 'Horror' suggests a focus on fear and supernatural elements. The family being haunted by ghosts supports a horror theme, but the description lacks depth that typically accompanies horror narratives. This discrepancy suggests a potential mismatch in thematic expectations.",
+      "index": 62,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Supernatural Thriller"
+    },
+    {
+      "explanation": "The genre 'Comedy,Mystery,Drama' implies a blend of tones, but the description does not suggest comedic elements and implies more thriller-like experiences.",
+      "index": 101,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama,Mystery,Romance' implies a dramatic narrative with potential for romance, but the plot focuses on blackmail and murder with no romantic element involved.",
+      "index": 103,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The entry 'Sci-Fi,Thriller' suggests a suspenseful film, yet the description focuses on a military central computer with a light-hearted approach rather than a thrilling experience.",
+      "index": 121,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Sci-Fi,Comedy"
+    },
+    {
+      "explanation": "The entry 'Crime' suggests a focus on criminal activity, but the description entails a narrative about inheritance and sexual obsession, indicative of a crime-thriller rather than a general crime film.",
+      "index": 133,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Science Fiction & Fantasy,Kids & Family' does not align with the description, which does not mention family dynamics, suggesting a more niche thriller or surreal experience.",
+      "index": 183,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Science Fiction & Fantasy,Thriller"
+    },
+    {
+      "explanation": "The genre 'Animation,Comedy' and description do not align, as it lacks comedic elements and focuses on a dramatic set-up of life-changing events.",
+      "index": 192,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' does not align with the theme of a rookie cop's 1st shift in a closing police station, which is more suited to a suspenseful or dramatic genre without the horror element.",
+      "index": 277,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama' does not include any specific elements that relate to the external conflicts or themes typically associated with Jesus Christ's life journey, which would include elements of faith, conflict, redemption, or sacrifice.",
+      "index": 281,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biography"
+    },
+    {
+      "explanation": "The genre 'Adventure,Romance' implies a sense of action and attraction, however the theme indicates the story's focus on a deep personal journey, which fits better with 'Drama' or 'Romance' and lacks the adventurous spirit suggested by the genres listed.",
+      "index": 271,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance"
+    },
+    {
+      "explanation": "The entry 'Add a Plot' does not provide any valid theme or subject matter for the genre 'Drama'. This entry needs a real description of the film's plot to match the set expectations for the drama genre.",
+      "index": 235,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Add a proper plot description."
+    },
+    {
+      "explanation": "The film's description does not align effectively with the genres 'Action,Adventure,Comedy', as the focus on a TV pilot being produced does not imply significant action or adventure elements.",
+      "index": 293,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Thriller' does not correspond to a plot that fits these themes, as it presents a superficial storyline of a bullfighter's dream rather than a serious exploration of horror or thriller aspects.",
+      "index": 392,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance"
+    },
+    {
+      "explanation": "The genre 'Documentary' does not align with the theme described, which suggests a narrative structure and dramatization rather than documentary filmmaking techniques.",
+      "index": 393,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biography,History"
+    },
+    {
+      "explanation": "The genre 'Comedy' does not match the serious theme of a crime involving a killer, indicating a mismatch in the tone of the genre and plot description.",
+      "index": 389,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama' alone does not reflect the intense and dramatic nature of the plot involving a crime-related plot about a killer and kidnapping, suggesting a mismatch between genre and plot.",
+      "index": 391,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Horror,Mystery,Thriller' does not correspond accurately with a comedy plot about a boy hiring the most popular girl to pretend to date him, which is not aligned with horror or thriller themes.",
+      "index": 394,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Romance"
+    },
+    {
+      "explanation": "The entry in column 14 indicates genres of 'Comedy,Fantasy,Horror' but the description in column 16 contains no elements typical of these genres such as humor or whimsical situations, pointing to a mismatch.",
+      "index": 469,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Fantasy"
+    },
+    {
+      "explanation": "The entry in column 14 indicates the genre 'Horror' but the description in column 16 does not pertain to horror elements; instead, it describes a tragic family story, thus creating a disconnect.",
+      "index": 475,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The entry in column 14 lists 'Comedy,Horror' but the description in column 16 does not contain elements typical of these genres; it reads more like a tragic narrative rather than comedic or horror elements.",
+      "index": 476,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The entry in column 14 indicates the genre 'Horror' but the description in column 16 does not contain horror themes or scenarios; it describes a tragic story.",
+      "index": 478,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "Col 14 indicates a Horror genre, but the entry in Col 16 describes a film about a man and his son vacationing in a town populated with vampires. It does not match the direct theme typically expected from a film categorized solely as Horror which should focus on fear, terror, or the supernatural. The description implies a broader narrative potentially more aligned with Adventure or Fantasy.",
+      "index": 575,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Horror,Adventure,Fantasy"
+    },
+    {
+      "explanation": "The entry in Col 14 lists Action, Drama, and Music but the associated description in Col 16 does not reflect a musical or performance-oriented plot. It is about a former Secret Service agent being a bodyguard; it fails to signify any musical theme which is not consistent with this genre combination.",
+      "index": 567,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The genre 'Adventure,Fantasy,Sci-Fi' in index 602 suggests a theme about rockets and new power sources, which does not align with the description given in column 16 about the American civil war.",
+      "index": 602,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Western"
+    },
+    {
+      "explanation": "The genre 'Comedy,War' in index 606 denotes a comedic take on wartime events, while the description implies a serious scenario involving loss and finding family.",
+      "index": 606,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The entry at index 618 lists 'Comedy,Horror,Thriller' but the description about a Hollywood actor becoming a murder suspect is too serious to pair with the comedy genre.",
+      "index": 618,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "In index 646, the genre given suggests light-heartedness about shrinking teens, which is inconsistent with the more serious tone presented in column 16.",
+      "index": 646,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' in index 643 implies a suspenseful and dark narrative, while column 16 speaks of a mature relationship challenge, not a horror narrative.",
+      "index": 643,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The entry in column 14 ('Sci-Fi') lacks thematic relevance to the description in column 16, which suggests an action plot involving a hacker in virtual reality. 'Sci-Fi' does not adequately capture action or adventure elements pertinent to the description.",
+      "index": 765,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Sci-Fi"
+    },
+    {
+      "explanation": "The entry in column 14 ('Family') does not match the child-centric plot described in column 16, which seems to imply a more comedic or fantastical adventure. The genre does not align with the specific theme indicated in the description.",
+      "index": 792,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Adventure,Family"
+    },
+    {
+      "explanation": "Column 14 lists genres including 'Drama' but does not indicate any corresponding thematic elements related to family, which is implied by 'Family' in the genre. This suggests a mismatched categorization.",
+      "index": 829,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Sport,Family"
+    },
+    {
+      "explanation": "Column 14 includes 'Comedy,' but the theme does not suggest a comedic or light-hearted narrative as it discusses the realities faced by a dog after a traumatic experience. This presents a thematic inconsistency.",
+      "index": 877,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Family"
+    },
+    {
+      "explanation": "Column 14 suggests themes of 'Family' but the description focuses on a dystopian society without any mention or implication of familial struggles therein, which violates the thematic correlation expected from the 'Family' genre.",
+      "index": 860,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Fantasy,Family"
+    },
+    {
+      "explanation": "The entry in Column 14 is 'Comedy,' while the description in Column 16 alludes to serious issues concerning identity and legacy. Such thematic divergence represents a violation of the expected genre relationship.",
+      "index": 856,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Family"
+    },
+    {
+      "explanation": "The genre 'Drama' should not be considered in isolation without additional context, leading to semantic inconsistency; themes are often expected to correlate with the specified genres, which should generally reflect a storytelling context.",
+      "index": 925,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add a genre fitting the drama theme, such as 'Mystery' or 'Romance'."
+    },
+    {
+      "explanation": "The genre 'Drama' is too vague and does not speak to the potential blend of genres that may be expected in a theme of family dynamics, which usually would include elements of other genres such as 'Family' or 'Comedy'.",
+      "index": 925,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Add an appropriate genre relating to family dynamics such as 'Family'."
+    },
+    {
+      "explanation": "Action genre suggests a focus on physical challenges and adventures, but the description lacks any such theme and instead describes a more serious quest involving existential questions, making it inconsistent.",
+      "index": 1012,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Adventure"
+    },
+    {
+      "explanation": "The description doesn't align with typical themes of Family and Sport; it suggests a serious context focused on a boy's experience of loss rather than a sports theme, making it inconsistent.",
+      "index": 1090,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Family"
+    },
+    {
+      "explanation": "While the description mentions a comedic character's relationships, it lacks elements typically associated with a comedy genre, especially the depth of the comedic conflict or humor in detail.",
+      "index": 1067,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama"
+    },
+    {
+      "explanation": "The genres listed suggest an emphasis on a thrilling or mysterious craft, but the plot summary is vague and lacks relatable thrilling or crime-related content.",
+      "index": 1070,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Thriller,Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror' does not correlate with a summary that is typically representative of a Horror movie, suggesting potential misuse of categories.",
+      "index": 1109,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Horror' should typically include a more explicit theme of fear or the supernatural; the description suggests a mystery or adventure plot, misaligning with the Horror genre.",
+      "index": 1125,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Mystery"
+    },
+    {
+      "explanation": "The genre 'Horror' does not adequately frame the narrative described, which seems to better fit an Adventure or Action theme.",
+      "index": 1146,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genre 'Action' does not align with the narrative of a living mummy which strongly characterizes traditional horror themes, indicating a misclassification in genre.",
+      "index": 1146,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Action"
+    },
+    {
+      "explanation": "The genre 'Drama' does not encapsulate the horror-like presence in the narrative description, indicating an inappropriate genre tagging.",
+      "index": 1174,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The indicated genre 'Fantasy' may not accurately represent a story about a mummy stalking someone, which is better categorized under suspense or horror.",
+      "index": 1146,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Fantasy"
+    },
+    {
+      "explanation": "The summary does not stay true to what is generally expected from a movie labeled 'Horror'; it might mislead audiences expecting different thematic outcomes.",
+      "index": 1140,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The combination of genres does not accurately reflect the narrative’s contents and themes, suggesting a mix-up in genre classification.",
+      "index": 1186,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama,Romance"
+    },
+    {
+      "explanation": "'Western' is a genre that commonly suggests themes related to the American frontier, yet its corresponding description lacks any elements or references pertinent to the western genre, making it semantically incorrect.",
+      "index": 1244,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Drama,Western"
+    },
+    {
+      "explanation": "The entry in column 14 labeled 'Mystery & Suspense,Action & Adventure' fails to define a specific genre. A full genre descriptor is necessary for meaningful analysis of the corresponding description in column 16, which discusses a specific narrative plot that doesn't clearly align with the vague genre classification.",
+      "index": 1274,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Mystery"
+    },
+    {
+      "explanation": "The genre 'Drama,Kids & Family' suggests themes suitable for children, but the narrative contains mature elements and complex themes that are not appropriate for children.",
+      "index": 1300,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Sport' indicates themes surrounding sports, but the narrative focuses on serious issues of academic failure and ethical dilemmas suitable for drama, which conflicts with the expectations tied to sports-themed narratives.",
+      "index": 1301,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Biography,Drama,History' implies a historical portrayal, whereas the narrative's focus on a hockey game's dramatic circumstances does not align with historical depth expectations, creating a mismatch.",
+      "index": 1302,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Drama' is too vague as the narrative appears to cover intense themes of ambition and mortality, which may require a more specific genre classification to reflect the film's depth.",
+      "index": 1303,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biographical Drama"
+    },
+    {
+      "explanation": "The genre 'Crime,Drama,Mystery' suggests a plot driven by criminal investigations, yet the narrative's focus on an emotional connection and personal relationships does not align with typical expectations of a crime mystery, indicating a lack of coherence in thematic linkages.",
+      "index": 1304,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Romance' indicates that themes involve love stories; however, the narrative presents a serious and tragic backdrop that ventures into darker themes, which is inconsistent with a typical romantic drama setup.",
+      "index": 1305,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Drama' suggests a general category, but the detailed narrative focuses on intense psychological themes, which calls for a more specific classification to truly represent the film's nature.",
+      "index": 1306,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Psychological Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama' is too broad and does not adequately capture the narrative's exploration of sociopathy and violence, which points towards a need for a more specialized genre classification that reflects its darker themes.",
+      "index": 1307,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Psychological Drama"
+    },
+    {
+      "explanation": "The genre 'Drama' does not encapsulate the narrative's exploration of comedic ventures along with significant life challenges, suggesting a mismatch in genre representation.",
+      "index": 1308,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Dramatic Comedy"
+    },
+    {
+      "explanation": "The genre Comedy,Sport in column 14 does not describe the theme of the movie in column 16, which focuses on pro athletes and a national sport, and is not purely comedic or sporty.",
+      "index": 1400,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "Comedy,Sport in column 14 does not match the theme as the movie description focuses primarily on dodgeball, which aligns more closely with Comedy rather than a broad Sport genre.",
+      "index": 1406,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "Comedy,Sport in column 14 does not align with the description in column 16, which indicates a documentary or historical basis rather than a comedic or sports-oriented theme.",
+      "index": 1407,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "Action,Adventure,Horror in column 14 does not align with a description that suggests a dramatic/character-based narrative, which does not fit the adventurous or horror-oriented genres.",
+      "index": 1405,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "Action,Adventure,Horror in column 14 does not correspond to a narrative focused on personal conflicts or dramatic tension but falls more into comedic territory with light-hearted themes.",
+      "index": 1410,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "Action,Horror,Sci-Fi in column 14 suggests a depiction catering more towards suspense and fear, yet the description provides a comedic undertone which misaligns with genre expectations.",
+      "index": 1459,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "Comedy,Family,Sport in column 14 does not correspond with the film's storyline which indicates a more serious nature, lacking the comedic and sporty concepts.",
+      "index": 1450,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Family"
+    },
+    {
+      "explanation": "The combination of Drama,Family in column 14 suggests emotional depth, while the description indicates a more comedic premise than a dramatic exploration of family dynamics.",
+      "index": 1442,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The genre Horror in column 14 is inconsistent with a plot that aligns more closely with Comedy, which should be referenced to align the movie description accurately with its genre.",
+      "index": 1425,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The entry in column 16 lacks any values for column 14, which violates the dependency; a genre is required to inform the theme or subject of the movie.",
+      "index": 1543,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add a corresponding genre for the movie."
+    },
+    {
+      "explanation": "The entry in column 14 presents a list of genres but does not correspond to a theme in column 16, as the description lacks clarity on genre representation.",
+      "index": 1589,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Specify a more definitive theme or add relevant genres."
+    },
+    {
+      "explanation": "The entry for index 1590 mentions 'Documentary of the live of flora and fauna', while the genres listed in column 14 don't typically align with this semantic theme of nature.",
+      "index": 1590,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Modify to indicate a more suitable genre such as 'Nature Documentary'."
+    },
+    {
+      "explanation": "Column 16 describes a narrative about a retired engineer rescuing a satellite, which does not align with the action-adventure-thriller genre typically associated with such themes. It suggests a possible error in genre labeling as it's misleading.",
+      "index": 1600,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Adventure,Thriller"
+    },
+    {
+      "explanation": "The narrative involves a romance between Robert Kincaid and Francesca Johnson, clearly aligning with the Drama and Romance genres. However, the genres are correct but the narrative could suggest other themes beyond just these genres, hence no error is noted here.",
+      "index": 1601,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The plot discusses themes of artificial intelligence and dangerous implications which corresponds more with science fiction rather than the Romance genre. This suggests an error in the genre classification.",
+      "index": 1602,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Mystery,Sci-Fi"
+    },
+    {
+      "explanation": "The action involves crime and thriller elements, fitting the description well. However, the narrative suggests a deeper character development and emotional journey that may not be captured by the Action, Crime, Thriller genre alone.",
+      "index": 1603,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "This narrative describes a violent past and deep emotional consequences, indicative of themes associated with drama. However, Crime and Drama genres are fitting as the plot aligns, showing no error with these labels.",
+      "index": 1604,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The narrative suggests themes of personal and social stakes usually associated with adventure and sci-fi rather than solely focusing on mystery, indicating an error in the classification as it may mislead viewers regarding the primary experience.",
+      "index": 1605,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Sci-Fi"
+    },
+    {
+      "explanation": "The plot center-gravitate around college buddies on a road trip suggesting potential dramatic themes along emotional narratives but fits comedy well, demonstrating no error and correctly fitting the genre.",
+      "index": 1606,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The plot centers on heavy emotional elements stemming from a person's health issue, which correlates more with Drama rather than the Sport genre and hence suggests a possible error in genre classification.",
+      "index": 1607,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Sport"
+    },
+    {
+      "explanation": "Animal companionship is a core theme suggesting family-oriented narratives aligning well with the adventure but might have misled viewers greatly within the Adventure, Drama, Family genre.",
+      "index": 1608,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "This narrative centers around a young boy and a cheetah, implying family and friendship themes which fit the genre well without any deviation indicating no violation.",
+      "index": 1609,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The narrative centers on war with comedic elements combined, correctly suggesting upheaval of war themes hence genre aligns well, implying no error.",
+      "index": 1610,
+      "column": 14,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "This narrative involves relationships and supernatural elements suggestive of deeper themes beyond typical romantic narration, can introduce confusion within genre classifications as it's misleading with overly romantic elements.",
+      "index": 1611,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Fantasy,Romance"
+    },
+    {
+      "explanation": "The genre 'Family' does not match the theme which seems more action-oriented and adventure-based, potentially leading to a misleading audience expectation.",
+      "index": 1700,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genres 'Crime,Drama' imply a darker narrative, but the description portrays a coming-of-age story, which might mislead audience expectations as it lacks the typical crime drama elements.",
+      "index": 1701,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Adventure,Coming-of-age"
+    },
+    {
+      "explanation": "The theme of a frog with an identity crisis does not align with any narrative expectations set by the genres 'Animation,Adventure,Comedy', making it seem out of place for an animated adventure.",
+      "index": 1702,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Fantasy,Comedy"
+    },
+    {
+      "explanation": "The description refers to a soldier’s struggle which aligns correctly with the genre 'Drama,War'; however, the lack of a strong connection between specific war events and emotional struggle indicates a vague interpretation of the theme.",
+      "index": 1703,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Historical,War Drama"
+    },
+    {
+      "explanation": "The single genre 'Drama' does not sufficiently indicate the more emotional themes present in the entry regarding a dying mother and a unique friendship; this may confuse audience expectations.",
+      "index": 1704,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Emotion"
+    },
+    {
+      "explanation": "The description contains themes regarding motherly perspectives but is mismatched with the genre 'Drama', leaving out the complexity of the relationships addressed.",
+      "index": 1705,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Family,Drama"
+    },
+    {
+      "explanation": "The narrative regarding underground fighting could suggest a more complex set of themes than those indicated by the genres 'Action,Crime,Drama', as it lacks a deeper exploration of moral issues connected with violence.",
+      "index": 1706,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Redemption"
+    },
+    {
+      "explanation": "While the themes and the genre 'Comedy,Romance' are typical, the focus on several couples does not entirely fill in the gaps indicating specific comedic situations, leading to a potential mismatch in expectations.",
+      "index": 1707,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic Comedy"
+    },
+    {
+      "explanation": "The entry suggests a story of personal growth and fellowship but does not deliver adequately on the themes of 'Sport' indicated in the genres, confusing the audience's understanding of the film's focus.",
+      "index": 1708,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Sport,Friendship"
+    },
+    {
+      "explanation": "The description indicates a psychological thriller but mismatches with the single 'Thriller' genre, failing to convey the complexity of memory loss and suggestive responsibility effectively.",
+      "index": 1709,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Psychological Thriller"
+    },
+    {
+      "explanation": "This entry's description seems to suggest a more comedic nature with nuances of drama but mismatched with the genre 'Comedy,Drama' suggesting this is more focused on drama than comedy, misleading audience expectation.",
+      "index": 1710,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy"
+    },
+    {
+      "explanation": "While the entry correctly implies elements of humor, the radical nature of their encounters should be represented in a stronger thematic context to align better with 'Comedy,Horror,Thriller'.",
+      "index": 1711,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Comedy,Adventure,Horror"
+    },
+    {
+      "explanation": "The description suggests a journey into the underworld of ex-cons, but the genres do not adequately represent the complexity of the ex-con's emotional and ethical struggles, risking a misunderstanding of the film’s themes.",
+      "index": 1712,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Redemption"
+    },
+    {
+      "explanation": "The humor indicated fails to connect with the 'Horror' in the description. It does not fulfill the expectations of what the genre should reflect, leading to confusion about the actual theme.",
+      "index": 1713,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Comedy,Adventure,Horror"
+    },
+    {
+      "explanation": "The description does not adequately convey deeper ‘Romance’ themes despite aligning with the expected comedic elements suggesting the film lacks narrative depth for the genre.",
+      "index": 1714,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic Comedy"
+    },
+    {
+      "explanation": "The description implies a deeper connection of friendship than merely comedy, which needs to be reflected in the genres as a complex relationship beyond the surface humor indicated.",
+      "index": 1715,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Friendship"
+    },
+    {
+      "explanation": "The genres do not accurately reflect the complexity of personal relationships in the description, leaving out a crucial emotional depth that the romance indicates.",
+      "index": 1716,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance,Life"
+    },
+    {
+      "explanation": "The characters' arcs and development of relationships signify elements beyond simple 'Romance' despite fitting comfortably within 'Comedy'. It mixes shades of drama which are absent in the listed genres.",
+      "index": 1717,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Romantic Drama"
+    },
+    {
+      "explanation": "The entry hints at complex emotional connections that are not fully captured by the genres as a deeper understanding of the situation can suggest much more than just 'Romantic' insights, indicating a conflict.",
+      "index": 1718,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Romantic Drama"
+    },
+    {
+      "explanation": "The description contains more than mere romance, aiming at connections and conflicts that the genre fails to cover properly, which could mislead the audience.",
+      "index": 1719,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic Drama"
+    },
+    {
+      "explanation": "The narrative elements involve chaos beyond mere romance, requiring a more comprehensive genre designation to clarify possible audience misconceptions about tone and expectations.",
+      "index": 1720,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic Comedy"
+    },
+    {
+      "explanation": "The description points toward a more dynamic narrative intertwining personal struggles reflected through complex interactions which need to be primary in the genres to avoid misleading the audience.",
+      "index": 1721,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance,Complex Relationships"
+    },
+    {
+      "explanation": "The description suggests that the film covers themes beyond just 'Horror' or 'Thriller', needing a more nuanced representation of the specific emotional turmoil depicted.",
+      "index": 1722,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Thriller"
+    },
+    {
+      "explanation": "The narrative implies artistic struggle wrapped in personal struggle, aligning with both 'Biography' and 'Crime' which remains inadequately represented in the acumen of genres listed.",
+      "index": 1723,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Biography,Artistic Struggle"
+    },
+    {
+      "explanation": "The description heavily indicates romance and drama which does not seemingly align with 'Crime,Drama,Music', causing an expectation vs reality imbalance for audiences.",
+      "index": 1724,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Romantic Drama"
+    },
+    {
+      "explanation": "Though the entry notes complications with relationships in art, it lacks the deeper connections indicated by the listed genres, steering audience expectation away from core themes.",
+      "index": 1725,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic,Drama,Artistic Relationships"
+    },
+    {
+      "explanation": "The themes of loss and new beginnings require a more defined 'Drama' than the single genre representation can provide, risking omitting vital narrative contexts.",
+      "index": 1726,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Personal Drama,Relationships"
+    },
+    {
+      "explanation": "The action element suggests emotional entanglement beyond mere conflict, requiring a nuanced representation that the genre lacks indicating a potential mislead of audience expectation.",
+      "index": 1727,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Personal Relationships,Action"
+    },
+    {
+      "explanation": "Though the description conveys a journey through loss, the genres do not encapsulate the emotional ramifications entirely, leading to audience confusion over thematic depth.",
+      "index": 1728,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance,Self-discovery"
+    },
+    {
+      "explanation": "The entry refers to complex romantic and age dynamics not satisfactorily depicted in the current genre list, potentially misleading viewers about the film's intended impact.",
+      "index": 1729,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic,Drama,Complex Relationships"
+    },
+    {
+      "explanation": "The description contains overt plot lines indicating societal issues that require a more pointed relationship within the genres addressing family participation that is missing here.",
+      "index": 1730,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Social Issues"
+    },
+    {
+      "explanation": "The themes suggested denote a deeper significance in the comedic representation requiring a genre shift toward one that encompasses the humor within dramatic contexts instead of a flat representation.",
+      "index": 1731,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Dramedy"
+    },
+    {
+      "explanation": "While the action genre seems valid, the narrative presents emotional layers that suggest a need for description in deeper character interactions that the current genre lacks.",
+      "index": 1732,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Emotional Conflict"
+    },
+    {
+      "explanation": "The entry implies a push for social issues but the genre fails to latch on to the emotional side to see the character transformations through social struggles which need further clarification in genres.",
+      "index": 1733,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Dramatic Sports"
+    },
+    {
+      "explanation": "The narrative appears heavily dramatized but encapsulated as such within the single 'Drama' genre lacks specifics on topics central to the plot leading to unclear audience expectations.",
+      "index": 1734,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Personal Struggles"
+    },
+    {
+      "explanation": "The representation lacks specificity in how physicality plays out in the relationship spaces, failing to link the narrative of not just personal but emotional struggles presently suggested in the genre.",
+      "index": 1735,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance,Life Struggles"
+    },
+    {
+      "explanation": "The strong connections depicted through interpersonal relationships are lost under the flatter genre lists identified leading audiences away from understanding substantial emotional bearings.",
+      "index": 1736,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Dramedy"
+    },
+    {
+      "explanation": "The description, while dramatic, lacks tension essential for thrillers which could potentially mislead the audience away from an anticipated climax suggesting needed restructuring in genres presented.",
+      "index": 1737,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Thriller,Drama,High Tension"
+    },
+    {
+      "explanation": "The narrative emphasis on community pressures and implications requires clearer articulation through strong thematic structure present in genres that require insufficient representation at every decision point.",
+      "index": 1738,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Historical,Social Issues"
+    },
+    {
+      "explanation": "The misalignment presents an opportunity for offering a more sufficient link between the complex interactions described and genre representation that fails to offer multifaceted elements in conjunction.",
+      "index": 1739,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Crime,Thriller,Drama"
+    },
+    {
+      "explanation": "The atmosphere depicted indicates deeper emotional connections which are overlooked, leading to a potential disconnect in genre representation and viewer expectations.",
+      "index": 1740,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Conspiracy,Crime"
+    },
+    {
+      "explanation": "The description indicates profound emotional impacts that align poorly with the genres leaving them divorced from thematic undertones and meaning; an indication of potential genre mismatch.",
+      "index": 1741,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller,Social Commentary"
+    },
+    {
+      "explanation": "The themes depicted allude to class issues that involve an emotional tug towards social dilemmas which should reflect across multiple genres instead of providing a singular reference, misleading viewers.",
+      "index": 1742,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Social Issues"
+    },
+    {
+      "explanation": "The narrative suggests elements beyond mere biography that could provide more leverage in thematic tones linked to emotional responses, least represented in given genres, suggesting uncertainty to audiences.",
+      "index": 1743,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Biography"
+    },
+    {
+      "explanation": "The depth concerning motivations lacking alignment to genres leaves an empty feeling ensuring complexity and tension are misrepresented across the thematic expectations from the entry so reviewed.",
+      "index": 1744,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Thriller"
+    },
+    {
+      "explanation": "The tension within personal relationships facing complexity is downplayed presenting uncertainty in genres representing the narrative meaning for audiences who may miss key subtleties suggested upfront.",
+      "index": 1745,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Personal Journey"
+    },
+    {
+      "explanation": "While dominated by action, the description conveys a need for reflection on deeper familial relationships and emotional motivations which the genre misses, indicating a need for an alignment adjustment.",
+      "index": 1746,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Action,Family,Drama"
+    },
+    {
+      "explanation": "The intricacies of significance within personal interactions are likely overlooked suggesting a necessity to expand current genres towards fostering a more rounded audience understanding of themes.",
+      "index": 1747,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Romantic,Drama,Family Dynamics"
+    },
+    {
+      "explanation": "The description refers to convoluted family relationships inviting a deeper emotional connection requiring expanded genre definition not reflected currently, risking a mismatch of audience expectations.",
+      "index": 1748,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Complex Relationships"
+    },
+    {
+      "explanation": "The thematic weight of ongoing criminal struggles yearning for redemption is poorly represented in the listed genres, this reduces the expected emotional depth, suggesting mismatch of audience expectations.",
+      "index": 1749,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Redemption,Crime"
+    },
+    {
+      "explanation": "The story outlines complex familial ties and motivations leading to misleading audience expectations based on an insufficient genre portrayal that manages to miss out on core themes evident in the description.",
+      "index": 1750,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Family,Redemption"
+    },
+    {
+      "explanation": "The narrative incorporating social accountability and family-oriented themes suggests a more profound need for articulating impacted layers within the genres than is reflected presently yielding potential misunderstandings.",
+      "index": 1751,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Family,Societal Issues"
+    },
+    {
+      "explanation": "The description hints at societal interactions requiring a deeper literary portrayal reflecting through themes which might ease comprehension for audiences if generated properly.",
+      "index": 1752,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Social Commentary"
+    },
+    {
+      "explanation": "The emotional struggle suggested requires a deep language indicating vastly more relatable dependency across different plots and presentations than solely focusing on singular experiences allows for in genre categories.",
+      "index": 1753,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Family Dynamics"
+    },
+    {
+      "explanation": "The nuanced interpretation refers to action through family engagement needing adjustments for audience context, suggesting a fuller understanding which remains abstract in current genres as displayed.",
+      "index": 1754,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Personal Relationships"
+    },
+    {
+      "explanation": "The tale’s components indicate storytelling at a high stakes level with unexpected resonance lacking the pragmatic connections found in simpler genre arrangements currently depicted in the listing provided.",
+      "index": 1755,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Thriller,Horror,Crime"
+    },
+    {
+      "explanation": "The narrative presents compelling ties that are not sufficiently illustrated across the listed genres leading to a potential misinterpretation of audience expectations about what elements to expect in viewing as suggested.",
+      "index": 1756,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Personal Growth focusing on societal issues."
+    },
+    {
+      "explanation": "The compelling plot elements are described insufficiently alongside genre listings yielding a situation where audiences may not align experiences across indicated thematic expectations; suggesting a correction is necessary.",
+      "index": 1757,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller,Real Life Movies"
+    },
+    {
+      "explanation": "The representation of familial dynamics involves mustering emotional attachments that are inadequately followed up through genre indications which created an opportunity leading audiences astray from complexities described.",
+      "index": 1758,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Complex Relationships focusing on Family Dynamics."
+    },
+    {
+      "explanation": "The current themes denote severe depth connected to relationships tangled through emotional attachments whereby the behaved presentation norms poorly articulate those realities in the listed genres currently ruled.",
+      "index": 1759,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy,Interactions."
+    },
+    {
+      "explanation": "This description suggests broader social commentaries and family intricacies that require careful exposition within the genres to exceed limitations created currently thus broadening release impact and vital thematic touchpoints.",
+      "index": 1760,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Socio-family themes."
+    },
+    {
+      "explanation": "While overlap presents across genres essential to comedy, crime, and drama, the narrative’s focus will benefit divisively better by deeper exploration maintaining consistency in emotional and thematic expectations.",
+      "index": 1761,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy,Located Family dynamics."
+    },
+    {
+      "explanation": "The intensity of representation of character engagement with communal difficulties suggests improper genre alignment, should push to elucidate more collective kinship indicating a necessity for extra detailing.",
+      "index": 1762,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama focusing on Community and Society needs."
+    },
+    {
+      "explanation": "While elements indicate complexity combined with various social issues, the presentation seen requires bolstered linkage through a thorough genre application, which amends outline issues noted across considerations listed.",
+      "index": 1763,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Ethical Dilemmas."
+    },
+    {
+      "explanation": "Whereas themes point heavily toward interlinked crime processes, readers might be overshadowed by singular-form elements under the crime-flavored combination seen without enhancing potentials of the descriptions surrounding e.g. education theme prevalent.",
+      "index": 1764,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Educational comments on personal rights and freedoms possible."
+    },
+    {
+      "explanation": "Elements shown showcase conflict mingled throughout thematic outlines but capture original undertones suggesting structural inadequacies in genre shows which don't inform optimally the indicated emotional engagements revealed.",
+      "index": 1765,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Conflict focusing on societal themes."
+    },
+    {
+      "explanation": "The competitive action combined with family dynamics represented indicates social narratives vital that remain missing adversely shaping conflict resolution transparency across generational aspects.",
+      "index": 1766,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime,Personal family journey."
+    },
+    {
+      "explanation": "This suggests deeper engagements involving subsidiaries over issues tied to community dialogues while lacking significant clarity urging connections toward genres would aid in understanding thematic discourses more directly.",
+      "index": 1767,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Education,Interactions."
+    },
+    {
+      "explanation": "The interactions displayed push deeper than narratives assigned leaving a mass of confounding narratives and dreamed resolutions that need clearer articulation across genres listed in order to avoid misinterpretation for an audience.",
+      "index": 1768,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama where interactions reflect growth and resilience."
+    },
+    {
+      "explanation": "The shared narrative speaks to class struggles needing to retrieve contextual guidance enhancing genres identified today assuring viewers wish to grasp common struggles as indicated numbly alongside emotions delivered.",
+      "index": 1769,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama focusing on Education Social conflicts."
+    },
+    {
+      "explanation": "The themes suggest an emotional tumult requiring broadening genres which potentially overlook complexities in detail from genres at ground levels missing narratively lead viewers misled viewing insight.",
+      "index": 1770,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama focusing on Thematic educator views."
+    },
+    {
+      "explanation": "The direction signifies dangers beckoning viewers could benefit hefty from nuanced binds reflective of genre cues evaded during expression curtailing understanding about cinematic actions portrayed currently.",
+      "index": 1771,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama addressing Situational Reactions to Conflict."
+    },
+    {
+      "explanation": "The representation between narrative adventure and underlying current themes displays dynamics that require clearer articulation across traditionally held genres and those presently featured yielding broader audiences more adaptive expectations.",
+      "index": 1772,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Reactions anticipated during conflict."
+    },
+    {
+      "explanation": "The narratives suggest audience connections ended by lack of depiction, whereby genre adjustments provide necessary meaning between themes that are expressed as released in cinematic storytelling.",
+      "index": 1773,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama broadening complex and singular narrative features."
+    },
+    {
+      "explanation": "The expressed narrative suggests broad complexities needing deeper representation through guiding genres capable of aligning with thematic expectations sadly absent as it stands now for viewers.",
+      "index": 1774,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama should carry Storytelling Dynamics with clear social implications."
+    },
+    {
+      "explanation": "The richness of character depiction provides necessary routes yielding audiences towards thematic connections increasingly soured by reduced genre lift without adverse aspects reflected gaining through lesser vigorous outlines altogether.",
+      "index": 1775,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama indicating less of direct portrayal components with Audience expectations."
+    },
+    {
+      "explanation": "Though listed premises lend service to crime displays lending favorites seen leftover angling indications towards improving cluster impact conveying across genres, necessitating adjustment for clarity across templates mentioned once again.",
+      "index": 1776,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama enhancing crimeship centered projector leading viewers across narratives."
+    },
+    {
+      "explanation": "Though color and characterization are directly symbolized, thematic indicators feel misplaced risking disengaging audiences within core concepts tragically lost amongst layers of choices currently approaching empty lackening.",
+      "index": 1777,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama representing Crime across varied comedy and relational norms."
+    },
+    {
+      "explanation": "The multiple themes expressed indicate traditional viewer alignments, demanding solid connections across current roles spent not existing within the range shown to yield enhancements empty narrated present shades could provide.",
+      "index": 1778,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama defining character arcs informed amidst tragedy and uproar."
+    },
+    {
+      "explanation": "The genre 'Musical & Performing Arts' is too specific and does not align with general thematic expectations for the associated description of a movie about friends struggling to find work and love in Paris.",
+      "index": 1803,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Musical,Romance"
+    },
+    {
+      "explanation": "The entry for 'Action,Adventure' does not convey any thematic horror elements which are expected from the description of a movie featuring a haunted town with crucial character disillusionment.",
+      "index": 1854,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Action,Adventure"
+    },
+    {
+      "explanation": "The genre 'Horror' alone is too vague for the description about a man investigating murders related to an old local family and does not cover the suspenseful or thriller aspects implied. It should reflect the suspenseful nature of the described events better.",
+      "index": 1855,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The entry for 'Comedy' does not align with the serious subject matter of existential crises described, indicating a mismatch in thematic representation.",
+      "index": 1856,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy"
+    },
+    {
+      "explanation": "The entry for 'Documentary' is inconsistent with the drama narrative implied by the description focusing on personal and familial struggles.",
+      "index": 1844,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Documentary"
+    },
+    {
+      "explanation": "The genre 'Horror,Mystery,Thriller' implies suspenseful themes, but the description does not convey any mysterious or thriller aspects. It reads more like a drama alone, which does not meet the expectations set by the genres.",
+      "index": 1900,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Drama"
+    },
+    {
+      "explanation": "The genre 'Comedy,Horror' should suggest a humorous thrill, but the description does not present any comedic elements, focusing more on a scary atmosphere.",
+      "index": 1910,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The entry 'Documentary,Horror' indicates a juxtaposition of genres that doesn’t coexist logically. Documentaries are usually factual, but the description depicts a fictional horror scenario.",
+      "index": 1905,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genre 'Classics,Drama,Horror,Musical & Performing Arts,Mystery & Suspense,Special Interest' leads to an expectation of intricate intertwining themes, yet the description reflects a singular narrative without the complexities of these genres.",
+      "index": 1907,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Classics,Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Mystery' suggests intense character exploration with a suspenseful surprise, but the description is straightforward, lacking hints of complexity or a twist.",
+      "index": 1908,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi' hints that the description should include an element of scientific concept or fear linked to that, but it solely narrates Dr. Jekyll's struggle.",
+      "index": 1913,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The presence of 'Adventure,Comedy,Fantasy' implies lighthearted escapism; however, the description carries a more serious tone, negating the comedic aspect.",
+      "index": 1903,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Adventure,Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi' hints it should contain elements of suspense and scientific exploration, yet the description is entirely driven by an emotional narrative, which does not align with these elements.",
+      "index": 1934,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genre 'Action & Adventure, Musical & Performing Arts, Science Fiction & Fantasy, Comedy' contains multiple genres separated by commas, which does not fit typical classification for movie genres and makes it unclear which theme corresponds to the movie description, potentially misleading.",
+      "index": 2052,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Comedy"
+    },
+    {
+      "explanation": "The description 'Add a Plot' does not provide a meaningful summary that aligns with any specific genre, resulting in a discrepancy between the movie genre and its thematic content.",
+      "index": 2065,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "A meaningful description related to Action or Sci-Fi."
+    },
+    {
+      "explanation": "The genre 'Documentary' is incompatible with the narrative-style description provided, leading to a disconnect in thematic coherence, as documentaries usually have a factual or educational approach.",
+      "index": 2083,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "A documentary-related description."
+    },
+    {
+      "explanation": "The entry in column 14 indicates the genre 'Action,Adventure,Fantasy', but the description suggests a strong romantic subplot which is not reflected in the genres listed. This could be misleading as it doesn't accurately represent its themes.",
+      "index": 2173,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Romance' to Column 14"
+    },
+    {
+      "explanation": "The entry in Column 14 contains 'Action,Adventure' but the description describes deeply emotional and dramatic themes. This could misrepresent the intended audience or expectations.",
+      "index": 2129,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Drama' to Column 14"
+    },
+    {
+      "explanation": "The entry in Column 14 does not suggest a sufficient comedic or comedic drama component implied by the synopsis that focuses heavily on humor. It could confuse potential viewers on what to expect.",
+      "index": 2172,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Comedy' to Column 14"
+    },
+    {
+      "explanation": "The entry in Column 14 lacks a romantic aspect that is strongly highlighted in the plot description. This creates a mismatch in audience expectation.",
+      "index": 2195,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Romance' to Column 14"
+    },
+    {
+      "explanation": "The entry in Column 14 indicates 'Action, Comedy', while the description focuses on thrilling aspects with less emphasis on humor. This could mislead viewers regarding the film's thematic elements.",
+      "index": 2189,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change 'Comedy' to 'Thriller' in Column 14"
+    },
+    {
+      "explanation": "The entry categorizes the film simply as 'Animation', but the description suggests fantasy elements that should be included. This can misrepresent the movie's essence and theme.",
+      "index": 2166,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Fantasy' to Column 14"
+    },
+    {
+      "explanation": "'Action,Fantasy,Horror' does not properly represent a horror comedy aspect suggested in the plot description where humor and horror collide. This could confuse the audience.",
+      "index": 2153,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Comedy' to Column 14"
+    },
+    {
+      "explanation": "The entry suggests 'Action' as the sole genre whereas the description indicates themes highly involved with romance and possibly comedy, which is absent. It misguides the viewer's perception.",
+      "index": 2170,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Romance' and 'Comedy' to Column 14"
+    },
+    {
+      "explanation": "The plot focuses heavily on the themes of drama and crime suggesting more emotionally charged content than the heroic adventure typically associated with 'Action', this could misinform viewers.",
+      "index": 2192,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Drama' to Column 14"
+    },
+    {
+      "explanation": "The mismatch of 'Action' as indicated in column 14 with the description heavily focused on suspense and psychological themes suggests a significant misalignment that could impact the viewer understanding.",
+      "index": 2159,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Add 'Thriller' to Column 14"
+    },
+    {
+      "explanation": "The genre 'Horror' does not match the thematic description of a classic horror movie based on Stephen King's first novel, which delves into themes of bullying, teenage anguish, and supernatural revenge. It lacks the depth suggested by the synopsis provided.",
+      "index": 2294,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Drama,Mystery"
+    },
+    {
+      "explanation": "The genre 'Comedy,Musical,War' is inconsistent with the theme description that implies a humorous narrative rather than a serious war context. It suggests a mix inappropriate for the subject matter, which is about dictatorial issues, hence it is an error.",
+      "index": 2377,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Musical"
+    },
+    {
+      "explanation": "The entry 'Drama,Horror,Mystery & Suspense' suggests a horror genre, but the theme focuses on a character whose conditions seem more aligned with a drama or thriller. This inconsistency indicates a genre mismatch, hence it is flagged as erroneous.",
+      "index": 2379,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama,Sport' does not correlate with the theme's focus on redemption in a comedic setting, presenting an incongruent relationship between genre and content. This misalignment leads to it being marked as an error.",
+      "index": 2358,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama"
+    },
+    {
+      "explanation": "The entry 'Sci-Fi,Thriller' does not imply any comedy elements despite the humorous context in the description. This directs towards a genre mismatch making it an error.",
+      "index": 2391,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Comedy,Fantasy,Horror' in column 14 does not correlate properly with the description in column 16, which seems to be a comedy involving a space archaeologist, aligning more with a Comedy or Fantasy rather than Horror.",
+      "index": 2475,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Fantasy"
+    },
+    {
+      "explanation": "The genre 'Drama,Action,Horror' in column 14 does not connect correctly with the synopsis in column 16, which describes a narrative that seems heavily centered on mystery and drama rather than action or horror.",
+      "index": 2492,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Mystery"
+    },
+    {
+      "explanation": "The genre 'Musical' in column 14 appears inconsistent with the description in column 16, where the narrative doesn't highlight elements typical of a musical, such as singing or dance. Instead, it relates more towards drama.",
+      "index": 2438,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Animation,Kids & Family,Musical & Performing Arts,Classics,Science Fiction & Fantasy' in column 14 is excessively expansive and diverges from the more straightforward description in column 16, which discusses classical music and animation without such a broad thematic range; this indicates a mismatch.",
+      "index": 2489,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Family,Musical"
+    },
+    {
+      "explanation": "The genre 'Drama,Family,Musical' in column 14 does not reflect the short plot description that reads more like a traditional family drama without necessarily involving musical elements, indicating a violation in the genre's representation.",
+      "index": 2470,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Family"
+    },
+    {
+      "explanation": "The entry indicates 'Drama,Kids & Family,Comedy', but the description does not reflect a family-oriented concept, focusing instead on a boy's Christmas wish which may imply a lighter children's narrative.",
+      "index": 2508,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy"
+    },
+    {
+      "explanation": "'Action & Adventure,Science Fiction & Fantasy' is an error as the description of a rock musician murdered does not align with typical themes of adventure or science fiction.",
+      "index": 2519,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Fantasy"
+    },
+    {
+      "explanation": "The genre 'Animation,Family,Musical' does not fit with a documentary description on a legendary oceanographer, which is more aligned with 'Documentary' and 'Biography'.",
+      "index": 2547,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary,Biography"
+    },
+    {
+      "explanation": "The entry states 'Crime,Mystery,Romance', but the description depicts a woman waking next to a murdered man, which aligns more with 'Thriller' than 'Romance'.",
+      "index": 2568,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Mystery,Thriller"
+    },
+    {
+      "explanation": "The entry lists 'Comedy,Drama,Romance' while the description involves a dystopian narrative about world religion, suggesting a conflict with comedy and romance themes.",
+      "index": 2578,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Science Fiction"
+    },
+    {
+      "explanation": "The genre 'Western' is not consistent with the romantic theme implied in the description, indicating a mismatch in the expected subjects.",
+      "index": 2600,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Romance"
+    },
+    {
+      "explanation": "The genre 'Comedy,Drama' does not align with the horror theme indicated in the description due to the serious nature of death and relationships involved.",
+      "index": 2646,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The genre 'Family' is vague and does not specify a more exact genre type, which affects the descriptive theme of the movie.",
+      "index": 2719,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Drama,Family"
+    },
+    {
+      "explanation": "The entry for column 14 is empty which impacts the description in column 16, making it hard to ascertain the theme of the movie.",
+      "index": 2796,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romantic"
+    },
+    {
+      "explanation": "The genre 'Adventure,Comedy,Musical' in column 14 suggests a light-hearted theme, but the description in column 16 is about a spoof of Robin Hood, which does not align with a musical theme, indicating a semantic mismatch.",
+      "index": 2800,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Adventure"
+    },
+    {
+      "explanation": "The genre 'Comedy,Drama' implies a blend of humor and serious themes, but the description seems to focus heavily on the drama aspect without providing elements of comedy, leading to a semantic discrepancy.",
+      "index": 2801,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama"
+    },
+    {
+      "explanation": "The singular genre 'Comedy' does not align with the grand epic themes described in column 16 regarding the history of mankind, which implies a need for a broader thematic genre classification like 'Comedy,History'.",
+      "index": 2802,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama,History"
+    },
+    {
+      "explanation": "'Comedy,Fantasy,Horror' suggests an inherently whimsical and entertaining premise, yet the description addresses classic vampire stories which should imply a different thematic focus, indicating a semantic mismatch.",
+      "index": 2803,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Comedy,Horror"
+    },
+    {
+      "explanation": "The genre 'Comedy,Western' suggests comedic elements in a traditional Western setting; however, the serious theme of a black sheriff confronting a corrupt political boss indicated in the description could imply a dramatic tone, creating a semantic conflict.",
+      "index": 2804,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Comedy,Drama,Western"
+    },
+    {
+      "explanation": "The genre 'Animation,Family,Musical' suggests a light-hearted family theme, yet the description is insufficient and lacks specific engaging plots or themes hinting at music, suggesting possible semantic inconsistency.",
+      "index": 2812,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Animation,Family,Musical"
+    },
+    {
+      "explanation": "The entry 'Kids & Family' is inappropriate for the description which involves the FBI, kidnappers and serious crime aspects, requiring a more suitable genre classification.",
+      "index": 2877,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Crime,Drama"
+    },
+    {
+      "explanation": "The dual genre 'Comedy,Family' implies a light-hearted narrative; however, the description outlines a darker, more serious theme of a camp run by a psycho instructor, suggesting an inappropriate classification.",
+      "index": 2889,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy"
+    },
+    {
+      "explanation": "The description of the movie is violent and does not correspond to the 'Action' genre; it suggests themes more aligned with horror or thriller, not just general action.",
+      "index": 2900,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The description contains elements of actual violence and pursuit which does not accurately reflect the light-hearted or family-oriented themes suggested by the mixed genres indicated.",
+      "index": 2905,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The description presents a serious theme focused on a historical tragedy rather than specific family entertainment, which contradicts the 'Family' genre indicated.",
+      "index": 2955,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The description suggests a comical twist on a serious theme of violence. The word 'murder' clashes with the 'Comedy' genre implication, suggesting an error in genre classification.",
+      "index": 2947,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The entry in column 14 is missing a genre that typically corresponds with the dramatic themes described in column 16. The description suggests a narrative-driven plot that aligns with a family film, which is absent in the listed genres.",
+      "index": 3031,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Family"
+    },
+    {
+      "explanation": "The genre of 'Documentary' listed in column 14 does not correspond with the fictional storytelling nature described in column 16, which narratively resembles a dramatized account rather than a documentary narrative.",
+      "index": 3067,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Drama' alone does not support the elaborate subject matter provided, which indicates a more complex narrative than what's conveyed simply by 'Drama'.",
+      "index": 3101,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Adventure,Romance"
+    },
+    {
+      "explanation": "The genre 'Drama' does not seem sufficient to encapsulate the thrilling nature of two US Treasury agents hunting a counterfeiting ring, which could indicate more action or suspense.",
+      "index": 3102,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Action,Thriller"
+    },
+    {
+      "explanation": "'Film-Noir' typically deals with crime and moral ambiguity, and a story about a meek pharmacist creating an alternate identity indicates a complex action-drama narrative not conveyed by 'Crime,Drama,Film-Noir'.",
+      "index": 3107,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama' fails to align with the sophisticated narrative of a little girl meeting a selkie, which suggests elements of fantasy or magic.",
+      "index": 3177,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Fantasy,Adventure"
+    },
+    {
+      "explanation": "The description seems to imply a comedic context, but the genre is solely 'Comedy', potentially lacking elements of romance or fantasy reflected in the subject matter.",
+      "index": 3183,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Romance,Musical"
+    },
+    {
+      "explanation": "The description of the movie 'Swan Lake' indicates a psychological thriller and should primarily reflect the themes of Thriller rather than Drama, which implies a less psychological focus. A proper genre for this film would be 'Thriller'.",
+      "index": 3205,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The mentioned plot describes a psychological thriller based on a ballet, but 'Drama' implies a focus on emotional themes rather than the suspense aspect of a thriller. Hence, the genre is misleading. The proper entry should be 'Drama' or 'Drama, Thriller'.",
+      "index": 3205,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The value 'Add a Plot' in column 16 is an error because it does not provide a proper synopsis or description related to the genre 'Animation' in column 14. A valid entry in column 16 should reflect plot information that pertains to an animated film.",
+      "index": 3319,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "\"A young boy discovers his hidden powers and must save his village from an evil sorcerer.\""
+    },
+    {
+      "explanation": "The value 'Add a Plot' in column 16 is an error because it does not provide a proper synopsis or description related to the genre 'Animation, Adventure, Family' in column 14. A valid entry in column 16 should reflect plot information that pertains to an animated adventure film suitable for families.",
+      "index": 3326,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "\"A thrilling adventure where siblings discover magical creatures and save their world from darkness.\""
+    },
+    {
+      "explanation": "The value 'Add a Plot' in column 16 is an error because it does not provide a proper synopsis or description related to the genre 'Animation, Adventure, Family' in column 14. A valid entry in column 16 should reflect plot information that pertains to an animated family adventure.",
+      "index": 3306,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "\"A family of adventurers travels through mystical lands to rescue a dragon and restore peace.\""
+    },
+    {
+      "explanation": "The genre of 'Comedy' does not support a thriller element in the corresponding entry which discusses a dinosaur terrorizing Holland.",
+      "index": 3470,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Thriller"
+    },
+    {
+      "explanation": "The entry 'Add a Plot' in the description does not align with the 'Thriller' genre, indicating that there is no appropriate plot provided, which is expected from a thriller description.",
+      "index": 3446,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Proper plot description"
+    },
+    {
+      "explanation": "The genre 'Action,Crime,Thriller' suggests a fast-paced, suspenseful narrative. However, the description indicates a focus on infiltration in a corporate heist, which appears more like an adventure than a typical crime thriller narrative. This mismatch indicates a semantic dependency violation.",
+      "index": 3595,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Adventure,Crime,Thriller."
+    },
+    {
+      "explanation": "The genre 'Comedy,Documentary' does not align with the description 'Add a Plot', implying an incomplete or inappropriate documentary synopsis. Documentaries typically require factual content rather than fictional humorous narratives, causing a semantic violation.",
+      "index": 3522,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Documentary."
+    },
+    {
+      "explanation": "The genre 'Action,Comedy,Romance' suggests a narrative that includes humorous elements alongside action, but the description primarily discusses a serious investigative story involving train derailment, indicating a semantic mismatch between the genre and the content described.",
+      "index": 3503,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Action,Drama."
+    },
+    {
+      "explanation": "The genre 'Drama,Mystery,Romance' indicates a narrative with complex relationships and suspenseful elements, but the description focuses on chaos and comic elements from a mishap with a boy's runaway son, which strongly suggests a comedy tone rather than drama, resulting in a semantic violation.",
+      "index": 3572,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Comedy."
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi,Thriller' indicates elements of fear and science fiction, but the description talks about a whimsical plot involving a boy mistakenly summoning a Christmas demon, which is better suited for a fantasy genre, thus constituting a semantic dependency violation.",
+      "index": 3597,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Fantasy,Horror."
+    },
+    {
+      "explanation": "The genre 'Comedy,Horror,Romance' implies a complex narrative structure, but the description indicates a classic tale of lovers with zombies, which veers into the absurd and lacks the structural clarity suggested by 'Romance', thus causing a semantic violation.",
+      "index": 3519,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Comedy,Horror."
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi,Thriller' implies suspenseful content involving science fiction, however the description discusses a comedic encounter with chainsaw-wielding prostitutes, which diverges into a humor context rather than serious horror, representing a semantic violation.",
+      "index": 3518,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Horror,Comedy."
+    },
+    {
+      "explanation": "The genre 'Drama,Fantasy,Romance' suggests a serious romantic narrative with fantasy elements, yet the description reveals a non-linear narrative about adult themes, contrasting with the expected depth of a drama, thus indicating a semantic violation.",
+      "index": 3591,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Drama."
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Thriller' suggests a narrative with deep emotional or fearful elements, but the description focused on a comedic traveling tale, which mismatches the genre implications, indicating a semantic violation.",
+      "index": 3547,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Comedy."
+    },
+    {
+      "explanation": "The genre 'Action,Horror,Sci-Fi' implies a rebellious or tension-filled storyline; however, the description describes a light-hearted Christmas tale, which does not fit the action or horror expectations, indicating a semantic violation.",
+      "index": 3563,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to Comedy."
+    },
+    {
+      "explanation": "The genre 'Adventure,Sci-Fi,Thriller' implies themes of action and excitement, whereas the description about 'Four waves of increasingly deadly attacks have left most of Earth decimated' fits more into a Science Fiction or Post-Apocalyptic theme without the necessary adventure element.",
+      "index": 3600,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure, Sci-Fi"
+    },
+    {
+      "explanation": "The movie genre 'Horror' does not seem to align with the theme of a fashion photographer whose vocation is murder, which suggests it could belong to 'Thriller' or 'Mystery'.",
+      "index": 3757,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The entry in Column 14 is 'Horror' for a film that discusses the delight of horror films rather than exhibiting horror themes, suggesting a mismatch between genre and subject.",
+      "index": 3783,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary"
+    },
+    {
+      "explanation": "The genre 'War' does not correspond to the themes or subjects available in the description of the movie, which speaks about atrocities and human rights abuses rather than depicting war itself. It creates a semantic inconsistency.",
+      "index": 3844,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,History"
+    },
+    {
+      "explanation": "The genre 'Drama,Family,Fantasy' in column 14 is inconsistent with the movie's description in column 16, which suggests it revolves around themes of hope and transformation, typical for Disney-like family movies, but it presents elements that do not strongly align with 'Fantasy'.",
+      "index": 3900,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Family"
+    },
+    {
+      "explanation": "The genre 'Sci-Fi,Horror' in column 14 indicates themes related to science fiction and horror, while the description suggests a comedy rather than conveying elements of fear or advanced technological themes.",
+      "index": 3903,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi' in column 14 indicates a horror theme, but the description is non-specific and does not connect with horror elements strongly enough, thus suggesting a mismatch.",
+      "index": 3909,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi' in column 14 may imply thriller/horror elements, yet the description indicates it may not adequately reflect those attributes, leaning more towards sci-fi narratives instead.",
+      "index": 3940,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Comedy' does not match the description of a serious narrative that deals with revenge and heavy themes. Comedy typically suggests humor, which is absent in the description.",
+      "index": 3964,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Action,Sci-Fi,Sport' suggests a focus on sports, which contradicts the description of the movie that centers on a brutal, futuristic game resembling football. Therefore, the genre is misleading and should be corrected to reflect either 'Action,Sci-Fi' or 'Sports, Sci-Fi'.",
+      "index": 4000,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Horror' does not syntactically match the theme of the movie that describes discovery and inspiration from a horror writer's books, suggesting elements of 'Drama' or 'Thriller' are more appropriate. Thus, adjustments in genre are necessary for clarity.",
+      "index": 4001,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Drama"
+    },
+    {
+      "explanation": "The genre 'Horror' in this context does not provide a typical thematic link with cute or whimsical aspects suggested in the description of the monster, making it an error. A genre like 'Fantasy' should ideally be included.",
+      "index": 4002,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Fantasy,Horror"
+    },
+    {
+      "explanation": "The genre 'Mystery,Sci-Fi,Thriller' is misleading since the description emphasizes horror as a dominant theme and not so much mystery or thriller elements. This misrepresentation of genre creates a lack of alignment with the movie's theme.",
+      "index": 4003,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Sci-Fi"
+    },
+    {
+      "explanation": "The movie's description suggests secret and horror themes which are not appropriately captured by the genre 'Fantasy,Horror,Mystery'. More focus on 'Horror' as the primary genre must be made to align with the thematic content.",
+      "index": 4004,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery"
+    },
+    {
+      "explanation": "The genre 'Comedy,Drama,Romance' is inconsistent with the dark themes of the narrative centered on relationship struggles. A combination of 'Drama' and 'Romance' may provide a more fitting representation.",
+      "index": 4005,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' causes a misalignment with the description which focuses on a dentist's return rather than a thrill-based narrative. A clearer genre denoting horror elements should be alongside 'Horror'.",
+      "index": 4006,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Sci-Fi,Thriller' mismatches the shocking event narrative portrayed in the movie description. If the core focus is on horror, changing the genre to 'Horror,Sci-Fi' better matches the description.",
+      "index": 4007,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Sci-Fi"
+    },
+    {
+      "explanation": "The movie situation suggests intense family drama rather than a horror theme; thus, the genre 'Drama,Family' needs validation against classic horror themes in the description.",
+      "index": 4008,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The movie description mentions a witch and historical horror, which should align with horror genres. The genre 'Horror' alone lacks the necessary context that could include other relevant styles.",
+      "index": 4012,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Horror,Romance' does not match the serious themes surrounding the character's horror experiences. A clear depiction of horror alongside a thesis aligned with psychological thriller is more fitting.",
+      "index": 4009,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Comedy,Horror,Sci-Fi' does not match the descriptions postulating intense horror situations. Combined focus should remain substantially on horror elements in this case.",
+      "index": 4014,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Drama,Family' aligns but does miss focusing on horror elements present in the story, where dark secrets are a bringer of tension, thus adjusting the genre reflects them well.",
+      "index": 4011,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The movie contains themes that connect better as 'Documentary' than purely 'Documentary'. The explanation causes a mismatch in documentary themes. Valid documentary detail should be incorporated.",
+      "index": 4054,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary,Drama"
+    },
+    {
+      "explanation": "The genre 'Crime,Drama,Musical' does not hold. The nature of the movie depicts a serious tone whereby themes surrounding action and suspense are neglected for its representation.",
+      "index": 4094,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Horror"
+    },
+    {
+      "explanation": "The genre 'Action,Adventure,Sci-Fi' does not match the theme of the movie described, which is about a rescue operation that results in finding an ancient city, suggesting a primary focus on adventure rather than strict action or sci-fi elements. Thus, it represents a discrepancy when considering what the themes often entail in relation to specified genres.",
+      "index": 4103,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Action"
+    },
+    {
+      "explanation": "The genre 'Drama' does not align with its description related to marijuana and drug dealers, indicating a mismatch in thematic content.",
+      "index": 4212,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Crime"
+    },
+    {
+      "explanation": "The genre 'Comedy' does not fit with the serious subject matter of children buried in a pet cemetery, indicating a genre mismatch.",
+      "index": 4289,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary"
+    },
+    {
+      "explanation": "The value 'Documentary,Biography' in column 14 does not inform the description in column 16 about the theme or subject of the movie, which discusses Werner Herzog's relationship with Klaus Kinski rather than a documentary biopic theme.",
+      "index": 4300,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change to 'Documentary'."
+    },
+    {
+      "explanation": "The entry 'Documentary,Biography,History' in column 14 is a violation because the description in column 16 discusses Edgar G. Ulmer, which does not suggest a historical documentary theme.",
+      "index": 4309,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change to 'Documentary'."
+    },
+    {
+      "explanation": "Column 14 states 'Horror,Mystery & Suspense,Classics,Science Fiction & Fantasy', implying multiple genres, while the description in column 16 primarily revolves around a murder mystery rather than a wider thematic representation.",
+      "index": 4322,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change to 'Horror, Mystery, Thriller'."
+    },
+    {
+      "explanation": "The value in column 14, 'Drama,Mystery', fails to support the description in column 16, which suggests a thriller aspect given its focus on a journalist's dangerous quest for truth.",
+      "index": 4352,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change to 'Drama, Thriller'."
+    },
+    {
+      "explanation": "The listing 'Adventure,Drama,History' in column 14 does not correspond correctly with the description regarding a drive towards obtaining bread-fruit, this suggests more of an adventure than a historical narrative.",
+      "index": 4392,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change to 'Adventure'."
+    },
+    {
+      "explanation": "The entry 'Family' under genre does not provide a clear indication of the film's theme or storyline, as such a broad genre categorization is likely insufficient to accurately describe the film. Furthermore, all other entries provide engaging descriptions that correspond to more nuanced genre labels.",
+      "index": 4442,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Family"
+    },
+    {
+      "explanation": "The entry 'Action' is too vague and does not align with the given movie description. The description indicates more complexity than just 'Action', which could encompass several sub-genres. A more specific genre should be provided to accurately reflect the essence of the plot.",
+      "index": 4443,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Science Fiction & Fantasy,Comedy,Cult Movies' is syntactically incorrect: it should either be strictly horror-fantasy-sci-fi-comedy or should list genres that logically belong together, thus creating a violation. The plot outlined does not strongly support all these genres being included.",
+      "index": 4444,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Science Fiction,Thriller"
+    },
+    {
+      "explanation": "The genres 'Biography,Drama,Romance' typically do not match with the narrative of a major league pitcher losing a leg, which does not suggest themes of romance or elevated emotions associated with the added genres.",
+      "index": 4500,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biography,Drama"
+    },
+    {
+      "explanation": "The genres 'Comedy,Crime,Horror' indicate a mix of light-heartedness with serious themes, but the plot revolves around a serious crime and humiliation which does not align with a comedic approach.",
+      "index": 4503,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Horror"
+    },
+    {
+      "explanation": "The genres 'Comedy,Musical,Romance' do not align with the serious and controversial themes of a film based on sexual mores, which suggests a more dramatic or real-life depiction rather than humorous.",
+      "index": 4509,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Musical"
+    },
+    {
+      "explanation": "The plot about a serious mental instability in a naval captain does not align with the lighter genre of 'Comedy', which usually does not cover deep themes of mental health and military discipline.",
+      "index": 4580,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The genres 'Comedy,Drama,Romance' suggest a light-hearted narrative, yet the story of a troubled student, teachers’ relationships, and accusations carries more tension and controversy suitable for a drama or thriller.",
+      "index": 4590,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama,Musical,Romance' suggests the movie should be centered around music and romance themes, but the plot does not clearly feature a musical aspect, being more about psychoanalysis.",
+      "index": 4607,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Remove 'Musical' from genres"
+    },
+    {
+      "explanation": "The genre 'Drama' suggests a serious or realistic treatment, yet the plot description is overly vague with 'Add a Plot', indicating an incomplete or nonsensical theme.",
+      "index": 4608,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Replace 'Add a Plot' with a meaningful plot description"
+    },
+    {
+      "explanation": "The description for the genre 'Horror' presents a comedic scenario that juxtaposes with the genre's conventional themes of fear and suspense, making it misleading.",
+      "index": 4621,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Reclassify the genre to include 'Comedy' or provide a horror-centric plot."
+    },
+    {
+      "explanation": "The description for 'Horror' is inconsistent because it depicts a narrative involving a woman killed in a tractor accident, which does not fit typical horror themes.",
+      "index": 4622,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Replace the horror genre with 'Drama' to match the plot."
+    },
+    {
+      "explanation": "The genre 'Drama,Mystery,Romance' implies depth and intrigue, but the plot description leans towards simple romantic tragedy, suggesting a mismatch in expected content.",
+      "index": 4637,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Modify the genres to reflect less complexity, such as 'Drama, Romance'."
+    },
+    {
+      "explanation": "The movie with 'Horror' fails to match the expected intensity of horror content, discussing a simple nature setting which dilutes horror expectations.",
+      "index": 4624,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Change the genre to 'Drama' for a better thematic fit."
+    },
+    {
+      "explanation": "The genre 'Comedy, Horror' suggests a blend that focuses on humorous takes on horror themes, yet the plot seems serious and lacking comedic elements.",
+      "index": 4627,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Remove 'Horror' and retain only 'Comedy'."
+    },
+    {
+      "explanation": "While 'Comedy' suggests light-hearted themes, the plot regarding counterfeit paintings does not reflect typical comedic setups, creating a mismatch.",
+      "index": 4681,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Reclassify as 'Thriller' or 'Drama' to better reflect the content."
+    },
+    {
+      "explanation": "The combination of 'Drama,History,War' does not align with the plot's depiction of a dramatic aspect that borders on soap opera rather than historical intensity.",
+      "index": 4693,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Adjust the genre to 'Drama' to eliminate historical inaccuracies."
+    },
+    {
+      "explanation": "The genre 'Drama,Fantasy,Romance' suggests relationships and mystical occurrences, but the plot revolves around life lessons that seem more realistic than fantastical.",
+      "index": 4667,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Change to 'Drama' to better align with content."
+    },
+    {
+      "explanation": "The genre 'Action & Adventure,Science Fiction & Fantasy,Comedy' is syntactically incorrect as it suggests a combination of genres that may not accurately reflect the plot description provided, which is more of an action/adventure than a blend with such diverse genres.",
+      "index": 4778,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Comedy"
+    },
+    {
+      "explanation": "The genre 'Mystery & Suspense,Horror' suggests a combination that doesn't align well with the plot described, which indicates a focus on unsettling familial dynamics rather than traditional horror elements or suspense, making it potentially misleading.",
+      "index": 4764,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Horror"
+    },
+    {
+      "explanation": "The genre 'Comedy' does not align with the dramatic theme of a drug-dealer running away from gangsters, which suggests a more serious tone than a comedy typically affords.",
+      "index": 4838,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Action"
+    },
+    {
+      "explanation": "The genre 'Drama,Action & Adventure' indicates a mixture of genres that do not consistently classify under conventional genres like 'Action' or 'Drama'. This hybridization leads to ambiguity about the theme of the movie, violating the dependency with the theme description.",
+      "index": 4974,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Action"
+    },
+    {
+      "explanation": "The genre 'Action,Adventure,Uplifting' includes 'Uplifting' which is atypical for a genre classification, causing a confusion in thematic expectations for the description of the movie.",
+      "index": 4933,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure"
+    },
+    {
+      "explanation": "The genres listed include 'Action & Adventure', which is ambiguous and does not align well with the theme of the narrative about stopping a mysterious organization, as it's too broad without specific elements relating to the action genre.",
+      "index": 5054,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Crime,Thriller"
+    },
+    {
+      "explanation": "The presence of 'Documentary' in column 14 does not correlate with the narrative theme of the subject on the biography of Tig Notaro, which lacks action or a dramatic storyline typical of film genres.",
+      "index": 5032,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Biography,Drama"
+    },
+    {
+      "explanation": "'Documentary,Biography' in column 14 does not inform the theme of HIV/AIDS epidemic, which should reflect a dramatic narrative structure rather than a factual documentary style.",
+      "index": 5093,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance"
+    },
+    {
+      "explanation": "The genres 'Action,Adventure,Fantasy' indicate a fantastical storyline which does not align with the serious thematic elements presented in the index, which talks about characters dealing with unrealistic threats in a Hollywood adventure context.",
+      "index": 5055,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Crime,Thriller"
+    },
+    {
+      "explanation": "The entry describes a classic love story not relevant to the genre of Horror, making it an error as it contradicts thematic expectations from the genre.",
+      "index": 5106,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Change genre from Horror to Drama"
+    },
+    {
+      "explanation": "The inclusion of 'Romance' in the genre implies themes of love and relationships which contradicts the Horror themes present in the description of supernatural curses and terror.",
+      "index": 5122,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre from Horror to Thriller"
+    },
+    {
+      "explanation": "The entry describes a family drama, indicating a theme focused on emotions and relationships which contradicts the Horror theme suggested by the entry.",
+      "index": 5174,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre from Drama,Horror,Romance to Drama,Romance"
+    },
+    {
+      "explanation": "The genre 'Horror' should reflect a corresponding thematic content in the description, which does not occur in 'Taking place years after The Haunting of Molly Hartley...', indicating that the theme does not match with the horror genre.",
+      "index": 5207,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The 'Drama' genre does not align with the theme involving demons and possession, which is typically categorized as horror rather than drama.",
+      "index": 5202,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The genre 'Short' lacks specificity to align with its description which does not accurately capture a theme appropriate for prevailing genres such as thriller as suggested.",
+      "index": 5238,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The entry for 'Horror' does not reflect evidence of any horror-themed content including expressions of fear, death or psychological thrill, hence it constitutes an error.",
+      "index": 5281,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama' does not aptly align with the horror undertones based on possession and more violent themes expressed in 'Years after Tommy Jarvis chained him underwater...'.",
+      "index": 5266,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The genre 'Action' alone does not capture the dark themes of flesh-eating virus and deadly threats mentioned in the description.",
+      "index": 5367,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action, Horror, Sci-Fi"
+    },
+    {
+      "explanation": "The description indicates a horror element, which is not reflected in the assigned genre 'Action'.",
+      "index": 5351,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action, Horror, Sci-Fi"
+    },
+    {
+      "explanation": "The detail of violence, horror and murder in the description does not correspond with the genre listed as 'Family', which is too light for the overall serious themes presented.",
+      "index": 5369,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Family, Horror"
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Sci-Fi' indicates that the film has elements of horror, which typically includes supernatural elements, while the description contains no mention of horror elements, only focusing on relationships.",
+      "index": 5479,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Drama,Family' indicates that the film should involve family-related themes, but the description fails to mention any family elements, focusing instead on personal emotional struggles.",
+      "index": 5480,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Family' implies a light-hearted, family-friendly theme, but the description suggests dark themes of child abduction and difficulties, which are inconsistent with the genre.",
+      "index": 5420,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Animation,Family' suggests a child-friendly animated film, while the description includes a plot about a young boy daydreaming of Hindu gods, which may not be considered entirely appropriate for children without context.",
+      "index": 5484,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Animation,Fantasy"
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Sci-Fi' indicates a horror element, but the description does not highlight any horror or supernatural elements relevant to the film, focusing mainly on existential themes.",
+      "index": 5479,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Sci-Fi"
+    },
+    {
+      "explanation": "The genre 'Documentary' does not inform a theme about a sensationalized and violent criminal case, which is typically associated with Crime or Thriller genres.",
+      "index": 5500,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Thriller"
+    },
+    {
+      "explanation": "The genre 'Comedy,Drama' does not align with the serious themes of teaching and overcoming challenges in unexpected pregnancies, which may suggest more dramatic elements.",
+      "index": 5506,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The description represents a light-hearted adventure, while the genre 'Horror,Sci-Fi,Thriller' suggests ominous and serious themes which contradict the described plot.",
+      "index": 5510,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Adventure"
+    },
+    {
+      "explanation": "The entry lacks a genre while the description suggests a genre is necessary to appropriately categorize its themes, causing a disconnect.",
+      "index": 5509,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genres 'Action,Fantasy,Horror' and 'Comedy,Family,Fantasy' do not match the more serious themes of a bleak future portrayed in 'Drama,Sci-Fi,Thriller', which implies a stark narrative.",
+      "index": 5546,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Sci-Fi,Thriller"
+    },
+    {
+      "explanation": "The combination of 'Kids & Family' in the genre column suggests a target audience primarily for children, yet the thematic elements of the plot involve darker, complex dynamics of a wealthy aunt dealing with a child, which may not suit that genre.",
+      "index": 5636,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Family,Drama"
+    },
+    {
+      "explanation": "The genre 'Action & Adventure,Comedy' suggests a lighter theme, while the complex plot description indicates a serious and satirical tone, suggesting a mismatch in theme representation.",
+      "index": 5754,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Comedy,Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Classics,Science Fiction & Fantasy,Comedy' suggests a blend of genres, while the summary implies a focused narrative deeply rooted in dark comedy and war themes, which isn't captured correctly by the genres.",
+      "index": 5777,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Comedy,War"
+    },
+    {
+      "explanation": "The genre 'Comedy,Romance' suggests a lighthearted and romantic theme, which conflicts with the description of a drama about a professor re-evaluating his life.",
+      "index": 5800,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genres 'Drama,Romance,Comedy' imply a different type of storyline than described, which centers around overwhelming pressures and life choices, not comedy.",
+      "index": 5801,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Romance"
+    },
+    {
+      "explanation": "The genre 'Comedy,Drama,Romance' conflicts with the description, which indicates a more serious thematic exploration instead of a romantic comedy.",
+      "index": 5802,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The 'Adventure,Comedy,Drama' genre suggests a light, adventurous theme, while the description suggests a deeper, introspective narrative.",
+      "index": 5803,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The description indicates a serious exploration of relationships, which clashes with 'Comedy,Drama,Romance' suggesting a lighter tone.",
+      "index": 5804,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Comedy,Drama' implies a focus on lighthearted situations, while the description touches on emotional depth and challenges.",
+      "index": 5805,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genres 'Comedy,Drama,Romance' imply lighter narrative elements, conflicting with the serious nature of the couple's dilemma.",
+      "index": 5806,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Comedy' alone does not match the serious theme described, which deals with personal growth under pressure.",
+      "index": 5807,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The 'Adventure,Comedy,Drama' genre suggests a light narrative while the description indicates a serious personal journey.",
+      "index": 5808,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genres 'Comedy,Drama' suggest a more humorous content rather than the serious engagement suggested in the description.",
+      "index": 5809,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "This entry's seriousness does not align with the lighthearted genre classification of 'Comedy,Drama'.",
+      "index": 5810,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genres 'Horror,Sci-Fi' suggest a completely different thematic approach from the serious academic exploration indicated in the description.",
+      "index": 5811,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The entry does not align with the lightness of 'Comedy', as it describes a serious transition in life depicted in the description.",
+      "index": 5812,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genres 'Drama,Comedy' suggest a humorous engagement with dramatic content, but the description indicates a more serious tone.",
+      "index": 5813,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The error arises as 'Drama,Thriller' implies tension without the comedic aspect irrelevant to the description's emotional depth.",
+      "index": 5826,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Family' alone fails to portray the deeper narrative scope presented in the description about the betrayal in the family.",
+      "index": 5834,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Fantasy' does not align with the serious exploration of the characters in a real-life context as per the description.",
+      "index": 5837,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The description indicates a significant drama that is lost in 'Comedy,Family,Sci-Fi', which implies entirely different tones.",
+      "index": 5849,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "'Family' does not sufficiently capture the profound message in the description which would imply more complexity.",
+      "index": 5864,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The inclusion of 'Horror' implies a suspenseful or frightening theme that does not correspond with the narrative described.",
+      "index": 5896,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' diverges significantly from the emotional narrative suggested in the description.",
+      "index": 5897,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The mix of 'Drama,Horror,Thriller' does not fit with the personal exploration and serious life themes in the description.",
+      "index": 5899,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "Column 14 lists 'Horror' for this entry, but the corresponding description in Column 16 does not depict a theme typical of horror films, focusing instead on a cult which is not inherently horror-themed.",
+      "index": 5909,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller,Mystery"
+    },
+    {
+      "explanation": "The entry in Column 14 specifies 'Action,Horror', suggesting a horror aspect, but the description does not convey a consistent horror narrative, instead seems like an unclear plot.",
+      "index": 5998,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' does not match the theme description, which focuses on a high school principal with a secret life as a serial killer; it implies a comedic twist rather than actual horror/thriller content.",
+      "index": 6013,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller,Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror' does not correspond with the description of a documentary style and informative in nature, indicating an incorrect thematic match.",
+      "index": 6027,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary"
+    },
+    {
+      "explanation": "The genre 'Horror' does not match the comedic undertone of the plot which involves teenagers in a comedic predicament rather than a straightforward horror scenario.",
+      "index": 6059,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror' does not match the dramatic narrative suggested by the film's description regarding the reimagining of a story with emotional depth, indicating an error.",
+      "index": 6036,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' is inconsistent with the description of comedic high school students which suggests a lack of alignment in themes.",
+      "index": 6060,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama' cannot describe the film's narrative about a family with supernatural elements effectively.",
+      "index": 6106,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror, Drama"
+    },
+    {
+      "explanation": "The entry for 'Jack London's classic adventure story' suggests that the two genres provided (Adventure, Drama) should imply a theme prevalent in both, which is adventure-centric. However, a lengthy descriptive narrative not confining to the adventure genre suggests a violation of the dependency.",
+      "index": 6100,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure"
+    },
+    {
+      "explanation": "The mention of specific themes tied to a mystery plot ('A murder mystery writer misreads') suggests that the combination 'Crime,Mystery,Thriller' should reflect these elements primarily but fails to coherently tie them, indicating a violation.",
+      "index": 6106,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Mystery,Thriller"
+    },
+    {
+      "explanation": "The genres listed as 'Crime,Drama,Romance' fail to encapsulate the specific nuances of a thriller depicted in the description, indicating a mismatch in the expected narrative.",
+      "index": 6125,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime,Drama,Thriller"
+    },
+    {
+      "explanation": "While 'Comedy' is present, the row indicates themes of horror involving a supernatural killer which is misaligned under the comedy genre, marking it as an error.",
+      "index": 6158,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Comedy"
+    },
+    {
+      "explanation": "The genre 'Horror' on index 6209 is too vague and does not provide context about the theme of the movie. Given the title suggests an unclear horror theme without specifics, it is ambiguous and does not match the more descriptive themes present in other entries.",
+      "index": 6209,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Mystery,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama, Horror, Mystery & Suspense' on index 6214 is inconsistent with the description provided in column 16, which focuses heavily on graphic violence and murder, qualities more aligned with the horror or thriller genres than drama or mystery & suspense.",
+      "index": 6214,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Horror,Romance,Sci-Fi' in column 14 does not align with the description of the movie in column 16, which revolves around a romance but does not imply horror or sci-fi elements.",
+      "index": 6301,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Romance -> Genre is more appropriate for the described theme."
+    },
+    {
+      "explanation": "A 'Horror' genre is indicated, yet the corresponding description (column 16) does not convey any horror elements and describes a romance involving a dark secret instead.",
+      "index": 6301,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Horror -> Adjust to Romance, as the theme is primarily a dark romance without horror elements."
+    },
+    {
+      "explanation": "While it includes 'Horror' in column 14, the description in column 16 implies a more romance-centric plot that does not accurately fit the horror theme.",
+      "index": 6317,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Romance,Mystery -> More accurately fits the described theme of the movie."
+    },
+    {
+      "explanation": "A conflict arises as 'Horror,Sci-Fi,Thriller' suggests elements quite different from a typical horror film, while the description implies a serious examination of human emotion and intelligence, leaning into drama rather than horror.",
+      "index": 6338,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Touch of drama -> Change to Drama, as the horrific elements are downplayed."
+    },
+    {
+      "explanation": "This movie's description suggests a heightened focus on a detective narrative but does not suggest any horror themes regardless of 'Horror' being marked in column 14.",
+      "index": 6378,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Mystery,Drama -> Reflects the primary theme present in the film."
+    },
+    {
+      "explanation": "The entry indicates 'Sci-Fi,Horror' but the description suggests a straightforward narrative that centers on ecological disaster with no overt horror elements described.",
+      "index": 6394,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama,Action -> Represents the film's dramatic adventure rather than horror or sci-fi themes."
+    },
+    {
+      "explanation": "The provided genre 'Short,Action' indicates a short film, but the description is vague and does not establish a coherent plot, violating the expectation of the relationship between genre and theme.",
+      "index": 6482,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Drama"
+    },
+    {
+      "explanation": "The provided genre 'Short,Musical' suggests a short film, but the description 'Song based on the themes of Assassin's Creed.' lacks depth and a narrative, violating the expected relationship between genre and detailed theme.",
+      "index": 6485,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Musical,Action,Adventure"
+    },
+    {
+      "explanation": "'King Lear' set on a farm in Iowa is an error because this description indicates a play adaptation that does not align with the 'Drama' genre; it suggests potential themes of tragedy not encompassed by the general drama specified.",
+      "index": 6504,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Drama"
+    },
+    {
+      "explanation": "A terminally ill man prepares for his death is an error as the column indicates 'Drama' but the entry in column 16 suggests a more serious and possibly dark theme, which might not align with the expected treatment for a general drama.",
+      "index": 6522,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Drama,Thriller"
+    },
+    {
+      "explanation": "The genres listed suggest a theme of action but the plot description indicates a complex dramatic theme centered around a relationship with potential moral conflicts which are not properly represented by the listed genres.",
+      "index": 6688,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Horror,Sci-Fi"
+    },
+    {
+      "explanation": "The combination of genres suggests elements of action and adventure, however, the description fails to mention any thrilling or suspenseful elements that usually accompany such genres, indicating a mismatch.",
+      "index": 6689,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Thriller"
+    },
+    {
+      "explanation": "The genres suggest a more playful concept, but the description emphasizes a serious moral dilemma which does not align with the lighthearted or comedic approach suggested by the genres.",
+      "index": 6690,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Adventure,Drama"
+    },
+    {
+      "explanation": "The genre 'Drama,Mystery,Sci-Fi' suggests a complex narrative, while the description indicates a simple plot focused on a young man fleeing from a government agency, which belongs more to the Adventure genre.",
+      "index": 6708,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Adventure,Drama"
+    },
+    {
+      "explanation": "The genre 'Horror,Thriller' implies a suspense-filled tale, but the description reads more like a supernatural thriller without a central mystery element as suggested by the genre.",
+      "index": 6771,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The genre 'Documentary,Thriller' does not align as the description lacks elements typical of a thriller; it reads more like a straightforward documentary.",
+      "index": 6776,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Documentary"
+    },
+    {
+      "explanation": "The genre 'Short' is a violation because it does not describe a thematic connection relevant to the movie plot provided in column 16; a short genre is not consistent with any thematic elements of a classic narrative.",
+      "index": 6822,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Replace 'Short' with a genre like 'Comedy' or 'Drama' that aligns with the plot."
+    },
+    {
+      "explanation": "The entry 'The escaped delinquent John W. Burns, Jr. replaces Dr. Maitlin on a radio show...' does not align with the genre 'Comedy' given the serious nature of the plot detail, indicating that the plot may not be humorous in nature.",
+      "index": 6802,
+      "column": 16,
+      "annotation": 1,
+      "possible_repair": "Change the genre from 'Comedy' to 'Drama'."
+    },
+    {
+      "explanation": "The genre 'Horror' does not fit the serious narrative of a wedding and interaction with a family, suggesting it is an ill-fitted descriptor for such a plot.",
+      "index": 6840,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Replace 'Horror' with 'Comedy' or 'Drama'."
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Sci-Fi' is inconsistent with the description of a family moving, which typically aligns more with Drama or Comedy.",
+      "index": 6895,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Change genre to 'Drama' or 'Horror' if the focus on family is content relevant."
+    },
+    {
+      "explanation": "The description for 'Documentary' does not adhere to any substantive thematic content relative to movie's narrative in column 16, as documentaries generally don't provide a coherent narrative structure outlined in the plot.",
+      "index": 6827,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Use 'Biography' or 'Historical drama' that aligns with the article's narrative."
+    },
+    {
+      "explanation": "The genre 'Fantasy,Horror,Mystery' suggests supernatural elements, which do not align with the grounded horror theme presented in the summary about a sleep study and ghostly past.",
+      "index": 6900,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genre 'Horror' is correctly describing the theme where a family inherits a haunted house, indicating a clear match.",
+      "index": 6901,
+      "column": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The genre 'Horror,Mystery,Thriller' aligns with the theme of a millionaire challenging people in a haunted house, which fits logically with the suspenseful elements of the story.",
+      "index": 6902,
+      "column": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The genre 'Mystery & Suspense,Horror' contains an ampersand instead of a comma, which is a syntactic error as it breaks the format such that genre separation is unclear.",
+      "index": 6903,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Mystery,Horror"
+    },
+    {
+      "explanation": "The genre 'Action,Sci-Fi' does not align with the horror theme of a haunted house, as it implies a focus on action and science fiction instead of creepy or suspenseful elements.",
+      "index": 6904,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The entry 'Action,Adventure,Sci-Fi' is not a violation, as the adventure aspect might relate to a thrilling rescue but lacks horror alignment.",
+      "index": 6905,
+      "column": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Action,Sci-Fi' does not seem appropriate here since the associated theme has no clear horror components, pointing instead to futuristic conflict and tension.",
+      "index": 6906,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genre 'Thriller' may suggest suspense, but given the theme about a suicidal artist encountering a doppelgänger, it borders more on horror themes.",
+      "index": 6907,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genre 'Crime,Drama,Thriller' fits accurately with the theme of a nightclub manager dealing with mafia elements, indicating no errors.",
+      "index": 6908,
+      "column": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The genre 'Documentary,Sport' suggests a factual recount of history, which contrasts sharply with any horror theme and validates as incorrect.",
+      "index": 6909,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "'Action,Crime,Thriller' is appropriate here because the dark and revengeful theme fits well with these genres, indicating no error exists.",
+      "index": 6910,
+      "column": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The genres 'Action,Crime,Drama' hold no fault as the theme of Ninjutsu in an action-packed context aligns correctly with listed genres, demonstrating no violation.",
+      "index": 6911,
+      "column": 0,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The genre 'Action,Adventure,Fantasy' may suggest elements of heroics and fun but does not align with the more horror-oriented narrative of freeing a mythical being.",
+      "index": 6912,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Fantasy,Horror"
+    },
+    {
+      "explanation": "The listed genre 'Action & Adventure,Science Fiction & Fantasy' indicates clear mismatched genres which dilute the horror concept implied in the narrative.",
+      "index": 6913,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Fantasy,Horror"
+    },
+    {
+      "explanation": "The genre 'Sci-Fi,Thriller' implies futuristic and suspense elements, yet the theme focuses significantly on horror with menacing saucers, resulting in misalignment.",
+      "index": 6914,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Action & Adventure,Comedy' does not syntactically match with the description of the movie, which hints more towards horror-oriented themes rather than the genres assigned. The mixed genres suggests a conflict with the synthesized description of the movie as a comedy-adventure instead of fitting into genres that typically encompass darker themes that 'Thriller' would suggest.",
+      "index": 7009,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Comedy,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama,Action & Adventure,Mystery & Suspense' suggests a level of excitement and action that is not reflected in the movie description. The movie aligns more with themes of revenge rather than the thrill aspects typical to those genres. Therefore, the specified genres lead to an error in the movie's semantic relationship to its description.",
+      "index": 7013,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Thriller"
+    },
+    {
+      "explanation": "The entry has a null genre which does not align with the associated description provided. If a movie description indicates particular elements, like a revenge theme in a gritty context, a genre must always be provided to ensure proper classification and to facilitate both categorization and discovery in databases.",
+      "index": 7014,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The depicted crime activities of the couple in the theme seem inconsistent with a 'Comedy' genre.",
+      "index": 7120,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Crime"
+    },
+    {
+      "explanation": "The dramatic elements of romantic pursuits in the theme do not align with the comedic tone when only 'Comedy' is specified as genre.",
+      "index": 7172,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Romance"
+    },
+    {
+      "explanation": "The violent and intimidating plot described does not fit with a lighthearted 'Comedy' genre, suggesting inconsistencies in theme.",
+      "index": 7180,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Comedy,Thriller"
+    },
+    {
+      "explanation": "The genre 'Action & Adventure' does not correspond to a clearly defined movie theme regarding 'Drama'. The plot primarily focuses on action rather than emotional depth typical of drama.",
+      "index": 7207,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama"
+    },
+    {
+      "explanation": "The presence of 'Action' alone suggests that the movie lacks a deeper theme, which does not match with the narrative that speaks of interpersonal relationships or emotional growth. The plot appears more action-driven without emotional depth.",
+      "index": 7217,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Action,Drama,Thriller"
+    },
+    {
+      "explanation": "The genre 'Short' does not provide a clear indication of a theme or subject related to the description, which reads more like a horror/thriller scenario.",
+      "index": 7302,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror,Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama,Horror,Romance' contradicts the horror element present in the description, which predominantly aligns with a horror theme.",
+      "index": 7303,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The genre 'Drama,Romance' does not match the thematic description that suggests actions and manipulations tied to evil, which would lean more towards a thriller or drama with darker themes.",
+      "index": 7304,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The genre 'Drama,Mystery,Sci-Fi' conflicts with the thriller/horror themes of the description, as it focuses more on an academic premise rather than an inherent suspenseful or terrifying aspect.",
+      "index": 7309,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Thriller"
+    },
+    {
+      "explanation": "The entry under column 14 lists 'Documentary', whereas the description discusses themes that are not typical of documentaries, which often convey real events.",
+      "index": 7310,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Crime Drama"
+    },
+    {
+      "explanation": "The entry 'Documentary' does not match the description which implies a narrative focus on horror and exploitation, rather than factual storytelling.",
+      "index": 7311,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    },
+    {
+      "explanation": "The entry specifies 'Biography,Drama,History', which misaligns with the horror elements indicated in the description, creating a thematic inconsistency.",
+      "index": 7317,
+      "column": 14,
+      "annotation": 1,
+      "possible_repair": "Horror"
+    }
+  ]
+}

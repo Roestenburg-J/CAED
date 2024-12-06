@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The rating of the film in the eleventh column provides a qualitative measure which could be related to the number of ratings received in the twelfth column, suggesting a pattern that influences how films are rated.
+
+  The following is a formatted table with the unique data to be checked.
+  

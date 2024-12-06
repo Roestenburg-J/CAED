@@ -1,0 +1,1001 @@
+HospitalOwner,MeasureName,original_index,unique_index
+voluntary non-profit - private,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,0,0
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,1,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,2,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),3,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,4,4
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),5,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,6,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,7,7
+government - hospital district or authority,heart attack patients given aspirin at arrival,8,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,9,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),10,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,11,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,12,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,13,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,14,14
+government - hospital district or authority,heart failure patients given discharge instructions,15,15
+government - hospital district or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,16,16
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),17,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,18,18
+government - hospital district or authority,heart attack patients given aspirin at arrival,19,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,20,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),21,10
+government - hospxtal dxstrxct or authorxty,heart attack patients given smoking cessation advice/counseling,22,19
+government - hospital district or authority,heart attack patients given beta blocker at discharge,23,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,24,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,25,14
+government - hospital district or authority,heart failure patients given discharge instructions,26,15
+government - hospital xistrict or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,27,20
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),28,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,29,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,30,21
+governmenx - hospixal disxricx or auxhorixy,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,31,22
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,32,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,33,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),34,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,35,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,36,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,37,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,38,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),39,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,40,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),41,32
+gxvernment - hxspital district xr authxrity,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,42,33
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,43,34
+government - hospital district or authority,heart attack patients given aspirin at arrival,44,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,45,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),46,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,47,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,48,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,49,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,50,14
+government - hospital district or authority,heart failure patients given discharge instructions,51,15
+government - hospital district or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,52,16
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),53,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,54,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,55,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,56,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,57,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,58,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),59,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,60,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,61,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,62,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,63,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),64,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,65,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),66,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,67,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,68,34
+voluntary non-profit - other,heart attack patients given aspirin at arrival,69,37
+voluntary non-profit - other,heart attack patients given aspirin at discharge,70,38
+voluntary non-profit - other,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),71,39
+voluntary non-profit - other,heart attack patients given smoking cessation advice/counseling,72,40
+voluntary non-profit - other,heart attack patients given beta blocker at discharge,73,41
+voluntary non-profit - other,heart attack patients given fibrinolytic medication within 30 minutes of arrival,74,42
+voluntary non-profit - other,heart attack patients given pci within 90 minutes of arrival,75,43
+voluntary non-profit - other,heart failure patients given discharge instructions,76,44
+voluntary non-profit - other,heart failure patients given an evaluation of left ventricular systolic (lvs) function,77,45
+voluntary non-profit - other,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),78,46
+voluntary non-profit - other,heart failure patients given smoking cessation advice/counseling,79,47
+voluntary non-profit - other,pneumonia patients assessed and given pneumococcal vaccination,80,48
+voluntary non-profit - other,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,81,49
+voluntary non-profit - other,pneumonia patients given smoking cessation advice/counseling,82,50
+voluntary non-profit - other,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,83,51
+voluntary non-profit - other,pneumonia patients given the most appropriate initial antibiotic(s),84,52
+voluntary non-profit - other,pneumonia patients assessed and given influenza vaccination,85,53
+voluntary non-profit - other,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,86,54
+voluntary non-profit - other,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,87,55
+voluntary non-profit - other,surgery patients who were given the  right kind  of antibiotic to help prevent infection,88,56
+voluntary non-profit - other,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),89,57
+voluntary non-profit - other,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,90,58
+voluntary non-profit - other,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),91,59
+voluntary non-profit - other,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,92,60
+voluntary non-profit - other,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,93,61
+voluntary non-profit - private,xeart attack patients given aspirin at arrival,94,62
+voluntary non-profit - private,heart attack patients given aspirin at discharge,95,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),96,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,97,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,98,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,99,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,100,68
+voluntary non-profit - private,heart failure patients given discharge instructions,101,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,102,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),103,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,104,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,105,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,106,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,107,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,108,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),109,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,110,78
+voluntary non-profit - private,surgery patiexts who were takixg heart drugs called beta blockers before comixg to the hospital who were kept ox the beta blockers durixg the period just before axd after their surgery,111,79
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,112,1
+volunxary non-profix - privaxe,surgery patients who were given the  right kind  of antibiotic to help prevent infection,113,80
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),114,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,115,4
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),116,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,117,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,118,7
+government - federal,heart attack patients given aspirin at arrivax,119,81
+government - federal,heart attack patients given aspirin at discharge,120,82
+government - federal,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),121,83
+government - federal,heart attack patients given smoking cessation advice/counseling,122,84
+government - federal,heart attack patients given beta blocker at discharge,123,85
+government - federal,heart attack patients given fibrinolytic medication within 30 minutes of arrival,124,86
+government - federal,heart attack patients given pci within 90 minutes of arrival,125,87
+government - federal,heart failure patients given discharge instructions,126,88
+government - federal,heart failure patients given an evaluation of left ventricular systolic (lvs) function,127,89
+government - federal,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),128,90
+government - federal,heart failure patients given smoking cessation advice/counseling,129,91
+government - federal,pneumonia patients assessed and given pneumococcal vaccination,130,92
+government - federal,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,131,93
+government - federal,pneumonia patients given smoking cessation advice/counseling,132,94
+government - federal,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,133,95
+government - federal,pneumonia patients given the most appropriate initial antibiotic(s),134,96
+government - federal,pneumonia patients assessed and given influenza vaccination,135,97
+government - federal,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,136,98
+government - federal,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,137,99
+government - federal,surgery patients who were given the  right kind  of antibiotic to help prevent infection,138,100
+government - federal,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),139,101
+government - federal,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,140,102
+government - federal,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),141,103
+government - federal,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,142,104
+government - federal,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,143,105
+proprietary,heart attack patients given aspirin at arrival,144,106
+proprietary,heart attaxk patients given aspirin at disxharge,145,107
+proprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),146,108
+proprietary,heart attack patients given smoking cessation advice/counseling,147,109
+proprietary,heart attack patients given beta blocker at discharge,148,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,149,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,150,112
+proprietary,heart failure patients given discharge instructions,151,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,152,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),153,115
+proprietary,heart failure patients given smoking cessation advice/counseling,154,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,155,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,156,118
+pxopxietaxy,pneumonia patients given smoking cessation advice/counseling,157,119
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,158,120
+proxrietary,pneumonia patients given the most appropriate initial antibiotic(s),159,121
+proprietary,pneumonia patients assessed and given influenza vaccination,160,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,161,123
+xroprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,162,124
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,163,125
+pxopxietaxy,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),164,126
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,165,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),166,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,167,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,168,130
+government - hospital district or authority,heart attack patients given aspirin at arrival,169,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,170,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),171,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,172,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,173,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,174,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,175,14
+government - hospital district or authority,heart failure patients given discharge instructions,176,15
+government - hospital district or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,177,16
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),178,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,179,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,180,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,181,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,182,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,183,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),184,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,185,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,186,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,187,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,188,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),189,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,190,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),191,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,192,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,193,34
+voluntary non-profit - private,heart attack patients given aspirin at arrival,194,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,195,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),196,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,197,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,198,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,199,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,200,68
+voluntary non-profit - private,heart failure patients given discharge instructions,201,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,202,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),203,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,204,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,205,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,206,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,207,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,208,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),209,77
+voluntary non-profit - private,pneumoniaxpatientsxassessedxandxgivenxinfluenzaxvaccination,210,132
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,211,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,212,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,213,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),214,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,215,4
+volunxary non-profix - privaxe,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),216,134
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,217,6
+voluntary nonxprofit x private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,218,135
+voluntary non-profit - church,heartxattackxpatientsxgivenxaspirinxatxarrival,219,136
+voluntary non-profit - church,heart attack patients given aspirin at discharge,220,137
+voluntaryxnon-profitx-xchurch,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),221,138
+voluntary non-profit - church,heart attack patients given smoking cessation advice/counseling,222,139
+voluntary non-profit - church,heart attack patients given beta blocker at discharge,223,140
+voluntary non-profit - church,heart attack patients given fibrinolytic medication within 30 minutes of arrival,224,141
+voluntary non-profit - church,heart attack patients given pci within 90 minutes of arrival,225,142
+voluntary non-profit - church,heart failure patients given discharge instructions,226,143
+voluntary non-profit - church,heart failure patients given an evaluation of left ventricular systolic (lvs) function,227,144
+voluntary non-profit - church,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),228,145
+voluntary non-profit - church,heart failure patients given smoking cessation advice/counseling,229,146
+voluntary non-profit - church,pneumonia patients assessed and given pneumococcal vaccination,230,147
+voluntary non-profit - church,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,231,148
+voluntary non-profit - church,pneumonia patients given smoking cessation advice/counseling,232,149
+voluntary non-profit - church,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,233,150
+voluntary non-profit - church,pneumonia patients given the most appropriate initial antibiotic(s),234,151
+voluntary non-profit - church,pneumonia patients assessed and given influenza vaccination,235,152
+voluntary non-profit - church,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,236,153
+voluntary non-profit - church,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,237,154
+voxuntary non-profit - church,surgery patients who were given the  right kind  of antibiotic to help prevent infection,238,155
+voluntary non-profit - church,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),239,156
+voluntary non-profit - church,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,240,157
+voluntary non-profit - church,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),241,158
+voluntary non-profit - church,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,242,159
+voluntary non-profit - church,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,243,160
+government - federal,heart attack patients given aspirin at arrival,244,161
+government - federal,heart attack patients given aspirin at discharge,245,82
+government - federal,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),246,83
+governxent - federal,heart attack patients given smoking cessation advice/counseling,247,162
+government - federal,heart attack patients given beta blocker at discharge,248,85
+government - federal,heart attack patients given fibrinolytic medication within 30 minutes of arrival,249,86
+government - federal,heart attack patients given pci within 90 minutes of arrival,250,87
+government - federal,heart failure patients given discharge instructions,251,88
+government - federal,heart failure patients given an evaluation of left ventricular systolic (lvs) function,252,89
+government - federal,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),253,90
+government - federal,heart failure patients given smoking cessation advice/counseling,254,91
+government - federal,pneumonia patients assessed and given pneumococcal vaccination,255,92
+government - federal,pneumonxa patxents whose inxtxal emergency room blood culture was performed prxor to the admxnxstratxon of the fxrst hospxtal dose of antxbxotxcs,256,163
+government - federal,pneumonia patients given smoking cessation advice/counseling,257,94
+government - federal,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,258,95
+government - federal,pneumonia patients given the most appropriate initial antibiotic(s),259,96
+government - federal,pneumonia patients assessed and given influenza vaccination,260,97
+government - federal,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,261,98
+government - federal,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,262,99
+government - federal,surgery patients who were given the  right kind  of antibiotic to help prevent infection,263,100
+government - federal,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),264,101
+government - federal,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,265,102
+government - federal,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),266,103
+government - federal,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,267,104
+government - federal,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,268,105
+voluntary non-profit - church,heart attack patients given aspirin at arrival,269,164
+voluntary non-profit - church,heart attack patients given aspirin at discharge,270,137
+voluntary non-profit - church,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),271,165
+voluntary non-profit - church,heart attack patients given smoking cessation advice/counseling,272,139
+voluntary non-profit - church,heart attack patients given beta blocker at discharge,273,140
+voluntary non-profit - church,heart attack patients given fibrinolytic medication within 30 minutes of arrival,274,141
+voluntary non-profit - church,heart attack patients given pci within 90 minutes of arrival,275,142
+voluntary non-profit - church,heart failure patients given discharge instructions,276,143
+voluntary non-profit - church,heart failure patients given an evaluation of left ventricular systolic (lvs) function,277,144
+voluntary non-profit - church,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),278,145
+voluntary non-profit - church,heart failure patients given smoking cessation advice/counseling,279,146
+voluntary non-profit - church,pneumonia patients assessed and given pneumococcal vaccination,280,147
+voluntary non-profit - church,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,281,166
+voluntary non-profit - church,pneumonia patients given smoking cessation advice/counseling,282,149
+voluntary non-profit - church,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,283,150
+voluntary non-profit - church,pneumonia patients given the most appropriate initial antibiotic(s),284,151
+voluntary non-profit - church,pneumonia patients assessed and given influenza vaccination,285,152
+voluntary non-profit - church,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,286,153
+voluntary non-profit - church,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,287,154
+voluntary non-profit - church,surgery patients who were given the  right kind  of antibiotic to help prevent infection,288,167
+voluntary non-profit - church,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),289,156
+voluntary non-profit - church,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,290,168
+voluntary non-profit - church,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),291,158
+voluntary non-profit - church,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,292,159
+voluntary non-profit - church,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,293,160
+voluntary non-profit - private,heart attack patients given aspirin at arrival,294,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,295,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),296,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,297,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,298,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,299,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,300,68
+voluntary non-profit - private,heart failure patients given discharge instructions,301,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,302,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),303,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,304,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,305,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,306,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,307,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,308,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),309,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,310,78
+proprietary,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,311,169
+proprietary,children and their caregivers who received a home management plan of care document while hospitalized for asthma,312,170
+prxprietary,heart attack patients given aspirin at arrival,313,171
+proprietary,heart attack patients given aspirin at discharge,314,172
+proprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),315,108
+proprietary,heart attack patients given smoking cessation advice/counseling,316,109
+proprietary,heart attack patients given beta blocker at discharge,317,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,318,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,319,112
+proprietary,heart failure patients given discharge instructions,320,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,321,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),322,115
+proprietary,heart failure patients given smoking cessation advice/counseling,323,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,324,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,325,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,326,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,327,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),328,174
+proprietary,pneumonia patients assessed and given influenza vaccination,329,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,330,123
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,331,114
+proxrietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),332,175
+proprietary,heart failure patients given smoking cessation advice/counseling,333,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,334,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,335,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,336,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,337,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),338,174
+proprietary,pneumonia patients assessed and given influenza vaccination,339,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,340,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,341,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,342,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),343,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,344,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),345,128
+proprietary,surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries,346,178
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,347,130
+voluntary non-profit - other,heart attack patients given aspirin at arrival,348,37
+voluntary non-profit - other,heart attack patients given aspirin at discharge,349,38
+voluntary non-profit - other,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),350,39
+voluntary non-profit - other,heart attack patients given smoking cessation advice/counseling,351,40
+voluntary non-profit - other,heart attack patients given beta blocker at discharge,352,41
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,353,34
+proprietary,heart attack patients given aspirin at arrival,354,106
+proprietary,heart attack patients given aspirin at discharge,355,172
+prxprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),356,179
+proprietary,heart attack patients given smoking cessation advice/counseling,357,109
+proprietary,heart attack patients given beta blocker at discharge,358,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,359,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,360,112
+proprietary,heart failure patients given discharge instructions,361,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,362,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),363,115
+proprietary,heart failure patients given smoking cessation advice/counseling,364,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,365,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,366,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,367,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,368,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),369,174
+proprietary,pneumonia patients assessed and given influenza vaccination,370,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,371,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,372,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,373,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),374,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,375,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),376,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,377,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,378,130
+government - state,heart attack patients given aspirin at arrival,379,180
+government - state,heaxt attack patients given aspixin at dischaxge,380,181
+government - state,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),381,182
+government - state,heart attack patients given smoking cessation advice/counseling,382,183
+government - state,heart attack patients given beta blocker at discharge,383,184
+government - state,heart attack patients given fibrinolytic medication within 30 minutes of arrival,384,185
+government - state,heart attack patients given pci within 90 minutes of arrival,385,186
+government - state,heart failure patients given discharge instructions,386,187
+government - state,heart failure patients given an evaluation of left ventricular systolic (lvs) function,387,188
+government - state,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),388,189
+government - state,heart xailure patients given smoking cessation advice/counseling,389,190
+government - state,pneumonia patients assessed and given pneumococcal vaccination,390,191
+government - state,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,391,192
+voluntary non-profit - private,heart attack patients given aspirin at discharge,392,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),393,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,394,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,395,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,396,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,397,68
+voluntary non-profit - private,heart failure patients given discharge instructions,398,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,399,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),400,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,401,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,402,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,403,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,404,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,405,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),406,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,407,78
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,408,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,409,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,410,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),411,3
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,412,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,413,130
+voluntary non-profit - other,heart attack patients given aspirin at arrival,414,37
+voluntary non-profit - other,heart attack patients given aspirin at discharge,415,38
+voluntary non-profit - other,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),416,39
+voluntary non-profit - other,heart attack patients given smoking cessation advice/counseling,417,40
+voluntary non-profit - other,heart attack patients given beta blocker at discharge,418,41
+voluntary non-profit - other,heart attack patients given fibrinolytic medication within 30 minutes of arrival,419,42
+voluntary non-profit - other,heart attack patients given pci within 90 minutes of arrival,420,43
+voluntary non-profit - other,heart failure patients given discharge instructions,421,44
+voluntary non-profit - other,heart failure patients given an evaluation of left ventricular systolic (lvs) function,422,45
+voluntary non-profit - other,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),423,46
+voluntary non-profit - other,heart failure patients given smoking cessation advice/counseling,424,47
+voluntary non-profit - other,pneumonia patients assessed and given pneumococcal vaccination,425,48
+voluntary non-profit - other,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,426,49
+voluntary non-profit - other,pneumonia patients given smoking cessation advice/counseling,427,50
+voluntary non-profit - other,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,428,51
+voluntary non-profit - other,pneumonia patients given the most appropriate initial antibiotic(s),429,52
+voluntary non-profit - other,pneumonia patients assessed and given influenza vaccination,430,53
+voluntary non-profit - other,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,431,54
+proprietary,heart failure patients given discharge instructions,432,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,433,114
+proprietary,heart faxlure patxents gxven ace inhxbxtor or arb for left ventrxcular systolxc dysfunctxon (lvsd),434,193
+proprietary,heart failure patients given smoking cessation advice/counseling,435,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,436,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,437,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,438,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,439,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),440,174
+proprietary,pneumonia patients assessed and given influenza vaccination,441,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,442,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,443,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,444,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),445,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,446,127
+proprietary,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),447,194
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,448,129
+proxrietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,449,195
+government - federal,heart attack patients given aspirin at arrival,450,161
+government - federal,heart attack patients given aspirin at discharge,451,82
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,452,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,453,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,454,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,455,24
+gxvernment - hxspital district xr authxrity,pneumonia patients given the most appropriate initial antibiotic(s),456,196
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,457,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,458,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,459,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,460,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),461,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,462,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),463,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,464,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,465,34
+government - hospital district or authority,heart attack patients given aspirin at arrival,466,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,467,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),468,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,469,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,470,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,471,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,472,14
+government - hospital district or authority,heaxt failuxe patients given dischaxge instxuctions,473,197
+government - hospital district or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,474,16
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),475,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,476,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,477,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,478,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,479,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,480,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),481,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,482,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,483,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,484,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,485,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),486,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,487,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),488,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,489,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,490,34
+voluntary non-profit - private,heart attack patients given aspirin at arrival,491,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,492,63
+voluntaryxnon-profitx-xprivate,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),493,198
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,494,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,495,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,496,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,497,68
+voluntary non-profit - private,heart failure patients given discharge instructions,498,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,499,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),500,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,501,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,502,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,503,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,504,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,505,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),506,77
+voluntary non-profit - private,pneumonix pxtients assessed xnd given influenzx vxccinxtion,507,199
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,508,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,509,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,510,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),511,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,512,4
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),513,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,514,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,515,7
+voluntary non-profit - church,heart attack patients given aspirin at arrival,516,164
+voluntary non-profit - church,heart attack patients given aspirin at discharge,517,137
+voluntary non-profit - church,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),518,165
+voluntary non-profit - church,heart attack patients given smoking cessation advice/counseling,519,139
+voluntary non-profit - church,heart attack patients given beta blocker at discharge,520,140
+voluntary non-profit - church,heart attack patients given fibrinolytic medication within 30 minutes of arrival,521,141
+voluntary non-profit - church,heart attack patients given pci within 90 minutes of arrival,522,142
+voluntary non-profit - church,heart failure patients given discharge instructions,523,143
+voluntary non-profit - church,heart failure patients given an evaluation of left ventricular systolic (lvs) function,524,144
+voluntary non-profit - church,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),525,145
+volxntary non-profit - chxrch,heart failure patients given smoking cessation advice/counseling,526,200
+voluntary non-profit - church,pneumonia patients assessed and given pneumococcal vaccination,527,147
+voluntary non-profit - church,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,528,148
+voluntary non-profit - church,pneumonia patients given smoking cessation advice/counseling,529,149
+voluntary non-profit - church,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,530,150
+voluntary non-profit - church,pneumonia patients given the most appropriate initial antibiotic(s),531,151
+voluntary non-profit - church,pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox,532,201
+voluntary non-profit - church,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,533,153
+voluntary non-profit - church,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,534,154
+voluntary non-profit - church,surgery patients who were given the  right kind  of antibiotic to help prevent infection,535,167
+voluntary non-profit - church,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),536,156
+voluntary non-profit - church,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,537,157
+voluntary non-profit - church,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),538,158
+voluntary non-profit - church,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,539,159
+voluntary non-profit - church,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,540,160
+voluntary non-profit - private,hexrt attxck pxtients given aspirin xt arrivxl,541,202
+voluntary non-profit - private,heart attack patients given aspirin at discharge,542,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),543,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,544,65
+voluntary non-profit - private,heaxt attack patients given beta blockex at dischaxge,545,203
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,546,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,547,68
+voluntary non-profit - private,heart failure patients given discharge instructions,548,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,549,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),550,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,551,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,552,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,553,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,554,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,555,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),556,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,557,78
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,558,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,559,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,560,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),561,3
+voluntary non-profit - private,allxheartxsurgeryxpatientsxwhosexbloodxsugarx(bloodxglucose)xisxkeptxunderxgoodxcontrolxinxthexdaysxrightxafterxsurgery,562,204
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),563,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,564,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,565,7
+voluntary non-profit - other,heart attack patients given aspirin at arrival,566,37
+voluntary non-profit - other,heart attack patients given aspirin at discharge,567,38
+voluntary non-profit - other,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),568,39
+voluntary non-profit - other,heart attack patients given smoking cessation advice/counseling,569,40
+voluntary non-profit - other,heart attack patients given beta blocker at discharge,570,41
+voluntary non-profit - other,heart attack patients given fibrinolytic medication within 30 minutes of arrival,571,42
+voluntary non-profit - otxer,heart attack patients given pci within 90 minutes of arrival,572,205
+voluntary non-profit - other,heart failure patients given discharge instructions,573,44
+voluntary non-profit - other,heart failure patients given an evaluation of left ventricular systolic (lvs) function,574,45
+voluntary non-profit - other,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),575,46
+voluntary non-profit - other,heart failure patients given smoking cessation advice/counseling,576,47
+voluntary non-profit - other,pneumonia patients assessed and given pneumococcal vaccination,577,48
+voluntary non-profit - other,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,578,49
+voluntary non-profit - other,pneumonia patients given smoking cessation advice/counseling,579,50
+voluntary non-profit - other,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,580,51
+voluntary non-profit - other,pneumonia patients given the most appropriate initial antibiotic(s),581,52
+voluntary non-profit - other,pneumonia patients assessed and given influenza vaccination,582,53
+voluntary non-profit - other,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,583,54
+voluntary non-profit - other,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,584,55
+voluntary non-profit - other,surgery patients who were given the  right kind  of antibiotic to help prevent infection,585,56
+voluntary non-profit - other,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),586,57
+voluntary non-profit - other,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,587,58
+voluntary non-profit - other,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),588,59
+voluntary non-profit - other,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,589,60
+voluntary non-profit - other,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,590,61
+voluntary non-profit - other,heart attack patients given aspirin at arrival,591,37
+voluntary non-profit - other,heart attack patients given aspirin at discharge,592,38
+voluntary non-profit - other,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),593,39
+voluntary non-profit - other,heart attack patients given smoking cessation advice/counseling,594,40
+voluntary non-profit - other,heart attack patients given beta blocker at discharge,595,41
+voluntary non-profit - other,heart attack patients given fibrinolytic medication within 30 minutes of arrival,596,42
+voluntary non-profit - other,heart attack patients given pci within 90 minutes of arrival,597,43
+voluntary non-profit - other,heart failure patients given discharge instructions,598,44
+voluntary non-profit - other,heart failure patients given an evaluation of left ventricular systolic (lvs) function,599,45
+voluntary non-profit - other,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),600,46
+voluntary non-profit - other,heart failure patients given smoking cessation advice/counseling,601,47
+voluntary non-profit - other,pneumonia patients assessed and given pneumococcal vaccination,602,48
+voluntary non-profit - other,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,603,49
+voluntary non-profit - other,pneumonia patients given smoking cessation advice/counseling,604,50
+voluntary non-profit - other,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,605,51
+voluntary non-profit - other,pneumonia patients given the most appropriate initial antibiotic(s),606,52
+voluntary non-profit - other,pneumonia patients assessed and given influenza vaccination,607,53
+voluntary non-profit - other,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,608,54
+voluntary non-profit - other,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,609,55
+voluntary non-profit - other,surgery patients who were given the  right kind  of antibiotic to help prevent infection,610,56
+voluntary non-profit - other,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),611,57
+voluntary non-profit - other,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,612,206
+voluntary non-profit - other,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),613,59
+voluntary non-profit - other,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,614,60
+voluntary non-profit - other,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,615,61
+government - hospital district or authority,heart attack patients given aspirin at arrival,616,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,617,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),618,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,619,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,620,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,621,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,622,14
+government - hospital district or authority,heart failure patients given discharge instructions,623,15
+government - hospital district or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,624,16
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),625,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,626,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,627,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,628,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,629,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,630,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),631,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,632,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,633,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,634,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,635,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),636,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,637,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),638,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,639,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,640,34
+government - local,heart attack patients given aspirin at arrival,641,207
+government - local,heart attack patients given aspirin at discharge,642,208
+government - local,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),643,209
+government - local,heart attack patients given smoking cessation advice/counseling,644,210
+government - local,heart attack patients given beta blocker at discharge,645,211
+government - local,heart attack patients given fibrinolytic medication within 30 minutes of arrival,646,212
+government - local,heart attack patients given pci within 90 minutes of arrival,647,213
+government - local,heart failure patients given discharge instructions,648,214
+government - local,heart failure patients given an evaluation of left ventricular systolic (lvs) function,649,215
+government - local,heart failure patients given ace inhibitor or arb for left xentricular systolic dysfunction (lxsd),650,216
+government - local,heart faxlure patxents gxven smokxng cessatxon advxce/counselxng,651,217
+government - local,pneumonia patients assessed and given pneumococcal vaccination,652,218
+government - local,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,653,219
+government - local,pneumonia patients given smoking cessation advice/counseling,654,220
+government - local,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,655,221
+government - local,pneumonia patients given the most appropriate initial antibiotic(s),656,222
+government - local,pneumonia patients assessed and given influenza vaccination,657,223
+government - local,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,658,224
+government - local,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,659,225
+government - local,surgery patients who were given the  right kind  of antibiotic to help prevent infection,660,226
+government - local,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),661,227
+government - local,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,662,228
+government - local,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),663,229
+government - local,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,664,230
+government - local,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,665,231
+government - state,heart attack patients given aspirin at arrival,666,180
+government - state,heart attack patients given aspirin at discharge,667,232
+government - state,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),668,182
+government - state,heart attack patients given smoking cessation advice/counseling,669,183
+government - state,heart attack patients given beta blocker at discharge,670,184
+government - state,heart attack patients given fibrinolytic medication within 30 minutes of arrival,671,185
+government - state,heartxattackxpatientsxgivenxpcixwithinx90xminutesxofxarrival,672,233
+government - state,heart failure patients given discharge instructions,673,187
+government - state,heart failure patients given an evaluation of left ventricular systolic (lvs) function,674,188
+government - state,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),675,189
+government - state,heart failure patients given smoking cessation advice/counseling,676,234
+government - state,pneumonia patients assessed and given pneumococcal vaccination,677,191
+government - state,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,678,192
+government - state,pneumonia patients given smoking cessation advice/counseling,679,235
+government - state,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,680,236
+government - state,pneumonia patients given the most appropriate initial antibiotic(s),681,237
+government - state,pneumonia patients assessed and given influenza vaccination,682,238
+government - state,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,683,239
+government - state,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,684,240
+government - state,surgery patients who were given the  right kind  of antibiotic to help prevent infection,685,241
+government - state,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),686,242
+government - state,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,687,243
+government - state,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),688,244
+government - state,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,689,245
+government - state,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,690,246
+voluntary non-profit - private,heart attack patients given aspirin at arrival,691,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,692,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),693,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,694,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,695,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,696,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,697,68
+voluntary non-profit - private,heart failure patients given discharge instructions,698,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,699,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),700,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,701,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,702,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,703,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,704,75
+voluntary non-profit - private,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,705,247
+voluntary non-profit - private,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),706,248
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,707,78
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,708,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,709,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,710,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),711,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,712,4
+voluntary non-profit - private,surgery paxienxs needing hair removed from xhe surgical area before surgery who had hair removed using a safer mexhod (elecxric clippers or hair removal cream c nox a razor),713,249
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,714,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,715,7
+government - hospital district or authority,heart attack patients given aspirin at arrival,716,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,717,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),718,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,719,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,720,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,721,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,722,14
+government - hospital district or authority,heart failure patients given discharge instructions,723,15
+government - hospital district or authority,heart failure patients given an evaluation of left ventricular systolic (lvs) function,724,16
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),725,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,726,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,727,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,728,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,729,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,730,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),731,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,732,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,733,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,734,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,735,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),736,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,737,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),738,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,739,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,740,34
+proprietary,heart attack patients given aspirin at arrival,741,106
+proprietary,heart attack patients given aspirin at discharge,742,172
+proprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),743,108
+prxprietary,heart attack patients given smoking cessation advice/counseling,744,250
+proprietary,heart attack patients given beta blocker at discharge,745,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,746,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,747,112
+proprietary,heart failure patients given discharge instructions,748,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,749,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),750,115
+proprietary,heart failure patients given smoking cessation advice/counseling,751,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,752,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,753,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,754,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,755,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),756,174
+proprietary,pneumonia patients assessed and given influenza vaccination,757,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,758,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,759,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,760,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),761,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,762,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),763,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,764,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,765,130
+proprietary,children who received reliever medication while hospitalized for asthma,766,251
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,767,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,768,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),769,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,770,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),771,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,772,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,773,130
+government - hospital district or authority,children who received reliever medication while hospitalized for asthma,774,252
+government - hospital district or authority,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,775,253
+government - hospital district or authority,children and their caregivers who received a home management plan of care document while hospitalized for asthma,776,254
+government - hospital district or authority,heart attack patients given aspirin at arrival,777,8
+government - hospital district or authority,heart attack patients given aspirin at discharge,778,9
+government - hospital district or authority,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),779,10
+government - hospital district or authority,heart attack patients given smoking cessation advice/counseling,780,11
+government - hospital district or authority,heart attack patients given beta blocker at discharge,781,12
+government - hospital district or authority,heart attack patients given fibrinolytic medication within 30 minutes of arrival,782,13
+government - hospital district or authority,heart attack patients given pci within 90 minutes of arrival,783,14
+goverxmext - hospital district or authority,heart failure patients given discharge instructions,784,255
+government - hospital district or authority,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,785,256
+government - hospital district or authority,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),786,17
+government - hospital district or authority,heart failure patients given smoking cessation advice/counseling,787,18
+government - hospital district or authority,pneumonia patients assessed and given pneumococcal vaccination,788,21
+government - hospital district or authority,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,789,35
+government - hospital district or authority,pneumonia patients given smoking cessation advice/counseling,790,23
+government - hospital district or authority,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,791,24
+government - hospital district or authority,pneumonia patients given the most appropriate initial antibiotic(s),792,25
+government - hospital district or authority,pneumonia patients assessed and given influenza vaccination,793,26
+government - hospital district or authority,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,794,27
+government - hospital district or authority,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,795,28
+government - hospital district or authority,surgery patients who were given the  right kind  of antibiotic to help prevent infection,796,29
+government - hospital district or authority,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),797,30
+government - hospital district or authority,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,798,31
+government - hospital district or authority,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),799,32
+government - hospital district or authority,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,800,36
+government - hospital district or authority,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,801,34
+proprietary,heart attack patxents gxven aspxrxn at arrxval,802,257
+proprietary,heart attack patients given aspirin at discharge,803,172
+proprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),804,108
+proprietary,heart attack patients given smoking cessation advice/counseling,805,109
+proprietary,heart attack patients given beta blocker at discharge,806,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,807,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,808,112
+proprietary,heart failure patients given discharge instructions,809,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,810,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),811,115
+proprietary,heart failure patients given smoking cessation advice/counseling,812,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,813,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,814,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,815,173
+proprietary,pneumonix pxtients given initixl antibiotic(s) within 6 hours after arrivxl,816,258
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),817,174
+proprietary,pneumonia patients assessed and given influenza vaccination,818,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,819,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,820,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,821,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),822,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,823,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),824,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,825,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,826,130
+voluntary non-profit - private,heart attack patients given aspirin at arrival,827,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,828,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),829,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,830,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,831,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,832,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,833,68
+voluntary non-profit - private,heart failure patients given discharge instructions,834,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,835,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),836,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,837,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,838,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,839,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,840,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,841,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),842,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,843,78
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,844,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,845,1
+voluntaxy non-pxofit - pxivate,surgery patients who were given the  right kind  of antibiotic to help prevent infection,846,259
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),847,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,848,4
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),849,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,850,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,851,7
+voluntary non-profit - private,heart attack patients given aspirin at arrival,852,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,853,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),854,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,855,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,856,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,857,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,858,68
+voluntary non-profit - private,heart failure patients given discharge instructions,859,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,860,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),861,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,862,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,863,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,864,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,865,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,866,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),867,77
+voluxtary xox-profit - private,pneumonia patients assessed and given influenza vaccination,868,260
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,869,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,870,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,871,2
+voluntaxy non-pxofit - pxivate,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),872,261
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,873,4
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),874,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,875,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,876,7
+voluntary non-profit - other,heart attack patients given aspirin at arrival,877,37
+voluntary non-profit - other,heart attack patients given aspirin at discharge,878,38
+voluntary non-profit - other,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),879,39
+voluntary non-profit - other,heart attack patients given smoking cessation advice/counseling,880,40
+voluntary non-profit - other,heart attack patients given beta blocker at discharge,881,41
+voluntary non-profit - other,heart attack patients given fibrinolytic medication within 30 minutes of arrival,882,42
+voluntary non-profit - other,heart attack patients given pci within 90 minutes of arrival,883,43
+voluntary non-profit - other,heart failure patients given discharge instructions,884,44
+voluntary non-profit - other,heart failure patients given an evaluation of left ventricular systolic (lvs) function,885,45
+voluntary non-profit - other,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),886,46
+voluntary non-profit - other,heart failure patients given smoking cessation advice/counseling,887,47
+voluntary non-profit - other,pneumonia patients assessed and given pneumococcal vaccination,888,48
+voluntary non-profit - other,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,889,49
+voluntary non-profit - other,pneumonia patients given smoking cessation advice/counseling,890,50
+voluntary non-profit - other,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,891,51
+voluntary non-profit - other,pneumonia patients given the most appropriate initial antibiotic(s),892,52
+voluntary non-profit - other,pneumonia patients assessed and given influenza vaxxination,893,262
+voluntary non-profit - other,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,894,54
+voluntary non-profit - other,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,895,55
+voluntary non-profit - other,surgery patients who were given the  right kind  of antibiotic to help prevent infection,896,56
+voluntary non-profit - other,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),897,57
+voluntary non-profit - other,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,898,58
+voluntary non-profit - other,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),899,59
+voluntary non-profit - other,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,900,60
+voluntary non-profit - other,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,901,61
+proprietary,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,902,263
+proprietary,children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma,903,169
+proprietary,children and their caregivers who received a home management plan of care document while hospitalized for asthma,904,170
+proprietary,heart attack patients given aspirin at arrival,905,106
+proprietary,heart attack patients given aspirin at discharge,906,172
+proprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),907,108
+proprietary,heart attack patients given smoking cessation advice/counseling,908,109
+proprietary,heart attack patients given beta blocker at discharge,909,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,910,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,911,112
+proprietary,heart failure patients given discharge instructions,912,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,913,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),914,115
+proprietary,hearx failure paxienxs given smoking cessaxion advice/counseling,915,264
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,916,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,917,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,918,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,919,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),920,174
+proprietary,pneumonia patients assessed and given influenza vaccination,921,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,922,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,923,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,924,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),925,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,926,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),927,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,928,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,929,130
+voluntary non-profit - private,heart attack patients given aspirin at arrival,930,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,931,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),932,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,933,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,934,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,935,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,936,68
+voluntary non-profit - private,heart failure patients given discharge instructions,937,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,938,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),939,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,940,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,941,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,942,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,943,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,944,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),945,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,946,78
+voluntary non-profit - private,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,947,133
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,948,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,949,2
+voluntary non-profit - private,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),950,3
+voluntary non-profit - private,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,951,4
+voluntary non-profit - private,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),952,5
+voluntary non-profit - private,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,953,6
+voluntary non-profit - private,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,954,7
+proprietary,heart attack patients given aspirin at arrival,955,106
+proprietary,heart attack patients given aspirin at discharge,956,172
+proprietary,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),957,108
+proprietary,heart attack patients given smoking cessation advice/counseling,958,109
+proprietary,heart attack patients given beta blocker at discharge,959,110
+proprietary,heart attack patients given fibrinolytic medication within 30 minutes of arrival,960,111
+proprietary,heart attack patients given pci within 90 minutes of arrival,961,112
+proprietary,heart failure patients given discharge instructions,962,113
+proprietary,heart failure patients given an evaluation of left ventricular systolic (lvs) function,963,114
+proprietary,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),964,115
+proprietary,heart failure patients given smoking cessation advice/counseling,965,116
+proprietary,pneumonia patients assessed and given pneumococcal vaccination,966,117
+proprietary,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,967,118
+proprietary,pneumonia patients given smoking cessation advice/counseling,968,173
+proprietary,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,969,120
+proprietary,pneumonia patients given the most appropriate initial antibiotic(s),970,174
+proprietary,pneumonia patients assessed and given influenza vaccination,971,122
+proprietary,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,972,123
+proprietary,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,973,176
+proprietary,surgery patients who were given the  right kind  of antibiotic to help prevent infection,974,125
+proprietary,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),975,177
+proprietary,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,976,127
+proprietary,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),977,128
+proprietary,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,978,129
+proprietary,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,979,130
+voluntary non-profit - private,heart attack patients given aspirin at arrival,980,131
+voluntary non-profit - private,heart attack patients given aspirin at discharge,981,63
+voluntary non-profit - private,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),982,64
+voluntary non-profit - private,heart attack patients given smoking cessation advice/counseling,983,65
+voluntary non-profit - private,heart attack patients given beta blocker at discharge,984,66
+voluntary non-profit - private,heart attack patients given fibrinolytic medication within 30 minutes of arrival,985,67
+voluntary non-profit - private,heart attack patients given pci within 90 minutes of arrival,986,68
+voluntary non-profit - private,heart failure patients given discharge instructions,987,69
+voluntary non-profit - private,heart failure patients given an evaluation of left ventricular systolic (lvs) function,988,70
+voluntary non-profit - private,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),989,71
+voluntary non-profit - private,heart failure patients given smoking cessation advice/counseling,990,72
+voluntary non-profit - private,pneumonia patients assessed and given pneumococcal vaccination,991,73
+voluntary non-profit - private,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,992,74
+voluntary non-profit - private,pneumonia patients given smoking cessation advice/counseling,993,75
+voluntary non-profit - private,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,994,76
+voluntary non-profit - private,pneumonia patients given the most appropriate initial antibiotic(s),995,77
+voluntary non-profit - private,pneumonia patients assessed and given influenza vaccination,996,78
+voluntary non-profit - private,surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery,997,265
+voluntary non-profit - private,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,998,1
+voluntary non-profit - private,surgery patients who were given the  right kind  of antibiotic to help prevent infection,999,2

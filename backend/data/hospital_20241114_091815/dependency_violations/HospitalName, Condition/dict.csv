@@ -1,0 +1,1001 @@
+HospitalName,Condition,original_index,unique_index
+callahan eye foundation hospital,surgical infection prevention,0,0
+callahan eye foundation hospital,surgical infection prevention,1,0
+callahan eye foundation hospital,surgical infection prevention,2,0
+callahan eye foundation hospital,surgical infection prevention,3,0
+callahan eye foundation hospital,surgical infection prevention,4,0
+callahan eye foundation hospital,surgical infection prevention,5,0
+callahan eye foundation hospital,surgical infection prevention,6,0
+callahan eye foundation hospital,surgical infection prevention,7,0
+helen keller memorial hospital,heart attack,8,1
+helen keller memorial hospital,heart attack,9,1
+helen keller memorial hospital,heart attack,10,1
+helen keller memorial hospital,heart attack,11,1
+helen keller memorial hospital,heart attack,12,1
+helen keller memorial hospital,heart attack,13,1
+helen keller memorial hospital,heart attack,14,1
+helen keller memorial hospital,heart failure,15,2
+helen keller memorial hospital,heart failure,16,2
+helen keller memorial hospital,heart failure,17,2
+helen keller memorial hospital,heart failure,18,2
+southeast alabama medical center,heart attack,19,3
+southeast alabama medical center,heart attack,20,3
+southeast alabama medical center,heart attaxk,21,4
+southeast alabama medical center,hearx axxack,22,5
+southeast alabama medical center,heart attack,23,3
+southeast alabama medical center,heart attack,24,3
+southeast alabama medical center,heart attack,25,3
+southeast alabama medxcal center,heart failure,26,6
+southeast alabama medical center,heart failure,27,7
+southeast alabama medical center,heart failure,28,7
+southeast alabama medical center,heart failure,29,7
+southeast alabama medical center,pneumonia,30,8
+southeast alabama medical center,pneumonia,31,8
+southeast alabama medical center,pneumonia,32,8
+southeast alabama medical center,pneumonia,33,8
+southeast alabama medical center,pneumonia,34,8
+southeast alabama medical center,pneumonia,35,8
+southeast alabama medical center,surgical infection prevention,36,9
+southeast alabama medical center,surgical infection prevention,37,9
+southeast alabama medical center,surgical infection prevention,38,9
+southeast alabama medical center,surgical infection prevention,39,9
+southeast alabama medical center,surgical infection prevention,40,9
+southeast alabama medical center,surgical infection prevention,41,9
+southeast alabama medical center,surgical infection prevention,42,9
+southeast alabama medical center,surgical infection prevention,43,9
+marshall medical center south,heart attack,44,10
+marshall medical center south,heart attack,45,10
+marshall medical center south,heart attack,46,10
+marshall medical center south,heart attack,47,10
+marshall medical center south,heart attack,48,10
+marshall medical center south,heart attack,49,10
+marshall medical center south,heart attack,50,10
+marshall medical center south,heart failure,51,11
+marshall medical center south,heart failure,52,11
+marshall medical center south,heart failure,53,11
+marshall medical center south,heart failure,54,11
+marshall medical center south,pneumonia,55,12
+marshall medical center south,pneumonia,56,12
+marshall medical center south,pneumonia,57,12
+marshall medical center south,pneumonia,58,12
+marshall medical center south,pneumonia,59,12
+marshall medical center south,pneumonia,60,12
+marshall medical center south,surgical infection prevention,61,13
+marshall medical center south,surgical infection prevention,62,13
+marshall medical center south,surgical infection prevention,63,13
+marshall medical center south,surgical infection prevention,64,13
+marshall medical center south,surgical infection prevention,65,13
+marshall medical center south,surgical infection prevention,66,13
+marshall medical center south,surgical infection prevention,67,13
+marshall medical center south,surgical infection prevention,68,13
+eliza coffee memorial hospital,heart attack,69,14
+eliza coffee memorial hospital,heart attack,70,14
+eliza coffee memorial hospital,heart attack,71,14
+eliza coffee memorial hospital,heart attack,72,14
+eliza coffee memorial hospital,hearx axxack,73,15
+eliza coffee memorial hospital,heart attack,74,14
+eliza coffee memorial hospital,heart attack,75,14
+eliza coffee memorial hospital,heart failure,76,16
+eliza coffee memorial hospital,heart failure,77,16
+eliza coffee memorial hospital,heart failure,78,16
+eliza coffee memorial hospital,heart failure,79,16
+eliza coffee memorial hospital,pneumonia,80,17
+eliza coffee memorial hospital,pneumonia,81,17
+eliza coffee memorial hospital,pneumonia,82,17
+eliza coffee memorial hospital,pneumonia,83,17
+eliza coffee memorial hospital,pneumonia,84,17
+eliza coffee memorial hospital,pneumonia,85,17
+eliza coffee memorial hospital,surgical infection prevention,86,18
+eliza coffee memorial hospital,surgical infection prevention,87,18
+eliza coffee memorial hospital,surgical infection prevention,88,18
+eliza coffee memorial hospital,surgical infection prevention,89,18
+eliza coffee memorial hospital,surgical infection prevention,90,18
+eliza coffee memorial hospital,surgical infection prevention,91,18
+eliza coffee memorial hospital,surgical infection prevention,92,18
+eliza coffee memorial hospital,surgical infection prevention,93,18
+mizell memorial hospital,heart attack,94,19
+mizell memorial hospital,heart attack,95,19
+mizell memorial hospital,heart attack,96,19
+mizell memorial hospital,heart attack,97,19
+mizell memorial hospital,heart attack,98,19
+mizell memorial hospital,heart attack,99,19
+mizell memorial hospital,heart attack,100,19
+mizell memorial hospital,heart failure,101,20
+mizell memorial hospital,heart failure,102,20
+mizell memorial hospital,heart failure,103,20
+mizell memorial hospital,heart failure,104,20
+mizell memorial hospital,pneumonia,105,21
+mizell memorial hospital,pneumonia,106,21
+mizell memorial hospital,pneumonia,107,21
+mizell memorial hospital,pneumonia,108,21
+mizell memorial hospital,pneumonia,109,21
+mizell memorial hospital,pneumonia,110,21
+mizell memorial hospital,surgical infection prevention,111,22
+mizell memorial hospital,surgical infection prevention,112,22
+mizell memorial hospital,surgical infection prevention,113,22
+mizell memorial hospital,surgical infection prevention,114,22
+mizell memorial hospital,surgical infection prevention,115,22
+mizell memorial hospital,surgical infection prevention,116,22
+mizell memorial hospital,surgical infection prevention,117,22
+mizell memorial hospital,surgical infection prevention,118,22
+crenshaw community hospital,heart attack,119,23
+crenshaw community hospital,heart attack,120,23
+crenshaw community hospital,heart attack,121,23
+crenshaw community hospital,heart attack,122,23
+crenshaw community hospital,heart attack,123,23
+crenshaw community hospital,heart attack,124,23
+crenshaw community hospital,heart attack,125,23
+crenshaw community hospital,heart failure,126,24
+crenshaw community hospital,heaxt failuxe,127,25
+crenshaw community hospital,heart failure,128,24
+crenshaw community hospital,heart failure,129,24
+crenshaw community hospital,pneumonia,130,26
+crenshaw cxmmunity hxspital,pneumonia,131,27
+crenshaw community hospital,pneumonia,132,26
+crenshaw community hospital,pneumonia,133,26
+crenshaw community hospital,pneumonia,134,26
+crenshaw community hospital,pneumonia,135,26
+crenshaw community hospital,surgical infection prevention,136,28
+crenshaw community hospital,surgical infection prevention,137,28
+crenshaw community hospital,surgical infection prevention,138,28
+crenshaw community hospital,surgical infection prevention,139,28
+crenshaw community hospital,surgical infection prevention,140,28
+crenshaw community hospital,surgical infection prevention,141,28
+crenshaw community hospital,surgical infection prevention,142,28
+crenshaw community hospital,surgical infection prevention,143,28
+hartselle medical center,heart attack,144,29
+hartselle medical center,heart attack,145,29
+hartselle medical center,heart attack,146,29
+hartselle medical center,heart attack,147,29
+hartselle medical center,heart attack,148,29
+hartselle medical center,heart attack,149,29
+hartselle medical center,heart attack,150,29
+hartselle medical center,heart failure,151,30
+hartselle medical center,heart failure,152,30
+hartselle medical center,heart failure,153,30
+hartselle medical center,heart failure,154,30
+hartselle medical center,pneumonia,155,31
+hartselle medical center,pneumonia,156,31
+hartselle medical center,pneumonia,157,31
+hartselle medical center,pneumonia,158,31
+hartselle medical center,pneumonia,159,31
+hartselle medical center,pneumonia,160,31
+hartselle medical center,surgical infection prevention,161,32
+hartselle medical center,surgical infection prevention,162,32
+hartselle medical center,surgical infection prevention,163,32
+hartselle medical center,surgical infection prevention,164,32
+hartselle medical center,surgical infection prevention,165,32
+hartselle medical center,surgical infection prevention,166,32
+hartselle medical center,surgical infection prevention,167,32
+hartselle medical center,surgical infection prevention,168,32
+marshall medical center north,heart attack,169,33
+marshall medical center north,heart attack,170,33
+marshall medical cenxer norxh,heart attack,171,34
+marshall medical center north,heart attack,172,33
+marshall medical center north,heart attack,173,33
+marshall medical center north,heart attack,174,33
+marshall medical center north,heart attack,175,33
+marshall medical center north,heart failure,176,35
+marshall medical center north,heart failure,177,35
+marshall medical center north,heart failure,178,35
+marshall medical center north,heart failure,179,35
+marshall medical center north,pneumonia,180,36
+marshall medical center north,pneumonia,181,36
+marshall medical center north,pneumonia,182,36
+marshall medical center north,pneumonia,183,36
+marshall medical center north,pneumonia,184,36
+marshall medical center north,pneumonia,185,36
+marshall medical center north,surgical infection prevention,186,37
+marshall medical center north,surgical infection prevention,187,37
+marshall medical center north,surgical infection prevention,188,37
+marshall medical center north,surgical infection prevention,189,37
+marshall medical center north,surgical infection prevention,190,37
+marshall medical center north,surgical infection prevention,191,37
+marshall medical center north,surgical infection prevention,192,37
+marshall medical center north,surgical infection prevention,193,37
+st vincents east,heart attack,194,38
+st vincents east,heart attack,195,38
+st vincents east,heart attack,196,38
+st vincents east,heart attack,197,38
+st vincents east,heart attack,198,38
+st vincents east,heaxt attack,199,39
+st vincents east,heart attack,200,38
+st vincents east,heart failure,201,40
+st vincents east,heart failure,202,40
+st vincents east,heart failure,203,40
+st vincents east,heart failure,204,40
+st vincents east,pneumonia,205,41
+st vincents east,pneumonia,206,41
+st vincents east,pneumonia,207,41
+st vincents east,pneumonia,208,41
+st vincents east,pneumonia,209,41
+st vincents east,pneumonia,210,41
+st vincents east,surgical infection prevention,211,42
+st vincents east,surgical infection prevention,212,42
+st vincents east,surgical infection prevention,213,42
+st vincents east,surgical infection prevention,214,42
+st vincents east,surgical infection prevention,215,42
+st vincents east,surgical infection prevention,216,42
+st vincents east,surgical infection prevention,217,42
+st vincents east,surgical infection prevention,218,42
+dekalb regional medical center,heart attack,219,43
+dekalb regional medical center,heart attack,220,43
+dekalb regional medical center,heart attack,221,43
+dekalb regional medical center,heart attack,222,43
+dekalb regional medical center,heart attack,223,43
+dekalb regional medical center,heart attack,224,43
+dekalb regional medical center,hexrt attxck,225,44
+dekalb regional medical center,heart failure,226,45
+dekalb regional medical center,heart failure,227,45
+dekalb regional medical center,heart failure,228,45
+dekalb regional medical center,heart faxlure,229,46
+dekalb regional medical center,pneumonia,230,47
+dekalb regional medical center,pneumonia,231,47
+dekalb regional medical center,pneumonia,232,47
+dekalb regional medical center,pneumonia,233,47
+dekalb regional medical center,pneumonia,234,47
+dekalb regional medical center,pneumonia,235,47
+dekalb regional medical center,suxgical infection pxevention,236,48
+dekalb regional medical center,surgical infection prevention,237,49
+dekalb regional medical center,surgical infection prevention,238,49
+dekalb regional medical center,surgxcal infectxon preventxon,239,50
+dekalb regional medical center,surgical infection prevention,240,49
+dekalb regional medical center,surgical infection prevention,241,49
+dekalb regional medical center,surgical infection prevention,242,49
+dexalb regional medical center,surgical infection prevention,243,51
+southwest alabama medical center,heart attack,244,52
+southwest alabama medical center,heart attack,245,52
+southwest alabama medical center,heart attack,246,52
+southwest alabama medical center,heart attack,247,52
+southwest alabama medical center,heart attack,248,52
+southwest alabama medical center,heart attack,249,52
+southwest alabama medical center,heart attack,250,52
+southwest alabama medical center,heart failure,251,53
+southwest alabama medical center,heart failure,252,53
+southwest alabama medical center,heart failure,253,53
+southwest alabama medical center,heart failure,254,53
+southwest alabama medical center,pneumonia,255,54
+southwest alabama medical center,xneumonia,256,55
+southwest alabama medical center,pneumonia,257,54
+southwest alabama medical center,pneumonia,258,54
+southwest alabama medical center,pneumonia,259,54
+southwest alabama medical center,pneumonia,260,54
+southwest alabama medical center,surgical infection prevention,261,56
+southwest alabama medical center,surgical infection prevention,262,56
+southwest alabama medical center,surgical infection prevention,263,56
+southwest alabama medical center,surgical infection prevention,264,56
+southwest alabama medical center,surgical infection prevention,265,56
+southwest alabama medical center,surgical infection prevention,266,56
+southwest alabama medical center,surgical infection prevention,267,56
+southwest alabama medical center,surgical infection prevention,268,56
+shelby baptist medical center,heart attack,269,57
+shelby baptist medical center,heart attack,270,57
+shelby baptist medical center,heart attack,271,57
+shelby baptist medical center,heart attack,272,57
+shelby baptist medical center,heart attack,273,57
+shelby baptist medical center,heart attack,274,57
+shelby baptist medical center,heart attack,275,57
+shelby baptist medical center,heart failure,276,58
+shelby baptist medical center,heart failure,277,58
+shelby baptist medical center,heart failure,278,58
+shelby baptist medical center,xeart failure,279,59
+shelby baptist medical center,pneumonia,280,60
+shelby baptist medical center,pneumonia,281,60
+shelby baptist medical center,pneumonia,282,60
+shelby baptist medical center,pneumonia,283,60
+shelby baptist medical center,pneumonia,284,60
+shelby baptist medical center,pneumonia,285,60
+shelby baptist medical center,surgical infection prevention,286,61
+shelby baptist medical center,surgical infection prevention,287,61
+shelby baptist medical center,surgical infection prevention,288,61
+shelby baptist medical center,surgical infection prevention,289,61
+shelby baptist medical center,surgical infection prevention,290,61
+shelby baptist medical center,surgical infection prevention,291,61
+shelby baptist medical center,surgical infection prevention,292,61
+shelby baptist medical center,surgical infection prevention,293,61
+callahan eye foundation hospital,heart attack,294,62
+callahan eye foundation hospital,heart attack,295,62
+callahan eye foundation hospital,heart attack,296,62
+callahan eye foundation hospital,heart attack,297,62
+callahan eye foundation hospital,heart attack,298,62
+callahan eye foundation hospital,heart attack,299,62
+callahan eye foundation hospital,heart attack,300,62
+callahan eye foundation hospital,heart failure,301,63
+callahan eye foundation hospital,heart failure,302,63
+callahan eye foundation hospital,heart failure,303,63
+callahan eye foundation hospital,heart failure,304,63
+callahan eye foundation hospital,pneumonia,305,64
+callahan eye foundation hospital,pneumonia,306,64
+callahan eye foundation hospital,pneumonia,307,64
+callahan eye foundation hospital,pneumonia,308,64
+callahan eye foundation hospital,pneumonia,309,64
+callahan eye foundation hospital,pneumonia,310,64
+stringfellow memorial hospital,children s asthma care,311,65
+stringfellow memorial hospital,children s asthma care,312,65
+stringfellow memorial hospital,heart attack,313,66
+stringfellow memorial hospital,heart attack,314,66
+stringfellow memorial hospital,heart attack,315,66
+stringfellow memorial hospital,heart attack,316,66
+stringfellow memorial hospital,heart attack,317,66
+stringfellow memorial hospital,heart attack,318,66
+stringfellow memorial hospital,heart attack,319,66
+stringfellow memorial hospital,heart failure,320,67
+stringfellow memorial hospital,heart failure,321,67
+stringfellow memorial hospital,heart failure,322,67
+stringfellow memorial hospital,heart failure,323,67
+stringfellow memorial hospital,pneumonia,324,68
+stringfellow memorial hospital,pneumonia,325,68
+stringfellow memorial hospital,pneumonia,326,68
+stringfellow memorial hospital,pneumonia,327,68
+stringfellow memorial hospital,pneumonia,328,68
+stringfellow memorial hospital,pneumonia,329,68
+stringfellow memorial hospital,surgical infection prevention,330,69
+flowers hospital,heart failure,331,70
+flowers hospital,heart failure,332,70
+flowers hospital,heart failure,333,70
+flowers hospital,pneumonia,334,71
+flowers hospital,pneumonia,335,71
+flowers hospital,pneumonia,336,71
+floxers hospital,pneumonia,337,72
+flowers hospital,pneumonia,338,71
+flowers hospital,pneumonia,339,71
+flowers hospital,surgical infection prevention,340,73
+flowers hospital,surgical infection prevention,341,73
+flowers hospital,surgical infection prevention,342,73
+flowers hospital,surgical infection prevention,343,73
+flowers hospital,surgical infection prevention,344,73
+flowers hospital,surgical infection prevention,345,73
+flowers hospital,surgical infection prevention,346,73
+flowers hospital,surgical infection prevention,347,73
+st vincents hospital,heart attack,348,74
+st vincents hospital,heart attack,349,74
+st vincents hospital,heart attack,350,74
+st vincents hospital,heart attack,351,74
+st vincents hospital,heart attack,352,74
+decatur general hospital,surgical infection prevention,353,75
+northwest medical center,heart attack,354,76
+northwest medical center,heart attack,355,76
+northwest medical center,heart attack,356,76
+northwest medical center,heart attack,357,76
+northwest medical center,heart attack,358,76
+northwest medical center,heart attack,359,76
+northwest medical center,heart attack,360,76
+northwest medical center,heart failure,361,77
+northwest medical center,heart failure,362,77
+northwest medical center,heart failure,363,77
+northwest medical center,heart failure,364,77
+northwest medical center,pneumonia,365,78
+northwest medical center,pnxumonia,366,79
+northwest medical center,pneumonia,367,78
+northwest medical center,pneumonia,368,78
+northwest medical center,pnexmonia,369,80
+northwest medical center,pneumonia,370,78
+northwest medical center,surgical infection prevention,371,81
+northwest medical center,surgical infection prevention,372,81
+northwest medical center,surgical infection prevention,373,81
+northwest medical center,surgical infection prevention,374,81
+northwest medical center,surgical infection prevention,375,81
+northwest medical center,surgical infection prevention,376,81
+northwest medical center,surgical infection prevention,377,81
+northwest medical center,surgical infection prevention,378,81
+univ of south alabama medical center,heart attack,379,82
+univ of south alabama medical center,heart attack,380,82
+univ of south alabama medical center,heart attack,381,82
+univ of south alabama medical center,heart attack,382,82
+univ of south alabama medical center,heart attack,383,82
+univ ox south alabama medical center,heart attack,384,83
+xniv of soxth alabama medical center,heart attack,385,84
+univ of south alabama medical center,hxart failurx,386,85
+univ of south alabama medical center,heart failure,387,86
+univ of south alabama medical center,heart failure,388,86
+univ of south alabama medical center,heart failure,389,86
+univ of south alabama medical center,pneumonia,390,87
+univ of south alabama medical center,pneumonia,391,87
+prattville baptist hospital,heart attack,392,88
+prattville baptist hospital,heart attack,393,88
+prattville baptist hospital,heart attack,394,88
+prattville baptist hospital,heart attack,395,88
+prattville baptist hospital,heart attack,396,88
+prattville baptist hospital,heart attack,397,88
+prattville baptist hospital,heart failure,398,89
+prattville baptist hospital,heart failure,399,89
+prattville baptist hospital,hxart failurx,400,90
+prattville baptist hospital,heart failure,401,89
+prattville baptist hospital,pneumonia,402,91
+prattville baptist hospital,pneumonia,403,91
+prattville baptist hospital,pneumonia,404,91
+prattville baptist hospital,pneumonia,405,91
+prattville baptist hospital,pneumonia,406,91
+prattville baptist hospital,pneumonia,407,91
+prattville baptist hospital,surgical infection prevention,408,92
+prattville baptist hospital,surgical infection prevention,409,92
+prattville baptist hospital,surgical infection prevention,410,92
+prattville baptist hospital,surgical infection prevention,411,92
+russellville hospital,surgical infection prevention,412,93
+russellville hospital,surgical infection prevention,413,93
+coosa valley medical center,heart attack,414,94
+coosa valley medical center,heart attack,415,94
+coosa valley medical center,heart attack,416,94
+coosa valley medical center,heart attack,417,94
+coosa valley medical center,heart attack,418,94
+coosa valley medical center,heart attack,419,94
+coosa valley medical center,heart attack,420,94
+coosa valley medical center,heart failure,421,95
+coosa valley medical center,heart failure,422,95
+coosa valley medical center,heart failure,423,95
+coosa valley medical center,heart failure,424,95
+coosa valley medical center,pneumonia,425,96
+coosa valley medical center,pneumonia,426,96
+coosa valley medical center,pneumonia,427,96
+coosa valley medical center,pneumonia,428,96
+coosa valley medical center,pneumonia,429,96
+coosa valley medical center,pneumonia,430,96
+coosa valley medical center,surgical infection prevention,431,97
+alaska regional hospital,heart failure,432,98
+alaska regional hospital,heart failure,433,98
+alaska regional hospital,heart failure,434,98
+alaska regional hospital,heart failure,435,98
+alaska regional hospital,pneumonia,436,99
+alaska regional hospital,pneumonia,437,99
+alaska regional hospital,pneumonia,438,99
+alaska regional hospital,pneumonia,439,99
+alaska regional hospital,pneumonia,440,99
+alaska regional hospital,pneumonia,441,99
+alaska regional hospital,surgical infection prevention,442,100
+alaska regional hospital,surgical infection prevention,443,100
+alaska regional hospital,surgical infection prevention,444,100
+alaska regional hospital,surgical infection prevention,445,100
+alaska regional hospital,surgical infection prevention,446,100
+alaska regional hospital,surgical infection prevention,447,100
+xlxskx regionxl hospitxl,surgical infection prevention,448,101
+alaska regional hospital,surgical infection prevention,449,100
+yukon kuskokwim delta reg hospital,heart attack,450,102
+yukon kuskokwim delta reg hospital,heart attack,451,102
+helen keller memorial hospital,pneumonia,452,103
+helen keller memorial hospital,pneumonia,453,103
+helen keller memorial hospital,pneumonia,454,103
+helen keller memorial hospital,pneumonia,455,103
+helen keller memorial hospital,pneumonia,456,103
+helen keller memorial hospital,pneumonia,457,103
+helen keller memorial hospital,surgical infection prevention,458,104
+helen keller memorial hospital,surgical infection prevention,459,104
+helen keller memorial hospital,surgical infection prevention,460,104
+helen keller memorial hospital,surgical infection prevention,461,104
+helen keller memorial hospital,surgical infection prevention,462,104
+helen keller memorial hospital,surgical infection prevention,463,104
+helen keller memorial hospital,surgical infection prevention,464,104
+helen keller memorial hospital,surgical infection prevention,465,104
+dale medical center,heart attack,466,105
+dale medical center,hexrt attxck,467,106
+dale medical center,heart attack,468,105
+dale medical center,heart attack,469,105
+dale medical center,heart attack,470,105
+dale medical center,heart attack,471,105
+dale medical center,heart attack,472,105
+dale medical center,heart failure,473,107
+dale medical center,heart failure,474,107
+dale medical center,heart failure,475,107
+dale medical center,heart failure,476,107
+dale medical center,pneumonia,477,108
+dale medical center,pneumonia,478,108
+dale medical center,pneumonia,479,108
+dale medical center,pneumonia,480,108
+dale medical center,pneumonia,481,108
+dale medical center,pneumonia,482,108
+dale medical center,surgical infection prevention,483,109
+dale medical center,surgical infection prevention,484,109
+dale medical center,surgical infection prevention,485,109
+dale medical center,surgical infection prevention,486,109
+dale medical center,surgical infection prevention,487,109
+dale medical center,surgical infection prevention,488,109
+dale medical center,surgical infection prevention,489,109
+dale medical center,surgical infection prevention,490,109
+cherokee medical center,heart attack,491,110
+cherokee medical center,heart attack,492,110
+cherokee medical center,heart attack,493,110
+cherokee medical center,heart attack,494,110
+cherokee medical center,heart attack,495,110
+cherokee medical center,heart attack,496,110
+cherokee medical center,heart attack,497,110
+cherokee medical center,heart failure,498,111
+cherokee medical center,heart failure,499,111
+cherokee medical center,heart failure,500,111
+cherokee medical center,heart failure,501,111
+cherokee medical center,pneumonia,502,112
+cherokee medical center,pneumonia,503,112
+cherokee medical center,pneumonia,504,112
+cherokee medical center,pneumonia,505,112
+cherokee medical center,pneumonix,506,113
+cherokee medical center,pneumonia,507,112
+cherokee medical center,surgical infection prevention,508,114
+cherokee medical center,surgical infection prevention,509,114
+cherokee medical center,surgical infection prevention,510,114
+cherokee medical center,surgical infection prevention,511,114
+cherokee medical center,surgical infection prevention,512,114
+cherokee medical center,surgical infection prevention,513,114
+cherokee medical center,surgical infection prevention,514,114
+cherokee medical center,surgical infection prevention,515,114
+baptist medical center south,heart attack,516,115
+baptist medical center south,heart attack,517,115
+baptist medical center south,heart attack,518,115
+baptist medical center south,heart attack,519,115
+baptist medical center south,heart attack,520,115
+baptist medical center south,heart attack,521,115
+baptist medical center south,heart attack,522,115
+baptist medical center south,heart failure,523,116
+baptist medical center south,heart failure,524,116
+baptist medical center south,heart failure,525,116
+baptist medical center south,heart failure,526,116
+baptist medical center south,pneumonia,527,117
+baptist medical center south,pneumonia,528,117
+baptist medical center south,pneumonia,529,117
+baptist medical center south,pneumonia,530,117
+baptist medical center south,pneumonia,531,117
+baptist medical cexter south,pneumonia,532,118
+baptist medical center south,surgical infection prevention,533,119
+baptist medical center south,surgical infection prevention,534,119
+baptist medical center south,surgical infection prevention,535,119
+baptist medical center south,surgical infection prevention,536,119
+baptist medical center south,surgical infection prevention,537,119
+baptist medical center south,surgical infection prevention,538,119
+baptist medical center south,surgical infection prevention,539,119
+baptist medical center south,surgical infection prevention,540,119
+jackson hospital & clinic inc,heart attack,541,120
+jackson hospital & clinic inc,heart attack,542,120
+jackson hospital & clinic inc,heart attack,543,120
+jackson hospital & clinic inc,heart attack,544,120
+jackson hospital & clinic inc,heart attack,545,120
+jackson hospital & clinic inc,heart attack,546,120
+jackson hospital & clinic inc,heart attack,547,120
+jackson hospital & clinic inc,heart failure,548,121
+jackson hospital & clinic inc,heart failure,549,121
+jackson hospital & clinic inc,heart failure,550,121
+jackson hospital & clinic inc,heart failure,551,121
+jackson hospital & clinic inc,pneumonia,552,122
+jackson hospital & clinic inc,pneumonia,553,122
+jackson hospital & clinic inc,pneumonia,554,122
+jackson hospital & clinic inc,pxeumoxia,555,123
+jackson hospital & clinic inc,pneumonia,556,122
+jackson hospital & clinic inc,pneumonia,557,122
+jackson hospital & clinic inc,surgical infection prevention,558,124
+jackson hospital & clinic inc,surgical infection prevention,559,124
+jaxkson hospital & xlinix inx,surgical infection prevention,560,125
+jackson hospital & clinic inc,surgical infection prevention,561,124
+jackson hospital & clinic inc,surgical infection prevention,562,124
+jackson hospital & clinic inc,surgical infection prevention,563,124
+jackson hospital & clinic inc,surgical infection prevention,564,124
+jackson hospital & clinic inc,surgical infection prevention,565,124
+g h lanier memorial hospital,heart attack,566,126
+g h lanier memorial hospital,heart attack,567,126
+g h lanier memorial hospital,heart attack,568,126
+g h lanier memorial hospital,heart attack,569,126
+g h lanier memorial hospital,heart attack,570,126
+g h lanier memorial hospital,heart attack,571,126
+g h lanier memorial hospital,heart attack,572,126
+g h lanier memorial hospital,heart failure,573,127
+g h lanier memorial hospital,heart failure,574,127
+g h lanier memorial hospital,heart failure,575,127
+g h lanier memorial hospital,heart failure,576,127
+g h lanier memorial hospital,pneumonia,577,128
+g h lanier memorial hospital,pneumonia,578,128
+g h lanier memorial hospital,pneumonia,579,128
+g h lanier memorial hospital,pneumonia,580,128
+g h lanier memorial hospital,pneumonia,581,128
+g h lanier memorial hospital,pneumonia,582,128
+g h lanier memorial hospital,surgical infection prevention,583,129
+g h lanier memorial hospital,surgical infection prevention,584,129
+g h lanier memorial hospital,surgical infection prevention,585,129
+g h lanier memorial hospital,surgical infection prevention,586,129
+g h lanier memorial hospital,surgical infection prevention,587,129
+g h lanier memorial hospital,surgical infection prevention,588,129
+g h lanier memorial hospital,surgical infection prevention,589,129
+g h lanier memorial hospital,surgical infection prevention,590,129
+elba general hospital,heart attack,591,130
+elba general hospital,heart attack,592,130
+elba general hospital,heart attack,593,130
+elba general hospital,heart attack,594,130
+elba general hospital,heart attack,595,130
+elba general hospital,heart attack,596,130
+elba general hospital,heart attack,597,130
+elba general hospital,heart failure,598,131
+elba general hospital,heart faixure,599,132
+elba general hospital,heart failure,600,131
+elba general hospital,heart failure,601,131
+elba general hospital,pneumonia,602,133
+elba general hospital,pneumonia,603,133
+elba general hospital,pneumonia,604,133
+elba general hospital,pneumonia,605,133
+elba general hospital,pneumonia,606,133
+elba general hospital,pneumonia,607,133
+elba general hospital,surgical ixfectiox prevextiox,608,134
+elba general hospital,surgical infection prevention,609,135
+elba general hospital,surgical infection prevention,610,135
+elba general hospital,surgical infection prevention,611,135
+elba general hospital,surgical infection prevention,612,135
+elba general hospital,surgical infection prevention,613,135
+elba general hospital,surgical infection prevention,614,135
+elba general hospital,surgical infection prevention,615,135
+east alabama medical center and snf,heart attack,616,136
+east alabama medical center and snf,heart attack,617,136
+east alabama medical center and snf,heart attack,618,136
+east alabama medical center and snf,heart attack,619,136
+east alabama medical center and snf,heart attack,620,136
+east alabama medical center and snf,heart attack,621,136
+east alabama medical center and snf,heart attack,622,136
+east alabama medical center and snf,heart failure,623,137
+east alabama medical center and snf,heart failure,624,137
+east alabama medical center and snf,heart failure,625,137
+east alabama medical center and snf,heart failure,626,137
+east alabama medical center and snf,pneumonia,627,138
+east alabama medical center and snf,pneumonia,628,138
+east alabama medical center and snf,pneumonia,629,138
+east alabama medical center and snf,pneumonia,630,138
+east alabama medical center and snf,pneumonxa,631,139
+east alabama medical center and snf,pneumonia,632,138
+east alabama medical center and snf,surgical infection prevention,633,140
+east alabama medical center and snf,surgical infection prevention,634,140
+east alabama medical center and snf,surgical infection prevention,635,140
+east alabama medical center and snf,surgical infection prevention,636,140
+east alabama medical center and snf,surgical infection prevention,637,140
+east alabama medical center and snf,surgical infection prevention,638,140
+east alabama medical center and snf,surgical infection prevention,639,140
+east alabama medical center and snf,surgical infection prevention,640,140
+wedowee hospital,heart attack,641,141
+wedowee hospital,heart attack,642,141
+wedowee hospital,heart attack,643,141
+wedowee hospital,heart attack,644,141
+wedowee hospital,heart attack,645,141
+wedowee hospital,heart attack,646,141
+wedowee hospital,heart attack,647,141
+wedowee hospital,heart failure,648,142
+wedowee hospital,heart failure,649,142
+wedowee hospital,heart failure,650,142
+wedowee hospital,heart failure,651,142
+wedowee hospital,pneumonia,652,143
+wedowee hospital,pneumonia,653,143
+wedowee hosxital,pneumonia,654,144
+wedowee hospital,pneumonia,655,143
+wedowee hospital,pneumonia,656,143
+wedowee hospital,pneumonia,657,143
+wedowee hospital,surgical infection prevention,658,145
+wedowee hospital,surgical infection prevention,659,145
+wedowee hospital,surgical infection prevention,660,145
+wedowee hospital,surgical infection prevention,661,145
+wedowee hospital,surgical infection prevention,662,145
+wedowee hospital,surgical infection prevention,663,145
+wedowee hospital,surgical infection prevention,664,145
+wedowee hospital,surgical infection prevention,665,145
+university of alabama hospital,heart attack,666,146
+university of alabama hospital,heart attack,667,146
+university of alabama hospital,heart attack,668,146
+university of alabama hospital,heart attack,669,146
+university of alabama hospital,heart attack,670,146
+university of alabama hospital,heart attack,671,146
+university of alabama hospital,heart attack,672,146
+university of alabama hospital,heart failure,673,147
+university of alabama hospital,heart failure,674,147
+university of alabama hospital,heart failure,675,147
+university of alabama hospital,heart failure,676,147
+university of alabama hospital,pneumonia,677,148
+university of alabama hospital,pneumonia,678,148
+university of alabama hospital,xneumonia,679,149
+university of alabama hospital,pneumonia,680,148
+university of alabama hospital,pneumonia,681,148
+university of alabama hospital,pneumonia,682,148
+university of alabama hospital,surgical infection prevention,683,150
+university of alabama hospital,surgical infection prevention,684,150
+university of alabama hospital,surgical infection prevention,685,150
+university of alabama hospital,surgical infection prevention,686,150
+university of alabama hospital,surgical infection prevention,687,150
+university of alabama hospital,surgical infection prevention,688,150
+university of alabama hospital,surgical infection prevention,689,150
+university of alabama hospital,surgical infection prevention,690,150
+community hospital inc,heart attack,691,151
+community hospital inc,heart attack,692,151
+community hospital inc,heart attack,693,151
+community hospital inc,heart attack,694,151
+community hospital inc,heart attaxk,695,152
+community hospital inc,heart attack,696,151
+communitx hospital inc,heart attack,697,153
+community hospital inc,hexrt fxilure,698,154
+community hospital inc,heart failure,699,155
+community hospital inc,heart failure,700,155
+community hospital inc,heart failure,701,155
+community hospital inc,pneumonia,702,156
+community hospital inc,pneumonia,703,156
+community hospital inc,pneumonia,704,156
+community hospital inc,pneumonia,705,156
+community hospital inc,pneumonia,706,156
+community hospital inc,pneumonia,707,156
+community hospital inc,surgical infection prevention,708,157
+community hospital inc,surgical infection prevention,709,157
+communixy hospixal inc,surgical infection prevention,710,158
+community hospital inc,surgical infection prevention,711,157
+community hospital inc,surgical infection xrevention,712,159
+community hospital inc,surgical infection prevention,713,157
+community hospital inc,surgical infection prevention,714,157
+community hospital inc,surgical infection prevention,715,157
+cullman regional medical center,heartxattack,716,160
+cullman regional medical center,heart attack,717,161
+cullman regional medical center,heart attack,718,161
+cullman regional medical center,heart attack,719,161
+cullman regional medical center,heart attack,720,161
+cullman regional medical center,heart attack,721,161
+cullman regional medical center,heart attack,722,161
+cullman regional medical center,heart failure,723,162
+cullman regional medical center,heart failure,724,162
+cullman regional medical center,heart failure,725,162
+cullman regional medical center,heart failure,726,162
+cullman regional medical center,pneumonia,727,163
+cullman regional medical center,pneumonia,728,163
+cullman regional medical center,pneumonia,729,163
+cullmxn regionxl medicxl center,pneumonia,730,164
+cullman regional medical center,pneumonia,731,163
+cullman regional medical center,pneumonia,732,163
+cullman regional medical center,suxgical infection pxevention,733,165
+cullman regional medical center,surgical infection prevention,734,166
+cullman regional medical center,surgical infection prevention,735,166
+cullman regional medical center,surgical infection prevention,736,166
+cullman regional medical center,surgical infection prevention,737,166
+cullman regional medical center,surgical infection prevention,738,166
+cullman regional medical center,surgical infection prevention,739,166
+cullman regional medical center,surgical infection prevention,740,166
+andalusia regional hospital,heart attack,741,167
+andalusia regional hospital,heart attack,742,167
+andalusia regional hospital,heart attack,743,167
+andalusia regional hospital,heart attack,744,167
+andalusia regional hospital,heart attack,745,167
+andalusia regional hospital,heart attack,746,167
+andalusia regional hospital,heart attack,747,167
+andalusia regional hospital,heart failure,748,168
+andalusia regional hospital,heart failure,749,168
+andalusia regional hospital,heart failure,750,168
+andalusia regional hospital,heart failure,751,168
+andalusia regional hospital,pneumonia,752,169
+andalusia regional hospital,pneumonia,753,169
+andalusia regional hospital,pneumonia,754,169
+andalusia regional hospital,pneumonia,755,169
+andalusia regional hospital,pneumonia,756,169
+andalusia regional hospital,pneumonia,757,169
+andaxusia regionax hospitax,surgical infection prevention,758,170
+andalusia regional hospital,surgical infection prevention,759,171
+andalusia regional hospital,surgical infection prevention,760,171
+andalusia regional hospital,surgical infection prevention,761,171
+andalusia regional hospital,surgical infection prevention,762,171
+andalusia regional hospital,surgical infection prevention,763,171
+andalusia regional hospital,surgical infection prevention,764,171
+andaluxia regional hoxpital,surgical infection prevention,765,172
+stringfellow memorial hospital,children s asthma care,766,65
+stringfellow memorial hospital,surgical infection prevention,767,69
+stringfellow memorial hospital,surgical infection prevention,768,69
+stringfellow memorial hospital,surgical infection prevention,769,69
+stringfellow memorial hospital,surgical infection prevention,770,69
+stringfellow memorial hospital,surgical infection prevention,771,69
+stringfellow memorial hospital,surgical infection prevention,772,69
+stringfellow memorial hospital,surgical infection prevention,773,69
+huntsville hospital,children s asthma care,774,173
+huntsville hospital,children s asthma care,775,173
+huntsville hospital,children s asthma care,776,173
+huntsvxlle hospxtal,heart attack,777,174
+huntsville hospital,heart attack,778,175
+huntsville hospital,heart attack,779,175
+huntsville hospital,heart attaxk,780,176
+huntsville hospital,heart attack,781,175
+huntsville hospital,heart attack,782,175
+huntsville hospital,heart attack,783,175
+huntsville hospital,heart failure,784,177
+huntsville hospital,heart failure,785,177
+huntsville hospital,heart failure,786,177
+huntsville hospital,heart failure,787,177
+huntsville hospital,pneumonia,788,178
+huntsville hospital,pneumonia,789,178
+huntsville hospital,pneumonia,790,178
+huntsville hospital,pneumonia,791,178
+huntsville hospital,pneumonia,792,178
+huntsville hospital,pneumonia,793,178
+huntsville hospital,surgical infection prevention,794,179
+huntsville hospital,surgical infection prevention,795,179
+huntsville hospital,surgical infection prevention,796,179
+huntsville hospital,surgical infection prevention,797,179
+huntsville hospital,surgical infection prevention,798,179
+huntsville hospital,surgical infection prevention,799,179
+huntsville hospital,surgical infection prevention,800,179
+huntsville hospital,surgical infection prevention,801,179
+gadsden regional medical center,heart attack,802,180
+gadsden regional medical center,heart attack,803,180
+gadsden regional medical center,heart attack,804,180
+gadsden regional medical center,heart attack,805,180
+gadsden regional medical center,heart attack,806,180
+gadsden regional medical center,heart attack,807,180
+gadsden regional medical center,heart attack,808,180
+gadsden regional medical center,heart failure,809,181
+gadsden regional medical center,heart failure,810,181
+gadsden regional medical center,heart failure,811,181
+gadsden regional medical center,heart failure,812,181
+gadsden regional medical center,pneumonia,813,182
+gadsden regional medical center,pneumonia,814,182
+gadsden regional medical center,pneumonia,815,182
+gadsden regional medical center,pneumonia,816,182
+gadsden regional medical center,pneumonia,817,182
+gadsden regional medical center,pneumonia,818,182
+gadsden regional medical center,surgical infection prevention,819,183
+gadsden regional medical center,surgical infection prevention,820,183
+gadsden regional medical center,surgical infection prevention,821,183
+gadsden regional medical center,surgical infection prevention,822,183
+gadsden regional medical center,surgical infection prevention,823,183
+gadsden regional medical center,surgical infection prevention,824,183
+gadsden regional medical center,surgical infection prevention,825,183
+gadsden regional medical center,surgical infection prevention,826,183
+chilton medical center,heart attack,827,184
+chilton medical center,heart attack,828,184
+chilton medical center,heart attack,829,184
+chilton medical center,heart attack,830,184
+chilton medical center,heart attack,831,184
+chilton medical center,heart attack,832,184
+chilton medical center,heart attack,833,184
+chilton medical center,heart failure,834,185
+chilton medical center,heart failure,835,185
+chilton medical center,heart failure,836,185
+chilton medical center,heart failure,837,185
+chilton medical center,pneumonia,838,186
+chilton medical center,pneumonia,839,186
+chilton medical center,pneumonia,840,186
+chilton medical center,pneumonia,841,186
+chilton medical center,pneumonia,842,186
+chilton medical center,pneumonia,843,186
+chilton medical center,surgical infection prevention,844,187
+chilton medical center,surgical infection prevention,845,187
+chilton medical center,surgical infection prevention,846,187
+chilton medical center,surgical infection prevention,847,187
+chilton medical center,surgical infection prevention,848,187
+chilton medical center,surgical infection prevention,849,187
+chilton medical center,surgical infection prevention,850,187
+chilton medical center,surgical infxction prxvxntion,851,188
+marion regional medical center,heart attack,852,189
+marion regional medical center,heart attack,853,189
+marion regional medical center,heart attack,854,189
+marion regional medical center,heart attack,855,189
+marion regional medical center,heart attack,856,189
+marion regional medical center,heart attack,857,189
+marion regional medical center,heart attack,858,189
+marion regional medical center,heart failure,859,190
+marion regional medical center,heart failure,860,190
+marion regional medical center,heart failure,861,190
+marion regional medical center,heart failure,862,190
+marion regional medical center,pneumonia,863,191
+marion regional medical center,pneumonia,864,191
+marion regional medical center,pneumonia,865,191
+marion regional medical center,pneumonia,866,191
+marion regional medical center,pneumonia,867,191
+marion regional medical center,pneumonia,868,191
+marion regional medical center,surgical ixfectiox prevextiox,869,192
+marion regional medical center,surgical infection prevention,870,193
+marion regional medical center,surgical infection prevention,871,193
+marion regional medical center,surgical infection prevention,872,193
+marion regional medical center,surgical infection prevention,873,193
+marion regional medical center,surgical infection prevention,874,193
+marion regional medical center,surgical infection prevention,875,193
+marion regional medical center,surgical infection prevention,876,193
+fayette medical center,heart attack,877,194
+fayette medical center,heart attack,878,194
+fayette medical center,heart attack,879,194
+fayette medical center,heart attack,880,194
+fayette medical center,heart attack,881,194
+fayette medical center,heart attack,882,194
+fayette medical center,heart attack,883,194
+fayette medical center,heart failure,884,195
+fayette medical center,heart failure,885,195
+fayette medical center,heart failure,886,195
+fayette medical center,heart failure,887,195
+fayette medical center,pneumonia,888,196
+fayette medical center,pneumonia,889,196
+fayette medical center,pneumonia,890,196
+fayette medical center,pneumonia,891,196
+fayette medical center,pneumonia,892,196
+fayette medical center,pneumonia,893,196
+fayette medical center,surgical infection prevention,894,197
+fayette medical center,surgical infection prevention,895,197
+fayette medical center,surgical infection prevention,896,197
+fayette medical center,surgical infection prevention,897,197
+fayette medical center,surgical infection prevention,898,197
+fayette medical center,surgical infection prevention,899,197
+fayette medical center,surgical infection prevention,900,197
+fayette medical center,surgical infection prevention,901,197
+riverview regional medical center,children s asthma care,902,198
+rivxrvixw rxgional mxdical cxntxr,children s asthma care,903,199
+riverview regional medical center,children s asthma care,904,198
+riverview regional medical center,heart attack,905,200
+riverview regional medical center,heart attack,906,200
+riverview regional medical center,heart attack,907,200
+riverview regional medical center,heart attack,908,200
+riverview regional medical center,heart attack,909,200
+riverview regional medical center,heart attack,910,200
+riverview regional medical center,heart attack,911,200
+riverview regional medical center,heart failure,912,201
+riverview regional medical center,heart failure,913,201
+riverview regional medical center,heart failure,914,201
+riverview regional medical center,heart failure,915,201
+riverview regional medical center,pneumonia,916,202
+riverview regional medical center,pneumonia,917,202
+riverview regional medical center,pneumonia,918,202
+riverview regional medical center,pneumonia,919,202
+riverview regional medical center,pneumonia,920,202
+xivexview xegional medical centex,pneumonia,921,203
+riverview rexional medical center,surgical infection prevention,922,204
+riverview regional medical center,surgical infection prevention,923,205
+riverview regional medical center,surgical infection prevention,924,205
+riverview regional medical center,surgical infection prevention,925,205
+riverview regional medical center,surgical infection prevention,926,205
+riverview regional medical center,surgical infection prevention,927,205
+riverview regional medical center,surgical infection prevention,928,205
+riverview regional medical center,surgical infection prevention,929,205
+georgiana hospital,heart attack,930,206
+georgiana hospital,heart attack,931,206
+georgiana hospital,heart attack,932,206
+georgiana hospital,heart attack,933,206
+georgiana hospital,heart attack,934,206
+georgiana hospital,heart attack,935,206
+georgiana hospital,heart attack,936,206
+georgiana hospital,heart failure,937,207
+georgiaxa hospital,heart failure,938,208
+georgiana hospital,heart failure,939,207
+georgiana hospital,heart failure,940,207
+georgiana hospital,pneumonia,941,209
+georgiana hospital,pneumonia,942,209
+georgiana hospital,pneumonia,943,209
+georgiana hospital,pneumonia,944,209
+georgiana hospital,pneumonia,945,209
+georgiana hospital,pneumonia,946,209
+georgiana hospital,surgical infection prevention,947,210
+georgiana hospital,surgical infection prevention,948,210
+georgiana hospital,surgical infection prevention,949,210
+georgiana hospital,surgical infection prevention,950,210
+georgiana hospital,surgical infection prevention,951,210
+georgiana hospital,surgical infection prevention,952,210
+georgiana hospital,surgical infection prevention,953,210
+georgiana hospital,surgical infection prevention,954,210
+medical center enterprise,hexrt attxck,955,211
+medixal xenter enterprise,heart attack,956,212
+medical center enterprise,heart attack,957,213
+medical center enterprise,heart attack,958,213
+medical center enterprise,heart attack,959,213
+medical center enterprise,heart attack,960,213
+medical center enterprise,heart attack,961,213
+medxcal center enterprxse,heart failure,962,214
+medical center enterprise,heart failure,963,215
+medical center enterprise,heart failure,964,215
+medical center enterprise,heart failure,965,215
+medical center enterprise,pneumonia,966,216
+medical center enterprise,pneumonia,967,216
+medical center enterprise,pneumonia,968,216
+medical center enterprise,pneumonia,969,216
+medical center enterprise,pneumonia,970,216
+medical center enterprise,pneumonia,971,216
+medical center enterprise,surgical infection prevention,972,217
+medical center enterprise,surgical infection prevention,973,217
+medical center enterprise,surgical xnfection prevention,974,218
+medical center enterprise,surgical infection prevention,975,217
+medical center enterprise,surgical infection prevention,976,217
+medical center enterprise,surgical infection prevention,977,217
+medical center enterprise,surgical infection prevention,978,217
+medical center enterprise,surgical infection prevention,979,217
+st vincents blount,heart attack,980,219
+st vincents blount,heart attack,981,219
+st vincents blount,heart attack,982,219
+st vincents blount,heart attack,983,219
+st vincents blount,heart attack,984,219
+st vincents blount,heart attack,985,219
+st vincents blount,heart attack,986,219
+st vincents bxount,heart failure,987,220
+st vincents blount,heart failure,988,221
+st vincents blount,heart failure,989,221
+st vincents blount,heart failure,990,221
+st vincents blount,pneumonia,991,222
+st vincents blount,pneumonia,992,222
+st vincents blount,pneumonia,993,222
+st vincents blount,pneumonia,994,222
+st vincents blount,pneumonia,995,222
+st vincents blount,pneumonia,996,222
+st vincents blount,surgical infection prevention,997,223
+st vincents blount,surgical infection prevention,998,223
+st vincents blount,surgical infection prevention,999,223

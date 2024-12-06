@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column that describes hospital type (acute care hospitals) has a dependency with the column that describes a specific condition (pneumonia), as every hospital in the data appears to treat pneumonia.
+
+  The following is a formatted table with the unique data to be checked.
+  

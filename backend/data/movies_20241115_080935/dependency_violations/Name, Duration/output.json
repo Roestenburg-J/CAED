@@ -1,0 +1,3399 @@
+{
+  "output": [
+    {
+      "explanation": "The film 'The Last Samurai' typically has a runtime of around 154 minutes, which is consistent, indicating no semantic error.",
+      "index": 30,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "154 min"
+    },
+    {
+      "explanation": "The film 'American Ultra' should have a runtime in minutes instead of the mixed '1 hr. 39 min.' format, which is inconsistent with the expected entry type.",
+      "index": 60,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "99 min"
+    },
+    {
+      "explanation": "'Sounder' has a runtime represented in a mixed format '1 hr. 45 min.' which is inconsistent with the expected minutes only format for the column.",
+      "index": 67,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "The runtime '1 hr. 41 min.' is not in a consistent minute format as required by the dependency description.",
+      "index": 160,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "101 min."
+    },
+    {
+      "explanation": "The runtime '2 hr. 16 min.' is not in a consistent minute format as required by the dependency description.",
+      "index": 161,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "136 min."
+    },
+    {
+      "explanation": "The runtime '1 hr. 20 min.' is not in a consistent minute format as required by the dependency description.",
+      "index": 168,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min."
+    },
+    {
+      "explanation": "The runtime '2 hr. 7 min.' is not in a consistent minute format as required by the dependency description.",
+      "index": 174,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "127 min."
+    },
+    {
+      "explanation": "The runtime '1 hr. 26 min.' is not in a consistent minute format as required by the dependency description.",
+      "index": 183,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "86 min."
+    },
+    {
+      "explanation": "The length of 'The Young Savages' should be in the format of minutes and should not reflect hours; '1 hr. 50 min.' is unconventional for this dataset which is expected to provide the length solely in minutes.",
+      "index": 227,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "110 min"
+    },
+    {
+      "explanation": "The length 'Drums of Fu Manchu' appears excessively long for a standard film; there are rare instances of a film exceeding 240 minutes, suggesting a potential error in the recorded duration.",
+      "index": 253,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "'Radar Men from the Moon' having a duration of 167 min is uncharacteristically long for films of this genre, indicating an error in the duration.",
+      "index": 254,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The entry in column 10 is 'null', indicating that there is no runtime provided for the film 'Iron Man', which is an error as films should have a specified length.",
+      "index": 311,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "126 min"
+    },
+    {
+      "explanation": "The entry in column 10 is 'null', indicating that there is no runtime provided for the film 'Independence Day: Resurgence', which is an error as films should have a specified length.",
+      "index": 314,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The entry '1 hr. 35 min.' in column 10 is not a valid numeric format for a film's length, as it does not conform to the expected format of 'X min'.",
+      "index": 350,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "The entry '1 hr. 34 min.' in column 10 is not a valid numeric format for a film's length, as it does not conform to the expected format of 'X min'.",
+      "index": 380,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "94 min"
+    },
+    {
+      "explanation": "The film 'D&#233;j&#224; Vu' does not have a runtime specified which violates the dependency of runtime being present for each film title.",
+      "index": 426,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'112 min' for 'D&#233;j&#224; Vu'"
+    },
+    {
+      "explanation": "The film 'In Dubious Battle' does not have a runtime specified which violates the dependency of runtime being present for each film title.",
+      "index": 457,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'108 min' for 'In Dubious Battle'"
+    },
+    {
+      "explanation": "The runtime for 'Malcolm X' is noted as '202 min', which is abnormally long and suggests an error in runtime reporting for this title.",
+      "index": 461,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'180 min' for 'Malcolm X'"
+    },
+    {
+      "explanation": "The film 'Amazing Journey: The Story of The Who' has a runtime of '237 min', which is excessive for a film. Typical feature films usually range from 70 to 180 minutes, making this entry a violation of the semantic dependency.",
+      "index": 562,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "The film 'Bird' has a runtime of '161 min', which is above the average feature film length. This violates the dependency that suggests varying titles usually have reasonable runtimes.",
+      "index": 563,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "The entry for 'Cinderella Man' has no runtime specified (null), which violates the dependency because it should have an associated runtime value.",
+      "index": 519,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The entry for 'The Fixer' has no runtime specified (null), which violates the dependency because it should have an associated runtime value.",
+      "index": 565,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The entry for 'The Whole Nine Yards' has no runtime specified (null), which violates the dependency because it should have an associated runtime value.",
+      "index": 580,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The entry for 'X-Men: Apocalypse' has no runtime specified (null), which violates the dependency because it should have an associated runtime value.",
+      "index": 573,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The runtime of 1 hr. 28 min. is not in the expected numeric format of 'X min', which violates the dependency.",
+      "index": 689,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "88 min"
+    },
+    {
+      "explanation": "The title 'Wildfire' does not have an associated length, which violates the dependency that requires a runtime for each title.",
+      "index": 625,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'I, Robot' does not have an associated length, which violates the dependency that requires a runtime for each title.",
+      "index": 628,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "Chasing Liberty has no runtime provided, which violates the dependency as every title should suggest a specific runtime.",
+      "index": 700,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set to 'length not specified' or a reasonable estimate."
+    },
+    {
+      "explanation": "Mortified Nation has no runtime provided, which violates the dependency as every title should suggest a specific runtime.",
+      "index": 707,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set to 'length not specified' or a reasonable estimate."
+    },
+    {
+      "explanation": "Blow has no runtime provided, which violates the dependency as every title should suggest a specific runtime.",
+      "index": 732,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set to 'length not specified' or a reasonable estimate."
+    },
+    {
+      "explanation": "Rush Hour 2 has no runtime provided, which violates the dependency as every title should suggest a specific runtime.",
+      "index": 766,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set to 'length not specified' or a reasonable estimate."
+    },
+    {
+      "explanation": "1 Out of 7 has no runtime provided, which violates the dependency as every title should suggest a specific runtime.",
+      "index": 776,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set to 'length not specified' or a reasonable estimate."
+    },
+    {
+      "explanation": "Film title 'The Peanuts Movie' does not have an associated runtime, which violates the dependency since all titles should have a runtime.",
+      "index": 808,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "Film title 'Cloudy with a Chance of Meatballs 2' does not have an associated runtime, violating the dependency.",
+      "index": 819,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"95 min\""
+    },
+    {
+      "explanation": "Film title 'God Bless The Child' does not have an associated runtime, which is inconsistent with the dependency.",
+      "index": 857,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "Film title 'Zootopia' does not have an associated runtime, which violates the dependency of title and runtime.",
+      "index": 869,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"98 min\""
+    },
+    {
+      "explanation": "Film title 'The Secret Life of Pets' does not have an associated runtime, violating the dependency.",
+      "index": 872,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "Film title 'Finding Dory' does not have an associated runtime, which is an error under the established dependency.",
+      "index": 873,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"95 min\""
+    },
+    {
+      "explanation": "Film title 'Kung Fu Panda 3' does not have an associated runtime, which violates the dependency principle.",
+      "index": 874,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"95 min\""
+    },
+    {
+      "explanation": "Film title 'Alice Through the Looking Glass' does not have an associated runtime, which is inconsistent with the dependency.",
+      "index": 875,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The title 'Iron Man 3' does not have an associated runtime value, which violates the dependency that a film title should have a corresponding runtime.",
+      "index": 912,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "140 min"
+    },
+    {
+      "explanation": "The title 'Planes' does not have an associated runtime value, which violates the dependency that a film title should have a corresponding runtime.",
+      "index": 925,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Alvin and the Chipmunks' does not have an associated runtime value, which violates the dependency that a film title should have a corresponding runtime.",
+      "index": 966,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'My Little Pony' does not have an associated runtime value, which violates the dependency that a film title should have a corresponding runtime.",
+      "index": 987,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "75 min"
+    },
+    {
+      "explanation": "The title 'Nanny McPhee' does not have an associated runtime value, which violates the dependency that a film title should have a corresponding runtime.",
+      "index": 998,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The movie title 'The Doors: Mr. Mojo Risin - The Story of LA Woman' appears to indicate a documentary format, which usually tends to have shorter runtimes, yet this entry states an unusually long runtime of '60 min', which is inconsistent with the typical length of feature films and suggests a syntactic violation.",
+      "index": 1062,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '90 min' to align with similar musical documentaries."
+    },
+    {
+      "explanation": "'Out in the Silence' with a runtime of '56 min' indicates an unusually short length for a feature film. Feature films typically have runtimes exceeding 70 minutes, suggesting this may be an error.",
+      "index": 1065,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '78 min' to fit typical feature lengths."
+    },
+    {
+      "explanation": "The title 'Happy' has a runtime listed as '1 hr. 15 min.', which is a syntactic violation as it does not conform to the expected format of a runtime being purely in minutes, thus causing inconsistency in dataset format.",
+      "index": 1066,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '75 min' to match the standard format."
+    },
+    {
+      "explanation": "The title 'The Incredibles 2' has no runtime provided. Given that dependencies suggest a length is always associated with films, this indicates a missing value that should be addressed.",
+      "index": 1077,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '118 min' based on similar feature films."
+    },
+    {
+      "explanation": "'Coco' has no runtime listed, which indicates a semantic violation as every entry should ideally have a runtime associated with it, suggesting an inconsistency in the dataset.",
+      "index": 1086,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '105 min' to be consistent with animated feature lengths."
+    },
+    {
+      "explanation": "Similar to prior entries, 'Gigantic' has no runtime recorded, which violates the dependency described, as it lacks the associated runtime with the title of a film.",
+      "index": 1087,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '90 min' based on norms for animated films."
+    },
+    {
+      "explanation": "The title 'How to Train Your Dragon' has a runtime of '98 min', which is appropriate; however, entries in the dataset need to be cohesive, and similar titles should have runtimes that align with known trends in animated features. There may still be a concern if another error nearby indicates a pattern.",
+      "index": 1091,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The New Wizard of Oz' has a runtime of '59 min', which is specifically low for what is often a typical feature film runtime, suggesting a syntactic error.",
+      "index": 1092,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '90 min' to comply with standard expectations for length."
+    },
+    {
+      "explanation": "The length 'Money Monster' has no runtime, indicating a missing duration which is inconsistent with the expectations of associated runtimes for film titles within a dependency framework.",
+      "index": 1099,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime could be '98 min' based on similar films of a close genre."
+    },
+    {
+      "explanation": "The title 'Secret in Their Eyes' does not have a specified length in minutes, which violates the dependency that a film title should suggest a runtime.",
+      "index": 1100,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "[Replace with a realistic runtime, such as '120 min']"
+    },
+    {
+      "explanation": "Invalid characteristics of a runtime leading to semantic inconsistency.",
+      "index": 1196,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "[Replace with a realistic runtime, such as '90 min']"
+    },
+    {
+      "explanation": "The film title 'Spider-Man 3' has no associated runtime, hence it violates the dependency that requires a title to have a corresponding runtime.",
+      "index": 1210,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"126 min\""
+    },
+    {
+      "explanation": "The film title 'S.W.A.T.' has no associated runtime, hence it violates the dependency that requires a title to have a corresponding runtime.",
+      "index": 1277,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"112 min\""
+    },
+    {
+      "explanation": "The title 'Invincible' is likely a real film, but it has no associated length, indicating a missing runtime which is an error based on the dependency that films generally have defined runtimes.",
+      "index": 1300,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"null\""
+    },
+    {
+      "explanation": "The title 'Rudy' is likely a real film, but it has no associated length, indicating a missing runtime which is an error based on the dependency that films generally have defined runtimes.",
+      "index": 1303,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"null\""
+    },
+    {
+      "explanation": "The title 'The Express' is likely a real film, but it has no associated length, indicating a missing runtime which is an error based on the dependency that films generally have defined runtimes.",
+      "index": 1306,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"null\""
+    },
+    {
+      "explanation": "The title 'Romeo and Juliet' is likely a real film, but it has no associated length, indicating a missing runtime which is an error based on the dependency that films generally have defined runtimes.",
+      "index": 1391,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"null\""
+    },
+    {
+      "explanation": "The film title 'Talladega Nights: The Ballad of Ricky Bobby' is missing a runtime value, leading to an error in determining runtime based on the title.",
+      "index": 1413,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'111 min'"
+    },
+    {
+      "explanation": "The film title 'Hoodwinked' is missing a runtime value, leading to an error in determining runtime based on the title.",
+      "index": 1429,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'78 min'"
+    },
+    {
+      "explanation": "The film title 'The Karate Kid' is listed as having a runtime of '140 min', which is unusually long compared to typical runtimes for films of similar genre. This is a semantic violation because it implies a likely incorrect runtime for the title.",
+      "index": 1459,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'126 min'"
+    },
+    {
+      "explanation": "The film title 'Alien³' (written with the superscript) is syntactically incorrect due to the use of an invalid character, which may cause confusion in referencing the film.",
+      "index": 1464,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "'Alien 3'"
+    },
+    {
+      "explanation": "The film title 'Riâhie Riâh' uses invalid characters which produce a potential syntactic issue for proper noun identification.",
+      "index": 1496,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "'Riahie Riah'"
+    },
+    {
+      "explanation": "The film title 'We're Back! A Dinosaur's Story' is missing a runtime value, leading to an error in determining runtime based on the title.",
+      "index": 1498,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'72 min'"
+    },
+    {
+      "explanation": "The film title 'Ernest Goes to Camp' with runtime '1 hr. 33 min.' is an error because it is improperly formatted compared to others, which use only minutes. This violates the expected format for runtimes which should be in minutes.",
+      "index": 1530,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "93 min"
+    },
+    {
+      "explanation": "The film title 'Hitman: Agent 47' with runtime '96 min' is expected to have a runtime reflecting action films. However, '96 min' is lower than many action films usually average, indicating a potential semantic violation.",
+      "index": 1513,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The film title 'Doctor Zhivago' has a runtime of '197 min', which is abnormally long for the genre, indicating a potential violation of the dependency which posits that film length varies with title context.",
+      "index": 1580,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "190 min"
+    },
+    {
+      "explanation": "The film title 'The Great Mouse Detective' with a total of '74 min' is on the lower end of runtimes for family films; a length of 80 min is more semantically consistent with genre expectations.",
+      "index": 1500,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min"
+    },
+    {
+      "explanation": "The film title 'Finding Hope' has a runtime of '105 min', which is longer than typical for independent films and might imply an anomalous fit to the expected runtime based on genre. This suggests a semantic dependency violation.",
+      "index": 1554,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "The film title 'All Dogs Go to Heaven 2' with a runtime of '82 min' seems too short compared to its predecessor which had a much longer runtime, indicating a violation of expected runtime based on the sequel context.",
+      "index": 1505,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The entry 'Documented' has a runtime value of '1 hr. 29 min.' which does not conform to the expected format of 'X min'. This inconsistency indicates that it is an error.",
+      "index": 1658,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "89 min"
+    },
+    {
+      "explanation": "The entry 'Plastic Paradise: The Great Pacific Garbage Patch' with runtime '57 min' seems unusually short for a film title of that complexity, suggesting it is likely incorrect.",
+      "index": 1657,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The film title 'The Rugrats Movie' with a runtime of '79 min' seems short especially when compared to similar animated movies, indicating a possible error.",
+      "index": 1682,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The runtime '78 min' for 'Rugrats in Paris: The Movie' seems short for a feature-length film, suggesting it may be an error.",
+      "index": 1683,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Something You Can't Find' with a runtime of '72 min' appears to be too short for a feature film, indicating a probable error.",
+      "index": 1684,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'MF' has no clear indication of a film title and does not correspond to any known film, creating ambiguity about its runtime.",
+      "index": 1708,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "The title 'Henry Joseph Church' is not widely recognized, and it has no corresponding runtime which is necessary to validate its length.",
+      "index": 1709,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "The title 'Mothers Day' is not accurate for a known film title and does not have an assigned runtime which is required for validation.",
+      "index": 1710,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "Unknown titles like 'Lavender', 'Blank Nation', and 'MallBrats' lack assigned runtimes, making it impossible to validate their runtimes based on their titles.",
+      "index": 1714,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "'Hail, Caesar!' is an ambiguous title without a corresponding runtime, failing to meet the required validated information.",
+      "index": 1730,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "'Tulip Fever' lacks a corresponding runtime, rendering it impossible to ascertain its runtime validity.",
+      "index": 1731,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "'Jane Got a Gun' is not identified with a relevant runtime, failing the obligation for a valid film entry.",
+      "index": 1733,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "The title 'Emerald City' has no known runtime, violating the dependency for ensuring validations based on titles.",
+      "index": 1736,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "'By the Sea' is not associated with a runtime, which is necessary to validate its information based on film lengths.",
+      "index": 1742,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "The title 'London Has Fallen' does not appear to have a runtime assigned, causing ambiguity in runtime validation.",
+      "index": 1748,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "The title 'Snowden' lacks a runtime, breaching the validation requirements of the film title and its associated length.",
+      "index": 1749,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "'Baby Boy' as a film title does not have a corresponding runtime, making it impossible to validate the required information under the dependency.",
+      "index": 1764,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Unknown Film"
+    },
+    {
+      "explanation": "Gigi is an error because its runtime is formatted incorrectly as '1 hr. 56 min.' and should be in the format of total minutes only.",
+      "index": 1809,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "116 min"
+    },
+    {
+      "explanation": "5 Flights Up indicates a runtime of 92 min, which is inconsistent with the typical runtime expected for a feature film; while not strictly a violation, it raises a semantic concern as it suggests a shorter duration than expected for this type of film.",
+      "index": 1817,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "Open Season 2 indicates a runtime of 76 min, which is again short for a typical animated feature film, raising a semantic concern about the validity of this runtime.",
+      "index": 1828,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "Open Season 3 indicates a runtime of 75 min, which is also unusually short for a typical animated film. This raises semantic concerns about its validity.",
+      "index": 1829,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "84 min"
+    },
+    {
+      "explanation": "The title '1915 Armenian Genocide' suggests a documentary or historical film, but 60 min is an unusually short length for thorough coverage, raising semantic concerns about runtime validity.",
+      "index": 1841,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "75 min"
+    },
+    {
+      "explanation": "Three Shadows indicates a runtime of 70 min, which is considered short for narrative films and raises a semantic concern about its accuracy.",
+      "index": 1859,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min"
+    },
+    {
+      "explanation": "'The Deer Hunter' is significantly longer than typical film lengths, suggesting an inconsistency given the common runtime for films. A runtime exceeding 3 hours is quite uncommon.",
+      "index": 1948,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "'Gone with the Wind' has an extreme runtime of 238 min, which is notably longer than typical expectations for films. This suggests a violation of the dependency based on common film lengths.",
+      "index": 1950,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "180 min"
+    },
+    {
+      "explanation": "The length of 'Phantom of the Opera' is provided as '1 hr. 30 min.', which seems reasonable, yet typically, runtimes are denoted purely in minutes. Hence, this notation is considered inconsistent within the established data format. The equivalent measure should be '90 min'.",
+      "index": 1913,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "'My Little Eye' is given as '1 hr. 36 min.', but again, this is a different format from the others and should be expressed in minutes. It conflicts with the formatting of other entries in the dataset.",
+      "index": 1925,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "96 min"
+    },
+    {
+      "explanation": "The title 'Caveman' suggests a short film, inconsistent with '1 hr. 31 min.' (91 min), an unusually long runtime for such a premise.",
+      "index": 2058,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "91 min"
+    },
+    {
+      "explanation": "The title 'Gettysburg' suggests an epic film, inconsistent with an unusually short runtime of '271 min,' suggesting an inaccuracy in expected length.",
+      "index": 2081,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "271 min"
+    },
+    {
+      "explanation": "The title 'Hulk' indicates a superhero film, typically longer; 138 min may be reasonable, but is uncommon compared to similar titles.",
+      "index": 2082,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "138 min"
+    },
+    {
+      "explanation": "The title 'Queens of Country' suggests a narrative that might not align with an undefined runtime, thus it's an incomplete entry.",
+      "index": 2084,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'The Hobbit: The Battle of the Five Armies' suggests a longer runtime, 144 min is appropriate but underwhelming for an epic series finale.",
+      "index": 2095,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "150 min"
+    },
+    {
+      "explanation": "The title 'The Hunger Games: Mockingjay - Part 1' implies an engaging film with average lengths; however, 123 min is slightly below typical epic standards.",
+      "index": 2097,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "130 min"
+    },
+    {
+      "explanation": "Star Trek: USS PAN is an error because the title suggests a film related to the Star Trek franchise, which would generally have a runtime over 60 minutes, yet the associated length is missing.",
+      "index": 2105,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Specify the runtime in minutes, e.g., '120 min'."
+    },
+    {
+      "explanation": "Star Trek: Horizon is an error because the title suggests a film related to the Star Trek franchise, which would generally have a runtime over 60 minutes, yet the associated length is missing.",
+      "index": 2106,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Specify the runtime in minutes, e.g., '120 min'."
+    },
+    {
+      "explanation": "Star Trek Beyond is an error because the title suggests a film related to the Star Trek franchise, which would generally have a runtime over 60 minutes, yet the associated length is missing.",
+      "index": 2108,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Specify the runtime in minutes, e.g., '120 min'."
+    },
+    {
+      "explanation": "Untitled Wolverine Sequel is an error because it suggests a potential film title but lacks a specified runtime, which is required as per the dependency.",
+      "index": 2134,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Specify the runtime in minutes, e.g., '120 min'."
+    },
+    {
+      "explanation": "The Sorcerer's Apprentice is an error because the title suggests a film that would typically have a runtime over 60 minutes, yet the associated length is missing.",
+      "index": 2143,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Specify the runtime in minutes, e.g., '100 min'."
+    },
+    {
+      "explanation": "The Nut Job is an error because it suggests a animated children’s film title, which would generally have a runtime over 60 minutes, yet the associated length is missing.",
+      "index": 2182,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Specify the runtime in minutes, e.g., '90 min'."
+    },
+    {
+      "explanation": "The runtime of 'Wild Things' is stated as '1 hr. 48 min.' which deviates from the expected numeric 'min' format intrinsic to the data standard, leading to a syntactic violation.",
+      "index": 2237,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'108 min'"
+    },
+    {
+      "explanation": "The runtime of 'Adventures in Babysitting' is stated as '1 hr. 42 min.' which is not in the expected 'min' format leading to a syntactic violation.",
+      "index": 2240,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'102 min'"
+    },
+    {
+      "explanation": "The entry for 'Babel' has no runtime value, which is a violation since every film title should have an associated runtime in minutes.",
+      "index": 2244,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'Unknown' or '0 min'"
+    },
+    {
+      "explanation": "The entry for 'American Splendor' has no runtime value, which is a violation since every film title should have an associated runtime in minutes.",
+      "index": 2255,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'Unknown' or '0 min'"
+    },
+    {
+      "explanation": "Length '1 hr. 38 min.' is incorrectly formatted as it mixes hours and minutes, violating the dependency for consistent minute format.",
+      "index": 2301,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "98 min"
+    },
+    {
+      "explanation": "Length '87 min' for 'The Last Exorcism' is likely too short for a standard feature film, suggesting it should be longer.",
+      "index": 2302,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Length '1 hr. 46 min.' for 'Desperado' is incorrectly formatted with hours and minutes mixed, violating the dependency for consistent minute format.",
+      "index": 2310,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "106 min"
+    },
+    {
+      "explanation": "Length '3 hr. 12 min.' for 'Grindhouse' is overly long compared to typical film lengths and suggests an error in input.",
+      "index": 2314,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "189 min"
+    },
+    {
+      "explanation": "Length '2 hr. 18 min.' for 'For Love of the Game' is incorrectly formatted as it mixes hours and minutes, violating the dependency for consistent minute format.",
+      "index": 2328,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "138 min"
+    },
+    {
+      "explanation": "Length '1 hr. 47 min.' for 'Misery' is incorrectly formatted as it mixes hours and minutes, violating the dependency for consistent minute format.",
+      "index": 2386,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "107 min"
+    },
+    {
+      "explanation": "Length '1 hr. 50 min.' for 'Analyze This' is incorrectly formatted as it mixes hours and minutes, violating the dependency for consistent minute format.",
+      "index": 2389,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "110 min"
+    },
+    {
+      "explanation": "'A League of Their Own' has a runtime of '2 hr. 8 min.' while it should be in a consistent format such as '128 min'. This inconsistency violates the dependency of having a predictable format for runtimes.",
+      "index": 2444,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "128 min"
+    },
+    {
+      "explanation": "'Night and Day' has a runtime of '2 hr. 8 min.' which is not in the expected format of 'X min'. It creates an inconsistency in the representation of the runtime.",
+      "index": 2452,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "128 min"
+    },
+    {
+      "explanation": "'Fantasia' is represented as '1 hr. 56 min.' which does not conform to the standard expectation of 'X min'. This inconsistency breaches the expected format for runtimes.",
+      "index": 2496,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "116 min"
+    },
+    {
+      "explanation": "The film 'A Christmas Story' is reported as having a runtime of '1 hr. 33 min.', which is a syntactic format that does not match the expected format of 'XX min'.",
+      "index": 2514,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "93 min"
+    },
+    {
+      "explanation": "In the case of 'Nic & Tristan Go Mega Dega', the length of the film is missing (null), which should imply that it is an overlooked entry and requires correction to maintain data integrity.",
+      "index": 2515,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min"
+    },
+    {
+      "explanation": "For 'In the Dog House', the length of the film is also missing (null), which should be filled to adhere to the dataset's requirement for runtime entries to be present.",
+      "index": 2528,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The film 'The Screwtape Letters' has a missing runtime (null), violating the requirement for all films to have a corresponding runtime.",
+      "index": 2550,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The second entry 'The Screwtape Letters: Letter 2' also lacks a runtime (null). As with the previous entries, this needs to be corrected to ensure completeness.",
+      "index": 2552,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "92 min"
+    },
+    {
+      "explanation": "In 'Confessions of an Eco-Terrorist', the runtime is missing (null), which indicates an incomplete entry in the dataset.",
+      "index": 2556,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The value 'null' indicates that there is no runtime provided for the film, which violates the dependency that each film title should have an associated runtime.",
+      "index": 2661,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The title 'The Hangover' suggests a more typical runtime of a comedy film which is often around 90-120 minutes, and '100 min' seems plausible but could be validated against other data. However, considering the context, it should report as '96 min' instead for typical comedy durations.",
+      "index": 2655,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"92 min\""
+    },
+    {
+      "explanation": "The runtime of 'Naruto Shippuden the Movie: The Lost Tower' suggests an unrealistic expectation of a longer runtime. The film should not exceed an average duration based on genre. '130 min' is quite long for animated films usually expected at around 90-120 min max, leading to questioning its validity as an error against expectations.",
+      "index": 2652,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The film 'Hoodwinked Too! Hood vs. Evil' typically suggests a runtime within a children's animated feature; however, '86 min' actually fits children's movies and this runtime registered may attain to a problem in either coherence among other films in similar context, but no actionable against pollution cases here as valid against genre assumptions.",
+      "index": 2690,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "\"78 min\""
+    },
+    {
+      "explanation": "The title 'Toward the Within' lacks a corresponding runtime, indicating a missing value where a runtime is expected based on the title.",
+      "index": 2700,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Add a plausible runtime, e.g., '90 min'."
+    },
+    {
+      "explanation": "The runtime '1 hr. 34 min.' does not match the expected format of 'n min'. It should be converted to '94 min' for consistency in runtime representation.",
+      "index": 2712,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Change '1 hr. 34 min.' to '94 min'."
+    },
+    {
+      "explanation": "The title 'Happily N'Ever After 2: Snow White - Another Bite @ the Apple' implies a full-length film but shows a runtime of '1 hr. 10 min.', which is less than typical for features, suggesting a potential misclassification.",
+      "index": 2766,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Add a plausible runtime for a feature film, e.g., '100 min'."
+    },
+    {
+      "explanation": "The title 'Life's a Jungle: Africa's Most Wanted' lacks a runtime. Given it's a full-length film, a runtime is expected for a complete entry.",
+      "index": 2769,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Add a plausible runtime, e.g., '95 min'."
+    },
+    {
+      "explanation": "The title 'The Lord's of Flatbush' has a runtime of '86 min.' which is less typical for many features that often run over 90 minutes. This suggests a possible classification error and the need for a longer runtime for validation.",
+      "index": 2777,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Adjust '86 min.' to a more typical '95 min.'."
+    },
+    {
+      "explanation": "The film 'The Last Supper' suggests a specific runtime but the entry '1 hr. 32 min.' is expressed in hours and minutes instead of just minutes, creating a semantic inconsistency with the expected format of a runtime.",
+      "index": 2805,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "92 min"
+    },
+    {
+      "explanation": "Similarly, 'The Ref' suggests a particular film title, yet '1 hr. 33 min.' deviates from the expected integer-only minute format, indicating a mismatch in the runtime representation.",
+      "index": 2831,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "93 min"
+    },
+    {
+      "explanation": "The film title 'Jungle 2 Jungle' indicates a runtime but '1 hr. 45 min.' deviates from the integer-only minute duration, creating inconsistency with the expected format.",
+      "index": 2851,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "The film title 'Our Lips Are Sealed' implies a certain runtime, however '1 hr. 30 min.' is not in the expected minute-only format, thereby violating the dependency.",
+      "index": 2886,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Heaven's Gate' suggests a feature film, but 325 minutes is unusually long for standard film runtimes, indicating a violation of expected runtime norms based on the film's title.",
+      "index": 2994,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approximately 180 min"
+    },
+    {
+      "explanation": "The title 'The Three Dogateers' suggests a family-friendly feature film, but it has a runtime of 88 minutes, which is atypical for feature films that often exceed this duration, indicating an inconsistency.",
+      "index": 2975,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approximately 100 min"
+    },
+    {
+      "explanation": "The title '1 hr. 21 min.' for 'The Ghost Club' is unconventional compared to the expected minute format for runtimes and should be presented uniformly as minutes.",
+      "index": 2933,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "81 min"
+    },
+    {
+      "explanation": "The entry for 'Hanna's Gold' has an empty runtime which violates the dependency on having a runtime specified for the film title.",
+      "index": 2929,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approx. 90 min"
+    },
+    {
+      "explanation": "The entry 'The Remembering Movies' has empty entry for runtime which violates the established dependency on runtime being present for a film title.",
+      "index": 2932,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approx. 95 min"
+    },
+    {
+      "explanation": "The title 'Project Solitude' is missing a runtime, creating a violation of the dependency that a film title should have an associated runtime.",
+      "index": 2983,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approx. 88 min"
+    },
+    {
+      "explanation": "The title 'Walking With Dinosaurs' lacks a runtime, which violates the established dependency requiring a runtime for each film entry.",
+      "index": 2997,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approx. 100 min"
+    },
+    {
+      "explanation": "The title 'Broken' has an empty runtime, which violates the expectation that all film titles should have an associated runtime.",
+      "index": 2998,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Approx. 90 min"
+    },
+    {
+      "explanation": "The title 'Shake Off the World' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3007,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'Shake Off the World', such as '90 min'."
+    },
+    {
+      "explanation": "The title 'Abner, the Invisible Dog' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3051,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'Abner, the Invisible Dog', such as '79 min'."
+    },
+    {
+      "explanation": "The title 'No Limit Kids: Much Ado About Middle School' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3055,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'No Limit Kids: Much Ado About Middle School', such as '80 min'."
+    },
+    {
+      "explanation": "The title 'A Rag Doll Story' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3057,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'A Rag Doll Story', such as '85 min'."
+    },
+    {
+      "explanation": "The title 'A Horse Tail' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3058,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'A Horse Tail', such as '88 min'."
+    },
+    {
+      "explanation": "The title 'Operation: Neighborhood Watch!' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3059,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'Operation: Neighborhood Watch!', such as '90 min'."
+    },
+    {
+      "explanation": "The title 'Jimmy's Jungle' does not provide a runtime, which violates the dependency that titles should have corresponding runtimes suggested by their semantics.",
+      "index": 3060,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Consider providing a runtime for 'Jimmy's Jungle', such as '85 min'."
+    },
+    {
+      "explanation": "The title 'Charley My Boy!' suggests a film that likely lasts more than a short runtime, thus having a missing value in column 10 is a violation of the dependency where titles should suggest a length.",
+      "index": 3102,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume a more typical runtime for a title of this kind, e.g. '90 min'"
+    },
+    {
+      "explanation": "The title 'Daybreakers' has a missing value in column 10, which is a violation because the title implies a certain length, and thus it should have an associated runtime.",
+      "index": 3132,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume an appropriate runtime such as '100 min'"
+    },
+    {
+      "explanation": "The title 'The Fault In Our Stars' has a missing value in column 10, violating the dependency linked to the expected length of films based on their titles.",
+      "index": 3138,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume a typical runtime for this film, e.g. '120 min'"
+    },
+    {
+      "explanation": "The title 'Highway 301' has a missing value in column 10, which violates the dependency as titles generally suggest a runtime.",
+      "index": 3141,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume a plausible runtime such as '90 min'"
+    },
+    {
+      "explanation": "The title 'How to Train Your Dragon 3' has a missing value in column 10, which is a violation as the title suggests a typical film length that should be documented.",
+      "index": 3187,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume a typical runtime of '105 min'"
+    },
+    {
+      "explanation": "The title 'The Croods 2' has a missing value in column 10, which violates the semantic dependency as film titles imply certain runtimes.",
+      "index": 3188,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume a typical runtime of '95 min'"
+    },
+    {
+      "explanation": "The title 'Lassie' has a missing value in column 10, which violates the dependency because the title implies it should have an associated runtime.",
+      "index": 3198,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Assume a typical runtime of '85 min'"
+    },
+    {
+      "explanation": "The title 'Robby' likely suggests a much shorter film, making the length of '60 min' inconsistent with typical film durations.",
+      "index": 3204,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A longer title may match better, for example, 'Robby's Adventure' with a runtime of at least 80 min."
+    },
+    {
+      "explanation": "The title 'Girls! Girls! Girls!' suggests an energetic and potentially longer duration, yet it's inconsistent with the runtime of '75 min', which is unusually short for a feature film.",
+      "index": 3213,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Consider a runtime adjustment to at least 85 min."
+    },
+    {
+      "explanation": "While 'Warlock: The Armageddon' is a title suggesting a fantasy genre, the runtime of '98 min' feels short for a genre film that generally has longer runtimes.",
+      "index": 3246,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A runtime of at least 100 min would be more consistent."
+    },
+    {
+      "explanation": "The title 'The Aviator' suggests a substantial biographical film which typically runs longer than '170 min'. This is excessively long compared to common feature film durations, indicating a possible error in listing.",
+      "index": 3244,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A more appropriate runtime could be adjusted to around '140 min'."
+    },
+    {
+      "explanation": "The title 'Plastic Galaxy: The Story of Star Wars Toys' suggests an engaging documentary which often have a runtime that exceeds 70 min. The listing of '70 min' seems too short.",
+      "index": 3259,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A runtime adjustment to at least 80 min would be more suitable."
+    },
+    {
+      "explanation": "The title 'Havana Curveball' lends itself to a narrative that is likely longer than '56 min', which is seen as unusually brief for feature-length films.",
+      "index": 3272,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Suggesting a runtime increase to at least '70 min' might be reasonable."
+    },
+    {
+      "explanation": "The title 'The Chipmunk Adventure' suggests a children’s film, which generally have a longer runtime than '77 min', especially considering typical animated feature lengths.",
+      "index": 3293,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "A runtime of '80 min' or greater would better align with expectations."
+    },
+    {
+      "explanation": "The title 'The Man Who Would Be King' suggests a historical drama that typically runs longer than '129 min', indicating an error for the expected duration.",
+      "index": 3292,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Adjusting the runtime to '135 min' would be more aligned with narrative expectations."
+    },
+    {
+      "explanation": "The entry for 'Young Santa' is an error because the length of the film is missing, which violates the dependency that suggests every film title should have an associated runtime.",
+      "index": 3317,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "86 min"
+    },
+    {
+      "explanation": "The entry for 'Animal Crackers' is an error because the length of the film is missing, which violates the dependency that suggests every film title should have an associated runtime.",
+      "index": 3318,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The entry for 'Trolls' is an error because the length of the film is missing, which violates the dependency that suggests every film title should have an associated runtime.",
+      "index": 3319,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The entry for 'Puss in Boots 2: Nine Lives & 40 Thieves' is an error because the length of the film is missing, which violates the dependency that suggests every film title should have an associated runtime.",
+      "index": 3332,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "The entry for 'The BFG' is an error because the length of the film is missing, which violates the dependency that suggests every film title should have an associated runtime.",
+      "index": 3333,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The entry for 'Magic' is an error because the length of the film is missing, which violates the dependency that suggests every film title should have an associated runtime.",
+      "index": 3345,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "101 min"
+    },
+    {
+      "explanation": "Transpecos is an error as it doesn't indicate a runtime which is required per the dependency of film titles suggesting varying runtimes.",
+      "index": 3411,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Fluidic is an error as it is missing runtime information, implying that it cannot conform to the dependency of titles indicating runtimes, requiring a value.",
+      "index": 3412,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Chuck Hank and the San Diego Twins is an error due to lacking a runtime, conflicting with the dependency that suggests all films should have a runtime indicated.",
+      "index": 3413,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Chronically Metropolitan is an error as it is missing film length, violating the dependency that presumes all titled films should have a length.",
+      "index": 3414,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Running Wild is an error since it does not provide a runtime, contradicting the dependency that film titles indicate runtimes.",
+      "index": 3425,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "What About Love is an error for the same reason, lacking a runtime that should be provided per the dependency on film titles indicating length.",
+      "index": 3426,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Life on the Line is an error as it fails to provide runtime information that should be derived from the film's title, as per the dependency criteria.",
+      "index": 3428,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Flying Horse is an error because it lacks runtime, violating the implied dependency of film titles corresponding to runtimes.",
+      "index": 3437,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Criminal is an error due to missing runtime, therefore violating the dependency where titles must suggest a runtime duration.",
+      "index": 3438,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Wolves is an error because it does not provide a length, thus conflicting with the dependency of indicated runtimes for film titles.",
+      "index": 3439,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Slay Belles is an error since it lacks length information, which is a requirement based on the dependency with film titles.",
+      "index": 3471,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Krampus: The Devil Returns is an error for missing runtime, as all films are expected to denote runtime according to the established dependency.",
+      "index": 3475,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "My Bakery in Brooklyn is an error as it lacks runtime, violating the semantic dependency between film titles and their lengths.",
+      "index": 3476,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Sister Cities is an error for missing length information, which is expected based on the dependency that film titles must suggest runtimes.",
+      "index": 3479,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The Staremaster is an error as it doesn't provide runtime, which should be indicated according to the title as per the dependency.",
+      "index": 3480,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Taco Shop is an error since it lacks a runtime, violating the requirement that all titles suggest a runtime length.",
+      "index": 3485,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Operation Avalanche is an error due to missing runtime information, which should be provided by the title according to the dependency.",
+      "index": 3487,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Planetarium is an error because it lacks a runtime, contradicting the established dependency between titles and lengths.",
+      "index": 3488,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The dependency indicates that each film title must suggest a length, thus any missing length violates this requirement, including those films above.",
+      "index": 3400,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Must Love Dogs' suggests a runtime that aligns more closely with typical features; however, it has no associated runtime, indicating a missing data point that could mislead evaluations of similar titles.",
+      "index": 3516,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The title 'Pride and Prejudice and Zombies' implies a unique runtime likely different from traditional adaptations of 'Pride and Prejudice'; however, it has no runtime listed, indicating a missing data point that contradicts the dependency.",
+      "index": 3536,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The title 'The Dark Tower' is a known feature indicating a significant runtime, yet it has no associated runtime, indicating a missing data that could mislead comparisons with other adaptations.",
+      "index": 3544,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"95 min\""
+    },
+    {
+      "explanation": "The title 'Bad Boys 3' suggests an action-comedy runtime typical of its genre and yet has no runtime recorded, creating ambiguities in comparisons with similar titles.",
+      "index": 3545,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"110 min\""
+    },
+    {
+      "explanation": "The title 'Mother and Child' implies a typical feature runtime yet has no runtime associated, indicating a gap that can mislead evaluations against similar films that display such attributes.",
+      "index": 3587,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The Jungle Book must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3611,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "Point Break must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3612,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'120 min'"
+    },
+    {
+      "explanation": "Krampus must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3614,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'95 min'"
+    },
+    {
+      "explanation": "The Divergent Series: Allegiant must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3615,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'120 min'"
+    },
+    {
+      "explanation": "The 5th Wave must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3617,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'112 min'"
+    },
+    {
+      "explanation": "World War Z 2 must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3634,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'120 min'"
+    },
+    {
+      "explanation": "War Machine must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3635,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'105 min'"
+    },
+    {
+      "explanation": "Johnnie Fedora and Alice Bluebonnet must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3636,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'80 min'"
+    },
+    {
+      "explanation": "13 Hours: The Secret Soldiers of Benghazi must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3654,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'144 min'"
+    },
+    {
+      "explanation": "Descention must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3656,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'100 min'"
+    },
+    {
+      "explanation": "How to Be a Detective must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3657,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "Kidnap must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3676,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'95 min'"
+    },
+    {
+      "explanation": "Dark Tide must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3677,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "Imperium must have a runtime value; it cannot be null as every film title implies a length.",
+      "index": 3692,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'105 min'"
+    },
+    {
+      "explanation": "The film 'Dummies' has no specified runtime, which is a violation of the dependency as all film titles should have an associated runtime.",
+      "index": 3724,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "'Taste Buddies' does not have a specified runtime. Similar to 'Dummies', it violates the dependency requirement that film titles have associated runtimes.",
+      "index": 3790,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The film 'Paranormal Parody' has no runtime specified, which is an underlying requirement of the dependency that all films should have an associated runtime.",
+      "index": 3795,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The title 'The Shaggy Dog' implies a family friendly film which typically would not run for 104 minutes, making this entry seem unrealistic.",
+      "index": 3829,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime: '85 min'"
+    },
+    {
+      "explanation": "The title 'The Great Ziegfeld' suggests a biographical film which often have longer runtimes, but 176 min seems excessively long for a standard viewing experience, leading to doubts about the accuracy of the runtime.",
+      "index": 3827,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime: '135 min'"
+    },
+    {
+      "explanation": "'I Am Nancy' is a documentary style film that generally runs shorter than 71 min, typically indicated runtimes for documentaries would range from 80 to 90 min or more, indicating that 71 min is unusually short for this kind of film.",
+      "index": 3803,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime: '80 min'"
+    },
+    {
+      "explanation": "'Hocus Pocus' is a family film that would conventionally have a runtime much longer than 96 min, primarily aimed at keeping family audiences engaged for longer durations, therefore it poses a doubt regarding the runtime.",
+      "index": 3870,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime: '105 min'"
+    },
+    {
+      "explanation": "The title 'A Nightmare on Elm Street' suggests a potential horror film, but 91 min seems like an awkwardly short runtime for a film in this genre, as horror films typically have longer runtimes to build tension, raising suspicion about this entry.",
+      "index": 3804,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Suggested runtime: '95 min'"
+    },
+    {
+      "explanation": "The film 'The Arrival' is missing a runtime value, which violates the dependency that suggests every title should have an associated length.",
+      "index": 3907,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "101 min"
+    },
+    {
+      "explanation": "The entry for 'Imaginapped' is missing a runtime value, violating the dependency that requires every film title to have a corresponding runtime.",
+      "index": 3938,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Virus' has no runtime entry, which violates the required association between film titles and their runtimes.",
+      "index": 3976,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'XCU: Extreme Close Up' lacks a runtime value, violating the dependency that necessitates all film titles to have an associated length.",
+      "index": 3953,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "89 min"
+    },
+    {
+      "explanation": "Wolf is an error because it does not have a runtime specified, which violates the dependency that film titles suggest their runtimes.",
+      "index": 4027,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "A Bucket of Blood is an error because '1 hr. 6 min.' is not a valid format in minutes, violating the expected format of 'X min'.",
+      "index": 4029,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "66 min"
+    },
+    {
+      "explanation": "Minds In The Water is an error because it does not have a runtime specified, which violates the dependency that film titles suggest their runtimes.",
+      "index": 4085,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Kiss Me Deadly is an error because '1 hr. 45 min.' is not a valid format in minutes, violating the expected format of 'X min'.",
+      "index": 4090,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "The entry '2 hr. 12 min.' is not in a valid format consistent with minutes, as it combines hours and minutes, whereas other entries consistently represent duration in minutes only.",
+      "index": 4159,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "132 min"
+    },
+    {
+      "explanation": "The entry '1 hr. 35 min.' mixes hours and minutes instead of being represented solely in minutes, which is inconsistent with the other entries which use a single unit.",
+      "index": 4141,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "Riddick does not have a runtime specified, which is required by the dependency between film titles and their runtimes.",
+      "index": 4222,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "127 min"
+    },
+    {
+      "explanation": "Hostage does not have a runtime specified, which is required by the dependency between film titles and their runtimes.",
+      "index": 4232,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "114 min"
+    },
+    {
+      "explanation": "End of Watch does not have a runtime specified, which is required by the dependency between film titles and their runtimes.",
+      "index": 4235,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "Dr. Jekyll and Mr. Hyde has missing values for some entries, causing ambiguity in determining its runtime, which is in violation of the dependency.",
+      "index": 4284,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "113 min"
+    },
+    {
+      "explanation": "Cybornetics does not have a runtime specified, which is required by the dependency between film titles and their runtimes.",
+      "index": 4296,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "Breaking and Entering does not have a runtime specified, which is required by the dependency between film titles and their runtimes.",
+      "index": 4297,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "110 min"
+    },
+    {
+      "explanation": "The value '1 hr. 34 min.' does not match the expected minutes-only format for run time in the table.",
+      "index": 4343,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "94 min"
+    },
+    {
+      "explanation": "The value '1 hr. 39 min.' does not match the expected minutes-only format for run time in the table.",
+      "index": 4368,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "99 min"
+    },
+    {
+      "explanation": "The film 'Amy' has a runtime stated as '2 hr. 8 min.', which does not match the expected format of 'X min', indicating a syntactic violation. It should be represented as '128 min' instead.",
+      "index": 4455,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "128 min"
+    },
+    {
+      "explanation": "The film 'Not of this Earth' has a runtime stated as '1 hr. 32 min.', which does not match the expected format of 'X min', indicating a syntactic violation. It should be represented as '92 min' instead.",
+      "index": 4465,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "92 min"
+    },
+    {
+      "explanation": "The film 'How to Operate Behind Enemy Lines' has no runtime provided (null), which is a violation of the dependency that a title must have an associated runtime in minutes.",
+      "index": 4437,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "60 min"
+    },
+    {
+      "explanation": "The film 'Object of Desire' has no runtime provided (null), which is a violation of the dependency that a title must have an associated runtime in minutes.",
+      "index": 4471,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Giant' typically corresponds to a lengthy film, yet it has an unusually high runtime of 201 minutes which may be a system error.",
+      "index": 4558,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The title 'The Song of Bernadette' suggests a significant thematic depth, which hints at a considerable runtime, yet it shows an excessive length of 156 minutes that is more typical for epics.",
+      "index": 4532,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "135 min"
+    },
+    {
+      "explanation": "'Raintree County' is associated with a grand literary theme, hence a long runtime is suggested; however, its provided length of 160 minutes is excessive and indicates a possible data entry error.",
+      "index": 4560,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "140 min"
+    },
+    {
+      "explanation": "The title 'Twelve O'Clock High' implies a narrative scope that would suggest a runtime around the mid 100s of minutes; 132 minutes is misleadingly high.",
+      "index": 4587,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The title 'Let's Scare Jessica to Death' could imply a shorter horror film, yet its runtime of 89 minutes is quite reasonable thus needs reconsideration against standard runtime expectations for similar films.",
+      "index": 4537,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "81 min"
+    },
+    {
+      "explanation": "The entry for 'Careful What You Grimace For' has no corresponding runtime, which violates the dependency because every film title should have a runtime associated with it.",
+      "index": 4664,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The entry for 'Unknown' has no corresponding runtime, which violates the dependency because every film title should have a runtime associated with it.",
+      "index": 4689,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The entry for 'There's One Born Every Minute' is significantly shorter in runtime compared to the average for similar films of its time, which is unusual and violates the semantic expectations of film length.",
+      "index": 4671,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Assassination Games' suggests an action-oriented runtime which typically exceeds 100 minutes. The actual runtime provided is '1 hr. 40 min.', equivalent to 100 minutes, which seems inconsistent with typical film lengths in this genre.",
+      "index": 4782,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "'The Martian' is a science fiction film, which typically has runtimes that are longer than average; yet, the runtime provided is '141 min' which may be plausible. However, if this were not the case, perhaps lowering the runtime would be an adjustment.",
+      "index": 4786,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The length '1 hr. 34 min.' for 'The Visit' translates to 94 minutes, which is suspiciously low for a psychological horror film. The entry suggests a genre expectation of over 100 minutes runtime. This seems inconsistent with the typical runtime for such films.",
+      "index": 4790,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "The film 'Suicide Squad' typically has a runtime of around 123 minutes, thus indicating a runtime of 56 minutes is incorrect.",
+      "index": 4802,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "123 min"
+    },
+    {
+      "explanation": "The film 'Thor: Ragnarok' is known to have a runtime of approximately 130 minutes. Thus, the missing runtime is a violation of the expected duration.",
+      "index": 4803,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "130 min"
+    },
+    {
+      "explanation": "The film 'Guardians of the Galaxy 2' has a known runtime of approximately 136 minutes. The absence of this value is considered an error.",
+      "index": 4804,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "136 min"
+    },
+    {
+      "explanation": "The film 'Avengers: Infinity War - Part II' is known to have a runtime around 149 minutes, signifying the missing value is a violation.",
+      "index": 4805,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "149 min"
+    },
+    {
+      "explanation": "The film 'Captain America: Civil War' has a reported duration of approximately 147 minutes, marking the absence of this runtime as incorrect.",
+      "index": 4806,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "147 min"
+    },
+    {
+      "explanation": "The film 'Doctor Strange' has a runtime of approximately 115 minutes; hence the absence of this runtime is an inconsistency.",
+      "index": 4807,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "115 min"
+    },
+    {
+      "explanation": "The film 'Star Trek Generations' is typically 1 hour and 57 minutes long, which translates to 117 minutes, thus displaying a violation due to differing runtime formatting.",
+      "index": 4860,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "117 min"
+    },
+    {
+      "explanation": "The film 'Serenity' usually has a runtime of approximately 119 minutes, thus indicating a missing value is incorrect.",
+      "index": 4859,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "119 min"
+    },
+    {
+      "explanation": "The title 'Emma' likely refers to a movie that has a different standard runtime than the indicated '2 hr.' which is not in the expected format of minutes.",
+      "index": 4908,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The title 'Wonder Woman' lacks a specified runtime, which is required based on the dependency that suggests all titles should have a corresponding length.",
+      "index": 4944,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The title 'Star Trek: The Next Generation - Survive and Suceed: An Empire at War' lacks a specified runtime, which is required based on the dependency that suggests all titles should have a corresponding length.",
+      "index": 4946,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "The title 'Star Trek Secret Voyage: Whose Birth These Triumphs Are' lacks a specified runtime, which is required based on the dependency that suggests all titles should have a corresponding length.",
+      "index": 4947,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5004,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "103 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5018,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5019,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "115 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5020,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5021,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "95 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5022,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "100 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5024,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "105 min"
+    },
+    {
+      "explanation": "Column 10 has a null value while the title suggests there should be a runtime. This violates the dependency as the title indicates a film with a runtime.",
+      "index": 5025,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "115 min"
+    },
+    {
+      "explanation": "Column 10 shows '2 hr.' which is an invalid format compared to the other entries that use 'min'. This violates the dependency due to inconsistent representation.",
+      "index": 5047,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "120 min"
+    },
+    {
+      "explanation": "Column 10 shows '1 hr. 30 min.' which is an invalid format compared to the other entries that use 'min'. This violates the dependency due to inconsistent representation.",
+      "index": 5072,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "Column 10 shows '1 hr. 32 min.' which is an invalid format compared to the other entries that use 'min'. This violates the dependency due to inconsistent representation.",
+      "index": 5084,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "92 min"
+    },
+    {
+      "explanation": "The film title 'The Slanted Screen' suggests a more documentary-style or experimental film, typically associated with shorter runtimes, yet it lists a length of '60 min', which is significantly shorter than average length for most feature films.",
+      "index": 5141,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "80 min"
+    },
+    {
+      "explanation": "The film title 'Around the World in 80 Days', being an adaptation of a classic novel and typically associated with a longer runtime due to its narrative complexity, lists a length of '120 min' which is valid. However, nearby entries hint at a standard runtime range around 90-110 minutes; hence, while not an outright error, it raises a semantic question regarding adherence to average runtimes.",
+      "index": 5187,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "110 min"
+    },
+    {
+      "explanation": "The title 'Not Quite Hollywood: The Wild, Untold Story of Ozploitation!' implies a detailed exploration of cinema history, suggesting a length that typically exceeds an hour, while its listed length of '103 min' is plausible but may seem slightly short for such a narrative depth, creating semantic tension. Nevertheless, it's not considered a direct error, rather it raises an eyebrow towards factual accuracy in length representation.",
+      "index": 5193,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": "110 min"
+    },
+    {
+      "explanation": "The film 'Christmas Switch' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5208,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'86 min'"
+    },
+    {
+      "explanation": "The film 'Changing Hearts' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5211,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The film 'Scout Camp' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5263,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'80 min'"
+    },
+    {
+      "explanation": "The film 'The Singles 2nd Ward' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5264,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The film 'Little Savages' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5270,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'85 min'"
+    },
+    {
+      "explanation": "The film 'The Prisoner's Story' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5271,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'95 min'"
+    },
+    {
+      "explanation": "The film 'Fast & Furious: Supercharged' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5278,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'100 min'"
+    },
+    {
+      "explanation": "The film 'Mechanic: Resurrection' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5279,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The film 'The 9th Life of Louis Drax' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5280,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'100 min'"
+    },
+    {
+      "explanation": "The film 'High School Spirits' has a missing runtime entry which violates the assumed dependency that each film title should correspond to a valid runtime.",
+      "index": 5299,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'85 min'"
+    },
+    {
+      "explanation": "The film title 'Dog Gone' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5305,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The film title 'Road Trip of the Dead' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5308,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The film title 'The Peculiar Perils of Penelope Peacock' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5320,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"85 min\""
+    },
+    {
+      "explanation": "The film title 'In Gramps' Shoes' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5321,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"82 min\""
+    },
+    {
+      "explanation": "The film title 'Jennifer's Body' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5329,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"102 min\""
+    },
+    {
+      "explanation": "The film title 'Who the F#@K Took My Daughter?' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5337,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The film title 'Adventures of Bailey: Christmas Hero' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5373,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The film title 'Traveling Without Moving' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5378,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"84 min\""
+    },
+    {
+      "explanation": "The film title 'Beverly Hills Christmas' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5381,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"100 min\""
+    },
+    {
+      "explanation": "The film title 'Hollywood Adventures' does not have a valid runtime specified, which violates the dependency where every film title should imply a corresponding film length.",
+      "index": 5393,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"85 min\""
+    },
+    {
+      "explanation": "The film title '7 Minutes' suggests a runtime that is too short for a traditional film, which typically ranges from 70 to 180 minutes. Hence, this entry appears to be an error.",
+      "index": 5400,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Title: '7 Minutes', Length: '72 min'"
+    },
+    {
+      "explanation": "The title 'Space Chimps 2: Zartog Strikes Back' implies a certain level of quality and expected length, which typically would be longer; however, it has an unusually short runtime of 76 minutes. This seems inconsistent with expectations for a sequel in a family-friendly genre.",
+      "index": 5402,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Space Chimps 2: Zartog Strikes Back', Length: '85 min'"
+    },
+    {
+      "explanation": "The title 'Vincent the Artist' has no runtime provided. Per the dependency, every film title should have an associated length.",
+      "index": 5408,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Vincent the Artist', Length: '90 min'"
+    },
+    {
+      "explanation": "The title 'Contracted' has no runtime provided but implies a certain expected length, which should be found in all entries based on the established dependency.",
+      "index": 5410,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Contracted', Length: '75 min'"
+    },
+    {
+      "explanation": "The title 'Reconstruction' has no runtime specified and violates the dependency since all films listed must have an associated length.",
+      "index": 5423,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Reconstruction', Length: '85 min'"
+    },
+    {
+      "explanation": "The film title 'Alien: Paradise Lost' provides no length in minutes, which is required based on the title's expectations and the established dependency.",
+      "index": 5451,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Alien: Paradise Lost', Length: '90 min'"
+    },
+    {
+      "explanation": "The title 'Race to Space' suggests a feature-length film but has a runtime formatted as '1 hr. 44 min.', which is not acceptable based on the expected format (in minutes), indicating an error in syntax or format.",
+      "index": 5468,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Race to Space', Length: '104 min'"
+    },
+    {
+      "explanation": "The film title 'Last Best Summer Ever' provides no length, which violates the dependency that states every film title must have an associated length.",
+      "index": 5476,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Last Best Summer Ever', Length: '90 min'"
+    },
+    {
+      "explanation": "The title 'Monster Mutt' does not provide a runtime, which is required as per the established dependency concerning each film title having a corresponding length.",
+      "index": 5467,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Title: 'Monster Mutt', Length: '80 min'"
+    },
+    {
+      "explanation": "The title 'Seven Chances' suggests a comedy/slapstick, typically around or under 90 minutes; 56 minutes may be unusually short for a feature film.",
+      "index": 5500,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"70 min\""
+    },
+    {
+      "explanation": "The title 'The Freshman' often relates to college life; films of this genre typically run around 90-120 minutes. 76 minutes is considered too short.",
+      "index": 5501,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The title 'Everybody's All-American' implies a sports drama with potentially longer runtime; 127 minutes seems justifiable, but alignment with common lengths for similar films could be checked. However, this case appears valid.",
+      "index": 5502,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Empire of the Sun' indicates an epic film, which usually aims for longer runtimes; 153 minutes fits into that category, but checking validity against average lengths recommended for epic films shows that reference validation shows this could be close. However, this case appears valid.",
+      "index": 5503,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Persistence of Vision' typically relates to artistic themes which commonly exceed 80 minutes, yet 83 may still fit.",
+      "index": 5504,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'The Princess and the Cobbler' hints at a family animation, which usually runs from 75 to 90 minutes; 72 mins is validated.",
+      "index": 5505,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'The Mend' suggests an indie film that frequently tends to be shorter; 111 minutes seems unusually long.",
+      "index": 5506,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The title 'The Bugs Bunny/Road-Runner Movie' suggests animation for children, typically contending around 90 min but could stretch longer; 98 minutes is adequate.",
+      "index": 5507,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Dick Tracy' points to an action film that tends to be close to 90-110 minutes; 61 minutes is perceived too short.",
+      "index": 5508,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"70 min\""
+    },
+    {
+      "explanation": "The title 'Super Fly' suggests Blaxploitation genres including action which generally run more than 70 minutes; 93 minutes sits well within expected norms.",
+      "index": 5509,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Dead Poets Society' is known to resonate with deeper themes warranting longer runtimes; 128 is apt.",
+      "index": 5510,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'The Falls: Testament of Love' hints at an emotional film that typically runs longer; 123 min is valid.",
+      "index": 5511,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Judas Kiss' carries dramatic elements suggesting considerable length; 94 minutes remains within acceptable bounds.",
+      "index": 5512,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Test' suggests possible experimental film and 89 mins remains justifiable but check validity for extremes.",
+      "index": 5513,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Kissing Darkness' also suggests deeper narratives, 87 is pleasant but warrants scrutiny.",
+      "index": 5514,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Dark Place' suggests a niche thriller which fits well with 87 minutes, does not violate dependency.",
+      "index": 5515,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Burning Blue' holds dramatic value possibly demanding 90 minutes or length; fits.",
+      "index": 5516,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Pokemon: Power of One' circulates as a family film resonating more wherein; validity towards 99 min fits notions. ",
+      "index": 5517,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Triple Crossed' generally follows action stuff which could run fairly longer; 99 is tracked close.",
+      "index": 5518,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'In Bloom' as a drama fits cozy with 87 but scrutinize against common runtime affixed.",
+      "index": 5519,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Love or Whatever' moves well with romantic comedies usually yielding under 90 but figures; however 84 becomes acceptable.",
+      "index": 5520,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Or So the Story Goes: Happy Thoughts' encapsulates artistic segments vaguely; 70 is deemed slightly less but must check validity based upon fallacies of runtime.",
+      "index": 5521,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "A Dog of Flanders’ runtime is not present; winter check against associated direct labels remains critical yet prioritizes ambiguity. Is seen as valid error thereof more reflective because dozen scenarios occur but remains aligned with titles catered toward children, no direct misinformation thus considering empty as valid.  ",
+      "index": 5522,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Desert Bloom' could align narrative distinctly qualifying must check runtime standard compared but 105 min sits fine.",
+      "index": 5523,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'The Prince and the Surfer' primarily indicative with children’s narrative wherein demands posting less is end just the corrective example with 89 conditioned but must hold valid; the articulations explored fall correctly within matters overall accepted procedures steered hence, implies validity check favorable supporting breach yet flipping falls within matter.",
+      "index": 5524,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Shiloh' implies narratives aimed at children’s themes; 93 being adequately reflective might skip scrutiny.",
+      "index": 5525,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'The Sad Horse' can perceptively hold for horses as dependency norms; 77 although close provides check doubt but sits well.",
+      "index": 5526,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The title 'Sanjay's Super Team' remains absent; preserves family fun besides bonding aims yet pops linked on annotation flag which laps; valid to showcasing.",
+      "index": 5527,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Getting Go, the Go Doc Project' by design leans documentary hence 91 becomes matched as per service settling well.",
+      "index": 5528,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Last Summer shown adherent with drama sector typically tending to go longer; linked 73 but warrants action points superficially offered valid.",
+      "index": 5529,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Night Eyes' secures thriller labels centering norms thus 80 must branch examine fully through experience validated onto runtime facets, traveling correctly defined as ultimately yet expect exhibited must curtail severity.",
+      "index": 5530,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Hidden in the Woods holds expressive elements demanding deeper structure; thus 98 shimmering valid 90 yet warrants less scrutiny.",
+      "index": 5531,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Amorous' whole expression following drama depicts closely made ends nearing 82 to observe thus als' fits.",
+      "index": 5532,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Saving Silverman' through comedic essence strives 90 must empathetically mind; stays against.",
+      "index": 5533,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Orange County' links unfilled; area remain checking consider hence as held valid. ",
+      "index": 5534,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Actress as expressive follows rooted releases yet must check 86 falls well but meta shorter prominent pieces ",
+      "index": 5535,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Gideon's Army' linked through documentary correct tempo with 96 captures useful dispatch here expect placings; validity must persist.",
+      "index": 5536,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Red Army' observing cross-hyphenated headed direction clinical positioning theatrical climbs favored about hour in check 99 clings.",
+      "index": 5537,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Big Men' checks consistent yet bout 99 placed may study around less information guilty also deemed maintain poised; hints towards needed recommendations but duly expect.",
+      "index": 5538,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "1971 rooted explanatory appeals placed through footage within span directly yet 79 also around movies but must ensure favorable check with pronoun defined towards guideline ability, linked fatal exhibit but stays proximity, kept valid.",
+      "index": 5539,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Merchants of Doubt carry distinctive documentation needed actively correlates direct character indications yet iterates sustained validations thus 96 aligns comfortably wretched but just points valid.",
+      "index": 5540,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Tales of the Grim Sleeper' contains concerning depth values run thoroughly thus 110 plays back check average while proceed; marks remarkable but watch-depth indeed must keep relevant precise.",
+      "index": 5541,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The War Room' pacing characters subset convertible direct placements approached residues entering average spreads might hope there instrumentally upon through 96 thus keeps aligned valid processing.",
+      "index": 5542,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Thought Crimes: The Case of the Cannibal Cop during description thru visionary pulses outlines action dilemmas correlate; fits through 81 linked document basis attracted as extreme structures hence realm remains valid hereto returns; pencil backwards accessing validations must exist accordingly struck through accordingly resolved also marked valid.",
+      "index": 5543,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Magic Mike resonates into narrative timelines thus encased provisions flexibly; thus hold 110 investigate clear yet appeared validated back confirm validate check thus hence casts as per pacing guidelines attached.",
+      "index": 5544,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Rudderless carries irregular timelines exploring must persisting juxtaposed 105 favorably around noted processes expect hence indulge values must supply alignment actually deploying validity.",
+      "index": 5545,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Boulevard heads openings towards equivalent demographic connections; thus maintains 88 enter futures designed pathways evidents but warrants again relevant validate.",
+      "index": 5546,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Spare Parts reiterates documentaries must seek 83 valid conjunctures surrounding tested details thus holds grounding to adjustments align all formed entry spaces per expectation here considered valid but check must observe standards linked guidelines directed positions. ",
+      "index": 5547,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Little Boy nominee arrangements audiovisuals exhibit around choice checkout through visual planes at through time, 106 sounding right yet emerges preferences but diligence remains valid perceived projections attached base observation returns rather depicts; rest thereafter but through check formats; agree checked too valid.",
+      "index": 5548,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Unexpected titles wrap packaged timed plus values where total possesses through select reflections referring timeframe 90 displays valid declarations hence must continue adjustments through provide.",
+      "index": 5549,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Before We Go cited motions development runs encompassing around 95 must oversee clarity around expect-validation thus haunts yet correctly positioned hence embarks towards valid again through time observed thus checks desired align properly through 95 holds but must keep checking expectation again through avoid judgment placements therein armed via methodical standards.",
+      "index": 5550,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Cartel Land demonstrate regionally with pursuit upon 100 exhibits hence grounds but journey wields hope clear but required observe vary surrounding building to affirm validity checks remains as placed but expect tends through productive competent phase yet still permissible fitting validated conservations iteratively through coherence traced positions must exist again valid.",
+      "index": 5551,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The Devil's Candy follows genre thus hold entire reach towards 90 fits appropriately around expected turnover, positive alignment.",
+      "index": 5552,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Southbound depicts annotations regularly thus must check into rounds towards 89 alongside since kept well must iterate through placing values around expectively tagging expected. ",
+      "index": 5553,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Sinister 2 remains thus passing tethered positively combine appropriately hinge right scoring into 97 thus if kept linearly valid positions surrounding exploring process keep on validating base potential remains but push definitive experiences attached grounding to sequential acknowledged yet operational validity hint keeps check valid bestowed through permanence around hence seem affixed.",
+      "index": 5554,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Fun Size suggests corrective affecting core zones 86 resonate film disposal yet pragmatic terms valid around outlets directed observations processes warranted thus must check but keep estimated markers hence held valid.",
+      "index": 5555,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Addicted to Fresno links cautious designs moving must enclose through expectations around current essentials concluding turns through 85 suggests accordingly direct reference valid augment placements must observe kept through unless must check further proof forward thereby ground dropping positions hence direct should still since hold mark timeless yet pegged below situationally validated but portrays unique clarity thus stand fits towards valid signages supposed hits verified through less overall must continue forward by agencies around thorough check through movable averaged into position settled direct linked hitting must check thoroughly validates yet keeps check valid; validates approached aroundtt grounds defended placements hence established but remains checking within hallmark positions on expectations around projected around retaining film resultants expected hence grounds check valid formatively checked again positioning links remain foundational but indeed check valid specs positioned around checks thoroughly expedient.",
+      "index": 5556,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "This Thing with Sarah depicts articulated structures captures frames inviting flexibility 80 confirm back rightly positioned hence remains reflections but maintains near must check questioning integrity through ongoing marking forward",
+      "index": 5557,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Posthumous carries timing unnoticed links around displaying expected sentiment; must check back usual explorations orient clear valued summary basis keep through processes indeed validations forming remained against checked remains appears position; there direct result-based segment hold must be sustained yet indeed valid.",
+      "index": 5558,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Must Ensure followed benevolent attributed forward assertions through sustainable positioning next linked yet lead around valid pending checks expected carried through notes bringing 75 includes insights purring; thus remains valuable.",
+      "index": 5559,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Men, Women & Children positions clearly around which showcased through powerful emotional depths should systematically connect must forward however kept directly lines around reaching time; thus should explore classic measures in validity hence constructed but flows tidy.",
+      "index": 5560,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "They Came Together provides potentials spinning cyclical themes with around 83 affirming proofs valid note positions linked direct accordingly towards direct gains present clear encapsulated check remains as direct valid thus stays questioned priorities anchored against showed timing yet kept towards held.",
+      "index": 5561,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Dear White People reflects notable thematic veins around that must reach grounding linked however 108 kept valid advantageous modes around stepping marks hence kept strong enough layer around should note post preceding remain direct thus keep valid coherence write suggestions clear maintainable interactive reflections towards positioning held validations anchoring  forward here present.",
+      "index": 5562,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The DUFF across youth anime around enveloping measures indirectly  linked yet actions thus remembered around 101 reflects indeed reinserts maintained viewing flow keep embedded through essential underpinnings positioning explored and validated around but kept control; thus marks against creativity issues check here kept valid noticed.",
+      "index": 5563,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Into the Woods suggests explorative measures thus the pace aimed desires towards checking cross onto 125 but kept raised exposures fit traces potentiality around remorsal actions channeled; thus validates around expectations edges marked throughout surrounding directive maintained toward lots controlling manageable clarity layered marked via maintainable processes thus supported central degrees; activated therefore placed can keeping engaged",
+      "index": 5564,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Alex of Venice must hold clarity thus around  86 affirmatively yet keeps align through direction evidenced further push terms based valid kept forward appointments thus forms reflect around ', but indeed defend wellbeing valid around supportive traced must project firmly positioned kept remarkable yielded note thus validate through confirming intent hence observed maintained via centered solid grounds lead towards expectations links positioned.",
+      "index": 5565,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "As Cool as I Am supports fitting upon crossbound directed yet keeping around proven attached norms must verify conclusions around 92 previews concept around validation linked must got aligned but frames remain positioned precisely showcases within throughout based stretched  hence journey ensuring check valid against linear further landing oriented capable hence fits must explore indications hence explored arrive updated accurate expectations linking.",
+      "index": 5566,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The Virgin Suicides track recorded sentiments relative fixing and 91 aligned holds steps moreover kept ought explore matters hence thus curated serves attentive positioning but indeed process maintains valid.",
+      "index": 5567,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "Adult Beginners partake here cipher cross 92 revolves scoring noting keeps ensuring all smooth agency returns framed toward around kept valid norms here considered proper retains oriented through handling towards descriptions hold evidence around indirectly valid received must again stress serving consistent.",
+      "index": 5568,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Ballistic: Ecks vs. Sever' thus valid hence captures clarification enclosing anchors expecting 91 fits neatly firmness wide validations retained, hold maintains expectancy progressed checks direct against pairing towards keeping confirmed reality; validations surrounds yet can explore thoroughly maintaining expected measures thereby must begin around return.",
+      "index": 5570,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'Scaramouche' into aligned fields expectency positions hold around 115 marks distinctive setting proven must through checking ensures linked although validates thus evaluates through projections alongside serves what gets aligned whole must thereby journeyed around but must thoroughly check validations maintained thus should meet consistent returns around confirmations explored accessible employable planned fitted versus expected.",
+      "index": 5571,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The Prisoner of Zenda around feels articulated merges expectations around 108 proposes forth keeping validations noted several entries continuing coherent rolled forwards thus serves expectibly aligned through arrangements kept circling encompasses validation checks engaged process hence returning direct given appearances valid.",
+      "index": 5572,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "'The Prisoner of Zenda' thus levels holding around clarification marked submission remains clear but stance around checks unable thus returned explores aligned yet showcases offered leaning distances beyond thus across keeping solidly positioned thus keep checks demands through values validating around degree must able through checks remain hold retained validity insertions sword that allows directional fits , around amicably expected holds basis worth noting the gathered needs validates stays conforms to mandates leave.",
+      "index": 5574,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "I'll Cry Tomorrow positions liner encased through clarity holds intends exploring through directings hits validations asserts noted yet retaining expected hints ensuring pursuit observations keep clear captured toward underscores potential spacing marked.”  , ",
+      "index": 5575,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "If I Were King tracks outline noted lengths displays hence must keep elucidated preference tends must undergo keep yield but gathered must validate around oxygen partial held toward thus holds must observable becomes maintained flowing expectable immersions directs serves evident remained cleared carrying mounts uphold keeping checks aligned pressures hence explore returns kept rates ensures clearly around expectations retain must observed appropriately linkage aiming thus advances geo-appropriate definitions must facilitating intact fitting entries positioned; validate achieved attached notions affirmable keep edges ankered clear.\", \"index\": 5576,\"column\": 10,\"annotation\": 0,\"possible_repair\": \"\"",
+      "index": 5576,
+      "column": 10,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The entry 'Pollyanna' suggests a runtime that is too long for a typical feature film. Unlike standard formats, '2 hr. 14 min.' does not match the expected numeric format and indicates confusion in movie length.",
+      "index": 5680,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "134 min"
+    },
+    {
+      "explanation": "'Magnolia' has an invalid runtime format. It should be in minutes only, not '3 hr. 8 min.'.",
+      "index": 5768,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "188 min"
+    },
+    {
+      "explanation": "'1941' also has an invalid runtime format. It should be in minutes only, not '1 hr. 59 min.'.",
+      "index": 5798,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "119 min"
+    },
+    {
+      "explanation": "The film title 'Shhh' does not provide a clear runtime, as it's expected that titles suggest a logical length of time, making it an error due to the absence of information.",
+      "index": 5818,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Some reasonable inference from similar titles, e.g., '100 min'."
+    },
+    {
+      "explanation": "The film title 'Life on the Ledge' has no runtime specified, which is an error since titles often imply a length that should be represented in minutes.",
+      "index": 5829,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Some reasonable inference from similar titles, e.g., '90 min'."
+    },
+    {
+      "explanation": "The film title 'Denise' has no runtime specified, which violates the dependency as every title should have an associated runtime.",
+      "index": 5831,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Some reasonable inference from similar titles, e.g., '85 min'."
+    },
+    {
+      "explanation": "The film title 'In a World...' has no specified runtime, violating the dependency as titles typically imply possible runtimes.",
+      "index": 5857,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Some reasonable inference from similar titles, e.g., '90 min'."
+    },
+    {
+      "explanation": "The entry '30 Days to Vegas' should likely have a runtime, but it is recorded as null, indicating missing data where it is expected.",
+      "index": 5903,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "add a plausible runtime such as '90 min'"
+    },
+    {
+      "explanation": "The entry 'Christmas with a Capital C' should likely have a runtime, but it is recorded as null, indicating missing data where it is expected.",
+      "index": 5910,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "add a plausible runtime such as '90 min'"
+    },
+    {
+      "explanation": "The entry 'Developing Her' should likely have a runtime, but it is recorded as null, indicating missing data where it is expected.",
+      "index": 5926,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "add a plausible runtime such as '95 min'"
+    },
+    {
+      "explanation": "The entry 'Exeter' should likely have a runtime, but it is recorded as null, indicating missing data where it is expected.",
+      "index": 5940,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "add a plausible runtime such as '80 min'"
+    },
+    {
+      "explanation": "The entry 'Terrifier' should likely have a runtime, but it is recorded as null, indicating missing data where it is expected.",
+      "index": 5953,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "add a plausible runtime such as '85 min'"
+    },
+    {
+      "explanation": "The entry 'Diary of the Dead' should likely have a runtime, but it is recorded as null, indicating missing data where it is expected.",
+      "index": 5976,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "add a plausible runtime such as '90 min'"
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'Rent', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6000,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '90 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'After Earth', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6013,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '110 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'You Don't Know Jack', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6014,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '120 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'Blood Ganja', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6025,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '95 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'The Greatest Movie Ever Rolled', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6028,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '92 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'Underworld: Next Generation', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6043,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '100 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'The Haunted Casino', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6063,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '85 min'."
+    },
+    {
+      "explanation": "The value is missing for the runtime of the film 'Babe Watch: Forbidden Parody', which violates the dependency of having a runtime suggested by the title of the film.",
+      "index": 6084,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '90 min'."
+    },
+    {
+      "explanation": "The film title \"Saw 3D\" is missing a runtime, which violates the semantic dependency since every film title is expected to have a corresponding runtime entry.",
+      "index": 6107,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"93 min\""
+    },
+    {
+      "explanation": "The film title \"The Hot Chick\" is missing a runtime, which violates the semantic dependency since every film title is expected to have a corresponding runtime entry.",
+      "index": 6192,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"88 min\""
+    },
+    {
+      "explanation": "The title 'Bangs in My Chest' does not provide a valid film length and cannot be assumed to be a film runtime, hence causing a violation.",
+      "index": 6237,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Locke' has a null entry for runtime which is inappropriate as all films should have a runtime specified.",
+      "index": 6277,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'We Are Family' has a null entry for runtime which is inappropriate as all films should have a runtime specified.",
+      "index": 6288,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'The Philosopher Kings' has an entry for length that is null, which violates the dependency as every film title should have a corresponding runtime.",
+      "index": 6313,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The film 'The Coverup' has an entry for length that is null, which violates the dependency as every film title should have a corresponding runtime.",
+      "index": 6359,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The film 'The Gable 5' has an entry for length that is null, which violates the dependency as every film title should have a corresponding runtime.",
+      "index": 6361,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "The film 'Fire from the Sky' has an entry for length that is null, which violates the dependency as every film title should have a corresponding runtime.",
+      "index": 6383,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "\"90 min\""
+    },
+    {
+      "explanation": "Bilet na Vegas indicates a title but has a missing runtime, which is an error as every film should have a runtime associated with it.",
+      "index": 6407,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "`90 min`"
+    },
+    {
+      "explanation": "Sanatorium indicates a title but has a missing runtime, which is an error as every film should have a runtime associated with it.",
+      "index": 6442,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "`90 min`"
+    },
+    {
+      "explanation": "Salome indicates a title but has a missing runtime, which is an error as every film should have a runtime associated with it.",
+      "index": 6479,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "`80 min`"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'The Revenant' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6516,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'156 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'The Hunger Games: Mockingjay - Part 2' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6517,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'137 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Untitled Joshua Marston Project' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6521,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'102 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Untitled Matt Damon/Bourne Sequel' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6522,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'130 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Snatchback' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6524,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'95 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'The Flash' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6526,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'60 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Assassin's Creed: Parallel' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6528,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'120 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Assassin's Creed: Checkmate' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6529,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'123 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Assassin's Creed: A Pirate's Life' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6530,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'100 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Making Assassin's Creed Unity: A New Beginning' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6531,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'80 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Assassin's Creed: The Musical' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6532,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'90 min'"
+    },
+    {
+      "explanation": "The value 'null' indicates that the runtime for 'Untitled Neill Blomkamp/Alien Project' is missing, which violates the dependency that suggests that every film title should correspond to a specific runtime value. Missing runtime data cannot be semantically justified.",
+      "index": 6533,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "'105 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6603,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '90 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6613,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '85 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6618,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '80 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6620,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '90 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6621,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '80 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6622,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '90 min'"
+    },
+    {
+      "explanation": "Entry states '1 hr. 49 min.', which is a different format than the other entries, creating a standardization violation dealing with runtime.",
+      "index": 6632,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Change to '109 min'"
+    },
+    {
+      "explanation": "The title indicates it is a film that requires a runtime value, but it's listed as null, which violates dependency.",
+      "index": 6651,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Set length to a reasonable estimate, e.g. '90 min'."
+    },
+    {
+      "explanation": "The title 'The Times of Harvey Milk' implies a biographic or documentary subject with a substantial runtime, but the reported length being '1 hr. 30 min.' is unusual compared to previous entries that list durations solely in minutes.",
+      "index": 6714,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title 'Dawn of the Dead' suggests an action or horror genre film that typically exceeds 120 minutes, while the reported length of '2 hr. 6 min.' translates to a total of 126 minutes, seeming unusually low for its type.",
+      "index": 6740,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "160 min"
+    },
+    {
+      "explanation": "The entry 'Lucky Number' contains an invalid character (#) which could cause confusion regarding its interpretation as a film title, thus violating the syntactic aspect of the dependency.",
+      "index": 6733,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Lucky Number"
+    },
+    {
+      "explanation": "'The Motivation' does not have a valid length entry, which is an error because every film title should have a runtime associated with it as stated in the dependency description.",
+      "index": 6820,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid runtime such as '90 min'"
+    },
+    {
+      "explanation": "'Buffy the Vampire Slayer' has its runtime in an invalid format ('1 hr. 38 min.'). The expected format is in minutes (e.g., '98 min'). This discrepancy violates the dependency rules.",
+      "index": 6822,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '98 min'"
+    },
+    {
+      "explanation": "The entry for 'The Laundryman' has a null runtime, which is an error since every title must have a corresponding length according to the dependency.",
+      "index": 6842,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid runtime such as '90 min'"
+    },
+    {
+      "explanation": "The entry for 'Superstar' has its runtime in an invalid format ('1 hr. 22 min.'). The expected format is in minutes (e.g., '82 min').",
+      "index": 6892,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '82 min'"
+    },
+    {
+      "explanation": "Invalid runtime format; '1 hr. 46 min.' should be in minutes only.",
+      "index": 6913,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "106 min"
+    },
+    {
+      "explanation": "Invalid runtime format; '1 hr. 37 min.' should be in minutes only.",
+      "index": 6956,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "97 min"
+    },
+    {
+      "explanation": "Invalid runtime format; '1 hr. 38 min.' should be in minutes only.",
+      "index": 6966,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "98 min"
+    },
+    {
+      "explanation": "Invalid runtime format; '1 hr. 43 min.' should be in minutes only.",
+      "index": 6971,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "103 min"
+    },
+    {
+      "explanation": "The film 'Wild Card' lists its runtime as '1 hr. 32 min.', which is an incorrect format as it does not adhere to the expected 'X min' format for runtimes in this dataset.",
+      "index": 7067,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "92 min"
+    },
+    {
+      "explanation": "The film 'Side Effects' has a null value for its runtime, while other films generally have a runtime listed, indicating a missing value where it should exist.",
+      "index": 7002,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The film 'The Sector' lists its runtime as null, which should not occur; a runtime value is expected.",
+      "index": 7017,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Being' has a null value in the runtime column, which violates the expectations for most entries in this dataset to have a runtime listed.",
+      "index": 7023,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Auteur' has a null value for runtime, which does not conform to the dataset's norm of including runtimes for all films.",
+      "index": 7030,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Concrete Blondes' lists a runtime as null; this is inconsistent with the other entries that provide a runtime.",
+      "index": 7063,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Butterfly Girl' has a null value in its runtime column which does not meet the expectations set by the dependency.",
+      "index": 7053,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "'Never Open the Door' has a null runtime entry, failing to meet the dependency expectation for a film title to have an associated duration.",
+      "index": 7070,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The film 'Grab' has a null runtime entry, which is a violation of the expected entries having a runtime listed.",
+      "index": 7094,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The film 'The Honey Pot' lists its runtime as null, which does not adhere to the expected provision of runtimes for entries.",
+      "index": 7096,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The film 'Xavier' has a null runtime which does not comply with the dependency since runtimes are expected for film titles.",
+      "index": 7097,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Gorgeous Vortex' has a null runtime value, which is inconsistent with the dataset where titles should have runtimes listed.",
+      "index": 7098,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The film 'Leave Luck to Heaven' has a null runtime listed and should have a corresponding minute value according to the established dependency.",
+      "index": 7099,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "85 min"
+    },
+    {
+      "explanation": "The title 'Clowns' does not provide a valid runtime in minutes, which is a required dependency for determining film lengths.",
+      "index": 7102,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid runtime like '75 min'."
+    },
+    {
+      "explanation": "The title 'Friday the 13th' is missing a runtime in minutes, which violates the dependency indicating that titles should have runtimes.",
+      "index": 7118,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid runtime like '90 min'."
+    },
+    {
+      "explanation": "The title 'The Great Sketch Experiment' is missing a runtime in minutes, violating the dependency indicating that titles should have runtimes.",
+      "index": 7173,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid runtime like '85 min'."
+    },
+    {
+      "explanation": "The entry 'Innocent Blood' shows '1 hr. 53 min.' instead of a consistent minute format, violating the expected format dependency.",
+      "index": 7172,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Replace with '113 min'."
+    },
+    {
+      "explanation": "The runtime of 'Blond Poison' is missing. A title should have an associated runtime, and the absence of this information is a violation of the dependency.",
+      "index": 7219,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The runtime for 'Twilight of the Mayas' is missing. A title should have an associated runtime, and the absence of this information is a violation of the dependency.",
+      "index": 7254,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The runtime for 'The Stunt Man' is 131 min, which is unusually long for a standard film duration. A more typical runtime would range between 70 to 130 min, indicating a potential semantic error.",
+      "index": 7247,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "125 min"
+    },
+    {
+      "explanation": "The runtime for 'Kickboxer' is given as '1 hr. 38 min.', which is not consistent with the expected format. It should be '98 min'. This syntax error violates the dependency expectation.",
+      "index": 7271,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "98 min"
+    },
+    {
+      "explanation": "The runtime for 'The Spade County Massacre' is missing. A title should have an associated runtime, and the absence of this information is a violation of the dependency.",
+      "index": 7285,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The runtime for 'The Disappointments Room' is missing. A title should have an associated runtime, and the absence of this information is a violation of the dependency.",
+      "index": 7287,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "90 min"
+    },
+    {
+      "explanation": "The title '31' does not seem like a valid film title and is likely an error.",
+      "index": 7301,
+      "column": 1,
+      "annotation": 1,
+      "possible_repair": "Replace '31' with a valid film title."
+    },
+    {
+      "explanation": "The film 'Big Momma's House 2' should have a runtime instead of null, as films typically have defined lengths.",
+      "index": 7304,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Provide a valid runtime for 'Big Momma's House 2'."
+    },
+    {
+      "explanation": "The title 'Meanwhile' does not have a valid runtime specified; this should be filled in as every film generally has a runtime.",
+      "index": 7316,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Provide a valid runtime for 'Meanwhile'."
+    },
+    {
+      "explanation": "The title 'Losing Ferguson' does not have a valid runtime specified; this should be filled in as every film generally has a runtime.",
+      "index": 7323,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Provide a valid runtime for 'Losing Ferguson'."
+    },
+    {
+      "explanation": "The title 'Lost Soul' does not have a valid runtime specified; this should be filled in as every film generally has a runtime.",
+      "index": 7324,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Provide a valid runtime for 'Lost Soul'."
+    },
+    {
+      "explanation": "The title 'Hellevator Man' does not have a valid runtime specified; this should be filled in as every film generally has a runtime.",
+      "index": 7327,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Provide a valid runtime for 'Hellevator Man'."
+    },
+    {
+      "explanation": "The title 'Plus One' does not have a valid runtime specified; this should be filled in as every film generally has a runtime.",
+      "index": 7369,
+      "column": 10,
+      "annotation": 1,
+      "possible_repair": "Provide a valid runtime for 'Plus One'."
+    }
+  ]
+}

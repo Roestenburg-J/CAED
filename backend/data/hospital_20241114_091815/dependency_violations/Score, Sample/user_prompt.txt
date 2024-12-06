@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The percentage indicating the treatment success or recommendation (column 17) is dependent on the number of patients treated (column 18), suggesting a semantic dependency as proportions are derived from this numerical count.
+
+  The following is a formatted table with the unique data to be checked.
+  

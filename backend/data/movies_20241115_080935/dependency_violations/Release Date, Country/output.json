@@ -1,0 +1,2867 @@
+{
+  "output": [
+    {
+      "explanation": "The entry '5 March 1992 (Germany)' indicates the movie premiered in Germany, but the country listed is 'USA', which creates a semantic mismatch.",
+      "index": 9,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Update to 'Germany' in column 9"
+    },
+    {
+      "explanation": "The entry '8 July 2010 (Portugal)' indicates the movie premiered in Portugal, but the country listed is 'USA,Germany', indicating an error.",
+      "index": 23,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Update to 'Portugal' in column 9"
+    },
+    {
+      "explanation": "The entry '30 October 1986 (Argentina)' indicates the movie premiered in Argentina, but the country listed is 'USA', creating a semantic mismatch.",
+      "index": 38,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Update to 'Argentina' in column 9"
+    },
+    {
+      "explanation": "The entry 'Nov 11, 2011 Wide' does not have a proper release date format matching the specified country context and may represent an invalid entry as part of the dependency check.",
+      "index": 57,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "Update to a structured date format that aligns with country expectations in column 3"
+    },
+    {
+      "explanation": "The entry 'Aug 21, 2015 Limited' does not have a proper release date format according to the dependency required, leading to inconsistency with listed country 'USA,Switzerland'.",
+      "index": 59,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "Update to a structured date format that aligns with country expectations in column 3"
+    },
+    {
+      "explanation": "The release date of '11 April 2013 (Argentina)' indicates that the film was released in Argentina, yet it lists 'USA' as the country of premiere. This is a semantic violation since the stated release date cannot imply a premiere in a different country.",
+      "index": 128,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date of '20 July 2012 (USA)' indicates that it premiered in the USA, yet the corresponding country of premiere includes 'USA,UK', which is misleading given the exclusive nature of the release indicated in the release date. This creates a semantic violation as it creates confusion regarding the actual release country.",
+      "index": 129,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '4 August 1999 (France)' indicates a premiere in France; however, it incorrectly pairs with 'USA' in the country column. Therefore, it creates a semantic violation as the film must have premiered in its release country's indicated geographical context.",
+      "index": 107,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The entry '23 December 1961 (Japan)' indicates it was a Japanese premiere, paired with 'USA' as the country of premiere, leading to a semantic violation since the geographical context does not align correctly.",
+      "index": 153,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The premiere status indicated by '31 October 2008 (USA)' lists 'UK,USA,France' as its countries of premiere which conflicts with the movie's indication of being a US release. This contradiction leads to a semantic violation as the release date context cannot support multiple countries of premiere.",
+      "index": 187,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '1973 (UK)' implies a premiere in the UK, which is inconsistent with the country specified as 'USA'.",
+      "index": 205,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "13 February 1973 (USA)"
+    },
+    {
+      "explanation": "The release date '10 October 1980 (Finland)' implies a premiere in Finland, which contradicts the specified country 'USA'.",
+      "index": 206,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "10 October 1980 (USA)"
+    },
+    {
+      "explanation": "The release date '23 March 1973 (Finland)' indicates a Finnish premiere, which conflicts with the stated country 'USA'.",
+      "index": 208,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "23 March 1973 (USA)"
+    },
+    {
+      "explanation": "The release date '7 March 1965 (USA)' is associated with 'France,Italy,USA', which is incorrect because the release is only for the USA.",
+      "index": 221,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "7 March 1965 (USA)"
+    },
+    {
+      "explanation": "The release date '20 August 1981 (Argentina)' suggests a premiere in Argentina, which conflicts with the specified country 'USA'.",
+      "index": 243,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "20 August 1981 (USA)"
+    },
+    {
+      "explanation": "The release date '24 September 1969 (USA)' contains multiple country mentions ('Spain,West Germany,UK,USA') which incorrectly includes countries outside of the premiere's indication.",
+      "index": 247,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "24 September 1969 (USA)"
+    },
+    {
+      "explanation": "The release date (7 November 2013) indicates a premiere in Greece, which does not align with the country listing that states 'USA'.",
+      "index": 328,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Greece"
+    },
+    {
+      "explanation": "The release date (26 January 1990) indicates a premiere in Portugal, which does not align with the country listing that states 'Spain,USA'.",
+      "index": 377,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Portugal"
+    },
+    {
+      "explanation": "The release date (12 August 2014) indicates a premiere in the Netherlands, which does not align with the country listing that states 'USA'.",
+      "index": 371,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Netherlands"
+    },
+    {
+      "explanation": "The release date '31 October 1969 (West Germany)' indicates a premiere in West Germany, while the country listed is USA, which means they do not match.",
+      "index": 436,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "31 October 1969 (USA)"
+    },
+    {
+      "explanation": "Entry 509 ('24 February 1927 (France)') indicates a premiere in France, but its release date indicates that it should not have USA in its country entry, hence a conflict.",
+      "index": 509,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Entry 518 ('30 August 1952 (USA)') states it premiered in USA but the release date does not allow for it to have 'USA' in the country entry as also seen in the upcoming entries",
+      "index": 518,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "Entry 528 ('15 March 1965 (Denmark)') indicates a premiere in Denmark, which contradicts its country of USA; hence this is a conflict as it's supposed to indicate an incorrect country of premiere.",
+      "index": 528,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Denmark"
+    },
+    {
+      "explanation": "Entry 536 ('22 June 1979 (USA)') indicates it should have 'USA' as a country, however it lists both 'UK,USA' which contains a contradiction.",
+      "index": 536,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Entry 559 ('18 December 1966 (USA)') indicated that it may premiere in three countries, including 'Italy' which contradicts its USA release date.",
+      "index": 559,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '9 January 1956 (Brazil)' indicates a premiere in Brazil, while the corresponding entry for country shows 'USA'. This is inconsistent as the date suggests a Brazilian premiere.",
+      "index": 606,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Germany"
+    },
+    {
+      "explanation": "The entry '30 March 2002 (USA)' indicates a premiere in the USA, but the corresponding country value shows 'UK,Germany,USA', which is inconsistent as it includes two countries that don't match the primary release date country.",
+      "index": 605,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '24 August 2011 (Iceland)' indicates a premiere in Iceland, but the corresponding country entry is 'USA', which is inconsistent with the release date's indication.",
+      "index": 626,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Iceland"
+    },
+    {
+      "explanation": "The release date '26 March 1993 (Brazil)' indicates a premiere in Brazil but the corresponding entry for country shows 'USA,Canada', which is inconsistent with the indicated release in Brazil.",
+      "index": 621,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil,Canada"
+    },
+    {
+      "explanation": "The entry '28 March 1984 (France)' indicates a premiere in France, while the corresponding country value shows 'USA', which is inconsistent as it doesn't match the indicated premiere country.",
+      "index": 635,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '5 November 2013 (USA)' indicates a premiere in the USA but has a corresponding country entry which erroneously includes 'France', causing inconsistency in identified release region.",
+      "index": 675,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry '24 January 1958 (Finland)' indicates a premiere in Finland, but the country states 'USA', which is inconsistent with the release date format.",
+      "index": 711,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'USA' from column 9 and replace with 'Finland'"
+    },
+    {
+      "explanation": "The entry '30 March 2012 (UK)' indicates a premiere in the UK, whereas the country states 'USA,UK,Germany', creating a mismatch with the release date.",
+      "index": 720,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Adjust column 9 to 'UK'"
+    },
+    {
+      "explanation": "The entry '2015 (Chile)' suggests a Chile premiere, yet the country indicates 'USA', which violates the dependency described.",
+      "index": 755,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change column 9 to 'Chile'"
+    },
+    {
+      "explanation": "The entry '13 July 2012 (UK)' indicates a UK premiere, but the country is listed as 'USA', leading to a contradiction between the release date and the country.",
+      "index": 786,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change column 9 to 'UK'"
+    },
+    {
+      "explanation": "The entry '7 June 2014 (USA)' indicates a US premiere, however the country states 'Greece,USA', creating inconsistency.",
+      "index": 769,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove 'Greece' from column 9, keep as 'USA'"
+    },
+    {
+      "explanation": "The entry '25 December 2003 (USA)' suggests a US premiere, but the country states 'Australia,USA,UK', creating a mismatch.",
+      "index": 797,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change column 9 to 'USA'"
+    },
+    {
+      "explanation": "The entry '28 March 2014 (USA)' implies a US premiere, yet claims 'USA', which should not include additional regions.",
+      "index": 758,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Remove additional entries from column 9."
+    },
+    {
+      "explanation": "The entry '8 August 2012 (France)' indicates a premiere in France, however the country states 'USA'. This is inconsistent with the indicated release context.",
+      "index": 723,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change column 9 to 'France'"
+    },
+    {
+      "explanation": "The release date includes 'Australia', while the country provided is 'USA'. This is inconsistent since the USA does not premiere movies in Australia.",
+      "index": 811,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'Australia'."
+    },
+    {
+      "explanation": "The release date indicates a premiere in 'Netherlands', while the country provided is 'Netherlands,USA,UK,France'. This is inconsistent as the primary premiere location is Netherlands.",
+      "index": 822,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'Netherlands'."
+    },
+    {
+      "explanation": "The release date includes 'Australia', while the country provided contains 'USA'. This is inconsistent since the USA does not premiere movies in Australia for this entry.",
+      "index": 851,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'Australia'."
+    },
+    {
+      "explanation": "The release date indicates 'Brazil', while the country provided is 'USA'. This is inconsistent since the USA does not premiere movies in Brazil for this entry.",
+      "index": 855,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'Brazil'."
+    },
+    {
+      "explanation": "The release date indicates 'UK', while the country provided also contains 'USA'. This is inconsistent since the USA does not premiere movies in the UK for this entry.",
+      "index": 879,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'UK'."
+    },
+    {
+      "explanation": "The release date indicates 'West Germany', while the country provided is 'USA'. This is inconsistent since the USA does not premiere movies in West Germany for this entry.",
+      "index": 890,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'West Germany'."
+    },
+    {
+      "explanation": "The release date indicates 'Argentina' while the country provided is 'USA'. The USA does not premiere movies in Argentina for this entry, which is inconsistent.",
+      "index": 892,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'Argentina'."
+    },
+    {
+      "explanation": "The release date indicates 'Ireland' while the country provided is 'USA'. The USA does not premiere movies in Ireland for this entry, which is inconsistent.",
+      "index": 895,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'Ireland'."
+    },
+    {
+      "explanation": "The release date contains 'UK', but the provided country is 'USA' which indicates a premiere location that does not match the release date.",
+      "index": 897,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to 'UK'."
+    },
+    {
+      "explanation": "The release dates contain specific countries like 'Brazil', 'Argentina', and 'West Germany', while the primary country listed is 'USA', which is inconsistent with the movie release locations.",
+      "index": 883,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Change to include 'USA', 'Brazil', 'Argentina', or 'West Germany' appropriately."
+    },
+    {
+      "explanation": "The release date 'Dec 14, 2007 Wide' does not follow the expected format of 'DD Month YYYY (Country)'. The format includes a specific country that is missing here, making the entry invalid.",
+      "index": 910,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "14 December 2007 (USA)"
+    },
+    {
+      "explanation": "The date entry '2017 (USA)' does not provide a specific day or month, violating the expected format of 'DD Month YYYY (Country)'. It is thus considered invalid as it does not conform to the dependency rule.",
+      "index": 930,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "01 January 2017 (USA)"
+    },
+    {
+      "explanation": "The release date 'January 1976 (USA)' lacks a specific day, which violates the expected format of 'DD Month YYYY (Country)'. This makes it an improper entry in the context of the dependency defined.",
+      "index": 963,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "01 January 1976 (USA)"
+    },
+    {
+      "explanation": "The release date 'January 2015 (USA)' does not include a day, which violates the necessary format of 'DD Month YYYY (Country)'. This is an invalid entry due to the incomplete date.",
+      "index": 987,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "01 January 2015 (USA)"
+    },
+    {
+      "explanation": "The release date '4 May 2015 (Norway)' indicates a premiere in Norway, which contradicts the country 'USA'.",
+      "index": 1004,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '9 May 2014 (UK)' indicates a premiere in the UK, which contradicts the country 'USA'.",
+      "index": 1007,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '25 April 2014 (Canada)' indicates a premiere in Canada, which contradicts the country 'UK,USA'.",
+      "index": 1008,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '2015 (Russia)' indicates a premiere in Russia, which contradicts the country 'USA,Russia'.",
+      "index": 1016,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '18 January 2002 (USA)' indicates a premiere in USA, which contradicts the country 'Canada,USA'.",
+      "index": 1030,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '2 September 1992 (France)' indicates a premiere in France, which contradicts the country 'USA'.",
+      "index": 1044,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '12 March 1969 (USA)' contradicts the country 'Yugoslavia,USA', as it suggests a premiere in Yugoslavia.",
+      "index": 1084,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '15 October 1953 (Australia)' indicates a premiere in Australia, which contradicts the country 'USA'.",
+      "index": 1097,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '16 September 1960 (France)' indicates a premiere in France, while the country is listed as 'USA'. This is inconsistent because the premiere should correspond to the country indicated in the date.",
+      "index": 1100,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "16 September 1960 (USA)"
+    },
+    {
+      "explanation": "The release date '17 June 1947 (Argentina)' suggests a premiere in Argentina but lists 'USA' as the country. This is incorrect as the country must match the release date information.",
+      "index": 1101,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "17 June 1947 (USA)"
+    },
+    {
+      "explanation": "The release date '25 August 1950 (Australia)' indicates an Australian premiere, but 'USA' is given as the country. This is a violation of the dependency since the countries should match.",
+      "index": 1103,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "25 August 1950 (USA)"
+    },
+    {
+      "explanation": "The date '10 January 1938 (Brazil)' shows a premiere in Brazil while the country is mentioned as 'USA'. This inconsistency highlights a dependency violation between the two columns.",
+      "index": 1108,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "10 January 1938 (USA)"
+    },
+    {
+      "explanation": "The release date 'May 4, 2007 Wide' does not conform to the expected format of including a country, thus violating the dependency since it doesn't clarify where the premiere occurred whereas the country is specified as 'USA'.",
+      "index": 1137,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "4 May 2007 (USA)"
+    },
+    {
+      "explanation": "The release date '10 December 2010 (USA)' indicates a premiere in the USA, but lists additional countries 'France,Italy' in the corresponding entry, creating a mismatch and violating the dependency.",
+      "index": 1152,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "10 December 2010 (USA)"
+    },
+    {
+      "explanation": "The release date '19 December 2001 (USA)' states a USA premiere but lists 'New Zealand,USA' under country. The discrepancy violates the dependency rule.",
+      "index": 1163,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "19 December 2001 (USA)"
+    },
+    {
+      "explanation": "The entry '21 November 2002 (Peru)' indicates the release in Peru, but 'USA,Germany' suggests it premiered there instead, which is contradictory.",
+      "index": 1200,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Peru"
+    },
+    {
+      "explanation": "The entry 'Aug 8, 2003 Wide' does not conform to the release date format, leading to ambiguity about the release context.",
+      "index": 1201,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "8 August 2003 (USA)"
+    },
+    {
+      "explanation": "The entry '3 November 1977 (Netherlands)' indicates the movie released in the Netherlands, but 'USA' as the country of premiere is inconsistent.",
+      "index": 1231,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Netherlands"
+    },
+    {
+      "explanation": "The entry '9 April 1942 (Australia)' indicates a release in Australia, but the corresponding country is listed as 'USA', which is incorrect.",
+      "index": 1255,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Australia"
+    },
+    {
+      "explanation": "The entry '2010 (USA)' format is inconsistent with the expected date format which should include a day and month, violating the dependency.",
+      "index": 1213,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "1 January 2010 (USA)"
+    },
+    {
+      "explanation": "The entry 'January 1990 (USA)' does not adhere to the required release date format, which should include a complete date with day, month, and year.",
+      "index": 1292,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "1 January 1990 (USA)"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Sweden (UK), which is inconsistent with the country being listed as USA.",
+      "index": 1321,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Chile, which is inconsistent with the country being listed as USA,Chile.",
+      "index": 1323,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Chile"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Peru, which is inconsistent with the country being listed as Peru,USA.",
+      "index": 1379,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Peru"
+    },
+    {
+      "explanation": "The release date indicates a premiere in West Germany, which is inconsistent with the country being listed as USA, Germany, Hungary.",
+      "index": 1384,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Romania, which is inconsistent with the country being listed as Romania, USA, Italy, Poland, France.",
+      "index": 1387,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Spain, which is inconsistent with the country being listed as Spain, USA, Hungary, France.",
+      "index": 1388,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in France, which does not match with the country being recorded as France, USA.",
+      "index": 1393,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in UK, which is inconsistent with the country being listed as USA.",
+      "index": 1397,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date 'September 1997 (Portugal)' indicates a premiere in Portugal, but the country listed is 'USA', which is inconsistent with the release date information.",
+      "index": 1431,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Portugal"
+    },
+    {
+      "explanation": "The release date '2015 (South Africa)' indicates a premiere in South Africa, but the country listed is 'USA', which is inconsistent with the release date information.",
+      "index": 1462,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,South Africa"
+    },
+    {
+      "explanation": "The release date 'April 2015 (Netherlands)' indicates a premiere in the Netherlands, but the country listed is 'USA', which is inconsistent with the release date information.",
+      "index": 1463,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Netherlands"
+    },
+    {
+      "explanation": "The release date '18 April 2014 (USA)' indicates a premiere in the USA, but the country listed is 'UK,China,USA', which is inconsistent as 'USA' should be the only primary country listed.",
+      "index": 1493,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '7 October 2010 (Netherlands)' indicates a premiere in the Netherlands, which does not match the country 'USA'.",
+      "index": 1506,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "7 October 2010 (USA)"
+    },
+    {
+      "explanation": "The release date '14 July 2006 (UK)' indicates a release in the UK, but the corresponding country data lists 'USA', which is a contradiction.",
+      "index": 1605,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '25 September 2015 (Italy)' indicates a release in Italy, but the corresponding country data lists 'USA', which is a contradiction.",
+      "index": 1659,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '1 May 2013 (Philippines)' indicates a release in the Philippines, but the corresponding country data lists 'USA', which is a contradiction.",
+      "index": 1689,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '14 October 1967 (Japan)' indicates a release in Japan, but the corresponding country data lists 'USA', which is a contradiction.",
+      "index": 1663,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '28 March 2006 (China)' implies a China premiere, but the corresponding country list only contains 'USA', indicating a violation.",
+      "index": 1710,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "China"
+    },
+    {
+      "explanation": "The release date '10 November 2011 (Croatia)' implies a Croatia premiere, but the corresponding country list is 'USA', indicating a violation.",
+      "index": 1713,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Croatia"
+    },
+    {
+      "explanation": "The release date '7 February 2003 (Norway)' implies a Norway premiere, but the corresponding country list is 'USA', indicating a violation.",
+      "index": 1718,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Norway"
+    },
+    {
+      "explanation": "The release date '24 October 2007 (France)' implies a France premiere, but the corresponding country list indicates both 'France' and 'USA'. However, this is a unique case of ambiguity.",
+      "index": 1722,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '20 September 2002 (Greece)' implies a Greece premiere, but the corresponding country list only contains 'USA', indicating a violation.",
+      "index": 1727,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Greece"
+    },
+    {
+      "explanation": "The release date '4 July 2008 (Mexico)' implies a Mexico premiere, but the corresponding country list is 'USA', indicating a violation.",
+      "index": 1752,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Mexico"
+    },
+    {
+      "explanation": "The release date '8 November 1985 (USA)' implies a USA premiere, but the corresponding values include 'Yugoslavia', which contradicts the implication since it should be 'USA'.",
+      "index": 1781,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '22 June 1954 (Japan)' implies a Japan premiere, but the corresponding country list is 'USA', indicating a violation.",
+      "index": 1788,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Argentina, but the country is incorrectly stated as USA. This is a semantic violation since the country does not align with the release context.",
+      "index": 1816,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Sweden, but the country stated is USA. This is a semantic violation since the country does not align with the release context.",
+      "index": 1821,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Belgium, but the country is incorrectly stated as USA. This is a semantic violation since the country does not align with the release context.",
+      "index": 1841,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Belgium"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in UK, Czech Republic, and Germany but the corresponding country should only represent the country of release from the date",
+      "index": 1842,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Turkey, but the country is incorrectly stated as USA. This is a semantic violation since the country does not align with the release context.",
+      "index": 1840,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Turkey"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in West Germany, but the country is incorrectly stated as USA. This is a semantic violation since the country does not align with the release context.",
+      "index": 1870,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "West Germany"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in France, but the country is incorrectly stated as USA. This is a semantic violation since the country does not align with the release context.",
+      "index": 1873,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '28 October 1994 (USA)' states the movie premiered in the USA, but the country stated is 'France,USA', which is incorrect as the main location should be USA only.",
+      "index": 1908,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '26 May 2011 (Belarus)' states the movie premiered in Belarus, but the country stated is 'USA,Germany,Saudi Arabia', which should have only listed Belarus.",
+      "index": 1909,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Belarus"
+    },
+    {
+      "explanation": "The release date '10 March 2000 (UK)' indicates the movie premiered in the UK but states the country as 'UK,USA'. It should only list the UK.",
+      "index": 1911,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date '9 September 2005 (UK)' indicates the movie premiered in the UK but states the country as 'USA,UK'. It should only list the UK.",
+      "index": 1912,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date '9 November 2012 (Bulgaria)' should imply Bulgaria as the location but states 'USA,France' which does not align with the release date.",
+      "index": 1915,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Bulgaria"
+    },
+    {
+      "explanation": "The release date '17 December 2014 (USA)' indicates a premiere in the USA but lists 'New Zealand,USA', which incorrectly includes New Zealand.",
+      "index": 1919,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '25 December 2008 (USA)' indicates a premiere in the USA but states 'UK,USA', which should specifically only reference USA.",
+      "index": 1923,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '11 March 1994 (USA)' indicates a premiere in the USA but the countries mentioned are 'UK,Germany,USA', which incorrectly includes nations.",
+      "index": 1945,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '5 May 2006 (USA)' indicates a premiere in the USA but incorrectly lists 'USA,Germany,China'. It should only state USA.",
+      "index": 1944,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '7 October 2011 (USA)' indicates a premiere in the USA but states 'USA,India', which is an undesired inclusion since the entry suggests USA only.",
+      "index": 1997,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '12 October 1946 (Sweden)' indicates a premiere in Sweden but states 'USA', which is incorrect as it should only list Sweden.",
+      "index": 1999,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The entry '31 December 1997 (Poland)' in the release date indicates a premiere in Poland while the corresponding country is USA, which is inconsistent with the specified dependency.",
+      "index": 2055,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "31 December 1997 (USA)"
+    },
+    {
+      "explanation": "The release date '17 July 2008 (Greece)' suggests the premiere occurred in Greece, but the country entry is 'USA'. This is inconsistent as the country does not align with the release date's indication.",
+      "index": 2119,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '20 January 1978 (Finland)' indicates a premiere in Finland, which mismatches the country entry 'USA'. This inconsistency denotes an error as the country should align with the release date.",
+      "index": 2120,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Finland"
+    },
+    {
+      "explanation": "The release date '21 September 2014 (UK)' implies a premiere in the UK, but the country entry is 'USA', which is a conflict and indicates a violation of the stated dependency.",
+      "index": 2127,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date '23 January 2015 (South Africa)' suggests the premiere took place in South Africa, but the country is indicated as 'USA,Italy', creating a violation as it doesn't match with the release date's context.",
+      "index": 2128,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Africa"
+    },
+    {
+      "explanation": "The release date '10 November 2000 (USA)' signifies that the premiere happened in the USA; however, the country is incorrectly listed as 'USA,Canada', which implies additional locations that are not supported by the format of its release date, thereby constituting a violation.",
+      "index": 2158,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Portugal' is incorrect as the release date indicates the film premiered in 'USA'. This creates a semantic violation.",
+      "index": 2208,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Sweden' is incorrect; the release date indicates the film premiered in 'USA'. This is a semantic violation.",
+      "index": 2227,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Sweden' contradicts the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2231,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Lithuania' contradicts the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2241,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Brazil' contradicts the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2251,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Italy' contradicts the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2271,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Kuwait' contradicts the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2275,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The country 'Germany' contradicts the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2285,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The multiple countries 'Bermuda,Ecuador' contradict the release date indicating 'USA'. This is a semantic violation.",
+      "index": 2296,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date format includes 'Netherlands', but the country of premiere is 'USA', which is inconsistent with the release location indicated by the date.",
+      "index": 2326,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "20 June 2013 (USA)"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Germany, but the corresponding countries listed include only the USA, which is inconsistent with the country implied by the release date.",
+      "index": 2404,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Germany, but the corresponding country is listed as USA, which contradicts the geographical context provided by the date.",
+      "index": 2443,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in South Korea, but the country listed is USA, which contradicts the context of the premiere based on the date.",
+      "index": 2459,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Korea"
+    },
+    {
+      "explanation": "The release date indicates a premiere in South Africa, but the countries listed include USA, which is inconsistent with the country implied by the release date.",
+      "index": 2463,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Africa"
+    },
+    {
+      "explanation": "The release date indicates a premiere in France, but the corresponding countries listed include only USA, which is inconsistent with the country implied by the release date.",
+      "index": 2483,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The entry 'Mar 9, 1994 Wide' indicates a release format of 'Wide', but should indicate a country of premiere as per the dependency. The presence of 'Wide' suggests that the entry may be misformatted or contains additional words that mislead the identification of the country.",
+      "index": 2510,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "March 9, 1994 (USA)"
+    },
+    {
+      "explanation": "The entry '2002 (Mexico)' does not include a day and is missing the month. It also states 'Mexico' as the country while the release date does not match the conventional format, leading to ambiguity about the actual premiere location.",
+      "index": 2563,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "January 1, 2002 (Mexico)"
+    },
+    {
+      "explanation": "The entry '2010 (USA)' only includes a year without a specific month or day, which does not meet the expected format for a release date. This means it cannot be semantically linked to a specific country premiere.",
+      "index": 2580,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "January 1, 2010 (USA)"
+    },
+    {
+      "explanation": "The entry 'Jul 7, 2003 Wide' includes 'Wide', which suggests a release format rather than adhering to the date format required by the dependency. This violates the expected data structure which should indicate a country.",
+      "index": 2584,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "July 7, 2003 (USA)"
+    },
+    {
+      "explanation": "The release date '6 July 2012 (Brazil)' implies that the premiere was in Brazil, but the country listed is 'USA'. This is a violation of the geographical context indicated by the release date.",
+      "index": 2611,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "6 July 2012 (USA)"
+    },
+    {
+      "explanation": "The release date '2 June 2000 (USA)' suggests a premiere in the USA, but the country listed is 'USA,France,South Africa', which conflicts with the single implication of the release date.",
+      "index": 2612,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "2 June 2000 (USA)"
+    },
+    {
+      "explanation": "The release date '11 November 2014 (Netherlands)' indicates a release in the Netherlands, but the country is listed as 'USA'. This inconsistency signifies a violation.",
+      "index": 2615,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "11 November 2014 (USA)"
+    },
+    {
+      "explanation": "The release date '6 January 1944 (Australia)' indicates a premiere in Australia, but the country given is 'USA', which does not match the indicated geographic context.",
+      "index": 2617,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "6 January 1944 (USA)"
+    },
+    {
+      "explanation": "The release date '22 February 2007 (Germany)' implies a premiere in Germany, yet the country listed is 'USA', violating the contextual dependency of premiere country.",
+      "index": 2640,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "22 February 2007 (USA)"
+    },
+    {
+      "explanation": "The release date '13 August 1945 (Brazil)' indicates a premiere in Brazil, but 'USA' is listed as the country, constituting a dependency violation.",
+      "index": 2666,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "13 August 1945 (USA)"
+    },
+    {
+      "explanation": "The release date '22 September 2011 (Kuwait)' shows a premiere in Kuwait, while the country listed is 'USA', violating the expected spatial relationship.",
+      "index": 2650,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "22 September 2011 (USA)"
+    },
+    {
+      "explanation": "The release date '3 July 1948 (USA)' suggests a premiere in the USA, which is correct, but the country is inaccurately recorded as 'USA,UK', violating the expected dependency.",
+      "index": 2690,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "3 July 1948 (USA)"
+    },
+    {
+      "explanation": "The release date '8 April 1953 (France)' indicates a premiere in France, but the country is listed as 'USA', creating a semantic mismatch.",
+      "index": 2706,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '20 April 1945 (Portugal)' indicates a premiere in Portugal, but the country is listed as 'USA'.",
+      "index": 2710,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Portugal"
+    },
+    {
+      "explanation": "The release date '30 October 1942 (Mexico)' indicates a premiere in Mexico, but the country is listed as 'USA'.",
+      "index": 2712,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Mexico"
+    },
+    {
+      "explanation": "The release date '19 April 1929 (Ireland)' indicates a premiere in Ireland, but the country is listed as 'USA'.",
+      "index": 2727,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Ireland"
+    },
+    {
+      "explanation": "The release date '14 April 1958 (Brazil)' indicates a premiere in Brazil, but the country is listed as 'USA'.",
+      "index": 2728,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date '8 September 1973 (Italy)' indicates a premiere in Italy, but the countries listed are 'Italy,USA', suggesting ambiguity. The norms would typically assume it premiered in Italy first.",
+      "index": 2731,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date '11 July 2014 (USA)' but the country is listed as 'South Korea,Czech Republic,USA,France', which is inconsistent as it contradicts the implied premiere location.",
+      "index": 2745,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date 'Jan 8, 2010 Wide' does not contain a valid country of origin in the release date, while the corresponding country is listed as 'Australia,USA', creating ambiguity and inconsistency in identification.",
+      "index": 2747,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '6 August 2014 (USA)' indicates a premiere in the USA, but the countries listed are 'USA,UK', shifting the context and creating inconsistency.",
+      "index": 2749,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '20 November 1963 (USA)' but the country is incorrectly listed as 'Canada,USA', which is ambiguous for premiere identification.",
+      "index": 2778,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '12 July 1961 (USA)' indicates a premiere in the USA, while the country is recorded as 'USA,Canada', creating ambiguity as this suggests international release.",
+      "index": 2776,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '5 June 1981 (USA)' implies a premiere in USA, but it raises ambiguity as 'USA' is related to multiple releases and countries.",
+      "index": 2767,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date 'Apr 4, 2007 Wide' refers to a general release format and is incompatible with the country designation 'Canada,USA' if considering that such formats are typically not associated with country-specific releases.",
+      "index": 2800,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "Apr 4, 2007 (USA)"
+    },
+    {
+      "explanation": "The release date '13 November 1998 (USA)' contradicts the country 'USA,Canada' because 'USA' in the date suggests an exclusive release in the USA, not jointly with Canada.",
+      "index": 2801,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '1 March 1991 (USA)' indicates it was released exclusively in the USA, hence the presence of 'Norway,Sweden,USA' as countries is contradictory since it implies multiple releases.",
+      "index": 2805,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '22 October 2010 (India)' does not match the countries listed 'India,USA', as the format suggests a specific Indian release which is generally not attached to the USA as an indicator in the same instance.",
+      "index": 2814,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "22 October 2010 (USA)"
+    },
+    {
+      "explanation": "The release date '14 December 2007 (UK)' cannot imply 'USA,UK' because a UK release would not suggest a direct implication of simultaneous capability with the USA.",
+      "index": 2816,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry '15 August 2008 (USA)' has a country list 'Spain,USA', creating a contradiction since the USA mark suggests a potential exclusivity to the USA.",
+      "index": 2821,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The date '21 February 2012 (UK)' indicates a release primarily in the UK, contradicting 'USA' in the countries list; thus, it's an inconsistency suggesting an erroneous pairing.",
+      "index": 2852,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry '5 July 2012 (Russia)' signifies a release in Russia, while 'USA' in the country list creates confusion, as it implies a simultaneous presence not indicated by the original release country.",
+      "index": 2857,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Russia"
+    },
+    {
+      "explanation": "The date '3 March 2006 (UK)' suggests a release in the UK, while the countries listed as 'UK,USA' imply an unwanted duality that's improbable without specific context.",
+      "index": 2886,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date '4 November 2016 (USA)' signifies purely a USA release while the country list 'USA' supports it but is more validly marked as exclusive.",
+      "index": 2894,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "4 November 2016 (USA)"
+    },
+    {
+      "explanation": "The release date '14 August 2001 (USA)' implies the premiere was in the USA, but 'Canada,USA' is listed as the country. It contradicts the context of the release date, which indicates a premiere in the USA.",
+      "index": 2903,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '8 February 2007 (Israel)' implies the premiere was in Israel, but 'USA' is listed as the country. There is a contradiction between the release context and the country specified.",
+      "index": 2904,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Israel"
+    },
+    {
+      "explanation": "The release date '1 July 2016 (USA)' implies the premiere was in the USA, but 'USA,UK' is listed as the country. The value contains an inconsistent suggestion about the country of premiere.",
+      "index": 2908,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '5 April 2001 (Singapore)' implies the premiere was in Singapore, but is incorrectly stated as 'USA'. There is a clear contradiction between the release context and the country referenced.",
+      "index": 2919,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Singapore"
+    },
+    {
+      "explanation": "The release date '8 March 2007 (Hungary)' suggests that the premiere was in Hungary, while 'USA,Germany,Hungary' as the country is incorrect. This creates a contradiction since Hungary is already established.",
+      "index": 2923,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Hungary"
+    },
+    {
+      "explanation": "The release date '19 July 2014 (Japan)' implies that the premiere was in Japan, yet 'USA' is marked as the country. This creates a contradiction between the release context and what is declared as the country of the premiere.",
+      "index": 2926,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The entry '13 January 2010 (France)' suggests a premiere in France, while 'USA' is indicated as the country, causing a mismatch between the release context and the stated country.",
+      "index": 2951,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '15 April 2016 (USA)' denotes a premiere in the USA, yet 'UK,USA' is claimed as the country. This value fails to align with the data implied by the release date, indicating a discrepancy.",
+      "index": 2987,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '2016 (USA)' implies an incomplete or incorrect date but indicates a premiere in the USA. However, with 'USA,Canada', it signals an inconsistency with the presented context.",
+      "index": 2994,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a US premiere, but the country listed is 'USA,UK', which is inconsistent as it implies a premiere in two countries simultaneously.",
+      "index": 3002,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a US premiere, but the country listed is 'USA', which is inconsistent with the movie being released in Denmark.",
+      "index": 3003,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Denmark"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Spain, but it lists 'Spain,USA'; however, this does not match the primary premiere in Spain.",
+      "index": 3007,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Spain"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the USA while the listed countries include 'UK,France,USA', which implies an unreleased movie could possibly be in the UK, causing inconsistency with the USA release context.",
+      "index": 3022,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a US premiere, but it lists a premiere in Australia which contradicts the single country of the release context.",
+      "index": 3068,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The statement '10 December 2004 (USA)' implies a premiere in the USA, but the listed countries include 'UK,France,USA', which introduces conflict as multiple locations cannot be the primary.",
+      "index": 3016,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date suggests this movie premiered in the UK but lists 'USA', which presents a mismatched context since it suggests it also premiered in the USA.",
+      "index": 3040,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The premiere date suggests a movie released in USA yet shows a release in Germany, creating confusion as the context does not justify dual country representation, thus an inconsistency.",
+      "index": 3042,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Brazil, but the country listed is USA, which contradicts the implication of the release date.",
+      "index": 3107,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in France, but the country listed is USA, which contradicts the release date's geographical context.",
+      "index": 3112,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Hungary, but the country listed is USA, which contradicts the geographical context of the release date.",
+      "index": 3122,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Hungary"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in UK, but the country listed is USA, which contradicts the geographical context of the release date.",
+      "index": 3124,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in the specified countries, but the country listed is USA, which does not match the choices of countries inferred from the release date.",
+      "index": 3135,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK,Australia"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Uzbekistan, but the country listed is USA, which contradicts the geographical context of the release date.",
+      "index": 3174,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Israel"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Sweden, but the country listed is USA, which contradicts the geographical context of the premiere indicated by the release date.",
+      "index": 3164,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Hungary, but the country listed is USA, which contradicts the geographical context of the premiere indicated by the release date.",
+      "index": 3152,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Hungary"
+    },
+    {
+      "explanation": "The entry 'USA,UK,Germany' does not match the country of release indicated in '17 March 2006 (USA)' because the movie should not premiere in multiple countries if the date indicates a single premiere location, which is USA.",
+      "index": 3203,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'UK,USA,Ireland' does not align with the release date '18 December 1975 (USA)', as it implies that the movie premiered in multiple countries instead of just USA based on the release date.",
+      "index": 3205,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'France,USA' does not fit the release date '9 May 2008 (UK)', as it suggests an incorrect country of premiere conflicting with the UK release date, indicating the movie's primary location.",
+      "index": 3214,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'USA' contradicts the release date '24 November 2012 (Spain)', as it cannot premiere in multiple countries when the date indicates a specific single premiere location.",
+      "index": 3215,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Spain"
+    },
+    {
+      "explanation": "The entry 'USA,UK,Spain,Germany,Morocco' conflicts with '6 May 2005 (USA)', as the release date indicates a US premiere which should not include multiple other countries.",
+      "index": 3218,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'USA' contradicts '29 April 1969 (Japan)', as indicating only the USA while the release date suggests a premiere in Japan.",
+      "index": 3241,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The entry 'USA,Germany' does not match with '30 October 2015 (Turkey)', as it suggests a multiple-country premiere in conflict with the Turkey reference.",
+      "index": 3268,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Turkey"
+    },
+    {
+      "explanation": "The entry 'UK,USA,Switzerland' conflicts with '14 March 2014 (UK)', as the movie should be indicated as only having premiered in UK based on the date.",
+      "index": 3288,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'Spain,USA' contradicts '2 October 2014 (USA)', as a US release date should not suggest a premiere in any other countries.",
+      "index": 3298,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '13 January 2004 (Finland)' does not correspond with the country 'USA' which is implied by the release date, as the movie premiered in Finland.",
+      "index": 3323,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Finland"
+    },
+    {
+      "explanation": "The release date '26 February 2003 (France)' does not match with the country 'France' in column 9, implying a conflict between the geographical context and the premiere country.",
+      "index": 3342,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '12 May 2006 (Canada)' contradicts the country 'USA', leading to a violation of the dependency between release date and corresponding premiere country.",
+      "index": 3362,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The release date '7 November 2013 (Germany)' conflicts with the country 'USA' which suggests an incorrect geographical context of the premiere.",
+      "index": 3377,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date '12 December 2014 (UK)' does not align with the country 'Nepal' as suggested by the premiere, resulting in a semantic violation.",
+      "index": 3381,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date '25 February 1994 (Brazil)' has a country of 'USA' which is a mismatch since the date indicates that it premiered in Brazil.",
+      "index": 3403,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date '8 July 1990 (UK)' indicates a premiere in the UK, but the country is listed as 'USA', creating a mismatch.",
+      "index": 3408,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry '9 February 1979 (West Germany)' should imply 'West Germany' as the country, but it incorrectly lists 'USA'.",
+      "index": 3416,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "West Germany"
+    },
+    {
+      "explanation": "The release date '23 March 2006 (Thailand)' implies a premiere in Thailand while the country is stated as 'USA', a violation.",
+      "index": 3418,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Thailand"
+    },
+    {
+      "explanation": "The entry '27 October 1965 (USA)' suggests it's a local premiere, yet the country mistakenly states 'UK,USA', which is incorrect for a USA premiere.",
+      "index": 3419,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "For the release '11 September 2002 (France)', the country should reflect France, but it is listed as 'UK,France,Egypt,Japan,Mexico,USA,Iran', creating a mismatch.",
+      "index": 3448,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release '22 April 2009 (USA)' indicates a U.S. premiere but the country entry is 'UK,Germany,USA', which is incorrect as it should reflect only the USA.",
+      "index": 3449,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release 'March 2013 (France)' suggests a French premiere while the country is noted as 'USA', resulting in a discrepancy.",
+      "index": 3463,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The date '4 January 2013 (USA)' indicates a U.S. release but the countries listed are 'USA,United Arab Emirates', suggesting an additional contradiction.",
+      "index": 3478,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry '21 September 2001 (USA)' suggests the movie premiered only in the USA but the country incorrectly lists 'USA,UK,Germany'.",
+      "index": 3481,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '16 August 1985 (USA)' indicates the movie premiered in the USA, but the given country is 'USA,France', which introduces France as a country of premiere erroneously.",
+      "index": 3502,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '6 August 1982 (Sweden)' indicates the movie premiered in Sweden, while the country given is 'USA', which does not match the release date's implication.",
+      "index": 3503,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The entry '18 January 2007 (Singapore)' implies that the movie premiered in Singapore, but the country is listed as 'USA', which is inconsistent with the release date context.",
+      "index": 3505,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Singapore"
+    },
+    {
+      "explanation": "The release date '19 September 2014 (South Africa)' implies the movie premiered in South Africa, yet the country given is 'USA', leading to a mismatch.",
+      "index": 3515,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Africa"
+    },
+    {
+      "explanation": "The date '27 May 2005 (Spain)' indicates a premiere in Spain, but the country is stated as 'USA', leading to inconsistency.",
+      "index": 3516,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Spain"
+    },
+    {
+      "explanation": "The release date '15 August 2014 (Ireland)' indicates an Irish premiere, yet the country is incorrectly listed as 'USA'.",
+      "index": 3520,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Ireland"
+    },
+    {
+      "explanation": "The entry '3 September 2014 (Netherlands)' indicates a Dutch premiere, while the country given is 'USA', which is inconsistent with the indicated premiere location.",
+      "index": 3533,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Netherlands"
+    },
+    {
+      "explanation": "The release date '30 December 2006 (USA)' indicates a premiere in the USA, but incorrectly lists 'USA,UK' as the country, creating confusion about the exclusive premiere location.",
+      "index": 3566,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The date '23 January 2009 (Brazil)' indicates a Brazilian premiere, while the country is incorrectly listed as 'USA', which violates the stated dependency.",
+      "index": 3572,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The entry '21 February 1932 (USA)' indicates a USA premiere, but the country is stated as 'USA,UK', which introduces the UK erroneously without evidence from the release date.",
+      "index": 3597,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Japan, which does not match the country which is set as USA.",
+      "index": 3600,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date indicates a premiere in South Korea, which contradicts the country set as USA.",
+      "index": 3603,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Korea"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Austria, which contradicts the country set as USA.",
+      "index": 3605,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Austria"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Belgium, which contradicts the country set as USA.",
+      "index": 3629,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Belgium"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the Philippines, which contradicts the country set as USA.",
+      "index": 3611,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Philippines"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Germany, which contradicts the country set as USA.",
+      "index": 3624,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Sweden, which contradicts the country set as USA.",
+      "index": 3642,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date indicates a premiere in France, which contradicts the country set as USA.",
+      "index": 3674,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates a battle film debuting in Japan while the country is incorrectly stated as USA.",
+      "index": 3702,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date indicates a film released in Belgium while the country is incorrectly stated as USA.",
+      "index": 3703,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Belgium"
+    },
+    {
+      "explanation": "The release date indicates a film released in Austria; it is contradictory for the country to be USA.",
+      "index": 3704,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Austria"
+    },
+    {
+      "explanation": "The release date suggests a film from West Germany while the country is incorrectly stated as USA.",
+      "index": 3707,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "West Germany"
+    },
+    {
+      "explanation": "The release date states the film premiered in Japan while the country is incorrectly listed as USA.",
+      "index": 3711,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date indicates a film from France, yet the country is stated as USA.",
+      "index": 3713,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date states a film from France while the country is incorrectly identified as USA.",
+      "index": 3718,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates a film released in Denmark but lists USA as the country instead.",
+      "index": 3725,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Denmark"
+    },
+    {
+      "explanation": "The release date suggests the film premiered in Australia but lists USA instead.",
+      "index": 3727,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Australia"
+    },
+    {
+      "explanation": "The release date indicates the premiere in Canada yet states the country as USA.",
+      "index": 3737,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The release date suggests a premiere in Brazil but incorrectly states USA as the country.",
+      "index": 3743,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date indicates a film premiere in Argentina yet marks the country as USA.",
+      "index": 3765,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Argentina while the country erroneously states USA.",
+      "index": 3772,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date suggests a premiere in Turkey yet states USA as the country instead.",
+      "index": 3777,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Turkey"
+    },
+    {
+      "explanation": "The release date indicates a film debuted in Italy while the country is incorrectly stated as USA.",
+      "index": 3781,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date suggests a film premiered in Canada where a different country is indicated as USA.",
+      "index": 3793,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the Netherlands but the country is listed as USA, which is inconsistent.",
+      "index": 3804,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Netherlands"
+    },
+    {
+      "explanation": "The release date indicates a premiere in France but the country is listed as USA, which is inconsistent.",
+      "index": 3861,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates a premiere in West Germany but the country is listed as USA, which is inconsistent.",
+      "index": 3835,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "West Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Sweden but the country is listed as USA, which is inconsistent.",
+      "index": 3822,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Japan but the country is listed as USA, which is inconsistent.",
+      "index": 3843,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Argentina but the country is listed as USA, which is inconsistent.",
+      "index": 3865,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Brazil but the country is listed as USA, which is inconsistent.",
+      "index": 3850,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The entry suggests a premiere in the USA but the release date indicates it premiered in Japan, which is a discrepancy since Japan should not be listed as it contradicts the geographical context.",
+      "index": 3934,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date is from the UK, but it indicates that the premiere is only in the USA, which is inconsistent with the geographical context provided in the dependency.",
+      "index": 3935,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Denmark while stating the country as USA, which is inconsistent with the geographical context.",
+      "index": 3965,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Denmark"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Japan, but the respective country column states USA, which violates the geographical context indicated.",
+      "index": 3968,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The entry shows a release date from Spain, yet the premiere is stated as USA which contradicts the geographical context of the premiere captured through the release date.",
+      "index": 3972,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Spain"
+    },
+    {
+      "explanation": "The release date '24 September 1980 (France)' implies that the film premiered in France, which contradicts the value 'USA' in the country column.",
+      "index": 4000,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '26 April 1976 (Sweden)' indicates that the film premiered in Sweden, but the country column states 'USA'.",
+      "index": 4001,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date '22 September 1950 (Australia)' suggests the film premiered in Australia, incompatible with 'USA' in the country column.",
+      "index": 4005,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Australia"
+    },
+    {
+      "explanation": "The entry '1953 (UK)' suggests the film was released in the UK, yet the country column states 'USA'.",
+      "index": 4010,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry '8 January 2016 (USA)' implies an exclusive USA release, conflicting with 'USA,Thailand,Hong Kong', which suggests multiple premieres.",
+      "index": 4011,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The date '20 June 2007 (Kuwait)' means the movie debuted in Kuwait, conflicted by 'UK,Bulgaria,Germany,USA'.",
+      "index": 4016,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Kuwait"
+    },
+    {
+      "explanation": "The date '9 October 2014 (Israel)' indicates a premiere in Israel, contradicting 'USA'.",
+      "index": 4018,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Israel"
+    },
+    {
+      "explanation": "The entry '13 May 2010 (France)' suggests a premiere in France, but the country column specifies 'Thailand,Hong Kong,USA'.",
+      "index": 4020,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date 'Jul 29, 2011 Limited' does not provide a country of premiere, it must align with 'USA'.",
+      "index": 4021,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry '20 August 1942 (USA)' indicates a premiere in the USA but lists conflicting countries in the next column 'UK,USA'.",
+      "index": 4040,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The date '2011 (UK)' claims the movie released in the UK, while the country column asserts 'USA,Netherlands,UK', which is inconsistent.",
+      "index": 4038,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The date '19 November 1993 (USA)' should indicate a USA premiere only, but lists 'USA,Italy' indicating a contradiction in the premiere country.",
+      "index": 4058,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The date '30 November 1990 (UK)' indicates a premiere in the UK, whereas the country states 'USA'.",
+      "index": 4062,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry '26 November 2013 (USA)' implies a release in the USA, contradicting a country listing which includes an invalid location like Thailand.",
+      "index": 4077,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The premiere country 'UK,USA' for the release date '3 April 2015 (USA)' includes UK which does not align with the release date format indicating a USA premiere.",
+      "index": 4135,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '21 January 2005 (Sweden)' indicates a Swedish premiere, yet the corresponding entry states 'USA' for country which is inconsistent with the date format.",
+      "index": 4188,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date 'Jun 1, 1997 Wide' contains the term 'Wide' which should not be part of the release date format, causing a syntactic error due to invalid syntax.",
+      "index": 4201,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "Jun 1, 1997"
+    },
+    {
+      "explanation": "The release date '28 March 2003 (USA)' claims a premiere in USA but the country indicates 'USA,Germany', which is inconsistent as there can only be one primary country per premiere.",
+      "index": 4203,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '12 June 2009 (USA)' films in the USA but the country field states 'USA,UK'. The UK should not be included if the movie premiered solely in the USA.",
+      "index": 4205,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The '10 September 2004 (USA)' release date indicates a premiere in the USA, yet the countries mentioned are 'Germany,France,UK,Canada,USA', which is contradictory since this date suggests a single country premiere.",
+      "index": 4207,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "'24 April 1969 (USA)' has a release date indicating a US premiere, but the country field says 'USA' which is acceptable, hence it does not show the logical connection triggered for error.",
+      "index": 4239,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "Although '17 October 2008 (USA)' suggests a premiere in the USA, the country field states 'Canada,USA', which presents issues regarding the premiere context being obscured by the dual indication of countries.",
+      "index": 4263,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "In '16 August 2013 (USA)', the release date points to USA, but the field states 'USA,UK,Japan'. More than one country is listed in the premiere, violating dependency principles.",
+      "index": 4273,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry '15 August 2003 (USA)' indicates a release in the US, but the countries quoted are 'USA,Canada,Italy', causing a violation in the exclusive validation of the country context.",
+      "index": 4284,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The '10 February 1994 (Argentina)' indicates a film released in Argentina, yet the premiere designated in the country is USA, which is wrong as it contradicts the expected outcome based on the date.",
+      "index": 4291,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date entry '25 October 1963 (Finland)' cannot correspond to a country premiere of 'USA'. Finland is mentioned in the release date but not in the country premiere list, leading to a contradiction.",
+      "index": 4311,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '17 July 2015 (Canada)' incorrectly suggests a premiere in Canada, yet the country listed is 'USA', creating an inconsistency in the geographical context of the premiere.",
+      "index": 4332,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The entry '26 August 2016 (USA)' should ideally have country associations that include the USA; however, the listed countries 'USA,Thailand,France' is acceptable. This check needs confirmation of external dependencies which are correct indicating a valid entry.",
+      "index": 4348,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "The release date '30 May 2014 (USA)' lists 'USA' as its premiere country, which is correct. However, verifying the associations with the release should confirm proper semantics to avoid this as unverified.",
+      "index": 4386,
+      "column": 9,
+      "annotation": 0,
+      "possible_repair": ""
+    },
+    {
+      "explanation": "For entry '12 April 2013 (France)', the country listed 'USA' does not match the release country's specifics, indicating a need for correction to match expectations of country release behavior.",
+      "index": 4374,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates Brazil for the premiere, but the country is listed as USA, which is inconsistent.",
+      "index": 4417,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates Kuwait for the premiere, but the country is listed as Argentina, Peru, USA, which is inconsistent.",
+      "index": 4423,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Kuwait"
+    },
+    {
+      "explanation": "The release date indicates China for the premiere, but the country is listed as USA, China, which is inconsistent.",
+      "index": 4420,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "China"
+    },
+    {
+      "explanation": "The release date indicates Germany for the premiere, but the country is listed as USA, which is inconsistent.",
+      "index": 4437,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates Japan for the premiere, but the country is listed as USA, Japan, South Africa, which is inconsistent.",
+      "index": 4486,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date indicates South Africa for the premiere, but the country is listed as UK, USA, which is inconsistent.",
+      "index": 4498,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Africa"
+    },
+    {
+      "explanation": "The release date column indicates a premiere in Poland, but the country column states USA, leading to a contradiction.",
+      "index": 4503,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Belgium, yet the country column states USA, resulting in a conflict.",
+      "index": 4504,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date specifies a premiere in Japan, while the country column states USA, creating a discrepancy.",
+      "index": 4526,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date shows a premiere in Mexico, yet the country column states USA, causing an inconsistency.",
+      "index": 4527,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Mexico"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Canada, but the country column states USA, resulting in a contradiction.",
+      "index": 4532,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Canada"
+    },
+    {
+      "explanation": "The release date states a premiere in Brazil, while the country column states USA, causing a semantic error.",
+      "index": 4538,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Argentina, but the country column states USA, leading to a contradiction.",
+      "index": 4549,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The release date shows a premiere in Germany, but the country column inaccurately states USA, causing a semantic error.",
+      "index": 4520,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in UK, while the country column states USA, creating a conflict.",
+      "index": 4522,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date specifies a premiere in Philippines, but the country column states USA, resulting in a discrepancy.",
+      "index": 4557,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Philippines"
+    },
+    {
+      "explanation": "The release date indicates a premiere in January 1994 (USA), which when checked indicates the country should be USA but it states UK, leading to inconsistency.",
+      "index": 4550,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date shows a premiere in Australia, while the country column states UK, which is incorrect since the date specifies USA.",
+      "index": 4553,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Australia"
+    },
+    {
+      "explanation": "A premiere is indicated in the format '2000 (USA)', which conflicts with the USA designation in the country column.",
+      "index": 4595,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Singapore, but the country listed is USA. This is inconsistent.",
+      "index": 4602,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Singapore"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Brazil, but the country listed is USA. This is inconsistent.",
+      "index": 4610,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Brazil, but the country listed is USA, UK. This is inconsistent.",
+      "index": 4614,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Hungary, but the country listed is USA. This is inconsistent.",
+      "index": 4624,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Hungary"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the Netherlands, but the country listed is Switzerland, Germany, USA. This is inconsistent.",
+      "index": 4627,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Netherlands"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Israel, but the country listed is USA. This is inconsistent.",
+      "index": 4638,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Israel"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Norway, but the country listed is USA. This is inconsistent.",
+      "index": 4650,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Norway"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Brazil, but the country listed is USA. This is inconsistent.",
+      "index": 4660,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Sweden, but the country listed is USA. This is inconsistent.",
+      "index": 4667,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Italy, but the country listed is UK, USA, Italy. This is inconsistent since it does not account only for Italy.",
+      "index": 4687,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Italy, but the country listed is USA. This is inconsistent.",
+      "index": 4687,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date entry indicates a premiere in France, but the corresponding country is listed as USA, creating a mismatch since a French premiere should reflect France in the country column.",
+      "index": 4701,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The entry indicates a country of premiere in Germany, which contradicts the USA premiere indicated in the release date, thus creating a violation of the expected dependency.",
+      "index": 4702,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date states the film premiered in the USA, yet the country of premiere includes France, which is contradictory since it cannot premiere in both countries simultaneously.",
+      "index": 4714,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "In this entry, the release date suggests a premiere in the UK, but the corresponding country claims it premiered in the USA, leading to a conflict.",
+      "index": 4717,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "Indicates a release date in the Netherlands, but incorrectly states the country as USA where it should reflect the correct release context, leading to ambiguity in origin.",
+      "index": 4718,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Netherlands"
+    },
+    {
+      "explanation": "The release details point to a premiere in Singapore, conflicting with the USA that's stated in the country column, therefore violating the dependency.",
+      "index": 4733,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Singapore"
+    },
+    {
+      "explanation": "The premiere date in Croatia should be reflected as such in the corresponding country field, but USA is improperly listed, creating a semantic inconsistency.",
+      "index": 4736,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Croatia"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Brazil, while the associated country lists USA, which violates the dependency on accurate representation of geographical premiere locations.",
+      "index": 4766,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The premiere is listed as taking place in Finland according to the release date, yet the country column mentions USA, leading to discrepancy and violation.",
+      "index": 4786,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Finland"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the Philippines and should match the corresponding country listed, but it incorrectly states USA, violating the semantic dependency.",
+      "index": 4790,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Philippines"
+    },
+    {
+      "explanation": "The release date \"15 May 2003 (Australia)\" indicates a premiere in Australia, but the corresponding country entry lists \"USA\", which is inconsistent.",
+      "index": 4800,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Australia"
+    },
+    {
+      "explanation": "The release date \"9 May 2003 (UK)\" indicates a premiere in the UK, but the corresponding country entry lists \"UK,USA\", which appears semantically ambiguous since it suggests a premiere in two locations instead of confirming the UK as the sole premiere.",
+      "index": 4801,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date \"3 August 2001 (Portugal)\" indicates a premiere in Portugal, while the corresponding country entry lists \"USA\", which is inconsistent.",
+      "index": 4803,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Portugal"
+    },
+    {
+      "explanation": "The release date \"20 October 2000 (USA)\" suggests a premiere in the USA but lists \"USA,Germany\". It could imply a premiere in both countries, which does not align with the specific USA release indicated in the date.",
+      "index": 4804,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date \"16 April 2010 (Mexico)\" indicates a premiere in Mexico but corresponds with \"USA\", which is inconsistent and does not match the indicated country of release.",
+      "index": 4807,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Mexico"
+    },
+    {
+      "explanation": "The release date \"7 November 2013 (Qatar)\" suggests a premiere in Qatar, while the corresponding entry lists \"USA\", which contradicts the specific mention of Qatar in the release date.",
+      "index": 4828,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Qatar"
+    },
+    {
+      "explanation": "The release date \"12 November 2012 (USA)\" lists countries as \"USA,South Africa\". Since the date specifies a USA release, the inclusion of South Africa is inconsistent with the dependency indicated by the release date.",
+      "index": 4846,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date \"21 February 2008 (Russia)\" implies that the premiere occurred in Russia, but the corresponding entry \"USA\" suggests otherwise.",
+      "index": 4854,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Russia"
+    },
+    {
+      "explanation": "The release date \"1988 (USA)\" suggests an unclear date but implies a USA premiere, yet the entry lists \"South Africa,USA\", which can mix implied locations based on unclear historical data.",
+      "index": 4855,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date \"21 July 2015 (Germany)\" lists a corresponding location as \"USA\", thus creating a contradiction, given the geographical specificity in the release date.",
+      "index": 4888,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Japan, but the country specified is USA, resulting in a mismatch.",
+      "index": 4903,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA,Japan"
+    },
+    {
+      "explanation": "'Wide' suggests this may not be a correct release date format and doesn't indicate a premiere country, which should match the entry in column 3 (which indicates Canada as the leading country).",
+      "index": 4905,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "29 October 2010 (Canada)"
+    },
+    {
+      "explanation": "The entry indicates a movie premiere in Hong Kong, but the country specified is USA, resulting in a mismatch.",
+      "index": 4909,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Hong Kong,USA"
+    },
+    {
+      "explanation": "(West Germany) in the release date indicates a premiere in West Germany, but the country specified is USA, resulting in a mismatch.",
+      "index": 4960,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "West Germany,USA"
+    },
+    {
+      "explanation": "The entry indicates 'Limited', which may not correspond to the expected release date format or country specification.",
+      "index": 4932,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "30 January 1998 (USA)"
+    },
+    {
+      "explanation": "(Brazil) indicates a release in Brazil, while the country specified is USA, resulting in a mismatch.",
+      "index": 4963,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil,USA"
+    },
+    {
+      "explanation": "The entry shows an ambiguous release date format 'Limited', which may lead to a mismatch regarding the specified countries. It should be a full date with a premiere in the USA.",
+      "index": 4962,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "7 November 1963 (USA)"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in USA, but the country column includes Bulgaria which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5007,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in France, but the country column includes USA which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5008,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in USA, but the country column includes Australia which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5010,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in UK, but the country column includes USA which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5012,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in USA, but the country column includes Spain, Hungary, and Serbia which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5015,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in USA, but the country column includes UK, Germany which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5017,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Russia, but the country column includes USA which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5016,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Russia"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Russia, but the country column is listed as USA which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5021,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Russia"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in China, but the country column includes USA which contradicts this as it cannot premiere in two different countries simultaneously.",
+      "index": 5023,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "China"
+    },
+    {
+      "explanation": "The release date indicates the movie premiered in Italy, while the country column just states USA, which causes a conflict in the implications of where the movie is actually released.",
+      "index": 5024,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date states '(Turkey)', while the country should reflect that the premiere is in Turkey, not USA.",
+      "index": 5112,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Turkey"
+    },
+    {
+      "explanation": "The release date shows '(Japan)', while the country should reflect Japan instead of USA.",
+      "index": 5115,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Japan"
+    },
+    {
+      "explanation": "The release date states '(Latvia)', which should match with the premiere country, not USA.",
+      "index": 5117,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Latvia"
+    },
+    {
+      "explanation": "The release date shows '(Germany)', with the country wrongly indicating USA instead of Germany.",
+      "index": 5121,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date states '(Germany)', but the premiere country indicates USA instead of Germany.",
+      "index": 5122,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The release date indicates '(Russia)', but the country reflects USA instead of Russia.",
+      "index": 5126,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Russia"
+    },
+    {
+      "explanation": "The release date states '(UK)', while the country suggests USA, which is inconsistent.",
+      "index": 5160,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The release date indicates '(Brazil)', while the country indicates USA instead of Brazil.",
+      "index": 5168,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Brazil"
+    },
+    {
+      "explanation": "The release date shows '(France)', but the country indicates USA instead, which is inconsistent.",
+      "index": 5134,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date has '(South Korea)', while the country indicates USA, which is incorrect.",
+      "index": 5141,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "South Korea"
+    },
+    {
+      "explanation": "The release date states '(France)', while improperly indicating the country USA.",
+      "index": 5182,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date indicates '(Finland)', yet the country mentions USA, which is inconsistent.",
+      "index": 5195,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Finland"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Mexico, but the country lists options beyond Mexico, which is misleading and incorrect as the implication should strictly reflect the origin of the premiere based on the country attached to the release date.",
+      "index": 5206,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Mexico"
+    },
+    {
+      "explanation": "The release date indicates a movie premiered in Italy, but lists USA among other locations which creates a contradiction since Italy denotes the origin and should match with the premiere countries listed, thus creating an inconsistency.",
+      "index": 5223,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the Philippines, but the country suggests it premiered in the USA, which is a violation of the semantic relationship defined by the delivery format of the movie.",
+      "index": 5263,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Philippines"
+    },
+    {
+      "explanation": "The release date suggests a premiere in Sweden, but the country indicates it is USA, which implies a mismatch with the implied geographical context expected from the release date.",
+      "index": 5256,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Sweden"
+    },
+    {
+      "explanation": "The release date lists Argentina as the premiere location, yet the country crucially indicates it premiered in the USA, which fails to follow the given dependency describing the relationship of premiere based on the release date.",
+      "index": 5298,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Argentina"
+    },
+    {
+      "explanation": "The entry 'Germany,USA' in column 9 suggests the premiere was in both Germany and the USA, which contradicts the release date '23 August 2002 (USA)' indicating a release only in the USA.",
+      "index": 5300,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Germany,USA' in column 9 contradicts the release date '7 May 2015 (Germany)', where the movie should have premiered only in Germany and not both.",
+      "index": 5311,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Germany"
+    },
+    {
+      "explanation": "The entry 'USA' in column 9 is inconsistent with the release date '10 January 2014 (UK)', which implies the movie premiered in the UK, while column 9 suggests a premiere only in the USA.",
+      "index": 5305,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "UK"
+    },
+    {
+      "explanation": "The entry 'USA' in column 9 indicates that the movie premiered solely in the USA, conflicting with the release date '2 February 2014 (USA)' which implies a premiere also in Cyprus.",
+      "index": 5314,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Cyprus"
+    },
+    {
+      "explanation": "The entry 'USA,Mexico' for the premiere contradicts the release date '30 November 2007 (USA)', which indicates a release only in the USA.",
+      "index": 5336,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Germany,Canada,USA' in column 9 is inconsistent with the release date '17 January 2014 (USA)', suggesting the movie premiered solely in America.",
+      "index": 5354,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The entry 'Italy' in column 9 contradicts the release date '20 October 2006 (Italy)', as it implies the movie was released in no other country.",
+      "index": 5393,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Italy"
+    },
+    {
+      "explanation": "The release date '2 September 2009 (Indonesia)' implies that the premiere took place in Indonesia, which contradicts the country listed as 'USA'.",
+      "index": 5421,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "2 September 2009 (USA)"
+    },
+    {
+      "explanation": "The release date '30 September 1983 (USA)' implies a premiere in the USA, but the country listed is 'Canada,USA', which suggests a conflict.",
+      "index": 5405,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '6 March 1992 (USA)' indicates a USA premiere, however, the country is listed as 'Germany,USA', which suggests two locations, creating a semantic conflict.",
+      "index": 5408,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '14 November 1997 (USA)' suggests a USA premiere, yet it notes 'USA,Germany', which creates ambiguity.",
+      "index": 5411,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The date '6 February 2015 (USA)' suggests a USA premiere, but lists 'USA,UK,Canada,China' which contradicts the exclusivity implied by the release date.",
+      "index": 5413,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '2 April 1999 (USA)' indicates a premiere in the USA, whereas the country lists it as 'USA', but that doesn't denote the actual premiere location since 'USA' could wrongly imply it was not exclusive.",
+      "index": 5422,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The premiere '27 December 2013 (Vietnam)' contradicts the USA listed as a premiere country.",
+      "index": 5471,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "27 December 2013 (USA)"
+    },
+    {
+      "explanation": "The release date '24 September 2010 (Ireland)' implies an Irish premiere, contradicting the country of 'USA'.",
+      "index": 5479,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "24 September 2010 (USA)"
+    },
+    {
+      "explanation": "The release date '23 October 2015 (USA)' indicates a premiere in the USA, but the country is listed as 'Luxembourg,Belgium,Spain,USA' which implies multiple countries including non-USA locations.",
+      "index": 5503,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date 'The 1st February 1972 (USA)' indicates a premiere in the USA, but instead, the country 'UK,USA,Germany,Czech Republic' implies multiple countries that override this fact, which is contradictory.",
+      "index": 5518,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date '9 May 2012 (France)' indicates a premiere in France, but is incorrectly labeled as being released in 'USA,France,Canada'. The USA should not be included despite a French release date.",
+      "index": 5515,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "France"
+    },
+    {
+      "explanation": "The release date '20 November 2014 (Kuwait)' indicates a premiere in Kuwait, which contradicts the listing 'Canada,USA', indicating that the country cannot be both Kuwait and North America.",
+      "index": 5527,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "Kuwait"
+    },
+    {
+      "explanation": "The release date '28 July 1999 (France)' corresponds country 'USA', which is inconsistent because France is mentioned in the date format.",
+      "index": 5606,
+      "column": 3,
+      "annotation": 1,
+      "possible_repair": "28 July 1999 (USA)"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Portugal, yet the country does not include Portugal, making this an error.",
+      "index": 5703,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Canada, yet the country does not include Canada, making this an error.",
+      "index": 5717,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the UK, yet the country does not include UK, making this an error.",
+      "index": 5718,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in the Netherlands, yet the country does not include Netherlands, making this an error.",
+      "index": 5728,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in West Germany, yet the country does not include West Germany, making this an error.",
+      "index": 5744,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Austria, yet the country does not include Austria, making this an error.",
+      "index": 5754,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Greece, yet the country does not include Greece, making this an error.",
+      "index": 5758,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    },
+    {
+      "explanation": "The release date indicates a premiere in Germany, yet the country does not include Germany, making this an error.",
+      "index": 5760,
+      "column": 9,
+      "annotation": 1,
+      "possible_repair": "USA"
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "output": [
+    {
+      "explanation": "The arrival time (9:32 a.m.) cannot be null as there should be a corresponding arrival time for the departure time.",
+      "index": 1,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Provide a valid arrival time for index 1."
+    },
+    {
+      "explanation": "The arrival time of 4:09 p.m. cannot be earlier than the departure time of 12:12 p.m.",
+      "index": 7,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a later time than departure time."
+    },
+    {
+      "explanation": "The arrival time of 2:27 p.m. cannot be earlier than the departure time of 11:52 a.m.",
+      "index": 18,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a later time than departure time."
+    },
+    {
+      "explanation": "The arrival time of 2:46 p.m. cannot be earlier than the departure time of 11:05 a.m.",
+      "index": 19,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a later time than departure time."
+    },
+    {
+      "explanation": "The arrival time (2:50 p.m.) cannot be earlier than the departure time (12:41 p.m.).",
+      "index": 4,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a later time than departure time."
+    },
+    {
+      "explanation": "The arrival time (1:11 p.m.) cannot be earlier than the departure time (10:11 a.m.) at index 56.",
+      "index": 56,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a later time than departure time."
+    },
+    {
+      "explanation": "The arrival time (12/2/11 6:35 a.m.) has an invalid format and should match the departure time format.",
+      "index": 53,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a valid time format."
+    },
+    {
+      "explanation": "The arrival time (12/2/11 12:01 a.m.) has an invalid format which should match the departure time format.",
+      "index": 91,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Change arrival time to a valid time format."
+    },
+    {
+      "explanation": "The arrival time (7:50 a.m.) cannot be earlier than the departure time (1:50 p.m.) on the same day.",
+      "index": 100,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "8:50 p.m."
+    },
+    {
+      "explanation": "The arrival time (1:52 p.m.) cannot be earlier than the departure time (11:47 a.m.) on the same day, violating the temporal dependency.",
+      "index": 101,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "2:52 p.m."
+    },
+    {
+      "explanation": "The arrival time (9:12 p.m.) cannot be earlier than the departure time (8:40 p.m.) on the same day. This is a temporal error.",
+      "index": 102,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "10:12 p.m."
+    },
+    {
+      "explanation": "The arrival time (4:22 p.m.) cannot be earlier than the departure time (3:04 p.m.) on the same day. This violates the temporal dependency.",
+      "index": 103,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "5:04 p.m."
+    },
+    {
+      "explanation": "The arrival time (3:36 p.m.) cannot be earlier than the departure time (2:44 p.m.) on the same day, causing an error in the temporal relationship.",
+      "index": 104,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:36 p.m."
+    },
+    {
+      "explanation": "The arrival time (5:39 p.m.) cannot be earlier than the departure time (3:28 p.m.) on the same day. This is an error due to the temporal dependency.",
+      "index": 105,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:39 p.m."
+    },
+    {
+      "explanation": "The arrival time (11:04 a.m.) cannot be later than the departure time (7:22 a.m.) on the same day, which creates a temporal dependency violation.",
+      "index": 106,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "12:04 p.m."
+    },
+    {
+      "explanation": "The arrival time (1:42 p.m.) cannot be earlier than the departure time (12:11 p.m.) on the same day. This violates the temporal dependency.",
+      "index": 107,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "2:42 p.m."
+    },
+    {
+      "explanation": "The arrival time (10:58 a.m.) cannot be earliest than the departure time (8:04 a.m.) due to temporal relationship restrictions.",
+      "index": 108,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:58 a.m."
+    },
+    {
+      "explanation": "The arrival time (2:49 p.m.) cannot be earlier than the departure time (1:20 p.m.). This creates an error in the temporal relation.",
+      "index": 109,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "3:49 p.m."
+    },
+    {
+      "explanation": "The arrival time (10:12 a.m.) cannot be earlier than the departure time (8:55 a.m.), indicating a dependency violation.",
+      "index": 110,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:12 a.m."
+    },
+    {
+      "explanation": "The arrival time (6:30 p.m.) cannot be earlier than the departure time (3:38 p.m.). This is a temporal dependency error.",
+      "index": 111,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "7:30 p.m."
+    },
+    {
+      "explanation": "The arrival time (7:59 a.m.) cannot be earlier than the departure time (8:04 a.m.), violating the temporal dependency rule.",
+      "index": 112,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "8:59 a.m."
+    },
+    {
+      "explanation": "The arrival time (6:11 p.m.) cannot be earlier than the departure time (4:12 p.m.), indicating a temporal dependency violation.",
+      "index": 113,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "7:11 p.m."
+    },
+    {
+      "explanation": "The arrival time (2:21 p.m.) cannot be earlier than the departure time (11:52 a.m.) on the same day, which presents a temporal error.",
+      "index": 114,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "3:21 p.m."
+    },
+    {
+      "explanation": "The arrival time (5:34 p.m.) cannot be earlier than the departure time (11:55 a.m.), indicating a violation of the temporal dependency.",
+      "index": 115,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:34 p.m."
+    },
+    {
+      "explanation": "The arrival time (12:37 p.m.) cannot be earlier than the departure time (10:55 a.m.), indicating a temporal dependency violation.",
+      "index": 116,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "1:37 p.m."
+    },
+    {
+      "explanation": "The arrival time (7:37 a.m.) cannot be later than the departure time (6:58 a.m.), causing a temporal relationship error.",
+      "index": 117,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "8:37 a.m."
+    },
+    {
+      "explanation": "The arrival time (6:15 a.m.) cannot be earlier than the departure time (6:11 a.m.), indicating a temporal dependency violation.",
+      "index": 118,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:55 a.m."
+    },
+    {
+      "explanation": "The arrival time (10:52 a.m.) cannot be later than the departure time (7:40 a.m.), indicating a violation in temporal relationship.",
+      "index": 119,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:52 a.m."
+    },
+    {
+      "explanation": "The arrival time (3:12 p.m.) cannot be earlier than the departure time (7:32 a.m.), causing a temporal dependency error.",
+      "index": 120,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:12 p.m."
+    },
+    {
+      "explanation": "The arrival time (10:23 p.m.) cannot be earlier than the departure time (7:42 p.m.), indicating a violation of the temporal dependency.",
+      "index": 121,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:23 p.m."
+    },
+    {
+      "explanation": "The arrival time (9:12 a.m.) cannot be earlier than the departure time (6:54 a.m.), which is a temporal dependency violation.",
+      "index": 122,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "10:12 a.m."
+    },
+    {
+      "explanation": "The arrival time (11:35 a.m.) cannot be earlier than the departure time (8:49 a.m.), which violates the temporal dependency.",
+      "index": 123,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "12:35 p.m."
+    },
+    {
+      "explanation": "The arrival time (9:40 a.m.) cannot be earlier than the departure time (9:01 a.m.), violating the temporal dependency rule.",
+      "index": 124,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "10:40 a.m."
+    },
+    {
+      "explanation": "The arrival time (10:39 p.m.) is incorrectly indicated with an estimated addition misformatted, violating the temporal dependency.",
+      "index": 125,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:39 p.m."
+    },
+    {
+      "explanation": "The arrival time (3:10 p.m.) cannot be earlier than the departure time (12:12 p.m.), indicating a temporal dependency violation.",
+      "index": 126,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:10 p.m."
+    },
+    {
+      "explanation": "The arrival time (5:17 p.m.) cannot be earlier than the departure time (3:50 p.m.), which causes a temporal dependency issue.",
+      "index": 127,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:17 p.m."
+    },
+    {
+      "explanation": "The arrival time (3:25 p.m.) cannot be earlier than the departure time (12:37 p.m.), indicating a violation of the temporal dependency.",
+      "index": 128,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:25 p.m."
+    },
+    {
+      "explanation": "The arrival time (1:14 p.m.) cannot be earlier than the departure time (12:08 p.m.), indicating a temporal dependency issue.",
+      "index": 154,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "2:14 p.m."
+    },
+    {
+      "explanation": "The arrival time (6:09 p.m.) cannot be earlier than the departure time (4:12 p.m.), indicating a temporal dependency issue.",
+      "index": 195,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "7:09 p.m."
+    },
+    {
+      "explanation": "The arrival time (5:35 p.m.) cannot be earlier than the departure time (11:55 a.m.), indicating a temporal dependency issue.",
+      "index": 199,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "6:35 p.m."
+    },
+    {
+      "explanation": "The arrival time 6:07 a.m. is earlier than the departure time 6:11 a.m., which is a direct violation of the time dependency.",
+      "index": 203,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 6:11 a.m."
+    },
+    {
+      "explanation": "The arrival time 3:09 p.m. is earlier than the departure time 7:32 a.m., indicating a temporal violation because arrival cannot precede departure.",
+      "index": 205,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 7:32 a.m."
+    },
+    {
+      "explanation": "The arrival time 7:02 a.m. is earlier than the departure time 11:58 p.m., which violates the dependency of arrival times being after departure times.",
+      "index": 209,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 11:58 p.m."
+    },
+    {
+      "explanation": "The arrival time 3:16 p.m. is earlier than the departure time 12:12 p.m., violating the necessary order between departure and arrival times.",
+      "index": 228,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 12:12 p.m."
+    },
+    {
+      "explanation": "The arrival time 3:31 p.m. is earlier than the departure time 12:37 p.m., leading to a temporal violation.",
+      "index": 229,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 12:37 p.m."
+    },
+    {
+      "explanation": "The arrival time 5:26 a.m. is before the departure time 12:58 a.m., which is an incorrect temporal sequence.",
+      "index": 232,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 12:58 a.m."
+    },
+    {
+      "explanation": "The arrival time 1:30 p.m. is not valid as it is earlier in the day than the 8:07 a.m. departure time violates the temporal sequence dependency.",
+      "index": 242,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 8:07 a.m."
+    },
+    {
+      "explanation": "The arrival time 8:02 a.m. is earlier than the departure time 1:45 p.m., indicating a temporal order violation.",
+      "index": 260,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 1:45 p.m."
+    },
+    {
+      "explanation": "The arrival time 6:43 p.m. is earlier than the departure time 3:38 p.m., which violates the nature of the time dependency between departures and arrivals.",
+      "index": 264,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 3:38 p.m."
+    },
+    {
+      "explanation": "The arrival time 5:26 p.m. is before the departure time 4:02 p.m., leading to a violation of the time dependency rule.",
+      "index": 267,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 4:02 p.m."
+    },
+    {
+      "explanation": "The arrival time 6:19 a.m. is earlier than the departure time 6:11 a.m., indicating a direct violation of the time dependency.",
+      "index": 270,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 6:11 a.m."
+    },
+    {
+      "explanation": "The arrival time 10:30 p.m. (Estimated) should be valid, but the departure time 7:58 p.m. is violated by previous estimated times.",
+      "index": 276,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid estimated arrival time later than 7:58 p.m."
+    },
+    {
+      "explanation": "The arrival time 7:25 p.m. (Estimated runway) is before the departure of 6:47 p.m. (Estimated runway), violating the time dependency.",
+      "index": 277,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 6:47 p.m."
+    },
+    {
+      "explanation": "The arrival time 6:35 a.m. (Estimated runway) occurs earlier than the departure time of 11:29 p.m. (Estimated runway), violating the dependency.",
+      "index": 280,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 11:29 p.m."
+    },
+    {
+      "explanation": "The arrival time 12:21 a.m. (Estimated) is earlier than the departure time 7:15 p.m. (Estimated), which does not follow the required temporal relationship.",
+      "index": 299,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Replace with a valid arrival time later than 7:15 p.m."
+    },
+    {
+      "explanation": "Departure time 11/30/2011 11:34 p.m. is formatted incorrectly as a date and time entry which should only show time.",
+      "index": 344,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "11:34 p.m."
+    },
+    {
+      "explanation": "Arrival time 5:24 a.m. cannot occur on the same day as a departure at 11:34 p.m. since it's the next day.",
+      "index": 344,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "5:34 a.m."
+    },
+    {
+      "explanation": "Departure time 7:51 a.m. cannot have arrival time 11:01 a.m. as this is permitted within a day but not after, as it's too far apart.",
+      "index": 395,
+      "column": 5,
+      "annotation": 1,
+      "possible_repair": "9:51 a.m."
+    },
+    {
+      "explanation": "Arrival time '10:30 p.m.*' indicates uncertainty or a potential error as it contains an asterisk which doesn't conform to the expected time format.",
+      "index": 382,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "10:30 p.m."
+    },
+    {
+      "explanation": "Entry 'Contact Airline' in the departure time column lacks valid time and creates confusion as it doesn't represent an actual departure time.",
+      "index": 384,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "N/A"
+    },
+    {
+      "explanation": "The departure time '1:50 p.m.' is later than the arrival time '8:02 a.m.', indicating an impossible travel scenario, as a flight cannot arrive before it departs.",
+      "index": 416,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "8:02 a.m."
+    },
+    {
+      "explanation": "The arrival time '9:19 p.m.*' has an asterisk, which is not a valid format for an arrival time, making it a syntax violation.",
+      "index": 417,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "9:19 p.m."
+    },
+    {
+      "explanation": "The departure time '7:02aDec 1' does not have a space between the time and the date prefix, causing it to be syntactically incorrect and violating the expected format for time.",
+      "index": 431,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "7:02 a.m. Dec 1"
+    },
+    {
+      "explanation": "The arrival time '9:32aDec 1' suffers from the same issue as above and is formatted incorrectly, violating the temporal dependency with an incorrect syntax.",
+      "index": 431,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "9:32 a.m. Dec 1"
+    },
+    {
+      "explanation": "The departure time '6:40aDec 1' does not include a space between the time and the date, rendering it an invalid Entry.",
+      "index": 433,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "6:40 a.m. Dec 1"
+    },
+    {
+      "explanation": "The arrival time '9:28aDec 1' has a similar format violation, lacking the necessary space which leads to syntactic dependency issues.",
+      "index": 433,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "9:28 a.m. Dec 1"
+    },
+    {
+      "explanation": "The 'null' value for arrival time indicates a missing entry that lacks meaningful data, violating the dependency that an arrival time is required for each departure.",
+      "index": 435,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Insert valid arrival time for corresponding departure."
+    },
+    {
+      "explanation": "The departure time '11:54aDec 1' has an incorrect format due to the absence of space between the time designator and the date, causing a syntactic dependency violation.",
+      "index": 436,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "11:54 a.m. Dec 1"
+    },
+    {
+      "explanation": "The arrival time '3:16 p.m.' is valid, but is incorrectly formatted due to the corresponding departure time's syntax error, thus causing a semantic violation.",
+      "index": 436,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Insert valid arrival time corresponding to corrected departure."
+    },
+    {
+      "explanation": "The departure time '11:47aDec 1' suffers from improper formatting due to missing space, leading to a syntactic dependency violation.",
+      "index": 455,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "11:47 a.m. Dec 1"
+    },
+    {
+      "explanation": "The arrival time '2:10 p.m.' is valid, but since the related departure time violates the syntax, this entry is also considered incorrect under the dependency.",
+      "index": 455,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "Insert valid arrival time corresponding to corrected departure."
+    },
+    {
+      "explanation": "The arrival time '12:19 a.m.' is earlier than the departure time '4:35 p.m.', indicating an invalid time relationship.",
+      "index": 510,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:35 p.m."
+    },
+    {
+      "explanation": "The arrival time '12:01 a.m.' is earlier than the departure time '9:16 p.m.', indicating an invalid time relationship.",
+      "index": 511,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "9:16 p.m."
+    },
+    {
+      "explanation": "The departure time '11:35 p.m.' has an arrival time '5:21 a.m.' that is before its departure time, which makes it invalid due to temporal ordering of events.",
+      "index": 515,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:35 p.m."
+    },
+    {
+      "explanation": "The arrival time '6:28 p.m.' is earlier than the departure time '4:00 p.m.', indicating an invalid time relationship.",
+      "index": 521,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:00 p.m."
+    },
+    {
+      "explanation": "The arrival time '3:21 p.m.' is after the departure time '12:35 p.m.' which is acceptable. However, the addition of 'Delayed' should be clarified since it may affect time interpretation, still considered inconsistent as it borders on scheduled time confusion.",
+      "index": 522,
+      "column": 4,
+      "annotation": 1,
+      "possible_repair": "12:35 p.m."
+    },
+    {
+      "explanation": "The arrival time '12:29 a.m.' is earlier than the departure time '4:25 p.m.', indicating an invalid time relationship.",
+      "index": 528,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "4:25 p.m."
+    },
+    {
+      "explanation": "The arrival time '5:11 a.m.' is earlier than the departure time '11:08 p.m.', indicating an invalid time relationship.",
+      "index": 529,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "11:08 p.m."
+    },
+    {
+      "explanation": "Arrival time '3:29 p.m. (Estimated runway)' is acceptable but its paired departure time '1:41 p.m. (Estimated runway)' pushes the arrival past a standard allowed time frame without additional context, thus considered an inconsistency in normal scheduling rules.",
+      "index": 534,
+      "column": 6,
+      "annotation": 1,
+      "possible_repair": "1:41 p.m."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+column_1_name,column_2_name,column_1_count,column_2_count,dependency
+abv,ibu,176,10,"abv, ibu"
+abv,beer-name,320,3,"beer-name, abv"
+beer-name,style,18,63,"beer-name, style"
+city,state,71,2,"city, state"
+abv,ounces,245,6,"ounces, abv"

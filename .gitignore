@@ -7,7 +7,6 @@ evaluation/tools/SURAGH/source
 evaluation/tools/SynODC/source
 
 backend/app.log
-backend/data
 backend/__pycache__
 backend/services/__pycache__
 backend/utils/__pycache__

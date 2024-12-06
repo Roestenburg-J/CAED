@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The title of a movie hints at its genre, showing a likely grouping where certain titles correlate with specific genres.
+
+  The following is a formatted table with the unique data to be checked.
+  

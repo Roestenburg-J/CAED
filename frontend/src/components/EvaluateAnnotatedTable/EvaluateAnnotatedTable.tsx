@@ -199,7 +199,7 @@ const EvaluateAnnotatedTable: React.FC<AnnotatedTableProps> = ({
 
   const handleExport = () => {
     const filename = `error_${exportType}.csv`; // Dynamically name the file based on export type
-    let exportData;
+    let exportData: ErrorAnnotation[] | { errorType: string }[];
     console.log(combinedAnnotations);
 
     switch (exportType) {

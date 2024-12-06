@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The type of hospital (acute care hospitals) may be linked to a specific location (10040) indicating that the metrics pertained to hospitals in this area.
+
+  The following is a formatted table with the unique data to be checked.
+  

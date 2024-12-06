@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The type of hospital (column 11) indicates a semantic dependency on the status of the hospital (column 12), which describes the operational model of the hospital.
+
+  The following is a formatted table with the unique data to be checked.
+  

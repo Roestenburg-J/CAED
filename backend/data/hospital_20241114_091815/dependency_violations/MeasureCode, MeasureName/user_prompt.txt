@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The column representing the care codes (like xax-1, ami-2) is directly linked to the detailed description of what that care code represents (like care for children who received reliever medication while hospitalized for asthma).
+
+  The following is a formatted table with the unique data to be checked.
+  

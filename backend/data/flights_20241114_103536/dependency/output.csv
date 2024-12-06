@@ -1,0 +1,17 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,tuple_id,src,The first column represents a unique identifier which may depend on the associated airline or service provider in the second column.
+0,2,tuple_id,flight,The flight identifier in the third column (a string that represents a specific flight route) relies on the unique number in the first column (which likely represents a unique ID for each record). Each flight identifier corresponds to a specific record ID.
+0,5,tuple_id,sched_arr_time,"The unique identifiers for each flight could correlate with specific scheduling details, suggesting that each unique ID may relate to precise informative timings."
+1,2,src,flight,"The third column represents a specific flight identifier, which likely depends on the airline or service provider in the second column, as the flight identifier is formatted to include the airline (UA) and the route."
+1,3,src,sched_dep_time,The fourth column represents the scheduled departure time which may be influenced by the airline in the second column.
+1,4,src,act_dep_time,The fifth column represents the scheduled arrival time which may be influenced by the airline in the second column.
+1,5,src,sched_arr_time,The sixth column represents the recorded arrival time which may be influenced by the airline in the second column.
+2,3,flight,sched_dep_time,"The flight identifier in one column indicates a specific flight, while the departure time in another column represents when that flight is scheduled to leave."
+2,4,flight,act_dep_time,"Flight codes in the relevant column could have specific scheduled times associated to them, such that knowing one might provide insights into the other."
+2,5,flight,sched_arr_time,"The flight number column also correlates with gate arrival times, indicating that specific flights arrive at certain gates within a predictable time frame."
+2,6,flight,act_arr_time,"The values in the column representing flight codes may determine the values in the column representing arrival times, as each flight code is associated with specific outgoing and incoming timings."
+3,4,sched_dep_time,act_dep_time,"The scheduled departure time in the fourth column may have a dependency on the scheduled arrival time in the fifth column, suggesting the timing of each is linked."
+3,5,sched_dep_time,sched_arr_time,"The scheduled departure time in the fourth column is related to the actual arrival time in the sixth column, possibly indicating delays or on-time arrivals based on the flight's schedule."
+4,5,act_dep_time,sched_arr_time,"The scheduled arrival time in the fifth column may have a dependency on the recorded arrival time in the sixth column, indicating that the two times are closely related."
+4,6,act_dep_time,act_arr_time,The departure time column (describing the time a flight departs) and the arrival time column (describing the time a flight arrives) are syntactically dependent. The values in these columns represent time entries that are likely based on the same scheduled flight.
+5,6,sched_arr_time,act_arr_time,"Each recorded time in the fifth column (potentially representing scheduled arrival times) is related to the subsequent times in the sixth column (representing actual arrival times), with a possible semantic dependency where the 'scheduled' arrival time often relates to the 'actual' recorded arrival time."

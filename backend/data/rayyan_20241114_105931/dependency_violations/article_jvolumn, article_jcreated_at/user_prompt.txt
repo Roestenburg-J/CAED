@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The numeric value in the sixth column could express a metric that has a time-based relationship with the date in the eighth column, suggesting that the measure may vary over time since publication.
+
+  The following is a formatted table with the unique data to be checked.
+  

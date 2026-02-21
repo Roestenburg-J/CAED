@@ -55,52 +55,55 @@ response_format = {
     },
 }
 
-system_prompt = """Task:
-You are given data from two columns in a dataset that are said to have a dependency on each other. You must detect violations in this dependency.
-You are also given a description of the dependency that you must use to help identify violations.
+system_prompt = """You are a data quality expert specializing in detecting dependency violations in tabular datasets.
 
-Instructions:
-For the possible repair provide the repair value, the column in which the violation occurred, the index, and an explanation for why it is considered an error.
-Do not check for language usage errors.
-Strings should be checked for misspellings of invalid/nonsensical characters that could cause violations.
-Ignore capitalization when checking for misspellings.
-Values that describe empty entries are not considered errors.
-Two columns can both have values that indicate empty values, this is not considered an error.
-When detecting violations, a valid proof needs to be supplied in the violation for why it is an error. 
-When determining semantic dependencies and external knowledge is needed to prove the violation provide a short reference.
-For proper nouns only check for syntactic dependency violations.
-Explanations need to be concise.
+<task>
+You will receive a JSON list of unique row combinations from two columns that are known to share a dependency. Each entry contains the values from both columns, an "index" identifier, and a "count" indicating how many times this combination appears in the full dataset. You will also receive a description of the dependency.
 
-Examples:
-Dependency violations could be either semantic or syntactic violations. Use the dependency description to determine the violation.
+Your goal is to annotate every row as a violation or not, and propose a repair for each violation.
+</task>
 
-1. Semantic Dependency
-- The meaning of a value is not correct concerning dependent values considering the identified dependency.
-Example:
-Col 1 and Col 2 have a dependency between each other indicated by the name of a company (Col 1), and the primary market in which they operate (Col 2).
-Col 1           , Col 2
-McDonald's      , Fast food
-Baseball*       , Asset Management
-Wallmart        , Retail
-Apple           , Consumer Technology
-Google          , Food Wholesaler*
+<definitions>
+Dependency violation: A row where one or both values are inconsistent with the other under the stated dependency.
+Count: How many times this row combination appears in the full dataset. Use frequency as context — rare combinations may warrant closer scrutiny, but low count alone is not sufficient evidence of a violation.
+</definitions>
 
-Baseball* is an error because it does not seem like the name of a company.
-Food Wholesaler* is an error because Google is a Technology company and not a Food Wholesaler.
+<rules>
+1. Use the provided dependency description as the primary guide for what constitutes a violation.
+2. Annotate every row without exception: annotation 1 = violation, annotation 0 = no violation.
+3. Only violations require an explanation. Every explanation must include specific, verifiable evidence or a brief external reference when semantic knowledge is required.
+4. For possible_repair, output only the corrected value string — nothing else.
+5. Empty or null values in either column are not violations, including when both columns contain empty values simultaneously.
+6. Check string values for misspellings or invalid characters that would cause a syntactic violation. Ignore capitalization differences when evaluating misspellings.
+7. For proper nouns (names, brands, places), check for syntactic violations only — not semantic ones.
+8. Explanations must be concise.
+9. Before assessing individual rows, first read the dependency description carefully and identify what valid pairs look like.
+</rules>
 
-2. Syntactic dependency
-- A syntactic dependency violation occurs when the syntax of an entry causes a violation of a dependency
-Example:
-Col 7 and Col 10 have a dependency. Col 7 is a list of codes describing the employment of people with the year they were hired. Col 10 is a textual description of the codes.
-Col 7           , Col 10
-EMP-001-2024    , Employee - hired in 2024
-CON-009-2005    , Contract worker - hired in 2005
-EMP-00B-8888*   , Employee - hired in 2018 
-CON-976-2013    , Employee - hired in 2013*
+<violation_types>
 
-EMP-00B-8888* is an error because it contains an invalid year date at the end of the entry.
-Employee - hired in 2013* in an error because its corresponding code, which is valid indicates that it should be a contract worker.
-"""
+1. Semantic violation
+The meaning of a value contradicts what the stated dependency requires.
+
+Example — dependency: Col 1 is a company name; Col 2 is its primary market sector:
+Col 1         | Col 2
+McDonald's    | Fast food            → 0
+Baseball*     | Asset Management     → 1  ("Baseball" is not a recognizable company name)
+Walmart       | Retail               → 0
+Apple         | Consumer Technology  → 0
+Google        | Food Wholesaler*     → 1  (Google operates in technology, not food wholesale)
+
+2. Syntactic violation
+A structural error in one value breaks the dependency relationship with its paired value.
+
+Example — dependency: Col 7 is an employment code encoding role and hire year; Col 10 is its plain-text description:
+Col 7          | Col 10
+EMP-001-2024   | Employee - hired in 2024        → 0
+CON-009-2005   | Contract worker - hired in 2005  → 0
+EMP-00B-8888*  | Employee - hired in 2018         → 1  ("8888" is not a valid year)
+CON-976-2013   | Employee - hired in 2013*        → 1  (code indicates contractor but description says Employee)
+
+</violation_types>"""
 
 
 def detect_dep_violations(
@@ -148,16 +151,15 @@ def detect_dep_violations(
                     str(dataset.columns.get_loc(columns[0])),  # Column 1 index
                     str(dataset.columns.get_loc(columns[1])),  # Column 2 index
                     "index",
+                    "count",
                 ]
 
                 json_sample = unique_rows.to_json(orient="records", indent=4)
 
-                user_prompt = f"""Input:
-  The dependency identified in this table is defined as follows:
-  {dependency_description}
+                user_prompt = f"""The dependency between the two columns is defined as follows:
+{dependency_description}
 
-  The following is a formatted table with the unique data to be checked.
-  """
+Analyze the following unique row combinations and identify all violations:"""
 
                 prompt_gpt(
                     system_prompt,

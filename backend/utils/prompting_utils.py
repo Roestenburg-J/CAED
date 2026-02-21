@@ -1,16 +1,16 @@
 from typing import Dict, Any, List
 import pandas as pd
 import os
-from openai import OpenAI
 import time
 import json
-from pydantic import BaseModel
 from flask import current_app
+
+from llm.factory import LLMProviderFactory
+from llm.schemas import LLMRequest, Message
 
 
 def load_settings():
     settings_path = "./user_settings/settings.json"
-    required_fields = ["gpt_organization", "gpt_project", "gpt_api", "gpt_model"]
 
     if not os.path.exists(settings_path):
         raise FileNotFoundError(
@@ -20,7 +20,15 @@ def load_settings():
     with open(settings_path, "r") as f:
         settings = json.load(f)
 
-    # Check if all required fields are present
+    # Backward-compat: if old OpenAI-only keys exist, migrate them
+    if "provider" not in settings and "gpt_api" in settings:
+        settings["provider"] = "openai"
+        settings["openai_api_key"] = settings.get("gpt_api", "")
+        settings["openai_organization"] = settings.get("gpt_organization", "")
+        settings["openai_project"] = settings.get("gpt_project", "")
+        settings["model"] = settings.get("gpt_model", "gpt-4o-mini")
+
+    required_fields = ["provider", "model"]
     for field in required_fields:
         if field not in settings:
             raise ValueError(f"Missing required setting: {field}")
@@ -38,7 +46,7 @@ def write_output(
 ) -> str:
 
     try:
-        # Create the subdirectory for the pompt_title if it doesn't exist
+        # Create the subdirectory for the prompt_title if it doesn't exist
         prompt_directory = os.path.join(
             directory, prompt_title.strip()
         )  # Strip whitespace
@@ -128,27 +136,22 @@ def prompt_gpt(
     output_directory: str,
     input_data_dict: pd.DataFrame,
     json_str: str,  # Expecting a JSON-formatted string with multiple records
+    custom_batches: List[List[Dict[str, Any]]] = None,  # Optional MinHash-based batches
 ) -> None:
 
-    class Output(BaseModel):
-        output: List[str]
-
-    # Load settings and initialize OpenAI client
+    # Load settings and create provider
     try:
         settings = load_settings()
-        gpt_organization = settings["gpt_organization"]
-        gpt_project = settings["gpt_project"]
-        gpt_api = settings["gpt_api"]
-        gpt_model = settings["gpt_model"]
+        model = settings["model"]
     except (FileNotFoundError, ValueError) as e:
         print(str(e))
         return
 
-    client = OpenAI(
-        organization=gpt_organization,
-        project=gpt_project,
-        api_key=gpt_api,
-    )
+    try:
+        provider = LLMProviderFactory.create(settings)
+    except ValueError as e:
+        print(str(e))
+        return
 
     # Initialize cumulative tracking variables
     total_completion_tokens = 0
@@ -163,8 +166,11 @@ def prompt_gpt(
     json_data = json.loads(json_str)  # Parse JSON string to Python object
     num_records = len(json_data)  # Determine the number of records
 
-    # Batching logic based on the number of records in json_data
-    if num_records <= 200:
+    # Batching logic: use caller-supplied MinHash buckets when available,
+    # otherwise fall back to simple count-based splitting.
+    if custom_batches is not None:
+        batches = [b for b in custom_batches if b]  # drop any empty buckets
+    elif num_records <= 200:
         batches = [json_data]  # Single batch if 200 records or fewer
     else:
         batch_size = 100
@@ -180,29 +186,25 @@ def prompt_gpt(
             # Convert batch to JSON-like string format for API request
             user_prompt_with_data = f"{user_prompt}\n{json.dumps(batch)}"
 
-            # Call the API for each batch
-            completion = client.chat.completions.create(
-                model=gpt_model,
+            request = LLMRequest(
+                model=model,
                 messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt_with_data},
+                    Message(role="system", content=system_prompt),
+                    Message(role="user", content=user_prompt_with_data),
                 ],
                 max_tokens=16000,
                 response_format=response_format,
             )
 
-            # Extract usage data and completion
-            completion_tokens = completion.usage.completion_tokens
-            prompt_tokens = completion.usage.prompt_tokens
-            total_batch_tokens = completion.usage.total_tokens
+            llm_response = provider.generate(request)
 
             # Accumulate tokens for all batches
-            total_completion_tokens += completion_tokens
-            total_prompt_tokens += prompt_tokens
-            total_tokens += total_batch_tokens
+            total_completion_tokens += llm_response.completion_tokens
+            total_prompt_tokens += llm_response.prompt_tokens
+            total_tokens += llm_response.total_tokens
 
             # Extract and process the batch output
-            batch_output = completion.choices[0].message.content
+            batch_output = llm_response.content
 
             # remove first 11 and last 2 chars from batch string
             accumulated_output = accumulated_output + batch_output[11:-2] + ","

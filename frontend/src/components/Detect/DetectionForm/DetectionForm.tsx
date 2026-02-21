@@ -25,7 +25,8 @@ import LoadingButton from "@mui/lab/LoadingButton";
 // import {  } from "@mui/material";
 
 // Service Imports
-import { uploadDataset } from "@/services/Utils/Utils";
+import { uploadDataset, getSettings, updateSettings } from "@/services/Utils/Utils";
+import ModelSelector from "@/components/ModelSelector/ModelSelector";
 import {
   detectAttributeErrors,
   detectDependencies,
@@ -98,24 +99,15 @@ const DetectionForm = <T,>({
   const SearchParamsComponent = () => {
     const searchParams = useSearchParams();
 
-    // Use searchParams safely here
-    const dataset_name = searchParams.get("dataset_name");
-    const timestamp = searchParams.get("timestamp");
-    // const searchParams = useSearchParams();
-
-    // const dataset_name = searchParams.get("dataset_name");
-    // const timestamp = searchParams.get("timestamp");
+    const dataset_id = searchParams.get("dataset_id");
 
     const attribute_string = searchParams.get("attribute");
     const dep_string = searchParams.get("dep");
     const dep_viol_string = searchParams.get("depViol");
 
     useEffect(() => {
-      if (dataset_name) {
-        setDataset_name(dataset_name);
-      }
-      if (timestamp) {
-        setTimestamp(timestamp);
+      if (dataset_id) {
+        setDataset_id(dataset_id);
       }
       if (attribute_string === "true") {
         setAttribute(true);
@@ -127,8 +119,7 @@ const DetectionForm = <T,>({
         setDepViol(true);
       }
     }, [
-      dataset_name,
-      timestamp,
+      dataset_id,
       attribute_string,
       dep_string,
       dep_viol_string,
@@ -137,16 +128,11 @@ const DetectionForm = <T,>({
     return <div></div>;
   };
 
-  const [dataset_name, setDataset_name] = useState("");
-  const [timestamp, setTimestamp] = useState("");
+  const [dataset_id, setDataset_id] = useState("");
 
   const [attribute, setAttribute] = useState(false);
   const [dep, setDep] = useState(false);
   const [depViol, setDepViol] = useState(false);
-
-  // const attribute = attribute_string == "true" ? true : false;
-  // const dep = dep_string == "true" ? true : false;
-  // const depViol = dep_viol_string == "true" ? true : false;
 
   const [detectionSettings, setDetectionSettings] = useState({
     attribute: false,
@@ -160,14 +146,24 @@ const DetectionForm = <T,>({
     detection: false,
   });
   const [fileResults, setFileResults] = useState({
-    dataset_name: "",
-    timestamp: "",
+    dataset_id: "",
   });
 
   const [selectedFile, setSelectedFile] = useState<File>();
   const [filename, setFilename] = useState("");
 
   const [modelName, setModelName] = useState("");
+  const [selectedProvider, setSelectedProvider] = useState("openai");
+  const [selectedModel, setSelectedModel] = useState("gpt-4o-mini");
+
+  useEffect(() => {
+    getSettings()
+      .then((data) => {
+        setSelectedProvider(data.provider ?? "openai");
+        setSelectedModel(data.model ?? "gpt-4o-mini");
+      })
+      .catch(() => {});
+  }, []);
 
   const handleFileChange = async (
     event: React.ChangeEvent<HTMLInputElement>
@@ -230,17 +226,13 @@ const DetectionForm = <T,>({
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+    await updateSettings({ provider: selectedProvider, model: selectedModel });
     const fileResponse = await uploadDataset({
       file: selectedFile,
       datasetName: filename,
     });
-    // const fileResponse = {
-    //   dataset_name: "hospital_1",
-    //   timestamp: "20241030_123153",
-    // };
     setFileResults({
-      dataset_name: fileResponse.dataset_name,
-      timestamp: fileResponse.timestamp,
+      dataset_id: fileResponse.dataset_id,
     });
     setFileUploadSuccess(true);
     setInputError((prev) => ({ ...prev, file: false })); // Reset file error
@@ -287,7 +279,7 @@ const DetectionForm = <T,>({
     const attributePromise = detectionSettings.attribute
       ? (setRequestedStates((prev) => ({ ...prev, attribute: true })),
         setLoadingStates((prev) => ({ ...prev, attribute: true })),
-        detectAttributeErrors(fileResponse.dataset_name, fileResponse.timestamp)
+        detectAttributeErrors(fileResponse.dataset_id)
           .then((result) => setAttributeResults(result))
           .catch((error) => {
             console.error("Error detecting attribute:", error);
@@ -301,7 +293,7 @@ const DetectionForm = <T,>({
     const dependencyPromise = detectionSettings.dependency
       ? (setRequestedStates((prev) => ({ ...prev, dependency: true })),
         setLoadingStates((prev) => ({ ...prev, dependency: true })),
-        detectDependencies(fileResponse.dataset_name, fileResponse.timestamp)
+        detectDependencies(fileResponse.dataset_id)
           .then((result) => setDependencyResults(result))
           .catch((error) => {
             console.error("Error detecting dependency:", error);
@@ -318,7 +310,7 @@ const DetectionForm = <T,>({
       setRequestedStates((prev) => ({ ...prev, violations: true }));
       setLoadingStates((prev) => ({ ...prev, violations: true }));
       violationPromise = dependencyPromise.then(() =>
-        detectDepViolations(fileResponse.dataset_name, fileResponse.timestamp)
+        detectDepViolations(fileResponse.dataset_id)
           .then((result) => setDepViolationResults(result))
           .catch((error) => {
             console.error("Error detecting violations:", error);
@@ -343,10 +335,7 @@ const DetectionForm = <T,>({
       ) {
         setRequestedStates((prev) => ({ ...prev, combined: true }));
         setLoadingStates((prev) => ({ ...prev, combined: true }));
-        return retreiveCombinedResults(
-          fileResponse.dataset_name,
-          fileResponse.timestamp
-        )
+        return retreiveCombinedResults(fileResponse.dataset_id)
           .then((result) => setCombinedOutput(result))
           .catch((error) => {
             console.error("Combined Detection failed:", error);
@@ -368,8 +357,7 @@ const DetectionForm = <T,>({
   };
 
   const fetchData = async (
-    datasetName: string,
-    timestamp: string,
+    datasetId: string,
     attribute: boolean,
     dep: boolean,
     depViol: boolean
@@ -385,8 +373,8 @@ const DetectionForm = <T,>({
 
     try {
       // Step 1: Fetch the dataset first
-      const dataset = await getDataset(datasetName, timestamp);
-      setModelName(dataset.gpt_model);
+      const dataset = await getDataset(datasetId);
+      setModelName(dataset.model);
 
       // Step 2: Sort columns of the dataset based on the schema's index
       const sortedData = dataset.dataset.map((row: Record<string, any>) => {
@@ -412,7 +400,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, attribute: true }));
         setRequestedStates((prev) => ({ ...prev, attribute: true }));
         fetchPromises.push(
-          getAttribute(datasetName, timestamp)
+          getAttribute(datasetId)
             .then((result) => setAttributeResults(result))
             .catch((error) => {
               console.error("Error fetching attribute errors:", error);
@@ -428,7 +416,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, dependency: true }));
         setRequestedStates((prev) => ({ ...prev, dependency: true }));
         fetchPromises.push(
-          getDependencies(datasetName, timestamp)
+          getDependencies(datasetId)
             .then((result) => setDependencyResults(result))
             .catch((error) => {
               console.error("Error fetching dependencies:", error);
@@ -444,7 +432,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, violations: true }));
         setRequestedStates((prev) => ({ ...prev, violations: true }));
         fetchPromises.push(
-          getDepViolations(datasetName, timestamp)
+          getDepViolations(datasetId)
             .then((result) => setDepViolationResults(result))
             .catch((error) => {
               console.error("Error fetching dependency violations:", error);
@@ -464,7 +452,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, combined: true }));
         setRequestedStates((prev) => ({ ...prev, combined: true }));
         try {
-          const combinedResults = await getCombined(datasetName, timestamp);
+          const combinedResults = await getCombined(datasetId);
           setCombinedOutput(combinedResults);
         } catch (error) {
           console.error("Error fetching combined results:", error);
@@ -495,7 +483,7 @@ const DetectionForm = <T,>({
 
   useEffect(() => {
     // Check if router.query params exist
-    if (dataset_name.length > 0 && timestamp.length > 0) {
+    if (dataset_id.length > 0) {
       // Pre-select settings based on query params
       setDetectionSettings({
         attribute: attribute, // Set based on your logic
@@ -503,11 +491,10 @@ const DetectionForm = <T,>({
         violations: depViol, // Set based on your logic
       });
       setFileResults({
-        dataset_name: dataset_name,
-        timestamp: timestamp,
+        dataset_id: dataset_id,
       });
 
-      fetchData(dataset_name, timestamp, attribute, dep, depViol);
+      fetchData(dataset_id, attribute, dep, depViol);
     } else {
       setFileUploadSuccess(false);
       setDetectionSettings({
@@ -534,7 +521,7 @@ const DetectionForm = <T,>({
         combined: false,
       });
     }
-  }, [dataset_name, timestamp, attribute, dep, depViol]);
+  }, [dataset_id, attribute, dep, depViol]);
 
   return (
     <Suspense fallback={<CircularProgress />}>
@@ -545,7 +532,7 @@ const DetectionForm = <T,>({
             loading={fileUploadLoading}
             variant="outlined"
             component="label"
-            disabled={Boolean(dataset_name)}
+            disabled={Boolean(dataset_id)}
 
             // color={inputError.file ? "error" : "primary"}
           >
@@ -563,7 +550,7 @@ const DetectionForm = <T,>({
                   className={styles.checkbox}
                   checked={detectionSettings.attribute}
                   onChange={handleCheckboxChange}
-                  disabled={Boolean(dataset_name)}
+                  disabled={Boolean(dataset_id)}
                   name="attribute"
                 />
               }
@@ -577,7 +564,7 @@ const DetectionForm = <T,>({
                   checked={detectionSettings.dependency}
                   onChange={handleCheckboxChange}
                   name="dependency"
-                  disabled={Boolean(dataset_name)}
+                  disabled={Boolean(dataset_id)}
                 />
               }
               label="Dependencies"
@@ -589,78 +576,33 @@ const DetectionForm = <T,>({
                   checked={detectionSettings.violations}
                   onChange={handleCheckboxChange}
                   name="violations"
-                  disabled={Boolean(dataset_name)}
+                  disabled={Boolean(dataset_id)}
                 />
               }
               label="Dependency Violations"
             />
           </Box>
-          {/* </FormGroup> */}
 
-          {/* <Button
-          variant="outlined"
-          onClick={() => setFileUploadSuccess(false)}
-          className={styles.cancel}
-          disabled={Boolean(dataset_name)}
-        >
-          <CloseIcon />
-        </Button> */}
-
-          {dataset_name ? (
+          {dataset_id ? (
             <Typography color="textDisabled">Model: {modelName}</Typography>
           ) : (
-            <Button
-              type="submit"
-              variant="outlined"
-              onClick={handleSubmit}
-              disabled={Boolean(dataset_name)}
-            >
-              Detect
-            </Button>
+            <>
+              <ModelSelector
+                provider={selectedProvider}
+                model={selectedModel}
+                onProviderChange={setSelectedProvider}
+                onModelChange={setSelectedModel}
+              />
+              <Button
+                type="submit"
+                variant="outlined"
+                onClick={handleSubmit}
+              >
+                Detect
+              </Button>
+            </>
           )}
-          {/* <Button
-          onClick={() => {
-            console.log(dep_string);
-          }}
-        >
-          Log
-        </Button> */}
-
-          {/* {inputError.file || inputError.detection ? (
-          <Tooltip
-            title={
-              inputError.file
-                ? "Please upload a dataset."
-                : " Please select at least one detection option."
-            }
-            arrow
-          >
-            <ErrorIcon
-              color="error"
-              style={{ marginLeft: 5, cursor: "pointer" }}
-            />
-          </Tooltip>
-        ) : null} */}
         </Box>
-
-        {/* <Box className={styles.feedback}>
-        {inputError.file && (
-          <Alert variant="outlined" severity="error" className={styles.alert}>
-            Please upload a dataset.
-          </Alert>
-        )}
-        {inputError.detection && (
-          <Alert severity="error" variant="outlined" className={styles.alert}>
-            Please select at least one detection option.
-          </Alert>
-
-          // <Box className={styles.feedbackBox}>
-          //   <Typography>
-          //     Please select at least one detection option.
-          //   </Typography>
-          // </Box>
-        )}
-      </Box> */}
       </Box>
     </Suspense>
   );

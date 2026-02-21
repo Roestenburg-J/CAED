@@ -16,6 +16,10 @@ def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
     # Create an index for unique values
     attribute_unique["unique_index"] = attribute_unique.index
 
+    # Add count of how many times each unique value appears in the column
+    count_map = attribute[column_name].value_counts()
+    attribute_unique["count"] = attribute_unique[column_name].map(count_map)
+
     # Join unique indexs to the original values, creating a dictionary of original index, value, and unique index
     attribute_dict = pd.merge(
         attribute, attribute_unique, on=column_name, how="left", suffixes=("", "_df2")
@@ -43,12 +47,17 @@ def create_row_dict(selected_columns: pd.DataFrame) -> pd.DataFrame:
         unique_rows.index
     )  # Create unique index for unique rows
 
+    # Add count of how many times each unique row combination appears in the dataset
+    data_cols = list(selected_columns.columns[:-1])  # all columns except original_index
+    counts = selected_columns.groupby(data_cols, sort=False).size().reset_index(name="count")
+    unique_rows = unique_rows.merge(counts, on=data_cols, how="left")
+
     # Merge unique row index back to original data to track the mapping
     row_dict = pd.merge(
         selected_columns,
         unique_rows,
         how="left",
-        on=list(selected_columns.columns[:-1]),
+        on=data_cols,
     )
 
     return row_dict, unique_rows
@@ -98,16 +107,59 @@ def annotate_errors(
     return error_annotation
 
 
-def create_buckets(dataset: pd.DataFrame):
+def create_attribute_value_buckets(
+    attribute_unique: pd.DataFrame, threshold: float = 0.5, num_perm: int = 128
+) -> list:
+    """
+    Group unique attribute values into buckets of similar values using MinHashLSH.
+
+    Uses character 3-gram shingles to estimate Jaccard similarity between string
+    values (useful for detecting misspellings and format variants).
+
+    Returns a list of buckets; each bucket is a list of integer row positions
+    (0-based) into attribute_unique.
+    """
+    value_col = attribute_unique.columns[0]
+    values = attribute_unique[value_col].tolist()
+
+    lsh = MinHashLSH(threshold=threshold, num_perm=num_perm)
+    minhashes = []
+
+    for i, value in enumerate(values):
+        m = MinHash(num_perm=num_perm)
+        value_str = str(value)
+        # Character 3-gram shingles; fall back to the whole string for short values
+        if len(value_str) >= 3:
+            shingles = {value_str[j : j + 3] for j in range(len(value_str) - 2)}
+        else:
+            shingles = {value_str}
+        for shingle in shingles:
+            m.update(shingle.encode("utf8"))
+        minhashes.append(m)
+        lsh.insert(i, m)
+
+    buckets = []
+    visited = set()
+
+    for i in range(len(values)):
+        if i not in visited:
+            similar = lsh.query(minhashes[i])
+            buckets.append(similar)
+            visited.update(similar)
+
+    return buckets
+
+
+def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int = 128):
 
     records = dataset.values.tolist()
 
     # Create an LSH index with a threshold and number of permutations
-    lsh = MinHashLSH(threshold=0.5, num_perm=128)
+    lsh = MinHashLSH(threshold=threshold, num_perm=num_perm)
 
     # Insert each record into the LSH index
     for i, record in enumerate(records):
-        m = MinHash(num_perm=128)
+        m = MinHash(num_perm=num_perm)
         for feature in record:
             m.update(
                 str(feature).encode("utf8")
@@ -121,7 +173,7 @@ def create_buckets(dataset: pd.DataFrame):
     for i, record in enumerate(records):
         if i not in visited:  # Only process records that haven't been visited
             # Create MinHash for the current record
-            m = MinHash(num_perm=128)
+            m = MinHash(num_perm=num_perm)
             for feature in record:
                 m.update(str(feature).encode("utf8"))
 

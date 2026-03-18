@@ -1,0 +1,14 @@
+{
+    "id": "rayyan_20241114_111119",
+    "name": "rayyan",
+    "created_at": "2024-11-14T11:11:19",
+    "type": "evaluation",
+    "provider": null,
+    "model": "gpt-4o-mini",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

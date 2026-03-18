@@ -9,7 +9,7 @@ services:
       - "3000:3000" # Map frontend port
     environment:
       - NODE_ENV=development
-      - FLASK_APP_URL=http://backend:5000
+      - FLASK_APP_URL=http://backend:3000
     volumes:
       - ./frontend:/app # Mount local code for live updates
       - /app/node_modules # Avoid overwriting node_modules
@@ -23,14 +23,14 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"
+      - "3001:3001"
     environment:
       - FLASK_APP=app.py
       - FLASK_RUN_HOST=0.0.0.0
-      - FRONTEND_URL=http://frontend:3000
+      - FRONTEND_URL=http://frontend:3001
     volumes:
       - ./backend:/app
-    command: ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+    command: ["flask", "run", "--host=0.0.0.0", "--port=3001"]
     restart: always
 
 networks:

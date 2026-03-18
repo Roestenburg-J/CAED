@@ -3,6 +3,8 @@ flask-cors
 pandas
 scikit-learn
 openai
+anthropic
+google-genai
 pydantic
 typing
 datasketch

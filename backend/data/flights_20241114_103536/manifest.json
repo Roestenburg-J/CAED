@@ -1,0 +1,14 @@
+{
+    "id": "flights_20241114_103536",
+    "name": "flights",
+    "created_at": "2024-11-14T10:35:36",
+    "type": "evaluation",
+    "provider": null,
+    "model": "gpt-4o-mini",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

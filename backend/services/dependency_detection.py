@@ -1,8 +1,12 @@
+import logging
+
 import pandas as pd
 import os
 
 from utils.data_utils import create_buckets
 from utils.prompting_utils import prompt_gpt
+
+logger = logging.getLogger(__name__)
 
 response_format = {
     "type": "json_schema",
@@ -83,6 +87,9 @@ HUR-008_t   | Hurricanes that were able to breach sea walls
 def dependency_detection(
     dataset: pd.DataFrame, filtered_top_buckets, buckets, directory: str
 ):
+    if not filtered_top_buckets:
+        logger.info("No suitable record buckets found for dependency detection; skipping.")
+        return
 
     records = dataset.values.tolist()
 

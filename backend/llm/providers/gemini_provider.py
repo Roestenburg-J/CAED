@@ -1,9 +1,27 @@
 import json
+import logging
+
 from google import genai
 from google.genai import types
 
-from ..base import BaseLLMProvider
+from ..base import BaseLLMProvider, call_with_retry
 from ..schemas import LLMRequest, LLMResponse
+from exceptions import LLMAuthenticationError, LLMRateLimitError, LLMResponseError
+
+logger = logging.getLogger(__name__)
+
+# google-genai raises from google.api_core.exceptions for most API errors
+try:
+    from google.api_core.exceptions import (
+        Unauthenticated,
+        ResourceExhausted,
+        GoogleAPIError,
+    )
+except ImportError:
+    # Graceful fallback if google-api-core is not installed separately
+    Unauthenticated = Exception
+    ResourceExhausted = Exception
+    GoogleAPIError = Exception
 
 
 class GeminiProvider(BaseLLMProvider):
@@ -20,15 +38,36 @@ class GeminiProvider(BaseLLMProvider):
             schema_instruction = f"\n\nRespond ONLY with a valid JSON object matching this schema (no markdown, no extra text):\n{json.dumps(schema, indent=2)}"
             system_prompt = (system_prompt or "") + schema_instruction
 
-        response = self.client.models.generate_content(
-            model=request.model,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                temperature=request.temperature,
-                max_output_tokens=request.max_tokens,
-                system_instruction=system_prompt,
-            ),
-        )
+        def _call():
+            try:
+                return self.client.models.generate_content(
+                    model=request.model,
+                    contents=contents,
+                    config=types.GenerateContentConfig(
+                        temperature=request.temperature,
+                        max_output_tokens=request.max_tokens,
+                        system_instruction=system_prompt,
+                    ),
+                )
+            except Unauthenticated as e:
+                raise LLMAuthenticationError(
+                    f"Gemini authentication failed. Check your API key. ({e})"
+                ) from e
+            except ResourceExhausted as e:
+                raise LLMRateLimitError(
+                    f"Gemini rate limit exceeded: {e}"
+                ) from e
+            except GoogleAPIError as e:
+                raise LLMResponseError(
+                    f"Gemini API error: {e}"
+                ) from e
+
+        response = call_with_retry(_call, "Gemini")
+
+        if response.text is None:
+            raise LLMResponseError(
+                "Gemini returned an empty response (content may have been filtered)."
+            )
 
         usage = response.usage_metadata
         return LLMResponse(

@@ -1,7 +1,12 @@
 import json
+import logging
+
 import pandas as pd
 from utils.prompting_utils import prompt_gpt, load_settings
 from utils.data_utils import create_attribute_dict, create_attribute_value_buckets
+from exceptions import DataValidationError
+
+logger = logging.getLogger(__name__)
 
 response_format = {
     "type": "json_schema",
@@ -124,6 +129,9 @@ Example B — user IDs:
 
 
 def attribute_prompt(dataset: pd.DataFrame, directory: str) -> str:
+    if dataset.empty:
+        raise DataValidationError("Dataset is empty; cannot run attribute error detection.")
+
     settings = load_settings()
     minhash_threshold = float(settings.get("minhash_attribute_threshold", settings.get("minhash_threshold", 0.5)))
     minhash_num_perm = int(settings.get("minhash_attribute_num_perm", settings.get("minhash_num_perm", 128)))

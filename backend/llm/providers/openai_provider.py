@@ -1,7 +1,13 @@
+import logging
 from typing import Optional
-from openai import OpenAI
-from ..base import BaseLLMProvider
+
+from openai import OpenAI, AuthenticationError, RateLimitError, APIError, APIConnectionError
+
+from ..base import BaseLLMProvider, call_with_retry
 from ..schemas import LLMRequest, LLMResponse
+from exceptions import LLMAuthenticationError, LLMRateLimitError, LLMResponseError
+
+logger = logging.getLogger(__name__)
 
 
 class OpenAIProvider(BaseLLMProvider):
@@ -22,7 +28,26 @@ class OpenAIProvider(BaseLLMProvider):
         if request.response_format is not None:
             kwargs["response_format"] = request.response_format
 
-        response = self.client.chat.completions.create(**kwargs)
+        def _call():
+            try:
+                return self.client.chat.completions.create(**kwargs)
+            except AuthenticationError as e:
+                raise LLMAuthenticationError(
+                    f"OpenAI authentication failed. Check your API key. ({e})"
+                ) from e
+            except RateLimitError as e:
+                raise LLMRateLimitError(
+                    f"OpenAI rate limit exceeded: {e}"
+                ) from e
+            except (APIError, APIConnectionError) as e:
+                raise LLMResponseError(
+                    f"OpenAI API error: {e}"
+                ) from e
+
+        response = call_with_retry(_call, "OpenAI")
+
+        if not response.choices or response.choices[0].message.content is None:
+            raise LLMResponseError("OpenAI returned an empty response.")
 
         return LLMResponse(
             content=response.choices[0].message.content,

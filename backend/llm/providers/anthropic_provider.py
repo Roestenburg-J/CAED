@@ -1,7 +1,14 @@
 import json
+import logging
+
 import anthropic
-from ..base import BaseLLMProvider
+from anthropic import AuthenticationError, RateLimitError, APIError, APIConnectionError
+
+from ..base import BaseLLMProvider, call_with_retry
 from ..schemas import LLMRequest, LLMResponse
+from exceptions import LLMAuthenticationError, LLMRateLimitError, LLMResponseError
+
+logger = logging.getLogger(__name__)
 
 
 class AnthropicProvider(BaseLLMProvider):
@@ -17,16 +24,37 @@ class AnthropicProvider(BaseLLMProvider):
             schema_instruction = f"\n\nRespond ONLY with a valid JSON object matching this schema (no markdown, no extra text):\n{json.dumps(schema, indent=2)}"
             system_prompt = (system_prompt or "") + schema_instruction
 
-        response = self.client.messages.create(
-            model=request.model,
-            max_tokens=request.max_tokens,
-            messages=[
-                {"role": m.role, "content": m.content}
-                for m in request.messages
-                if m.role != "system"
-            ],
-            system=system_prompt,
-        )
+        messages = [
+            {"role": m.role, "content": m.content}
+            for m in request.messages
+            if m.role != "system"
+        ]
+
+        def _call():
+            try:
+                return self.client.messages.create(
+                    model=request.model,
+                    max_tokens=request.max_tokens,
+                    messages=messages,
+                    system=system_prompt,
+                )
+            except AuthenticationError as e:
+                raise LLMAuthenticationError(
+                    f"Anthropic authentication failed. Check your API key. ({e})"
+                ) from e
+            except RateLimitError as e:
+                raise LLMRateLimitError(
+                    f"Anthropic rate limit exceeded: {e}"
+                ) from e
+            except (APIError, APIConnectionError) as e:
+                raise LLMResponseError(
+                    f"Anthropic API error: {e}"
+                ) from e
+
+        response = call_with_retry(_call, "Anthropic")
+
+        if not response.content or response.content[0].text is None:
+            raise LLMResponseError("Anthropic returned an empty response.")
 
         return LLMResponse(
             content=response.content[0].text,

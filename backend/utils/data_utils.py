@@ -1,6 +1,11 @@
+import logging
+
 import pandas as pd
 from datasketch import MinHash, MinHashLSH
-from flask import current_app
+
+from exceptions import DataValidationError
+
+logger = logging.getLogger(__name__)
 
 
 def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
@@ -8,7 +13,7 @@ def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
     attribute = pd.DataFrame(attribute)
     attribute["original_index"] = attribute.index
 
-    # Retreive unique values
+    # Retrieve unique values
     attribute_unique = pd.DataFrame(
         attribute[column_name].unique(), columns=[column_name]
     )
@@ -20,7 +25,7 @@ def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
     count_map = attribute[column_name].value_counts()
     attribute_unique["count"] = attribute_unique[column_name].map(count_map)
 
-    # Join unique indexs to the original values, creating a dictionary of original index, value, and unique index
+    # Join unique indices to the original values
     attribute_dict = pd.merge(
         attribute, attribute_unique, on=column_name, how="left", suffixes=("", "_df2")
     )
@@ -32,6 +37,10 @@ def create_attribute_dict(attribute, column_name: str) -> pd.DataFrame:
 
 # Function to create unique row dictionary
 def create_row_dict(selected_columns: pd.DataFrame) -> pd.DataFrame:
+    if selected_columns.shape[1] < 2:
+        raise DataValidationError(
+            f"create_row_dict requires at least 2 columns, got {selected_columns.shape[1]}."
+        )
 
     selected_columns = selected_columns.copy()
 
@@ -43,9 +52,7 @@ def create_row_dict(selected_columns: pd.DataFrame) -> pd.DataFrame:
         .drop_duplicates(subset=selected_columns.columns[:-1])
         .reset_index(drop=True)
     )
-    unique_rows["unique_index"] = (
-        unique_rows.index
-    )  # Create unique index for unique rows
+    unique_rows["unique_index"] = unique_rows.index
 
     # Add count of how many times each unique row combination appears in the dataset
     data_cols = list(selected_columns.columns[:-1])  # all columns except original_index
@@ -95,7 +102,7 @@ def annotate_errors(
     if df_fixed.shape != df_with_errors.shape or not all(
         df_fixed.columns == df_with_errors.columns
     ):
-        raise ValueError("Both dataframes must have the same structure.")
+        raise DataValidationError("Both dataframes must have the same structure.")
 
     # Convert both dataframes to strings for datatype-agnostic comparison
     df_fixed_str = df_fixed.astype(str)
@@ -151,6 +158,14 @@ def create_attribute_value_buckets(
 
 
 def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int = 128):
+    if dataset.empty:
+        raise DataValidationError(
+            "Cannot create MinHash buckets from an empty dataset."
+        )
+    if dataset.shape[0] < 2:
+        raise DataValidationError(
+            f"Need at least 2 rows for dependency detection, got {dataset.shape[0]}."
+        )
 
     records = dataset.values.tolist()
 
@@ -161,29 +176,21 @@ def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int 
     for i, record in enumerate(records):
         m = MinHash(num_perm=num_perm)
         for feature in record:
-            m.update(
-                str(feature).encode("utf8")
-            )  # Hashing the attributes of the record
+            m.update(str(feature).encode("utf8"))
         lsh.insert(i, m)
 
         buckets = []
-    visited = set()  # To track records that have already been assigned to a bucket
+    visited = set()
 
     # Querying similar records for each record
     for i, record in enumerate(records):
-        if i not in visited:  # Only process records that haven't been visited
-            # Create MinHash for the current record
+        if i not in visited:
             m = MinHash(num_perm=num_perm)
             for feature in record:
                 m.update(str(feature).encode("utf8"))
 
-            # Query LSH to get similar records
             similar_records = lsh.query(m)
-
-            # Add the current record and its similar ones as a new bucket
             buckets.append(similar_records)
-
-            # Mark all similar records as visited
             visited.update(similar_records)
 
     # Calculate the sizes of all buckets
@@ -193,12 +200,10 @@ def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int 
     sorted_buckets = sorted(bucket_sizes, key=lambda x: x[1], reverse=True)
 
     # Retrieve the top 10 buckets
-    top_buckets_raw = sorted_buckets[:10]  # Get the top 10 buckets
-
-    # Define a minimum size threshold (e.g., 2)
-    min_size_threshold = 2
+    top_buckets_raw = sorted_buckets[:10]
 
     # Filter the top buckets based on the minimum size threshold
+    min_size_threshold = 2
     filtered_top_buckets = [
         bucket for bucket in top_buckets_raw if bucket[1] >= min_size_threshold
     ]

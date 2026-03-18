@@ -1,10 +1,14 @@
+import logging
+
 import pandas as pd
 from collections import defaultdict
 import ast
-from flask import current_app
 
 from utils.data_utils import create_row_dict
 from utils.prompting_utils import prompt_gpt
+from exceptions import DataValidationError
+
+logger = logging.getLogger(__name__)
 
 response_format = {
     "type": "json_schema",
@@ -136,7 +140,7 @@ def detect_dep_violations(
                 col for col in selected_column_names if col not in dataset.columns
             ]
             if missing_columns:
-                raise ValueError(f"Columns not found in dataset: {missing_columns}")
+                raise DataValidationError(f"Columns not found in dataset: {missing_columns}")
 
             # Select the columns by name
             selected_columns = dataset[selected_column_names]

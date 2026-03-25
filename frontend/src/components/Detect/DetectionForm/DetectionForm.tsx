@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Suspense } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./DetectionForm.module.css";
 import Papa from "papaparse";
 import * as XLSX from "xlsx";
@@ -25,7 +25,8 @@ import LoadingButton from "@mui/lab/LoadingButton";
 // import {  } from "@mui/material";
 
 // Service Imports
-import { uploadDataset } from "@/services/Utils/Utils";
+import { uploadDataset, uploadCleanDataset, getSettings, updateSettings } from "@/services/Utils/Utils";
+import ModelSelector from "@/components/ModelSelector/ModelSelector";
 import {
   detectAttributeErrors,
   detectDependencies,
@@ -33,13 +34,20 @@ import {
   retreiveCombinedResults,
 } from "@/services/Detect/Detect";
 import {
+  evaluateAttributeErrors,
+  evaluateDepViolations,
+  evaluateCombinedResults,
+} from "@/services/Evaluate/Evaluate";
+import {
   getDataset,
   getAttribute,
   getDependencies,
   getDepViolations,
   getCombined,
 } from "@/services/Retreive/Retreive";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
+// NOTE: useSearchParams() is called directly in this component.
+// The parent page must wrap this component in a <Suspense> boundary.
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -95,58 +103,22 @@ const DetectionForm = <T,>({
   setDetectionError,
   setDataset,
 }: DetectionFormProps<T>) => {
-  const SearchParamsComponent = () => {
-    const searchParams = useSearchParams();
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-    // Use searchParams safely here
-    const dataset_name = searchParams.get("dataset_name");
-    const timestamp = searchParams.get("timestamp");
-    // const searchParams = useSearchParams();
+  const dataset_id = searchParams.get("dataset_id") ?? "";
+  const attribute = searchParams.get("attribute") === "true";
+  const dep = searchParams.get("dep") === "true";
+  const depViol = searchParams.get("depViol") === "true";
 
-    // const dataset_name = searchParams.get("dataset_name");
-    // const timestamp = searchParams.get("timestamp");
+  // Track the previous dataset_id so the else-branch reset only fires when
+  // navigating away from a dataset, not on the initial render where
+  // searchParams may momentarily resolve to "" before the real value arrives.
+  const prevDatasetIdRef = useRef<string | null>(null);
 
-    const attribute_string = searchParams.get("attribute");
-    const dep_string = searchParams.get("dep");
-    const dep_viol_string = searchParams.get("depViol");
-
-    useEffect(() => {
-      if (dataset_name) {
-        setDataset_name(dataset_name);
-      }
-      if (timestamp) {
-        setTimestamp(timestamp);
-      }
-      if (attribute_string === "true") {
-        setAttribute(true);
-      }
-      if (dep_string === "true") {
-        setDep(true);
-      }
-      if (dep_viol_string === "true") {
-        setDepViol(true);
-      }
-    }, [
-      dataset_name,
-      timestamp,
-      attribute_string,
-      dep_string,
-      dep_viol_string,
-    ]); // Depend on search params
-
-    return <div></div>;
-  };
-
-  const [dataset_name, setDataset_name] = useState("");
-  const [timestamp, setTimestamp] = useState("");
-
-  const [attribute, setAttribute] = useState(false);
-  const [dep, setDep] = useState(false);
-  const [depViol, setDepViol] = useState(false);
-
-  // const attribute = attribute_string == "true" ? true : false;
-  // const dep = dep_string == "true" ? true : false;
-  // const depViol = dep_viol_string == "true" ? true : false;
+  const [groundTruthLoading, setGroundTruthLoading] = useState(false);
+  const [groundTruthError, setGroundTruthError] = useState<string | null>(null);
+  const [groundTruthSuccess, setGroundTruthSuccess] = useState(false);
 
   const [detectionSettings, setDetectionSettings] = useState({
     attribute: false,
@@ -160,14 +132,24 @@ const DetectionForm = <T,>({
     detection: false,
   });
   const [fileResults, setFileResults] = useState({
-    dataset_name: "",
-    timestamp: "",
+    dataset_id: "",
   });
 
   const [selectedFile, setSelectedFile] = useState<File>();
   const [filename, setFilename] = useState("");
 
   const [modelName, setModelName] = useState("");
+  const [selectedProvider, setSelectedProvider] = useState("openai");
+  const [selectedModel, setSelectedModel] = useState("gpt-4o-mini");
+
+  useEffect(() => {
+    getSettings()
+      .then((data) => {
+        setSelectedProvider(data.provider ?? "openai");
+        setSelectedModel(data.model ?? "gpt-4o-mini");
+      })
+      .catch(() => {});
+  }, []);
 
   const handleFileChange = async (
     event: React.ChangeEvent<HTMLInputElement>
@@ -230,17 +212,13 @@ const DetectionForm = <T,>({
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+    await updateSettings({ provider: selectedProvider, model: selectedModel });
     const fileResponse = await uploadDataset({
       file: selectedFile,
       datasetName: filename,
     });
-    // const fileResponse = {
-    //   dataset_name: "hospital_1",
-    //   timestamp: "20241030_123153",
-    // };
     setFileResults({
-      dataset_name: fileResponse.dataset_name,
-      timestamp: fileResponse.timestamp,
+      dataset_id: fileResponse.dataset_id,
     });
     setFileUploadSuccess(true);
     setInputError((prev) => ({ ...prev, file: false })); // Reset file error
@@ -287,7 +265,7 @@ const DetectionForm = <T,>({
     const attributePromise = detectionSettings.attribute
       ? (setRequestedStates((prev) => ({ ...prev, attribute: true })),
         setLoadingStates((prev) => ({ ...prev, attribute: true })),
-        detectAttributeErrors(fileResponse.dataset_name, fileResponse.timestamp)
+        detectAttributeErrors(fileResponse.dataset_id)
           .then((result) => setAttributeResults(result))
           .catch((error) => {
             console.error("Error detecting attribute:", error);
@@ -301,7 +279,7 @@ const DetectionForm = <T,>({
     const dependencyPromise = detectionSettings.dependency
       ? (setRequestedStates((prev) => ({ ...prev, dependency: true })),
         setLoadingStates((prev) => ({ ...prev, dependency: true })),
-        detectDependencies(fileResponse.dataset_name, fileResponse.timestamp)
+        detectDependencies(fileResponse.dataset_id)
           .then((result) => setDependencyResults(result))
           .catch((error) => {
             console.error("Error detecting dependency:", error);
@@ -318,7 +296,7 @@ const DetectionForm = <T,>({
       setRequestedStates((prev) => ({ ...prev, violations: true }));
       setLoadingStates((prev) => ({ ...prev, violations: true }));
       violationPromise = dependencyPromise.then(() =>
-        detectDepViolations(fileResponse.dataset_name, fileResponse.timestamp)
+        detectDepViolations(fileResponse.dataset_id)
           .then((result) => setDepViolationResults(result))
           .catch((error) => {
             console.error("Error detecting violations:", error);
@@ -343,10 +321,7 @@ const DetectionForm = <T,>({
       ) {
         setRequestedStates((prev) => ({ ...prev, combined: true }));
         setLoadingStates((prev) => ({ ...prev, combined: true }));
-        return retreiveCombinedResults(
-          fileResponse.dataset_name,
-          fileResponse.timestamp
-        )
+        return retreiveCombinedResults(fileResponse.dataset_id)
           .then((result) => setCombinedOutput(result))
           .catch((error) => {
             console.error("Combined Detection failed:", error);
@@ -367,9 +342,59 @@ const DetectionForm = <T,>({
     ]);
   };
 
-  const fetchData = async (
-    datasetName: string,
-    timestamp: string,
+  const handleGroundTruthUpload = async (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    const file = event.target.files?.[0];
+    if (!file || !dataset_id) return;
+
+    setGroundTruthLoading(true);
+    setGroundTruthError(null);
+    setGroundTruthSuccess(false);
+
+    try {
+      // 1. Save clean.csv and flip manifest type to "evaluation"
+      await uploadCleanDataset({ dataset_id, clean_file: file });
+
+      // 2. Fire evaluate endpoints for all completed analysis types.
+      //    Violations are chained after dependency (same ordering as EvaluateForm).
+      const attributePromise = attribute
+        ? evaluateAttributeErrors(dataset_id)
+        : Promise.resolve();
+
+      const dependencyPromise = dep
+        ? detectDependencies(dataset_id)
+        : Promise.resolve();
+
+      let violationPromise: Promise<any> = Promise.resolve();
+      if (depViol) {
+        violationPromise = dependencyPromise.then(() =>
+          evaluateDepViolations(dataset_id)
+        );
+      }
+
+      await Promise.all([attributePromise, dependencyPromise, violationPromise]);
+
+      if (attribute && depViol) {
+        await evaluateCombinedResults(dataset_id);
+      }
+
+      setGroundTruthSuccess(true);
+
+      // 3. Navigate to the evaluate page — fetchData() there will load
+      //    results + metrics via the GET routes (which now include clean.csv).
+      router.push(
+        `/evaluate?dataset_id=${dataset_id}&attribute=${attribute}&dep=${dep}&depViol=${depViol}`
+      );
+    } catch (err: any) {
+      setGroundTruthError(err?.message ?? "Failed to upload ground truth.");
+    } finally {
+      setGroundTruthLoading(false);
+    }
+  };
+
+  const fetchData = useCallback(async (
+    datasetId: string,
     attribute: boolean,
     dep: boolean,
     depViol: boolean
@@ -385,8 +410,8 @@ const DetectionForm = <T,>({
 
     try {
       // Step 1: Fetch the dataset first
-      const dataset = await getDataset(datasetName, timestamp);
-      setModelName(dataset.gpt_model);
+      const dataset = await getDataset(datasetId);
+      setModelName(dataset.model);
 
       // Step 2: Sort columns of the dataset based on the schema's index
       const sortedData = dataset.dataset.map((row: Record<string, any>) => {
@@ -412,7 +437,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, attribute: true }));
         setRequestedStates((prev) => ({ ...prev, attribute: true }));
         fetchPromises.push(
-          getAttribute(datasetName, timestamp)
+          getAttribute(datasetId)
             .then((result) => setAttributeResults(result))
             .catch((error) => {
               console.error("Error fetching attribute errors:", error);
@@ -428,7 +453,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, dependency: true }));
         setRequestedStates((prev) => ({ ...prev, dependency: true }));
         fetchPromises.push(
-          getDependencies(datasetName, timestamp)
+          getDependencies(datasetId)
             .then((result) => setDependencyResults(result))
             .catch((error) => {
               console.error("Error fetching dependencies:", error);
@@ -444,7 +469,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, violations: true }));
         setRequestedStates((prev) => ({ ...prev, violations: true }));
         fetchPromises.push(
-          getDepViolations(datasetName, timestamp)
+          getDepViolations(datasetId)
             .then((result) => setDepViolationResults(result))
             .catch((error) => {
               console.error("Error fetching dependency violations:", error);
@@ -464,7 +489,7 @@ const DetectionForm = <T,>({
         setLoadingStates((prev) => ({ ...prev, combined: true }));
         setRequestedStates((prev) => ({ ...prev, combined: true }));
         try {
-          const combinedResults = await getCombined(datasetName, timestamp);
+          const combinedResults = await getCombined(datasetId);
           setCombinedOutput(combinedResults);
         } catch (error) {
           console.error("Error fetching combined results:", error);
@@ -491,61 +516,43 @@ const DetectionForm = <T,>({
         combined: false,
       });
     }
-  };
+  }, [
+    setLoadingStates, setRequestedStates, setDetectionError,
+    setAttributeResults, setDependencyResults, setDepViolationResults,
+    setCombinedOutput, setDataset,
+  ]);
 
   useEffect(() => {
-    // Check if router.query params exist
-    if (dataset_name.length > 0 && timestamp.length > 0) {
-      // Pre-select settings based on query params
+    if (dataset_id.length > 0) {
+      // Real dataset_id present — update settings and fetch results.
+      prevDatasetIdRef.current = dataset_id;
       setDetectionSettings({
-        attribute: attribute, // Set based on your logic
-        dependency: dep, // Set based on your logic
-        violations: depViol, // Set based on your logic
+        attribute: attribute,
+        dependency: dep,
+        violations: depViol,
       });
-      setFileResults({
-        dataset_name: dataset_name,
-        timestamp: timestamp,
-      });
-
-      fetchData(dataset_name, timestamp, attribute, dep, depViol);
-    } else {
+      setFileResults({ dataset_id });
+      fetchData(dataset_id, attribute, dep, depViol);
+    } else if (prevDatasetIdRef.current !== null) {
+      // Only reset when navigating *away* from an existing dataset,
+      // not on the initial render where searchParams briefly resolves to "".
+      prevDatasetIdRef.current = null;
       setFileUploadSuccess(false);
-      setDetectionSettings({
-        attribute: false,
-        dependency: false,
-        violations: false,
-      });
-      setDetectionError({
-        attribute: false,
-        dependency: false,
-        violations: false,
-        combined: false,
-      });
-      setLoadingStates({
-        attribute: false,
-        dependency: false,
-        violations: false,
-        combined: false,
-      });
-      setRequestedStates({
-        attribute: false,
-        dependency: false,
-        violations: false,
-        combined: false,
-      });
+      setDetectionSettings({ attribute: false, dependency: false, violations: false });
+      setDetectionError({ attribute: false, dependency: false, violations: false, combined: false });
+      setLoadingStates({ attribute: false, dependency: false, violations: false, combined: false });
+      setRequestedStates({ attribute: false, dependency: false, violations: false, combined: false });
     }
-  }, [dataset_name, timestamp, attribute, dep, depViol]);
+  }, [dataset_id, attribute, dep, depViol, fetchData]);
 
   return (
-    <Suspense fallback={<CircularProgress />}>
-      <SearchParamsComponent />
-      <Box className={styles.container}>
+    <Box className={styles.container}>
         <Box className={styles.uploadInput}>
           <LoadingButton
             loading={fileUploadLoading}
             variant="outlined"
             component="label"
-            disabled={Boolean(dataset_name)}
+            disabled={Boolean(dataset_id)}
 
             // color={inputError.file ? "error" : "primary"}
           >
@@ -563,7 +570,7 @@ const DetectionForm = <T,>({
                   className={styles.checkbox}
                   checked={detectionSettings.attribute}
                   onChange={handleCheckboxChange}
-                  disabled={Boolean(dataset_name)}
+                  disabled={Boolean(dataset_id)}
                   name="attribute"
                 />
               }
@@ -577,7 +584,7 @@ const DetectionForm = <T,>({
                   checked={detectionSettings.dependency}
                   onChange={handleCheckboxChange}
                   name="dependency"
-                  disabled={Boolean(dataset_name)}
+                  disabled={Boolean(dataset_id)}
                 />
               }
               label="Dependencies"
@@ -589,80 +596,52 @@ const DetectionForm = <T,>({
                   checked={detectionSettings.violations}
                   onChange={handleCheckboxChange}
                   name="violations"
-                  disabled={Boolean(dataset_name)}
+                  disabled={Boolean(dataset_id)}
                 />
               }
               label="Dependency Violations"
             />
           </Box>
-          {/* </FormGroup> */}
 
-          {/* <Button
-          variant="outlined"
-          onClick={() => setFileUploadSuccess(false)}
-          className={styles.cancel}
-          disabled={Boolean(dataset_name)}
-        >
-          <CloseIcon />
-        </Button> */}
-
-          {dataset_name ? (
-            <Typography color="textDisabled">Model: {modelName}</Typography>
+          {dataset_id ? (
+            <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
+              <Typography color="textDisabled">Model: {modelName}</Typography>
+              <LoadingButton
+                loading={groundTruthLoading}
+                variant="outlined"
+                component="label"
+                color={groundTruthError ? "error" : groundTruthSuccess ? "success" : "primary"}
+              >
+                {groundTruthSuccess ? <DoneIcon sx={{ mr: 1 }} /> : <UploadFileIcon sx={{ mr: 1 }} />}
+                Add Ground Truth
+                <VisuallyHiddenInput
+                  type="file"
+                  onChange={handleGroundTruthUpload}
+                />
+              </LoadingButton>
+              {groundTruthError && (
+                <Alert severity="error" sx={{ mt: 1 }}>{groundTruthError}</Alert>
+              )}
+            </Box>
           ) : (
-            <Button
-              type="submit"
-              variant="outlined"
-              onClick={handleSubmit}
-              disabled={Boolean(dataset_name)}
-            >
-              Detect
-            </Button>
+            <>
+              <ModelSelector
+                provider={selectedProvider}
+                model={selectedModel}
+                onProviderChange={setSelectedProvider}
+                onModelChange={setSelectedModel}
+              />
+              <Button
+                type="submit"
+                variant="outlined"
+                onClick={handleSubmit}
+              >
+                Detect
+              </Button>
+            </>
           )}
-          {/* <Button
-          onClick={() => {
-            console.log(dep_string);
-          }}
-        >
-          Log
-        </Button> */}
-
-          {/* {inputError.file || inputError.detection ? (
-          <Tooltip
-            title={
-              inputError.file
-                ? "Please upload a dataset."
-                : " Please select at least one detection option."
-            }
-            arrow
-          >
-            <ErrorIcon
-              color="error"
-              style={{ marginLeft: 5, cursor: "pointer" }}
-            />
-          </Tooltip>
-        ) : null} */}
         </Box>
-
-        {/* <Box className={styles.feedback}>
-        {inputError.file && (
-          <Alert variant="outlined" severity="error" className={styles.alert}>
-            Please upload a dataset.
-          </Alert>
-        )}
-        {inputError.detection && (
-          <Alert severity="error" variant="outlined" className={styles.alert}>
-            Please select at least one detection option.
-          </Alert>
-
-          // <Box className={styles.feedbackBox}>
-          //   <Typography>
-          //     Please select at least one detection option.
-          //   </Typography>
-          // </Box>
-        )}
-      </Box> */}
       </Box>
-    </Suspense>
   );
 };
 

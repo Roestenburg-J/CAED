@@ -121,7 +121,7 @@ def upload_dataset():
         os.makedirs(dataset_dir, exist_ok=True)
 
         settings = load_detailed_settings()
-        gpt_model = settings["gpt_model"]
+        gpt_model = settings.get("model", settings.get("gpt_model", ""))
 
         model_file_path = os.path.join(dataset_dir, "gpt_model.txt")
         with open(model_file_path, "w") as model_file:
@@ -465,7 +465,7 @@ def upload_evaluation_dataset():
         os.makedirs(dataset_dir, exist_ok=True)
 
         settings = load_detailed_settings()
-        gpt_model = settings["gpt_model"]
+        gpt_model = settings.get("model", settings.get("gpt_model", ""))
 
         model_file_path = os.path.join(dataset_dir, "gpt_model.txt")
         with open(model_file_path, "w") as model_file:
@@ -1309,10 +1309,14 @@ def create_settings():
             # Load form data
             data = request.form.to_dict()
 
-        required_fields = ["gpt_organization", "gpt_project", "gpt_api", "gpt_model"]
+        # Accept either new multi-provider fields or legacy OpenAI fields
+        new_required = ["provider", "model"]
+        legacy_required = ["gpt_organization", "gpt_project", "gpt_api", "gpt_model"]
 
-        # Check if required fields are present
-        if not all(field in data for field in required_fields):
+        # Check if required fields are present (new format or legacy format)
+        has_new = all(field in data for field in new_required)
+        has_legacy = all(field in data for field in legacy_required)
+        if not has_new and not has_legacy:
             return jsonify({"error": "Missing required fields"}), 400
 
         # Save the data to the settings file

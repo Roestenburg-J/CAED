@@ -37,6 +37,42 @@ export async function uploadDataset({ file, datasetName }: UploadParams) {
   }
 }
 
+export async function getSettings() {
+  try {
+    const response = await fetch(`${application_service_url}/settings`, {
+      method: "GET",
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch settings: ${response.statusText}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error("Error fetching settings:", error);
+    throw error;
+  }
+}
+
+export async function updateSettings(data: Record<string, unknown>) {
+  try {
+    const response = await fetch(`${application_service_url}/settings`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to update settings: ${response.statusText}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error("Error updating settings:", error);
+    throw error;
+  }
+}
+
 export async function uploadEvaluateDataset({
   clean_file,
   dirty_file,

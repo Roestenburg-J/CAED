@@ -1,10 +1,12 @@
+import json
 import logging
+import os
+import random
 
 import pandas as pd
-import os
 
 from utils.data_utils import create_buckets
-from utils.prompting_utils import prompt_gpt
+from utils.prompting_utils import prompt_gpt, load_settings
 
 logger = logging.getLogger(__name__)
 
@@ -84,38 +86,136 @@ HUR-008_t   | Hurricanes that were able to breach sea walls
 </dependency_types>"""
 
 
+def _group_buckets_by_tokens(
+    sampled_bucket_data: list,
+    max_batch_tokens: int,
+) -> list:
+    """
+    Group (bucket_index, sampled_records) pairs into batches so that each
+    batch's combined JSON payload stays within *max_batch_tokens* tokens
+    (estimated as ``len(json.dumps(batch)) // 4``).
+
+    Returns a list of groups; each group is a list of
+    (bucket_index, sampled_records) tuples.
+    """
+    groups = []
+    current_group = []
+    current_tokens = 0
+
+    for bucket_index, sampled_records in sampled_bucket_data:
+        bucket_tokens = len(json.dumps(sampled_records)) // 4
+
+        # Single bucket already exceeds the ceiling — emit it alone.
+        if bucket_tokens >= max_batch_tokens:
+            if current_group:
+                groups.append(current_group)
+                current_group = []
+                current_tokens = 0
+            groups.append([(bucket_index, sampled_records)])
+            continue
+
+        # Adding this bucket would exceed the ceiling — flush first.
+        if current_tokens + bucket_tokens > max_batch_tokens and current_group:
+            groups.append(current_group)
+            current_group = []
+            current_tokens = 0
+
+        current_group.append((bucket_index, sampled_records))
+        current_tokens += bucket_tokens
+
+    if current_group:
+        groups.append(current_group)
+
+    return groups
+
+
 def dependency_detection(
     dataset: pd.DataFrame, filtered_top_buckets, buckets, directory: str
-):
+) -> list:
+    """
+    Detect column dependencies across MinHash buckets and return the list of
+    group labels written to *directory*.
+
+    Changes versus the previous implementation
+    -------------------------------------------
+    * Each bucket is **randomly sampled** to at most ``max_dependency_bucket_rows``
+      rows before being sent to the LLM.
+    * Multiple buckets are **merged into a single prompt** when their combined
+      token estimate fits within ``max_batch_tokens``, reducing the total number
+      of LLM calls from one-per-bucket to one-per-merged-group.
+    """
     if not filtered_top_buckets:
         logger.info("No suitable record buckets found for dependency detection; skipping.")
-        return
+        return []
+
+    settings = load_settings()
+    max_batch_tokens = int(settings.get("max_batch_tokens", 3000))
+    max_rows_per_bucket = int(settings.get("max_dependency_bucket_rows", 20))
 
     records = dataset.values.tolist()
 
+    # ------------------------------------------------------------------
+    # Step 1: Sample each bucket and build per-bucket JSON record lists.
+    # ------------------------------------------------------------------
+    sampled_bucket_data = []
     for bucket_index, _ in filtered_top_buckets:
-        dynamic_directory = os.path.join(
-            directory,
-            f"bucket_{bucket_index}",
-        )
+        bucket_row_indices = buckets[bucket_index]
 
-        os.makedirs(dynamic_directory, exist_ok=True)
+        if len(bucket_row_indices) > max_rows_per_bucket:
+            sampled_indices = random.sample(bucket_row_indices, max_rows_per_bucket)
+        else:
+            sampled_indices = list(bucket_row_indices)
 
-        current_bucket_records = [records[i] for i in buckets[bucket_index]]
+        sampled_rows = [records[i] for i in sampled_indices]
+        sampled_df = pd.DataFrame(sampled_rows)
+        sampled_df.columns = range(sampled_df.shape[1])
+        sampled_records = json.loads(sampled_df.to_json(orient="records"))
+        sampled_bucket_data.append((bucket_index, sampled_records))
 
-        dataset_sample = pd.DataFrame(current_bucket_records)
-        dataset_sample.columns = range(dataset_sample.shape[1])
+    logger.debug(
+        "dependency_detection: %d buckets sampled (max %d rows each)",
+        len(sampled_bucket_data), max_rows_per_bucket,
+    )
 
-        json_sample = dataset_sample.to_json(orient="records", indent=4)
+    # ------------------------------------------------------------------
+    # Step 2: Group buckets so each group fits within the token budget.
+    # ------------------------------------------------------------------
+    groups = _group_buckets_by_tokens(sampled_bucket_data, max_batch_tokens)
 
-        user_prompt = f"""Analyze the following records and identify all column dependencies:"""
+    logger.debug(
+        "dependency_detection: %d buckets merged into %d groups (budget %d tokens)",
+        len(sampled_bucket_data), len(groups), max_batch_tokens,
+    )
+
+    # ------------------------------------------------------------------
+    # Step 3: One LLM call per group.
+    # ------------------------------------------------------------------
+    group_labels = []
+    for group_idx, group in enumerate(groups):
+        combined_records = []
+        for _, sampled_records in group:
+            combined_records.extend(sampled_records)
+
+        group_label = f"group_{group_idx}"
+        group_labels.append(group_label)
+        group_dir = os.path.join(directory, group_label)
+        os.makedirs(group_dir, exist_ok=True)
+
+        combined_json = json.dumps(combined_records)
+        dataset_sample = pd.DataFrame(combined_records)
+        if not dataset_sample.empty:
+            dataset_sample.columns = range(dataset_sample.shape[1])
+
+        user_prompt = "Analyze the following records and identify all column dependencies:"
 
         prompt_gpt(
             system_prompt,
             user_prompt,
-            f"bucket_{bucket_index}",
+            group_label,
             response_format,
-            dynamic_directory,
+            group_dir,
             dataset_sample,
-            json_str=json_sample,
+            json_str=combined_json,
         )
+
+    return group_labels

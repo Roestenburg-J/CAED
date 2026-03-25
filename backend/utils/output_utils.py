@@ -100,7 +100,7 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 
     # Convert the dictionary to a DataFrame for the output annotations
     output = pd.DataFrame(data_dict)
-    output = output[dataset.columns.str.strip()]  # Strip whitespace from columns
+    output = output.reindex(columns=dataset.columns.str.strip(), fill_value=0)  # Fill missing columns (e.g. numeric) with 0
     output = output.astype(int)
 
     # Save the output DataFrame to CSV
@@ -117,7 +117,7 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 
 
 def process_dependency_output(
-    filtered_top_buckets, dataset: pd.DataFrame, directory: str
+    group_labels: list, dataset: pd.DataFrame, directory: str
 ):
     # Initialize a dictionary to hold unique dependencies
     dependencies_dict = defaultdict(set)
@@ -126,9 +126,9 @@ def process_dependency_output(
     # Extract column names from the dataset for easy index-to-name mapping
     column_names = dataset.columns.tolist()
 
-    for bucket_index, _ in filtered_top_buckets:
+    for label in group_labels:
         dynamic_directory = os.path.join(
-            directory, f"bucket_{bucket_index}/bucket_{bucket_index}/output.json"
+            directory, f"{label}/{label}/output.json"
         )
 
         if os.path.exists(dynamic_directory):
@@ -139,11 +139,16 @@ def process_dependency_output(
                     for item in json_data["output"]:
                         columns = item["columns"]
                         columns = list(map(int, columns))
-                        sorted_columns_tuple = tuple(sorted(columns))
-                        dependency_description = item["dependency"]
-                        dependencies_dict[sorted_columns_tuple].add(
-                            dependency_description
-                        )
+                        if len(columns) < 2:
+                            continue
+                        # Emit one entry per unique pair within a multi-column dependency
+                        for i in range(len(columns)):
+                            for j in range(i + 1, len(columns)):
+                                sorted_columns_tuple = tuple(sorted([columns[i], columns[j]]))
+                                dependency_description = item["dependency"]
+                                dependencies_dict[sorted_columns_tuple].add(
+                                    dependency_description
+                                )
 
                 except json.JSONDecodeError as e:
                     logger.error(
@@ -155,7 +160,7 @@ def process_dependency_output(
                     )
 
         csv_file_path = os.path.join(
-            directory, f"bucket_{bucket_index}/prompt_metadata.csv"
+            directory, f"{label}/prompt_metadata.csv"
         )
         if os.path.exists(csv_file_path):
             try:

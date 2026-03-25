@@ -309,17 +309,33 @@ def detect_dependencies():
 
     dataset = pd.read_csv(csv_file_path)
 
-    settings = load_detailed_settings()
-    minhash_threshold = float(settings.get("minhash_dependency_threshold", settings.get("minhash_threshold", 0.5)))
-    minhash_num_perm = int(settings.get("minhash_dependency_num_perm", settings.get("minhash_num_perm", 128)))
-    filtered_top_buckets, buckets = create_buckets(dataset, threshold=minhash_threshold, num_perm=minhash_num_perm)
-    dependency_detection(dataset, filtered_top_buckets, buckets, dependency_dir)
-    process_dependency_output(filtered_top_buckets, dataset, dependency_dir)
+    output_csv_path = os.path.join(dependency_dir, "output.csv")
+    # Discover any group dirs written by a previous (partial) run
+    existing_group_labels = sorted([
+        d for d in os.listdir(dependency_dir)
+        if os.path.isdir(os.path.join(dependency_dir, d)) and d.startswith("group_")
+    ]) if os.path.isdir(dependency_dir) else []
 
-    update_manifest_analysis(dataset_dir, "dependency", "complete")
+    if not os.path.exists(output_csv_path) and existing_group_labels:
+        # LLM calls already ran but process_dependency_output never completed — recover
+        app.logger.info("Recovering dependency output from existing group dirs for dataset '%s'.", dataset_id)
+        process_dependency_output(existing_group_labels, dataset, dependency_dir)
+        update_manifest_analysis(dataset_dir, "dependency", "complete")
+    elif not os.path.exists(output_csv_path):
+        # Full run needed
+        settings = load_detailed_settings()
+        minhash_threshold = float(settings.get("minhash_dependency_threshold", settings.get("minhash_threshold", 0.5)))
+        minhash_num_perm = int(settings.get("minhash_dependency_num_perm", settings.get("minhash_num_perm", 128)))
+        filtered_top_buckets, buckets = create_buckets(dataset, threshold=minhash_threshold, num_perm=minhash_num_perm)
+        group_labels = dependency_detection(dataset, filtered_top_buckets, buckets, dependency_dir)
+        process_dependency_output(group_labels, dataset, dependency_dir)
+        update_manifest_analysis(dataset_dir, "dependency", "complete")
+    else:
+        app.logger.info("Skipping dependency analysis for dataset '%s' — already complete.", dataset_id)
 
-    dependency_output = pd.read_csv(os.path.join(dependency_dir, "output.csv"))
-    prompt_metadata = pd.read_csv(os.path.join(dependency_dir, "prompt_metadata.csv"))
+    dependency_output = pd.read_csv(output_csv_path)
+    prompt_metadata_path = os.path.join(dependency_dir, "prompt_metadata.csv")
+    prompt_metadata = pd.read_csv(prompt_metadata_path) if os.path.exists(prompt_metadata_path) else pd.DataFrame()
 
     schema = [{"index": idx, "name": col} for idx, col in enumerate(dataset.columns)]
 

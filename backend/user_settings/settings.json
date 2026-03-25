@@ -1,6 +1,13 @@
 {
-    "gpt_organization": "",
-    "gpt_project": "",
-    "gpt_api": "",
-    "gpt_model": "gpt-4o-mini"
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "openai_api_key": "",
+    "openai_organization": "",
+    "openai_project": "",
+    "anthropic_api_key": "",
+    "gemini_api_key": "",
+    "minhash_attribute_threshold": 0.5,
+    "minhash_attribute_num_perm": 128,
+    "minhash_dependency_threshold": 0.5,
+    "minhash_dependency_num_perm": 128
 }

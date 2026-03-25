@@ -1,0 +1,14 @@
+{
+    "id": "beers_20241114_095817",
+    "name": "beers",
+    "created_at": "2024-11-14T09:58:17",
+    "type": "evaluation",
+    "provider": null,
+    "model": "gpt-4o-mini",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

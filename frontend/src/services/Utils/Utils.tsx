@@ -1,5 +1,25 @@
 import { application_service_url } from "@/config/config";
 
+export async function getSettings() {
+  const response = await fetch(`${application_service_url}/settings`);
+  if (!response.ok) {
+    throw new Error(`Failed to load settings: ${response.statusText}`);
+  }
+  return await response.json();
+}
+
+export async function updateSettings(data: object) {
+  const response = await fetch(`${application_service_url}/settings`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to save settings: ${response.statusText}`);
+  }
+  return await response.json();
+}
+
 type UploadParams = {
   file: File | undefined;
   datasetName: string;

@@ -137,6 +137,7 @@ def prompt_gpt(
     output_directory: str,
     input_data_dict: pd.DataFrame,
     json_str: str,  # Expecting a JSON-formatted string with multiple records
+    custom_batches: List[List[Dict[str, Any]]] = None,  # Optional MinHash-based batches
 ) -> None:
 
     # Load settings and create provider — raises ConfigurationError on failure
@@ -161,8 +162,11 @@ def prompt_gpt(
     json_data = json.loads(json_str)  # Parse JSON string to Python object
     num_records = len(json_data)  # Determine the number of records
 
-    # Batching logic based on the number of records in json_data
-    if num_records <= 200:
+    # Batching logic: use caller-supplied MinHash buckets when available,
+    # otherwise fall back to simple count-based splitting.
+    if custom_batches is not None:
+        batches = [b for b in custom_batches if b]  # drop any empty buckets
+    elif num_records <= 200:
         batches = [json_data]  # Single batch if 200 records or fewer
     else:
         batch_size = 100

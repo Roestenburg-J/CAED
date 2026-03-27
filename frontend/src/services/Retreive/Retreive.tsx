@@ -1,5 +1,15 @@
 import { application_service_url } from "@/config/config";
 
+export async function renameDetection(datasetId: string, name: string) {
+  const response = await fetch(`${application_service_url}/rename-detection`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ dataset_id: datasetId, name }),
+  });
+  if (!response.ok) throw new Error(`Failed to rename: ${response.statusText}`);
+  return await response.json();
+}
+
 export async function getDetections() {
   try {
     const response = await fetch(`${application_service_url}/get-all-detections`, {

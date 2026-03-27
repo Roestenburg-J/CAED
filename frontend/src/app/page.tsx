@@ -15,9 +15,12 @@ import {
   TableHead,
   TableRow,
   Paper,
+  TextField,
+  IconButton,
 } from "@mui/material";
+import EditIcon from "@mui/icons-material/Edit";
 
-import { getDetections } from "@/services/Retreive/Retreive";
+import { getDetections, renameDetection } from "@/services/Retreive/Retreive";
 import theme from "@/theme/theme";
 
 interface Detection {
@@ -35,6 +38,8 @@ export default function Home() {
   const router = useRouter();
   const [detections, setDetections] = useState<Detection[]>([]);
   const [loading, setLoading] = useState(true);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editValue, setEditValue] = useState("");
 
   useEffect(() => {
     const fetchDetections = async () => {
@@ -51,6 +56,32 @@ export default function Home() {
 
     fetchDetections();
   }, []);
+
+  const startEdit = (detection: Detection) => {
+    setEditingId(detection.dataset_id);
+    setEditValue(detection.dataset_name);
+  };
+
+  const commitEdit = async (datasetId: string) => {
+    const trimmed = editValue.trim();
+    if (trimmed) {
+      try {
+        await renameDetection(datasetId, trimmed);
+        setDetections((prev) =>
+          prev.map((d) =>
+            d.dataset_id === datasetId ? { ...d, dataset_name: trimmed } : d
+          )
+        );
+      } catch (error) {
+        console.error("Failed to rename detection:", error);
+      }
+    }
+    setEditingId(null);
+  };
+
+  const cancelEdit = () => {
+    setEditingId(null);
+  };
 
   return (
     <div className={styles.page}>
@@ -97,7 +128,27 @@ export default function Home() {
                 {detections.map((detection) => (
                   <TableRow key={detection.dataset_id}>
                     <TableCell component="th" scope="row">
-                      {detection.dataset_name}
+                      {editingId === detection.dataset_id ? (
+                        <TextField
+                          value={editValue}
+                          onChange={(e) => setEditValue(e.target.value)}
+                          onBlur={() => commitEdit(detection.dataset_id)}
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") commitEdit(detection.dataset_id);
+                            if (e.key === "Escape") cancelEdit();
+                          }}
+                          size="small"
+                          autoFocus
+                          variant="standard"
+                        />
+                      ) : (
+                        <Box sx={{ display: "flex", alignItems: "center", gap: 0.5 }}>
+                          {detection.dataset_name}
+                          <IconButton size="small" onClick={() => startEdit(detection)}>
+                            <EditIcon fontSize="inherit" />
+                          </IconButton>
+                        </Box>
+                      )}
                     </TableCell>
                     <TableCell align="center">
                       {new Date(detection.created_at).toLocaleString()}

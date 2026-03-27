@@ -129,13 +129,11 @@ const EvaluateForm = <T,>({
   });
 
   const [modelName, setModelName] = useState("");
-  const [selectedProvider, setSelectedProvider] = useState("openai");
   const [selectedModel, setSelectedModel] = useState("gpt-4o-mini");
 
   useEffect(() => {
     getSettings()
       .then((data) => {
-        setSelectedProvider(data.provider ?? "openai");
         setSelectedModel(data.model ?? "gpt-4o-mini");
       })
       .catch(() => {});
@@ -172,7 +170,7 @@ const EvaluateForm = <T,>({
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    await updateSettings({ provider: selectedProvider, model: selectedModel });
+    await updateSettings({ model: selectedModel });
     if (!uploadedFiles.dirty || !uploadedFiles.clean) {
       console.error("Both files must be uploaded.");
       return;
@@ -583,9 +581,7 @@ const EvaluateForm = <T,>({
         ) : (
           <>
             <ModelSelector
-              provider={selectedProvider}
               model={selectedModel}
-              onProviderChange={setSelectedProvider}
               onModelChange={setSelectedModel}
             />
             <Button variant="outlined" type="submit">

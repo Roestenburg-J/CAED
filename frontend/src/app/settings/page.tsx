@@ -12,16 +12,11 @@ import {
 import { getSettings, updateSettings } from "@/services/Utils/Utils";
 import ModelSelector from "@/components/ModelSelector/ModelSelector";
 
-type Provider = "openai" | "anthropic" | "gemini";
-
 interface Settings {
-  provider: Provider;
   model: string;
   openai_api_key: string;
   openai_organization: string;
   openai_project: string;
-  anthropic_api_key: string;
-  gemini_api_key: string;
   minhash_attribute_threshold: number;
   minhash_attribute_num_perm: number;
   minhash_dependency_threshold: number;
@@ -30,13 +25,10 @@ interface Settings {
 }
 
 const defaultSettings: Settings = {
-  provider: "openai",
   model: "",
   openai_api_key: "",
   openai_organization: "",
   openai_project: "",
-  anthropic_api_key: "",
-  gemini_api_key: "",
   minhash_attribute_threshold: 0.5,
   minhash_attribute_num_perm: 128,
   minhash_dependency_threshold: 0.5,
@@ -95,9 +87,7 @@ export default function SettingsPage() {
       )}
 
       <ModelSelector
-        provider={settings.provider}
         model={settings.model}
-        onProviderChange={(v: string) => handleChange("provider", v)}
         onModelChange={(v: string) => handleChange("model", v)}
         sx={{ mb: 3 }}
       />
@@ -127,34 +117,6 @@ export default function SettingsPage() {
         label="Project (optional)"
         value={settings.openai_project}
         onChange={(e) => handleChange("openai_project", e.target.value)}
-        sx={{ mb: 3 }}
-      />
-
-      <Divider sx={{ mb: 3 }} />
-
-      <Typography variant="subtitle1" gutterBottom>
-        Anthropic (Claude)
-      </Typography>
-      <TextField
-        fullWidth
-        label="API Key"
-        value={settings.anthropic_api_key}
-        onChange={(e) => handleChange("anthropic_api_key", e.target.value)}
-        type="password"
-        sx={{ mb: 3 }}
-      />
-
-      <Divider sx={{ mb: 3 }} />
-
-      <Typography variant="subtitle1" gutterBottom>
-        Google (Gemini)
-      </Typography>
-      <TextField
-        fullWidth
-        label="API Key"
-        value={settings.gemini_api_key}
-        onChange={(e) => handleChange("gemini_api_key", e.target.value)}
-        type="password"
         sx={{ mb: 3 }}
       />
 

@@ -59,13 +59,6 @@ class LLMResponseError(LLMError):
     error_code = "llm_response_error"
 
 
-class LLMProviderNotFoundError(LLMError):
-    """Requested provider name is not supported."""
-
-    http_status = 500
-    error_code = "llm_provider_not_found"
-
-
 # ---------------------------------------------------------------------------
 # Data / File System Errors
 # ---------------------------------------------------------------------------

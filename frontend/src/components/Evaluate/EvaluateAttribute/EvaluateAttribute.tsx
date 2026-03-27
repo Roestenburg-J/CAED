@@ -572,9 +572,6 @@ const EvaluateAttribute: React.FC<EvaluateAttributeProps> = ({
                         f-score:
                       </Typography>
                       <Typography sx={{ fontWeight: "bold" }}>
-                        Error class accuracy:
-                      </Typography>
-                      <Typography sx={{ fontWeight: "bold" }}>
                         ROC AUC:
                       </Typography>
                       <Typography sx={{ fontWeight: "bold" }}>

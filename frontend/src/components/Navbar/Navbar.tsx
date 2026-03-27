@@ -60,17 +60,22 @@ const Navbar: React.FC = () => {
               </Button>
             </Link>
           ))}
-          <Button
-            sx={{
-              color: "white", // Set button text color to white
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)", // Optional: Change background color on hover
-              },
-            }}
-          >
-            <SettingsIcon />
-            {/* Settings */}
-          </Button>
+          <Link href="/settings">
+            <Button
+              sx={{
+                color: "white", // Set button text color to white
+                "&:hover": {
+                  backgroundColor: "rgba(255, 255, 255, 0.2)", // Optional: Change background color on hover
+                },
+              }}
+              onClick={() => handleItemClick("/settings")}
+              className={`${styles.navItem} ${
+                activeRoute === "/settings" ? styles.active : ""
+              }`}
+            >
+              <SettingsIcon />
+            </Button>
+          </Link>
         </div>
       </Toolbar>
     </AppBar>

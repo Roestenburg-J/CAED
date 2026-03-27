@@ -139,6 +139,11 @@ def attribute_prompt(dataset: pd.DataFrame, directory: str) -> str:
     max_batch_tokens = int(settings.get("max_batch_tokens", 3000))
 
     for col in dataset.columns:
+        col_dir = os.path.join(directory, col.strip())
+        if os.path.exists(os.path.join(col_dir, "output.json")):
+            logger.debug("Column '%s': output already exists, skipping LLM call.", col)
+            continue
+
         attribute = pd.DataFrame(dataset[col].copy())
 
         attribute_dict, attribute_unique = create_attribute_dict(attribute, col)

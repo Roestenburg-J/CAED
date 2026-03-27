@@ -1,7 +1,12 @@
+import logging
+import os
+
 import pandas as pd
 from collections import defaultdict
 import ast
 from flask import current_app
+
+logger = logging.getLogger(__name__)
 
 from utils.data_utils import create_row_dict
 from utils.prompting_utils import prompt_gpt
@@ -123,6 +128,11 @@ def detect_dep_violations(
 
         for dep in dependencies:
             columns = [dep["column_1_name"], dep["column_2_name"]]
+            dep_name = f"{columns[0]}, {columns[1]}"
+            if os.path.exists(os.path.join(directory, dep_name.strip(), "output.json")):
+                logger.debug("Dependency '%s': output already exists, skipping LLM call.", dep_name)
+                continue
+
             dependency_description = dep["dependency"]
 
             # Select the column names directly since `columns` already has the names

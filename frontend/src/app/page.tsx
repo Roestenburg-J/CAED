@@ -156,6 +156,23 @@ export default function Home() {
                     <TableCell align="center">{detection.type}</TableCell>
                     <TableCell align="center">{detection.model}</TableCell>
                     <TableCell align="center">
+                      {detection.type === "detection" &&
+                        !detection.used_attribute &&
+                        !detection.used_dependency &&
+                        !detection.used_dependency_violations && (
+                          <Button
+                            variant="outlined"
+                            color="warning"
+                            onClick={() =>
+                              router.push(
+                                `/detect?dataset_id=${detection.dataset_id}&resume=true`
+                              )
+                            }
+                            style={{ marginLeft: "8px" }}
+                          >
+                            Resume
+                          </Button>
+                        )}
                       <Button
                         variant="outlined"
                         onClick={() => {

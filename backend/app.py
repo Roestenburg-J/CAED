@@ -974,6 +974,28 @@ def get_all_detections():
     return jsonify(detections), 200
 
 
+@app.route("/rename-detection", methods=["PATCH"])
+def rename_detection():
+    data = request.json
+    dataset_id = data.get("dataset_id")
+    new_name = data.get("name", "").strip()
+
+    if not dataset_id or not new_name:
+        return jsonify({"error": {"code": "missing_param", "message": "dataset_id and name are required", "details": None}}), 400
+
+    dataset_dir = _get_dataset_dir(dataset_id)
+    if not os.path.isdir(dataset_dir):
+        return jsonify({"error": {"code": "not_found", "message": "Dataset not found", "details": None}}), 404
+
+    manifest = read_manifest(dataset_dir)
+    if manifest is None:
+        return jsonify({"error": {"code": "not_found", "message": "Manifest not found", "details": None}}), 404
+
+    manifest["name"] = new_name
+    write_manifest(dataset_dir, manifest)
+    return jsonify({"message": "Detection renamed successfully"}), 200
+
+
 @app.route("/get-dataset", methods=["GET"])
 def get_dataset():
     dataset_id = request.args.get("dataset_id", None)

@@ -22,17 +22,14 @@ def load_settings():
         settings = json.load(f)
 
     # Backward-compat: if old OpenAI-only keys exist, migrate them
-    if "provider" not in settings and "gpt_api" in settings:
-        settings["provider"] = "openai"
+    if "gpt_api" in settings and "openai_api_key" not in settings:
         settings["openai_api_key"] = settings.get("gpt_api", "")
         settings["openai_organization"] = settings.get("gpt_organization", "")
         settings["openai_project"] = settings.get("gpt_project", "")
         settings["model"] = settings.get("gpt_model", "gpt-4o-mini")
 
-    required_fields = ["provider", "model"]
-    for field in required_fields:
-        if field not in settings:
-            raise ConfigurationError(f"Missing required setting: {field}")
+    if "model" not in settings:
+        raise ConfigurationError("Missing required setting: model")
 
     return settings
 

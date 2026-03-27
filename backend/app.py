@@ -1035,9 +1035,8 @@ def create_settings():
     else:
         data = request.form.to_dict()
 
-    required_fields = ["provider", "model"]
-    if not all(field in data for field in required_fields):
-        return jsonify({"error": {"code": "missing_param", "message": "Missing required fields: 'provider' and 'model'", "details": None}}), 400
+    if "model" not in data:
+        return jsonify({"error": {"code": "missing_param", "message": "Missing required field: 'model'", "details": None}}), 400
 
     save_settings(data)
     return jsonify({"message": "Settings created successfully"}), 201

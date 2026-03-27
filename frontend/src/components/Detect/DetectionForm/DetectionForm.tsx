@@ -139,13 +139,11 @@ const DetectionForm = <T,>({
   const [filename, setFilename] = useState("");
 
   const [modelName, setModelName] = useState("");
-  const [selectedProvider, setSelectedProvider] = useState("openai");
   const [selectedModel, setSelectedModel] = useState("gpt-4o-mini");
 
   useEffect(() => {
     getSettings()
       .then((data) => {
-        setSelectedProvider(data.provider ?? "openai");
         setSelectedModel(data.model ?? "gpt-4o-mini");
       })
       .catch(() => {});
@@ -212,7 +210,7 @@ const DetectionForm = <T,>({
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    await updateSettings({ provider: selectedProvider, model: selectedModel });
+    await updateSettings({ model: selectedModel });
     const fileResponse = await uploadDataset({
       file: selectedFile,
       datasetName: filename,
@@ -626,9 +624,7 @@ const DetectionForm = <T,>({
           ) : (
             <>
               <ModelSelector
-                provider={selectedProvider}
                 model={selectedModel}
-                onProviderChange={setSelectedProvider}
                 onModelChange={setSelectedModel}
               />
               <Button

@@ -143,6 +143,9 @@ def detect_dep_violations(
 
                 row_dict, unique_rows = create_row_dict(selected_columns)
 
+                # Drop 'count' column added by create_row_dict — not used in violation detection
+                unique_rows = unique_rows.drop(columns=["count"])
+
                 # Update the columns for unique rows
                 unique_rows.columns = [
                     str(dataset.columns.get_loc(columns[0])),  # Column 1 index

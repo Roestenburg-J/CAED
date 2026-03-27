@@ -1,5 +1,25 @@
 import { application_service_url } from "@/config/config";
 
+export async function getSettings() {
+  const response = await fetch(`${application_service_url}/settings`);
+  if (!response.ok) {
+    throw new Error(`Failed to load settings: ${response.statusText}`);
+  }
+  return await response.json();
+}
+
+export async function updateSettings(data: object) {
+  const response = await fetch(`${application_service_url}/settings`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to save settings: ${response.statusText}`);
+  }
+  return await response.json();
+}
+
 type UploadParams = {
   file: File | undefined;
   datasetName: string;
@@ -9,6 +29,11 @@ type UploadEvaluateParams = {
   clean_file: File;
   dirty_file: File;
   datasetName: string;
+};
+
+type UploadCleanParams = {
+  dataset_id: string;
+  clean_file: File;
 };
 
 export async function uploadDataset({ file, datasetName }: UploadParams) {
@@ -33,6 +58,29 @@ export async function uploadDataset({ file, datasetName }: UploadParams) {
     return await response.json();
   } catch (error) {
     console.error("Error during file upload:", error);
+    throw error;
+  }
+}
+
+export async function uploadCleanDataset({ dataset_id, clean_file }: UploadCleanParams) {
+  const formData = new FormData();
+  formData.append("dataset_id", dataset_id);
+  formData.append("clean_file", clean_file);
+
+  try {
+    const response = await fetch(`${application_service_url}/upload-clean-dataset`, {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err?.error?.message ?? `Failed to upload clean dataset: ${response.statusText}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error("Error during clean file upload:", error);
     throw error;
   }
 }

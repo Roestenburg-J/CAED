@@ -142,10 +142,10 @@ def _make_legacy_manifest(folder, folder_path):
         "provider": None,
         "model": model,
         "analyses": {
-            "attribute": "complete" if os.path.exists(os.path.join(folder_path, "attribute")) else "pending",
-            "dependency": "complete" if os.path.exists(os.path.join(folder_path, "dependency")) else "pending",
-            "dep_violations": "complete" if os.path.exists(os.path.join(folder_path, "dependency_violations")) else "pending",
-            "consolidated": "complete" if os.path.exists(os.path.join(folder_path, "consolidated_error_annotations.csv")) else "pending",
+            "attribute": "complete" if os.path.exists(os.path.join(folder_path, "attribute")) else "not_selected",
+            "dependency": "complete" if os.path.exists(os.path.join(folder_path, "dependency")) else "not_selected",
+            "dep_violations": "complete" if os.path.exists(os.path.join(folder_path, "dependency_violations")) else "not_selected",
+            "consolidated": "complete" if os.path.exists(os.path.join(folder_path, "consolidated_error_annotations.csv")) else "not_selected",
         },
     }
     write_manifest(folder_path, manifest)
@@ -233,10 +233,10 @@ def upload_dataset():
         "provider": provider,
         "model": model,
         "analyses": {
-            "attribute": "pending",
-            "dependency": "pending",
-            "dep_violations": "pending",
-            "consolidated": "pending",
+            "attribute": "not_selected",
+            "dependency": "not_selected",
+            "dep_violations": "not_selected",
+            "consolidated": "not_selected",
         },
     }
     write_manifest(dataset_dir, manifest)
@@ -272,6 +272,7 @@ def detect_attribute_errors():
 
     manifest = read_manifest(dataset_dir)
     if manifest is None or manifest.get("analyses", {}).get("attribute") != "complete":
+        update_manifest_analysis(dataset_dir, "attribute", "pending")
         attribute_prompt(dataset, attribute_dir)
         process_attribute_output(dataset, attribute_dir)
         update_manifest_analysis(dataset_dir, "attribute", "complete")
@@ -314,6 +315,7 @@ def detect_dependencies():
 
     manifest = read_manifest(dataset_dir)
     if manifest is None or manifest.get("analyses", {}).get("dependency") != "complete":
+        update_manifest_analysis(dataset_dir, "dependency", "pending")
         settings = load_detailed_settings()
         minhash_threshold = float(settings.get("minhash_dependency_threshold", settings.get("minhash_threshold", 0.5)))
         minhash_num_perm = int(settings.get("minhash_dependency_num_perm", settings.get("minhash_num_perm", 128)))
@@ -362,6 +364,7 @@ def detect_dependency_violations():
 
     manifest = read_manifest(dataset_dir)
     if manifest is None or manifest.get("analyses", {}).get("dep_violations") != "complete":
+        update_manifest_analysis(dataset_dir, "dep_violations", "pending")
         detect_dep_violations(dependencies, dataset, dep_viol_dir)
         process_dep_violations_output(dataset, dep_viol_dir)
         update_manifest_analysis(dataset_dir, "dep_violations", "complete")
@@ -546,10 +549,10 @@ def upload_evaluation_dataset():
         "provider": provider,
         "model": model,
         "analyses": {
-            "attribute": "pending",
-            "dependency": "pending",
-            "dep_violations": "pending",
-            "consolidated": "pending",
+            "attribute": "not_selected",
+            "dependency": "not_selected",
+            "dep_violations": "not_selected",
+            "consolidated": "not_selected",
         },
     }
     write_manifest(dataset_dir, manifest)
@@ -968,6 +971,9 @@ def get_all_detections():
                 "used_attribute": analyses.get("attribute") == "complete",
                 "used_dependency": analyses.get("dependency") == "complete",
                 "used_dependency_violations": analyses.get("dep_violations") == "complete",
+                "attribute_selected": analyses.get("attribute") in ("pending", "complete"),
+                "dependency_selected": analyses.get("dependency") in ("pending", "complete"),
+                "dep_violations_selected": analyses.get("dep_violations") in ("pending", "complete"),
             }
         )
 

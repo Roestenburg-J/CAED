@@ -31,6 +31,9 @@ interface Detection {
   used_attribute: boolean;
   used_dependency: boolean;
   used_dependency_violations: boolean;
+  attribute_selected: boolean;
+  dependency_selected: boolean;
+  dep_violations_selected: boolean;
   model: string;
 }
 
@@ -156,10 +159,11 @@ export default function Home() {
                     <TableCell align="center">{detection.type}</TableCell>
                     <TableCell align="center">{detection.model}</TableCell>
                     <TableCell align="center">
-                      {detection.type === "detection" &&
-                        !detection.used_attribute &&
-                        !detection.used_dependency &&
-                        !detection.used_dependency_violations && (
+                      {detection.type === "detection" && (
+                        (detection.attribute_selected && !detection.used_attribute) ||
+                        (detection.dependency_selected && !detection.used_dependency) ||
+                        (detection.dep_violations_selected && !detection.used_dependency_violations)
+                      ) && (
                           <Button
                             variant="outlined"
                             color="warning"

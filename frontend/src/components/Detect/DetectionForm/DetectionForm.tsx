@@ -110,6 +110,7 @@ const DetectionForm = <T,>({
   const attribute = searchParams.get("attribute") === "true";
   const dep = searchParams.get("dep") === "true";
   const depViol = searchParams.get("depViol") === "true";
+  const resume = searchParams.get("resume") === "true";
 
   // Track the previous dataset_id so the else-branch reset only fires when
   // navigating away from a dataset, not on the initial render where
@@ -391,6 +392,63 @@ const DetectionForm = <T,>({
     }
   };
 
+  const resumeDetection = useCallback(async (datasetId: string) => {
+    // Step 1: Load and display the dataset
+    try {
+      const dataset = await getDataset(datasetId);
+      setModelName(dataset.model);
+      const sortedData = dataset.dataset.map((row: Record<string, any>) => {
+        const orderedRow: Record<string, any> = {};
+        dataset.dataset_schema
+          .sort((a: { index: number }, b: { index: number }) => a.index - b.index)
+          .forEach(({ name }: { name: string }) => {
+            orderedRow[name] = row[name];
+          });
+        return orderedRow;
+      });
+      setDataset(sortedData);
+      setFileUploadSuccess(true);
+    } catch (error) {
+      console.error("Error fetching dataset for resume:", error);
+      return;
+    }
+
+    // Step 2: Reset states and mark all analyses as requested + loading
+    setDetectionError({ attribute: false, dependency: false, violations: false, combined: false });
+    setRequestedStates({ attribute: true, dependency: true, violations: true, combined: true });
+    setLoadingStates({ attribute: true, dependency: true, violations: true, combined: true });
+
+    // Step 3: Run attribute and dependency in parallel, chain violations after dependency
+    const attributePromise = detectAttributeErrors(datasetId)
+      .then((result) => setAttributeResults(result))
+      .catch(() => setDetectionError((prev) => ({ ...prev, attribute: true })))
+      .finally(() => setLoadingStates((prev) => ({ ...prev, attribute: false })));
+
+    const dependencyPromise = detectDependencies(datasetId)
+      .then((result) => setDependencyResults(result))
+      .catch(() => setDetectionError((prev) => ({ ...prev, dependency: true })))
+      .finally(() => setLoadingStates((prev) => ({ ...prev, dependency: false })));
+
+    const violationPromise = dependencyPromise.then(() =>
+      detectDepViolations(datasetId)
+        .then((result) => setDepViolationResults(result))
+        .catch(() => setDetectionError((prev) => ({ ...prev, violations: true })))
+        .finally(() => setLoadingStates((prev) => ({ ...prev, violations: false })))
+    );
+
+    await Promise.all([attributePromise, dependencyPromise, violationPromise]);
+
+    // Step 4: Combined results after all three complete
+    retreiveCombinedResults(datasetId)
+      .then((result) => setCombinedOutput(result))
+      .catch(() => setDetectionError((prev) => ({ ...prev, combined: true })))
+      .finally(() => setLoadingStates((prev) => ({ ...prev, combined: false })));
+  }, [
+    setLoadingStates, setRequestedStates, setDetectionError,
+    setAttributeResults, setDependencyResults, setDepViolationResults,
+    setCombinedOutput, setDataset,
+  ]);
+
   const fetchData = useCallback(async (
     datasetId: string,
     attribute: boolean,
@@ -522,15 +580,20 @@ const DetectionForm = <T,>({
 
   useEffect(() => {
     if (dataset_id.length > 0) {
-      // Real dataset_id present — update settings and fetch results.
+      // Real dataset_id present — update settings and fetch or resume results.
       prevDatasetIdRef.current = dataset_id;
-      setDetectionSettings({
-        attribute: attribute,
-        dependency: dep,
-        violations: depViol,
-      });
       setFileResults({ dataset_id });
-      fetchData(dataset_id, attribute, dep, depViol);
+      if (resume) {
+        setDetectionSettings({ attribute: true, dependency: true, violations: true });
+        resumeDetection(dataset_id);
+      } else {
+        setDetectionSettings({
+          attribute: attribute,
+          dependency: dep,
+          violations: depViol,
+        });
+        fetchData(dataset_id, attribute, dep, depViol);
+      }
     } else if (prevDatasetIdRef.current !== null) {
       // Only reset when navigating *away* from an existing dataset,
       // not on the initial render where searchParams briefly resolves to "".
@@ -541,7 +604,7 @@ const DetectionForm = <T,>({
       setLoadingStates({ attribute: false, dependency: false, violations: false, combined: false });
       setRequestedStates({ attribute: false, dependency: false, violations: false, combined: false });
     }
-  }, [dataset_id, attribute, dep, depViol, fetchData]);
+  }, [dataset_id, attribute, dep, depViol, resume, fetchData, resumeDetection]);
 
   return (
     <Box className={styles.container}>

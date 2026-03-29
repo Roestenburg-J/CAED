@@ -356,17 +356,23 @@ const DetectionForm = <T,>({
       await uploadCleanDataset({ dataset_id, clean_file: file });
 
       // 2. Fire evaluate endpoints for all completed analysis types.
+      //    Use detectionSettings (component state) rather than URL params so
+      //    that analyses run via the Resume flow are also evaluated correctly.
       //    Violations are chained after dependency (same ordering as EvaluateForm).
-      const attributePromise = attribute
+      const ranAttribute = detectionSettings.attribute;
+      const ranDep = detectionSettings.dependency;
+      const ranDepViol = detectionSettings.violations;
+
+      const attributePromise = ranAttribute
         ? evaluateAttributeErrors(dataset_id)
         : Promise.resolve();
 
-      const dependencyPromise = dep
+      const dependencyPromise = ranDep
         ? detectDependencies(dataset_id)
         : Promise.resolve();
 
       let violationPromise: Promise<any> = Promise.resolve();
-      if (depViol) {
+      if (ranDepViol) {
         violationPromise = dependencyPromise.then(() =>
           evaluateDepViolations(dataset_id)
         );
@@ -374,7 +380,7 @@ const DetectionForm = <T,>({
 
       await Promise.all([attributePromise, dependencyPromise, violationPromise]);
 
-      if (attribute && depViol) {
+      if (ranAttribute && ranDepViol) {
         await evaluateCombinedResults(dataset_id);
       }
 
@@ -383,7 +389,7 @@ const DetectionForm = <T,>({
       // 3. Navigate to the evaluate page — fetchData() there will load
       //    results + metrics via the GET routes (which now include clean.csv).
       router.push(
-        `/evaluate?dataset_id=${dataset_id}&attribute=${attribute}&dep=${dep}&depViol=${depViol}`
+        `/evaluate?dataset_id=${dataset_id}&attribute=${ranAttribute}&dep=${ranDep}&depViol=${ranDepViol}`
       );
     } catch (err: any) {
       setGroundTruthError(err?.message ?? "Failed to upload ground truth.");

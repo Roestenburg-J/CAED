@@ -6,6 +6,8 @@ from flask import (
 from flask_cors import CORS
 import os
 import logging
+import threading
+import tempfile
 import pandas as pd
 import json
 import uuid as uuid_lib
@@ -89,25 +91,42 @@ def handle_unexpected(e: Exception):
 # Manifest helpers
 # ---------------------------------------------------------------------------
 
+# RLock so the same thread can re-acquire when update_manifest_analysis calls
+# read_manifest and write_manifest while already holding the lock.
+_manifest_lock = threading.RLock()
+
+
 def write_manifest(dataset_dir, manifest):
-    with open(os.path.join(dataset_dir, "manifest.json"), "w") as f:
-        json.dump(manifest, f, indent=4)
+    path = os.path.join(dataset_dir, "manifest.json")
+    fd, tmp_path = tempfile.mkstemp(dir=os.path.dirname(path), suffix='.tmp')
+    try:
+        with os.fdopen(fd, 'w') as f:
+            json.dump(manifest, f, indent=4)
+        os.replace(tmp_path, path)
+    except Exception:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
 
 
 def read_manifest(dataset_dir):
     path = os.path.join(dataset_dir, "manifest.json")
     if not os.path.exists(path):
         return None
-    with open(path, "r") as f:
-        return json.load(f)
+    with _manifest_lock:
+        with open(path, "r") as f:
+            return json.load(f)
 
 
 def update_manifest_analysis(dataset_dir, analysis_type, status):
-    manifest = read_manifest(dataset_dir)
-    if manifest is None:
-        return
-    manifest["analyses"][analysis_type] = status
-    write_manifest(dataset_dir, manifest)
+    with _manifest_lock:
+        manifest = read_manifest(dataset_dir)
+        if manifest is None:
+            return
+        manifest["analyses"][analysis_type] = status
+        write_manifest(dataset_dir, manifest)
 
 
 def _make_legacy_manifest(folder, folder_path):

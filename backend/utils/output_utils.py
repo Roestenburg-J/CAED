@@ -326,6 +326,15 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
     annotated_output.to_csv(f"{directory}/output.csv", index=False)
     column_summary_df.to_csv(f"{directory}/column_summary.csv", index=False)
 
+    # prompt_metadata.csv is written directly by prompt_gpt (appended per dep call).
+    # If no LLM calls were made (e.g. all deps skipped on resume), ensure the file
+    # exists with headers so the endpoint can read it without error.
+    meta_path = os.path.join(directory, "prompt_metadata.csv")
+    if not os.path.exists(meta_path):
+        meta_columns = ["completion_tokens", "prompt_tokens", "total_tokens", "elapsed_time", "batches", "prompt_name"]
+        logger.warning("No prompt metadata found for dependency violations output — writing empty file.")
+        pd.DataFrame(columns=meta_columns).to_csv(meta_path, index=False)
+
 
 def process_combined_output(
     output_1: pd.DataFrame, output_2: pd.DataFrame, directory: str

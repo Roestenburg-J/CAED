@@ -217,6 +217,7 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
 
     # Dictionary to store error counts per dependency
     error_counts = {}
+    prompt_metadata_list = []
 
     # Loop through all subdirectories and files
     for root, dirs, files in os.walk(directory):
@@ -231,7 +232,16 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
         dict_data = None
 
         for file in files:
-            if file.endswith(".json"):
+            if file == "prompt_metadata.csv":
+                meta_path = os.path.join(root, file)
+                try:
+                    meta_df = pd.read_csv(meta_path)
+                    if not meta_df.empty:
+                        prompt_metadata_list.append(meta_df.iloc[0].to_dict())
+                except Exception as e:
+                    logger.error("Error reading prompt_metadata.csv from %s: %s", meta_path, e, exc_info=True)
+
+            elif file.endswith(".json"):
                 file_path = os.path.join(root, file)
                 with open(file_path, "r") as json_file:
                     try:
@@ -325,6 +335,14 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
 
     annotated_output.to_csv(f"{directory}/output.csv", index=False)
     column_summary_df.to_csv(f"{directory}/column_summary.csv", index=False)
+
+    meta_columns = ["completion_tokens", "prompt_tokens", "total_tokens", "elapsed_time", "batches", "prompt_name"]
+    if prompt_metadata_list:
+        prompt_metadata_df = pd.DataFrame(prompt_metadata_list)
+    else:
+        logger.warning("No prompt metadata found to save for dependency violations output.")
+        prompt_metadata_df = pd.DataFrame(columns=meta_columns)
+    prompt_metadata_df.to_csv(f"{directory}/prompt_metadata.csv", index=False)
 
 
 def process_combined_output(

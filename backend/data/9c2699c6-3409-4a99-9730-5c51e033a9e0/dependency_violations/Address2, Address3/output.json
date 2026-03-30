@@ -1,0 +1,1 @@
+{"output":[{"explanation":"Both values are empty, which is allowed and does not violate the hospital-record dependency.","index":0,"column":4,"annotation":0,"possible_repair":"empty"},{"explanation":"Both values are empty, which is allowed and does not violate the hospital-record dependency.","index":0,"column":5,"annotation":0,"possible_repair":"empty"}]}

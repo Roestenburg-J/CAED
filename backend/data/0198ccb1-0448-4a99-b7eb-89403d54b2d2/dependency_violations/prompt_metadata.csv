@@ -1,0 +1,8 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+5372,75880,81252,00:47.981,24,"beer_name, style"
+2929,23842,26771,00:19.648,8,"ounces, abv"
+5654,17113,22767,00:27.826,6,"ounces, ibu"
+30736,31685,62421,02:21.179,11,"abv, ibu"
+14504,20360,34864,01:16.363,7,"brewery_name, city"
+5123,19201,24324,00:36.015,7,"brewery_name, state"
+5128,13344,18472,00:26.803,5,"city, state"

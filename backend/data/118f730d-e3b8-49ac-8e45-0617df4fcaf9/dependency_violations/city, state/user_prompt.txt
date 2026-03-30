@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The location fields are semantically linked: a city/locality value is associated with a broader region/state code. The locality value determines which region/state code it belongs to.
+
+  The following is a formatted table with the unique data to be checked.
+  

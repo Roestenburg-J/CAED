@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The street-address column appears paired with an additional address/neighborhood field; the placeholder/empty value indicates that when the primary street address is present, the auxiliary address component may be omitted or standardized.
+
+  The following is a formatted table with the unique data to be checked.
+  

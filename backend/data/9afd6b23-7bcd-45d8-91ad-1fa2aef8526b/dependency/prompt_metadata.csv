@@ -1,0 +1,7 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+339,555,894,00:05.104,1,bucket_230
+127,554,681,00:03.491,1,bucket_616
+267,538,805,00:06.508,1,bucket_886
+230,569,799,00:04.488,1,bucket_1347
+441,572,1013,00:07.462,1,bucket_1406
+361,567,928,00:06.133,1,bucket_1409

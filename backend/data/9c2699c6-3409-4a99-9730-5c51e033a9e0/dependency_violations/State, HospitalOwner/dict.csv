@@ -1,0 +1,1001 @@
+State,HospitalOwner,original_index,unique_index,count
+al,voluntary non-profit - private,0,0,253
+al,voluntary non-profit - private,1,0,253
+al,voluntary non-profit - private,2,0,253
+al,voluntary non-profit - private,3,0,253
+al,voluntary non-profit - private,4,0,253
+al,voluntary non-profit - private,5,0,253
+al,voluntary non-profit - private,6,0,253
+al,voluntary non-profit - private,7,0,253
+al,government - hospital district or authority,8,1,192
+al,government - hospital district or authority,9,1,192
+al,government - hospital district or authority,10,1,192
+al,government - hospital district or authority,11,1,192
+al,government - hospital district or authority,12,1,192
+al,government - hospital district or authority,13,1,192
+al,government - hospital district or authority,14,1,192
+al,government - hospital district or authority,15,1,192
+al,government - hospital district or authority,16,1,192
+al,government - hospital district or authority,17,1,192
+al,government - hospital district or authority,18,1,192
+al,government - hospital district or authority,19,1,192
+al,government - hospital district or authority,20,1,192
+al,government - hospital district or authority,21,1,192
+al,government - hospxtal dxstrxct or authorxty,22,2,1
+al,government - hospital district or authority,23,1,192
+al,government - hospital district or authority,24,1,192
+al,government - hospital district or authority,25,1,192
+al,government - hospital district or authority,26,1,192
+al,government - hospital xistrict or authority,27,3,1
+al,government - hospital district or authority,28,1,192
+al,government - hospital district or authority,29,1,192
+al,government - hospital district or authority,30,1,192
+al,governmenx - hospixal disxricx or auxhorixy,31,4,1
+al,government - hospital district or authority,32,1,192
+al,government - hospital district or authority,33,1,192
+al,government - hospital district or authority,34,1,192
+al,government - hospital district or authority,35,1,192
+al,government - hospital district or authority,36,1,192
+al,government - hospital district or authority,37,1,192
+al,government - hospital district or authority,38,1,192
+al,government - hospital district or authority,39,1,192
+al,government - hospital district or authority,40,1,192
+al,government - hospital district or authority,41,1,192
+xl,gxvernment - hxspital district xr authxrity,42,5,1
+al,government - hospital district or authority,43,1,192
+al,government - hospital district or authority,44,1,192
+al,government - hospital district or authority,45,1,192
+xl,government - hospital district or authority,46,6,6
+al,government - hospital district or authority,47,1,192
+al,government - hospital district or authority,48,1,192
+al,government - hospital district or authority,49,1,192
+xl,government - hospital district or authority,50,6,6
+al,government - hospital district or authority,51,1,192
+al,government - hospital district or authority,52,1,192
+al,government - hospital district or authority,53,1,192
+al,government - hospital district or authority,54,1,192
+al,government - hospital district or authority,55,1,192
+al,government - hospital district or authority,56,1,192
+al,government - hospital district or authority,57,1,192
+al,government - hospital district or authority,58,1,192
+al,government - hospital district or authority,59,1,192
+al,government - hospital district or authority,60,1,192
+al,government - hospital district or authority,61,1,192
+al,government - hospital district or authority,62,1,192
+al,government - hospital district or authority,63,1,192
+al,government - hospital district or authority,64,1,192
+al,government - hospital district or authority,65,1,192
+al,government - hospital district or authority,66,1,192
+al,government - hospital district or authority,67,1,192
+al,government - hospital district or authority,68,1,192
+al,voluntary non-profit - other,69,7,118
+al,voluntary non-profit - other,70,7,118
+al,voluntary non-profit - other,71,7,118
+al,voluntary non-profit - other,72,7,118
+al,voluntary non-profit - other,73,7,118
+al,voluntary non-profit - other,74,7,118
+al,voluntary non-profit - other,75,7,118
+al,voluntary non-profit - other,76,7,118
+al,voluntary non-profit - other,77,7,118
+al,voluntary non-profit - other,78,7,118
+al,voluntary non-profit - other,79,7,118
+al,voluntary non-profit - other,80,7,118
+al,voluntary non-profit - other,81,7,118
+al,voluntary non-profit - other,82,7,118
+xl,voluntary non-profit - other,83,8,3
+al,voluntary non-profit - other,84,7,118
+al,voluntary non-profit - other,85,7,118
+al,voluntary non-profit - other,86,7,118
+al,voluntary non-profit - other,87,7,118
+al,voluntary non-profit - other,88,7,118
+al,voluntary non-profit - other,89,7,118
+al,voluntary non-profit - other,90,7,118
+al,voluntary non-profit - other,91,7,118
+al,voluntary non-profit - other,92,7,118
+al,voluntary non-profit - other,93,7,118
+al,voluntary non-profit - private,94,0,253
+al,voluntary non-profit - private,95,0,253
+al,voluntary non-profit - private,96,0,253
+al,voluntary non-profit - private,97,0,253
+xl,voluntary non-profit - private,98,9,3
+al,voluntary non-profit - private,99,0,253
+al,voluntary non-profit - private,100,0,253
+al,voluntary non-profit - private,101,0,253
+al,voluntary non-profit - private,102,0,253
+al,voluntary non-profit - private,103,0,253
+al,voluntary non-profit - private,104,0,253
+al,voluntary non-profit - private,105,0,253
+al,voluntary non-profit - private,106,0,253
+al,voluntary non-profit - private,107,0,253
+al,voluntary non-profit - private,108,0,253
+al,voluntary non-profit - private,109,0,253
+al,voluntary non-profit - private,110,0,253
+al,voluntary non-profit - private,111,0,253
+al,voluntary non-profit - private,112,0,253
+al,volunxary non-profix - privaxe,113,10,2
+al,voluntary non-profit - private,114,0,253
+al,voluntary non-profit - private,115,0,253
+al,voluntary non-profit - private,116,0,253
+al,voluntary non-profit - private,117,0,253
+al,voluntary non-profit - private,118,0,253
+ax,government - federal,119,11,2
+al,government - federal,120,12,47
+al,government - federal,121,12,47
+al,government - federal,122,12,47
+al,government - federal,123,12,47
+al,government - federal,124,12,47
+al,government - federal,125,12,47
+al,government - federal,126,12,47
+al,government - federal,127,12,47
+al,government - federal,128,12,47
+al,government - federal,129,12,47
+al,government - federal,130,12,47
+al,government - federal,131,12,47
+al,government - federal,132,12,47
+al,government - federal,133,12,47
+al,government - federal,134,12,47
+al,government - federal,135,12,47
+al,government - federal,136,12,47
+al,government - federal,137,12,47
+al,government - federal,138,12,47
+al,government - federal,139,12,47
+ax,government - federal,140,11,2
+al,government - federal,141,12,47
+al,government - federal,142,12,47
+al,government - federal,143,12,47
+al,proprietary,144,13,189
+al,proprietary,145,13,189
+al,proprietary,146,13,189
+al,proprietary,147,13,189
+al,proprietary,148,13,189
+al,proprietary,149,13,189
+al,proprietary,150,13,189
+al,proprietary,151,13,189
+al,proprietary,152,13,189
+al,proprietary,153,13,189
+al,proprietary,154,13,189
+al,proprietary,155,13,189
+al,proprietary,156,13,189
+al,pxopxietaxy,157,14,2
+al,proprietary,158,13,189
+al,proxrietary,159,15,2
+al,proprietary,160,13,189
+al,proprietary,161,13,189
+al,xroprietary,162,16,1
+al,proprietary,163,13,189
+al,pxopxietaxy,164,14,2
+ax,proprietary,165,17,2
+al,proprietary,166,13,189
+al,proprietary,167,13,189
+al,proprietary,168,13,189
+al,government - hospital district or authority,169,1,192
+al,government - hospital district or authority,170,1,192
+al,government - hospital district or authority,171,1,192
+al,government - hospital district or authority,172,1,192
+al,government - hospital district or authority,173,1,192
+al,government - hospital district or authority,174,1,192
+al,government - hospital district or authority,175,1,192
+al,government - hospital district or authority,176,1,192
+al,government - hospital district or authority,177,1,192
+al,government - hospital district or authority,178,1,192
+al,government - hospital district or authority,179,1,192
+al,government - hospital district or authority,180,1,192
+al,government - hospital district or authority,181,1,192
+xl,government - hospital district or authority,182,6,6
+al,government - hospital district or authority,183,1,192
+al,government - hospital district or authority,184,1,192
+al,government - hospital district or authority,185,1,192
+al,government - hospital district or authority,186,1,192
+al,government - hospital district or authority,187,1,192
+al,government - hospital district or authority,188,1,192
+al,government - hospital district or authority,189,1,192
+al,government - hospital district or authority,190,1,192
+al,government - hospital district or authority,191,1,192
+al,government - hospital district or authority,192,1,192
+al,government - hospital district or authority,193,1,192
+al,voluntary non-profit - private,194,0,253
+al,voluntary non-profit - private,195,0,253
+al,voluntary non-profit - private,196,0,253
+al,voluntary non-profit - private,197,0,253
+al,voluntary non-profit - private,198,0,253
+al,voluntary non-profit - private,199,0,253
+al,voluntary non-profit - private,200,0,253
+al,voluntary non-profit - private,201,0,253
+al,voluntary non-profit - private,202,0,253
+al,voluntary non-profit - private,203,0,253
+al,voluntary non-profit - private,204,0,253
+al,voluntary non-profit - private,205,0,253
+al,voluntary non-profit - private,206,0,253
+al,voluntary non-profit - private,207,0,253
+al,voluntary non-profit - private,208,0,253
+al,voluntary non-profit - private,209,0,253
+al,voluntary non-profit - private,210,0,253
+al,voluntary non-profit - private,211,0,253
+al,voluntary non-profit - private,212,0,253
+al,voluntary non-profit - private,213,0,253
+al,voluntary non-profit - private,214,0,253
+al,voluntary non-profit - private,215,0,253
+al,volunxary non-profix - privaxe,216,10,2
+al,voluntary non-profit - private,217,0,253
+al,voluntary nonxprofit x private,218,18,1
+al,voluntary non-profit - church,219,19,70
+al,voluntary non-profit - church,220,19,70
+al,voluntaryxnon-profitx-xchurch,221,20,1
+al,voluntary non-profit - church,222,19,70
+al,voluntary non-profit - church,223,19,70
+al,voluntary non-profit - church,224,19,70
+al,voluntary non-profit - church,225,19,70
+al,voluntary non-profit - church,226,19,70
+al,voluntary non-profit - church,227,19,70
+ax,voluntary non-profit - church,228,21,1
+al,voluntary non-profit - church,229,19,70
+al,voluntary non-profit - church,230,19,70
+al,voluntary non-profit - church,231,19,70
+al,voluntary non-profit - church,232,19,70
+al,voluntary non-profit - church,233,19,70
+al,voluntary non-profit - church,234,19,70
+al,voluntary non-profit - church,235,19,70
+al,voluntary non-profit - church,236,19,70
+al,voluntary non-profit - church,237,19,70
+al,voxuntary non-profit - church,238,22,1
+al,voluntary non-profit - church,239,19,70
+al,voluntary non-profit - church,240,19,70
+al,voluntary non-profit - church,241,19,70
+al,voluntary non-profit - church,242,19,70
+al,voluntary non-profit - church,243,19,70
+al,government - federal,244,12,47
+al,government - federal,245,12,47
+al,government - federal,246,12,47
+al,governxent - federal,247,23,1
+al,government - federal,248,12,47
+al,government - federal,249,12,47
+al,government - federal,250,12,47
+al,government - federal,251,12,47
+al,government - federal,252,12,47
+al,government - federal,253,12,47
+al,government - federal,254,12,47
+al,government - federal,255,12,47
+al,government - federal,256,12,47
+al,government - federal,257,12,47
+al,government - federal,258,12,47
+al,government - federal,259,12,47
+al,government - federal,260,12,47
+al,government - federal,261,12,47
+al,government - federal,262,12,47
+al,government - federal,263,12,47
+al,government - federal,264,12,47
+al,government - federal,265,12,47
+al,government - federal,266,12,47
+al,government - federal,267,12,47
+al,government - federal,268,12,47
+al,voluntary non-profit - church,269,19,70
+al,voluntary non-profit - church,270,19,70
+al,voluntary non-profit - church,271,19,70
+al,voluntary non-profit - church,272,19,70
+al,voluntary non-profit - church,273,19,70
+al,voluntary non-profit - church,274,19,70
+al,voluntary non-profit - church,275,19,70
+al,voluntary non-profit - church,276,19,70
+al,voluntary non-profit - church,277,19,70
+xl,voluntary non-profit - church,278,24,1
+al,voluntary non-profit - church,279,19,70
+al,voluntary non-profit - church,280,19,70
+al,voluntary non-profit - church,281,19,70
+al,voluntary non-profit - church,282,19,70
+al,voluntary non-profit - church,283,19,70
+al,voluntary non-profit - church,284,19,70
+al,voluntary non-profit - church,285,19,70
+al,voluntary non-profit - church,286,19,70
+al,voluntary non-profit - church,287,19,70
+al,voluntary non-profit - church,288,19,70
+al,voluntary non-profit - church,289,19,70
+al,voluntary non-profit - church,290,19,70
+al,voluntary non-profit - church,291,19,70
+al,voluntary non-profit - church,292,19,70
+al,voluntary non-profit - church,293,19,70
+al,voluntary non-profit - private,294,0,253
+al,voluntary non-profit - private,295,0,253
+al,voluntary non-profit - private,296,0,253
+al,voluntary non-profit - private,297,0,253
+al,voluntary non-profit - private,298,0,253
+al,voluntary non-profit - private,299,0,253
+al,voluntary non-profit - private,300,0,253
+al,voluntary non-profit - private,301,0,253
+al,voluntary non-profit - private,302,0,253
+al,voluntary non-profit - private,303,0,253
+al,voluntary non-profit - private,304,0,253
+al,voluntary non-profit - private,305,0,253
+al,voluntary non-profit - private,306,0,253
+al,voluntary non-profit - private,307,0,253
+al,voluntary non-profit - private,308,0,253
+al,voluntary non-profit - private,309,0,253
+al,voluntary non-profit - private,310,0,253
+al,proprietary,311,13,189
+al,proprietary,312,13,189
+al,prxprietary,313,25,2
+al,proprietary,314,13,189
+al,proprietary,315,13,189
+al,proprietary,316,13,189
+al,proprietary,317,13,189
+al,proprietary,318,13,189
+al,proprietary,319,13,189
+al,proprietary,320,13,189
+al,proprietary,321,13,189
+al,proprietary,322,13,189
+al,proprietary,323,13,189
+al,proprietary,324,13,189
+al,proprietary,325,13,189
+al,proprietary,326,13,189
+al,proprietary,327,13,189
+al,proprietary,328,13,189
+al,proprietary,329,13,189
+al,proprietary,330,13,189
+al,proprietary,331,13,189
+al,proxrietary,332,15,2
+al,proprietary,333,13,189
+al,proprietary,334,13,189
+al,proprietary,335,13,189
+al,proprietary,336,13,189
+al,proprietary,337,13,189
+al,proprietary,338,13,189
+al,proprietary,339,13,189
+al,proprietary,340,13,189
+al,proprietary,341,13,189
+al,proprietary,342,13,189
+al,proprietary,343,13,189
+al,proprietary,344,13,189
+al,proprietary,345,13,189
+al,proprietary,346,13,189
+al,proprietary,347,13,189
+al,voluntary non-profit - other,348,7,118
+al,voluntary non-profit - other,349,7,118
+al,voluntary non-profit - other,350,7,118
+al,voluntary non-profit - other,351,7,118
+al,voluntary non-profit - other,352,7,118
+al,government - hospital district or authority,353,1,192
+al,proprietary,354,13,189
+al,proprietary,355,13,189
+ax,prxprietary,356,26,1
+al,proprietary,357,13,189
+al,proprietary,358,13,189
+al,proprietary,359,13,189
+al,proprietary,360,13,189
+al,proprietary,361,13,189
+al,proprietary,362,13,189
+al,proprietary,363,13,189
+al,proprietary,364,13,189
+al,proprietary,365,13,189
+al,proprietary,366,13,189
+al,proprietary,367,13,189
+al,proprietary,368,13,189
+al,proprietary,369,13,189
+al,proprietary,370,13,189
+al,proprietary,371,13,189
+al,proprietary,372,13,189
+al,proprietary,373,13,189
+al,proprietary,374,13,189
+al,proprietary,375,13,189
+al,proprietary,376,13,189
+al,proprietary,377,13,189
+al,proprietary,378,13,189
+al,government - state,379,27,37
+al,government - state,380,27,37
+al,government - state,381,27,37
+al,government - state,382,27,37
+al,government - state,383,27,37
+al,government - state,384,27,37
+al,government - state,385,27,37
+xl,government - state,386,28,1
+al,government - state,387,27,37
+al,government - state,388,27,37
+al,government - state,389,27,37
+al,government - state,390,27,37
+al,government - state,391,27,37
+al,voluntary non-profit - private,392,0,253
+al,voluntary non-profit - private,393,0,253
+al,voluntary non-profit - private,394,0,253
+al,voluntary non-profit - private,395,0,253
+al,voluntary non-profit - private,396,0,253
+al,voluntary non-profit - private,397,0,253
+al,voluntary non-profit - private,398,0,253
+al,voluntary non-profit - private,399,0,253
+al,voluntary non-profit - private,400,0,253
+al,voluntary non-profit - private,401,0,253
+ax,voluntary non-profit - private,402,29,2
+al,voluntary non-profit - private,403,0,253
+al,voluntary non-profit - private,404,0,253
+al,voluntary non-profit - private,405,0,253
+al,voluntary non-profit - private,406,0,253
+al,voluntary non-profit - private,407,0,253
+al,voluntary non-profit - private,408,0,253
+al,voluntary non-profit - private,409,0,253
+al,voluntary non-profit - private,410,0,253
+al,voluntary non-profit - private,411,0,253
+al,proprietary,412,13,189
+al,proprietary,413,13,189
+al,voluntary non-profit - other,414,7,118
+al,voluntary non-profit - other,415,7,118
+al,voluntary non-profit - other,416,7,118
+al,voluntary non-profit - other,417,7,118
+al,voluntary non-profit - other,418,7,118
+al,voluntary non-profit - other,419,7,118
+al,voluntary non-profit - other,420,7,118
+al,voluntary non-profit - other,421,7,118
+al,voluntary non-profit - other,422,7,118
+al,voluntary non-profit - other,423,7,118
+al,voluntary non-profit - other,424,7,118
+al,voluntary non-profit - other,425,7,118
+al,voluntary non-profit - other,426,7,118
+al,voluntary non-profit - other,427,7,118
+al,voluntary non-profit - other,428,7,118
+al,voluntary non-profit - other,429,7,118
+al,voluntary non-profit - other,430,7,118
+al,voluntary non-profit - other,431,7,118
+ak,proprietary,432,30,17
+ak,proprietary,433,30,17
+ak,proprietary,434,30,17
+ak,proprietary,435,30,17
+ak,proprietary,436,30,17
+ak,proprietary,437,30,17
+ak,proprietary,438,30,17
+ak,proprietary,439,30,17
+ak,proprietary,440,30,17
+ak,proprietary,441,30,17
+ak,proprietary,442,30,17
+ak,proprietary,443,30,17
+ak,proprietary,444,30,17
+ak,proprietary,445,30,17
+ak,proprietary,446,30,17
+ak,proprietary,447,30,17
+ak,proprietary,448,30,17
+ak,proxrietary,449,31,1
+ak,government - federal,450,32,2
+ak,government - federal,451,32,2
+al,government - hospital district or authority,452,1,192
+al,government - hospital district or authority,453,1,192
+al,government - hospital district or authority,454,1,192
+al,government - hospital district or authority,455,1,192
+al,gxvernment - hxspital district xr authxrity,456,33,1
+al,government - hospital district or authority,457,1,192
+al,government - hospital district or authority,458,1,192
+al,government - hospital district or authority,459,1,192
+al,government - hospital district or authority,460,1,192
+al,government - hospital district or authority,461,1,192
+al,government - hospital district or authority,462,1,192
+al,government - hospital district or authority,463,1,192
+al,government - hospital district or authority,464,1,192
+al,government - hospital district or authority,465,1,192
+al,government - hospital district or authority,466,1,192
+al,government - hospital district or authority,467,1,192
+al,government - hospital district or authority,468,1,192
+al,government - hospital district or authority,469,1,192
+al,government - hospital district or authority,470,1,192
+al,government - hospital district or authority,471,1,192
+al,government - hospital district or authority,472,1,192
+al,government - hospital district or authority,473,1,192
+al,government - hospital district or authority,474,1,192
+al,government - hospital district or authority,475,1,192
+al,government - hospital district or authority,476,1,192
+xl,government - hospital district or authority,477,6,6
+al,government - hospital district or authority,478,1,192
+al,government - hospital district or authority,479,1,192
+al,government - hospital district or authority,480,1,192
+al,government - hospital district or authority,481,1,192
+al,government - hospital district or authority,482,1,192
+xl,government - hospital district or authority,483,6,6
+al,government - hospital district or authority,484,1,192
+al,government - hospital district or authority,485,1,192
+al,government - hospital district or authority,486,1,192
+al,government - hospital district or authority,487,1,192
+al,government - hospital district or authority,488,1,192
+al,government - hospital district or authority,489,1,192
+al,government - hospital district or authority,490,1,192
+al,voluntary non-profit - private,491,0,253
+al,voluntary non-profit - private,492,0,253
+al,voluntaryxnon-profitx-xprivate,493,34,1
+al,voluntary non-profit - private,494,0,253
+al,voluntary non-profit - private,495,0,253
+al,voluntary non-profit - private,496,0,253
+al,voluntary non-profit - private,497,0,253
+al,voluntary non-profit - private,498,0,253
+al,voluntary non-profit - private,499,0,253
+al,voluntary non-profit - private,500,0,253
+al,voluntary non-profit - private,501,0,253
+al,voluntary non-profit - private,502,0,253
+al,voluntary non-profit - private,503,0,253
+ax,voluntary non-profit - private,504,29,2
+al,voluntary non-profit - private,505,0,253
+al,voluntary non-profit - private,506,0,253
+al,voluntary non-profit - private,507,0,253
+al,voluntary non-profit - private,508,0,253
+al,voluntary non-profit - private,509,0,253
+al,voluntary non-profit - private,510,0,253
+al,voluntary non-profit - private,511,0,253
+al,voluntary non-profit - private,512,0,253
+al,voluntary non-profit - private,513,0,253
+al,voluntary non-profit - private,514,0,253
+al,voluntary non-profit - private,515,0,253
+al,voluntary non-profit - church,516,19,70
+al,voluntary non-profit - church,517,19,70
+al,voluntary non-profit - church,518,19,70
+al,voluntary non-profit - church,519,19,70
+al,voluntary non-profit - church,520,19,70
+al,voluntary non-profit - church,521,19,70
+al,voluntary non-profit - church,522,19,70
+al,voluntary non-profit - church,523,19,70
+al,voluntary non-profit - church,524,19,70
+al,voluntary non-profit - church,525,19,70
+al,volxntary non-profit - chxrch,526,35,1
+al,voluntary non-profit - church,527,19,70
+al,voluntary non-profit - church,528,19,70
+al,voluntary non-profit - church,529,19,70
+al,voluntary non-profit - church,530,19,70
+al,voluntary non-profit - church,531,19,70
+al,voluntary non-profit - church,532,19,70
+al,voluntary non-profit - church,533,19,70
+al,voluntary non-profit - church,534,19,70
+al,voluntary non-profit - church,535,19,70
+al,voluntary non-profit - church,536,19,70
+al,voluntary non-profit - church,537,19,70
+al,voluntary non-profit - church,538,19,70
+al,voluntary non-profit - church,539,19,70
+al,voluntary non-profit - church,540,19,70
+al,voluntary non-profit - private,541,0,253
+al,voluntary non-profit - private,542,0,253
+al,voluntary non-profit - private,543,0,253
+al,voluntary non-profit - private,544,0,253
+al,voluntary non-profit - private,545,0,253
+al,voluntary non-profit - private,546,0,253
+al,voluntary non-profit - private,547,0,253
+al,voluntary non-profit - private,548,0,253
+al,voluntary non-profit - private,549,0,253
+al,voluntary non-profit - private,550,0,253
+al,voluntary non-profit - private,551,0,253
+al,voluntary non-profit - private,552,0,253
+al,voluntary non-profit - private,553,0,253
+al,voluntary non-profit - private,554,0,253
+al,voluntary non-profit - private,555,0,253
+al,voluntary non-profit - private,556,0,253
+al,voluntary non-profit - private,557,0,253
+al,voluntary non-profit - private,558,0,253
+xl,voluntary non-profit - private,559,9,3
+al,voluntary non-profit - private,560,0,253
+al,voluntary non-profit - private,561,0,253
+al,voluntary non-profit - private,562,0,253
+al,voluntary non-profit - private,563,0,253
+al,voluntary non-profit - private,564,0,253
+al,voluntary non-profit - private,565,0,253
+al,voluntary non-profit - other,566,7,118
+al,voluntary non-profit - other,567,7,118
+al,voluntary non-profit - other,568,7,118
+al,voluntary non-profit - other,569,7,118
+al,voluntary non-profit - other,570,7,118
+al,voluntary non-profit - other,571,7,118
+ax,voluntary non-profit - otxer,572,36,1
+al,voluntary non-profit - other,573,7,118
+al,voluntary non-profit - other,574,7,118
+al,voluntary non-profit - other,575,7,118
+al,voluntary non-profit - other,576,7,118
+al,voluntary non-profit - other,577,7,118
+al,voluntary non-profit - other,578,7,118
+al,voluntary non-profit - other,579,7,118
+al,voluntary non-profit - other,580,7,118
+al,voluntary non-profit - other,581,7,118
+al,voluntary non-profit - other,582,7,118
+al,voluntary non-profit - other,583,7,118
+al,voluntary non-profit - other,584,7,118
+al,voluntary non-profit - other,585,7,118
+al,voluntary non-profit - other,586,7,118
+al,voluntary non-profit - other,587,7,118
+al,voluntary non-profit - other,588,7,118
+al,voluntary non-profit - other,589,7,118
+al,voluntary non-profit - other,590,7,118
+al,voluntary non-profit - other,591,7,118
+ax,voluntary non-profit - other,592,37,1
+al,voluntary non-profit - other,593,7,118
+al,voluntary non-profit - other,594,7,118
+al,voluntary non-profit - other,595,7,118
+al,voluntary non-profit - other,596,7,118
+al,voluntary non-profit - other,597,7,118
+al,voluntary non-profit - other,598,7,118
+al,voluntary non-profit - other,599,7,118
+al,voluntary non-profit - other,600,7,118
+al,voluntary non-profit - other,601,7,118
+al,voluntary non-profit - other,602,7,118
+al,voluntary non-profit - other,603,7,118
+al,voluntary non-profit - other,604,7,118
+al,voluntary non-profit - other,605,7,118
+al,voluntary non-profit - other,606,7,118
+al,voluntary non-profit - other,607,7,118
+al,voluntary non-profit - other,608,7,118
+al,voluntary non-profit - other,609,7,118
+al,voluntary non-profit - other,610,7,118
+al,voluntary non-profit - other,611,7,118
+al,voluntary non-profit - other,612,7,118
+al,voluntary non-profit - other,613,7,118
+al,voluntary non-profit - other,614,7,118
+al,voluntary non-profit - other,615,7,118
+al,government - hospital district or authority,616,1,192
+al,government - hospital district or authority,617,1,192
+al,government - hospital district or authority,618,1,192
+al,government - hospital district or authority,619,1,192
+al,government - hospital district or authority,620,1,192
+al,government - hospital district or authority,621,1,192
+al,government - hospital district or authority,622,1,192
+al,government - hospital district or authority,623,1,192
+al,government - hospital district or authority,624,1,192
+al,government - hospital district or authority,625,1,192
+al,government - hospital district or authority,626,1,192
+al,government - hospital district or authority,627,1,192
+al,government - hospital district or authority,628,1,192
+al,government - hospital district or authority,629,1,192
+al,government - hospital district or authority,630,1,192
+al,government - hospital district or authority,631,1,192
+al,government - hospital district or authority,632,1,192
+al,government - hospital district or authority,633,1,192
+al,government - hospital district or authority,634,1,192
+al,government - hospital district or authority,635,1,192
+al,government - hospital district or authority,636,1,192
+al,government - hospital district or authority,637,1,192
+al,government - hospital district or authority,638,1,192
+al,government - hospital district or authority,639,1,192
+al,government - hospital district or authority,640,1,192
+al,government - local,641,38,25
+al,government - local,642,38,25
+al,government - local,643,38,25
+al,government - local,644,38,25
+al,government - local,645,38,25
+al,government - local,646,38,25
+al,government - local,647,38,25
+al,government - local,648,38,25
+al,government - local,649,38,25
+al,government - local,650,38,25
+al,government - local,651,38,25
+al,government - local,652,38,25
+al,government - local,653,38,25
+al,government - local,654,38,25
+al,government - local,655,38,25
+al,government - local,656,38,25
+al,government - local,657,38,25
+al,government - local,658,38,25
+al,government - local,659,38,25
+al,government - local,660,38,25
+al,government - local,661,38,25
+al,government - local,662,38,25
+al,government - local,663,38,25
+al,government - local,664,38,25
+al,government - local,665,38,25
+al,government - state,666,27,37
+al,government - state,667,27,37
+al,government - state,668,27,37
+al,government - state,669,27,37
+al,government - state,670,27,37
+al,government - state,671,27,37
+al,government - state,672,27,37
+al,government - state,673,27,37
+al,government - state,674,27,37
+al,government - state,675,27,37
+al,government - state,676,27,37
+al,government - state,677,27,37
+al,government - state,678,27,37
+al,government - state,679,27,37
+al,government - state,680,27,37
+al,government - state,681,27,37
+al,government - state,682,27,37
+al,government - state,683,27,37
+al,government - state,684,27,37
+al,government - state,685,27,37
+al,government - state,686,27,37
+al,government - state,687,27,37
+al,government - state,688,27,37
+al,government - state,689,27,37
+al,government - state,690,27,37
+al,voluntary non-profit - private,691,0,253
+al,voluntary non-profit - private,692,0,253
+al,voluntary non-profit - private,693,0,253
+al,voluntary non-profit - private,694,0,253
+al,voluntary non-profit - private,695,0,253
+al,voluntary non-profit - private,696,0,253
+al,voluntary non-profit - private,697,0,253
+al,voluntary non-profit - private,698,0,253
+al,voluntary non-profit - private,699,0,253
+al,voluntary non-profit - private,700,0,253
+xl,voluntary non-profit - private,701,9,3
+al,voluntary non-profit - private,702,0,253
+al,voluntary non-profit - private,703,0,253
+al,voluntary non-profit - private,704,0,253
+al,voluntary non-profit - private,705,0,253
+al,voluntary non-profit - private,706,0,253
+al,voluntary non-profit - private,707,0,253
+al,voluntary non-profit - private,708,0,253
+al,voluntary non-profit - private,709,0,253
+al,voluntary non-profit - private,710,0,253
+al,voluntary non-profit - private,711,0,253
+al,voluntary non-profit - private,712,0,253
+al,voluntary non-profit - private,713,0,253
+al,voluntary non-profit - private,714,0,253
+al,voluntary non-profit - private,715,0,253
+al,government - hospital district or authority,716,1,192
+al,government - hospital district or authority,717,1,192
+al,government - hospital district or authority,718,1,192
+al,government - hospital district or authority,719,1,192
+al,government - hospital district or authority,720,1,192
+al,government - hospital district or authority,721,1,192
+al,government - hospital district or authority,722,1,192
+al,government - hospital district or authority,723,1,192
+al,government - hospital district or authority,724,1,192
+al,government - hospital district or authority,725,1,192
+al,government - hospital district or authority,726,1,192
+al,government - hospital district or authority,727,1,192
+al,government - hospital district or authority,728,1,192
+al,government - hospital district or authority,729,1,192
+al,government - hospital district or authority,730,1,192
+al,government - hospital district or authority,731,1,192
+al,government - hospital district or authority,732,1,192
+al,government - hospital district or authority,733,1,192
+al,government - hospital district or authority,734,1,192
+al,government - hospital district or authority,735,1,192
+al,government - hospital district or authority,736,1,192
+al,government - hospital district or authority,737,1,192
+al,government - hospital district or authority,738,1,192
+al,government - hospital district or authority,739,1,192
+al,government - hospital district or authority,740,1,192
+al,proprietary,741,13,189
+al,proprietary,742,13,189
+al,proprietary,743,13,189
+al,prxprietary,744,25,2
+al,proprietary,745,13,189
+al,proprietary,746,13,189
+al,proprietary,747,13,189
+al,proprietary,748,13,189
+al,proprietary,749,13,189
+al,proprietary,750,13,189
+al,proprietary,751,13,189
+al,proprietary,752,13,189
+al,proprietary,753,13,189
+al,proprietary,754,13,189
+al,proprietary,755,13,189
+al,proprietary,756,13,189
+al,proprietary,757,13,189
+al,proprietary,758,13,189
+al,proprietary,759,13,189
+al,proprietary,760,13,189
+al,proprietary,761,13,189
+al,proprietary,762,13,189
+al,proprietary,763,13,189
+xl,proprietary,764,39,1
+al,proprietary,765,13,189
+al,proprietary,766,13,189
+al,proprietary,767,13,189
+al,proprietary,768,13,189
+al,proprietary,769,13,189
+al,proprietary,770,13,189
+al,proprietary,771,13,189
+al,proprietary,772,13,189
+al,proprietary,773,13,189
+al,government - hospital district or authority,774,1,192
+al,government - hospital district or authority,775,1,192
+al,government - hospital district or authority,776,1,192
+al,government - hospital district or authority,777,1,192
+al,government - hospital district or authority,778,1,192
+al,government - hospital district or authority,779,1,192
+al,government - hospital district or authority,780,1,192
+al,government - hospital district or authority,781,1,192
+al,government - hospital district or authority,782,1,192
+al,government - hospital district or authority,783,1,192
+al,goverxmext - hospital district or authority,784,40,1
+al,government - hospital district or authority,785,1,192
+al,government - hospital district or authority,786,1,192
+al,government - hospital district or authority,787,1,192
+al,government - hospital district or authority,788,1,192
+al,government - hospital district or authority,789,1,192
+al,government - hospital district or authority,790,1,192
+xl,government - hospital district or authority,791,6,6
+al,government - hospital district or authority,792,1,192
+al,government - hospital district or authority,793,1,192
+al,government - hospital district or authority,794,1,192
+al,government - hospital district or authority,795,1,192
+al,government - hospital district or authority,796,1,192
+al,government - hospital district or authority,797,1,192
+al,government - hospital district or authority,798,1,192
+al,government - hospital district or authority,799,1,192
+al,government - hospital district or authority,800,1,192
+al,government - hospital district or authority,801,1,192
+al,proprietary,802,13,189
+al,proprietary,803,13,189
+al,proprietary,804,13,189
+al,proprietary,805,13,189
+al,proprietary,806,13,189
+al,proprietary,807,13,189
+al,proprietary,808,13,189
+al,proprietary,809,13,189
+al,proprietary,810,13,189
+al,proprietary,811,13,189
+al,proprietary,812,13,189
+al,proprietary,813,13,189
+al,proprietary,814,13,189
+al,proprietary,815,13,189
+al,proprietary,816,13,189
+al,proprietary,817,13,189
+al,proprietary,818,13,189
+al,proprietary,819,13,189
+al,proprietary,820,13,189
+al,proprietary,821,13,189
+al,proprietary,822,13,189
+al,proprietary,823,13,189
+al,proprietary,824,13,189
+al,proprietary,825,13,189
+al,proprietary,826,13,189
+al,voluntary non-profit - private,827,0,253
+al,voluntary non-profit - private,828,0,253
+al,voluntary non-profit - private,829,0,253
+al,voluntary non-profit - private,830,0,253
+al,voluntary non-profit - private,831,0,253
+al,voluntary non-profit - private,832,0,253
+al,voluntary non-profit - private,833,0,253
+al,voluntary non-profit - private,834,0,253
+al,voluntary non-profit - private,835,0,253
+al,voluntary non-profit - private,836,0,253
+al,voluntary non-profit - private,837,0,253
+al,voluntary non-profit - private,838,0,253
+al,voluntary non-profit - private,839,0,253
+al,voluntary non-profit - private,840,0,253
+al,voluntary non-profit - private,841,0,253
+al,voluntary non-profit - private,842,0,253
+al,voluntary non-profit - private,843,0,253
+al,voluntary non-profit - private,844,0,253
+al,voluntary non-profit - private,845,0,253
+al,voluntaxy non-pxofit - pxivate,846,41,2
+al,voluntary non-profit - private,847,0,253
+al,voluntary non-profit - private,848,0,253
+al,voluntary non-profit - private,849,0,253
+al,voluntary non-profit - private,850,0,253
+al,voluntary non-profit - private,851,0,253
+al,voluntary non-profit - private,852,0,253
+al,voluntary non-profit - private,853,0,253
+al,voluntary non-profit - private,854,0,253
+al,voluntary non-profit - private,855,0,253
+al,voluntary non-profit - private,856,0,253
+al,voluntary non-profit - private,857,0,253
+al,voluntary non-profit - private,858,0,253
+al,voluntary non-profit - private,859,0,253
+al,voluntary non-profit - private,860,0,253
+al,voluntary non-profit - private,861,0,253
+al,voluntary non-profit - private,862,0,253
+al,voluntary non-profit - private,863,0,253
+al,voluntary non-profit - private,864,0,253
+al,voluntary non-profit - private,865,0,253
+al,voluntary non-profit - private,866,0,253
+al,voluntary non-profit - private,867,0,253
+al,voluxtary xox-profit - private,868,42,1
+al,voluntary non-profit - private,869,0,253
+al,voluntary non-profit - private,870,0,253
+al,voluntary non-profit - private,871,0,253
+al,voluntaxy non-pxofit - pxivate,872,41,2
+al,voluntary non-profit - private,873,0,253
+al,voluntary non-profit - private,874,0,253
+al,voluntary non-profit - private,875,0,253
+al,voluntary non-profit - private,876,0,253
+al,voluntary non-profit - other,877,7,118
+al,voluntary non-profit - other,878,7,118
+al,voluntary non-profit - other,879,7,118
+al,voluntary non-profit - other,880,7,118
+al,voluntary non-profit - other,881,7,118
+al,voluntary non-profit - other,882,7,118
+al,voluntary non-profit - other,883,7,118
+xl,voluntary non-profit - other,884,8,3
+al,voluntary non-profit - other,885,7,118
+xl,voluntary non-profit - other,886,8,3
+al,voluntary non-profit - other,887,7,118
+al,voluntary non-profit - other,888,7,118
+al,voluntary non-profit - other,889,7,118
+al,voluntary non-profit - other,890,7,118
+al,voluntary non-profit - other,891,7,118
+al,voluntary non-profit - other,892,7,118
+al,voluntary non-profit - other,893,7,118
+al,voluntary non-profit - other,894,7,118
+al,voluntary non-profit - other,895,7,118
+al,voluntary non-profit - other,896,7,118
+al,voluntary non-profit - other,897,7,118
+al,voluntary non-profit - other,898,7,118
+al,voluntary non-profit - other,899,7,118
+al,voluntary non-profit - other,900,7,118
+al,voluntary non-profit - other,901,7,118
+al,proprietary,902,13,189
+al,proprietary,903,13,189
+al,proprietary,904,13,189
+al,proprietary,905,13,189
+al,proprietary,906,13,189
+al,proprietary,907,13,189
+al,proprietary,908,13,189
+al,proprietary,909,13,189
+al,proprietary,910,13,189
+al,proprietary,911,13,189
+al,proprietary,912,13,189
+al,proprietary,913,13,189
+al,proprietary,914,13,189
+al,proprietary,915,13,189
+al,proprietary,916,13,189
+al,proprietary,917,13,189
+al,proprietary,918,13,189
+al,proprietary,919,13,189
+al,proprietary,920,13,189
+al,proprietary,921,13,189
+ax,proprietary,922,17,2
+al,proprietary,923,13,189
+al,proprietary,924,13,189
+al,proprietary,925,13,189
+al,proprietary,926,13,189
+al,proprietary,927,13,189
+al,proprietary,928,13,189
+al,proprietary,929,13,189
+al,voluntary non-profit - private,930,0,253
+al,voluntary non-profit - private,931,0,253
+al,voluntary non-profit - private,932,0,253
+al,voluntary non-profit - private,933,0,253
+al,voluntary non-profit - private,934,0,253
+al,voluntary non-profit - private,935,0,253
+al,voluntary non-profit - private,936,0,253
+al,voluntary non-profit - private,937,0,253
+al,voluntary non-profit - private,938,0,253
+al,voluntary non-profit - private,939,0,253
+al,voluntary non-profit - private,940,0,253
+al,voluntary non-profit - private,941,0,253
+al,voluntary non-profit - private,942,0,253
+al,voluntary non-profit - private,943,0,253
+al,voluntary non-profit - private,944,0,253
+al,voluntary non-profit - private,945,0,253
+al,voluntary non-profit - private,946,0,253
+al,voluntary non-profit - private,947,0,253
+al,voluntary non-profit - private,948,0,253
+al,voluntary non-profit - private,949,0,253
+al,voluntary non-profit - private,950,0,253
+al,voluntary non-profit - private,951,0,253
+al,voluntary non-profit - private,952,0,253
+al,voluntary non-profit - private,953,0,253
+al,voluntary non-profit - private,954,0,253
+al,proprietary,955,13,189
+al,proprietary,956,13,189
+al,proprietary,957,13,189
+al,proprietary,958,13,189
+al,proprietary,959,13,189
+al,proprietary,960,13,189
+al,proprietary,961,13,189
+al,proprietary,962,13,189
+al,proprietary,963,13,189
+al,proprietary,964,13,189
+al,proprietary,965,13,189
+al,proprietary,966,13,189
+al,proprietary,967,13,189
+al,proprietary,968,13,189
+al,proprietary,969,13,189
+al,proprietary,970,13,189
+al,proprietary,971,13,189
+al,proprietary,972,13,189
+al,proprietary,973,13,189
+al,proprietary,974,13,189
+al,proprietary,975,13,189
+al,proprietary,976,13,189
+al,proprietary,977,13,189
+al,proprietary,978,13,189
+al,proprietary,979,13,189
+al,voluntary non-profit - private,980,0,253
+al,voluntary non-profit - private,981,0,253
+al,voluntary non-profit - private,982,0,253
+al,voluntary non-profit - private,983,0,253
+al,voluntary non-profit - private,984,0,253
+al,voluntary non-profit - private,985,0,253
+al,voluntary non-profit - private,986,0,253
+al,voluntary non-profit - private,987,0,253
+al,voluntary non-profit - private,988,0,253
+al,voluntary non-profit - private,989,0,253
+al,voluntary non-profit - private,990,0,253
+al,voluntary non-profit - private,991,0,253
+al,voluntary non-profit - private,992,0,253
+al,voluntary non-profit - private,993,0,253
+al,voluntary non-profit - private,994,0,253
+al,voluntary non-profit - private,995,0,253
+al,voluntary non-profit - private,996,0,253
+al,voluntary non-profit - private,997,0,253
+al,voluntary non-profit - private,998,0,253
+al,voluntary non-profit - private,999,0,253

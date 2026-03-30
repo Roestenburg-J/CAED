@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The structured flight identifier appears to determine the scheduled arrival time. The same flight code pattern (airline code + flight number + origin airport + destination airport) is associated with the same scheduled arrival clock time across records.
+
+  The following is a formatted table with the unique data to be checked.
+  

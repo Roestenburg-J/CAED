@@ -1,0 +1,14 @@
+{
+    "id": "118f730d-e3b8-49ac-8e45-0617df4fcaf9",
+    "name": "beers_nano_8",
+    "created_at": "2026-03-27T15:48:41.383894",
+    "type": "evaluation",
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

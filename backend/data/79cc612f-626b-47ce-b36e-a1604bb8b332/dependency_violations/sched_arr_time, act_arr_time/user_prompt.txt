@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The value is a route/identifier column (structured like an airline+flight+origin+destination). The time columns appear to be the scheduled/actual timestamps for successive legs or checkpoints along that same route; for the same route identifier, the sequence of times follows the same pattern (e.g., “1:05 p.m.” → “1:19 p.m.” → “2:35 p.m.” → “3:13 p.m.”).
+
+  The following is a formatted table with the unique data to be checked.
+  

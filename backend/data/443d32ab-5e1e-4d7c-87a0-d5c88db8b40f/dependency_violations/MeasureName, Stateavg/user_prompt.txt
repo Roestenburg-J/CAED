@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The composite identifier in the last column is syntactically derived from the state/measure information and depends on the measure code. It embeds the measure code text (for example, 'ami-3' or 'ami-7a') and appears to prepend a state-related prefix.
+
+  The following is a formatted table with the unique data to be checked.
+  

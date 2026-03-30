@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The time columns form an ordered timeline (start/checkpoint times), where later columns represent events occurring after earlier ones. The relative ordering and typical fixed offsets between checkpoints are consistent within a record.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The composite identifier in the last column is syntactically dependent on the state abbreviation and the measure code: it follows the pattern '<state>_<measure code>'.
+
+  The following is a formatted table with the unique data to be checked.
+  

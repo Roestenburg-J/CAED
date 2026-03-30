@@ -1,0 +1,7 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+2,3,beer_name,style,"The style/classification field is semantically dependent on the product name: the named beer implies a specific style/category (e.g., the same beer maps consistently to the same style text)."
+2,8,beer_name,brewery_name,The product/brand name is semantically dependent on the producer/manufacturer field: the producer value indicates the brewery that makes the named beer.
+4,5,ounces,abv,"The values describe product package size and a per-unit measurement. The per-unit measurement value (a decimal string) is consistent with being derived from or used alongside the package size (e.g., nutrition/strength per ounce vs total based on container size)."
+5,6,abv,ibu,"The decimal measurement (string form) and the numeric measurement are consistent representations of the same underlying quantity (e.g., 0.065 corresponds to 65.0 after scaling such as ×1000), indicating a deterministic formatting/scaling relationship."
+6,7,ibu,brewery_id,"One numeric field represents a quantity that appears to be derived from another numeric field via a scaling factor (e.g., the larger integer is consistent with the other measurement expressed in different units or resolution)."
+9,10,city,state,The location fields are semantically linked: a city/locality value is associated with a broader region/state code. The locality value determines which region/state code it belongs to.

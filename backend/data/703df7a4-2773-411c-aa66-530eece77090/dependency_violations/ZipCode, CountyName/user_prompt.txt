@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  ZIP-to-county/region relationship: the postal code value implies the associated county/region value (the county/region is consistent with the ZIP).
+
+  The following is a formatted table with the unique data to be checked.
+  

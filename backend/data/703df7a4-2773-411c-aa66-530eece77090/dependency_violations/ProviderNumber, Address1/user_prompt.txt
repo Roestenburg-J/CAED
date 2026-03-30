@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The identifier for an organization/facility determines the corresponding facility name and the facility address/street line; all three fields refer to the same facility record and must align.
+
+  The following is a formatted table with the unique data to be checked.
+  

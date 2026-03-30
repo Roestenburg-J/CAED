@@ -1,0 +1,1001 @@
+Address1,EmergencyService,original_index,unique_index,count
+1720 university blvd,yes,0,0,24
+1720 university blvd,yes,1,0,24
+1720 university blvd,yes,2,0,24
+1720 university blvd,yes,3,0,24
+1720 university blvd,yes,4,0,24
+1720 university blvd,yes,5,0,24
+1720 university blvd,yes,6,0,24
+1720 university blvd,yes,7,0,24
+1300 south montgomery avenue,yes,8,1,25
+1300 south montgomery avenue,yes,9,1,25
+1300 south montgomery avenue,yes,10,1,25
+1300 south montgomery avenue,yes,11,1,25
+1300 south montgomery avenue,yes,12,1,25
+1300 south montgomery avenue,yes,13,1,25
+1300 south montgomery avenue,yes,14,1,25
+1300 south montgomery avenue,yes,15,1,25
+1300 south montgomery avenue,yes,16,1,25
+1300 south montgomery avenue,yes,17,1,25
+1300 south montgomery avenue,yes,18,1,25
+1108 ross clark circle,yes,19,2,23
+1108 ross clark circle,yes,20,2,23
+1108 ross clark circle,yes,21,2,23
+1108 ross clark circle,yes,22,2,23
+1108 ross clark circle,yes,23,2,23
+1108 ross clark circle,yxs,24,3,1
+1108 ross clark circle,yes,25,2,23
+1108 ross clark circle,yes,26,2,23
+1108 ross clark circle,yes,27,2,23
+1108 ross clark circle,yes,28,2,23
+1108 ross clark circle,yes,29,2,23
+1108 ross clark circle,yes,30,2,23
+1108 ross clark circle,yes,31,2,23
+1108 ross clark circle,yes,32,2,23
+1108 ross clark circle,yes,33,2,23
+1108 ross clark circle,yes,34,2,23
+1108 ross clark circle,yes,35,2,23
+1108 ross clark circle,yes,36,2,23
+1108 ross clark circle,yes,37,2,23
+1108 ross clark circle,yes,38,2,23
+1108 ross clark circle,yes,39,2,23
+1108 ross clark circle,yes,40,2,23
+1108 ross clark circle,yes,41,2,23
+1108 ross clark circle,yes,42,2,23
+1108 ross clark circle,yex,43,4,1
+2505 u s highway 431 north,yes,44,5,23
+2505 u s highway 431 north,yes,45,5,23
+2505 u s highway 431 north,yes,46,5,23
+2505 u s highway 431 north,yes,47,5,23
+2505 u s highway 431 north,yes,48,5,23
+2505 u s highway 431 north,yes,49,5,23
+2505 u s highway 431 north,yes,50,5,23
+2505 u s highway 431 north,yxs,51,6,1
+2505 u s highway 431 north,yes,52,5,23
+2505 u s highway 431 north,yes,53,5,23
+2505 u s highway 431 north,yes,54,5,23
+2505 u s highway 431 north,yes,55,5,23
+2505 u s highway 431 north,yes,56,5,23
+2505xuxsxhighwayx431xnorth,yes,57,7,1
+2505 u s highway 431 north,yes,58,5,23
+2505 u s highway 431 north,yes,59,5,23
+2505 u s highway 431 north,yes,60,5,23
+2505 u s highway 431 north,yes,61,5,23
+2505 u s highway 431 north,yes,62,5,23
+2505 u s highway 431 north,yes,63,5,23
+2505 u s highway 431 north,yes,64,5,23
+2505 u s highway 431 north,yes,65,5,23
+2505 u s highway 431 north,yes,66,5,23
+2505 u s highway 431 north,yes,67,5,23
+2505 u s highway 431 north,yes,68,5,23
+205 marengo street,yes,69,8,25
+205 marengo street,yes,70,8,25
+205 marengo street,yes,71,8,25
+205 marengo street,yes,72,8,25
+205 marengo street,yes,73,8,25
+205 marengo street,yes,74,8,25
+205 marengo street,yes,75,8,25
+205 marengo street,yes,76,8,25
+205 marengo street,yes,77,8,25
+205 marengo street,yes,78,8,25
+205 marengo street,yes,79,8,25
+205 marengo street,yes,80,8,25
+205 marengo street,yes,81,8,25
+205 marengo street,yes,82,8,25
+205 marengo street,yes,83,8,25
+205 marengo street,yes,84,8,25
+205 marengo street,yes,85,8,25
+205 marengo street,yes,86,8,25
+205 marengo street,yes,87,8,25
+205 marengo street,yes,88,8,25
+205 marengo street,yes,89,8,25
+205 marengo street,yes,90,8,25
+205 marengo street,yes,91,8,25
+205 marengo street,yes,92,8,25
+205 marengo street,yes,93,8,25
+702xnxmainxst,no,94,9,1
+702 n main st,no,95,10,23
+702 n main st,no,96,10,23
+702 n main st,no,97,10,23
+702 n main st,no,98,10,23
+702 n main st,no,99,10,23
+702 n main st,no,100,10,23
+702 n main st,no,101,10,23
+702 n main st,no,102,10,23
+702 n main st,no,103,10,23
+702 n main st,no,104,10,23
+702 n main st,no,105,10,23
+702 x maix st,no,106,11,1
+702 n main st,no,107,10,23
+702 n main st,no,108,10,23
+702 n main st,no,109,10,23
+702 n main st,no,110,10,23
+702 n main st,no,111,10,23
+702 n main st,no,112,10,23
+702 n main st,no,113,10,23
+702 n main st,no,114,10,23
+702 n main st,no,115,10,23
+702 n main st,no,116,10,23
+702 n main st,no,117,10,23
+702 n main st,no,118,10,23
+101 hospital circle,yes,119,12,25
+101 hospital circle,yes,120,12,25
+101 hospital circle,yes,121,12,25
+101 hospital circle,yes,122,12,25
+101 hospital circle,yes,123,12,25
+101 hospital circle,yes,124,12,25
+101 hospital circle,yes,125,12,25
+101 hospital circle,yes,126,12,25
+101 hospital circle,yes,127,12,25
+101 hospital circle,yes,128,12,25
+101 hospital circle,yes,129,12,25
+101 hospital circle,yes,130,12,25
+101 hospital circle,yes,131,12,25
+101 hospital circle,yes,132,12,25
+101 hospital circle,yes,133,12,25
+101 hospital circle,yes,134,12,25
+101 hospital circle,yes,135,12,25
+101 hospital circle,yes,136,12,25
+101 hospital circle,yes,137,12,25
+101 hospital circle,yes,138,12,25
+101 hospital circle,yes,139,12,25
+101 hospital circle,yes,140,12,25
+101 hospital circle,yes,141,12,25
+101 hospital circle,yes,142,12,25
+101 hospital circle,yes,143,12,25
+201 pine street northwest,yes,144,13,23
+201 pine street northwest,yes,145,13,23
+201 pine street northwest,yes,146,13,23
+201 pine street northwest,yes,147,13,23
+201 pine street northwest,yes,148,13,23
+201 pine street northwest,yes,149,13,23
+201 pine street northwest,yes,150,13,23
+201 pine street northwest,yes,151,13,23
+201 pine street northwest,yes,152,13,23
+201 pine street northwest,yes,153,13,23
+201 pine street northwest,yes,154,13,23
+201 pine street northwest,yes,155,13,23
+201 pine street northwest,yes,156,13,23
+201 pine street northwest,yxs,157,14,1
+201 pine street northwest,yes,158,13,23
+201 pine street northwest,yes,159,13,23
+201 pine street northwest,yes,160,13,23
+201 pine sxreex norxhwesx,yes,161,15,1
+201 pine street northwest,yes,162,13,23
+201 pine street northwest,yes,163,13,23
+201 pine street northwest,yes,164,13,23
+201 pine street northwest,yes,165,13,23
+201 pine street northwest,yes,166,13,23
+201 pine street northwest,yes,167,13,23
+201 pine street northwest,yes,168,13,23
+8000 alabama highway 69,yes,169,16,24
+8000 alabama highway 69,yes,170,16,24
+8000 alabama highway 69,yes,171,16,24
+8000 alabama highway 69,yes,172,16,24
+8000 alabama highway 69,yes,173,16,24
+8000 alabama highway 69,yes,174,16,24
+8000 alabama xigxway 69,yes,175,17,1
+8000 alabama highway 69,yes,176,16,24
+8000 alabama highway 69,yes,177,16,24
+8000 alabama highway 69,yes,178,16,24
+8000 alabama highway 69,yes,179,16,24
+8000 alabama highway 69,yes,180,16,24
+8000 alabama highway 69,yes,181,16,24
+8000 alabama highway 69,yes,182,16,24
+8000 alabama highway 69,yes,183,16,24
+8000 alabama highway 69,yes,184,16,24
+8000 alabama highway 69,yes,185,16,24
+8000 alabama highway 69,yes,186,16,24
+8000 alabama highway 69,yes,187,16,24
+8000 alabama highway 69,yes,188,16,24
+8000 alabama highway 69,yes,189,16,24
+8000 alabama highway 69,yes,190,16,24
+8000 alabama highway 69,yes,191,16,24
+8000 alabama highway 69,yes,192,16,24
+8000 alabama highway 69,yes,193,16,24
+50 medical park east drive,yes,194,18,25
+50 medical park east drive,yes,195,18,25
+50 medical park east drive,yes,196,18,25
+50 medical park east drive,yes,197,18,25
+50 medical park east drive,yes,198,18,25
+50 medical park east drive,yes,199,18,25
+50 medical park east drive,yes,200,18,25
+50 medical park east drive,yes,201,18,25
+50 medical park east drive,yes,202,18,25
+50 medical park east drive,yes,203,18,25
+50 medical park east drive,yes,204,18,25
+50 medical park east drive,yes,205,18,25
+50 medical park east drive,yes,206,18,25
+50 medical park east drive,yes,207,18,25
+50 medical park east drive,yes,208,18,25
+50 medical park east drive,yes,209,18,25
+50 medical park east drive,yes,210,18,25
+50 medical park east drive,yes,211,18,25
+50 medical park east drive,yes,212,18,25
+50 medical park east drive,yes,213,18,25
+50 medical park east drive,yes,214,18,25
+50 medical park east drive,yes,215,18,25
+50 medical park east drive,yes,216,18,25
+50 medical park east drive,yes,217,18,25
+50 medical park east drive,yes,218,18,25
+200 med center drive,yes,219,19,25
+200 med center drive,yes,220,19,25
+200 med center drive,yes,221,19,25
+200 med center drive,yes,222,19,25
+200 med center drive,yes,223,19,25
+200 med center drive,yes,224,19,25
+200 med center drive,yes,225,19,25
+200 med center drive,yes,226,19,25
+200 med center drive,yes,227,19,25
+200 med center drive,yes,228,19,25
+200 med center drive,yes,229,19,25
+200 med center drive,yes,230,19,25
+200 med center drive,yes,231,19,25
+200 med center drive,yes,232,19,25
+200 med center drive,yes,233,19,25
+200 med center drive,yes,234,19,25
+200 med center drive,yes,235,19,25
+200 med center drive,yes,236,19,25
+200 med center drive,yes,237,19,25
+200 med center drive,yes,238,19,25
+200 med center drive,yes,239,19,25
+200 med center drive,yes,240,19,25
+200 med center drive,yes,241,19,25
+200 med center drive,yes,242,19,25
+200 med center drive,yes,243,19,25
+33700 highway 43,yes,244,20,23
+33700 highway 43,yes,245,20,23
+33700 highway 43,yes,246,20,23
+33700 highway 43,yes,247,20,23
+33700 highway 43,yes,248,20,23
+33700 highway 43,yes,249,20,23
+33700 highway 43,yes,250,20,23
+33700 highway 43,yes,251,20,23
+33700 highway 43,yes,252,20,23
+33700 highway 43,yes,253,20,23
+33700 highway 43,yes,254,20,23
+33700 highway 43,yes,255,20,23
+33700 highway 43,yes,256,20,23
+33700 highway 43,yes,257,20,23
+33700 highway 43,yes,258,20,23
+33700 highway 43,yes,259,20,23
+33700 hxghway 43,yes,260,21,1
+33700 highway 43,yes,261,20,23
+33700 highway 43,yes,262,20,23
+33700 highway 43,yes,263,20,23
+33700 highway x3,yes,264,22,1
+33700 highway 43,yes,265,20,23
+33700 highway 43,yes,266,20,23
+33700 highway 43,yes,267,20,23
+33700 highway 43,yes,268,20,23
+1000 first street north,yes,269,23,24
+1000 first street north,yes,270,23,24
+1000 first street north,yes,271,23,24
+1000 first street north,yes,272,23,24
+1000 first street north,yes,273,23,24
+1000 first street north,yes,274,23,24
+1000 fixst stxeet noxth,yes,275,24,1
+1000 first street north,yes,276,23,24
+1000 first street north,yes,277,23,24
+1000 first street north,yes,278,23,24
+1000 first street north,yes,279,23,24
+1000 first street north,yes,280,23,24
+1000 first street north,yes,281,23,24
+1000 first street north,yes,282,23,24
+1000 first street north,yes,283,23,24
+1000 first street north,yes,284,23,24
+1000 first street north,yes,285,23,24
+1000 first street north,yes,286,23,24
+1000 first street north,yes,287,23,24
+1000 first street north,yes,288,23,24
+1000 first street north,yes,289,23,24
+1000 first street north,yes,290,23,24
+1000 first street north,yes,291,23,24
+1000 first street north,yes,292,23,24
+1000 first street north,yes,293,23,24
+1720 university blvd,yes,294,0,24
+1720 univxrsity blvd,yes,295,25,1
+1720 university blvd,yes,296,0,24
+1720 university blvd,yes,297,0,24
+1720 university blvd,yes,298,0,24
+1720 university blvd,yes,299,0,24
+1720 university blvd,yes,300,0,24
+1720 university blvd,yes,301,0,24
+1720 university blvd,yes,302,0,24
+1720 university blvd,yes,303,0,24
+1720 university blvd,yes,304,0,24
+1720 university blvd,yes,305,0,24
+1720 university blvd,yes,306,0,24
+1720 university blvd,yes,307,0,24
+1720 university blvd,yes,308,0,24
+1720 university blvd,yes,309,0,24
+1720 university blvd,yes,310,0,24
+301 east 18th st,yes,311,26,24
+301 east 18th st,yes,312,26,24
+301 east 18th st,yes,313,26,24
+301 east 18th st,yes,314,26,24
+301 east 18th st,yes,315,26,24
+301xeastx18thxst,yes,316,27,1
+301 east 18th st,yes,317,26,24
+301 east 18th st,xes,318,28,1
+301 east 18th st,yes,319,26,24
+301 east 18th st,yes,320,26,24
+301 east 18th st,yes,321,26,24
+301 east 18th st,yes,322,26,24
+301 east 18th st,yes,323,26,24
+301 east 18th st,yes,324,26,24
+301 east 18th st,yes,325,26,24
+301 east 18th st,yes,326,26,24
+301 east 18th st,yex,327,29,1
+301 east 18th st,yes,328,26,24
+301 east 18th st,yes,329,26,24
+301 east 18th st,yes,330,26,24
+4370 west main street,yes,331,30,15
+4370 west main street,yex,332,31,1
+4370 west main street,yes,333,30,15
+4370xwestxmainxstreet,yes,334,32,1
+4370 west main street,yes,335,30,15
+4370 west main street,yes,336,30,15
+4370 west main street,yes,337,30,15
+4370 west main street,yes,338,30,15
+4370 west main street,yes,339,30,15
+4370 west main street,yes,340,30,15
+4370 west main street,yes,341,30,15
+4370 west main street,yes,342,30,15
+4370 west main street,yes,343,30,15
+4370 west main street,yes,344,30,15
+4370 west main street,yes,345,30,15
+4370 west main street,yes,346,30,15
+4370 west main street,yes,347,30,15
+810 st vincents drive,yes,348,33,4
+810 st vincents drive,yes,349,33,4
+810 st vxncents drxve,yxs,350,34,1
+810 st vincents drive,yes,351,33,4
+810 st vincents drive,yes,352,33,4
+1201 7th street se,yes,353,35,1
+1530 u s highway 43,yes,354,36,23
+1530 u s highway 43,yes,355,36,23
+1530 u s highway 43,yes,356,36,23
+1530 u s highway 43,yes,357,36,23
+1530 u s highway 43,yes,358,36,23
+1530 u s highway 43,yes,359,36,23
+1530 u s highway 43,yes,360,36,23
+1530 u s highway 43,yes,361,36,23
+1530 u s highway 43,yes,362,36,23
+1530xuxsxhighwayx43,yes,363,37,1
+1530 u s highway 43,yes,364,36,23
+1530 u s highway 43,yes,365,36,23
+1530 u s highway 43,yes,366,36,23
+1530 u s highway 43,yes,367,36,23
+1530 u s highway 43,yes,368,36,23
+1530 u s highway 43,yes,369,36,23
+1530 u s highway 43,yes,370,36,23
+1530 u s highway 43,yes,371,36,23
+1530 u s highway 43,yes,372,36,23
+1530 u s highway 43,yes,373,36,23
+1530 u s highway 43,yex,374,38,1
+1530 u s highway 43,yes,375,36,23
+1530 u s highway 43,yes,376,36,23
+1530 u s highway 43,yes,377,36,23
+1530 u s highway 43,yes,378,36,23
+2451 fillingim street,yes,379,39,12
+2451 fillingim street,yes,380,39,12
+2451 fillingim street,yes,381,39,12
+2451 fillingim street,yes,382,39,12
+2451 fillingim street,yes,383,39,12
+2451 fillingim street,yes,384,39,12
+2451 fillingim street,yes,385,39,12
+2451 fillingim street,yes,386,39,12
+2451 fillingim street,yes,387,39,12
+2451 fillingim street,yes,388,39,12
+2451 fillingim street,yxs,389,40,1
+2451 fillingim street,yes,390,39,12
+2451 fillingim street,yes,391,39,12
+124 s memorial dr,yes,392,41,17
+124xsxmemorialxdr,yes,393,42,1
+124 s memorial dr,yes,394,41,17
+124 s memorial dr,yes,395,41,17
+124 s memorial dr,yes,396,41,17
+124 s memorial dr,yes,397,41,17
+124 s memorial dr,yes,398,41,17
+124 s memorial dr,yes,399,41,17
+124 s memorial dr,yes,400,41,17
+124 s memorial dr,yes,401,41,17
+124 s memorial dr,yes,402,41,17
+124 s memorial dr,yes,403,41,17
+124 s memorial dr,yes,404,41,17
+124 s memorial dr,yes,405,41,17
+124 s memorial dr,yes,406,41,17
+124 s memorial dr,yes,407,41,17
+124 s memorial dr,yes,408,41,17
+124 s memorial dr,yes,409,41,17
+124 s memorial dr,yxs,410,43,1
+124 s mxmorial dr,yes,411,44,1
+15155 highway 43,yes,412,45,2
+15155 highway 43,yes,413,45,2
+315 w hickory st,no,414,46,15
+315 w hickxry st,no,415,47,1
+315 w hickory st,no,416,46,15
+315 w hickory st,no,417,46,15
+315 w hickory st,xo,418,48,1
+315 w hickory st,no,419,46,15
+315 w hickory st,no,420,46,15
+315 w hickory st,no,421,46,15
+315 w hickory st,no,422,46,15
+315 w hickory st,no,423,46,15
+315 w hickory st,no,424,46,15
+315 w hickory st,no,425,46,15
+315 w hickory st,no,426,46,15
+315 w hickory st,no,427,46,15
+315 w hickory st,no,428,46,15
+315 w hickory st,no,429,46,15
+315 w hickory st,no,430,46,15
+315xwxhickoryxst,no,431,49,1
+2801 debarr road,yes,432,50,18
+2801 debarr road,yes,433,50,18
+2801 debarr road,yes,434,50,18
+2801 debarr road,yes,435,50,18
+2801 debarr road,yes,436,50,18
+2801 debarr road,yes,437,50,18
+2801 debarr road,yes,438,50,18
+2801 debarr road,yes,439,50,18
+2801 debarr road,yes,440,50,18
+2801 debarr road,yes,441,50,18
+2801 debarr road,yes,442,50,18
+2801 debarr road,yes,443,50,18
+2801 debarr road,yes,444,50,18
+2801 debarr road,yes,445,50,18
+2801 debarr road,yes,446,50,18
+2801 debarr road,yes,447,50,18
+2801 debarr road,yes,448,50,18
+2801 debarr road,yes,449,50,18
+po box 287,no,450,51,1
+poxboxx287,no,451,52,1
+1300 south montgomery avenue,yes,452,1,25
+1300 south montgomery avenue,yes,453,1,25
+1300 south montgomery avenue,yes,454,1,25
+1300 south montgomery avenue,yes,455,1,25
+1300 south montgomery avenue,yes,456,1,25
+1300 south montgomery avenue,yes,457,1,25
+1300 south montgomery avenue,yes,458,1,25
+1300 south montgomery avenue,yes,459,1,25
+1300 south montgomery avenue,yes,460,1,25
+1300 south montgomery avenue,yes,461,1,25
+1300 south montgomery avenue,yes,462,1,25
+1300 south montgomery avenue,yes,463,1,25
+1300 south montgomery avenue,yes,464,1,25
+1300 south montgomery avenue,yes,465,1,25
+126 hospital ave,yes,466,53,23
+126 hospital ave,yes,467,53,23
+126 hospital ave,yes,468,53,23
+126 hospital ave,yes,469,53,23
+126 hospital ave,yes,470,53,23
+126 hospital ave,yes,471,53,23
+126xhospitalxave,yes,472,54,1
+126 hospital ave,yes,473,53,23
+126 hospital ave,yes,474,53,23
+126 hospital ave,yes,475,53,23
+126 hospital ave,yes,476,53,23
+126 hospital ave,yes,477,53,23
+126 hospital ave,yes,478,53,23
+126 hospital ave,yes,479,53,23
+126 hospital ave,yes,480,53,23
+126 hospital ave,yes,481,53,23
+126 hospital ave,yes,482,53,23
+126 hospital ave,yes,483,53,23
+1x6 hospital ave,yes,484,55,1
+126 hospital ave,yes,485,53,23
+126 hospital ave,yes,486,53,23
+126 hospital ave,yes,487,53,23
+126 hospital ave,yes,488,53,23
+126 hospital ave,yes,489,53,23
+126 hospital ave,yes,490,53,23
+400 northwood dr,yes,491,56,24
+400 northwood dr,yxs,492,57,1
+400 northwood dr,yes,493,56,24
+400 northwood dr,yes,494,56,24
+400 northwood dr,yes,495,56,24
+400 northwood dr,yes,496,56,24
+400 northwood dr,yes,497,56,24
+400 northwood dr,yes,498,56,24
+400 northwood dr,yes,499,56,24
+400 northwood dr,yes,500,56,24
+400 northwood dr,yes,501,56,24
+400 northwood dr,yes,502,56,24
+400 northwood dr,yes,503,56,24
+400 northwood dr,yes,504,56,24
+400 northwood dr,yes,505,56,24
+400 northwood dr,yes,506,56,24
+400 northwood dr,yes,507,56,24
+400 northwood dr,yes,508,56,24
+400 northwood dr,yes,509,56,24
+400 northwood dr,yes,510,56,24
+400 northwood dr,yes,511,56,24
+400 northwood dr,yes,512,56,24
+400 northwood dr,yes,513,56,24
+400 northwood dr,yes,514,56,24
+400 northwood dr,yes,515,56,24
+2105 east south boulevard,yes,516,58,23
+2105 east south boulevard,yes,517,58,23
+2105 east south boulevard,yes,518,58,23
+2105 east south boulevard,yes,519,58,23
+2105 east south boulevard,yes,520,58,23
+2105 east south boulevard,yxs,521,59,1
+2105 east south boulevard,yes,522,58,23
+2105 east south boulevard,yes,523,58,23
+2105 east south boulevard,yes,524,58,23
+2105 east south boulevard,yes,525,58,23
+2105 east south boulevard,yes,526,58,23
+2105 east south boulevard,yes,527,58,23
+2105 east south boulevard,yes,528,58,23
+2105 east south boulevard,yes,529,58,23
+2105 east south boulevard,yes,530,58,23
+2105 east south boulevard,yes,531,58,23
+2105 east south boulevard,yes,532,58,23
+2105 east south boulevard,yes,533,58,23
+2105 east south boulevard,yes,534,58,23
+2105 east south boulevard,yes,535,58,23
+2105 east south boulevard,yex,536,60,1
+2105 east south boulevard,yes,537,58,23
+2105 east south boulevard,yes,538,58,23
+2105 east south boulevard,yes,539,58,23
+2105 east south boulevard,yes,540,58,23
+1725 pine street,yes,541,61,24
+1725 pine street,yes,542,61,24
+1725 pine street,yes,543,61,24
+1725 pine street,yes,544,61,24
+1725 pine street,yes,545,61,24
+1725 pine street,yes,546,61,24
+1725 pine street,yes,547,61,24
+1725 pine street,yes,548,61,24
+1725 pine street,yes,549,61,24
+1725 pine street,yes,550,61,24
+1725 pine street,yes,551,61,24
+1725 pine street,yes,552,61,24
+1725 pine street,yes,553,61,24
+1725 pine street,yes,554,61,24
+1725 pine street,yes,555,61,24
+1725 pine street,yes,556,61,24
+1725 pine street,yes,557,61,24
+1725 pine street,yes,558,61,24
+1725 pine street,yes,559,61,24
+1725 pine street,yes,560,61,24
+1725 pine street,yes,561,61,24
+1725 pine street,yes,562,61,24
+1725 pine street,yes,563,61,24
+1725 pine street,xes,564,62,1
+1725 pine street,yes,565,61,24
+4800 48th st,yes,566,63,23
+4800 48th st,yes,567,63,23
+4800 48th st,yes,568,63,23
+4800 48th st,yes,569,63,23
+4800 48th st,yes,570,63,23
+4800 48th st,yes,571,63,23
+4800 48th st,yes,572,63,23
+4800 48th st,yes,573,63,23
+4800 48th st,yes,574,63,23
+4800 48th st,yes,575,63,23
+4800 48th st,yes,576,63,23
+4800 48th st,yes,577,63,23
+4800 48th st,yes,578,63,23
+4800 48th st,xes,579,64,2
+4800 48th st,yes,580,63,23
+4800 48th st,yes,581,63,23
+4800 48th st,yes,582,63,23
+4800 48th st,yes,583,63,23
+4800 48th st,yes,584,63,23
+4800 48th st,yes,585,63,23
+4800 48th st,yes,586,63,23
+4800 48th st,xes,587,64,2
+4800 48th st,yes,588,63,23
+4800 48th st,yes,589,63,23
+4800 48th st,yes,590,63,23
+987 drayton street,yes,591,65,25
+987 drayton street,yes,592,65,25
+987 drayton street,yes,593,65,25
+987 drayton street,yes,594,65,25
+987 drayton street,yes,595,65,25
+987 drayton street,yes,596,65,25
+987 drayton street,yes,597,65,25
+987 drayton street,yes,598,65,25
+987 drayton street,yes,599,65,25
+987 drayton street,yes,600,65,25
+987 drayton street,yes,601,65,25
+987 drayton street,yes,602,65,25
+987 drayton street,yes,603,65,25
+987 drayton street,yes,604,65,25
+987 drayton street,yes,605,65,25
+987 drayton street,yes,606,65,25
+987 drayton street,yes,607,65,25
+987 drayton street,yes,608,65,25
+987 drayton street,yes,609,65,25
+987 drayton street,yes,610,65,25
+987 drayton street,yes,611,65,25
+987 drayton street,yes,612,65,25
+987 drayton street,yes,613,65,25
+987 drayton street,yes,614,65,25
+987 drayton street,yes,615,65,25
+2000 pepperell parkway,yes,616,66,24
+2000 pepperell parkway,yes,617,66,24
+2000 pepperell parkway,yes,618,66,24
+2000 pepperell parkway,yes,619,66,24
+2000 pepperell parkway,yes,620,66,24
+2000 pepperell parkway,yes,621,66,24
+2000 pepperell parkway,yes,622,66,24
+2000 pepperell parkway,yes,623,66,24
+2000 pepperell parkway,yes,624,66,24
+2000 pepperell parkway,yes,625,66,24
+2000 pepperell parkway,yes,626,66,24
+2000 pepperell parkway,yes,627,66,24
+2000 pepperell parkway,yex,628,67,1
+2000 pepperell parkway,yes,629,66,24
+2000 pepperell parkway,yes,630,66,24
+2000 pepperell parkway,yes,631,66,24
+2000 pepperell parkway,yes,632,66,24
+2000 pepperell parkway,yes,633,66,24
+2000 pepperell parkway,yes,634,66,24
+2000 pepperell parkway,yes,635,66,24
+2000 pepperell parkway,yes,636,66,24
+2000 pepperell parkway,yes,637,66,24
+2000 pepperell parkway,yes,638,66,24
+2000 pepperell parkway,yes,639,66,24
+2000 pepperell parkway,yes,640,66,24
+209 north main street,no,641,68,23
+209 north main street,no,642,68,23
+209 north main street,no,643,68,23
+209 north main street,no,644,68,23
+209 north main street,no,645,68,23
+209 north main street,no,646,68,23
+209 north main street,no,647,68,23
+209 north main street,no,648,68,23
+209 north main street,no,649,68,23
+209 north main street,no,650,68,23
+209 north main street,no,651,68,23
+209 xorth maix street,no,652,69,1
+209 north main street,xo,653,70,1
+209 north main street,no,654,68,23
+209 north main street,no,655,68,23
+209 north main street,no,656,68,23
+209 north main street,no,657,68,23
+209 north main street,no,658,68,23
+209 north main street,no,659,68,23
+209 north main street,no,660,68,23
+209 north main street,no,661,68,23
+209 north main street,no,662,68,23
+209 north main street,no,663,68,23
+209 north main street,no,664,68,23
+209 north main street,no,665,68,23
+619 south 19th street,yes,666,71,24
+619 south 19th street,yes,667,71,24
+619 south 19th street,yes,668,71,24
+619 south 19th street,yes,669,71,24
+619 south 19th street,yes,670,71,24
+619 south 19th street,yes,671,71,24
+619 south 19th street,yes,672,71,24
+619 south 19th street,yes,673,71,24
+619 south 19th street,yex,674,72,1
+619 south 19th street,yes,675,71,24
+619 south 19th street,yes,676,71,24
+619 south 19th street,yes,677,71,24
+619 south 19th street,yes,678,71,24
+619 south 19th street,yes,679,71,24
+619 south 19th street,yes,680,71,24
+619 south 19th street,yes,681,71,24
+619 south 19th street,yes,682,71,24
+619 south 19th street,yes,683,71,24
+619 south 19th street,yes,684,71,24
+619 south 19th street,yes,685,71,24
+619 south 19th street,yes,686,71,24
+619 south 19th street,yes,687,71,24
+619 south 19th street,yes,688,71,24
+619 south 19th street,yes,689,71,24
+619 south 19th street,yes,690,71,24
+805 friendship road,no,691,73,25
+805 friendship road,no,692,73,25
+805 friendship road,no,693,73,25
+805 friendship road,no,694,73,25
+805 friendship road,no,695,73,25
+805 friendship road,no,696,73,25
+805 friendship road,no,697,73,25
+805 friendship road,no,698,73,25
+805 friendship road,no,699,73,25
+805 friendship road,no,700,73,25
+805 friendship road,no,701,73,25
+805 friendship road,no,702,73,25
+805 friendship road,no,703,73,25
+805 friendship road,no,704,73,25
+805 friendship road,no,705,73,25
+805 friendship road,no,706,73,25
+805 friendship road,no,707,73,25
+805 friendship road,no,708,73,25
+805 friendship road,no,709,73,25
+805 friendship road,no,710,73,25
+805 friendship road,no,711,73,25
+805 friendship road,no,712,73,25
+805 friendship road,no,713,73,25
+805 friendship road,no,714,73,25
+805 friendship road,no,715,73,25
+1912 alabama highway 157,yes,716,74,24
+1912 alabama highway 157,yes,717,74,24
+1912 alabama highway 157,yes,718,74,24
+1912 alabama highway 157,yes,719,74,24
+1912 alabama highway 157,yes,720,74,24
+1912 alabama highway 157,yes,721,74,24
+1912 alabama highway 157,yes,722,74,24
+1912 alabama highway 157,yes,723,74,24
+1912 alabama highway 157,yes,724,74,24
+1912 alabama highway 157,yes,725,74,24
+1912 alabama highway 157,yes,726,74,24
+1912 alabama highway 157,yes,727,74,24
+1912 alabama highway 157,yes,728,74,24
+1912 alabama highway 157,yes,729,74,24
+1912 alabama highway 157,yes,730,74,24
+1912 alabama highway 157,yes,731,74,24
+1912 alabama highway 157,yes,732,74,24
+1912 alabama highway 157,yes,733,74,24
+1912 alabama highway 157,yes,734,74,24
+1912 alabama highway 157,yes,735,74,24
+1912xalabamaxhighwayx157,yes,736,75,1
+1912 alabama highway 157,yes,737,74,24
+1912 alabama highway 157,yes,738,74,24
+1912 alabama highway 157,yes,739,74,24
+1912 alabama highway 157,yes,740,74,24
+849 south three notch street,no,741,76,25
+849 south three notch street,no,742,76,25
+849 south three notch street,no,743,76,25
+849 south three notch street,no,744,76,25
+849 south three notch street,no,745,76,25
+849 south three notch street,no,746,76,25
+849 south three notch street,no,747,76,25
+849 south three notch street,no,748,76,25
+849 south three notch street,no,749,76,25
+849 south three notch street,no,750,76,25
+849 south three notch street,no,751,76,25
+849 south three notch street,no,752,76,25
+849 south three notch street,no,753,76,25
+849 south three notch street,no,754,76,25
+849 south three notch street,no,755,76,25
+849 south three notch street,no,756,76,25
+849 south three notch street,no,757,76,25
+849 south three notch street,no,758,76,25
+849 south three notch street,no,759,76,25
+849 south three notch street,no,760,76,25
+849 south three notch street,no,761,76,25
+849 south three notch street,no,762,76,25
+849 south three notch street,no,763,76,25
+849 south three notch street,no,764,76,25
+849 south three notch street,no,765,76,25
+301 east 18th st,yes,766,26,24
+301 east 1xth st,yes,767,77,1
+301 east 18th st,yes,768,26,24
+301 east 18th st,yes,769,26,24
+301 east 18th st,yes,770,26,24
+301 east 18th st,yes,771,26,24
+301 east 18th st,yes,772,26,24
+301 east 18th st,yes,773,26,24
+101 sivley rd,yes,774,78,27
+101 sivley rd,yes,775,78,27
+101 sivley rd,yes,776,78,27
+101 sivley rd,yes,777,78,27
+101 sivley rd,yes,778,78,27
+101 sivley rd,yes,779,78,27
+101 sivley rd,yes,780,78,27
+101 sivley rd,yes,781,78,27
+101 sivley rd,yes,782,78,27
+101 sivley rd,yes,783,78,27
+101 sivley rd,yes,784,78,27
+101 sivley rd,yes,785,78,27
+101 sivley rd,yes,786,78,27
+101 sivley rd,yes,787,78,27
+101 sivley rd,yes,788,78,27
+101 sivley rd,yes,789,78,27
+101 sivley rd,yes,790,78,27
+101 sivley rd,yes,791,78,27
+101 sivley rd,yes,792,78,27
+101 sivley rd,yes,793,78,27
+101 sivley rd,yes,794,78,27
+101 sivley rd,yes,795,78,27
+101 sivley rd,yes,796,78,27
+101 sivley rd,yxs,797,79,1
+101 sivley rd,yes,798,78,27
+101 sivley rd,yes,799,78,27
+101 sivley rd,yes,800,78,27
+101 sivley rd,yes,801,78,27
+1007 goodyear avenue,yes,802,80,24
+1007 goodyear avenue,yes,803,80,24
+1007 goodyear avenue,yes,804,80,24
+1007 goodyear avenue,yes,805,80,24
+1007 goodyear avenue,yes,806,80,24
+1007 goodyear avenue,yes,807,80,24
+1007 goodyear avenue,yes,808,80,24
+1007 goodyear avenue,xes,809,81,1
+1007 goodyear avenue,yes,810,80,24
+1007 goodyear avenue,yes,811,80,24
+1007 goodyear avenue,yes,812,80,24
+1007 goodyear avenue,yes,813,80,24
+1007 goodyear avenue,yes,814,80,24
+1007 goodyear avenue,yes,815,80,24
+1007 goodyear avenue,yes,816,80,24
+1007 goodyear avenue,yes,817,80,24
+1007 goodyear avenue,yes,818,80,24
+1007 goodyear avenue,yes,819,80,24
+1007 goodyear avenue,yes,820,80,24
+1007 goodyear avenue,yes,821,80,24
+1007 goodyear avenue,yes,822,80,24
+1007 goodyear avenue,yes,823,80,24
+1007 goodyear avenue,yes,824,80,24
+1007 goodyear avenue,yes,825,80,24
+1007 goodyear avenue,yes,826,80,24
+1010 lay dam road,yes,827,82,24
+1010 lay dam road,yes,828,82,24
+1010 lay dam road,yes,829,82,24
+1010 lay dam road,yes,830,82,24
+1010 lay dam road,yes,831,82,24
+1010 lay dam road,yes,832,82,24
+1010 lay dam road,yes,833,82,24
+1010 lay dam road,yes,834,82,24
+1010 lay dam road,yes,835,82,24
+1010 lay dam road,yes,836,82,24
+1010 lay dam road,yes,837,82,24
+1010 lay dam road,yes,838,82,24
+1010 lay dam road,yes,839,82,24
+1010 lay dam road,yes,840,82,24
+1010 lay dam road,yes,841,82,24
+1010 lay dam road,yes,842,82,24
+1010 lay dam road,yes,843,82,24
+1010 lay dam road,yes,844,82,24
+1010 lay dam road,yes,845,82,24
+1010 lay dam road,yes,846,82,24
+1010 lay dam road,yes,847,82,24
+1010 lay dam road,yes,848,82,24
+x0x0 lay dam road,yes,849,83,1
+1010 lay dam road,yes,850,82,24
+1010 lay dam road,yes,851,82,24
+1256 military street south,yes,852,84,23
+1256 military street south,yes,853,84,23
+1256 military street south,yes,854,84,23
+1256 military street south,yes,855,84,23
+1256 military street south,yes,856,84,23
+1256 military street sxuth,yes,857,85,1
+1256 military street south,yes,858,84,23
+1256 military street south,yes,859,84,23
+1256 military street south,yes,860,84,23
+1256 military street south,yes,861,84,23
+1256 military street south,yes,862,84,23
+1256 military street south,yes,863,84,23
+1256 military street south,yes,864,84,23
+1256 military street south,yes,865,84,23
+1256 military street south,yxs,866,86,1
+1256 military street south,yes,867,84,23
+1256 military street south,yes,868,84,23
+1256 military street south,yes,869,84,23
+1256 military street south,yes,870,84,23
+1256 military street south,yes,871,84,23
+1256 military street south,yes,872,84,23
+1256 military street south,yes,873,84,23
+1256 military street south,yes,874,84,23
+1256 military street south,yes,875,84,23
+1256 military street south,yes,876,84,23
+1653 temple avenue north,yes,877,87,24
+1653 temple avenue north,yes,878,87,24
+1653 temple avenue north,yes,879,87,24
+1653 temple avenue north,yes,880,87,24
+1653 temple avenue north,yes,881,87,24
+1653 temple avenue north,yes,882,87,24
+1653 temple avenue north,yes,883,87,24
+1653 temple avenue north,yes,884,87,24
+1653 temple avenue north,yes,885,87,24
+1653 temple avenue north,yes,886,87,24
+1653 temple avenue north,yes,887,87,24
+1653 temple avenue north,yes,888,87,24
+1653 temple avenue north,yex,889,88,1
+1653 temple avenue north,yes,890,87,24
+1653 temple avenue north,yes,891,87,24
+1653 temple avenue north,yes,892,87,24
+1653 temple avenue north,yes,893,87,24
+1653 temple avenue north,yes,894,87,24
+1653 temple avenue north,yes,895,87,24
+1653 temple avenue north,yes,896,87,24
+1653 temple avenue north,yes,897,87,24
+1653 temple avenue north,yes,898,87,24
+1653 temple avenue north,yes,899,87,24
+1653 temple avenue north,yes,900,87,24
+1653 temple avenue north,yes,901,87,24
+600 south third street,yes,902,89,25
+600 south third street,yes,903,89,25
+600 south third street,yes,904,89,25
+600 south third street,yes,905,89,25
+600 south third street,yes,906,89,25
+600 south third street,yes,907,89,25
+600 south third street,yes,908,89,25
+600 south third street,yes,909,89,25
+600 south third street,yes,910,89,25
+600 south third street,yes,911,89,25
+600 south third street,yes,912,89,25
+600 south third street,yes,913,89,25
+600 south third street,yes,914,89,25
+600 souxh xhird sxreex,yes,915,90,1
+600 south third street,yes,916,89,25
+600 south third street,yes,917,89,25
+600 south third street,yes,918,89,25
+600 south third street,yex,919,91,1
+600 south third street,yes,920,89,25
+600 south third street,yxs,921,92,1
+600 south third street,yes,922,89,25
+600 south third street,yes,923,89,25
+600 south third street,yes,924,89,25
+600 south third street,yes,925,89,25
+600 south third street,yes,926,89,25
+600 south third street,yes,927,89,25
+600 south third street,yes,928,89,25
+600 south third street,yes,929,89,25
+515 miranda st,no,930,93,22
+515 miranda st,no,931,93,22
+515 miranda st,no,932,93,22
+515 miranda st,no,933,93,22
+515 miranda sx,no,934,94,1
+515 miranxa st,no,935,95,1
+515 miranda st,no,936,93,22
+515 miranda st,no,937,93,22
+515 miranda st,no,938,93,22
+515 miranda st,no,939,93,22
+515 miranda st,no,940,93,22
+515 miranda st,no,941,93,22
+515 miranda st,no,942,93,22
+515 miranda st,no,943,93,22
+515 miranda st,no,944,93,22
+515 mirxndx st,no,945,96,1
+515 miranda st,no,946,93,22
+515 miranda st,no,947,93,22
+515 miranda st,no,948,93,22
+515 miranda st,no,949,93,22
+515 miranda st,no,950,93,22
+515 miranda st,no,951,93,22
+515 miranda st,no,952,93,22
+515 miranda st,no,953,93,22
+515 miranda st,no,954,93,22
+400 n edwards street,yes,955,97,24
+400xnxedwardsxstreet,yes,956,98,1
+400 n edwards street,yes,957,97,24
+400 n edwards street,yes,958,97,24
+400 n edwards street,yes,959,97,24
+400 n edwards street,yes,960,97,24
+400 n edwards street,yes,961,97,24
+400 n edwards street,yes,962,97,24
+400 n edwards street,yes,963,97,24
+400 n edwards street,yes,964,97,24
+400 n edwards street,yes,965,97,24
+400 n edwards street,yes,966,97,24
+400 n edwards street,yes,967,97,24
+400 n edwards street,yes,968,97,24
+400 n edwards street,yes,969,97,24
+400 n edwards street,yes,970,97,24
+400 n edwards street,yes,971,97,24
+400 n edwards street,yes,972,97,24
+400 n edwards street,yes,973,97,24
+400 n edwards street,yes,974,97,24
+400 n edwards street,yes,975,97,24
+400 n edwards street,yes,976,97,24
+400 n edwards street,yes,977,97,24
+400 n edwards street,yes,978,97,24
+400 n edwards street,yes,979,97,24
+150 gilbreath drive,yes,980,99,19
+150 gilbreath drive,yes,981,99,19
+150 gilbreath drive,yes,982,99,19
+150 gilbreath drive,yes,983,99,19
+150 gilbreath drive,yes,984,99,19
+150 gilbreath drive,yes,985,99,19
+150 gilxreath drive,yes,986,100,1
+150 gilbreath drive,yes,987,99,19
+150 gilbreath drive,yes,988,99,19
+150 gilbreath drive,yes,989,99,19
+150 gilbreath drive,yes,990,99,19
+150 gilbreath drive,yes,991,99,19
+150 gilbreath drive,yes,992,99,19
+150 gilbreath drive,yes,993,99,19
+150 gilbreath drive,yes,994,99,19
+150 gilbreath drive,yes,995,99,19
+150 gilbreath drive,yes,996,99,19
+150 gilbreath drive,yes,997,99,19
+150 gilbreath drive,yes,998,99,19
+150 gilbreath drive,yes,999,99,19

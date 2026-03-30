@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The flight route/code string appears to determine the scheduled and actual timing fields: a single airline-flight-origin-destination pattern is associated with departure, departure delay/actual departure, arrival, and arrival delay timestamps.
+
+  The following is a formatted table with the unique data to be checked.
+  

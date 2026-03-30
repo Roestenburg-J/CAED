@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The number of patients used as the denominator (or base population) determines the percent/result field’s value (a percentage summary derived from the count data for the same measure).
+
+  The following is a formatted table with the unique data to be checked.
+  

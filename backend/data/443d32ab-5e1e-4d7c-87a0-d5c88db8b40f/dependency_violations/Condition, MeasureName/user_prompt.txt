@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The medical condition/category determines the measure code and its full measure description. In the sample, the condition 'heart attack' is associated with measure codes beginning with 'ami', and each code maps to a specific textual quality-measure description.
+
+  The following is a formatted table with the unique data to be checked.
+  

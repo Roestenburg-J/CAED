@@ -1,0 +1,14 @@
+{
+    "id": "9c2699c6-3409-4a99-9730-5c51e033a9e0",
+    "name": "hospital_mini_8",
+    "created_at": "2026-03-27T13:28:33.243698",
+    "type": "evaluation",
+    "provider": "openai",
+    "model": "gpt-5.4-mini",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

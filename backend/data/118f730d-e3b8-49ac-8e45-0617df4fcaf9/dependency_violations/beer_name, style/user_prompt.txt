@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The style/classification field is semantically dependent on the product name: the named beer implies a specific style/category (e.g., the same beer maps consistently to the same style text).
+
+  The following is a formatted table with the unique data to be checked.
+  

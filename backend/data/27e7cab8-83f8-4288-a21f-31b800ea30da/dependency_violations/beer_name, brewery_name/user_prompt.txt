@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The product name is associated with a specific producer/brewery. The same beer name maps to the same brewery name.
+
+  The following is a formatted table with the unique data to be checked.
+  

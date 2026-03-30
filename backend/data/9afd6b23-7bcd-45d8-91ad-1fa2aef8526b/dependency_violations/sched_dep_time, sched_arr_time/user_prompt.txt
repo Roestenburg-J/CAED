@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Columns 3 and 5 appear to be the scheduled departure and scheduled arrival timestamps for the same flight/trip record. The departure schedule determines the corresponding arrival schedule within the same itinerary instance.
+
+  The following is a formatted table with the unique data to be checked.
+  

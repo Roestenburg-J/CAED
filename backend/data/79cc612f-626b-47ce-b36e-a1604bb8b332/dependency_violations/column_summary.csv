@@ -1,0 +1,9 @@
+column_1_name,column_2_name,column_1_count,column_2_count,dependency
+act_dep_time,sched_arr_time,23,172,"act_dep_time, sched_arr_time"
+act_dep_time,flight,205,18,"flight, act_dep_time"
+sched_arr_time,sched_dep_time,102,59,"sched_dep_time, sched_arr_time"
+act_arr_time,act_dep_time,57,20,"act_dep_time, act_arr_time"
+act_arr_time,sched_dep_time,97,58,"sched_dep_time, act_arr_time"
+act_dep_time,sched_dep_time,865,7,"sched_dep_time, act_dep_time"
+act_arr_time,sched_arr_time,165,305,"sched_arr_time, act_arr_time"
+act_arr_time,act_dep_time,121,0,"flight, act_arr_time"

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The time-related fields appear dependent on one another syntactically: one pair uses compact date-time strings (time plus month/day), while the other pair uses more readable clock times, suggesting they represent corresponding scheduled and actual times for the same trip.
+
+  The following is a formatted table with the unique data to be checked.
+  

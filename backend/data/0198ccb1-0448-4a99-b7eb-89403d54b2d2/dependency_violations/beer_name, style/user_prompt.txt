@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The beverage name determines its style/classification; the same named beer is shown with the style 'American Pale Ale (APA)'.
+
+  The following is a formatted table with the unique data to be checked.
+  

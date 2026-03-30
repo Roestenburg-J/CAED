@@ -1,0 +1,1 @@
+{"output":[{"columns":[2,3,4,5,6],"dependency":"A flight identifier with origin and destination airport codes appears to determine the scheduled and actual departure/arrival times shown in the other columns. The same flight pattern is repeated across records, suggesting these time values are associated with that specific flight route."}]}

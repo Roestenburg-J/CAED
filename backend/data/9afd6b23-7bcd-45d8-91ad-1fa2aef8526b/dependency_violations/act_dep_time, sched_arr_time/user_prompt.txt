@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The structured identifier in column 2 appears to encode a specific flight instance (airline/flight number and route, e.g. carrier-flight-origin-destination). That flight instance determines the scheduled and actual departure/arrival times in columns 3, 4, 5, and 6.
+
+  The following is a formatted table with the unique data to be checked.
+  

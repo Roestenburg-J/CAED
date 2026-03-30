@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  These columns appear to describe the hospital’s category and ownership/status: the facility type, ownership classification, and a yes/no indicator that likely reflects an additional institutional attribute tied to that hospital description.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,2411 @@
+brewery_name,state,original_index,unique_index,count
+10 Barrel Brewing Company,OR,0,0,1.0
+18th Street Brewery,IN,1,1,14.0
+18th Street Brewery,IN,2,1,14.0
+18th Street Brewery,IN,3,1,14.0
+18th Street Brewery,IN,4,1,14.0
+18th Street Brewery,IN,5,1,14.0
+18th Street Brewery,IN,6,1,14.0
+18th Street Brewery,IN,7,1,14.0
+18th Street Brewery,IN,8,1,14.0
+18th Street Brewery,IN,9,1,14.0
+18th Street Brewery,IN,10,1,14.0
+18th Street Brewery,IN,11,1,14.0
+18th Street Brewery,IN,12,1,14.0
+18th Street Brewery,IN,13,1,14.0
+18th Street Brewery,IN,14,1,14.0
+2 Towns Ciderhouse,OR,15,2,4.0
+2 Towns Ciderhouse,OR,16,2,4.0
+2 Towns Ciderhouse,OR,17,2,4.0
+2 Towns Ciderhouse,OR,18,2,4.0
+21st Amendment Brewery,CA,19,3,19.0
+21st Amendment Brewery,,20,4,
+21st Amendment Brewery,CA,21,3,19.0
+21st Amendment Brewery,CA,22,3,19.0
+21st Amendment Brewery,CA,23,3,19.0
+21st Amendment Brewery,CA,24,3,19.0
+21st Amendment Brewery,CA,25,3,19.0
+21st Amendment Brewery,CA,26,3,19.0
+21st Amendment Brewery,CA,27,3,19.0
+21st Amendment Brewery,CA,28,3,19.0
+21st Amendment Brewery,CA,29,3,19.0
+21st Amendment Brewery,CA,30,3,19.0
+21st Amendment Brewery,CA,31,3,19.0
+21st Amendment Brewery,CA,32,3,19.0
+21st Amendment Brewery,CA,33,3,19.0
+21st Amendment Brewery,CA,34,3,19.0
+21st Amendment Brewery,CA,35,3,19.0
+21st Amendment Brewery,CA,36,3,19.0
+21st Amendment Brewery,CA,37,3,19.0
+21st Amendment Brewery,CA,38,3,19.0
+3 Daughters Brewing,FL,39,5,3.0
+3 Daughters Brewing,FL,40,5,3.0
+3 Daughters Brewing,FL,41,5,3.0
+4 Hands Brewing Company,MO,42,6,7.0
+4 Hands Brewing Company,MO,43,6,7.0
+4 Hands Brewing Company,MO,44,6,7.0
+4 Hands Brewing Company,MO,45,6,7.0
+4 Hands Brewing Company,MO,46,6,7.0
+4 Hands Brewing Company,,47,7,
+4 Hands Brewing Company,MO,48,6,7.0
+4 Hands Brewing Company,MO,49,6,7.0
+450 North Brewing Company,IN,50,8,7.0
+450 North Brewing Company,IN,51,8,7.0
+450 North Brewing Company,IN,52,8,7.0
+450 North Brewing Company,IN,53,8,7.0
+450 North Brewing Company,IN,54,8,7.0
+450 North Brewing Company,IN,55,8,7.0
+450 North Brewing Company,IN,56,8,7.0
+7 Seas Brewing Company,WA,57,9,4.0
+7 Seas Brewing Company,WA,58,9,4.0
+7 Seas Brewing Company,WA,59,9,4.0
+7 Seas Brewing Company,WA,60,9,4.0
+7venth Sun,FL,61,10,1.0
+AC Golden Brewing Company,CO,62,11,2.0
+AC Golden Brewing Company,CO,63,11,2.0
+Abita Brewing Company,LA,64,12,3.0
+Abita Brewing Company,LA,65,12,3.0
+Abita Brewing Company,LA,66,12,3.0
+Against The Grain Brewery,KY,67,13,2.0
+Against The Grain Brewery,KY,68,13,2.0
+Against the Grain Brewery,KY,69,14,13.0
+Against the Grain Brewery,KY,70,14,13.0
+Against the Grain Brewery,KY,71,14,13.0
+Against the Grain Brewery,KY,72,14,13.0
+Against the Grain Brewery,KY,73,14,13.0
+Against the Grain Brewery,KY,74,14,13.0
+Against the Grain Brewery,KY,75,14,13.0
+Against the Grain Brewery,KY,76,14,13.0
+Against the Grain Brewery,KY,77,14,13.0
+Against the Grain Brewery,KY,78,14,13.0
+Against the Grain Brewery,KY,79,14,13.0
+Against the Grain Brewery,KY,80,14,13.0
+Against the Grain Brewery,KY,81,14,13.0
+Airways Brewing Company,WA,82,15,3.0
+Airways Brewing Company,WA,83,15,3.0
+Airways Brewing Company,WA,84,15,3.0
+Alameda Brewing,OR,85,16,3.0
+Alameda Brewing,OR,86,16,3.0
+Alameda Brewing,OR,87,16,3.0
+Alaskan Brewing Company,AK,88,17,2.0
+Alaskan Brewing Company,AK,89,17,2.0
+Ale Asylum,,90,18,
+Alltech's Lexington Brewing Company,KY,91,19,2.0
+Alltech's Lexington Brewing Company,KY,92,19,2.0
+Amnesia Brewing Company,WA,93,20,3.0
+Amnesia Brewing Company,WA,94,20,3.0
+Amnesia Brewing Company,WA,95,20,3.0
+Anchor Brewing Company,CA,96,21,5.0
+Anchor Brewing Company,CA,97,21,5.0
+Anchor Brewing Company,CA,98,21,5.0
+Anchor Brewing Company,CA,99,21,5.0
+Anchor Brewing Company,CA,100,21,5.0
+Anderson Valley Brewing Company,CA,101,22,18.0
+Anderson Valley Brewing Company,CA,102,22,18.0
+Anderson Valley Brewing Company,CA,103,22,18.0
+Anderson Valley Brewing Company,CA,104,22,18.0
+Anderson Valley Brewing Company,CA,105,22,18.0
+Anderson Valley Brewing Company,CA,106,22,18.0
+Anderson Valley Brewing Company,CA,107,22,18.0
+Anderson Valley Brewing Company,CA,108,22,18.0
+Anderson Valley Brewing Company,CA,109,22,18.0
+Anderson Valley Brewing Company,CA,110,22,18.0
+Anderson Valley Brewing Company,CA,111,22,18.0
+Anderson Valley Brewing Company,CA,112,22,18.0
+Anderson Valley Brewing Company,CA,113,22,18.0
+Anderson Valley Brewing Company,CA,114,22,18.0
+Anderson Valley Brewing Company,CA,115,22,18.0
+Anderson Valley Brewing Company,CA,116,22,18.0
+Anderson Valley Brewing Company,CA,117,22,18.0
+Anderson Valley Brewing Company,CA,118,22,18.0
+Angry Minnow,WI,119,23,1.0
+Angry Minnow Brewing Company,WI,120,24,1.0
+Angry Minnow Brewing Company,,121,25,
+Angry Orchard Cider Company,OH,122,26,3.0
+Angry Orchard Cider Company,OH,123,26,3.0
+Angry Orchard Cider Company,OH,124,26,3.0
+Anthem Brewing Company,OK,125,27,3.0
+Anthem Brewing Company,OK,126,27,3.0
+Anthem Brewing Company,OK,127,27,3.0
+Appalachian Mountain Brewery,NC,128,28,3.0
+Appalachian Mountain Brewery,NC,129,28,3.0
+Appalachian Mountain Brewery,NC,130,28,3.0
+Arcadia Brewing Company,MI,131,29,2.0
+Arcadia Brewing Company,MI,132,29,2.0
+Arctic Craft Brewery,CO,133,30,1.0
+Armadillo Ale Works,,134,31,
+Armadillo Ale Works,TX,135,32,1.0
+Armstrong Brewing Company,CA,136,33,1.0
+Asher Brewing Company,CO,137,34,1.0
+Asheville Brewing Company,NC,138,35,2.0
+Asheville Brewing Company,,139,36,
+Asheville Brewing Company,NC,140,35,2.0
+Aslan Brewing Company,WA,141,37,3.0
+Aslan Brewing Company,WA,142,37,3.0
+Aslan Brewing Company,WA,143,37,3.0
+Aspen Brewing Company,CO,144,38,2.0
+Aspen Brewing Company,CO,145,38,2.0
+Astoria Brewing Company,OR,146,39,4.0
+Astoria Brewing Company,OR,147,39,4.0
+Astoria Brewing Company,OR,148,39,4.0
+Astoria Brewing Company,OR,149,39,4.0
+Atwater Brewery,MI,150,40,5.0
+Atwater Brewery,MI,151,40,5.0
+Atwater Brewery,MI,152,40,5.0
+Atwater Brewery,MI,153,40,5.0
+Atwater Brewery,MI,154,40,5.0
+Atwater Brewery,,155,41,
+Austin Beerworks,TX,156,42,5.0
+Austin Beerworks,TX,157,42,5.0
+Austin Beerworks,TX,158,42,5.0
+Austin Beerworks,TX,159,42,5.0
+Austin Beerworks,TX,160,42,5.0
+Avery Brewing Company,CO,161,43,6.0
+Avery Brewing Company,CO,162,43,6.0
+Avery Brewing Company,CO,163,43,6.0
+Avery Brewing Company,CO,164,43,6.0
+Avery Brewing Company,CO,165,43,6.0
+Avery Brewing Company,CO,166,43,6.0
+Aviator Brewing Company,NC,167,44,6.0
+Aviator Brewing Company,NC,168,44,6.0
+Aviator Brewing Company,NC,169,44,6.0
+Aviator Brewing Company,NC,170,44,6.0
+Aviator Brewing Company,NC,171,44,6.0
+Aviator Brewing Company,NC,172,44,6.0
+Back East Brewing Company,CT,173,45,5.0
+Back East Brewing Company,CT,174,45,5.0
+Back East Brewing Company,CT,175,45,5.0
+Back East Brewing Company,CT,176,45,5.0
+Back East Brewing Company,CT,177,45,5.0
+Back Forty Beer Company,AL,178,46,2.0
+Back Forty Beer Company,AL,179,46,2.0
+Bale Breaker Brewing Company,WA,180,47,2.0
+Bale Breaker Brewing Company,WA,181,47,2.0
+Ballast Point Brewing Company,CA,182,48,5.0
+Ballast Point Brewing Company,,183,49,
+Ballast Point Brewing Company,CA,184,48,5.0
+Ballast Point Brewing Company,CA,185,48,5.0
+Ballast Point Brewing Company,CA,186,48,5.0
+Ballast Point Brewing Company,CA,187,48,5.0
+Banner Beer Company,MA,188,50,3.0
+Banner Beer Company,MA,189,50,3.0
+Banner Beer Company,MA,190,50,3.0
+Bare Hands Brewery,IN,191,51,1.0
+Barrio Brewing Company,AZ,192,52,2.0
+Barrio Brewing Company,AZ,193,52,2.0
+Base Camp Brewing Co.,OR,194,53,5.0
+Base Camp Brewing Co.,OR,195,53,5.0
+Base Camp Brewing Co.,OR,196,53,5.0
+Base Camp Brewing Co.,OR,197,53,5.0
+Base Camp Brewing Co.,OR,198,53,5.0
+Bauhaus Brew Labs,MN,199,54,4.0
+Bauhaus Brew Labs,MN,200,54,4.0
+Bauhaus Brew Labs,MN,201,54,4.0
+Bauhaus Brew Labs,MN,202,54,4.0
+Baxter Brewing Company,ME,203,55,9.0
+Baxter Brewing Company,ME,204,55,9.0
+Baxter Brewing Company,ME,205,55,9.0
+Baxter Brewing Company,ME,206,55,9.0
+Baxter Brewing Company,ME,207,55,9.0
+Baxter Brewing Company,ME,208,55,9.0
+Baxter Brewing Company,ME,209,55,9.0
+Baxter Brewing Company,ME,210,55,9.0
+Baxter Brewing Company,ME,211,55,9.0
+Beach Brewing Company,VA,212,56,1.0
+Beer Works Brewery,MA,213,57,4.0
+Beer Works Brewery,MA,214,57,4.0
+Beer Works Brewery,MA,215,57,4.0
+Beer Works Brewery,MA,216,57,4.0
+Bell's Brewery,MI,217,58,6.0
+Bell's Brewery,MI,218,58,6.0
+Bell's Brewery,MI,219,58,6.0
+Bell's Brewery,MI,220,58,6.0
+Bell's Brewery,MI,221,58,6.0
+Bell's Brewery,MI,222,58,6.0
+Bent Brewstillery,MN,223,59,3.0
+Bent Brewstillery,MN,224,59,3.0
+Bent Brewstillery,MN,225,59,3.0
+Bent Paddle Brewing Company,MN,226,60,5.0
+Bent Paddle Brewing Company,MN,227,60,5.0
+Bent Paddle Brewing Company,MN,228,60,5.0
+Bent Paddle Brewing Company,MN,229,60,5.0
+Bent Paddle Brewing Company,,230,61,
+Bent Paddle Brewing Company,MN,231,60,5.0
+Berkshire Brewing Company,MA,232,62,2.0
+Berkshire Brewing Company,MA,233,62,2.0
+Big Bend Brewing Company,TX,234,63,5.0
+Big Bend Brewing Company,TX,235,63,5.0
+Big Bend Brewing Company,TX,236,63,5.0
+Big Bend Brewing Company,TX,237,63,5.0
+Big Bend Brewing Company,TX,238,63,5.0
+Big Choice Brewing,CO,239,64,4.0
+Big Choice Brewing,CO,240,64,4.0
+Big Choice Brewing,CO,241,64,4.0
+Big Choice Brewing,CO,242,64,4.0
+Big Elm Brewing,MA,243,65,3.0
+Big Elm Brewing,MA,244,65,3.0
+Big Elm Brewing,MA,245,65,3.0
+Big Lake Brewing,MI,246,66,2.0
+Big Lake Brewing,MI,247,66,2.0
+Big Muddy Brewing,IL,248,67,2.0
+Big Muddy Brewing,IL,249,67,2.0
+Big River Brewing Company,TN,250,68,2.0
+Big River Brewing Company,TN,251,68,2.0
+Big Sky Brewing Company,MT,252,69,12.0
+Big Sky Brewing Company,MT,253,69,12.0
+Big Sky Brewing Company,MT,254,69,12.0
+Big Sky Brewing Company,MT,255,69,12.0
+Big Sky Brewing Company,MT,256,69,12.0
+Big Sky Brewing Company,MT,257,69,12.0
+Big Sky Brewing Company,MT,258,69,12.0
+Big Sky Brewing Company,MT,259,69,12.0
+Big Sky Brewing Company,MT,260,69,12.0
+Big Sky Brewing Company,MT,261,69,12.0
+Big Sky Brewing Company,MT,262,69,12.0
+Big Sky Brewing Company,MT,263,69,12.0
+Big Storm Brewing Company,FL,264,70,2.0
+Big Storm Brewing Company,FL,265,70,2.0
+Big Wood Brewery,MN,266,71,5.0
+Big Wood Brewery,MN,267,71,5.0
+Big Wood Brewery,MN,268,71,5.0
+Big Wood Brewery,MN,269,71,5.0
+Big Wood Brewery,MN,270,71,5.0
+Birdsong Brewing Company,NC,271,72,1.0
+Bitter Root Brewing,MT,272,73,3.0
+Bitter Root Brewing,MT,273,73,3.0
+Bitter Root Brewing,MT,274,73,3.0
+Black Acre Brewing Co.,IN,275,74,1.0
+Black Market Brewing Company,CA,276,75,4.0
+Black Market Brewing Company,CA,277,75,4.0
+Black Market Brewing Company,CA,278,75,4.0
+Black Market Brewing Company,CA,279,75,4.0
+Black Shirt Brewing Company,CO,280,76,4.0
+Black Shirt Brewing Company,CO,281,76,4.0
+Black Shirt Brewing Company,CO,282,76,4.0
+Black Shirt Brewing Company,CO,283,76,4.0
+Black Tooth Brewing Company,WY,284,77,2.0
+Black Tooth Brewing Company,WY,285,77,2.0
+Blackrocks Brewery,MA,286,78,1.0
+Blackrocks Brewery,MI,287,79,6.0
+Blackrocks Brewery,MI,288,79,6.0
+Blackrocks Brewery,MI,289,79,6.0
+Blackrocks Brewery,MI,290,79,6.0
+Blackrocks Brewery,MI,291,79,6.0
+Blackrocks Brewery,MI,292,79,6.0
+Blue Blood Brewing Company,NE,293,80,14.0
+Blue Blood Brewing Company,NE,294,80,14.0
+Blue Blood Brewing Company,NE,295,80,14.0
+Blue Blood Brewing Company,NE,296,80,14.0
+Blue Blood Brewing Company,NE,297,80,14.0
+Blue Blood Brewing Company,NE,298,80,14.0
+Blue Blood Brewing Company,NE,299,80,14.0
+Blue Blood Brewing Company,NE,300,80,14.0
+Blue Blood Brewing Company,NE,301,80,14.0
+Blue Blood Brewing Company,NE,302,80,14.0
+Blue Blood Brewing Company,NE,303,80,14.0
+Blue Blood Brewing Company,NE,304,80,14.0
+Blue Blood Brewing Company,NE,305,80,14.0
+Blue Blood Brewing Company,NE,306,80,14.0
+Blue Dog Mead,OR,307,81,2.0
+Blue Dog Mead,OR,308,81,2.0
+Blue Hills Brewery,,309,82,
+Blue Mountain Brewery,,310,83,
+Blue Mountain Brewery,VA,311,84,4.0
+Blue Mountain Brewery,VA,312,84,4.0
+Blue Mountain Brewery,VA,313,84,4.0
+Blue Mountain Brewery,VA,314,84,4.0
+Blue Owl Brewing,TX,315,85,4.0
+Blue Owl Brewing,TX,316,85,4.0
+Blue Owl Brewing,TX,317,85,4.0
+Blue Owl Brewing,TX,318,85,4.0
+Blue Point Brewing Company,NY,319,86,4.0
+Blue Point Brewing Company,NY,320,86,4.0
+Blue Point Brewing Company,NY,321,86,4.0
+Blue Point Brewing Company,NY,322,86,4.0
+Bohemian Brewery,UT,323,87,5.0
+Bohemian Brewery,UT,324,87,5.0
+Bohemian Brewery,UT,325,87,5.0
+Bohemian Brewery,UT,326,87,5.0
+Bohemian Brewery,UT,327,87,5.0
+Bold City Brewery,FL,328,88,3.0
+Bold City Brewery,FL,329,88,3.0
+Bold City Brewery,FL,330,88,3.0
+Bolero Snort Brewery,NJ,331,89,2.0
+Bolero Snort Brewery,NJ,332,89,2.0
+Bomb Beer Company,NY,333,90,2.0
+Bomb Beer Company,NY,334,90,2.0
+Bonfire Brewing Company,CO,335,91,18.0
+Bonfire Brewing Company,CO,336,91,18.0
+Bonfire Brewing Company,CO,337,91,18.0
+Bonfire Brewing Company,CO,338,91,18.0
+Bonfire Brewing Company,CO,339,91,18.0
+Bonfire Brewing Company,CO,340,91,18.0
+Bonfire Brewing Company,CO,341,91,18.0
+Bonfire Brewing Company,CO,342,91,18.0
+Bonfire Brewing Company,CO,343,91,18.0
+Bonfire Brewing Company,CO,344,91,18.0
+Bonfire Brewing Company,CO,345,91,18.0
+Bonfire Brewing Company,CO,346,91,18.0
+Bonfire Brewing Company,CO,347,91,18.0
+Bonfire Brewing Company,CO,348,91,18.0
+Bonfire Brewing Company,CO,349,91,18.0
+Bonfire Brewing Company,CO,350,91,18.0
+Bonfire Brewing Company,CO,351,91,18.0
+Bonfire Brewing Company,,352,92,
+Bonfire Brewing Company,CO,353,91,18.0
+Borderlands Brewing Company,AZ,354,93,1.0
+Boston Beer Company,MA,355,94,9.0
+Boston Beer Company,MA,356,94,9.0
+Boston Beer Company,MA,357,94,9.0
+Boston Beer Company,MA,358,94,9.0
+Boston Beer Company,MA,359,94,9.0
+Boston Beer Company,MA,360,94,9.0
+Boston Beer Company,MA,361,94,9.0
+Boston Beer Company,MA,362,94,9.0
+Boston Beer Company,MA,363,94,9.0
+Boulder Beer Company,CO,364,95,3.0
+Boulder Beer Company,CO,365,95,3.0
+Boulder Beer Company,CO,366,95,3.0
+Boulevard Brewing Company,MO,367,96,1.0
+Boxcar Brewing Company,PA,368,97,3.0
+Boxcar Brewing Company,PA,369,97,3.0
+Boxcar Brewing Company,PA,370,97,3.0
+Bozeman Brewing Company,MT,371,98,5.0
+Bozeman Brewing Company,MT,372,98,5.0
+Bozeman Brewing Company,MT,373,98,5.0
+Bozeman Brewing Company,MT,374,98,5.0
+Bozeman Brewing Company,MT,375,98,5.0
+Branchline Brewing Company,TX,376,99,1.0
+Breakside Brewery,OR,377,100,1.0
+Breckenridge Brewery,CO,378,101,3.0
+Breckenridge Brewery,CO,379,101,3.0
+Breckenridge Brewery,CO,380,101,3.0
+Breckenridge Brewery,,381,102,
+Brew Bus Brewing,FL,382,103,4.0
+Brew Bus Brewing,FL,383,103,4.0
+Brew Bus Brewing,FL,384,103,4.0
+Brew Bus Brewing,FL,385,103,4.0
+Brew Link Brewing,,386,104,
+Brewery Terra Firma,MI,387,105,1.0
+Brewery Vivant,MI,388,106,61.0
+Brewery Vivant,MI,389,106,61.0
+Brewery Vivant,MI,390,106,61.0
+Brewery Vivant,MI,391,106,61.0
+Brewery Vivant,MI,392,106,61.0
+Brewery Vivant,MI,393,106,61.0
+Brewery Vivant,MI,394,106,61.0
+Brewery Vivant,MI,395,106,61.0
+Brewery Vivant,MI,396,106,61.0
+Brewery Vivant,MI,397,106,61.0
+Brewery Vivant,MI,398,106,61.0
+Brewery Vivant,MI,399,106,61.0
+Brewery Vivant,MI,400,106,61.0
+Brewery Vivant,MI,401,106,61.0
+Brewery Vivant,MI,402,106,61.0
+Brewery Vivant,MI,403,106,61.0
+Brewery Vivant,MI,404,106,61.0
+Brewery Vivant,MI,405,106,61.0
+Brewery Vivant,MI,406,106,61.0
+Brewery Vivant,MI,407,106,61.0
+Brewery Vivant,MI,408,106,61.0
+Brewery Vivant,MI,409,106,61.0
+Brewery Vivant,,410,107,
+Brewery Vivant,MI,411,106,61.0
+Brewery Vivant,MI,412,106,61.0
+Brewery Vivant,MI,413,106,61.0
+Brewery Vivant,MI,414,106,61.0
+Brewery Vivant,MI,415,106,61.0
+Brewery Vivant,MI,416,106,61.0
+Brewery Vivant,MI,417,106,61.0
+Brewery Vivant,MI,418,106,61.0
+Brewery Vivant,MI,419,106,61.0
+Brewery Vivant,MI,420,106,61.0
+Brewery Vivant,MI,421,106,61.0
+Brewery Vivant,MI,422,106,61.0
+Brewery Vivant,MI,423,106,61.0
+Brewery Vivant,MI,424,106,61.0
+Brewery Vivant,MI,425,106,61.0
+Brewery Vivant,MI,426,106,61.0
+Brewery Vivant,MI,427,106,61.0
+Brewery Vivant,MI,428,106,61.0
+Brewery Vivant,MI,429,106,61.0
+Brewery Vivant,MI,430,106,61.0
+Brewery Vivant,MI,431,106,61.0
+Brewery Vivant,MI,432,106,61.0
+Brewery Vivant,MI,433,106,61.0
+Brewery Vivant,MI,434,106,61.0
+Brewery Vivant,MI,435,106,61.0
+Brewery Vivant,MI,436,106,61.0
+Brewery Vivant,MI,437,106,61.0
+Brewery Vivant,MI,438,106,61.0
+Brewery Vivant,MI,439,106,61.0
+Brewery Vivant,MI,440,106,61.0
+Brewery Vivant,MI,441,106,61.0
+Brewery Vivant,MI,442,106,61.0
+Brewery Vivant,MI,443,106,61.0
+Brewery Vivant,MI,444,106,61.0
+Brewery Vivant,MI,445,106,61.0
+Brewery Vivant,MI,446,106,61.0
+Brewery Vivant,MI,447,106,61.0
+Brewery Vivant,MI,448,106,61.0
+Brewery Vivant,MI,449,106,61.0
+Brindle Dog Brewing Company,FL,450,108,1.0
+Brindle Dog Brewing Company,,451,109,
+Broad Brook Brewing LLC,CT,452,110,1.0
+Broken Tooth Brewing Company,AK,453,111,4.0
+Broken Tooth Brewing Company,AK,454,111,4.0
+Broken Tooth Brewing Company,AK,455,111,4.0
+Broken Tooth Brewing Company,AK,456,111,4.0
+Brooklyn Brewery,NY,457,112,5.0
+Brooklyn Brewery,NY,458,112,5.0
+Brooklyn Brewery,NY,459,112,5.0
+Brooklyn Brewery,NY,460,112,5.0
+Brooklyn Brewery,,461,113,
+Brooklyn Brewery,NY,462,112,5.0
+Buckbean Brewing Company,NV,463,114,6.0
+Buckbean Brewing Company,NV,464,114,6.0
+Buckbean Brewing Company,NV,465,114,6.0
+Buckbean Brewing Company,,466,115,
+Buckbean Brewing Company,NV,467,114,6.0
+Buckbean Brewing Company,NV,468,114,6.0
+Buckbean Brewing Company,NV,469,114,6.0
+Buckeye Brewing,OH,470,116,1.0
+BuckleDown Brewing,IL,471,117,1.0
+Buffalo Bayou Brewing Company,,472,118,
+Buffalo Bayou Brewing Company,TX,473,119,2.0
+Buffalo Bayou Brewing Company,TX,474,119,2.0
+Burn 'Em Brewing,IN,475,120,11.0
+Burn 'Em Brewing,IN,476,120,11.0
+Burn 'Em Brewing,IN,477,120,11.0
+Burn 'Em Brewing,IN,478,120,11.0
+Burn 'Em Brewing,IN,479,120,11.0
+Burn 'Em Brewing,IN,480,120,11.0
+Burn 'Em Brewing,IN,481,120,11.0
+Burn 'Em Brewing,IN,482,120,11.0
+Burn 'Em Brewing,IN,483,120,11.0
+Burn 'Em Brewing,IN,484,120,11.0
+Burn 'Em Brewing,IN,485,120,11.0
+Burnside Brewing Co.,OR,486,121,1.0
+Butcher's Brewing,CA,487,122,1.0
+Butternuts Beer and Ale,NY,488,123,4.0
+Butternuts Beer and Ale,NY,489,123,4.0
+Butternuts Beer and Ale,NY,490,123,4.0
+Butternuts Beer and Ale,NY,491,123,4.0
+COAST Brewing Company,SC,492,124,6.0
+COAST Brewing Company,SC,493,124,6.0
+COAST Brewing Company,SC,494,124,6.0
+COAST Brewing Company,SC,495,124,6.0
+COAST Brewing Company,SC,496,124,6.0
+COAST Brewing Company,SC,497,124,6.0
+COOP Ale Works,OK,498,125,5.0
+COOP Ale Works,OK,499,125,5.0
+COOP Ale Works,,500,126,
+COOP Ale Works,OK,501,125,5.0
+COOP Ale Works,OK,502,125,5.0
+COOP Ale Works,OK,503,125,5.0
+Caldera Brewing Company,OR,504,127,13.0
+Caldera Brewing Company,OR,505,127,13.0
+Caldera Brewing Company,OR,506,127,13.0
+Caldera Brewing Company,OR,507,127,13.0
+Caldera Brewing Company,,508,128,
+Caldera Brewing Company,OR,509,127,13.0
+Caldera Brewing Company,OR,510,127,13.0
+Caldera Brewing Company,OR,511,127,13.0
+Caldera Brewing Company,OR,512,127,13.0
+Caldera Brewing Company,OR,513,127,13.0
+Caldera Brewing Company,OR,514,127,13.0
+Caldera Brewing Company,OR,515,127,13.0
+Caldera Brewing Company,OR,516,127,13.0
+Caldera Brewing Company,OR,517,127,13.0
+Cambridge Brewing Company,,518,129,
+Cambridge Brewing Company,MA,519,130,1.0
+Cans Bar and Canteen,NC,520,131,4.0
+Cans Bar and Canteen,NC,521,131,4.0
+Cans Bar and Canteen,NC,522,131,4.0
+Cans Bar and Canteen,NC,523,131,4.0
+Cape Ann Brewing Company,MA,524,132,4.0
+Cape Ann Brewing Company,MA,525,132,4.0
+Cape Ann Brewing Company,MA,526,132,4.0
+Cape Ann Brewing Company,MA,527,132,4.0
+Cape Ann Brewing Company,,528,133,
+Cape Cod Beer,MA,529,134,2.0
+Cape Cod Beer,MA,530,134,2.0
+Capital Brewery,WI,531,135,11.0
+Capital Brewery,WI,532,135,11.0
+Capital Brewery,WI,533,135,11.0
+Capital Brewery,WI,534,135,11.0
+Capital Brewery,WI,535,135,11.0
+Capital Brewery,WI,536,135,11.0
+Capital Brewery,WI,537,135,11.0
+Capital Brewery,WI,538,135,11.0
+Capital Brewery,WI,539,135,11.0
+Capital Brewery,WI,540,135,11.0
+Capital Brewery,WI,541,135,11.0
+Carolina Beer & Beverage,,542,136,
+Carolina Beer & Beverage,,543,136,
+Carolina Beer & Beverage,NC,544,137,1.0
+Carolina Brewery,NC,545,138,3.0
+Carolina Brewery,NC,546,138,3.0
+Carolina Brewery,NC,547,138,3.0
+Carton Brewing Company,NJ,548,139,3.0
+Carton Brewing Company,NJ,549,139,3.0
+Carton Brewing Company,,550,140,
+Carton Brewing Company,NJ,551,139,3.0
+Cascadia Ciderworks United,OR,552,141,2.0
+Cascadia Ciderworks United,OR,553,141,2.0
+Catawba Brewing Company,NC,554,142,7.0
+Catawba Brewing Company,NC,555,142,7.0
+Catawba Brewing Company,NC,556,142,7.0
+Catawba Brewing Company,NC,557,142,7.0
+Catawba Brewing Company,NC,558,142,7.0
+Catawba Brewing Company,NC,559,142,7.0
+Catawba Brewing Company,NC,560,142,7.0
+Catawba Island Brewing,OH,561,143,2.0
+Catawba Island Brewing,OH,562,143,2.0
+Catawba Valley Brewing Company,NC,563,144,2.0
+Catawba Valley Brewing Company,NC,564,144,2.0
+Cedar Creek Brewery,TX,565,145,6.0
+Cedar Creek Brewery,TX,566,145,6.0
+Cedar Creek Brewery,TX,567,145,6.0
+Cedar Creek Brewery,TX,568,145,6.0
+Cedar Creek Brewery,TX,569,145,6.0
+Cedar Creek Brewery,TX,570,145,6.0
+Centennial Beer Company,CO,571,146,1.0
+Centennial Beer Company,,572,147,
+Center of the Universe Brewing C...,VA,573,148,4.0
+Center of the Universe Brewing C...,VA,574,148,4.0
+Center of the Universe Brewing C...,VA,575,148,4.0
+Center of the Universe Brewing C...,VA,576,148,4.0
+Central Coast Brewing Company,CA,577,149,3.0
+Central Coast Brewing Company,,578,150,
+Central Coast Brewing Company,CA,579,149,3.0
+Central Coast Brewing Company,CA,580,149,3.0
+Champion Brewing Company,VA,581,151,3.0
+Champion Brewing Company,VA,582,151,3.0
+Champion Brewing Company,VA,583,151,3.0
+Champion Brewing Company,,584,152,
+Chapman's Brewing,IN,585,153,3.0
+Chapman's Brewing,IN,586,153,3.0
+Chapman's Brewing,IN,587,153,3.0
+Chapman's Brewing,,588,154,
+Chatham Brewing,NY,589,155,2.0
+Chatham Brewing,NY,590,155,2.0
+Cheboygan Brewing Company,MI,591,156,3.0
+Cheboygan Brewing Company,MI,592,156,3.0
+Cheboygan Brewing Company,MI,593,156,3.0
+Christian Moerlein Brewing Company,OH,594,157,1.0
+Churchkey Can Company,WA,595,158,1.0
+Ciderboys,WI,596,159,2.0
+Ciderboys,WI,597,159,2.0
+Cigar City Brewing Company,FL,598,160,24.0
+Cigar City Brewing Company,FL,599,160,24.0
+Cigar City Brewing Company,FL,600,160,24.0
+Cigar City Brewing Company,FL,601,160,24.0
+Cigar City Brewing Company,FL,602,160,24.0
+Cigar City Brewing Company,FL,603,160,24.0
+Cigar City Brewing Company,FL,604,160,24.0
+Cigar City Brewing Company,FL,605,160,24.0
+Cigar City Brewing Company,FL,606,160,24.0
+Cigar City Brewing Company,FL,607,160,24.0
+Cigar City Brewing Company,FL,608,160,24.0
+Cigar City Brewing Company,FL,609,160,24.0
+Cigar City Brewing Company,FL,610,160,24.0
+Cigar City Brewing Company,FL,611,160,24.0
+Cigar City Brewing Company,FL,612,160,24.0
+Cigar City Brewing Company,FL,613,160,24.0
+Cigar City Brewing Company,FL,614,160,24.0
+Cigar City Brewing Company,FL,615,160,24.0
+Cigar City Brewing Company,FL,616,160,24.0
+Cigar City Brewing Company,,617,161,
+Cigar City Brewing Company,FL,618,160,24.0
+Cigar City Brewing Company,FL,619,160,24.0
+Cigar City Brewing Company,FL,620,160,24.0
+Cigar City Brewing Company,FL,621,160,24.0
+Cigar City Brewing Company,FL,622,160,24.0
+Cisco Brewers,MA,623,162,7.0
+Cisco Brewers,MA,624,162,7.0
+Cisco Brewers,MA,625,162,7.0
+Cisco Brewers,MA,626,162,7.0
+Cisco Brewers,MA,627,162,7.0
+Cisco Brewers,MA,628,162,7.0
+Cisco Brewers,MA,629,162,7.0
+Claremont Craft Ales,CA,630,163,1.0
+Coalition Brewing Company,OR,631,164,2.0
+Coalition Brewing Company,OR,632,164,2.0
+Coastal Empire Beer Company,GA,633,165,2.0
+Coastal Empire Beer Company,GA,634,165,2.0
+Coastal Extreme Brewing Company,RI,635,166,4.0
+Coastal Extreme Brewing Company,RI,636,166,4.0
+Coastal Extreme Brewing Company,RI,637,166,4.0
+Coastal Extreme Brewing Company,RI,638,166,4.0
+College Street Brewhouse and Pub,AZ,639,167,1.0
+Confluence Brewing Company,IA,640,168,2.0
+Confluence Brewing Company,IA,641,168,2.0
+Confluence Brewing Company,,642,169,
+Core Brewing & Distilling Company,AR,643,170,3.0
+Core Brewing & Distilling Company,AR,644,170,3.0
+Core Brewing & Distilling Company,AR,645,170,3.0
+Core Brewing & Distilling Company,,646,171,
+Cottrell Brewing,CT,647,172,1.0
+Covington Brewhouse,LA,648,173,1.0
+Crabtree Brewing Company,CO,649,174,3.0
+Crabtree Brewing Company,CO,650,174,3.0
+Crabtree Brewing Company,CO,651,174,3.0
+Crazy Mountain Brewing Company,CO,652,175,8.0
+Crazy Mountain Brewing Company,CO,653,175,8.0
+Crazy Mountain Brewing Company,CO,654,175,8.0
+Crazy Mountain Brewing Company,CO,655,175,8.0
+Crazy Mountain Brewing Company,CO,656,175,8.0
+Crazy Mountain Brewing Company,CO,657,175,8.0
+Crazy Mountain Brewing Company,CO,658,175,8.0
+Crazy Mountain Brewing Company,CO,659,175,8.0
+Creature Comforts,GA,660,176,2.0
+Creature Comforts,GA,661,176,2.0
+Crooked Fence Brewing Company,ID,662,177,3.0
+Crooked Fence Brewing Company,ID,663,177,3.0
+Crooked Fence Brewing Company,ID,664,177,3.0
+Crow Peak Brewing Company,SD,665,178,7.0
+Crow Peak Brewing Company,SD,666,178,7.0
+Crow Peak Brewing Company,SD,667,178,7.0
+Crow Peak Brewing Company,SD,668,178,7.0
+Crow Peak Brewing Company,SD,669,178,7.0
+Crow Peak Brewing Company,SD,670,178,7.0
+Crow Peak Brewing Company,SD,671,178,7.0
+Crystal Springs Brewing Company,CO,672,179,2.0
+Crystal Springs Brewing Company,CO,673,179,2.0
+Cutters Brewing Company,IN,674,180,4.0
+Cutters Brewing Company,IN,675,180,4.0
+Cutters Brewing Company,IN,676,180,4.0
+Cutters Brewing Company,IN,677,180,4.0
+D.L. Geary Brewing Company,ME,678,181,2.0
+D.L. Geary Brewing Company,ME,679,181,2.0
+DC Brau Brewing Company,DC,680,182,8.0
+DC Brau Brewing Company,DC,681,182,8.0
+DC Brau Brewing Company,DC,682,182,8.0
+DC Brau Brewing Company,DC,683,182,8.0
+DC Brau Brewing Company,DC,684,182,8.0
+DC Brau Brewing Company,DC,685,182,8.0
+DC Brau Brewing Company,DC,686,182,8.0
+DC Brau Brewing Company,DC,687,182,8.0
+Dad & Dude's Breweria,CO,688,183,2.0
+Dad & Dude's Breweria,CO,689,183,2.0
+Daredevil Brewing Company,IN,690,184,1.0
+Dave's Brewfarm,WI,691,185,1.0
+David's Ale Works,CA,692,186,2.0
+David's Ale Works,CA,693,186,2.0
+Dead Armadillo Craft Brewing,OK,694,187,1.0
+Deep Ellum Brewing Company,TX,695,188,9.0
+Deep Ellum Brewing Company,TX,696,188,9.0
+Deep Ellum Brewing Company,TX,697,188,9.0
+Deep Ellum Brewing Company,TX,698,188,9.0
+Deep Ellum Brewing Company,TX,699,188,9.0
+Deep Ellum Brewing Company,TX,700,188,9.0
+Deep Ellum Brewing Company,TX,701,188,9.0
+Deep Ellum Brewing Company,TX,702,188,9.0
+Deep Ellum Brewing Company,TX,703,188,9.0
+Defiance Brewing Company,KS,704,189,2.0
+Defiance Brewing Company,KS,705,189,2.0
+Denali Brewing Company,AK,706,190,4.0
+Denali Brewing Company,AK,707,190,4.0
+Denali Brewing Company,AK,708,190,4.0
+Denali Brewing Company,AK,709,190,4.0
+Denver Beer Company,CO,710,191,2.0
+Denver Beer Company,CO,711,191,2.0
+Deschutes Brewery,OR,712,192,1.0
+Destihl Brewery,IL,713,193,5.0
+Destihl Brewery,IL,714,193,5.0
+Destihl Brewery,,715,194,
+Destihl Brewery,,716,194,
+Destihl Brewery,IL,717,193,5.0
+Destihl Brewery,IL,718,193,5.0
+Destihl Brewery,IL,719,193,5.0
+Devil's Backbone Brewing Company,VA,720,195,2.0
+Devil's Backbone Brewing Company,VA,721,195,2.0
+Devil's Canyon Brewery,CA,722,196,3.0
+Devil's Canyon Brewery,,723,197,
+Devil's Canyon Brewery,CA,724,196,3.0
+Devil's Canyon Brewery,CA,725,196,3.0
+Dick's Brewing Company,WA,726,198,1.0
+Dirty Bucket Brewing Company,WA,727,199,1.0
+Dock Street Brewery,PA,728,200,1.0
+Dolores River Brewery,CO,729,201,6.0
+Dolores River Brewery,CO,730,201,6.0
+Dolores River Brewery,CO,731,201,6.0
+Dolores River Brewery,CO,732,201,6.0
+Dolores River Brewery,CO,733,201,6.0
+Dolores River Brewery,CO,734,201,6.0
+Downeast Cider House,MA,735,202,2.0
+Downeast Cider House,MA,736,202,2.0
+Dry Dock Brewing Company,CO,737,203,4.0
+Dry Dock Brewing Company,CO,738,203,4.0
+Dry Dock Brewing Company,CO,739,203,4.0
+Dry Dock Brewing Company,CO,740,203,4.0
+Due South Brewing Company,FL,741,204,1.0
+Dundee Brewing Company,NY,742,205,1.0
+Eddyline Brewery & Restaurant,CO,743,206,7.0
+Eddyline Brewery & Restaurant,CO,744,206,7.0
+Eddyline Brewery & Restaurant,CO,745,206,7.0
+Eddyline Brewery & Restaurant,CO,746,206,7.0
+Eddyline Brewery & Restaurant,CO,747,206,7.0
+Eddyline Brewery & Restaurant,CO,748,206,7.0
+Eddyline Brewery & Restaurant,CO,749,206,7.0
+Elevator Brewing Company,OH,750,207,1.0
+Emerald City Beer Company,WA,751,208,1.0
+Engine 15 Brewing,FL,752,209,1.0
+Engine House 9,WA,753,210,1.0
+Epic Brewing,CO,754,211,4.0
+Epic Brewing,CO,755,211,4.0
+Epic Brewing,CO,756,211,4.0
+Epic Brewing,CO,757,211,4.0
+Everybody's Brewing,WA,758,212,2.0
+Everybody's Brewing,WA,759,212,2.0
+Evil Czech Brewery,IN,760,213,6.0
+Evil Czech Brewery,IN,761,213,6.0
+Evil Czech Brewery,IN,762,213,6.0
+Evil Czech Brewery,IN,763,213,6.0
+Evil Czech Brewery,IN,764,213,6.0
+Evil Czech Brewery,IN,765,213,6.0
+Evil Twin Brewing,NY,766,214,5.0
+Evil Twin Brewing,NY,767,214,5.0
+Evil Twin Brewing,NY,768,214,5.0
+Evil Twin Brewing,NY,769,214,5.0
+Evil Twin Brewing,NY,770,214,5.0
+Fargo Brewing Company,ND,771,215,3.0
+Fargo Brewing Company,ND,772,215,3.0
+Fargo Brewing Company,ND,773,215,3.0
+Fat Head's Brewery,OH,774,216,2.0
+Fat Head's Brewery,OH,775,216,2.0
+Fate Brewing Company,CO,776,217,4.0
+Fate Brewing Company,CO,777,217,4.0
+Fate Brewing Company,CO,778,217,4.0
+Fate Brewing Company,,779,218,
+Fate Brewing Company,CO,780,217,4.0
+Fearless Brewing Company,OR,781,219,6.0
+Fearless Brewing Company,OR,782,219,6.0
+Fearless Brewing Company,OR,783,219,6.0
+Fearless Brewing Company,OR,784,219,6.0
+Fearless Brewing Company,OR,785,219,6.0
+Fearless Brewing Company,OR,786,219,6.0
+Fiddlehead Brewing Company,VT,787,220,4.0
+Fiddlehead Brewing Company,VT,788,220,4.0
+Fiddlehead Brewing Company,VT,789,220,4.0
+Fiddlehead Brewing Company,VT,790,220,4.0
+Figueroa Mountain Brewing Company,CA,791,221,2.0
+Figueroa Mountain Brewing Company,CA,792,221,2.0
+Figueroa Mountain Brewing Company,,793,222,
+Finch's Beer Company,IL,794,223,10.0
+Finch's Beer Company,IL,795,223,10.0
+Finch's Beer Company,IL,796,223,10.0
+Finch's Beer Company,IL,797,223,10.0
+Finch's Beer Company,IL,798,223,10.0
+Finch's Beer Company,IL,799,223,10.0
+Finch's Beer Company,IL,800,223,10.0
+Finch's Beer Company,IL,801,223,10.0
+Finch's Beer Company,IL,802,223,10.0
+Finch's Beer Company,IL,803,223,10.0
+Firestone Walker Brewing Company,CA,804,224,4.0
+Firestone Walker Brewing Company,,805,225,
+Firestone Walker Brewing Company,CA,806,224,4.0
+Firestone Walker Brewing Company,CA,807,224,4.0
+Firestone Walker Brewing Company,CA,808,224,4.0
+Flat 12 Bierwerks,IN,809,226,3.0
+Flat 12 Bierwerks,IN,810,226,3.0
+Flat 12 Bierwerks,IN,811,226,3.0
+Flat Rock Brewing Company,PA,812,227,1.0
+Flesk Brewing Company,IL,813,228,1.0
+Flying Dog Brewery,MD,814,229,2.0
+Flying Dog Brewery,MD,815,229,2.0
+Flying Mouse Brewery,VA,816,230,2.0
+Flying Mouse Brewery,VA,817,230,2.0
+Foolproof Brewing Company,RI,818,231,4.0
+Foolproof Brewing Company,RI,819,231,4.0
+Foolproof Brewing Company,RI,820,231,4.0
+Foolproof Brewing Company,RI,821,231,4.0
+Forgotten Boardwalk,NJ,822,232,2.0
+Forgotten Boardwalk,NJ,823,232,2.0
+Fort George Brewery,OR,824,233,12.0
+Fort George Brewery,OR,825,233,12.0
+Fort George Brewery,OR,826,233,12.0
+Fort George Brewery,OR,827,233,12.0
+Fort George Brewery,OR,828,233,12.0
+Fort George Brewery,OR,829,233,12.0
+Fort George Brewery,OR,830,233,12.0
+Fort George Brewery,OR,831,233,12.0
+Fort George Brewery,OR,832,233,12.0
+Fort George Brewery,OR,833,233,12.0
+Fort George Brewery,OR,834,233,12.0
+Fort George Brewery,OR,835,233,12.0
+Fort Pitt Brewing Company,,836,234,
+Fort Point Beer Company,CA,837,235,4.0
+Fort Point Beer Company,CA,838,235,4.0
+Fort Point Beer Company,CA,839,235,4.0
+Fort Point Beer Company,CA,840,235,4.0
+Founders Brewing Company,MI,841,236,3.0
+Founders Brewing Company,MI,842,236,3.0
+Founders Brewing Company,MI,843,236,3.0
+Four Corners Brewing Company,TX,844,237,2.0
+Four Corners Brewing Company,TX,845,237,2.0
+Four Corners Brewing Company,,846,238,
+Four Fathers Brewing,IN,847,239,4.0
+Four Fathers Brewing,IN,848,239,4.0
+Four Fathers Brewing,IN,849,239,4.0
+Four Fathers Brewing,IN,850,239,4.0
+Four Horsemen Brewing Company,IN,851,240,1.0
+Four Peaks Brewing Company,AZ,852,241,7.0
+Four Peaks Brewing Company,AZ,853,241,7.0
+Four Peaks Brewing Company,AZ,854,241,7.0
+Four Peaks Brewing Company,AZ,855,241,7.0
+Four Peaks Brewing Company,AZ,856,241,7.0
+Four Peaks Brewing Company,AZ,857,241,7.0
+Four Peaks Brewing Company,AZ,858,241,7.0
+Four String Brewing Company,OH,859,242,4.0
+Four String Brewing Company,OH,860,242,4.0
+Four String Brewing Company,OH,861,242,4.0
+Four String Brewing Company,OH,862,242,4.0
+Frankenmuth Brewery,MI,863,243,2.0
+Frankenmuth Brewery,,864,244,
+Frankenmuth Brewery,MI,865,243,2.0
+Freetail Brewing Company,TX,866,245,8.0
+Freetail Brewing Company,TX,867,245,8.0
+Freetail Brewing Company,TX,868,245,8.0
+Freetail Brewing Company,TX,869,245,8.0
+Freetail Brewing Company,TX,870,245,8.0
+Freetail Brewing Company,TX,871,245,8.0
+Freetail Brewing Company,TX,872,245,8.0
+Freetail Brewing Company,TX,873,245,8.0
+Fremont Brewing Company,WA,874,246,7.0
+Fremont Brewing Company,WA,875,246,7.0
+Fremont Brewing Company,WA,876,246,7.0
+Fremont Brewing Company,WA,877,246,7.0
+Fremont Brewing Company,WA,878,246,7.0
+Fremont Brewing Company,WA,879,246,7.0
+Fremont Brewing Company,WA,880,246,7.0
+French Broad Brewery,NC,881,247,3.0
+French Broad Brewery,NC,882,247,3.0
+French Broad Brewery,NC,883,247,3.0
+Frog Level Brewing Company,NC,884,248,1.0
+Fullsteam Brewery,NC,885,249,1.0
+Geneva Lake Brewing Company,,886,250,
+Geneva Lake Brewing Company,WI,887,251,2.0
+Geneva Lake Brewing Company,WI,888,251,2.0
+Glabrous Brewing Company,,889,252,
+Golden Road Brewing,,890,253,
+Golden Road Brewing,CA,891,254,13.0
+Golden Road Brewing,CA,892,254,13.0
+Golden Road Brewing,CA,893,254,13.0
+Golden Road Brewing,CA,894,254,13.0
+Golden Road Brewing,CA,895,254,13.0
+Golden Road Brewing,CA,896,254,13.0
+Golden Road Brewing,,897,253,
+Golden Road Brewing,CA,898,254,13.0
+Golden Road Brewing,CA,899,254,13.0
+Golden Road Brewing,CA,900,254,13.0
+Golden Road Brewing,CA,901,254,13.0
+Golden Road Brewing,CA,902,254,13.0
+Golden Road Brewing,CA,903,254,13.0
+Golden Road Brewing,CA,904,254,13.0
+Gonzo's BiggDogg Brewing,MI,905,255,1.0
+Good Life Brewing Company,OR,906,256,2.0
+Good Life Brewing Company,OR,907,256,2.0
+Good People Brewing Company,AL,908,257,5.0
+Good People Brewing Company,AL,909,257,5.0
+Good People Brewing Company,AL,910,257,5.0
+Good People Brewing Company,AL,911,257,5.0
+Good People Brewing Company,AL,912,257,5.0
+Goodlife Brewing Co.,OR,913,258,1.0
+Goose Island Brewery Company,IL,914,259,1.0
+Goose Island Brewing Company,IL,915,260,4.0
+Goose Island Brewing Company,IL,916,260,4.0
+Goose Island Brewing Company,IL,917,260,4.0
+Goose Island Brewing Company,,918,261,
+Goose Island Brewing Company,IL,919,260,4.0
+Gore Range Brewery,CO,920,262,1.0
+Grand Canyon Brewing Company,AZ,921,263,4.0
+Grand Canyon Brewing Company,AZ,922,263,4.0
+Grand Canyon Brewing Company,AZ,923,263,4.0
+Grand Canyon Brewing Company,AZ,924,263,4.0
+Grapevine Craft Brewery,TX,925,264,3.0
+Grapevine Craft Brewery,TX,926,264,3.0
+Grapevine Craft Brewery,TX,927,264,3.0
+Great Crescent Brewery,IN,928,265,19.0
+Great Crescent Brewery,IN,929,265,19.0
+Great Crescent Brewery,IN,930,265,19.0
+Great Crescent Brewery,IN,931,265,19.0
+Great Crescent Brewery,IN,932,265,19.0
+Great Crescent Brewery,IN,933,265,19.0
+Great Crescent Brewery,IN,934,265,19.0
+Great Crescent Brewery,IN,935,265,19.0
+Great Crescent Brewery,IN,936,265,19.0
+Great Crescent Brewery,IN,937,265,19.0
+Great Crescent Brewery,IN,938,265,19.0
+Great Crescent Brewery,IN,939,265,19.0
+Great Crescent Brewery,,940,266,
+Great Crescent Brewery,IN,941,265,19.0
+Great Crescent Brewery,IN,942,265,19.0
+Great Crescent Brewery,IN,943,265,19.0
+Great Crescent Brewery,IN,944,265,19.0
+Great Crescent Brewery,IN,945,265,19.0
+Great Crescent Brewery,IN,946,265,19.0
+Great Crescent Brewery,IN,947,265,19.0
+Great Divide Brewing Company,CO,948,267,8.0
+Great Divide Brewing Company,CO,949,267,8.0
+Great Divide Brewing Company,CO,950,267,8.0
+Great Divide Brewing Company,CO,951,267,8.0
+Great Divide Brewing Company,,952,268,
+Great Divide Brewing Company,CO,953,267,8.0
+Great Divide Brewing Company,CO,954,267,8.0
+Great Divide Brewing Company,CO,955,267,8.0
+Great Divide Brewing Company,CO,956,267,8.0
+Great Northern Brewing Company,MT,957,269,2.0
+Great Northern Brewing Company,MT,958,269,2.0
+Great Raft Brewing Company,LA,959,270,2.0
+Great Raft Brewing Company,LA,960,270,2.0
+Great River Brewery,IA,961,271,18.0
+Great River Brewery,IA,962,271,18.0
+Great River Brewery,IA,963,271,18.0
+Great River Brewery,IA,964,271,18.0
+Great River Brewery,IA,965,271,18.0
+Great River Brewery,IA,966,271,18.0
+Great River Brewery,IA,967,271,18.0
+Great River Brewery,IA,968,271,18.0
+Great River Brewery,IA,969,271,18.0
+Great River Brewery,IA,970,271,18.0
+Great River Brewery,IA,971,271,18.0
+Great River Brewery,IA,972,271,18.0
+Great River Brewery,IA,973,271,18.0
+Great River Brewery,IA,974,271,18.0
+Great River Brewery,IA,975,271,18.0
+Great River Brewery,IA,976,271,18.0
+Great River Brewery,IA,977,271,18.0
+Great River Brewery,IA,978,271,18.0
+Green Room Brewing,FL,979,272,1.0
+Greenbrier Valley Brewing Company,WV,980,273,2.0
+Greenbrier Valley Brewing Company,WV,981,273,2.0
+Grey Sail Brewing Company,RI,982,274,2.0
+Grey Sail Brewing Company,RI,983,274,2.0
+Grey Sail Brewing of Rhode Island,RI,984,275,7.0
+Grey Sail Brewing of Rhode Island,RI,985,275,7.0
+Grey Sail Brewing of Rhode Island,RI,986,275,7.0
+Grey Sail Brewing of Rhode Island,RI,987,275,7.0
+Grey Sail Brewing of Rhode Island,RI,988,275,7.0
+Grey Sail Brewing of Rhode Island,RI,989,275,7.0
+Grey Sail Brewing of Rhode Island,RI,990,275,7.0
+Griffin Claw Brewing Company,MI,991,276,9.0
+Griffin Claw Brewing Company,MI,992,276,9.0
+Griffin Claw Brewing Company,MI,993,276,9.0
+Griffin Claw Brewing Company,MI,994,276,9.0
+Griffin Claw Brewing Company,MI,995,276,9.0
+Griffin Claw Brewing Company,MI,996,276,9.0
+Griffin Claw Brewing Company,MI,997,276,9.0
+Griffin Claw Brewing Company,MI,998,276,9.0
+Griffin Claw Brewing Company,MI,999,276,9.0
+Grimm Brothers Brewhouse,CO,1000,277,1.0
+Hale's Ales,WA,1001,278,2.0
+Hale's Ales,WA,1002,278,2.0
+Half Acre Beer Company,IL,1003,279,8.0
+Half Acre Beer Company,IL,1004,279,8.0
+Half Acre Beer Company,IL,1005,279,8.0
+Half Acre Beer Company,IL,1006,279,8.0
+Half Acre Beer Company,IL,1007,279,8.0
+Half Acre Beer Company,IL,1008,279,8.0
+Half Acre Beer Company,IL,1009,279,8.0
+Half Acre Beer Company,IL,1010,279,8.0
+Half Full Brewery,CT,1011,280,2.0
+Half Full Brewery,CT,1012,280,2.0
+Hangar 24 Craft Brewery,CA,1013,281,2.0
+Hangar 24 Craft Brewery,CA,1014,281,2.0
+Hardywood Park Craft Brewery,VA,1015,282,3.0
+Hardywood Park Craft Brewery,VA,1016,282,3.0
+Hardywood Park Craft Brewery,VA,1017,282,3.0
+Harpoon Brewery,MA,1018,283,11.0
+Harpoon Brewery,MA,1019,283,11.0
+Harpoon Brewery,MA,1020,283,11.0
+Harpoon Brewery,MA,1021,283,11.0
+Harpoon Brewery,MA,1022,283,11.0
+Harpoon Brewery,MA,1023,283,11.0
+Harpoon Brewery,MA,1024,283,11.0
+Harpoon Brewery,MA,1025,283,11.0
+Harpoon Brewery,MA,1026,283,11.0
+Harpoon Brewery,MA,1027,283,11.0
+Harpoon Brewery,,1028,284,
+Harpoon Brewery,MA,1029,283,11.0
+Harvest Moon Brewing Company,MT,1030,285,2.0
+Harvest Moon Brewing Company,MT,1031,285,2.0
+Hawai'i Nui Brewing Co.,HI,1032,286,5.0
+Hawai'i Nui Brewing Co.,HI,1033,286,5.0
+Hawai'i Nui Brewing Co.,HI,1034,286,5.0
+Hawai'i Nui Brewing Co.,HI,1035,286,5.0
+Hawai'i Nui Brewing Co.,HI,1036,286,5.0
+Headlands Brewing Company,CA,1037,287,2.0
+Headlands Brewing Company,CA,1038,287,2.0
+Headlands Brewing Company,,1039,288,
+Heavy Seas Beer,MD,1040,289,3.0
+Heavy Seas Beer,MD,1041,289,3.0
+Heavy Seas Beer,MD,1042,289,3.0
+Hess Brewing Company,CA,1043,290,3.0
+Hess Brewing Company,CA,1044,290,3.0
+Hess Brewing Company,CA,1045,290,3.0
+High Hops Brewery,CO,1046,291,2.0
+High Hops Brewery,CO,1047,291,2.0
+High Noon Saloon And Brewery,KS,1048,292,3.0
+High Noon Saloon And Brewery,KS,1049,292,3.0
+High Noon Saloon And Brewery,KS,1050,292,3.0
+Hilliard's Beer,WA,1051,293,5.0
+Hilliard's Beer,WA,1052,293,5.0
+Hilliard's Beer,WA,1053,293,5.0
+Hilliard's Beer,WA,1054,293,5.0
+Hilliard's Beer,WA,1055,293,5.0
+Hinterland Brewery,WI,1056,294,1.0
+Hop Farm Brewing Company,PA,1057,295,2.0
+Hop Farm Brewing Company,PA,1058,295,2.0
+Hop Farm Brewing Company,,1059,296,
+Hop Valley Brewing Company,OR,1060,297,8.0
+Hop Valley Brewing Company,OR,1061,297,8.0
+Hop Valley Brewing Company,OR,1062,297,8.0
+Hop Valley Brewing Company,OR,1063,297,8.0
+Hop Valley Brewing Company,OR,1064,297,8.0
+Hop Valley Brewing Company,OR,1065,297,8.0
+Hop Valley Brewing Company,OR,1066,297,8.0
+Hop Valley Brewing Company,OR,1067,297,8.0
+Hops & Grain Brewery,TX,1068,298,4.0
+Hops & Grain Brewery,TX,1069,298,4.0
+Hops & Grain Brewery,TX,1070,298,4.0
+Hops & Grain Brewery,TX,1071,298,4.0
+Hops & Grains Brewing Company,TX,1072,299,1.0
+Hopworks Urban Brewery,OR,1073,300,20.0
+Hopworks Urban Brewery,OR,1074,300,20.0
+Hopworks Urban Brewery,,1075,301,
+Hopworks Urban Brewery,OR,1076,300,20.0
+Hopworks Urban Brewery,,1077,301,
+Hopworks Urban Brewery,OR,1078,300,20.0
+Hopworks Urban Brewery,OR,1079,300,20.0
+Hopworks Urban Brewery,OR,1080,300,20.0
+Hopworks Urban Brewery,OR,1081,300,20.0
+Hopworks Urban Brewery,OR,1082,300,20.0
+Hopworks Urban Brewery,OR,1083,300,20.0
+Hopworks Urban Brewery,OR,1084,300,20.0
+Hopworks Urban Brewery,OR,1085,300,20.0
+Hopworks Urban Brewery,OR,1086,300,20.0
+Hopworks Urban Brewery,OR,1087,300,20.0
+Hopworks Urban Brewery,,1088,301,
+Hopworks Urban Brewery,OR,1089,300,20.0
+Hopworks Urban Brewery,OR,1090,300,20.0
+Hopworks Urban Brewery,OR,1091,300,20.0
+Hopworks Urban Brewery,OR,1092,300,20.0
+Hopworks Urban Brewery,OR,1093,300,20.0
+Hopworks Urban Brewery,OR,1094,300,20.0
+Hopworks Urban Brewery,OR,1095,300,20.0
+Horny Goat Brew Pub,WI,1096,302,3.0
+Horny Goat Brew Pub,WI,1097,302,3.0
+Horny Goat Brew Pub,WI,1098,302,3.0
+Howard Brewing Company,NC,1099,303,2.0
+Howard Brewing Company,NC,1100,303,2.0
+Indeed Brewing Company,MN,1101,304,6.0
+Indeed Brewing Company,MN,1102,304,6.0
+Indeed Brewing Company,MN,1103,304,6.0
+Indeed Brewing Company,MN,1104,304,6.0
+Indeed Brewing Company,MN,1105,304,6.0
+Indeed Brewing Company,MN,1106,304,6.0
+Independence Brewing Company,TX,1107,305,3.0
+Independence Brewing Company,TX,1108,305,3.0
+Independence Brewing Company,TX,1109,305,3.0
+Indiana City Brewing,IN,1110,306,1.0
+Infamous Brewing Company,TX,1111,307,2.0
+Infamous Brewing Company,TX,1112,307,2.0
+Intuition Ale Works,FL,1113,308,3.0
+Intuition Ale Works,FL,1114,308,3.0
+Intuition Ale Works,FL,1115,308,3.0
+Ipswich Ale Brewery,MA,1116,309,1.0
+Iron Hill Brewery & Restaurant,DE,1117,310,1.0
+Jack's Abby Craft Lagers,MA,1118,311,4.0
+Jack's Abby Craft Lagers,MA,1119,311,4.0
+Jack's Abby Craft Lagers,,1120,312,
+Jack's Abby Craft Lagers,MA,1121,311,4.0
+Jack's Abby Craft Lagers,MA,1122,311,4.0
+Jack's Hard Cider (Hauser Estate...,PA,1123,313,2.0
+Jack's Hard Cider (Hauser Estate...,PA,1124,313,2.0
+Jackalope Brewing Company,TN,1125,314,1.0
+Jackie O's Pub & Brewery,OH,1126,315,5.0
+Jackie O's Pub & Brewery,OH,1127,315,5.0
+Jackie O's Pub & Brewery,OH,1128,315,5.0
+Jackie O's Pub & Brewery,OH,1129,315,5.0
+Jackie O's Pub & Brewery,OH,1130,315,5.0
+Jailbreak Brewing Company,MD,1131,316,1.0
+James Page Brewing Company,WI,1132,317,5.0
+James Page Brewing Company,WI,1133,317,5.0
+James Page Brewing Company,WI,1134,317,5.0
+James Page Brewing Company,WI,1135,317,5.0
+James Page Brewing Company,WI,1136,317,5.0
+James Page Brewing Company,,1137,318,
+Joseph James Brewing Company,NV,1138,319,4.0
+Joseph James Brewing Company,NV,1139,319,4.0
+Joseph James Brewing Company,NV,1140,319,4.0
+Joseph James Brewing Company,NV,1141,319,4.0
+Kalona Brewing Company,IA,1142,320,2.0
+Kalona Brewing Company,IA,1143,320,2.0
+Karbach Brewing Company,TX,1144,321,9.0
+Karbach Brewing Company,TX,1145,321,9.0
+Karbach Brewing Company,TX,1146,321,9.0
+Karbach Brewing Company,TX,1147,321,9.0
+Karbach Brewing Company,,1148,322,
+Karbach Brewing Company,TX,1149,321,9.0
+Karbach Brewing Company,TX,1150,321,9.0
+Karbach Brewing Company,TX,1151,321,9.0
+Karbach Brewing Company,TX,1152,321,9.0
+Karbach Brewing Company,TX,1153,321,9.0
+KelSo Beer Company,NY,1154,323,2.0
+KelSo Beer Company,NY,1155,323,2.0
+KelSo Beer Company,,1156,324,
+Kenai River Brewing Company,AK,1157,325,3.0
+Kenai River Brewing Company,,1158,326,
+Kenai River Brewing Company,AK,1159,325,3.0
+Kenai River Brewing Company,AK,1160,325,3.0
+Kettle House Brewing Company,MT,1161,327,6.0
+Kettle House Brewing Company,MT,1162,327,6.0
+Kettle House Brewing Company,MT,1163,327,6.0
+Kettle House Brewing Company,MT,1164,327,6.0
+Kettle House Brewing Company,MT,1165,327,6.0
+Kettle House Brewing Company,MT,1166,327,6.0
+Keweenaw Brewing Company,MI,1167,328,7.0
+Keweenaw Brewing Company,MI,1168,328,7.0
+Keweenaw Brewing Company,MI,1169,328,7.0
+Keweenaw Brewing Company,MI,1170,328,7.0
+Keweenaw Brewing Company,MI,1171,328,7.0
+Keweenaw Brewing Company,MI,1172,328,7.0
+Keweenaw Brewing Company,MI,1173,328,7.0
+King Street Brewing Company,AK,1174,329,5.0
+King Street Brewing Company,AK,1175,329,5.0
+King Street Brewing Company,AK,1176,329,5.0
+King Street Brewing Company,AK,1177,329,5.0
+King Street Brewing Company,AK,1178,329,5.0
+Kirkwood Station Brewing Company,MO,1179,330,2.0
+Kirkwood Station Brewing Company,MO,1180,330,2.0
+Kona Brewing Company,HI,1181,331,4.0
+Kona Brewing Company,HI,1182,331,4.0
+Kona Brewing Company,HI,1183,331,4.0
+Kona Brewing Company,HI,1184,331,4.0
+Krebs Brewing Company (Pete's Pl...,OK,1185,332,1.0
+Kulshan Brewery,WA,1186,333,1.0
+La Cumbre Brewing Company,,1187,334,
+La Cumbre Brewing Company,NM,1188,335,1.0
+Lancaster Brewing Company,PA,1189,336,2.0
+Lancaster Brewing Company,PA,1190,336,2.0
+Latitude 42 Brewing Company,MI,1191,337,4.0
+Latitude 42 Brewing Company,MI,1192,337,4.0
+Latitude 42 Brewing Company,MI,1193,337,4.0
+Latitude 42 Brewing Company,MI,1194,337,4.0
+Laughing Dog Brewing Company,ID,1195,338,3.0
+Laughing Dog Brewing Company,ID,1196,338,3.0
+Laughing Dog Brewing Company,ID,1197,338,3.0
+Lavery Brewing Company,PA,1198,339,2.0
+Lavery Brewing Company,PA,1199,339,2.0
+Lazy Monk Brewing,WI,1200,340,1.0
+Lewis and Clark Brewing Company,MT,1201,341,4.0
+Lewis and Clark Brewing Company,MT,1202,341,4.0
+Lewis and Clark Brewing Company,,1203,342,
+Lewis and Clark Brewing Company,MT,1204,341,4.0
+Lewis and Clark Brewing Company,MT,1205,341,4.0
+Lift Bridge Brewing Company,MN,1206,343,2.0
+Lift Bridge Brewing Company,MN,1207,343,2.0
+Liquid Hero Brewery,PA,1208,344,3.0
+Liquid Hero Brewery,PA,1209,344,3.0
+Liquid Hero Brewery,PA,1210,344,3.0
+Liquid Hero Brewery,,1211,345,
+Lone Tree Brewing Company,CO,1212,346,1.0
+Lonerider Brewing Company,NC,1213,347,5.0
+Lonerider Brewing Company,NC,1214,347,5.0
+Lonerider Brewing Company,NC,1215,347,5.0
+Lonerider Brewing Company,NC,1216,347,5.0
+Lonerider Brewing Company,NC,1217,347,5.0
+Long Trail Brewing Company,VT,1218,348,5.0
+Long Trail Brewing Company,VT,1219,348,5.0
+Long Trail Brewing Company,VT,1220,348,5.0
+Long Trail Brewing Company,VT,1221,348,5.0
+Long Trail Brewing Company,VT,1222,348,5.0
+Lost Nation Brewing,VT,1223,349,4.0
+Lost Nation Brewing,VT,1224,349,4.0
+Lost Nation Brewing,VT,1225,349,4.0
+Lost Nation Brewing,VT,1226,349,4.0
+Lost Rhino Brewing Company,VA,1227,350,2.0
+Lost Rhino Brewing Company,VA,1228,350,2.0
+Lucette Brewing Company,WI,1229,351,4.0
+Lucette Brewing Company,WI,1230,351,4.0
+Lucette Brewing Company,WI,1231,351,4.0
+Lucette Brewing Company,WI,1232,351,4.0
+Lucky Town Brewing Company,MS,1233,352,2.0
+Lucky Town Brewing Company,MS,1234,352,2.0
+Lumberyard Brewing Company,AZ,1235,353,4.0
+Lumberyard Brewing Company,AZ,1236,353,4.0
+Lumberyard Brewing Company,AZ,1237,353,4.0
+Lumberyard Brewing Company,AZ,1238,353,4.0
+MacTarnahans Brewing Company,,1239,354,
+MacTarnahans Brewing Company,OR,1240,355,1.0
+Macon Beer Company,GA,1241,356,2.0
+Macon Beer Company,GA,1242,356,2.0
+Madtree Brewing Company,OH,1243,357,8.0
+Madtree Brewing Company,OH,1244,357,8.0
+Madtree Brewing Company,OH,1245,357,8.0
+Madtree Brewing Company,,1246,358,
+Madtree Brewing Company,OH,1247,357,8.0
+Madtree Brewing Company,OH,1248,357,8.0
+Madtree Brewing Company,OH,1249,357,8.0
+Madtree Brewing Company,OH,1250,357,8.0
+Madtree Brewing Company,OH,1251,357,8.0
+Magic Hat Brewing Company,VT,1252,359,3.0
+Magic Hat Brewing Company,VT,1253,359,3.0
+Magic Hat Brewing Company,VT,1254,359,3.0
+Mammoth Brewing Company,CA,1255,360,4.0
+Mammoth Brewing Company,CA,1256,360,4.0
+Mammoth Brewing Company,CA,1257,360,4.0
+Mammoth Brewing Company,CA,1258,360,4.0
+Manayunk Brewing Company,PA,1259,361,9.0
+Manayunk Brewing Company,PA,1260,361,9.0
+Manayunk Brewing Company,PA,1261,361,9.0
+Manayunk Brewing Company,PA,1262,361,9.0
+Manayunk Brewing Company,PA,1263,361,9.0
+Manayunk Brewing Company,PA,1264,361,9.0
+Manayunk Brewing Company,PA,1265,361,9.0
+Manayunk Brewing Company,PA,1266,361,9.0
+Manayunk Brewing Company,PA,1267,361,9.0
+Manzanita Brewing Company,CA,1268,362,5.0
+Manzanita Brewing Company,CA,1269,362,5.0
+Manzanita Brewing Company,CA,1270,362,5.0
+Manzanita Brewing Company,CA,1271,362,5.0
+Manzanita Brewing Company,CA,1272,362,5.0
+Marble Brewery,NM,1273,363,2.0
+Marble Brewery,NM,1274,363,2.0
+Marshall Wharf Brewing Company,ME,1275,364,5.0
+Marshall Wharf Brewing Company,ME,1276,364,5.0
+Marshall Wharf Brewing Company,ME,1277,364,5.0
+Marshall Wharf Brewing Company,ME,1278,364,5.0
+Marshall Wharf Brewing Company,ME,1279,364,5.0
+Martin House Brewing Company,TX,1280,365,6.0
+Martin House Brewing Company,TX,1281,365,6.0
+Martin House Brewing Company,TX,1282,365,6.0
+Martin House Brewing Company,TX,1283,365,6.0
+Martin House Brewing Company,,1284,366,
+Martin House Brewing Company,TX,1285,365,6.0
+Martin House Brewing Company,TX,1286,365,6.0
+Martin House Brewing Company,,1287,366,
+Matt Brewing Company,,1288,367,
+Matt Brewing Company,NY,1289,368,11.0
+Matt Brewing Company,NY,1290,368,11.0
+Matt Brewing Company,NY,1291,368,11.0
+Matt Brewing Company,NY,1292,368,11.0
+Matt Brewing Company,NY,1293,368,11.0
+Matt Brewing Company,,1294,367,
+Matt Brewing Company,NY,1295,368,11.0
+Matt Brewing Company,NY,1296,368,11.0
+Matt Brewing Company,NY,1297,368,11.0
+Matt Brewing Company,NY,1298,368,11.0
+Matt Brewing Company,NY,1299,368,11.0
+Matt Brewing Company,NY,1300,368,11.0
+Maui Brewing Company,HI,1301,369,12.0
+Maui Brewing Company,HI,1302,369,12.0
+Maui Brewing Company,HI,1303,369,12.0
+Maui Brewing Company,HI,1304,369,12.0
+Maui Brewing Company,HI,1305,369,12.0
+Maui Brewing Company,HI,1306,369,12.0
+Maui Brewing Company,HI,1307,369,12.0
+Maui Brewing Company,HI,1308,369,12.0
+Maui Brewing Company,HI,1309,369,12.0
+Maui Brewing Company,HI,1310,369,12.0
+Maui Brewing Company,HI,1311,369,12.0
+Maui Brewing Company,HI,1312,369,12.0
+Mavericks Beer Company,CA,1313,370,3.0
+Mavericks Beer Company,CA,1314,370,3.0
+Mavericks Beer Company,CA,1315,370,3.0
+Meckley's Cidery,MI,1316,371,3.0
+Meckley's Cidery,MI,1317,371,3.0
+Meckley's Cidery,MI,1318,371,3.0
+Mehana Brewing Co.,HI,1319,372,6.0
+Mehana Brewing Co.,HI,1320,372,6.0
+Mehana Brewing Co.,HI,1321,372,6.0
+Mehana Brewing Co.,HI,1322,372,6.0
+Mehana Brewing Co.,HI,1323,372,6.0
+Mehana Brewing Co.,HI,1324,372,6.0
+Miami Brewing Company,FL,1325,373,4.0
+Miami Brewing Company,FL,1326,373,4.0
+Miami Brewing Company,FL,1327,373,4.0
+Miami Brewing Company,FL,1328,373,4.0
+Mickey Finn's Brewery,IL,1329,374,1.0
+Midnight Sun Brewing Company,AK,1330,375,5.0
+Midnight Sun Brewing Company,AK,1331,375,5.0
+Midnight Sun Brewing Company,AK,1332,375,5.0
+Midnight Sun Brewing Company,AK,1333,375,5.0
+Midnight Sun Brewing Company,AK,1334,375,5.0
+Mike Hess Brewing Company,CA,1335,376,6.0
+Mike Hess Brewing Company,CA,1336,376,6.0
+Mike Hess Brewing Company,CA,1337,376,6.0
+Mike Hess Brewing Company,CA,1338,376,6.0
+Mike Hess Brewing Company,CA,1339,376,6.0
+Mike Hess Brewing Company,CA,1340,376,6.0
+Mikerphone Brewing,IL,1341,377,7.0
+Mikerphone Brewing,,1342,378,
+Mikerphone Brewing,IL,1343,377,7.0
+Mikerphone Brewing,IL,1344,377,7.0
+Mikerphone Brewing,IL,1345,377,7.0
+Mikerphone Brewing,IL,1346,377,7.0
+Mikerphone Brewing,IL,1347,377,7.0
+Mikerphone Brewing,IL,1348,377,7.0
+Mikkeller,PA,1349,379,2.0
+Mikkeller,PA,1350,379,2.0
+MillKing It Productions,MI,1351,380,3.0
+MillKing It Productions,MI,1352,380,3.0
+MillKing It Productions,MI,1353,380,3.0
+Milwaukee Brewing Company,WI,1354,381,7.0
+Milwaukee Brewing Company,WI,1355,381,7.0
+Milwaukee Brewing Company,WI,1356,381,7.0
+Milwaukee Brewing Company,WI,1357,381,7.0
+Milwaukee Brewing Company,WI,1358,381,7.0
+Milwaukee Brewing Company,WI,1359,381,7.0
+Milwaukee Brewing Company,WI,1360,381,7.0
+Minhas Craft Brewery,WI,1361,382,12.0
+Minhas Craft Brewery,WI,1362,382,12.0
+Minhas Craft Brewery,WI,1363,382,12.0
+Minhas Craft Brewery,WI,1364,382,12.0
+Minhas Craft Brewery,WI,1365,382,12.0
+Minhas Craft Brewery,WI,1366,382,12.0
+Minhas Craft Brewery,,1367,383,
+Minhas Craft Brewery,WI,1368,382,12.0
+Minhas Craft Brewery,WI,1369,382,12.0
+Minhas Craft Brewery,WI,1370,382,12.0
+Minhas Craft Brewery,WI,1371,382,12.0
+Minhas Craft Brewery,WI,1372,382,12.0
+Minhas Craft Brewery,WI,1373,382,12.0
+Mission Brewery,,1374,384,
+Mission Brewery,CA,1375,385,2.0
+Mission Brewery,,1376,384,
+Mission Brewery,CA,1377,385,2.0
+Moab Brewery,UT,1378,386,4.0
+Moab Brewery,UT,1379,386,4.0
+Moab Brewery,UT,1380,386,4.0
+Moab Brewery,UT,1381,386,4.0
+Moat Mountain Smoke House & Brew...,NH,1382,387,2.0
+Moat Mountain Smoke House & Brew...,NH,1383,387,2.0
+Modern Monks Brewery,NE,1384,388,1.0
+Modern Times Beer,CA,1385,389,8.0
+Modern Times Beer,CA,1386,389,8.0
+Modern Times Beer,CA,1387,389,8.0
+Modern Times Beer,CA,1388,389,8.0
+Modern Times Beer,CA,1389,389,8.0
+Modern Times Beer,CA,1390,389,8.0
+Modern Times Beer,CA,1391,389,8.0
+Modern Times Beer,CA,1392,389,8.0
+Mogollon Brewing Company,AZ,1393,390,1.0
+Monkey Paw Pub & Brewery,CA,1394,391,3.0
+Monkey Paw Pub & Brewery,CA,1395,391,3.0
+Monkey Paw Pub & Brewery,CA,1396,391,3.0
+Montauk Brewing Company,NY,1397,392,2.0
+Montauk Brewing Company,NY,1398,392,2.0
+Morgan Street Brewery,MO,1399,393,5.0
+Morgan Street Brewery,MO,1400,393,5.0
+Morgan Street Brewery,MO,1401,393,5.0
+Morgan Street Brewery,MO,1402,393,5.0
+Morgan Street Brewery,MO,1403,393,5.0
+Mother Earth Brew Company,CA,1404,394,1.0
+Mother Earth Brewing Company,NC,1405,395,2.0
+Mother Earth Brewing Company,NC,1406,395,2.0
+Mother's Brewing,MO,1407,396,2.0
+Mother's Brewing,MO,1408,396,2.0
+Mountain Town Brewing Company,MI,1409,397,1.0
+Mudshark Brewing Company,AZ,1410,398,5.0
+Mudshark Brewing Company,AZ,1411,398,5.0
+Mudshark Brewing Company,AZ,1412,398,5.0
+Mudshark Brewing Company,AZ,1413,398,5.0
+Mudshark Brewing Company,AZ,1414,398,5.0
+Mustang Brewing Company,OK,1415,399,5.0
+Mustang Brewing Company,OK,1416,399,5.0
+Mustang Brewing Company,OK,1417,399,5.0
+Mustang Brewing Company,OK,1418,399,5.0
+Mustang Brewing Company,OK,1419,399,5.0
+Narragansett Brewing Company,RI,1420,400,10.0
+Narragansett Brewing Company,RI,1421,400,10.0
+Narragansett Brewing Company,RI,1422,400,10.0
+Narragansett Brewing Company,RI,1423,400,10.0
+Narragansett Brewing Company,RI,1424,400,10.0
+Narragansett Brewing Company,RI,1425,400,10.0
+Narragansett Brewing Company,RI,1426,400,10.0
+Narragansett Brewing Company,RI,1427,400,10.0
+Narragansett Brewing Company,RI,1428,400,10.0
+Narragansett Brewing Company,RI,1429,400,10.0
+Natian Brewery,,1430,401,
+Natian Brewery,OR,1431,402,5.0
+Natian Brewery,OR,1432,402,5.0
+Natian Brewery,OR,1433,402,5.0
+Natian Brewery,OR,1434,402,5.0
+Natian Brewery,OR,1435,402,5.0
+Nebraska Brewing Company,NE,1436,403,5.0
+Nebraska Brewing Company,NE,1437,403,5.0
+Nebraska Brewing Company,NE,1438,403,5.0
+Nebraska Brewing Company,NE,1439,403,5.0
+Nebraska Brewing Company,NE,1440,403,5.0
+Neshaminy Creek Brewing Company,PA,1441,404,2.0
+Neshaminy Creek Brewing Company,PA,1442,404,2.0
+New Belgium Brewing Company,CO,1443,405,17.0
+New Belgium Brewing Company,CO,1444,405,17.0
+New Belgium Brewing Company,CO,1445,405,17.0
+New Belgium Brewing Company,CO,1446,405,17.0
+New Belgium Brewing Company,CO,1447,405,17.0
+New Belgium Brewing Company,CO,1448,405,17.0
+New Belgium Brewing Company,CO,1449,405,17.0
+New Belgium Brewing Company,CO,1450,405,17.0
+New Belgium Brewing Company,CO,1451,405,17.0
+New Belgium Brewing Company,CO,1452,405,17.0
+New Belgium Brewing Company,CO,1453,405,17.0
+New Belgium Brewing Company,CO,1454,405,17.0
+New Belgium Brewing Company,CO,1455,405,17.0
+New Belgium Brewing Company,CO,1456,405,17.0
+New Belgium Brewing Company,CO,1457,405,17.0
+New Belgium Brewing Company,CO,1458,405,17.0
+New Belgium Brewing Company,CO,1459,405,17.0
+New England Brewing Company,CT,1460,406,11.0
+New England Brewing Company,CT,1461,406,11.0
+New England Brewing Company,CT,1462,406,11.0
+New England Brewing Company,CT,1463,406,11.0
+New England Brewing Company,CT,1464,406,11.0
+New England Brewing Company,CT,1465,406,11.0
+New England Brewing Company,CT,1466,406,11.0
+New England Brewing Company,CT,1467,406,11.0
+New England Brewing Company,CT,1468,406,11.0
+New England Brewing Company,CT,1469,406,11.0
+New England Brewing Company,CT,1470,406,11.0
+New Orleans Lager & Ale Brewing ...,LA,1471,407,6.0
+New Orleans Lager & Ale Brewing ...,LA,1472,407,6.0
+New Orleans Lager & Ale Brewing ...,LA,1473,407,6.0
+New Orleans Lager & Ale Brewing ...,LA,1474,407,6.0
+New Orleans Lager & Ale Brewing ...,LA,1475,407,6.0
+New Orleans Lager & Ale Brewing ...,LA,1476,407,6.0
+New Republic Brewing Company,TX,1477,408,3.0
+New Republic Brewing Company,TX,1478,408,3.0
+New Republic Brewing Company,TX,1479,408,3.0
+New South Brewing Company,,1480,409,
+New South Brewing Company,SC,1481,410,1.0
+Newburgh Brewing Company,NY,1482,411,1.0
+Newburyport Brewing Company,MA,1483,412,3.0
+Newburyport Brewing Company,MA,1484,412,3.0
+Newburyport Brewing Company,MA,1485,412,3.0
+Night Shift Brewing,MA,1486,413,1.0
+NoDa Brewing Company,NC,1487,414,2.0
+NoDa Brewing Company,NC,1488,414,2.0
+North Country Brewing Company,PA,1489,415,4.0
+North Country Brewing Company,PA,1490,415,4.0
+North Country Brewing Company,PA,1491,415,4.0
+North Country Brewing Company,PA,1492,415,4.0
+NorthGate Brewing,MN,1493,416,6.0
+NorthGate Brewing,MN,1494,416,6.0
+NorthGate Brewing,MN,1495,416,6.0
+NorthGate Brewing,MN,1496,416,6.0
+NorthGate Brewing,MN,1497,416,6.0
+NorthGate Brewing,MN,1498,416,6.0
+Northampton Brewery,MA,1499,417,1.0
+Northwest Brewing Company,WA,1500,418,2.0
+Northwest Brewing Company,WA,1501,418,2.0
+Northwoods Brewpub,WI,1502,419,2.0
+Northwoods Brewpub,WI,1503,419,2.0
+Notch Brewing Company,MA,1504,420,2.0
+Notch Brewing Company,MA,1505,420,2.0
+O'Fallon Brewery,MO,1506,421,3.0
+O'Fallon Brewery,MO,1507,421,3.0
+O'Fallon Brewery,MO,1508,421,3.0
+Oakshire Brewing,OR,1509,422,4.0
+Oakshire Brewing,OR,1510,422,4.0
+Oakshire Brewing,OR,1511,422,4.0
+Oakshire Brewing,OR,1512,422,4.0
+Oasis Texas Brewing Company,TX,1513,423,4.0
+Oasis Texas Brewing Company,TX,1514,423,4.0
+Oasis Texas Brewing Company,TX,1515,423,4.0
+Oasis Texas Brewing Company,TX,1516,423,4.0
+Occidental Brewing Company,OR,1517,424,4.0
+Occidental Brewing Company,OR,1518,424,4.0
+Occidental Brewing Company,OR,1519,424,4.0
+Occidental Brewing Company,OR,1520,424,4.0
+Odyssey Beerwerks,CO,1521,425,7.0
+Odyssey Beerwerks,CO,1522,425,7.0
+Odyssey Beerwerks,CO,1523,425,7.0
+Odyssey Beerwerks,CO,1524,425,7.0
+Odyssey Beerwerks,CO,1525,425,7.0
+Odyssey Beerwerks,CO,1526,425,7.0
+Odyssey Beerwerks,CO,1527,425,7.0
+Okoboji Brewing Company,IA,1528,426,6.0
+Okoboji Brewing Company,IA,1529,426,6.0
+Okoboji Brewing Company,IA,1530,426,6.0
+Okoboji Brewing Company,IA,1531,426,6.0
+Okoboji Brewing Company,IA,1532,426,6.0
+Okoboji Brewing Company,IA,1533,426,6.0
+Old Forge Brewing Company,PA,1534,427,10.0
+Old Forge Brewing Company,PA,1535,427,10.0
+Old Forge Brewing Company,PA,1536,427,10.0
+Old Forge Brewing Company,PA,1537,427,10.0
+Old Forge Brewing Company,PA,1538,427,10.0
+Old Forge Brewing Company,PA,1539,427,10.0
+Old Forge Brewing Company,PA,1540,427,10.0
+Old Forge Brewing Company,PA,1541,427,10.0
+Old Forge Brewing Company,PA,1542,427,10.0
+Old Forge Brewing Company,PA,1543,427,10.0
+Orlison Brewing Company,WA,1544,428,5.0
+Orlison Brewing Company,WA,1545,428,5.0
+Orlison Brewing Company,WA,1546,428,5.0
+Orlison Brewing Company,WA,1547,428,5.0
+Orlison Brewing Company,WA,1548,428,5.0
+Orpheus Brewing,GA,1549,429,2.0
+Orpheus Brewing,GA,1550,429,2.0
+Oskar Blues Brewery,CO,1551,430,41.0
+Oskar Blues Brewery,CO,1552,430,41.0
+Oskar Blues Brewery,CO,1553,430,41.0
+Oskar Blues Brewery,CO,1554,430,41.0
+Oskar Blues Brewery,CO,1555,430,41.0
+Oskar Blues Brewery,CO,1556,430,41.0
+Oskar Blues Brewery,CO,1557,430,41.0
+Oskar Blues Brewery,,1558,431,
+Oskar Blues Brewery,,1559,431,
+Oskar Blues Brewery,CO,1560,430,41.0
+Oskar Blues Brewery,CO,1561,430,41.0
+Oskar Blues Brewery,CO,1562,430,41.0
+Oskar Blues Brewery,CO,1563,430,41.0
+Oskar Blues Brewery,CO,1564,430,41.0
+Oskar Blues Brewery,CO,1565,430,41.0
+Oskar Blues Brewery,CO,1566,430,41.0
+Oskar Blues Brewery,CO,1567,430,41.0
+Oskar Blues Brewery,CO,1568,430,41.0
+Oskar Blues Brewery,CO,1569,430,41.0
+Oskar Blues Brewery,CO,1570,430,41.0
+Oskar Blues Brewery,CO,1571,430,41.0
+Oskar Blues Brewery,CO,1572,430,41.0
+Oskar Blues Brewery,CO,1573,430,41.0
+Oskar Blues Brewery,CO,1574,430,41.0
+Oskar Blues Brewery,CO,1575,430,41.0
+Oskar Blues Brewery,CO,1576,430,41.0
+Oskar Blues Brewery,CO,1577,430,41.0
+Oskar Blues Brewery,CO,1578,430,41.0
+Oskar Blues Brewery,CO,1579,430,41.0
+Oskar Blues Brewery,CO,1580,430,41.0
+Oskar Blues Brewery,CO,1581,430,41.0
+Oskar Blues Brewery,,1582,431,
+Oskar Blues Brewery,CO,1583,430,41.0
+Oskar Blues Brewery,CO,1584,430,41.0
+Oskar Blues Brewery,CO,1585,430,41.0
+Oskar Blues Brewery,CO,1586,430,41.0
+Oskar Blues Brewery,,1587,431,
+Oskar Blues Brewery,CO,1588,430,41.0
+Oskar Blues Brewery,CO,1589,430,41.0
+Oskar Blues Brewery,CO,1590,430,41.0
+Oskar Blues Brewery,,1591,431,
+Oskar Blues Brewery,CO,1592,430,41.0
+Oskar Blues Brewery,CO,1593,430,41.0
+Oskar Blues Brewery,CO,1594,430,41.0
+Oskar Blues Brewery,CO,1595,430,41.0
+Oskar Blues Brewery,CO,1596,430,41.0
+Oskar Blues Brewery (North Carol...,NC,1597,432,6.0
+Oskar Blues Brewery (North Carol...,NC,1598,432,6.0
+Oskar Blues Brewery (North Carol...,NC,1599,432,6.0
+Oskar Blues Brewery (North Carol...,NC,1600,432,6.0
+Oskar Blues Brewery (North Carol...,NC,1601,432,6.0
+Oskar Blues Brewery (North Carol...,NC,1602,432,6.0
+Otter Creek Brewing,VT,1603,433,2.0
+Otter Creek Brewing,VT,1604,433,2.0
+Ozark Beer Company,AR,1605,434,1.0
+Palisade Brewing Company,CO,1606,435,2.0
+Palisade Brewing Company,CO,1607,435,2.0
+Pateros Creek Brewing Company,CO,1608,436,5.0
+Pateros Creek Brewing Company,CO,1609,436,5.0
+Pateros Creek Brewing Company,CO,1610,436,5.0
+Pateros Creek Brewing Company,CO,1611,436,5.0
+Pateros Creek Brewing Company,CO,1612,436,5.0
+Payette Brewing Company,ID,1613,437,5.0
+Payette Brewing Company,ID,1614,437,5.0
+Payette Brewing Company,ID,1615,437,5.0
+Payette Brewing Company,ID,1616,437,5.0
+Payette Brewing Company,ID,1617,437,5.0
+Peace Tree Brewing Company,IA,1618,438,1.0
+Peak Organic Brewing Company,ME,1619,439,1.0
+Peak Organic Brewing Company,,1620,440,
+Pedernales Brewing Company,TX,1621,441,2.0
+Pedernales Brewing Company,TX,1622,441,2.0
+People's Brewing Company,IN,1623,442,4.0
+People's Brewing Company,IN,1624,442,4.0
+People's Brewing Company,IN,1625,442,4.0
+People's Brewing Company,IN,1626,442,4.0
+Perrin Brewing Company,MI,1627,443,6.0
+Perrin Brewing Company,MI,1628,443,6.0
+Perrin Brewing Company,MI,1629,443,6.0
+Perrin Brewing Company,MI,1630,443,6.0
+Perrin Brewing Company,MI,1631,443,6.0
+Perrin Brewing Company,MI,1632,443,6.0
+Pete's Brewing Company,TX,1633,444,7.0
+Pete's Brewing Company,TX,1634,444,7.0
+Pete's Brewing Company,TX,1635,444,7.0
+Pete's Brewing Company,TX,1636,444,7.0
+Pete's Brewing Company,TX,1637,444,7.0
+Pete's Brewing Company,TX,1638,444,7.0
+Pete's Brewing Company,TX,1639,444,7.0
+Petoskey Brewing,MI,1640,445,3.0
+Petoskey Brewing,,1641,446,
+Petoskey Brewing,MI,1642,445,3.0
+Petoskey Brewing,MI,1643,445,3.0
+Phoenix Ale Brewery,AZ,1644,447,1.0
+Pikes Peak Brewing Company,CO,1645,448,3.0
+Pikes Peak Brewing Company,CO,1646,448,3.0
+Pikes Peak Brewing Company,CO,1647,448,3.0
+Pine Street Brewery,CA,1648,449,2.0
+Pine Street Brewery,CA,1649,449,2.0
+Piney River Brewing Company,MO,1650,450,8.0
+Piney River Brewing Company,MO,1651,450,8.0
+Piney River Brewing Company,MO,1652,450,8.0
+Piney River Brewing Company,MO,1653,450,8.0
+Piney River Brewing Company,MO,1654,450,8.0
+Piney River Brewing Company,MO,1655,450,8.0
+Piney River Brewing Company,MO,1656,450,8.0
+Piney River Brewing Company,MO,1657,450,8.0
+Pipeworks Brewing Company,IL,1658,451,1.0
+Pisgah Brewing Company,NC,1659,452,2.0
+Pisgah Brewing Company,NC,1660,452,2.0
+Pizza Port Brewing Company,CA,1661,453,3.0
+Pizza Port Brewing Company,CA,1662,453,3.0
+Pizza Port Brewing Company,CA,1663,453,3.0
+Platform Beer Company,OH,1664,454,1.0
+Pollyanna Brewing Company,IL,1665,455,1.0
+Portside Brewery,OH,1666,456,1.0
+Prescott Brewing Company,AZ,1667,457,2.0
+Prescott Brewing Company,AZ,1668,457,2.0
+Pug Ryan's Brewery,CO,1669,458,6.0
+Pug Ryan's Brewery,,1670,459,
+Pug Ryan's Brewery,CO,1671,458,6.0
+Pug Ryan's Brewery,CO,1672,458,6.0
+Pug Ryan's Brewery,CO,1673,458,6.0
+Pug Ryan's Brewery,CO,1674,458,6.0
+Pug Ryan's Brewery,CO,1675,458,6.0
+Pyramid Breweries,WA,1676,460,2.0
+Pyramid Breweries,WA,1677,460,2.0
+Quest Brewing Company,SC,1678,461,2.0
+Quest Brewing Company,SC,1679,461,2.0
+Rahr & Sons Brewing Company,TX,1680,462,2.0
+Rahr & Sons Brewing Company,TX,1681,462,2.0
+Real Ale Brewing Company,TX,1682,463,8.0
+Real Ale Brewing Company,TX,1683,463,8.0
+Real Ale Brewing Company,TX,1684,463,8.0
+Real Ale Brewing Company,TX,1685,463,8.0
+Real Ale Brewing Company,TX,1686,463,8.0
+Real Ale Brewing Company,TX,1687,463,8.0
+Real Ale Brewing Company,TX,1688,463,8.0
+Real Ale Brewing Company,TX,1689,463,8.0
+Red Hare Brewing Company,GA,1690,464,2.0
+Red Hare Brewing Company,,1691,465,
+Red Hare Brewing Company,GA,1692,464,2.0
+Red Shedman Farm Brewery and Hop...,MD,1693,466,5.0
+Red Shedman Farm Brewery and Hop...,MD,1694,466,5.0
+Red Shedman Farm Brewery and Hop...,MD,1695,466,5.0
+Red Shedman Farm Brewery and Hop...,MD,1696,466,5.0
+Red Shedman Farm Brewery and Hop...,MD,1697,466,5.0
+Red Tank Cider Company,OR,1698,467,1.0
+Redhook Brewery,WA,1699,468,3.0
+Redhook Brewery,WA,1700,468,3.0
+Redhook Brewery,WA,1701,468,3.0
+Redstone Meadery,CO,1702,469,3.0
+Redstone Meadery,CO,1703,469,3.0
+Redstone Meadery,CO,1704,469,3.0
+Refuge Brewery,CA,1705,470,1.0
+Renegade Brewing Company,CO,1706,471,5.0
+Renegade Brewing Company,CO,1707,471,5.0
+Renegade Brewing Company,,1708,472,
+Renegade Brewing Company,CO,1709,471,5.0
+Renegade Brewing Company,CO,1710,471,5.0
+Renegade Brewing Company,CO,1711,471,5.0
+Revolution Brewing,CO,1712,473,7.0
+Revolution Brewing,CO,1713,473,7.0
+Revolution Brewing,,1714,474,
+Revolution Brewing,CO,1715,473,7.0
+Revolution Brewing,CO,1716,473,7.0
+Revolution Brewing,CO,1717,473,7.0
+Revolution Brewing,CO,1718,473,7.0
+Revolution Brewing,CO,1719,473,7.0
+Revolution Brewing Company,IL,1720,475,8.0
+Revolution Brewing Company,IL,1721,475,8.0
+Revolution Brewing Company,IL,1722,475,8.0
+Revolution Brewing Company,IL,1723,475,8.0
+Revolution Brewing Company,IL,1724,475,8.0
+Revolution Brewing Company,IL,1725,475,8.0
+Revolution Brewing Company,IL,1726,475,8.0
+Revolution Brewing Company,IL,1727,475,8.0
+Rhinegeist Brewery,OH,1728,476,7.0
+Rhinegeist Brewery,OH,1729,476,7.0
+Rhinegeist Brewery,OH,1730,476,7.0
+Rhinegeist Brewery,OH,1731,476,7.0
+Rhinegeist Brewery,OH,1732,476,7.0
+Rhinegeist Brewery,OH,1733,476,7.0
+Rhinegeist Brewery,OH,1734,476,7.0
+Rhinegeist Brewery,,1735,477,
+Right Brain Brewery,MI,1736,478,1.0
+Rising Tide Brewing Company,ME,1737,479,1.0
+Rising Tide Brewing Company,,1738,480,
+River North Brewery,CO,1739,481,2.0
+River North Brewery,CO,1740,481,2.0
+Rivertown Brewing Company,OH,1741,482,2.0
+Rivertown Brewing Company,OH,1742,482,2.0
+Rivertowne Brewing Company,,1743,483,
+Rivertowne Brewing Company,PA,1744,484,13.0
+Rivertowne Brewing Company,PA,1745,484,13.0
+Rivertowne Brewing Company,PA,1746,484,13.0
+Rivertowne Brewing Company,,1747,483,
+Rivertowne Brewing Company,PA,1748,484,13.0
+Rivertowne Brewing Company,PA,1749,484,13.0
+Rivertowne Brewing Company,PA,1750,484,13.0
+Rivertowne Brewing Company,PA,1751,484,13.0
+Rivertowne Brewing Company,PA,1752,484,13.0
+Rivertowne Brewing Company,PA,1753,484,13.0
+Rivertowne Brewing Company,PA,1754,484,13.0
+Rivertowne Brewing Company,PA,1755,484,13.0
+Rivertowne Brewing Company,PA,1756,484,13.0
+Rivertowne Brewing Company,PA,1757,484,13.0
+Roanoke Railhouse Brewery,VA,1758,485,1.0
+Rochester Mills Brewing Company,,1759,486,
+Rochester Mills Brewing Company,MI,1760,487,6.0
+Rochester Mills Brewing Company,MI,1761,487,6.0
+Rochester Mills Brewing Company,MI,1762,487,6.0
+Rochester Mills Brewing Company,MI,1763,487,6.0
+Rochester Mills Brewing Company,MI,1764,487,6.0
+Rochester Mills Brewing Company,MI,1765,487,6.0
+Rogue Ales,OR,1766,488,1.0
+RoughTail Brewing Company,OK,1767,489,3.0
+RoughTail Brewing Company,OK,1768,489,3.0
+RoughTail Brewing Company,OK,1769,489,3.0
+Round Guys Brewing,PA,1770,490,6.0
+Round Guys Brewing,PA,1771,490,6.0
+Round Guys Brewing,,1772,491,
+Round Guys Brewing,PA,1773,490,6.0
+Round Guys Brewing,PA,1774,490,6.0
+Round Guys Brewing,PA,1775,490,6.0
+Round Guys Brewing,PA,1776,490,6.0
+Ruhstaller Beer Company,CA,1777,492,5.0
+Ruhstaller Beer Company,CA,1778,492,5.0
+Ruhstaller Beer Company,CA,1779,492,5.0
+Ruhstaller Beer Company,CA,1780,492,5.0
+Ruhstaller Beer Company,CA,1781,492,5.0
+Saint Archer Brewery,CA,1782,493,4.0
+Saint Archer Brewery,CA,1783,493,4.0
+Saint Archer Brewery,CA,1784,493,4.0
+Saint Archer Brewery,CA,1785,493,4.0
+SanTan Brewing Company,AZ,1786,494,18.0
+SanTan Brewing Company,AZ,1787,494,18.0
+SanTan Brewing Company,AZ,1788,494,18.0
+SanTan Brewing Company,AZ,1789,494,18.0
+SanTan Brewing Company,AZ,1790,494,18.0
+SanTan Brewing Company,AZ,1791,494,18.0
+SanTan Brewing Company,AZ,1792,494,18.0
+SanTan Brewing Company,AZ,1793,494,18.0
+SanTan Brewing Company,AZ,1794,494,18.0
+SanTan Brewing Company,AZ,1795,494,18.0
+SanTan Brewing Company,AZ,1796,494,18.0
+SanTan Brewing Company,AZ,1797,494,18.0
+SanTan Brewing Company,AZ,1798,494,18.0
+SanTan Brewing Company,AZ,1799,494,18.0
+SanTan Brewing Company,,1800,495,
+SanTan Brewing Company,AZ,1801,494,18.0
+SanTan Brewing Company,AZ,1802,494,18.0
+SanTan Brewing Company,AZ,1803,494,18.0
+SanTan Brewing Company,AZ,1804,494,18.0
+Sanitas Brewing Company,CO,1805,496,2.0
+Sanitas Brewing Company,CO,1806,496,2.0
+Santa Cruz Mountain Brewing,CA,1807,497,3.0
+Santa Cruz Mountain Brewing,CA,1808,497,3.0
+Santa Cruz Mountain Brewing,CA,1809,497,3.0
+Santa Fe Brewing Company,NM,1810,498,7.0
+Santa Fe Brewing Company,NM,1811,498,7.0
+Santa Fe Brewing Company,NM,1812,498,7.0
+Santa Fe Brewing Company,NM,1813,498,7.0
+Santa Fe Brewing Company,NM,1814,498,7.0
+Santa Fe Brewing Company,NM,1815,498,7.0
+Santa Fe Brewing Company,NM,1816,498,7.0
+Saugatuck Brewing Company,MI,1817,499,1.0
+Schilling & Company,WA,1818,500,3.0
+Schilling & Company,WA,1819,500,3.0
+Schilling & Company,WA,1820,500,3.0
+Schlafly Brewing Company,MO,1821,501,6.0
+Schlafly Brewing Company,MO,1822,501,6.0
+Schlafly Brewing Company,MO,1823,501,6.0
+Schlafly Brewing Company,MO,1824,501,6.0
+Schlafly Brewing Company,MO,1825,501,6.0
+Schlafly Brewing Company,MO,1826,501,6.0
+Sea Dog Brewing Company,ME,1827,502,1.0
+Seabright Brewery,CA,1828,503,1.0
+Seattle Cider Company,WA,1829,504,2.0
+Seattle Cider Company,WA,1830,504,2.0
+Seven Brides Brewery,,1831,505,
+Seven Brides Brewery,OR,1832,506,1.0
+Seventh Son Brewing Company,OH,1833,507,5.0
+Seventh Son Brewing Company,OH,1834,507,5.0
+Seventh Son Brewing Company,OH,1835,507,5.0
+Seventh Son Brewing Company,OH,1836,507,5.0
+Seventh Son Brewing Company,OH,1837,507,5.0
+Shebeen Brewing Company,CT,1838,508,1.0
+Sherwood Forest Brewers,MA,1839,509,1.0
+Shipyard Brewing Company,ME,1840,510,4.0
+Shipyard Brewing Company,ME,1841,510,4.0
+Shipyard Brewing Company,ME,1842,510,4.0
+Shipyard Brewing Company,ME,1843,510,4.0
+Sierra Nevada Brewing Company,CA,1844,511,8.0
+Sierra Nevada Brewing Company,CA,1845,511,8.0
+Sierra Nevada Brewing Company,CA,1846,511,8.0
+Sierra Nevada Brewing Company,CA,1847,511,8.0
+Sierra Nevada Brewing Company,CA,1848,511,8.0
+Sierra Nevada Brewing Company,CA,1849,511,8.0
+Sierra Nevada Brewing Company,CA,1850,511,8.0
+Sierra Nevada Brewing Company,,1851,512,
+Sierra Nevada Brewing Company,CA,1852,511,8.0
+Sietsema Orchards and Cider Mill,MI,1853,513,1.0
+Silverton Brewery,CO,1854,514,3.0
+Silverton Brewery,CO,1855,514,3.0
+Silverton Brewery,CO,1856,514,3.0
+Sixpoint Craft Ales,NY,1857,515,22.0
+Sixpoint Craft Ales,NY,1858,515,22.0
+Sixpoint Craft Ales,NY,1859,515,22.0
+Sixpoint Craft Ales,,1860,516,
+Sixpoint Craft Ales,NY,1861,515,22.0
+Sixpoint Craft Ales,NY,1862,515,22.0
+Sixpoint Craft Ales,NY,1863,515,22.0
+Sixpoint Craft Ales,NY,1864,515,22.0
+Sixpoint Craft Ales,,1865,516,
+Sixpoint Craft Ales,NY,1866,515,22.0
+Sixpoint Craft Ales,NY,1867,515,22.0
+Sixpoint Craft Ales,NY,1868,515,22.0
+Sixpoint Craft Ales,NY,1869,515,22.0
+Sixpoint Craft Ales,NY,1870,515,22.0
+Sixpoint Craft Ales,NY,1871,515,22.0
+Sixpoint Craft Ales,NY,1872,515,22.0
+Sixpoint Craft Ales,NY,1873,515,22.0
+Sixpoint Craft Ales,NY,1874,515,22.0
+Sixpoint Craft Ales,NY,1875,515,22.0
+Sixpoint Craft Ales,NY,1876,515,22.0
+Sixpoint Craft Ales,NY,1877,515,22.0
+Sixpoint Craft Ales,NY,1878,515,22.0
+Sixpoint Craft Ales,NY,1879,515,22.0
+Sixpoint Craft Ales,NY,1880,515,22.0
+Ska Brewing Company,CO,1881,517,11.0
+Ska Brewing Company,CO,1882,517,11.0
+Ska Brewing Company,,1883,518,
+Ska Brewing Company,CO,1884,517,11.0
+Ska Brewing Company,CO,1885,517,11.0
+Ska Brewing Company,CO,1886,517,11.0
+Ska Brewing Company,CO,1887,517,11.0
+Ska Brewing Company,CO,1888,517,11.0
+Ska Brewing Company,CO,1889,517,11.0
+Ska Brewing Company,CO,1890,517,11.0
+Ska Brewing Company,CO,1891,517,11.0
+Ska Brewing Company,CO,1892,517,11.0
+Slanted Rock Brewing Company,ID,1893,519,2.0
+Slanted Rock Brewing Company,ID,1894,519,2.0
+SlapShot Brewing Company,IL,1895,520,2.0
+SlapShot Brewing Company,IL,1896,520,2.0
+Sleeping Lady Brewing Company,AK,1897,521,1.0
+Sly Fox Brewing Company,PA,1898,522,12.0
+Sly Fox Brewing Company,PA,1899,522,12.0
+Sly Fox Brewing Company,PA,1900,522,12.0
+Sly Fox Brewing Company,PA,1901,522,12.0
+Sly Fox Brewing Company,PA,1902,522,12.0
+Sly Fox Brewing Company,PA,1903,522,12.0
+Sly Fox Brewing Company,PA,1904,522,12.0
+Sly Fox Brewing Company,,1905,523,
+Sly Fox Brewing Company,PA,1906,522,12.0
+Sly Fox Brewing Company,PA,1907,522,12.0
+Sly Fox Brewing Company,PA,1908,522,12.0
+Sly Fox Brewing Company,PA,1909,522,12.0
+Sly Fox Brewing Company,PA,1910,522,12.0
+Smartmouth Brewing Company,VA,1911,524,3.0
+Smartmouth Brewing Company,VA,1912,524,3.0
+Smartmouth Brewing Company,VA,1913,524,3.0
+Snake River Brewing Company,WY,1914,525,7.0
+Snake River Brewing Company,WY,1915,525,7.0
+Snake River Brewing Company,WY,1916,525,7.0
+Snake River Brewing Company,WY,1917,525,7.0
+Snake River Brewing Company,WY,1918,525,7.0
+Snake River Brewing Company,WY,1919,525,7.0
+Snake River Brewing Company,WY,1920,525,7.0
+Sockeye Brewing Company,ID,1921,526,15.0
+Sockeye Brewing Company,ID,1922,526,15.0
+Sockeye Brewing Company,ID,1923,526,15.0
+Sockeye Brewing Company,ID,1924,526,15.0
+Sockeye Brewing Company,ID,1925,526,15.0
+Sockeye Brewing Company,,1926,527,
+Sockeye Brewing Company,ID,1927,526,15.0
+Sockeye Brewing Company,ID,1928,526,15.0
+Sockeye Brewing Company,ID,1929,526,15.0
+Sockeye Brewing Company,ID,1930,526,15.0
+Sockeye Brewing Company,ID,1931,526,15.0
+Sockeye Brewing Company,,1932,527,
+Sockeye Brewing Company,ID,1933,526,15.0
+Sockeye Brewing Company,ID,1934,526,15.0
+Sockeye Brewing Company,ID,1935,526,15.0
+Sockeye Brewing Company,ID,1936,526,15.0
+Sockeye Brewing Company,ID,1937,526,15.0
+South Austin Brewery,TX,1938,528,4.0
+South Austin Brewery,TX,1939,528,4.0
+South Austin Brewery,TX,1940,528,4.0
+South Austin Brewery,TX,1941,528,4.0
+Southampton Publick House,NY,1942,529,1.0
+Southern Oregon Brewing Company,OR,1943,530,2.0
+Southern Oregon Brewing Company,OR,1944,530,2.0
+Southern Prohibition Brewing Com...,MS,1945,531,9.0
+Southern Prohibition Brewing Com...,MS,1946,531,9.0
+Southern Prohibition Brewing Com...,MS,1947,531,9.0
+Southern Prohibition Brewing Com...,MS,1948,531,9.0
+Southern Prohibition Brewing Com...,MS,1949,531,9.0
+Southern Prohibition Brewing Com...,MS,1950,531,9.0
+Southern Prohibition Brewing Com...,MS,1951,531,9.0
+Southern Prohibition Brewing Com...,MS,1952,531,9.0
+Southern Prohibition Brewing Com...,MS,1953,531,9.0
+Southern Star Brewing Company,TX,1954,532,13.0
+Southern Star Brewing Company,,1955,533,
+Southern Star Brewing Company,TX,1956,532,13.0
+Southern Star Brewing Company,TX,1957,532,13.0
+Southern Star Brewing Company,TX,1958,532,13.0
+Southern Star Brewing Company,TX,1959,532,13.0
+Southern Star Brewing Company,TX,1960,532,13.0
+Southern Star Brewing Company,TX,1961,532,13.0
+Southern Star Brewing Company,TX,1962,532,13.0
+Southern Star Brewing Company,TX,1963,532,13.0
+Southern Star Brewing Company,TX,1964,532,13.0
+Southern Star Brewing Company,TX,1965,532,13.0
+Southern Star Brewing Company,TX,1966,532,13.0
+Southern Star Brewing Company,TX,1967,532,13.0
+Speakasy Ales & Lagers,CA,1968,534,1.0
+Spilker Ales,NE,1969,535,1.0
+Spiteful Brewing Company,IL,1970,536,11.0
+Spiteful Brewing Company,IL,1971,536,11.0
+Spiteful Brewing Company,IL,1972,536,11.0
+Spiteful Brewing Company,IL,1973,536,11.0
+Spiteful Brewing Company,IL,1974,536,11.0
+Spiteful Brewing Company,IL,1975,536,11.0
+Spiteful Brewing Company,IL,1976,536,11.0
+Spiteful Brewing Company,IL,1977,536,11.0
+Spiteful Brewing Company,IL,1978,536,11.0
+Spiteful Brewing Company,,1979,537,
+Spiteful Brewing Company,IL,1980,536,11.0
+Spiteful Brewing Company,IL,1981,536,11.0
+Sprecher Brewing Company,WI,1982,538,2.0
+Sprecher Brewing Company,WI,1983,538,2.0
+Spring House Brewing Company,PA,1984,539,1.0
+St. Julian Winery,MI,1985,540,1.0
+Starr Hill Brewery,VA,1986,541,4.0
+Starr Hill Brewery,VA,1987,541,4.0
+Starr Hill Brewery,VA,1988,541,4.0
+Starr Hill Brewery,VA,1989,541,4.0
+Steamworks Brewing Company,CO,1990,542,4.0
+Steamworks Brewing Company,CO,1991,542,4.0
+Steamworks Brewing Company,CO,1992,542,4.0
+Steamworks Brewing Company,CO,1993,542,4.0
+Stevens Point Brewery,WI,1994,543,22.0
+Stevens Point Brewery,WI,1995,543,22.0
+Stevens Point Brewery,WI,1996,543,22.0
+Stevens Point Brewery,WI,1997,543,22.0
+Stevens Point Brewery,WI,1998,543,22.0
+Stevens Point Brewery,WI,1999,543,22.0
+Stevens Point Brewery,WI,2000,543,22.0
+Stevens Point Brewery,WI,2001,543,22.0
+Stevens Point Brewery,WI,2002,543,22.0
+Stevens Point Brewery,WI,2003,543,22.0
+Stevens Point Brewery,WI,2004,543,22.0
+Stevens Point Brewery,WI,2005,543,22.0
+Stevens Point Brewery,WI,2006,543,22.0
+Stevens Point Brewery,WI,2007,543,22.0
+Stevens Point Brewery,WI,2008,543,22.0
+Stevens Point Brewery,WI,2009,543,22.0
+Stevens Point Brewery,WI,2010,543,22.0
+Stevens Point Brewery,WI,2011,543,22.0
+Stevens Point Brewery,WI,2012,543,22.0
+Stevens Point Brewery,WI,2013,543,22.0
+Stevens Point Brewery,WI,2014,543,22.0
+Stevens Point Brewery,WI,2015,543,22.0
+Stillmank Beer Company,WI,2016,544,1.0
+Stillwater Artisanal Ales,MD,2017,545,2.0
+Stillwater Artisanal Ales,MD,2018,545,2.0
+Stillwater Artisanal Ales,,2019,546,
+Stone Coast Brewing Company,ME,2020,547,1.0
+Straight to Ale,AL,2021,548,3.0
+Straight to Ale,AL,2022,548,3.0
+Straight to Ale,AL,2023,548,3.0
+Straub Brewery,PA,2024,549,4.0
+Straub Brewery,PA,2025,549,4.0
+Straub Brewery,PA,2026,549,4.0
+Straub Brewery,PA,2027,549,4.0
+Summit Brewing Company,MN,2028,550,3.0
+Summit Brewing Company,MN,2029,550,3.0
+Summit Brewing Company,,2030,551,
+Summit Brewing Company,MN,2031,550,3.0
+Sun King Brewing Company,IN,2032,552,34.0
+Sun King Brewing Company,IN,2033,552,34.0
+Sun King Brewing Company,IN,2034,552,34.0
+Sun King Brewing Company,IN,2035,552,34.0
+Sun King Brewing Company,IN,2036,552,34.0
+Sun King Brewing Company,IN,2037,552,34.0
+Sun King Brewing Company,IN,2038,552,34.0
+Sun King Brewing Company,IN,2039,552,34.0
+Sun King Brewing Company,IN,2040,552,34.0
+Sun King Brewing Company,,2041,553,
+Sun King Brewing Company,,2042,553,
+Sun King Brewing Company,IN,2043,552,34.0
+Sun King Brewing Company,,2044,553,
+Sun King Brewing Company,IN,2045,552,34.0
+Sun King Brewing Company,IN,2046,552,34.0
+Sun King Brewing Company,IN,2047,552,34.0
+Sun King Brewing Company,IN,2048,552,34.0
+Sun King Brewing Company,IN,2049,552,34.0
+Sun King Brewing Company,IN,2050,552,34.0
+Sun King Brewing Company,IN,2051,552,34.0
+Sun King Brewing Company,IN,2052,552,34.0
+Sun King Brewing Company,IN,2053,552,34.0
+Sun King Brewing Company,IN,2054,552,34.0
+Sun King Brewing Company,IN,2055,552,34.0
+Sun King Brewing Company,IN,2056,552,34.0
+Sun King Brewing Company,IN,2057,552,34.0
+Sun King Brewing Company,IN,2058,552,34.0
+Sun King Brewing Company,IN,2059,552,34.0
+Sun King Brewing Company,,2060,553,
+Sun King Brewing Company,IN,2061,552,34.0
+Sun King Brewing Company,IN,2062,552,34.0
+Sun King Brewing Company,IN,2063,552,34.0
+Sun King Brewing Company,IN,2064,552,34.0
+Sun King Brewing Company,IN,2065,552,34.0
+Sun King Brewing Company,IN,2066,552,34.0
+Sun King Brewing Company,IN,2067,552,34.0
+Sun King Brewing Company,IN,2068,552,34.0
+Sun King Brewing Company,IN,2069,552,34.0
+Sunken City Brewing Company,VA,2070,554,2.0
+Sunken City Brewing Company,VA,2071,554,2.0
+Surly Brewing Company,MN,2072,555,12.0
+Surly Brewing Company,,2073,556,
+Surly Brewing Company,MN,2074,555,12.0
+Surly Brewing Company,MN,2075,555,12.0
+Surly Brewing Company,MN,2076,555,12.0
+Surly Brewing Company,MN,2077,555,12.0
+Surly Brewing Company,MN,2078,555,12.0
+Surly Brewing Company,MN,2079,555,12.0
+Surly Brewing Company,MN,2080,555,12.0
+Surly Brewing Company,MN,2081,555,12.0
+Surly Brewing Company,MN,2082,555,12.0
+Surly Brewing Company,MN,2083,555,12.0
+Surly Brewing Company,MN,2084,555,12.0
+Swamp Head Brewery,FL,2085,557,5.0
+Swamp Head Brewery,FL,2086,557,5.0
+Swamp Head Brewery,FL,2087,557,5.0
+Swamp Head Brewery,FL,2088,557,5.0
+Swamp Head Brewery,FL,2089,557,5.0
+Swashbuckler Brewing Company,PA,2090,558,1.0
+SweetWater Brewing Company,GA,2091,559,4.0
+SweetWater Brewing Company,GA,2092,559,4.0
+SweetWater Brewing Company,GA,2093,559,4.0
+SweetWater Brewing Company,GA,2094,559,4.0
+TailGate Beer,CA,2095,560,8.0
+TailGate Beer,CA,2096,560,8.0
+TailGate Beer,CA,2097,560,8.0
+TailGate Beer,CA,2098,560,8.0
+TailGate Beer,CA,2099,560,8.0
+TailGate Beer,CA,2100,560,8.0
+TailGate Beer,CA,2101,560,8.0
+TailGate Beer,CA,2102,560,8.0
+Tallgrass Brewing Company,KS,2103,561,17.0
+Tallgrass Brewing Company,KS,2104,561,17.0
+Tallgrass Brewing Company,KS,2105,561,17.0
+Tallgrass Brewing Company,KS,2106,561,17.0
+Tallgrass Brewing Company,KS,2107,561,17.0
+Tallgrass Brewing Company,KS,2108,561,17.0
+Tallgrass Brewing Company,KS,2109,561,17.0
+Tallgrass Brewing Company,KS,2110,561,17.0
+Tallgrass Brewing Company,KS,2111,561,17.0
+Tallgrass Brewing Company,,2112,562,
+Tallgrass Brewing Company,KS,2113,561,17.0
+Tallgrass Brewing Company,KS,2114,561,17.0
+Tallgrass Brewing Company,KS,2115,561,17.0
+Tallgrass Brewing Company,KS,2116,561,17.0
+Tallgrass Brewing Company,KS,2117,561,17.0
+Tallgrass Brewing Company,KS,2118,561,17.0
+Tallgrass Brewing Company,KS,2119,561,17.0
+Tallgrass Brewing Company,KS,2120,561,17.0
+Tamarack Brewing Company,MT,2121,563,2.0
+Tamarack Brewing Company,MT,2122,563,2.0
+Tampa Bay Brewing Company,FL,2123,564,2.0
+Tampa Bay Brewing Company,FL,2124,564,2.0
+Tapistry Brewing,MI,2125,565,3.0
+Tapistry Brewing,MI,2126,565,3.0
+Tapistry Brewing,MI,2127,565,3.0
+Taxman Brewing Company,IN,2128,566,1.0
+Telluride Brewing Company,CO,2129,567,3.0
+Telluride Brewing Company,CO,2130,567,3.0
+Telluride Brewing Company,CO,2131,567,3.0
+Temperance Beer Company,,2132,568,
+Temperance Beer Company,IL,2133,569,2.0
+Temperance Beer Company,IL,2134,569,2.0
+Terrapin Brewing Company,,2135,570,
+Texian Brewing Co.,TX,2136,571,4.0
+Texian Brewing Co.,TX,2137,571,4.0
+Texian Brewing Co.,TX,2138,571,4.0
+Texian Brewing Co.,TX,2139,571,4.0
+The Alchemist,VT,2140,572,5.0
+The Alchemist,VT,2141,572,5.0
+The Alchemist,VT,2142,572,5.0
+The Alchemist,,2143,573,
+The Alchemist,VT,2144,572,5.0
+The Alchemist,VT,2145,572,5.0
+The Black Tooth Brewing Company,WY,2146,574,4.0
+The Black Tooth Brewing Company,WY,2147,574,4.0
+The Black Tooth Brewing Company,WY,2148,574,4.0
+The Black Tooth Brewing Company,WY,2149,574,4.0
+The Brewer's Art,MD,2150,575,3.0
+The Brewer's Art,MD,2151,575,3.0
+The Brewer's Art,MD,2152,575,3.0
+The Bronx Brewery,NY,2153,576,3.0
+The Bronx Brewery,NY,2154,576,3.0
+The Bronx Brewery,NY,2155,576,3.0
+The Dudes' Brewing Company,CA,2156,577,5.0
+The Dudes' Brewing Company,CA,2157,577,5.0
+The Dudes' Brewing Company,CA,2158,577,5.0
+The Dudes' Brewing Company,CA,2159,577,5.0
+The Dudes' Brewing Company,CA,2160,577,5.0
+The Just Beer Project,VT,2161,578,1.0
+The Lion Brewery,PA,2162,579,1.0
+The Manhattan Brewing Company,NY,2163,580,1.0
+The Mitten Brewing Company,MI,2164,581,1.0
+The Right Brain Brewery,MI,2165,582,3.0
+The Right Brain Brewery,MI,2166,582,3.0
+The Right Brain Brewery,MI,2167,582,3.0
+The Traveler Beer Company,VT,2168,583,1.0
+Third Street Brewhouse,MN,2169,584,4.0
+Third Street Brewhouse,MN,2170,584,4.0
+Third Street Brewhouse,MN,2171,584,4.0
+Third Street Brewhouse,MN,2172,584,4.0
+Thomas Hooker Brewing Company,CT,2173,585,1.0
+Three Creeks Brewing,OR,2174,586,3.0
+Three Creeks Brewing,OR,2175,586,3.0
+Three Creeks Brewing,OR,2176,586,3.0
+Three Notch'd Brewing Company,VA,2177,587,2.0
+Three Notch'd Brewing Company,VA,2178,587,2.0
+Three Pints Brewing,IN,2179,588,4.0
+Three Pints Brewing,IN,2180,588,4.0
+Three Pints Brewing,IN,2181,588,4.0
+Three Pints Brewing,IN,2182,588,4.0
+Thunderhead Brewing Company,NE,2183,589,3.0
+Thunderhead Brewing Company,NE,2184,589,3.0
+Thunderhead Brewing Company,NE,2185,589,3.0
+Thunderhead Brewing Company,,2186,590,
+Tin Man Brewing Company,IN,2187,591,8.0
+Tin Man Brewing Company,IN,2188,591,8.0
+Tin Man Brewing Company,IN,2189,591,8.0
+Tin Man Brewing Company,IN,2190,591,8.0
+Tin Man Brewing Company,IN,2191,591,8.0
+Tin Man Brewing Company,IN,2192,591,8.0
+Tin Man Brewing Company,IN,2193,591,8.0
+Tin Man Brewing Company,IN,2194,591,8.0
+Tin Man Brewing Company,,2195,592,
+Tin Roof Brewing Company,LA,2196,593,7.0
+Tin Roof Brewing Company,LA,2197,593,7.0
+Tin Roof Brewing Company,LA,2198,593,7.0
+Tin Roof Brewing Company,LA,2199,593,7.0
+Tin Roof Brewing Company,LA,2200,593,7.0
+Tin Roof Brewing Company,LA,2201,593,7.0
+Tin Roof Brewing Company,LA,2202,593,7.0
+Tommyknocker Brewery,CO,2203,594,1.0
+Tommyknocker Brewery,,2204,595,
+Tonka Beer Company,MN,2205,596,2.0
+Tonka Beer Company,MN,2206,596,2.0
+Tractor Brewing Company,NM,2207,597,3.0
+Tractor Brewing Company,NM,2208,597,3.0
+Tractor Brewing Company,NM,2209,597,3.0
+Triangle Brewing Company,NC,2210,598,3.0
+Triangle Brewing Company,NC,2211,598,3.0
+Triangle Brewing Company,NC,2212,598,3.0
+Tröegs Brewing Company,PA,2213,599,4.0
+Tröegs Brewing Company,PA,2214,599,4.0
+Tröegs Brewing Company,PA,2215,599,4.0
+Tröegs Brewing Company,PA,2216,599,4.0
+Tröegs Brewing Company,,2217,600,
+Twin Lakes Brewing Company,DE,2218,601,1.0
+Twisted Pine Brewing Company,CO,2219,602,1.0
+Twisted X Brewing Company,TX,2220,603,3.0
+Twisted X Brewing Company,TX,2221,603,3.0
+Twisted X Brewing Company,TX,2222,603,3.0
+Two Beers Brewing Company,WA,2223,604,12.0
+Two Beers Brewing Company,WA,2224,604,12.0
+Two Beers Brewing Company,WA,2225,604,12.0
+Two Beers Brewing Company,WA,2226,604,12.0
+Two Beers Brewing Company,WA,2227,604,12.0
+Two Beers Brewing Company,WA,2228,604,12.0
+Two Beers Brewing Company,WA,2229,604,12.0
+Two Beers Brewing Company,WA,2230,604,12.0
+Two Beers Brewing Company,WA,2231,604,12.0
+Two Beers Brewing Company,WA,2232,604,12.0
+Two Beers Brewing Company,WA,2233,604,12.0
+Two Beers Brewing Company,WA,2234,604,12.0
+Two Brothers Brewing Company,IL,2235,605,10.0
+Two Brothers Brewing Company,IL,2236,605,10.0
+Two Brothers Brewing Company,IL,2237,605,10.0
+Two Brothers Brewing Company,IL,2238,605,10.0
+Two Brothers Brewing Company,IL,2239,605,10.0
+Two Brothers Brewing Company,IL,2240,605,10.0
+Two Brothers Brewing Company,IL,2241,605,10.0
+Two Brothers Brewing Company,IL,2242,605,10.0
+Two Brothers Brewing Company,IL,2243,605,10.0
+Two Brothers Brewing Company,IL,2244,605,10.0
+Two Henrys Brewing Company,FL,2245,606,1.0
+Two Roads Brewing Company,CT,2246,607,5.0
+Two Roads Brewing Company,CT,2247,607,5.0
+Two Roads Brewing Company,CT,2248,607,5.0
+Two Roads Brewing Company,CT,2249,607,5.0
+Two Roads Brewing Company,CT,2250,607,5.0
+Uinta Brewing Company,UT,2251,608,9.0
+Uinta Brewing Company,UT,2252,608,9.0
+Uinta Brewing Company,UT,2253,608,9.0
+Uinta Brewing Company,UT,2254,608,9.0
+Uinta Brewing Company,UT,2255,608,9.0
+Uinta Brewing Company,UT,2256,608,9.0
+Uinta Brewing Company,UT,2257,608,9.0
+Uinta Brewing Company,UT,2258,608,9.0
+Uinta Brewing Company,UT,2259,608,9.0
+Ukiah Brewing Company,CA,2260,609,1.0
+Uncle Billy's Brewery and Smokeh...,TX,2261,610,2.0
+Uncle Billy's Brewery and Smokeh...,TX,2262,610,2.0
+Uncle John's Fruit House Winery,MI,2263,611,3.0
+Uncle John's Fruit House Winery,MI,2264,611,3.0
+Uncle John's Fruit House Winery,MI,2265,611,3.0
+Uncommon Brewers,CA,2266,612,4.0
+Uncommon Brewers,CA,2267,612,4.0
+Uncommon Brewers,CA,2268,612,4.0
+Uncommon Brewers,CA,2269,612,4.0
+Uncommon Brewers,,2270,613,
+Union Craft Brewing,MD,2271,614,4.0
+Union Craft Brewing,MD,2272,614,4.0
+Union Craft Brewing,MD,2273,614,4.0
+Union Craft Brewing,MD,2274,614,4.0
+Upland Brewing Company,IN,2275,615,3.0
+Upland Brewing Company,IN,2276,615,3.0
+Upland Brewing Company,IN,2277,615,3.0
+Upslope Brewing Company,CO,2278,616,16.0
+Upslope Brewing Company,CO,2279,616,16.0
+Upslope Brewing Company,CO,2280,616,16.0
+Upslope Brewing Company,CO,2281,616,16.0
+Upslope Brewing Company,CO,2282,616,16.0
+Upslope Brewing Company,CO,2283,616,16.0
+Upslope Brewing Company,CO,2284,616,16.0
+Upslope Brewing Company,CO,2285,616,16.0
+Upslope Brewing Company,,2286,617,
+Upslope Brewing Company,CO,2287,616,16.0
+Upslope Brewing Company,CO,2288,616,16.0
+Upslope Brewing Company,CO,2289,616,16.0
+Upslope Brewing Company,CO,2290,616,16.0
+Upslope Brewing Company,CO,2291,616,16.0
+Upslope Brewing Company,CO,2292,616,16.0
+Upslope Brewing Company,,2293,617,
+Upslope Brewing Company,CO,2294,616,16.0
+Upslope Brewing Company,CO,2295,616,16.0
+Upstate Brewing Company,NY,2296,618,2.0
+Upstate Brewing Company,NY,2297,618,2.0
+Utah Brewers Cooperative,UT,2298,619,8.0
+Utah Brewers Cooperative,UT,2299,619,8.0
+Utah Brewers Cooperative,UT,2300,619,8.0
+Utah Brewers Cooperative,UT,2301,619,8.0
+Utah Brewers Cooperative,UT,2302,619,8.0
+Utah Brewers Cooperative,UT,2303,619,8.0
+Utah Brewers Cooperative,UT,2304,619,8.0
+Utah Brewers Cooperative,UT,2305,619,8.0
+Vander Mill Ciders,MI,2306,620,5.0
+Vander Mill Ciders,MI,2307,620,5.0
+Vander Mill Ciders,MI,2308,620,5.0
+Vander Mill Ciders,MI,2309,620,5.0
+Vander Mill Ciders,MI,2310,620,5.0
+Vault Brewing Company,PA,2311,621,1.0
+Voodoo Brewery,PA,2312,622,5.0
+Voodoo Brewery,PA,2313,622,5.0
+Voodoo Brewery,,2314,623,
+Voodoo Brewery,PA,2315,622,5.0
+Voodoo Brewery,PA,2316,622,5.0
+Voodoo Brewery,PA,2317,622,5.0
+Wachusett Brewing Company,MA,2318,624,10.0
+Wachusett Brewing Company,,2319,625,
+Wachusett Brewing Company,MA,2320,624,10.0
+Wachusett Brewing Company,MA,2321,624,10.0
+Wachusett Brewing Company,MA,2322,624,10.0
+Wachusett Brewing Company,MA,2323,624,10.0
+Wachusett Brewing Company,MA,2324,624,10.0
+Wachusett Brewing Company,MA,2325,624,10.0
+Wachusett Brewing Company,MA,2326,624,10.0
+Wachusett Brewing Company,MA,2327,624,10.0
+Wachusett Brewing Company,MA,2328,624,10.0
+Warbird Brewing Company,IN,2329,626,1.0
+Warped Wing Brewing Company,OH,2330,627,4.0
+Warped Wing Brewing Company,OH,2331,627,4.0
+Warped Wing Brewing Company,OH,2332,627,4.0
+Warped Wing Brewing Company,OH,2333,627,4.0
+West Sixth Brewing,KY,2334,628,4.0
+West Sixth Brewing,KY,2335,628,4.0
+West Sixth Brewing,KY,2336,628,4.0
+West Sixth Brewing,KY,2337,628,4.0
+Westbrook Brewing Company,SC,2338,629,4.0
+Westbrook Brewing Company,SC,2339,629,4.0
+Westbrook Brewing Company,SC,2340,629,4.0
+Westbrook Brewing Company,SC,2341,629,4.0
+Westfield River Brewing Company,MA,2342,630,3.0
+Westfield River Brewing Company,MA,2343,630,3.0
+Westfield River Brewing Company,MA,2344,630,3.0
+Weston Brewing Company,MO,2345,631,7.0
+Weston Brewing Company,MO,2346,631,7.0
+Weston Brewing Company,MO,2347,631,7.0
+Weston Brewing Company,MO,2348,631,7.0
+Weston Brewing Company,MO,2349,631,7.0
+Weston Brewing Company,MO,2350,631,7.0
+Weston Brewing Company,MO,2351,631,7.0
+White Birch Brewing,NH,2352,632,4.0
+White Birch Brewing,NH,2353,632,4.0
+White Birch Brewing,NH,2354,632,4.0
+White Birch Brewing,NH,2355,632,4.0
+White Flame Brewing Company,MI,2356,633,1.0
+Widmer Brothers Brewing Company,OR,2357,634,3.0
+Widmer Brothers Brewing Company,OR,2358,634,3.0
+Widmer Brothers Brewing Company,OR,2359,634,3.0
+Wild Onion Brewing Company,IL,2360,635,9.0
+Wild Onion Brewing Company,IL,2361,635,9.0
+Wild Onion Brewing Company,IL,2362,635,9.0
+Wild Onion Brewing Company,IL,2363,635,9.0
+Wild Onion Brewing Company,,2364,636,
+Wild Onion Brewing Company,IL,2365,635,9.0
+Wild Onion Brewing Company,IL,2366,635,9.0
+Wild Onion Brewing Company,IL,2367,635,9.0
+Wild Onion Brewing Company,IL,2368,635,9.0
+Wild Onion Brewing Company,IL,2369,635,9.0
+Wild Wolf Brewing Company,,2370,637,
+Wild Wolf Brewing Company,VA,2371,638,3.0
+Wild Wolf Brewing Company,VA,2372,638,3.0
+Wild Wolf Brewing Company,VA,2373,638,3.0
+Wildwood Brewing Company,MT,2374,639,2.0
+Wildwood Brewing Company,MT,2375,639,2.0
+Wildwood Brewing Company,,2376,640,
+Wind River Brewing Company,WY,2377,641,2.0
+Wind River Brewing Company,WY,2378,641,2.0
+Wingman Brewers,WA,2379,642,2.0
+Wingman Brewers,WA,2380,642,2.0
+Wisconsin Brewing Company,WI,2381,643,4.0
+Wisconsin Brewing Company,WI,2382,643,4.0
+Wisconsin Brewing Company,WI,2383,643,4.0
+Wisconsin Brewing Company,WI,2384,643,4.0
+Wiseacre Brewing Company,TN,2385,644,3.0
+Wiseacre Brewing Company,TN,2386,644,3.0
+Wiseacre Brewing Company,TN,2387,644,3.0
+Witch's Hat Brewing Company,MI,2388,645,2.0
+Witch's Hat Brewing Company,MI,2389,645,2.0
+Wolf Hills Brewing Company,VA,2390,646,1.0
+Wolverine State Brewing Company,MI,2391,647,1.0
+Woodchuck Hard Cider,VT,2392,648,1.0
+"Woodstock Inn, Station & Brewery",,2393,649,
+"Woodstock Inn, Station & Brewery",NH,2394,650,1.0
+Wormtown Brewery,MA,2395,651,1.0
+Worthy Brewing Company,OR,2396,652,5.0
+Worthy Brewing Company,OR,2397,652,5.0
+Worthy Brewing Company,OR,2398,652,5.0
+Worthy Brewing Company,OR,2399,652,5.0
+Worthy Brewing Company,OR,2400,652,5.0
+Wynkoop Brewing Company,CO,2401,653,9.0
+Wynkoop Brewing Company,CO,2402,653,9.0
+Wynkoop Brewing Company,CO,2403,653,9.0
+Wynkoop Brewing Company,CO,2404,653,9.0
+Wynkoop Brewing Company,CO,2405,653,9.0
+Wynkoop Brewing Company,CO,2406,653,9.0
+Wynkoop Brewing Company,CO,2407,653,9.0
+Wynkoop Brewing Company,CO,2408,653,9.0
+Wynkoop Brewing Company,CO,2409,653,9.0

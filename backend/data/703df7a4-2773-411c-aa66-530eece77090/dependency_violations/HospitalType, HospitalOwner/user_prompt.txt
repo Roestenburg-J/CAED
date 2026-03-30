@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The healthcare setting/type column (e.g., acute care hospitals) is related to the ownership/payment-type classification; the facility type category constrains the plausible values of the organization-type category.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,19 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+1,2,ProviderNumber,HospitalName,A shared geographic/organization identifier relationship: the identifier in one column corresponds to the named facility/organization in another (the same record uses the ID for the same hospital).
+1,3,ProviderNumber,Address1,The identifier for an organization/facility determines the corresponding facility name and the facility address/street line; all three fields refer to the same facility record and must align.
+2,3,HospitalName,Address1,The identifier for an organization/facility determines the corresponding facility name and the facility address/street line; all three fields refer to the same facility record and must align.
+2,6,HospitalName,City,Facility-to-city dependency: the hospital name determines the city where it is located.
+3,4,Address1,Address2,"The street-address column appears paired with an additional address/neighborhood field; the placeholder/empty value indicates that when the primary street address is present, the auxiliary address component may be omitted or standardized."
+6,7,City,State,City/state relationship: the city value in one column is the municipality within the state/province code/value in another (the postal location fields are consistent pairs).
+6,8,City,ZipCode,"A locality/state set determines the postal code; the city (locality), state, and ZIP/area code are linked and must correspond to the same geographic location."
+7,8,State,ZipCode,State-to-zip relationship: the state value constrains the postal/ZIP code values in another column (ZIP is issued within the state shown).
+8,9,ZipCode,CountyName,ZIP-to-county/region relationship: the postal code value implies the associated county/region value (the county/region is consistent with the ZIP).
+11,12,HospitalType,HospitalOwner,"The healthcare setting/type column (e.g., acute care hospitals) is related to the ownership/payment-type classification; the facility type category constrains the plausible values of the organization-type category."
+12,13,HospitalOwner,EmergencyService,"The organization/payment-type column (e.g., voluntary non-profit - private) semantically determines the categorical indicator column (e.g., yes/no eligibility/status aligned with that organizational type)."
+14,15,Condition,MeasureCode,"A higher-level domain/category label for a measurement area determines the set of valid measure codes; the specific measure identifier is a subtype within that domain (e.g., surgical infection prevention measures)."
+14,16,Condition,MeasureName,Condition-to-measure description dependency: the condition category in one column constrains the clinical process description in another to match that condition’s measure set.
+14,18,Condition,Sample,"Within a given measurement area and measure description, the numeric patient count depends on which measure is being evaluated; the described patient population determines the reported number of patients for that measure."
+15,16,MeasureCode,MeasureName,The structured code value specifies the exact clinical measure description in the accompanying text column (the code pn-3b corresponds to the blood-culture timing measure; pn-4 corresponds to smoking-cessation counseling).
+15,19,MeasureCode,Stateavg,Derived/composite measure identifier dependency: the abbreviated measure code in one column and the composite code in another use the same measure suffix (the composite appears to embed the state and measure code).
+16,18,MeasureName,Sample,"Within a given measurement area and measure description, the numeric patient count depends on which measure is being evaluated; the described patient population determines the reported number of patients for that measure."
+17,18,Score,Sample,The number of patients used as the denominator (or base population) determines the percent/result field’s value (a percentage summary derived from the count data for the same measure).

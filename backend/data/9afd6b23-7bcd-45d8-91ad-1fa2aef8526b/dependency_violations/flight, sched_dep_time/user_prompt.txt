@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The structured flight identifier appears to encode a specific flight route/service, and it is associated with the same scheduled departure timestamp. In the sample, the same airline-flight-route code corresponds to the same departure date/time string.
+
+  The following is a formatted table with the unique data to be checked.
+  

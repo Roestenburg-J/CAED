@@ -21,6 +21,7 @@ import DetectionDep from "@/components/Detect/DetectionDep/DetectionDep";
 import EvaluateDepViol from "@/components/Evaluate/EvaluateDepViol/EvaluateDepViol";
 import EvaluateAnnotatedTable from "@/components/EvaluateAnnotatedTable/EvaluateAnnotatedTable";
 import AnnotatedTable from "@/components/AnnotatedTable/AnnotatedTable";
+import EvaluateCombined from "@/components/Evaluate/EvaluateCombined/EvaluateCombined";
 
 interface PromptMetadata {
   completion_tokens: number;
@@ -120,6 +121,14 @@ interface CombinedResult {
   true_positives: ClassOutput[];
   false_positives: ClassOutput[];
   false_negatives: ClassOutput[];
+  metrics: {
+    accuracy: string;
+    precision: string;
+    recall: string;
+    f1_score: string;
+    roc_auc: string;
+    predicted_positives_count: string;
+  };
 }
 
 export default function Evaluate() {
@@ -174,6 +183,14 @@ export default function Evaluate() {
     true_positives: [],
     false_positives: [],
     false_negatives: [],
+    metrics: {
+      accuracy: "",
+      precision: "",
+      recall: "",
+      f1_score: "",
+      roc_auc: "",
+      predicted_positives_count: "",
+    },
   });
 
   const [dataset, setDataset] = useState([]);
@@ -247,6 +264,18 @@ export default function Evaluate() {
             </Grid2>
           </Box>
         </Grid2>
+        {requestedStates.combined && (
+          <Grid2 size={{ xs: 12 }}>
+            <Box sx={{ px: 2, pb: 2 }}>
+              <EvaluateCombined
+                combinedResult={combinedOutput}
+                isLoading={loadingStates.combined}
+                isRequested={requestedStates.combined}
+                error={detectionError.combined}
+              />
+            </Box>
+          </Grid2>
+        )}
         <Grid2 size={{ xs: 12 }}>
           <Box className={styles.pageContent}>
             {/* Second Block */}

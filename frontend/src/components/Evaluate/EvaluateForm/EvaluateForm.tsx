@@ -10,7 +10,6 @@ import DoneIcon from "@mui/icons-material/Done";
 import ErrorIcon from "@mui/icons-material/Error";
 import {
   Box,
-  Button,
   Checkbox,
   CircularProgress,
   FormControlLabel,
@@ -486,7 +485,6 @@ const EvaluateForm = <T,>({
   return (
     <Box
       component="form"
-      onSubmit={handleSubmit}
       className={styles.container}
     >
         <Box className={styles.uploadInput}>
@@ -579,15 +577,10 @@ const EvaluateForm = <T,>({
         {dataset_id ? (
           <Typography color="textDisabled">Model: {modelName}</Typography>
         ) : (
-          <>
-            <ModelSelector
-              model={selectedModel}
-              onModelChange={setSelectedModel}
-            />
-            <Button variant="outlined" type="submit">
-              Evaluate
-            </Button>
-          </>
+          <ModelSelector
+            model={selectedModel}
+            onModelChange={setSelectedModel}
+          />
         )}
       </Box>
   );

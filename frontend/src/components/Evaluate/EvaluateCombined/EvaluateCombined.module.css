@@ -1,0 +1,30 @@
+.container {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.feedback {
+  height: 80px;
+  display: grid;
+  place-items: center;
+}
+
+.loading {
+  align-self: center;
+  justify-content: center;
+}
+
+.output {
+  padding: 12px 16px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+}

@@ -321,7 +321,8 @@ def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
             }
         )
 
-    column_summary_df = pd.DataFrame(dependencies_list)
+    summary_columns = ["column_1_name", "column_2_name", "column_1_count", "column_2_count", "dependency"]
+    column_summary_df = pd.DataFrame(dependencies_list, columns=summary_columns) if dependencies_list else pd.DataFrame(columns=summary_columns)
 
     annotated_output.to_csv(f"{directory}/output.csv", index=False)
     column_summary_df.to_csv(f"{directory}/column_summary.csv", index=False)

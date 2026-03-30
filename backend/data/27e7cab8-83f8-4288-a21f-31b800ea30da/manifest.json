@@ -1,0 +1,14 @@
+{
+    "id": "27e7cab8-83f8-4288-a21f-31b800ea30da",
+    "name": "beers_8",
+    "created_at": "2026-03-27T16:19:25.495043",
+    "type": "evaluation",
+    "provider": "openai",
+    "model": "gpt-5.4",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

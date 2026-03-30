@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Columns 3 and 4 both appear to represent scheduled versus actual departure timestamps for the same trip instance. They share the same date and correspond to the same departure event, with column 4 being a realized time close to the planned time in column 3.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The producer/brewery name determines the state abbreviation. The same brewery name is paired with the same two-letter state code.
+
+  The following is a formatted table with the unique data to be checked.
+  

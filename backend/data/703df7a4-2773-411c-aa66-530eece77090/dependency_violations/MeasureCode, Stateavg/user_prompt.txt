@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Derived/composite measure identifier dependency: the abbreviated measure code in one column and the composite code in another use the same measure suffix (the composite appears to embed the state and measure code).
+
+  The following is a formatted table with the unique data to be checked.
+  

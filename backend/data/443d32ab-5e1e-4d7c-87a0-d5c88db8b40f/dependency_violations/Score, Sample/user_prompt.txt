@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The performance/result value is related to the patient-count text. Special result forms can correspond to count patterns; in the sample, a missing/empty-style result is paired with '0 patients', while '100%' is paired with a positive patient count.
+
+  The following is a formatted table with the unique data to be checked.
+  

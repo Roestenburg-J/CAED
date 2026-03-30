@@ -1,0 +1,8 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+2,3,beer_name,style,The beverage name determines its style/classification; the same named beer is shown with the style 'American Pale Ale (APA)'.
+4,5,ounces,abv,"The package size, alcohol content, and bitterness/value measures appear related descriptors of the same beverage; the size is a formatted quantity string, while the other two are numeric product characteristics."
+4,6,ounces,ibu,"The package size, alcohol content, and bitterness/value measures appear related descriptors of the same beverage; the size is a formatted quantity string, while the other two are numeric product characteristics."
+5,6,abv,ibu,"The package size, alcohol content, and bitterness/value measures appear related descriptors of the same beverage; the size is a formatted quantity string, while the other two are numeric product characteristics."
+8,9,brewery_name,city,"The brewery name determines the brewery location, with the brewery being in a specific city and state/province abbreviation."
+8,10,brewery_name,state,"The brewery name determines the brewery location, with the brewery being in a specific city and state/province abbreviation."
+9,10,city,state,"The brewery name determines the brewery location, with the brewery being in a specific city and state/province abbreviation."

@@ -1,0 +1,45 @@
+Task:
+You are given data from two columns in a dataset that are said to have a dependency on each other. You must detect violations in this dependency.
+You are also given a description of the dependency that you must use to help identify violations.
+
+Instructions:
+For the possible repair provide the repair value, the column in which the violation occurred, the index, and an explanation for why it is considered an error.
+Do not check for language usage errors.
+Strings should be checked for misspellings of invalid/nonsensical characters that could cause violations.
+Ignore capitalization when checking for misspellings.
+Values that describe empty entries are not considered errors.
+Two columns can both have values that indicate empty values, this is not considered an error.
+When detecting violations, a valid proof needs to be supplied in the violation for why it is an error. 
+When determining semantic dependencies and external knowledge is needed to prove the violation provide a short reference.
+For proper nouns only check for syntactic dependency violations.
+Explanations need to be concise.
+
+Examples:
+Dependency violations could be either semantic or syntactic violations. Use the dependency description to determine the violation.
+
+1. Semantic Dependency
+- The meaning of a value is not correct concerning dependent values considering the identified dependency.
+Example:
+Col 1 and Col 2 have a dependency between each other indicated by the name of a company (Col 1), and the primary market in which they operate (Col 2).
+Col 1           , Col 2
+McDonald's      , Fast food
+Baseball*       , Asset Management
+Wallmart        , Retail
+Apple           , Consumer Technology
+Google          , Food Wholesaler*
+
+Baseball* is an error because it does not seem like the name of a company.
+Food Wholesaler* is an error because Google is a Technology company and not a Food Wholesaler.
+
+2. Syntactic dependency
+- A syntactic dependency violation occurs when the syntax of an entry causes a violation of a dependency
+Example:
+Col 7 and Col 10 have a dependency. Col 7 is a list of codes describing the employment of people with the year they were hired. Col 10 is a textual description of the codes.
+Col 7           , Col 10
+EMP-001-2024    , Employee - hired in 2024
+CON-009-2005    , Contract worker - hired in 2005
+EMP-00B-8888*   , Employee - hired in 2018 
+CON-976-2013    , Employee - hired in 2013*
+
+EMP-00B-8888* is an error because it contains an invalid year date at the end of the entry.
+Employee - hired in 2013* in an error because its corresponding code, which is valid indicates that it should be a contract worker.

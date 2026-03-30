@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  A higher-level domain/category label for a measurement area determines the set of valid measure codes; the specific measure identifier is a subtype within that domain (e.g., surgical infection prevention measures).
+
+  The following is a formatted table with the unique data to be checked.
+  

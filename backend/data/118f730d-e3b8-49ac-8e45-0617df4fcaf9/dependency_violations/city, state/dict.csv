@@ -1,0 +1,2411 @@
+city,state,original_index,unique_index,count
+Bend,OR,0,0,11.0
+Gary,IN,1,1,14.0
+Gary,IN,2,1,14.0
+Gary,IN,3,1,14.0
+Gary,IN,4,1,14.0
+Gary,IN,5,1,14.0
+Gary,IN,6,1,14.0
+Gary,IN,7,1,14.0
+Gary,IN,8,1,14.0
+Gary,IN,9,1,14.0
+Gary,IN,10,1,14.0
+Gary,IN,11,1,14.0
+Gary,IN,12,1,14.0
+Gary,IN,13,1,14.0
+Gary,IN,14,1,14.0
+Corvallis,OR,15,2,4.0
+Corvallis,OR,16,2,4.0
+Corvallis,OR,17,2,4.0
+Corvallis,OR,18,2,4.0
+San Francisco,CA,19,3,31.0
+San Francisco CA,,20,4,
+San Francisco,CA,21,3,31.0
+San Francisco,CA,22,3,31.0
+San Francisco,CA,23,3,31.0
+San Francisco,CA,24,3,31.0
+San Francisco,CA,25,3,31.0
+San Francisco,CA,26,3,31.0
+San Francisco,CA,27,3,31.0
+San Francisco,CA,28,3,31.0
+San Francisco,CA,29,3,31.0
+San Francisco,CA,30,3,31.0
+San Francisco,CA,31,3,31.0
+San Francisco,CA,32,3,31.0
+San Francisco,CA,33,3,31.0
+San Francisco,CA,34,3,31.0
+San Francisco,CA,35,3,31.0
+San Francisco,CA,36,3,31.0
+San Francisco,CA,37,3,31.0
+San Francisco,CA,38,3,31.0
+St Petersburg,FL,39,5,3.0
+St Petersburg,FL,40,5,3.0
+St Petersburg,FL,41,5,3.0
+Saint Louis,MO,42,6,18.0
+Saint Louis,MO,43,6,18.0
+Saint Louis,MO,44,6,18.0
+Saint Louis,MO,45,6,18.0
+Saint Louis,MO,46,6,18.0
+Saint Louis MO,,47,7,
+Saint Louis,MO,48,6,18.0
+Saint Louis,MO,49,6,18.0
+Columbus,IN,50,8,7.0
+Columbus,IN,51,8,7.0
+Columbus,IN,52,8,7.0
+Columbus,IN,53,8,7.0
+Columbus,IN,54,8,7.0
+Columbus,IN,55,8,7.0
+Columbus,IN,56,8,7.0
+Gig Harbor,WA,57,9,4.0
+Gig Harbor,WA,58,9,4.0
+Gig Harbor,WA,59,9,4.0
+Gig Harbor,WA,60,9,4.0
+Dunedin,FL,61,10,1.0
+Golden,CO,62,11,2.0
+Golden,CO,63,11,2.0
+Abita Springs,LA,64,12,3.0
+Abita Springs,LA,65,12,3.0
+Abita Springs,LA,66,12,3.0
+Louisville,KY,67,13,15.0
+Louisville,KY,68,13,15.0
+Louisville,KY,69,13,15.0
+Louisville,KY,70,13,15.0
+Louisville,KY,71,13,15.0
+Louisville,KY,72,13,15.0
+Louisville,KY,73,13,15.0
+Louisville,KY,74,13,15.0
+Louisville,KY,75,13,15.0
+Louisville,KY,76,13,15.0
+Louisville,KY,77,13,15.0
+Louisville,KY,78,13,15.0
+Louisville,KY,79,13,15.0
+Louisville,KY,80,13,15.0
+Louisville,KY,81,13,15.0
+Kent,WA,82,14,3.0
+Kent,WA,83,14,3.0
+Kent,WA,84,14,3.0
+Portland,OR,85,15,47.0
+Portland,OR,86,15,47.0
+Portland,OR,87,15,47.0
+Juneau,AK,88,16,2.0
+Juneau,AK,89,16,2.0
+Madison WI,,90,17,
+Lexington,KY,91,18,6.0
+Lexington,KY,92,18,6.0
+Washougal,WA,93,19,3.0
+Washougal,WA,94,19,3.0
+Washougal,WA,95,19,3.0
+San Francisco,CA,96,3,31.0
+San Francisco,CA,97,3,31.0
+San Francisco,CA,98,3,31.0
+San Francisco,CA,99,3,31.0
+San Francisco,CA,100,3,31.0
+Boonville,CA,101,20,18.0
+Boonville,CA,102,20,18.0
+Boonville,CA,103,20,18.0
+Boonville,CA,104,20,18.0
+Boonville,CA,105,20,18.0
+Boonville,CA,106,20,18.0
+Boonville,CA,107,20,18.0
+Boonville,CA,108,20,18.0
+Boonville,CA,109,20,18.0
+Boonville,CA,110,20,18.0
+Boonville,CA,111,20,18.0
+Boonville,CA,112,20,18.0
+Boonville,CA,113,20,18.0
+Boonville,CA,114,20,18.0
+Boonville,CA,115,20,18.0
+Boonville,CA,116,20,18.0
+Boonville,CA,117,20,18.0
+Boonville,CA,118,20,18.0
+Hayward,WI,119,21,2.0
+Hayward,WI,120,21,2.0
+Hayward WI,,121,22,
+Cincinnati,OH,122,23,19.0
+Cincinnati,OH,123,23,19.0
+Cincinnati,OH,124,23,19.0
+Oklahoma City,OK,125,24,8.0
+Oklahoma City,OK,126,24,8.0
+Oklahoma City,OK,127,24,8.0
+Boone,NC,128,25,3.0
+Boone,NC,129,25,3.0
+Boone,NC,130,25,3.0
+Battle Creek,MI,131,26,2.0
+Battle Creek,MI,132,26,2.0
+Colorado Springs,CO,133,27,1.0
+Denton TX,,134,28,
+Denton,TX,135,29,1.0
+South San Francisco,CA,136,30,1.0
+Boulder,CO,137,31,38.0
+Asheville,NC,138,32,5.0
+Asheville NC,,139,33,
+Asheville,NC,140,32,5.0
+Bellingham,WA,141,34,4.0
+Bellingham,WA,142,34,4.0
+Bellingham,WA,143,34,4.0
+Aspen,CO,144,35,2.0
+Aspen,CO,145,35,2.0
+Astoria,OR,146,36,16.0
+Astoria,OR,147,36,16.0
+Astoria,OR,148,36,16.0
+Astoria,OR,149,36,16.0
+Detroit,MI,150,37,5.0
+Detroit,MI,151,37,5.0
+Detroit,MI,152,37,5.0
+Detroit,MI,153,37,5.0
+Detroit,MI,154,37,5.0
+Detroit MI,,155,38,
+Austin,TX,156,39,25.0
+Austin,TX,157,39,25.0
+Austin,TX,158,39,25.0
+Austin,TX,159,39,25.0
+Austin,TX,160,39,25.0
+Boulder,CO,161,31,38.0
+Boulder,CO,162,31,38.0
+Boulder,CO,163,31,38.0
+Boulder,CO,164,31,38.0
+Boulder,CO,165,31,38.0
+Boulder,CO,166,31,38.0
+Fuquay-Varina,NC,167,40,6.0
+Fuquay-Varina,NC,168,40,6.0
+Fuquay-Varina,NC,169,40,6.0
+Fuquay-Varina,NC,170,40,6.0
+Fuquay-Varina,NC,171,40,6.0
+Fuquay-Varina,NC,172,40,6.0
+Bloomfield,CT,173,41,6.0
+Bloomfield,CT,174,41,6.0
+Bloomfield,CT,175,41,6.0
+Bloomfield,CT,176,41,6.0
+Bloomfield,CT,177,41,6.0
+Gadsden,AL,178,42,2.0
+Gadsden,AL,179,42,2.0
+Yakima,WA,180,43,2.0
+Yakima,WA,181,43,2.0
+San Diego,CA,182,44,39.0
+San Diego CA,,183,45,
+San Diego,CA,184,44,39.0
+San Diego,CA,185,44,39.0
+San Diego,CA,186,44,39.0
+San Diego,CA,187,44,39.0
+Williamsburg,MA,188,46,3.0
+Williamsburg,MA,189,46,3.0
+Williamsburg,MA,190,46,3.0
+Granger,IN,191,47,1.0
+Tucson,AZ,192,48,3.0
+Tucson,AZ,193,48,3.0
+Portland,OR,194,15,47.0
+Portland,OR,195,15,47.0
+Portland,OR,196,15,47.0
+Portland,OR,197,15,47.0
+Portland,OR,198,15,47.0
+Minneapolis,MN,199,49,16.0
+Minneapolis,MN,200,49,16.0
+Minneapolis,MN,201,49,16.0
+Minneapolis,MN,202,49,16.0
+Lewiston,ME,203,50,9.0
+Lewiston,ME,204,50,9.0
+Lewiston,ME,205,50,9.0
+Lewiston,ME,206,50,9.0
+Lewiston,ME,207,50,9.0
+Lewiston,ME,208,50,9.0
+Lewiston,ME,209,50,9.0
+Lewiston,ME,210,50,9.0
+Lewiston,ME,211,50,9.0
+Virginia Beach,VA,212,51,1.0
+Lowell,MA,213,52,4.0
+Lowell,MA,214,52,4.0
+Lowell,MA,215,52,4.0
+Lowell,MA,216,52,4.0
+Kalamazoo,MI,217,53,7.0
+Kalamazoo,MI,218,53,7.0
+Kalamazoo,MI,219,53,7.0
+Kalamazoo,MI,220,53,7.0
+Kalamazoo,MI,221,53,7.0
+Kalamazoo,MI,222,53,7.0
+Roseville,MN,223,54,3.0
+Roseville,MN,224,54,3.0
+Roseville,MN,225,54,3.0
+Duluth,MN,226,55,5.0
+Duluth,MN,227,55,5.0
+Duluth,MN,228,55,5.0
+Duluth,MN,229,55,5.0
+Duluth MN,,230,56,
+Duluth,MN,231,55,5.0
+South Deerfield,MA,232,57,2.0
+South Deerfield,MA,233,57,2.0
+Alpine,TX,234,58,5.0
+Alpine,TX,235,58,5.0
+Alpine,TX,236,58,5.0
+Alpine,TX,237,58,5.0
+Alpine,TX,238,58,5.0
+Broomfield,CO,239,59,4.0
+Broomfield,CO,240,59,4.0
+Broomfield,CO,241,59,4.0
+Broomfield,CO,242,59,4.0
+Sheffield,MA,243,60,3.0
+Sheffield,MA,244,60,3.0
+Sheffield,MA,245,60,3.0
+Holland,MI,246,61,2.0
+Holland,MI,247,61,2.0
+Murphysboro,IL,248,62,2.0
+Murphysboro,IL,249,62,2.0
+Chattanooga,TN,250,63,2.0
+Chattanooga,TN,251,63,2.0
+Missoula,MT,252,64,18.0
+Missoula,MT,253,64,18.0
+Missoula,MT,254,64,18.0
+Missoula,MT,255,64,18.0
+Missoula,MT,256,64,18.0
+Missoula,MT,257,64,18.0
+Missoula,MT,258,64,18.0
+Missoula,MT,259,64,18.0
+Missoula,MT,260,64,18.0
+Missoula,MT,261,64,18.0
+Missoula,MT,262,64,18.0
+Missoula,MT,263,64,18.0
+Odessa,FL,264,65,2.0
+Odessa,FL,265,65,2.0
+Vadnais Heights,MN,266,66,5.0
+Vadnais Heights,MN,267,66,5.0
+Vadnais Heights,MN,268,66,5.0
+Vadnais Heights,MN,269,66,5.0
+Vadnais Heights,MN,270,66,5.0
+Charlotte,NC,271,67,7.0
+Hamilton,MT,272,68,3.0
+Hamilton,MT,273,68,3.0
+Hamilton,MT,274,68,3.0
+Indianapolis,IN,275,69,39.0
+Temecula,CA,276,70,5.0
+Temecula,CA,277,70,5.0
+Temecula,CA,278,70,5.0
+Temecula,CA,279,70,5.0
+Denver,CO,280,71,37.0
+Denver,CO,281,71,37.0
+Denver,CO,282,71,37.0
+Denver,CO,283,71,37.0
+Sheridan,WY,284,72,6.0
+Sheridan,WY,285,72,6.0
+Marquette,MA,286,73,1.0
+Marquette,MI,287,74,6.0
+Marquette,MI,288,74,6.0
+Marquette,MI,289,74,6.0
+Marquette,MI,290,74,6.0
+Marquette,MI,291,74,6.0
+Marquette,MI,292,74,6.0
+Lincoln,NE,293,75,15.0
+Lincoln,NE,294,75,15.0
+Lincoln,NE,295,75,15.0
+Lincoln,NE,296,75,15.0
+Lincoln,NE,297,75,15.0
+Lincoln,NE,298,75,15.0
+Lincoln,NE,299,75,15.0
+Lincoln,NE,300,75,15.0
+Lincoln,NE,301,75,15.0
+Lincoln,NE,302,75,15.0
+Lincoln,NE,303,75,15.0
+Lincoln,NE,304,75,15.0
+Lincoln,NE,305,75,15.0
+Lincoln,NE,306,75,15.0
+Eugene,OR,307,76,6.0
+Eugene,OR,308,76,6.0
+Canton MA,,309,77,
+Afton VA,,310,78,
+Afton,VA,311,79,3.0
+Afton,VA,312,79,3.0
+Afton,VA,313,79,3.0
+Arrington,VA,314,80,1.0
+Austin,TX,315,39,25.0
+Austin,TX,316,39,25.0
+Austin,TX,317,39,25.0
+Austin,TX,318,39,25.0
+Patchogue,NY,319,81,4.0
+Patchogue,NY,320,81,4.0
+Patchogue,NY,321,81,4.0
+Patchogue,NY,322,81,4.0
+Midvale,UT,323,82,5.0
+Midvale,UT,324,82,5.0
+Midvale,UT,325,82,5.0
+Midvale,UT,326,82,5.0
+Midvale,UT,327,82,5.0
+Jacksonville,FL,328,83,7.0
+Jacksonville,FL,329,83,7.0
+Jacksonville,FL,330,83,7.0
+Ridgefield Park,NJ,331,84,2.0
+Ridgefield Park,NJ,332,84,2.0
+New York,NY,333,85,3.0
+New York,NY,334,85,3.0
+Eagle,CO,335,86,18.0
+Eagle,CO,336,86,18.0
+Eagle,CO,337,86,18.0
+Eagle,CO,338,86,18.0
+Eagle,CO,339,86,18.0
+Eagle,CO,340,86,18.0
+Eagle,CO,341,86,18.0
+Eagle,CO,342,86,18.0
+Eagle,CO,343,86,18.0
+Eagle,CO,344,86,18.0
+Eagle,CO,345,86,18.0
+Eagle,CO,346,86,18.0
+Eagle,CO,347,86,18.0
+Eagle,CO,348,86,18.0
+Eagle,CO,349,86,18.0
+Eagle,CO,350,86,18.0
+Eagle,CO,351,86,18.0
+Eagle CO,,352,87,
+Eagle,CO,353,86,18.0
+Tucson,AZ,354,48,3.0
+Boston,MA,355,88,20.0
+Boston,MA,356,88,20.0
+Boston,MA,357,88,20.0
+Boston,MA,358,88,20.0
+Boston,MA,359,88,20.0
+Boston,MA,360,88,20.0
+Boston,MA,361,88,20.0
+Boston,MA,362,88,20.0
+Boston,MA,363,88,20.0
+Boulder,CO,364,31,38.0
+Boulder,CO,365,31,38.0
+Boulder,CO,366,31,38.0
+Kansas City,MO,367,89,1.0
+West Chester,PA,368,90,3.0
+West Chester,PA,369,90,3.0
+West Chester,PA,370,90,3.0
+Bozeman,MT,371,91,5.0
+Bozeman,MT,372,91,5.0
+Bozeman,MT,373,91,5.0
+Bozeman,MT,374,91,5.0
+Bozeman,MT,375,91,5.0
+San Antonio,TX,376,92,16.0
+Portland,OR,377,15,47.0
+Denver,CO,378,71,37.0
+Denver,CO,379,71,37.0
+Denver,CO,380,71,37.0
+Denver CO,,381,93,
+Tampa,FL,382,94,30.0
+Tampa,FL,383,94,30.0
+Tampa,FL,384,94,30.0
+Tampa,FL,385,94,30.0
+Plainfield IN,,386,95,
+Traverse City,MI,387,96,5.0
+Grand Rapids,MI,388,97,65.0
+Grand Rapids,MI,389,97,65.0
+Grand Rapids,MI,390,97,65.0
+Grand Rapids,MI,391,97,65.0
+Grand Rapids,MI,392,97,65.0
+Grand Rapids,MI,393,97,65.0
+Grand Rapids,MI,394,97,65.0
+Grand Rapids,MI,395,97,65.0
+Grand Rapids,MI,396,97,65.0
+Grand Rapids,MI,397,97,65.0
+Grand Rapids,MI,398,97,65.0
+Grand Rapids,MI,399,97,65.0
+Grand Rapids,MI,400,97,65.0
+Grand Rapids,MI,401,97,65.0
+Grand Rapids,MI,402,97,65.0
+Grand Rapids,MI,403,97,65.0
+Grand Rapids,MI,404,97,65.0
+Grand Rapids,MI,405,97,65.0
+Grand Rapids,MI,406,97,65.0
+Grand Rapids,MI,407,97,65.0
+Grand Rapids,MI,408,97,65.0
+Grand Rapids,MI,409,97,65.0
+Grand Rapids MI,,410,98,
+Grand Rapids,MI,411,97,65.0
+Grand Rapids,MI,412,97,65.0
+Grand Rapids,MI,413,97,65.0
+Grand Rapids,MI,414,97,65.0
+Grand Rapids,MI,415,97,65.0
+Grand Rapids,MI,416,97,65.0
+Grand Rapids,MI,417,97,65.0
+Grand Rapids,MI,418,97,65.0
+Grand Rapids,MI,419,97,65.0
+Grand Rapids,MI,420,97,65.0
+Grand Rapids,MI,421,97,65.0
+Grand Rapids,MI,422,97,65.0
+Grand Rapids,MI,423,97,65.0
+Grand Rapids,MI,424,97,65.0
+Grand Rapids,MI,425,97,65.0
+Grand Rapids,MI,426,97,65.0
+Grand Rapids,MI,427,97,65.0
+Grand Rapids,MI,428,97,65.0
+Grand Rapids,MI,429,97,65.0
+Grand Rapids,MI,430,97,65.0
+Grand Rapids,MI,431,97,65.0
+Grand Rapids,MI,432,97,65.0
+Grand Rapids,MI,433,97,65.0
+Grand Rapids,MI,434,97,65.0
+Grand Rapids,MI,435,97,65.0
+Grand Rapids,MI,436,97,65.0
+Grand Rapids,MI,437,97,65.0
+Grand Rapids,MI,438,97,65.0
+Grand Rapids,MI,439,97,65.0
+Grand Rapids,MI,440,97,65.0
+Grand Rapids,MI,441,97,65.0
+Grand Rapids,MI,442,97,65.0
+Grand Rapids,MI,443,97,65.0
+Grand Rapids,MI,444,97,65.0
+Grand Rapids,MI,445,97,65.0
+Grand Rapids,MI,446,97,65.0
+Grand Rapids,MI,447,97,65.0
+Grand Rapids,MI,448,97,65.0
+Grand Rapids,MI,449,97,65.0
+Tampa Bay,FL,450,99,1.0
+Tampa Bay FL,,451,100,
+East Windsor,CT,452,101,1.0
+Anchorage,AK,453,102,15.0
+Anchorage,AK,454,102,15.0
+Anchorage,AK,455,102,15.0
+Anchorage,AK,456,102,15.0
+Brooklyn,NY,457,103,34.0
+Brooklyn,NY,458,103,34.0
+Brooklyn,NY,459,103,34.0
+Brooklyn,NY,460,103,34.0
+Brooklyn NY,,461,104,
+Brooklyn,NY,462,103,34.0
+Reno,NV,463,105,6.0
+Reno,NV,464,105,6.0
+Reno,NV,465,105,6.0
+Reno NV,,466,106,
+Reno,NV,467,105,6.0
+Reno,NV,468,105,6.0
+Reno,NV,469,105,6.0
+Cleveland,OH,470,107,3.0
+Lyons,IL,471,108,1.0
+Houston TX,,472,109,
+Houston,TX,473,110,11.0
+Houston,TX,474,110,11.0
+Michigan City,IN,475,111,11.0
+Michigan City,IN,476,111,11.0
+Michigan City,IN,477,111,11.0
+Michigan City,IN,478,111,11.0
+Michigan City,IN,479,111,11.0
+Michigan City,IN,480,111,11.0
+Michigan City,IN,481,111,11.0
+Michigan City,IN,482,111,11.0
+Michigan City,IN,483,111,11.0
+Michigan City,IN,484,111,11.0
+Michigan City,IN,485,111,11.0
+Portland,OR,486,15,47.0
+Carlsbad,CA,487,112,4.0
+Garrattsville,NY,488,113,4.0
+Garrattsville,NY,489,113,4.0
+Garrattsville,NY,490,113,4.0
+Garrattsville,NY,491,113,4.0
+Charleston,SC,492,114,6.0
+Charleston,SC,493,114,6.0
+Charleston,SC,494,114,6.0
+Charleston,SC,495,114,6.0
+Charleston,SC,496,114,6.0
+Charleston,SC,497,114,6.0
+Oklahoma City,OK,498,24,8.0
+Oklahoma City,OK,499,24,8.0
+Oklahoma City OK,,500,115,
+Oklahoma City,OK,501,24,8.0
+Oklahoma City,OK,502,24,8.0
+Oklahoma City,OK,503,24,8.0
+Ashland,OR,504,116,13.0
+Ashland,OR,505,116,13.0
+Ashland,OR,506,116,13.0
+Ashland,OR,507,116,13.0
+Ashland OR,,508,117,
+Ashland,OR,509,116,13.0
+Ashland,OR,510,116,13.0
+Ashland,OR,511,116,13.0
+Ashland,OR,512,116,13.0
+Ashland,OR,513,116,13.0
+Ashland,OR,514,116,13.0
+Ashland,OR,515,116,13.0
+Ashland,OR,516,116,13.0
+Ashland,OR,517,116,13.0
+Cambridge MA,,518,118,
+Cambridge,MA,519,119,1.0
+Charlotte,NC,520,67,7.0
+Charlotte,NC,521,67,7.0
+Charlotte,NC,522,67,7.0
+Charlotte,NC,523,67,7.0
+Gloucester,MA,524,120,4.0
+Gloucester,MA,525,120,4.0
+Gloucester,MA,526,120,4.0
+Gloucester,MA,527,120,4.0
+Gloucester MA,,528,121,
+Hyannis,MA,529,122,2.0
+Hyannis,MA,530,122,2.0
+Middleton,WI,531,123,11.0
+Middleton,WI,532,123,11.0
+Middleton,WI,533,123,11.0
+Middleton,WI,534,123,11.0
+Middleton,WI,535,123,11.0
+Middleton,WI,536,123,11.0
+Middleton,WI,537,123,11.0
+Middleton,WI,538,123,11.0
+Middleton,WI,539,123,11.0
+Middleton,WI,540,123,11.0
+Middleton,WI,541,123,11.0
+Mooresville NC,,542,124,
+Mooresville NC,,543,124,
+Mooresville,NC,544,125,1.0
+Pittsboro,NC,545,126,3.0
+Pittsboro,NC,546,126,3.0
+Pittsboro,NC,547,126,3.0
+Atlantic Highlands,NJ,548,127,3.0
+Atlantic Highlands,NJ,549,127,3.0
+Atlantic Highlands NJ,,550,128,
+Atlantic Highlands,NJ,551,127,3.0
+Portland,OR,552,15,47.0
+Portland,OR,553,15,47.0
+Morganton,NC,554,129,9.0
+Morganton,NC,555,129,9.0
+Morganton,NC,556,129,9.0
+Morganton,NC,557,129,9.0
+Morganton,NC,558,129,9.0
+Morganton,NC,559,129,9.0
+Morganton,NC,560,129,9.0
+Port Clinton,OH,561,130,2.0
+Port Clinton,OH,562,130,2.0
+Morganton,NC,563,129,9.0
+Morganton,NC,564,129,9.0
+Seven Points,TX,565,131,6.0
+Seven Points,TX,566,131,6.0
+Seven Points,TX,567,131,6.0
+Seven Points,TX,568,131,6.0
+Seven Points,TX,569,131,6.0
+Seven Points,TX,570,131,6.0
+Edwards,CO,571,132,10.0
+Edwards CO,,572,133,
+Ashland,VA,573,134,4.0
+Ashland,VA,574,134,4.0
+Ashland,VA,575,134,4.0
+Ashland,VA,576,134,4.0
+San Luis Obispo,CA,577,135,3.0
+San Luis Obispo CA,,578,136,
+San Luis Obispo,CA,579,135,3.0
+San Luis Obispo,CA,580,135,3.0
+Charlottesville,VA,581,137,5.0
+Charlottesville,VA,582,137,5.0
+Charlottesville,VA,583,137,5.0
+Charlottesville VA,,584,138,
+Angola,IN,585,139,3.0
+Angola,IN,586,139,3.0
+Angola,IN,587,139,3.0
+Angola IN,,588,140,
+Chatham,NY,589,141,2.0
+Chatham,NY,590,141,2.0
+Cheboygan,MI,591,142,3.0
+Cheboygan,MI,592,142,3.0
+Cheboygan,MI,593,142,3.0
+Cincinnati,OH,594,23,19.0
+Seattle,WA,595,143,35.0
+Stevens Point,WI,596,144,29.0
+Stevens Point,WI,597,144,29.0
+Tampa,FL,598,94,30.0
+Tampa,FL,599,94,30.0
+Tampa,FL,600,94,30.0
+Tampa,FL,601,94,30.0
+Tampa,FL,602,94,30.0
+Tampa,FL,603,94,30.0
+Tampa,FL,604,94,30.0
+Tampa,FL,605,94,30.0
+Tampa,FL,606,94,30.0
+Tampa,FL,607,94,30.0
+Tampa,FL,608,94,30.0
+Tampa,FL,609,94,30.0
+Tampa,FL,610,94,30.0
+Tampa,FL,611,94,30.0
+Tampa,FL,612,94,30.0
+Tampa,FL,613,94,30.0
+Tampa,FL,614,94,30.0
+Tampa,FL,615,94,30.0
+Tampa,FL,616,94,30.0
+Tampa FL,,617,145,
+Tampa,FL,618,94,30.0
+Tampa,FL,619,94,30.0
+Tampa,FL,620,94,30.0
+Tampa,FL,621,94,30.0
+Tampa,FL,622,94,30.0
+Nantucket,MA,623,146,7.0
+Nantucket,MA,624,146,7.0
+Nantucket,MA,625,146,7.0
+Nantucket,MA,626,146,7.0
+Nantucket,MA,627,146,7.0
+Nantucket,MA,628,146,7.0
+Nantucket,MA,629,146,7.0
+Claremont,CA,630,147,1.0
+Portland,OR,631,15,47.0
+Portland,OR,632,15,47.0
+Savannah,GA,633,148,2.0
+Savannah,GA,634,148,2.0
+Newport,RI,635,149,4.0
+Newport,RI,636,149,4.0
+Newport,RI,637,149,4.0
+Newport,RI,638,149,4.0
+Lake Havasu City,AZ,639,150,6.0
+Des Moines,IA,640,151,2.0
+Des Moines,IA,641,151,2.0
+Des Moines IA,,642,152,
+Springdale,AR,643,153,3.0
+Springdale,AR,644,153,3.0
+Springdale,AR,645,153,3.0
+Springdale AR,,646,154,
+Pawcatuck,CT,647,155,1.0
+Covington,LA,648,156,1.0
+Greeley,CO,649,157,3.0
+Greeley,CO,650,157,3.0
+Greeley,CO,651,157,3.0
+Edwards,CO,652,132,10.0
+Edwards,CO,653,132,10.0
+Edwards,CO,654,132,10.0
+Edwards,CO,655,132,10.0
+Edwards,CO,656,132,10.0
+Edwards,CO,657,132,10.0
+Edwards,CO,658,132,10.0
+Edwards,CO,659,132,10.0
+Athens,GA,660,158,2.0
+Athens,GA,661,158,2.0
+Garden City,ID,662,159,8.0
+Garden City,ID,663,159,8.0
+Garden City,ID,664,159,8.0
+Spearfish,SD,665,160,7.0
+Spearfish,SD,666,160,7.0
+Spearfish,SD,667,160,7.0
+Spearfish,SD,668,160,7.0
+Spearfish,SD,669,160,7.0
+Spearfish,SD,670,160,7.0
+Spearfish,SD,671,160,7.0
+Boulder,CO,672,31,38.0
+Boulder,CO,673,31,38.0
+Avon,IN,674,161,4.0
+Avon,IN,675,161,4.0
+Avon,IN,676,161,4.0
+Avon,IN,677,161,4.0
+Portland,ME,678,162,10.0
+Portland,ME,679,162,10.0
+Washington,DC,680,163,8.0
+Washington,DC,681,163,8.0
+Washington,DC,682,163,8.0
+Washington,DC,683,163,8.0
+Washington,DC,684,163,8.0
+Washington,DC,685,163,8.0
+Washington,DC,686,163,8.0
+Washington,DC,687,163,8.0
+Aurora,CO,688,164,6.0
+Aurora,CO,689,164,6.0
+Shelbyville,IN,690,165,1.0
+Wilson,WI,691,166,1.0
+Diamond Springs,CA,692,167,2.0
+Diamond Springs,CA,693,167,2.0
+Tulsa,OK,694,168,1.0
+Dallas,TX,695,169,11.0
+Dallas,TX,696,169,11.0
+Dallas,TX,697,169,11.0
+Dallas,TX,698,169,11.0
+Dallas,TX,699,169,11.0
+Dallas,TX,700,169,11.0
+Dallas,TX,701,169,11.0
+Dallas,TX,702,169,11.0
+Dallas,TX,703,169,11.0
+Hays,KS,704,170,2.0
+Hays,KS,705,170,2.0
+Talkeetna,AK,706,171,4.0
+Talkeetna,AK,707,171,4.0
+Talkeetna,AK,708,171,4.0
+Talkeetna,AK,709,171,4.0
+Denver,CO,710,71,37.0
+Denver,CO,711,71,37.0
+Bend,OR,712,0,11.0
+Bloomington,IL,713,172,5.0
+Bloomington,IL,714,172,5.0
+Bloomington IL,,715,173,
+Bloomington IL,,716,173,
+Bloomington,IL,717,172,5.0
+Bloomington,IL,718,172,5.0
+Bloomington,IL,719,172,5.0
+Lexington,VA,720,174,2.0
+Lexington,VA,721,174,2.0
+Belmont,CA,722,175,3.0
+Belmont CA,,723,176,
+Belmont,CA,724,175,3.0
+Belmont,CA,725,175,3.0
+Centralia,WA,726,177,1.0
+Woodinville,WA,727,178,4.0
+Philadelphia,PA,728,179,10.0
+Dolores,CO,729,180,6.0
+Dolores,CO,730,180,6.0
+Dolores,CO,731,180,6.0
+Dolores,CO,732,180,6.0
+Dolores,CO,733,180,6.0
+Dolores,CO,734,180,6.0
+Leominster,MA,735,181,2.0
+Leominster,MA,736,181,2.0
+Aurora,CO,737,164,6.0
+Aurora,CO,738,164,6.0
+Aurora,CO,739,164,6.0
+Aurora,CO,740,164,6.0
+Boynton Beach,FL,741,182,1.0
+Rochester,NY,742,183,1.0
+Buena Vista,CO,743,184,7.0
+Buena Vista,CO,744,184,7.0
+Buena Vista,CO,745,184,7.0
+Buena Vista,CO,746,184,7.0
+Buena Vista,CO,747,184,7.0
+Buena Vista,CO,748,184,7.0
+Buena Vista,CO,749,184,7.0
+Columbus,OH,750,185,10.0
+Seattle,WA,751,143,35.0
+Jacksonville Beach,FL,752,186,1.0
+Tacoma,WA,753,187,3.0
+Denver,CO,754,71,37.0
+Denver,CO,755,71,37.0
+Denver,CO,756,71,37.0
+Denver,CO,757,71,37.0
+White Salmon,WA,758,188,2.0
+White Salmon,WA,759,188,2.0
+Mishawaka,IN,760,189,6.0
+Mishawaka,IN,761,189,6.0
+Mishawaka,IN,762,189,6.0
+Mishawaka,IN,763,189,6.0
+Mishawaka,IN,764,189,6.0
+Mishawaka,IN,765,189,6.0
+Brooklyn,NY,766,103,34.0
+Brooklyn,NY,767,103,34.0
+Brooklyn,NY,768,103,34.0
+Brooklyn,NY,769,103,34.0
+Brooklyn,NY,770,103,34.0
+Fargo,ND,771,190,3.0
+Fargo,ND,772,190,3.0
+Fargo,ND,773,190,3.0
+Middleburg Heights,OH,774,191,2.0
+Middleburg Heights,OH,775,191,2.0
+Boulder,CO,776,31,38.0
+Boulder,CO,777,31,38.0
+Boulder,CO,778,31,38.0
+Boulder CO,,779,192,
+Boulder,CO,780,31,38.0
+Estacada,OR,781,193,6.0
+Estacada,OR,782,193,6.0
+Estacada,OR,783,193,6.0
+Estacada,OR,784,193,6.0
+Estacada,OR,785,193,6.0
+Estacada,OR,786,193,6.0
+Shelburne,VT,787,194,4.0
+Shelburne,VT,788,194,4.0
+Shelburne,VT,789,194,4.0
+Shelburne,VT,790,194,4.0
+Buellton,CA,791,195,2.0
+Buellton,CA,792,195,2.0
+Buellton CA,,793,196,
+Chicago,IL,794,197,52.0
+Chicago,IL,795,197,52.0
+Chicago,IL,796,197,52.0
+Chicago,IL,797,197,52.0
+Chicago,IL,798,197,52.0
+Chicago,IL,799,197,52.0
+Chicago,IL,800,197,52.0
+Chicago,IL,801,197,52.0
+Chicago,IL,802,197,52.0
+Chicago,IL,803,197,52.0
+Paso Robles,CA,804,198,4.0
+Paso Robles CA,,805,199,
+Paso Robles,CA,806,198,4.0
+Paso Robles,CA,807,198,4.0
+Paso Robles,CA,808,198,4.0
+Indianapolis,IN,809,69,39.0
+Indianapolis,IN,810,69,39.0
+Indianapolis,IN,811,69,39.0
+Smithton,PA,812,200,1.0
+Lombard,IL,813,201,1.0
+Frederick,MD,814,202,2.0
+Frederick,MD,815,202,2.0
+Troutville,VA,816,203,2.0
+Troutville,VA,817,203,2.0
+Pawtucket,RI,818,204,4.0
+Pawtucket,RI,819,204,4.0
+Pawtucket,RI,820,204,4.0
+Pawtucket,RI,821,204,4.0
+Cherry Hill,NJ,822,205,2.0
+Cherry Hill,NJ,823,205,2.0
+Astoria,OR,824,36,16.0
+Astoria,OR,825,36,16.0
+Astoria,OR,826,36,16.0
+Astoria,OR,827,36,16.0
+Astoria,OR,828,36,16.0
+Astoria,OR,829,36,16.0
+Astoria,OR,830,36,16.0
+Astoria,OR,831,36,16.0
+Astoria,OR,832,36,16.0
+Astoria,OR,833,36,16.0
+Astoria,OR,834,36,16.0
+Astoria,OR,835,36,16.0
+Latrobe PA,,836,206,
+San Francisco,CA,837,3,31.0
+San Francisco,CA,838,3,31.0
+San Francisco,CA,839,3,31.0
+San Francisco,CA,840,3,31.0
+Grand Rapids,MI,841,97,65.0
+Grand Rapids,MI,842,97,65.0
+Grand Rapids,MI,843,97,65.0
+Dallas,TX,844,169,11.0
+Dallas,TX,845,169,11.0
+Dallas TX,,846,207,
+Valparaiso,IN,847,208,4.0
+Valparaiso,IN,848,208,4.0
+Valparaiso,IN,849,208,4.0
+Valparaiso,IN,850,208,4.0
+South Bend,IN,851,209,1.0
+Tempe,AZ,852,210,7.0
+Tempe,AZ,853,210,7.0
+Tempe,AZ,854,210,7.0
+Tempe,AZ,855,210,7.0
+Tempe,AZ,856,210,7.0
+Tempe,AZ,857,210,7.0
+Tempe,AZ,858,210,7.0
+Columbus,OH,859,185,10.0
+Columbus,OH,860,185,10.0
+Columbus,OH,861,185,10.0
+Columbus,OH,862,185,10.0
+Frankenmuth,MI,863,211,2.0
+Frankenmuth MI,,864,212,
+Frankenmuth,MI,865,211,2.0
+San Antonio,TX,866,92,16.0
+San Antonio,TX,867,92,16.0
+San Antonio,TX,868,92,16.0
+San Antonio,TX,869,92,16.0
+San Antonio,TX,870,92,16.0
+San Antonio,TX,871,92,16.0
+San Antonio,TX,872,92,16.0
+San Antonio,TX,873,92,16.0
+Seattle,WA,874,143,35.0
+Seattle,WA,875,143,35.0
+Seattle,WA,876,143,35.0
+Seattle,WA,877,143,35.0
+Seattle,WA,878,143,35.0
+Seattle,WA,879,143,35.0
+Seattle,WA,880,143,35.0
+Asheville,NC,881,32,5.0
+Asheville,NC,882,32,5.0
+Asheville,NC,883,32,5.0
+Waynesville,NC,884,213,1.0
+Durham,NC,885,214,4.0
+Lake Geneva WI,,886,215,
+Lake Geneva,WI,887,216,2.0
+Lake Geneva,WI,888,216,2.0
+Pineland ME,,889,217,
+Los Angeles CA,,890,218,
+Los Angeles,CA,891,219,13.0
+Los Angeles,CA,892,219,13.0
+Los Angeles,CA,893,219,13.0
+Los Angeles,CA,894,219,13.0
+Los Angeles,CA,895,219,13.0
+Los Angeles,CA,896,219,13.0
+Los Angeles CA,,897,218,
+Los Angeles,CA,898,219,13.0
+Los Angeles,CA,899,219,13.0
+Los Angeles,CA,900,219,13.0
+Los Angeles,CA,901,219,13.0
+Los Angeles,CA,902,219,13.0
+Los Angeles,CA,903,219,13.0
+Los Angeles,CA,904,219,13.0
+Kalamazoo,MI,905,53,7.0
+Bend,OR,906,0,11.0
+Bend,OR,907,0,11.0
+Birmingham,AL,908,220,5.0
+Birmingham,AL,909,220,5.0
+Birmingham,AL,910,220,5.0
+Birmingham,AL,911,220,5.0
+Birmingham,AL,912,220,5.0
+Bend,OR,913,0,11.0
+Chicago,IL,914,197,52.0
+Chicago,IL,915,197,52.0
+Chicago,IL,916,197,52.0
+Chicago,IL,917,197,52.0
+Chicago IL,,918,221,
+Chicago,IL,919,197,52.0
+Edwards,CO,920,132,10.0
+Williams,AZ,921,222,4.0
+Williams,AZ,922,222,4.0
+Williams,AZ,923,222,4.0
+Williams,AZ,924,222,4.0
+Farmers Branch,TX,925,223,3.0
+Farmers Branch,TX,926,223,3.0
+Farmers Branch,TX,927,223,3.0
+Aurora,IN,928,224,19.0
+Aurora,IN,929,224,19.0
+Aurora,IN,930,224,19.0
+Aurora,IN,931,224,19.0
+Aurora,IN,932,224,19.0
+Aurora,IN,933,224,19.0
+Aurora,IN,934,224,19.0
+Aurora,IN,935,224,19.0
+Aurora,IN,936,224,19.0
+Aurora,IN,937,224,19.0
+Aurora,IN,938,224,19.0
+Aurora,IN,939,224,19.0
+Aurora IN,,940,225,
+Aurora,IN,941,224,19.0
+Aurora,IN,942,224,19.0
+Aurora,IN,943,224,19.0
+Aurora,IN,944,224,19.0
+Aurora,IN,945,224,19.0
+Aurora,IN,946,224,19.0
+Aurora,IN,947,224,19.0
+Denver,CO,948,71,37.0
+Denver,CO,949,71,37.0
+Denver,CO,950,71,37.0
+Denver,CO,951,71,37.0
+Denver CO,,952,93,
+Denver,CO,953,71,37.0
+Denver,CO,954,71,37.0
+Denver,CO,955,71,37.0
+Denver,CO,956,71,37.0
+Whitefish,MT,957,226,2.0
+Whitefish,MT,958,226,2.0
+Shreveport,LA,959,227,2.0
+Shreveport,LA,960,227,2.0
+Davenport,IA,961,228,18.0
+Davenport,IA,962,228,18.0
+Davenport,IA,963,228,18.0
+Davenport,IA,964,228,18.0
+Davenport,IA,965,228,18.0
+Davenport,IA,966,228,18.0
+Davenport,IA,967,228,18.0
+Davenport,IA,968,228,18.0
+Davenport,IA,969,228,18.0
+Davenport,IA,970,228,18.0
+Davenport,IA,971,228,18.0
+Davenport,IA,972,228,18.0
+Davenport,IA,973,228,18.0
+Davenport,IA,974,228,18.0
+Davenport,IA,975,228,18.0
+Davenport,IA,976,228,18.0
+Davenport,IA,977,228,18.0
+Davenport,IA,978,228,18.0
+Jacksonville,FL,979,83,7.0
+Lewisburg,WV,980,229,2.0
+Lewisburg,WV,981,229,2.0
+Westerly,RI,982,230,9.0
+Westerly,RI,983,230,9.0
+Westerly,RI,984,230,9.0
+Westerly,RI,985,230,9.0
+Westerly,RI,986,230,9.0
+Westerly,RI,987,230,9.0
+Westerly,RI,988,230,9.0
+Westerly,RI,989,230,9.0
+Westerly,RI,990,230,9.0
+Birmingham,MI,991,231,9.0
+Birmingham,MI,992,231,9.0
+Birmingham,MI,993,231,9.0
+Birmingham,MI,994,231,9.0
+Birmingham,MI,995,231,9.0
+Birmingham,MI,996,231,9.0
+Birmingham,MI,997,231,9.0
+Birmingham,MI,998,231,9.0
+Birmingham,MI,999,231,9.0
+Loveland,CO,1000,232,1.0
+Seattle,WA,1001,143,35.0
+Seattle,WA,1002,143,35.0
+Chicago,IL,1003,197,52.0
+Chicago,IL,1004,197,52.0
+Chicago,IL,1005,197,52.0
+Chicago,IL,1006,197,52.0
+Chicago,IL,1007,197,52.0
+Chicago,IL,1008,197,52.0
+Chicago,IL,1009,197,52.0
+Chicago,IL,1010,197,52.0
+Stamford,CT,1011,233,2.0
+Stamford,CT,1012,233,2.0
+Redlands,CA,1013,234,2.0
+Redlands,CA,1014,234,2.0
+Richmond,VA,1015,235,3.0
+Richmond,VA,1016,235,3.0
+Richmond,VA,1017,235,3.0
+Boston,MA,1018,88,20.0
+Boston,MA,1019,88,20.0
+Boston,MA,1020,88,20.0
+Boston,MA,1021,88,20.0
+Boston,MA,1022,88,20.0
+Boston,MA,1023,88,20.0
+Boston,MA,1024,88,20.0
+Boston,MA,1025,88,20.0
+Boston,MA,1026,88,20.0
+Boston,MA,1027,88,20.0
+Boston MA,,1028,236,
+Boston,MA,1029,88,20.0
+Belt,MT,1030,237,2.0
+Belt,MT,1031,237,2.0
+Hilo,HI,1032,238,11.0
+Hilo,HI,1033,238,11.0
+Hilo,HI,1034,238,11.0
+Hilo,HI,1035,238,11.0
+Hilo,HI,1036,238,11.0
+Mill Valley,CA,1037,239,2.0
+Mill Valley,CA,1038,239,2.0
+Mill Valley CA,,1039,240,
+Halethorpe,MD,1040,241,3.0
+Halethorpe,MD,1041,241,3.0
+Halethorpe,MD,1042,241,3.0
+San Diego,CA,1043,44,39.0
+San Diego,CA,1044,44,39.0
+San Diego,CA,1045,44,39.0
+Windsor,CO,1046,242,2.0
+Windsor,CO,1047,242,2.0
+Leavenworth,KS,1048,243,3.0
+Leavenworth,KS,1049,243,3.0
+Leavenworth,KS,1050,243,3.0
+Seattle,WA,1051,143,35.0
+Seattle,WA,1052,143,35.0
+Seattle,WA,1053,143,35.0
+Seattle,WA,1054,143,35.0
+Seattle,WA,1055,143,35.0
+Green Bay,WI,1056,244,2.0
+Pittsburgh,PA,1057,245,2.0
+Pittsburgh,PA,1058,245,2.0
+Pittsburgh PA,,1059,246,
+Springfield,OR,1060,247,8.0
+Springfield,OR,1061,247,8.0
+Springfield,OR,1062,247,8.0
+Springfield,OR,1063,247,8.0
+Springfield,OR,1064,247,8.0
+Springfield,OR,1065,247,8.0
+Springfield,OR,1066,247,8.0
+Springfield,OR,1067,247,8.0
+Austin,TX,1068,39,25.0
+Austin,TX,1069,39,25.0
+Austin,TX,1070,39,25.0
+Austin,TX,1071,39,25.0
+Austin,TX,1072,39,25.0
+Portland,OR,1073,15,47.0
+Portland,OR,1074,15,47.0
+Portland OR,,1075,248,
+Portland,OR,1076,15,47.0
+Portland OR,,1077,248,
+Portland,OR,1078,15,47.0
+Portland,OR,1079,15,47.0
+Portland,OR,1080,15,47.0
+Portland,OR,1081,15,47.0
+Portland,OR,1082,15,47.0
+Portland,OR,1083,15,47.0
+Portland,OR,1084,15,47.0
+Portland,OR,1085,15,47.0
+Portland,OR,1086,15,47.0
+Portland,OR,1087,15,47.0
+Portland OR,,1088,248,
+Portland,OR,1089,15,47.0
+Portland,OR,1090,15,47.0
+Portland,OR,1091,15,47.0
+Portland,OR,1092,15,47.0
+Portland,OR,1093,15,47.0
+Portland,OR,1094,15,47.0
+Portland,OR,1095,15,47.0
+Milwaukee,WI,1096,249,10.0
+Milwaukee,WI,1097,249,10.0
+Milwaukee,WI,1098,249,10.0
+Lenoir,NC,1099,250,2.0
+Lenoir,NC,1100,250,2.0
+Minneapolis,MN,1101,49,16.0
+Minneapolis,MN,1102,49,16.0
+Minneapolis,MN,1103,49,16.0
+Minneapolis,MN,1104,49,16.0
+Minneapolis,MN,1105,49,16.0
+Minneapolis,MN,1106,49,16.0
+Austin,TX,1107,39,25.0
+Austin,TX,1108,39,25.0
+Austin,TX,1109,39,25.0
+Indianapolis,IN,1110,69,39.0
+Austin,TX,1111,39,25.0
+Austin,TX,1112,39,25.0
+Jacksonville,FL,1113,83,7.0
+Jacksonville,FL,1114,83,7.0
+Jacksonville,FL,1115,83,7.0
+Ipswich,MA,1116,251,3.0
+Wilmington,DE,1117,252,1.0
+Framingham,MA,1118,253,4.0
+Framingham,MA,1119,253,4.0
+Framingham MA,,1120,254,
+Framingham,MA,1121,253,4.0
+Framingham,MA,1122,253,4.0
+Biglerville,PA,1123,255,2.0
+Biglerville,PA,1124,255,2.0
+Nashville,TN,1125,256,1.0
+Athens,OH,1126,257,5.0
+Athens,OH,1127,257,5.0
+Athens,OH,1128,257,5.0
+Athens,OH,1129,257,5.0
+Athens,OH,1130,257,5.0
+Laurel,MD,1131,258,1.0
+Stevens Point,WI,1132,144,29.0
+Stevens Point,WI,1133,144,29.0
+Stevens Point,WI,1134,144,29.0
+Stevens Point,WI,1135,144,29.0
+Stevens Point,WI,1136,144,29.0
+Stevens Point WI,,1137,259,
+Henderson,NV,1138,260,4.0
+Henderson,NV,1139,260,4.0
+Henderson,NV,1140,260,4.0
+Henderson,NV,1141,260,4.0
+Kalona,IA,1142,261,2.0
+Kalona,IA,1143,261,2.0
+Houston,TX,1144,110,11.0
+Houston,TX,1145,110,11.0
+Houston,TX,1146,110,11.0
+Houston,TX,1147,110,11.0
+Houston TX,,1148,109,
+Houston,TX,1149,110,11.0
+Houston,TX,1150,110,11.0
+Houston,TX,1151,110,11.0
+Houston,TX,1152,110,11.0
+Houston,TX,1153,110,11.0
+Brooklyn,NY,1154,103,34.0
+Brooklyn,NY,1155,103,34.0
+Brooklyn NY,,1156,104,
+Soldotna,AK,1157,262,3.0
+Soldotna AK,,1158,263,
+Soldotna,AK,1159,262,3.0
+Soldotna,AK,1160,262,3.0
+Missoula,MT,1161,64,18.0
+Missoula,MT,1162,64,18.0
+Missoula,MT,1163,64,18.0
+Missoula,MT,1164,64,18.0
+Missoula,MT,1165,64,18.0
+Missoula,MT,1166,64,18.0
+Houghton,MI,1167,264,7.0
+Houghton,MI,1168,264,7.0
+Houghton,MI,1169,264,7.0
+Houghton,MI,1170,264,7.0
+Houghton,MI,1171,264,7.0
+Houghton,MI,1172,264,7.0
+Houghton,MI,1173,264,7.0
+Anchorage,AK,1174,102,15.0
+Anchorage,AK,1175,102,15.0
+Anchorage,AK,1176,102,15.0
+Anchorage,AK,1177,102,15.0
+Anchorage,AK,1178,102,15.0
+Kirkwood,MO,1179,265,2.0
+Kirkwood,MO,1180,265,2.0
+Kona,HI,1181,266,4.0
+Kona,HI,1182,266,4.0
+Kona,HI,1183,266,4.0
+Kona,HI,1184,266,4.0
+Krebs,OK,1185,267,1.0
+Bellingham,WA,1186,34,4.0
+Albuquerque NM,,1187,268,
+Albuquerque,NM,1188,269,6.0
+Lancaster,PA,1189,270,2.0
+Lancaster,PA,1190,270,2.0
+Portage,MI,1191,271,4.0
+Portage,MI,1192,271,4.0
+Portage,MI,1193,271,4.0
+Portage,MI,1194,271,4.0
+Ponderay,ID,1195,272,3.0
+Ponderay,ID,1196,272,3.0
+Ponderay,ID,1197,272,3.0
+Erie,PA,1198,273,2.0
+Erie,PA,1199,273,2.0
+Eau Claire,WI,1200,274,3.0
+Helena,MT,1201,275,4.0
+Helena,MT,1202,275,4.0
+Helena MT,,1203,276,
+Helena,MT,1204,275,4.0
+Helena,MT,1205,275,4.0
+Stillwater,MN,1206,277,2.0
+Stillwater,MN,1207,277,2.0
+York,PA,1208,278,3.0
+York,PA,1209,278,3.0
+York,PA,1210,278,3.0
+York PA,,1211,279,
+Lone Tree,CO,1212,280,1.0
+Raleigh,NC,1213,281,5.0
+Raleigh,NC,1214,281,5.0
+Raleigh,NC,1215,281,5.0
+Raleigh,NC,1216,281,5.0
+Raleigh,NC,1217,281,5.0
+Bridgewater Corners,VT,1218,282,5.0
+Bridgewater Corners,VT,1219,282,5.0
+Bridgewater Corners,VT,1220,282,5.0
+Bridgewater Corners,VT,1221,282,5.0
+Bridgewater Corners,VT,1222,282,5.0
+East Fairfield,VT,1223,283,4.0
+East Fairfield,VT,1224,283,4.0
+East Fairfield,VT,1225,283,4.0
+East Fairfield,VT,1226,283,4.0
+Ashburn,VA,1227,284,2.0
+Ashburn,VA,1228,284,2.0
+Menominee,WI,1229,285,1.0
+Menominie,WI,1230,286,3.0
+Menominie,WI,1231,286,3.0
+Menominie,WI,1232,286,3.0
+Jackson,MS,1233,287,2.0
+Jackson,MS,1234,287,2.0
+Flagstaff,AZ,1235,288,5.0
+Flagstaff,AZ,1236,288,5.0
+Flagstaff,AZ,1237,288,5.0
+Flagstaff,AZ,1238,288,5.0
+Portland OR,,1239,248,
+Portland,OR,1240,15,47.0
+Macon,GA,1241,289,2.0
+Macon,GA,1242,289,2.0
+Cincinnati,OH,1243,23,19.0
+Cincinnati,OH,1244,23,19.0
+Cincinnati,OH,1245,23,19.0
+Cincinnati OH,,1246,290,
+Cincinnati,OH,1247,23,19.0
+Cincinnati,OH,1248,23,19.0
+Cincinnati,OH,1249,23,19.0
+Cincinnati,OH,1250,23,19.0
+Cincinnati,OH,1251,23,19.0
+South Burlington,VT,1252,291,3.0
+South Burlington,VT,1253,291,3.0
+South Burlington,VT,1254,291,3.0
+Mammoth Lakes,CA,1255,292,4.0
+Mammoth Lakes,CA,1256,292,4.0
+Mammoth Lakes,CA,1257,292,4.0
+Mammoth Lakes,CA,1258,292,4.0
+Philadelphia,PA,1259,179,10.0
+Philadelphia,PA,1260,179,10.0
+Philadelphia,PA,1261,179,10.0
+Philadelphia,PA,1262,179,10.0
+Philadelphia,PA,1263,179,10.0
+Philadelphia,PA,1264,179,10.0
+Philadelphia,PA,1265,179,10.0
+Philadelphia,PA,1266,179,10.0
+Philadelphia,PA,1267,179,10.0
+Santee,CA,1268,293,5.0
+Santee,CA,1269,293,5.0
+Santee,CA,1270,293,5.0
+Santee,CA,1271,293,5.0
+Santee,CA,1272,293,5.0
+Albuquerque,NM,1273,269,6.0
+Albuquerque,NM,1274,269,6.0
+Belfast,ME,1275,294,5.0
+Belfast,ME,1276,294,5.0
+Belfast,ME,1277,294,5.0
+Belfast,ME,1278,294,5.0
+Belfast,ME,1279,294,5.0
+Fort Worth,TX,1280,295,8.0
+Fort Worth,TX,1281,295,8.0
+Fort Worth,TX,1282,295,8.0
+Fort Worth,TX,1283,295,8.0
+Fort Worth TX,,1284,296,
+Fort Worth,TX,1285,295,8.0
+Fort Worth,TX,1286,295,8.0
+Fort Worth TX,,1287,296,
+Utica NY,,1288,297,
+Utica,NY,1289,298,11.0
+Utica,NY,1290,298,11.0
+Utica,NY,1291,298,11.0
+Utica,NY,1292,298,11.0
+Utica,NY,1293,298,11.0
+Utica NY,,1294,297,
+Utica,NY,1295,298,11.0
+Utica,NY,1296,298,11.0
+Utica,NY,1297,298,11.0
+Utica,NY,1298,298,11.0
+Utica,NY,1299,298,11.0
+Utica,NY,1300,298,11.0
+Lahaina,HI,1301,299,12.0
+Lahaina,HI,1302,299,12.0
+Lahaina,HI,1303,299,12.0
+Lahaina,HI,1304,299,12.0
+Lahaina,HI,1305,299,12.0
+Lahaina,HI,1306,299,12.0
+Lahaina,HI,1307,299,12.0
+Lahaina,HI,1308,299,12.0
+Lahaina,HI,1309,299,12.0
+Lahaina,HI,1310,299,12.0
+Lahaina,HI,1311,299,12.0
+Lahaina,HI,1312,299,12.0
+Half Moon Bay,CA,1313,300,3.0
+Half Moon Bay,CA,1314,300,3.0
+Half Moon Bay,CA,1315,300,3.0
+Somerset Center,MI,1316,301,3.0
+Somerset Center,MI,1317,301,3.0
+Somerset Center,MI,1318,301,3.0
+Hilo,HI,1319,238,11.0
+Hilo,HI,1320,238,11.0
+Hilo,HI,1321,238,11.0
+Hilo,HI,1322,238,11.0
+Hilo,HI,1323,238,11.0
+Hilo,HI,1324,238,11.0
+Miami,FL,1325,302,4.0
+Miami,FL,1326,302,4.0
+Miami,FL,1327,302,4.0
+Miami,FL,1328,302,4.0
+Libertyville,IL,1329,303,1.0
+Anchorage,AK,1330,102,15.0
+Anchorage,AK,1331,102,15.0
+Anchorage,AK,1332,102,15.0
+Anchorage,AK,1333,102,15.0
+Anchorage,AK,1334,102,15.0
+San Diego,CA,1335,44,39.0
+San Diego,CA,1336,44,39.0
+San Diego,CA,1337,44,39.0
+San Diego,CA,1338,44,39.0
+San Diego,CA,1339,44,39.0
+San Diego,CA,1340,44,39.0
+Chicago,IL,1341,197,52.0
+Chicago IL,,1342,221,
+Chicago,IL,1343,197,52.0
+Chicago,IL,1344,197,52.0
+Chicago,IL,1345,197,52.0
+Chicago,IL,1346,197,52.0
+Chicago,IL,1347,197,52.0
+Chicago,IL,1348,197,52.0
+Pottstown,PA,1349,304,13.0
+Pottstown,PA,1350,304,13.0
+Royal Oak,MI,1351,305,3.0
+Royal Oak,MI,1352,305,3.0
+Royal Oak,MI,1353,305,3.0
+Milwaukee,WI,1354,249,10.0
+Milwaukee,WI,1355,249,10.0
+Milwaukee,WI,1356,249,10.0
+Milwaukee,WI,1357,249,10.0
+Milwaukee,WI,1358,249,10.0
+Milwaukee,WI,1359,249,10.0
+Milwaukee,WI,1360,249,10.0
+Monroe,WI,1361,306,12.0
+Monroe,WI,1362,306,12.0
+Monroe,WI,1363,306,12.0
+Monroe,WI,1364,306,12.0
+Monroe,WI,1365,306,12.0
+Monroe,WI,1366,306,12.0
+Monroe WI,,1367,307,
+Monroe,WI,1368,306,12.0
+Monroe,WI,1369,306,12.0
+Monroe,WI,1370,306,12.0
+Monroe,WI,1371,306,12.0
+Monroe,WI,1372,306,12.0
+Monroe,WI,1373,306,12.0
+San Diego CA,,1374,45,
+San Diego,CA,1375,44,39.0
+San Diego CA,,1376,45,
+San Diego,CA,1377,44,39.0
+Moab,UT,1378,308,4.0
+Moab,UT,1379,308,4.0
+Moab,UT,1380,308,4.0
+Moab,UT,1381,308,4.0
+North Conway,NH,1382,309,2.0
+North Conway,NH,1383,309,2.0
+Lincoln,NE,1384,75,15.0
+San Diego,CA,1385,44,39.0
+San Diego,CA,1386,44,39.0
+San Diego,CA,1387,44,39.0
+San Diego,CA,1388,44,39.0
+San Diego,CA,1389,44,39.0
+San Diego,CA,1390,44,39.0
+San Diego,CA,1391,44,39.0
+San Diego,CA,1392,44,39.0
+Flagstaff,AZ,1393,288,5.0
+San Diego,CA,1394,44,39.0
+San Diego,CA,1395,44,39.0
+San Diego,CA,1396,44,39.0
+Montauk,NY,1397,310,2.0
+Montauk,NY,1398,310,2.0
+Saint Louis,MO,1399,6,18.0
+Saint Louis,MO,1400,6,18.0
+Saint Louis,MO,1401,6,18.0
+Saint Louis,MO,1402,6,18.0
+Saint Louis,MO,1403,6,18.0
+Vista,CA,1404,311,1.0
+Kinston,NC,1405,312,2.0
+Kinston,NC,1406,312,2.0
+Springfield,MO,1407,313,2.0
+Springfield,MO,1408,313,2.0
+Mount Pleasant,MI,1409,314,1.0
+Lake Havasu City,AZ,1410,150,6.0
+Lake Havasu City,AZ,1411,150,6.0
+Lake Havasu City,AZ,1412,150,6.0
+Lake Havasu City,AZ,1413,150,6.0
+Lake Havasu City,AZ,1414,150,6.0
+Mustang,OK,1415,315,5.0
+Mustang,OK,1416,315,5.0
+Mustang,OK,1417,315,5.0
+Mustang,OK,1418,315,5.0
+Mustang,OK,1419,315,5.0
+Providence,RI,1420,316,10.0
+Providence,RI,1421,316,10.0
+Providence,RI,1422,316,10.0
+Providence,RI,1423,316,10.0
+Providence,RI,1424,316,10.0
+Providence,RI,1425,316,10.0
+Providence,RI,1426,316,10.0
+Providence,RI,1427,316,10.0
+Providence,RI,1428,316,10.0
+Providence,RI,1429,316,10.0
+Portland OR,,1430,248,
+Portland,OR,1431,15,47.0
+Portland,OR,1432,15,47.0
+Portland,OR,1433,15,47.0
+Portland,OR,1434,15,47.0
+Portland,OR,1435,15,47.0
+Papillion,NE,1436,317,5.0
+Papillion,NE,1437,317,5.0
+Papillion,NE,1438,317,5.0
+Papillion,NE,1439,317,5.0
+Papillion,NE,1440,317,5.0
+Croydon,PA,1441,318,2.0
+Croydon,PA,1442,318,2.0
+Fort Collins,CO,1443,319,22.0
+Fort Collins,CO,1444,319,22.0
+Fort Collins,CO,1445,319,22.0
+Fort Collins,CO,1446,319,22.0
+Fort Collins,CO,1447,319,22.0
+Fort Collins,CO,1448,319,22.0
+Fort Collins,CO,1449,319,22.0
+Fort Collins,CO,1450,319,22.0
+Fort Collins,CO,1451,319,22.0
+Fort Collins,CO,1452,319,22.0
+Fort Collins,CO,1453,319,22.0
+Fort Collins,CO,1454,319,22.0
+Fort Collins,CO,1455,319,22.0
+Fort Collins,CO,1456,319,22.0
+Fort Collins,CO,1457,319,22.0
+Fort Collins,CO,1458,319,22.0
+Fort Collins,CO,1459,319,22.0
+Woodbridge,CT,1460,320,11.0
+Woodbridge,CT,1461,320,11.0
+Woodbridge,CT,1462,320,11.0
+Woodbridge,CT,1463,320,11.0
+Woodbridge,CT,1464,320,11.0
+Woodbridge,CT,1465,320,11.0
+Woodbridge,CT,1466,320,11.0
+Woodbridge,CT,1467,320,11.0
+Woodbridge,CT,1468,320,11.0
+Woodbridge,CT,1469,320,11.0
+Woodbridge,CT,1470,320,11.0
+New Orleans,LA,1471,321,6.0
+New Orleans,LA,1472,321,6.0
+New Orleans,LA,1473,321,6.0
+New Orleans,LA,1474,321,6.0
+New Orleans,LA,1475,321,6.0
+New Orleans,LA,1476,321,6.0
+College Station,TX,1477,322,3.0
+College Station,TX,1478,322,3.0
+College Station,TX,1479,322,3.0
+Myrtle Beach SC,,1480,323,
+Myrtle Beach,SC,1481,324,1.0
+Newburgh,NY,1482,325,1.0
+Newburyport,MA,1483,326,3.0
+Newburyport,MA,1484,326,3.0
+Newburyport,MA,1485,326,3.0
+Everett,MA,1486,327,1.0
+Charlotte,NC,1487,67,7.0
+Charlotte,NC,1488,67,7.0
+Slippery Rock,PA,1489,328,4.0
+Slippery Rock,PA,1490,328,4.0
+Slippery Rock,PA,1491,328,4.0
+Slippery Rock,PA,1492,328,4.0
+Minneapolis,MN,1493,49,16.0
+Minneapolis,MN,1494,49,16.0
+Minneapolis,MN,1495,49,16.0
+Minneapolis,MN,1496,49,16.0
+Minneapolis,MN,1497,49,16.0
+Minneapolis,MN,1498,49,16.0
+Northamtpon,MA,1499,329,1.0
+Pacific,WA,1500,330,2.0
+Pacific,WA,1501,330,2.0
+Eau Claire,WI,1502,274,3.0
+Eau Claire,WI,1503,274,3.0
+Ipswich,MA,1504,251,3.0
+Ipswich,MA,1505,251,3.0
+O'Fallon,MO,1506,331,3.0
+O'Fallon,MO,1507,331,3.0
+O'Fallon,MO,1508,331,3.0
+Eugene,OR,1509,76,6.0
+Eugene,OR,1510,76,6.0
+Eugene,OR,1511,76,6.0
+Eugene,OR,1512,76,6.0
+Austin,TX,1513,39,25.0
+Austin,TX,1514,39,25.0
+Austin,TX,1515,39,25.0
+Austin,TX,1516,39,25.0
+Portland,OR,1517,15,47.0
+Portland,OR,1518,15,47.0
+Portland,OR,1519,15,47.0
+Portland,OR,1520,15,47.0
+Arvada,CO,1521,332,7.0
+Arvada,CO,1522,332,7.0
+Arvada,CO,1523,332,7.0
+Arvada,CO,1524,332,7.0
+Arvada,CO,1525,332,7.0
+Arvada,CO,1526,332,7.0
+Arvada,CO,1527,332,7.0
+Spirit Lake,IA,1528,333,6.0
+Spirit Lake,IA,1529,333,6.0
+Spirit Lake,IA,1530,333,6.0
+Spirit Lake,IA,1531,333,6.0
+Spirit Lake,IA,1532,333,6.0
+Spirit Lake,IA,1533,333,6.0
+Danville,PA,1534,334,10.0
+Danville,PA,1535,334,10.0
+Danville,PA,1536,334,10.0
+Danville,PA,1537,334,10.0
+Danville,PA,1538,334,10.0
+Danville,PA,1539,334,10.0
+Danville,PA,1540,334,10.0
+Danville,PA,1541,334,10.0
+Danville,PA,1542,334,10.0
+Danville,PA,1543,334,10.0
+Airway Heights,WA,1544,335,5.0
+Airway Heights,WA,1545,335,5.0
+Airway Heights,WA,1546,335,5.0
+Airway Heights,WA,1547,335,5.0
+Airway Heights,WA,1548,335,5.0
+Atlanta,GA,1549,336,6.0
+Atlanta,GA,1550,336,6.0
+Longmont,CO,1551,337,30.0
+Longmont,CO,1552,337,30.0
+Longmont,CO,1553,337,30.0
+Longmont,CO,1554,337,30.0
+Longmont,CO,1555,337,30.0
+Longmont,CO,1556,337,30.0
+Longmont,CO,1557,337,30.0
+Longmont CO,,1558,338,
+Longmont CO,,1559,338,
+Longmont,CO,1560,337,30.0
+Longmont,CO,1561,337,30.0
+Longmont,CO,1562,337,30.0
+Longmont,CO,1563,337,30.0
+Longmont,CO,1564,337,30.0
+Longmont,CO,1565,337,30.0
+Longmont,CO,1566,337,30.0
+Longmont,CO,1567,337,30.0
+Longmont,CO,1568,337,30.0
+Longmont,CO,1569,337,30.0
+Longmont,CO,1570,337,30.0
+Longmont,CO,1571,337,30.0
+Longmont,CO,1572,337,30.0
+Longmont,CO,1573,337,30.0
+Longmont,CO,1574,337,30.0
+Longmont,CO,1575,337,30.0
+Longmont,CO,1576,337,30.0
+Longmont,CO,1577,337,30.0
+Longmont,CO,1578,337,30.0
+Longmont,CO,1579,337,30.0
+Longmont,CO,1580,337,30.0
+Longmont,CO,1581,337,30.0
+Longmont CO,,1582,338,
+Longmont,CO,1583,337,30.0
+Lyons,CO,1584,339,11.0
+Lyons,CO,1585,339,11.0
+Lyons,CO,1586,339,11.0
+Lyons CO,,1587,340,
+Lyons,CO,1588,339,11.0
+Lyons,CO,1589,339,11.0
+Lyons,CO,1590,339,11.0
+Lyons CO,,1591,340,
+Lyons,CO,1592,339,11.0
+Lyons,CO,1593,339,11.0
+Lyons,CO,1594,339,11.0
+Lyons,CO,1595,339,11.0
+Lyons,CO,1596,339,11.0
+Brevard,NC,1597,341,6.0
+Brevard,NC,1598,341,6.0
+Brevard,NC,1599,341,6.0
+Brevard,NC,1600,341,6.0
+Brevard,NC,1601,341,6.0
+Brevard,NC,1602,341,6.0
+Middlebury,VT,1603,342,2.0
+Waterbury,VT,1604,343,6.0
+Rogers,AR,1605,344,1.0
+Palisade,CO,1606,345,2.0
+Palisade,CO,1607,345,2.0
+Fort Collins,CO,1608,319,22.0
+Fort Collins,CO,1609,319,22.0
+Fort Collins,CO,1610,319,22.0
+Fort Collins,CO,1611,319,22.0
+Fort Collins,CO,1612,319,22.0
+Garden City,ID,1613,159,8.0
+Garden City,ID,1614,159,8.0
+Garden City,ID,1615,159,8.0
+Garden City,ID,1616,159,8.0
+Garden City,ID,1617,159,8.0
+Knoxville,IA,1618,346,1.0
+Portland,ME,1619,162,10.0
+Portland ME,,1620,347,
+Fredericksburg,TX,1621,348,2.0
+Fredericksburg,TX,1622,348,2.0
+Lafayette,IN,1623,349,4.0
+Lafayette,IN,1624,349,4.0
+Lafayette,IN,1625,349,4.0
+Lafayette,IN,1626,349,4.0
+Comstock Park,MI,1627,350,6.0
+Comstock Park,MI,1628,350,6.0
+Comstock Park,MI,1629,350,6.0
+Comstock Park,MI,1630,350,6.0
+Comstock Park,MI,1631,350,6.0
+Comstock Park,MI,1632,350,6.0
+San Antonio,TX,1633,92,16.0
+San Antonio,TX,1634,92,16.0
+San Antonio,TX,1635,92,16.0
+San Antonio,TX,1636,92,16.0
+San Antonio,TX,1637,92,16.0
+San Antonio,TX,1638,92,16.0
+San Antonio,TX,1639,92,16.0
+Petoskey,MI,1640,351,3.0
+Petoskey MI,,1641,352,
+Petoskey,MI,1642,351,3.0
+Petoskey,MI,1643,351,3.0
+Phoenix,AZ,1644,353,1.0
+Monument,CO,1645,354,3.0
+Monument,CO,1646,354,3.0
+Monument,CO,1647,354,3.0
+San Francisco,CA,1648,3,31.0
+San Francisco,CA,1649,3,31.0
+Bucryus,MO,1650,355,8.0
+Bucryus,MO,1651,355,8.0
+Bucryus,MO,1652,355,8.0
+Bucryus,MO,1653,355,8.0
+Bucryus,MO,1654,355,8.0
+Bucryus,MO,1655,355,8.0
+Bucryus,MO,1656,355,8.0
+Bucryus,MO,1657,355,8.0
+Chicago,IL,1658,197,52.0
+Black Mountain,NC,1659,356,2.0
+Black Mountain,NC,1660,356,2.0
+Carlsbad,CA,1661,112,4.0
+Carlsbad,CA,1662,112,4.0
+Carlsbad,CA,1663,112,4.0
+Cleveland,OH,1664,107,3.0
+Lemont,IL,1665,357,1.0
+Cleveland,OH,1666,107,3.0
+Prescott,AZ,1667,358,2.0
+Prescott,AZ,1668,358,2.0
+Dillon,CO,1669,359,6.0
+Dillon CO,,1670,360,
+Dillon,CO,1671,359,6.0
+Dillon,CO,1672,359,6.0
+Dillon,CO,1673,359,6.0
+Dillon,CO,1674,359,6.0
+Dillon,CO,1675,359,6.0
+Seattle,WA,1676,143,35.0
+Seattle,WA,1677,143,35.0
+Greenville,SC,1678,361,2.0
+Greenville,SC,1679,361,2.0
+Fort Worth,TX,1680,295,8.0
+Fort Worth,TX,1681,295,8.0
+Blanco,TX,1682,362,8.0
+Blanco,TX,1683,362,8.0
+Blanco,TX,1684,362,8.0
+Blanco,TX,1685,362,8.0
+Blanco,TX,1686,362,8.0
+Blanco,TX,1687,362,8.0
+Blanco,TX,1688,362,8.0
+Blanco,TX,1689,362,8.0
+Marietta,GA,1690,363,2.0
+Marietta GA,,1691,364,
+Marietta,GA,1692,363,2.0
+Mt. Airy,MD,1693,365,5.0
+Mt. Airy,MD,1694,365,5.0
+Mt. Airy,MD,1695,365,5.0
+Mt. Airy,MD,1696,365,5.0
+Mt. Airy,MD,1697,365,5.0
+Bend,OR,1698,0,11.0
+Woodinville,WA,1699,178,4.0
+Woodinville,WA,1700,178,4.0
+Woodinville,WA,1701,178,4.0
+Boulder,CO,1702,31,38.0
+Boulder,CO,1703,31,38.0
+Boulder,CO,1704,31,38.0
+Temecula,CA,1705,70,5.0
+Denver,CO,1706,71,37.0
+Denver,CO,1707,71,37.0
+Denver CO,,1708,93,
+Denver,CO,1709,71,37.0
+Denver,CO,1710,71,37.0
+Denver,CO,1711,71,37.0
+Paonia,CO,1712,366,7.0
+Paonia,CO,1713,366,7.0
+Paonia CO,,1714,367,
+Paonia,CO,1715,366,7.0
+Paonia,CO,1716,366,7.0
+Paonia,CO,1717,366,7.0
+Paonia,CO,1718,366,7.0
+Paonia,CO,1719,366,7.0
+Chicago,IL,1720,197,52.0
+Chicago,IL,1721,197,52.0
+Chicago,IL,1722,197,52.0
+Chicago,IL,1723,197,52.0
+Chicago,IL,1724,197,52.0
+Chicago,IL,1725,197,52.0
+Chicago,IL,1726,197,52.0
+Chicago,IL,1727,197,52.0
+Cincinnati,OH,1728,23,19.0
+Cincinnati,OH,1729,23,19.0
+Cincinnati,OH,1730,23,19.0
+Cincinnati,OH,1731,23,19.0
+Cincinnati,OH,1732,23,19.0
+Cincinnati,OH,1733,23,19.0
+Cincinnati,OH,1734,23,19.0
+Cincinnati OH,,1735,290,
+Traverse City,MI,1736,96,5.0
+Portland,ME,1737,162,10.0
+Portland ME,,1738,347,
+Denver,CO,1739,71,37.0
+Denver,CO,1740,71,37.0
+Lockland,OH,1741,368,2.0
+Lockland,OH,1742,368,2.0
+Export PA,,1743,369,
+Export,PA,1744,370,13.0
+Export,PA,1745,370,13.0
+Export,PA,1746,370,13.0
+Export PA,,1747,369,
+Export,PA,1748,370,13.0
+Export,PA,1749,370,13.0
+Export,PA,1750,370,13.0
+Export,PA,1751,370,13.0
+Export,PA,1752,370,13.0
+Export,PA,1753,370,13.0
+Export,PA,1754,370,13.0
+Export,PA,1755,370,13.0
+Export,PA,1756,370,13.0
+Export,PA,1757,370,13.0
+Roanoke,VA,1758,371,1.0
+Rochester MI,,1759,372,
+Rochester,MI,1760,373,6.0
+Rochester,MI,1761,373,6.0
+Rochester,MI,1762,373,6.0
+Rochester,MI,1763,373,6.0
+Rochester,MI,1764,373,6.0
+Rochester,MI,1765,373,6.0
+Newport,OR,1766,374,1.0
+Midwest City,OK,1767,375,3.0
+Midwest City,OK,1768,375,3.0
+Midwest City,OK,1769,375,3.0
+Lansdale,PA,1770,376,6.0
+Lansdale,PA,1771,376,6.0
+Lansdale PA,,1772,377,
+Lansdale,PA,1773,376,6.0
+Lansdale,PA,1774,376,6.0
+Lansdale,PA,1775,376,6.0
+Lansdale,PA,1776,376,6.0
+Sacramento,CA,1777,378,5.0
+Sacramento,CA,1778,378,5.0
+Sacramento,CA,1779,378,5.0
+Sacramento,CA,1780,378,5.0
+Sacramento,CA,1781,378,5.0
+San Diego,CA,1782,44,39.0
+San Diego,CA,1783,44,39.0
+San Diego,CA,1784,44,39.0
+San Diego,CA,1785,44,39.0
+Chandler,AZ,1786,379,18.0
+Chandler,AZ,1787,379,18.0
+Chandler,AZ,1788,379,18.0
+Chandler,AZ,1789,379,18.0
+Chandler,AZ,1790,379,18.0
+Chandler,AZ,1791,379,18.0
+Chandler,AZ,1792,379,18.0
+Chandler,AZ,1793,379,18.0
+Chandler,AZ,1794,379,18.0
+Chandler,AZ,1795,379,18.0
+Chandler,AZ,1796,379,18.0
+Chandler,AZ,1797,379,18.0
+Chandler,AZ,1798,379,18.0
+Chandler,AZ,1799,379,18.0
+Chandler AZ,,1800,380,
+Chandler,AZ,1801,379,18.0
+Chandler,AZ,1802,379,18.0
+Chandler,AZ,1803,379,18.0
+Chandler,AZ,1804,379,18.0
+Boulder,CO,1805,31,38.0
+Boulder,CO,1806,31,38.0
+Santa Cruz,CA,1807,381,8.0
+Santa Cruz,CA,1808,381,8.0
+Santa Cruz,CA,1809,381,8.0
+Santa Fe,NM,1810,382,7.0
+Santa Fe,NM,1811,382,7.0
+Santa Fe,NM,1812,382,7.0
+Santa Fe,NM,1813,382,7.0
+Santa Fe,NM,1814,382,7.0
+Santa Fe,NM,1815,382,7.0
+Santa Fe,NM,1816,382,7.0
+Douglas,MI,1817,383,1.0
+Seattle,WA,1818,143,35.0
+Seattle,WA,1819,143,35.0
+Seattle,WA,1820,143,35.0
+Saint Louis,MO,1821,6,18.0
+Saint Louis,MO,1822,6,18.0
+Saint Louis,MO,1823,6,18.0
+Saint Louis,MO,1824,6,18.0
+Saint Louis,MO,1825,6,18.0
+Saint Louis,MO,1826,6,18.0
+Portland,ME,1827,162,10.0
+Santa Cruz,CA,1828,381,8.0
+Seattle,WA,1829,143,35.0
+Seattle,WA,1830,143,35.0
+Silverton OR,,1831,384,
+Silverton,OR,1832,385,1.0
+Columbus,OH,1833,185,10.0
+Columbus,OH,1834,185,10.0
+Columbus,OH,1835,185,10.0
+Columbus,OH,1836,185,10.0
+Columbus,OH,1837,185,10.0
+Wolcott,CT,1838,386,1.0
+Marlborough,MA,1839,387,1.0
+Portland,ME,1840,162,10.0
+Portland,ME,1841,162,10.0
+Portland,ME,1842,162,10.0
+Portland,ME,1843,162,10.0
+Chico,CA,1844,388,8.0
+Chico,CA,1845,388,8.0
+Chico,CA,1846,388,8.0
+Chico,CA,1847,388,8.0
+Chico,CA,1848,388,8.0
+Chico,CA,1849,388,8.0
+Chico,CA,1850,388,8.0
+Chico CA,,1851,389,
+Chico,CA,1852,388,8.0
+Ada,MI,1853,390,1.0
+Silverton,CO,1854,391,3.0
+Silverton,CO,1855,391,3.0
+Silverton,CO,1856,391,3.0
+Brooklyn,NY,1857,103,34.0
+Brooklyn,NY,1858,103,34.0
+Brooklyn,NY,1859,103,34.0
+Brooklyn NY,,1860,104,
+Brooklyn,NY,1861,103,34.0
+Brooklyn,NY,1862,103,34.0
+Brooklyn,NY,1863,103,34.0
+Brooklyn,NY,1864,103,34.0
+Brooklyn NY,,1865,104,
+Brooklyn,NY,1866,103,34.0
+Brooklyn,NY,1867,103,34.0
+Brooklyn,NY,1868,103,34.0
+Brooklyn,NY,1869,103,34.0
+Brooklyn,NY,1870,103,34.0
+Brooklyn,NY,1871,103,34.0
+Brooklyn,NY,1872,103,34.0
+Brooklyn,NY,1873,103,34.0
+Brooklyn,NY,1874,103,34.0
+Brooklyn,NY,1875,103,34.0
+Brooklyn,NY,1876,103,34.0
+Brooklyn,NY,1877,103,34.0
+Brooklyn,NY,1878,103,34.0
+Brooklyn,NY,1879,103,34.0
+Brooklyn,NY,1880,103,34.0
+Durango,CO,1881,392,15.0
+Durango,CO,1882,392,15.0
+Durango CO,,1883,393,
+Durango,CO,1884,392,15.0
+Durango,CO,1885,392,15.0
+Durango,CO,1886,392,15.0
+Durango,CO,1887,392,15.0
+Durango,CO,1888,392,15.0
+Durango,CO,1889,392,15.0
+Durango,CO,1890,392,15.0
+Durango,CO,1891,392,15.0
+Durango,CO,1892,392,15.0
+Meridian,ID,1893,394,2.0
+Meridian,ID,1894,394,2.0
+Chicago,IL,1895,197,52.0
+Chicago,IL,1896,197,52.0
+Anchorage,AK,1897,102,15.0
+Phoenixville,PA,1898,395,1.0
+Pottstown,PA,1899,304,13.0
+Pottstown,PA,1900,304,13.0
+Pottstown,PA,1901,304,13.0
+Pottstown,PA,1902,304,13.0
+Pottstown,PA,1903,304,13.0
+Pottstown,PA,1904,304,13.0
+Pottstown PA,,1905,396,
+Pottstown,PA,1906,304,13.0
+Pottstown,PA,1907,304,13.0
+Pottstown,PA,1908,304,13.0
+Pottstown,PA,1909,304,13.0
+Pottstown,PA,1910,304,13.0
+Norfolk,VA,1911,397,3.0
+Norfolk,VA,1912,397,3.0
+Norfolk,VA,1913,397,3.0
+Jackson,WY,1914,398,7.0
+Jackson,WY,1915,398,7.0
+Jackson,WY,1916,398,7.0
+Jackson,WY,1917,398,7.0
+Jackson,WY,1918,398,7.0
+Jackson,WY,1919,398,7.0
+Jackson,WY,1920,398,7.0
+Boise,ID,1921,399,15.0
+Boise,ID,1922,399,15.0
+Boise,ID,1923,399,15.0
+Boise,ID,1924,399,15.0
+Boise,ID,1925,399,15.0
+Boise ID,,1926,400,
+Boise,ID,1927,399,15.0
+Boise,ID,1928,399,15.0
+Boise,ID,1929,399,15.0
+Boise,ID,1930,399,15.0
+Boise,ID,1931,399,15.0
+Boise ID,,1932,400,
+Boise,ID,1933,399,15.0
+Boise,ID,1934,399,15.0
+Boise,ID,1935,399,15.0
+Boise,ID,1936,399,15.0
+Boise,ID,1937,399,15.0
+South Austin,TX,1938,401,4.0
+South Austin,TX,1939,401,4.0
+South Austin,TX,1940,401,4.0
+South Austin,TX,1941,401,4.0
+Southampton,NY,1942,402,1.0
+Medford,OR,1943,403,2.0
+Medford,OR,1944,403,2.0
+Hattiesburg,MS,1945,404,9.0
+Hattiesburg,MS,1946,404,9.0
+Hattiesburg,MS,1947,404,9.0
+Hattiesburg,MS,1948,404,9.0
+Hattiesburg,MS,1949,404,9.0
+Hattiesburg,MS,1950,404,9.0
+Hattiesburg,MS,1951,404,9.0
+Hattiesburg,MS,1952,404,9.0
+Hattiesburg,MS,1953,404,9.0
+Conroe,TX,1954,405,13.0
+Conroe TX,,1955,406,
+Conroe,TX,1956,405,13.0
+Conroe,TX,1957,405,13.0
+Conroe,TX,1958,405,13.0
+Conroe,TX,1959,405,13.0
+Conroe,TX,1960,405,13.0
+Conroe,TX,1961,405,13.0
+Conroe,TX,1962,405,13.0
+Conroe,TX,1963,405,13.0
+Conroe,TX,1964,405,13.0
+Conroe,TX,1965,405,13.0
+Conroe,TX,1966,405,13.0
+Conroe,TX,1967,405,13.0
+San Francisco,CA,1968,3,31.0
+Cortland,NE,1969,407,1.0
+Chicago,IL,1970,197,52.0
+Chicago,IL,1971,197,52.0
+Chicago,IL,1972,197,52.0
+Chicago,IL,1973,197,52.0
+Chicago,IL,1974,197,52.0
+Chicago,IL,1975,197,52.0
+Chicago,IL,1976,197,52.0
+Chicago,IL,1977,197,52.0
+Chicago,IL,1978,197,52.0
+Chicago IL,,1979,221,
+Chicago,IL,1980,197,52.0
+Chicago,IL,1981,197,52.0
+Glendale,WI,1982,408,2.0
+Glendale,WI,1983,408,2.0
+Conestoga,PA,1984,409,1.0
+Paw Paw,MI,1985,410,1.0
+Crozet,VA,1986,411,4.0
+Crozet,VA,1987,411,4.0
+Crozet,VA,1988,411,4.0
+Crozet,VA,1989,411,4.0
+Durango,CO,1990,392,15.0
+Durango,CO,1991,392,15.0
+Durango,CO,1992,392,15.0
+Durango,CO,1993,392,15.0
+Stevens Point,WI,1994,144,29.0
+Stevens Point,WI,1995,144,29.0
+Stevens Point,WI,1996,144,29.0
+Stevens Point,WI,1997,144,29.0
+Stevens Point,WI,1998,144,29.0
+Stevens Point,WI,1999,144,29.0
+Stevens Point,WI,2000,144,29.0
+Stevens Point,WI,2001,144,29.0
+Stevens Point,WI,2002,144,29.0
+Stevens Point,WI,2003,144,29.0
+Stevens Point,WI,2004,144,29.0
+Stevens Point,WI,2005,144,29.0
+Stevens Point,WI,2006,144,29.0
+Stevens Point,WI,2007,144,29.0
+Stevens Point,WI,2008,144,29.0
+Stevens Point,WI,2009,144,29.0
+Stevens Point,WI,2010,144,29.0
+Stevens Point,WI,2011,144,29.0
+Stevens Point,WI,2012,144,29.0
+Stevens Point,WI,2013,144,29.0
+Stevens Point,WI,2014,144,29.0
+Stevens Point,WI,2015,144,29.0
+Green Bay,WI,2016,244,2.0
+Baltimore,MD,2017,412,9.0
+Baltimore,MD,2018,412,9.0
+Baltimore MD,,2019,413,
+Portland,ME,2020,162,10.0
+Huntsville,AL,2021,414,3.0
+Huntsville,AL,2022,414,3.0
+Huntsville,AL,2023,414,3.0
+St Mary's,PA,2024,415,4.0
+St Mary's,PA,2025,415,4.0
+St Mary's,PA,2026,415,4.0
+St Mary's,PA,2027,415,4.0
+St Paul,MN,2028,416,1.0
+St. Paul,MN,2029,417,2.0
+St. Paul MN,,2030,418,
+St. Paul,MN,2031,417,2.0
+Indianapolis,IN,2032,69,39.0
+Indianapolis,IN,2033,69,39.0
+Indianapolis,IN,2034,69,39.0
+Indianapolis,IN,2035,69,39.0
+Indianapolis,IN,2036,69,39.0
+Indianapolis,IN,2037,69,39.0
+Indianapolis,IN,2038,69,39.0
+Indianapolis,IN,2039,69,39.0
+Indianapolis,IN,2040,69,39.0
+Indianapolis IN,,2041,419,
+Indianapolis IN,,2042,419,
+Indianapolis,IN,2043,69,39.0
+Indianapolis IN,,2044,419,
+Indianapolis,IN,2045,69,39.0
+Indianapolis,IN,2046,69,39.0
+Indianapolis,IN,2047,69,39.0
+Indianapolis,IN,2048,69,39.0
+Indianapolis,IN,2049,69,39.0
+Indianapolis,IN,2050,69,39.0
+Indianapolis,IN,2051,69,39.0
+Indianapolis,IN,2052,69,39.0
+Indianapolis,IN,2053,69,39.0
+Indianapolis,IN,2054,69,39.0
+Indianapolis,IN,2055,69,39.0
+Indianapolis,IN,2056,69,39.0
+Indianapolis,IN,2057,69,39.0
+Indianapolis,IN,2058,69,39.0
+Indianapolis,IN,2059,69,39.0
+Indianapolis IN,,2060,419,
+Indianapolis,IN,2061,69,39.0
+Indianapolis,IN,2062,69,39.0
+Indianapolis,IN,2063,69,39.0
+Indianapolis,IN,2064,69,39.0
+Indianapolis,IN,2065,69,39.0
+Indianapolis,IN,2066,69,39.0
+Indianapolis,IN,2067,69,39.0
+Indianapolis,IN,2068,69,39.0
+Indianapolis,IN,2069,69,39.0
+Hardy,VA,2070,420,2.0
+Hardy,VA,2071,420,2.0
+Brooklyn Center,MN,2072,421,12.0
+Brooklyn Center MN,,2073,422,
+Brooklyn Center,MN,2074,421,12.0
+Brooklyn Center,MN,2075,421,12.0
+Brooklyn Center,MN,2076,421,12.0
+Brooklyn Center,MN,2077,421,12.0
+Brooklyn Center,MN,2078,421,12.0
+Brooklyn Center,MN,2079,421,12.0
+Brooklyn Center,MN,2080,421,12.0
+Brooklyn Center,MN,2081,421,12.0
+Brooklyn Center,MN,2082,421,12.0
+Brooklyn Center,MN,2083,421,12.0
+Brooklyn Center,MN,2084,421,12.0
+Gainesville,FL,2085,423,5.0
+Gainesville,FL,2086,423,5.0
+Gainesville,FL,2087,423,5.0
+Gainesville,FL,2088,423,5.0
+Gainesville,FL,2089,423,5.0
+Manheim,PA,2090,424,1.0
+Atlanta,GA,2091,336,6.0
+Atlanta,GA,2092,336,6.0
+Atlanta,GA,2093,336,6.0
+Atlanta,GA,2094,336,6.0
+San Diego,CA,2095,44,39.0
+San Diego,CA,2096,44,39.0
+San Diego,CA,2097,44,39.0
+San Diego,CA,2098,44,39.0
+San Diego,CA,2099,44,39.0
+San Diego,CA,2100,44,39.0
+San Diego,CA,2101,44,39.0
+San Diego,CA,2102,44,39.0
+Manhattan,KS,2103,425,17.0
+Manhattan,KS,2104,425,17.0
+Manhattan,KS,2105,425,17.0
+Manhattan,KS,2106,425,17.0
+Manhattan,KS,2107,425,17.0
+Manhattan,KS,2108,425,17.0
+Manhattan,KS,2109,425,17.0
+Manhattan,KS,2110,425,17.0
+Manhattan,KS,2111,425,17.0
+Manhattan KS,,2112,426,
+Manhattan,KS,2113,425,17.0
+Manhattan,KS,2114,425,17.0
+Manhattan,KS,2115,425,17.0
+Manhattan,KS,2116,425,17.0
+Manhattan,KS,2117,425,17.0
+Manhattan,KS,2118,425,17.0
+Manhattan,KS,2119,425,17.0
+Manhattan,KS,2120,425,17.0
+Lakeside,MT,2121,427,2.0
+Lakeside,MT,2122,427,2.0
+Tampa,FL,2123,94,30.0
+Tampa,FL,2124,94,30.0
+Bridgman,MI,2125,428,3.0
+Bridgman,MI,2126,428,3.0
+Bridgman,MI,2127,428,3.0
+Bargersville,IN,2128,429,1.0
+Telluride,CO,2129,430,3.0
+Telluride,CO,2130,430,3.0
+Telluride,CO,2131,430,3.0
+Evanston IL,,2132,431,
+Evanston,IL,2133,432,2.0
+Evanston,IL,2134,432,2.0
+Athens GA,,2135,433,
+Richmond,TX,2136,434,4.0
+Richmond,TX,2137,434,4.0
+Richmond,TX,2138,434,4.0
+Richmond,TX,2139,434,4.0
+Waterbury,VT,2140,343,6.0
+Waterbury,VT,2141,343,6.0
+Waterbury,VT,2142,343,6.0
+Waterbury VT,,2143,435,
+Waterbury,VT,2144,343,6.0
+Waterbury,VT,2145,343,6.0
+Sheridan,WY,2146,72,6.0
+Sheridan,WY,2147,72,6.0
+Sheridan,WY,2148,72,6.0
+Sheridan,WY,2149,72,6.0
+Baltimore,MD,2150,412,9.0
+Baltimore,MD,2151,412,9.0
+Baltimore,MD,2152,412,9.0
+Bronx,NY,2153,436,3.0
+Bronx,NY,2154,436,3.0
+Bronx,NY,2155,436,3.0
+Torrance,CA,2156,437,5.0
+Torrance,CA,2157,437,5.0
+Torrance,CA,2158,437,5.0
+Torrance,CA,2159,437,5.0
+Torrance,CA,2160,437,5.0
+Burlington,VT,2161,438,2.0
+Wilkes-Barre,PA,2162,439,1.0
+New York,NY,2163,85,3.0
+Grand Rapids,MI,2164,97,65.0
+Traverse City,MI,2165,96,5.0
+Traverse City,MI,2166,96,5.0
+Traverse City,MI,2167,96,5.0
+Burlington,VT,2168,438,2.0
+Cold Spring,MN,2169,440,4.0
+Cold Spring,MN,2170,440,4.0
+Cold Spring,MN,2171,440,4.0
+Cold Spring,MN,2172,440,4.0
+Bloomfield,CT,2173,41,6.0
+Sisters,OR,2174,441,3.0
+Sisters,OR,2175,441,3.0
+Sisters,OR,2176,441,3.0
+Charlottesville,VA,2177,137,5.0
+Charlottesville,VA,2178,137,5.0
+Martinsville,IN,2179,442,4.0
+Martinsville,IN,2180,442,4.0
+Martinsville,IN,2181,442,4.0
+Martinsville,IN,2182,442,4.0
+Kearney,NE,2183,443,3.0
+Kearney,NE,2184,443,3.0
+Kearney,NE,2185,443,3.0
+Kearney NE,,2186,444,
+Evansville,IN,2187,445,8.0
+Evansville,IN,2188,445,8.0
+Evansville,IN,2189,445,8.0
+Evansville,IN,2190,445,8.0
+Evansville,IN,2191,445,8.0
+Evansville,IN,2192,445,8.0
+Evansville,IN,2193,445,8.0
+Evansville,IN,2194,445,8.0
+Evansville IN,,2195,446,
+Baton Rouge,LA,2196,447,7.0
+Baton Rouge,LA,2197,447,7.0
+Baton Rouge,LA,2198,447,7.0
+Baton Rouge,LA,2199,447,7.0
+Baton Rouge,LA,2200,447,7.0
+Baton Rouge,LA,2201,447,7.0
+Baton Rouge,LA,2202,447,7.0
+Idaho Springs,CO,2203,448,1.0
+Idaho Springs CO,,2204,449,
+Minnetonka,MN,2205,450,2.0
+Minnetonka,MN,2206,450,2.0
+Albuquerque,NM,2207,269,6.0
+Albuquerque,NM,2208,269,6.0
+Albuquerque,NM,2209,269,6.0
+Durham,NC,2210,214,4.0
+Durham,NC,2211,214,4.0
+Durham,NC,2212,214,4.0
+Hershey,PA,2213,451,4.0
+Hershey,PA,2214,451,4.0
+Hershey,PA,2215,451,4.0
+Hershey,PA,2216,451,4.0
+Hershey PA,,2217,452,
+Greenville,DE,2218,453,1.0
+Boulder,CO,2219,31,38.0
+Dripping Springs,TX,2220,454,3.0
+Dripping Springs,TX,2221,454,3.0
+Dripping Springs,TX,2222,454,3.0
+Seattle,WA,2223,143,35.0
+Seattle,WA,2224,143,35.0
+Seattle,WA,2225,143,35.0
+Seattle,WA,2226,143,35.0
+Seattle,WA,2227,143,35.0
+Seattle,WA,2228,143,35.0
+Seattle,WA,2229,143,35.0
+Seattle,WA,2230,143,35.0
+Seattle,WA,2231,143,35.0
+Seattle,WA,2232,143,35.0
+Seattle,WA,2233,143,35.0
+Seattle,WA,2234,143,35.0
+Warrenville,IL,2235,455,10.0
+Warrenville,IL,2236,455,10.0
+Warrenville,IL,2237,455,10.0
+Warrenville,IL,2238,455,10.0
+Warrenville,IL,2239,455,10.0
+Warrenville,IL,2240,455,10.0
+Warrenville,IL,2241,455,10.0
+Warrenville,IL,2242,455,10.0
+Warrenville,IL,2243,455,10.0
+Warrenville,IL,2244,455,10.0
+Plant City,FL,2245,456,1.0
+Stratford,CT,2246,457,5.0
+Stratford,CT,2247,457,5.0
+Stratford,CT,2248,457,5.0
+Stratford,CT,2249,457,5.0
+Stratford,CT,2250,457,5.0
+Salt Lake City,UT,2251,458,17.0
+Salt Lake City,UT,2252,458,17.0
+Salt Lake City,UT,2253,458,17.0
+Salt Lake City,UT,2254,458,17.0
+Salt Lake City,UT,2255,458,17.0
+Salt Lake City,UT,2256,458,17.0
+Salt Lake City,UT,2257,458,17.0
+Salt Lake City,UT,2258,458,17.0
+Salt Lake City,UT,2259,458,17.0
+Ukiah,CA,2260,459,1.0
+Austin,TX,2261,39,25.0
+Austin,TX,2262,39,25.0
+St. John's,MI,2263,460,3.0
+St. John's,MI,2264,460,3.0
+St. John's,MI,2265,460,3.0
+Santa Cruz,CA,2266,381,8.0
+Santa Cruz,CA,2267,381,8.0
+Santa Cruz,CA,2268,381,8.0
+Santa Cruz,CA,2269,381,8.0
+Santa Cruz CA,,2270,461,
+Baltimore,MD,2271,412,9.0
+Baltimore,MD,2272,412,9.0
+Baltimore,MD,2273,412,9.0
+Baltimore,MD,2274,412,9.0
+Bloomington,IN,2275,462,3.0
+Bloomington,IN,2276,462,3.0
+Bloomington,IN,2277,462,3.0
+Boulder,CO,2278,31,38.0
+Boulder,CO,2279,31,38.0
+Boulder,CO,2280,31,38.0
+Boulder,CO,2281,31,38.0
+Boulder,CO,2282,31,38.0
+Boulder,CO,2283,31,38.0
+Boulder,CO,2284,31,38.0
+Boulder,CO,2285,31,38.0
+Boulder CO,,2286,192,
+Boulder,CO,2287,31,38.0
+Boulder,CO,2288,31,38.0
+Boulder,CO,2289,31,38.0
+Boulder,CO,2290,31,38.0
+Boulder,CO,2291,31,38.0
+Boulder,CO,2292,31,38.0
+Boulder CO,,2293,192,
+Boulder,CO,2294,31,38.0
+Boulder,CO,2295,31,38.0
+Elmira,NY,2296,463,2.0
+Elmira,NY,2297,463,2.0
+Salt Lake City,UT,2298,458,17.0
+Salt Lake City,UT,2299,458,17.0
+Salt Lake City,UT,2300,458,17.0
+Salt Lake City,UT,2301,458,17.0
+Salt Lake City,UT,2302,458,17.0
+Salt Lake City,UT,2303,458,17.0
+Salt Lake City,UT,2304,458,17.0
+Salt Lake City,UT,2305,458,17.0
+Spring Lake,MI,2306,464,5.0
+Spring Lake,MI,2307,464,5.0
+Spring Lake,MI,2308,464,5.0
+Spring Lake,MI,2309,464,5.0
+Spring Lake,MI,2310,464,5.0
+Yardley,PA,2311,465,1.0
+Meadville,PA,2312,466,5.0
+Meadville,PA,2313,466,5.0
+Meadville PA,,2314,467,
+Meadville,PA,2315,466,5.0
+Meadville,PA,2316,466,5.0
+Meadville,PA,2317,466,5.0
+Westminster,MA,2318,468,10.0
+Westminster MA,,2319,469,
+Westminster,MA,2320,468,10.0
+Westminster,MA,2321,468,10.0
+Westminster,MA,2322,468,10.0
+Westminster,MA,2323,468,10.0
+Westminster,MA,2324,468,10.0
+Westminster,MA,2325,468,10.0
+Westminster,MA,2326,468,10.0
+Westminster,MA,2327,468,10.0
+Westminster,MA,2328,468,10.0
+Fort Wayne,IN,2329,470,1.0
+Dayton,OH,2330,471,4.0
+Dayton,OH,2331,471,4.0
+Dayton,OH,2332,471,4.0
+Dayton,OH,2333,471,4.0
+Lexington,KY,2334,18,6.0
+Lexington,KY,2335,18,6.0
+Lexington,KY,2336,18,6.0
+Lexington,KY,2337,18,6.0
+Mt. Pleasant,SC,2338,472,4.0
+Mt. Pleasant,SC,2339,472,4.0
+Mt. Pleasant,SC,2340,472,4.0
+Mt. Pleasant,SC,2341,472,4.0
+Westfield,MA,2342,473,3.0
+Westfield,MA,2343,473,3.0
+Westfield,MA,2344,473,3.0
+Weston,MO,2345,474,7.0
+Weston,MO,2346,474,7.0
+Weston,MO,2347,474,7.0
+Weston,MO,2348,474,7.0
+Weston,MO,2349,474,7.0
+Weston,MO,2350,474,7.0
+Weston,MO,2351,474,7.0
+Hooksett,NH,2352,475,4.0
+Hooksett,NH,2353,475,4.0
+Hooksett,NH,2354,475,4.0
+Hooksett,NH,2355,475,4.0
+Hudsonville,MI,2356,476,1.0
+Portland,OR,2357,15,47.0
+Portland,OR,2358,15,47.0
+Portland,OR,2359,15,47.0
+Lake Barrington,IL,2360,477,9.0
+Lake Barrington,IL,2361,477,9.0
+Lake Barrington,IL,2362,477,9.0
+Lake Barrington,IL,2363,477,9.0
+Lake Barrington IL,,2364,478,
+Lake Barrington,IL,2365,477,9.0
+Lake Barrington,IL,2366,477,9.0
+Lake Barrington,IL,2367,477,9.0
+Lake Barrington,IL,2368,477,9.0
+Lake Barrington,IL,2369,477,9.0
+Nellysford VA,,2370,479,
+Nellysford,VA,2371,480,3.0
+Nellysford,VA,2372,480,3.0
+Nellysford,VA,2373,480,3.0
+Stevensville,MT,2374,481,2.0
+Stevensville,MT,2375,481,2.0
+Stevensville MT,,2376,482,
+Pinedale,WY,2377,483,2.0
+Pinedale,WY,2378,483,2.0
+Tacoma,WA,2379,187,3.0
+Tacoma,WA,2380,187,3.0
+Verona,WI,2381,484,4.0
+Verona,WI,2382,484,4.0
+Verona,WI,2383,484,4.0
+Verona,WI,2384,484,4.0
+Memphis,TN,2385,485,3.0
+Memphis,TN,2386,485,3.0
+Memphis,TN,2387,485,3.0
+South Lyon,MI,2388,486,2.0
+South Lyon,MI,2389,486,2.0
+Abingdon,VA,2390,487,1.0
+Ann Arbor,MI,2391,488,1.0
+Middlebury,VT,2392,342,2.0
+North Woodstock NH,,2393,489,
+North Woodstock,NH,2394,490,1.0
+Worcester,MA,2395,491,1.0
+Bend,OR,2396,0,11.0
+Bend,OR,2397,0,11.0
+Bend,OR,2398,0,11.0
+Bend,OR,2399,0,11.0
+Bend,OR,2400,0,11.0
+Denver,CO,2401,71,37.0
+Denver,CO,2402,71,37.0
+Denver,CO,2403,71,37.0
+Denver,CO,2404,71,37.0
+Denver,CO,2405,71,37.0
+Denver,CO,2406,71,37.0
+Denver,CO,2407,71,37.0
+Denver,CO,2408,71,37.0
+Denver,CO,2409,71,37.0

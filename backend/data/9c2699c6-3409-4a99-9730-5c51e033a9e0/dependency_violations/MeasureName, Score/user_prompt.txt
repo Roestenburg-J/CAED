@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The measure code determines the meaning of the measure description, while the reported percentage/result and patient count are specific outcomes for that measure. Rows show different measures under the same category with matching measure descriptions and result fields.
+
+  The following is a formatted table with the unique data to be checked.
+  

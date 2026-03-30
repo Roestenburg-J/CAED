@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  A trip/route code (e.g., origin-destination and airline) determines which departure time value appears; the departure-time text is tied to the specific route/itinerary shown by the route identifier.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Within a given measurement area and measure description, the numeric patient count depends on which measure is being evaluated; the described patient population determines the reported number of patients for that measure.
+
+  The following is a formatted table with the unique data to be checked.
+  

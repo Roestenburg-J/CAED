@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  City/state relationship: the city value in one column is the municipality within the state/province code/value in another (the postal location fields are consistent pairs).
+
+  The following is a formatted table with the unique data to be checked.
+  

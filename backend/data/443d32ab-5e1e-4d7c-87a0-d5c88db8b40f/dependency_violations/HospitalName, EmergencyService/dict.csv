@@ -1,0 +1,1001 @@
+HospitalName,EmergencyService,original_index,unique_index,count
+callahan eye foundation hospital,yes,0,0,25
+callahan eye foundation hospital,yes,1,0,25
+callahan eye foundation hospital,yes,2,0,25
+callahan eye foundation hospital,yes,3,0,25
+callahan eye foundation hospital,yes,4,0,25
+callahan eye foundation hospital,yes,5,0,25
+callahan eye foundation hospital,yes,6,0,25
+callahan eye foundation hospital,yes,7,0,25
+helen keller memorial hospital,yes,8,1,25
+helen keller memorial hospital,yes,9,1,25
+helen keller memorial hospital,yes,10,1,25
+helen keller memorial hospital,yes,11,1,25
+helen keller memorial hospital,yes,12,1,25
+helen keller memorial hospital,yes,13,1,25
+helen keller memorial hospital,yes,14,1,25
+helen keller memorial hospital,yes,15,1,25
+helen keller memorial hospital,yes,16,1,25
+helen keller memorial hospital,yes,17,1,25
+helen keller memorial hospital,yes,18,1,25
+southeast alabama medical center,yes,19,2,22
+southeast alabama medical center,yes,20,2,22
+southeast alabama medical center,yes,21,2,22
+southeast alabama medical center,yes,22,2,22
+southeast alabama medical center,yes,23,2,22
+southeast alabama medical center,yxs,24,3,1
+southeast alabama medical center,yes,25,2,22
+southeast alabama medxcal center,yes,26,4,1
+southeast alabama medical center,yes,27,2,22
+southeast alabama medical center,yes,28,2,22
+southeast alabama medical center,yes,29,2,22
+southeast alabama medical center,yes,30,2,22
+southeast alabama medical center,yes,31,2,22
+southeast alabama medical center,yes,32,2,22
+southeast alabama medical center,yes,33,2,22
+southeast alabama medical center,yes,34,2,22
+southeast alabama medical center,yes,35,2,22
+southeast alabama medical center,yes,36,2,22
+southeast alabama medical center,yes,37,2,22
+southeast alabama medical center,yes,38,2,22
+southeast alabama medical center,yes,39,2,22
+southeast alabama medical center,yes,40,2,22
+southeast alabama medical center,yes,41,2,22
+southeast alabama medical center,yes,42,2,22
+southeast alabama medical center,yex,43,5,1
+marshall medical center south,yes,44,6,24
+marshall medical center south,yes,45,6,24
+marshall medical center south,yes,46,6,24
+marshall medical center south,yes,47,6,24
+marshall medical center south,yes,48,6,24
+marshall medical center south,yes,49,6,24
+marshall medical center south,yes,50,6,24
+marshall medical center south,yxs,51,7,1
+marshall medical center south,yes,52,6,24
+marshall medical center south,yes,53,6,24
+marshall medical center south,yes,54,6,24
+marshall medical center south,yes,55,6,24
+marshall medical center south,yes,56,6,24
+marshall medical center south,yes,57,6,24
+marshall medical center south,yes,58,6,24
+marshall medical center south,yes,59,6,24
+marshall medical center south,yes,60,6,24
+marshall medical center south,yes,61,6,24
+marshall medical center south,yes,62,6,24
+marshall medical center south,yes,63,6,24
+marshall medical center south,yes,64,6,24
+marshall medical center south,yes,65,6,24
+marshall medical center south,yes,66,6,24
+marshall medical center south,yes,67,6,24
+marshall medical center south,yes,68,6,24
+eliza coffee memorial hospital,yes,69,8,25
+eliza coffee memorial hospital,yes,70,8,25
+eliza coffee memorial hospital,yes,71,8,25
+eliza coffee memorial hospital,yes,72,8,25
+eliza coffee memorial hospital,yes,73,8,25
+eliza coffee memorial hospital,yes,74,8,25
+eliza coffee memorial hospital,yes,75,8,25
+eliza coffee memorial hospital,yes,76,8,25
+eliza coffee memorial hospital,yes,77,8,25
+eliza coffee memorial hospital,yes,78,8,25
+eliza coffee memorial hospital,yes,79,8,25
+eliza coffee memorial hospital,yes,80,8,25
+eliza coffee memorial hospital,yes,81,8,25
+eliza coffee memorial hospital,yes,82,8,25
+eliza coffee memorial hospital,yes,83,8,25
+eliza coffee memorial hospital,yes,84,8,25
+eliza coffee memorial hospital,yes,85,8,25
+eliza coffee memorial hospital,yes,86,8,25
+eliza coffee memorial hospital,yes,87,8,25
+eliza coffee memorial hospital,yes,88,8,25
+eliza coffee memorial hospital,yes,89,8,25
+eliza coffee memorial hospital,yes,90,8,25
+eliza coffee memorial hospital,yes,91,8,25
+eliza coffee memorial hospital,yes,92,8,25
+eliza coffee memorial hospital,yes,93,8,25
+mizell memorial hospital,no,94,9,25
+mizell memorial hospital,no,95,9,25
+mizell memorial hospital,no,96,9,25
+mizell memorial hospital,no,97,9,25
+mizell memorial hospital,no,98,9,25
+mizell memorial hospital,no,99,9,25
+mizell memorial hospital,no,100,9,25
+mizell memorial hospital,no,101,9,25
+mizell memorial hospital,no,102,9,25
+mizell memorial hospital,no,103,9,25
+mizell memorial hospital,no,104,9,25
+mizell memorial hospital,no,105,9,25
+mizell memorial hospital,no,106,9,25
+mizell memorial hospital,no,107,9,25
+mizell memorial hospital,no,108,9,25
+mizell memorial hospital,no,109,9,25
+mizell memorial hospital,no,110,9,25
+mizell memorial hospital,no,111,9,25
+mizell memorial hospital,no,112,9,25
+mizell memorial hospital,no,113,9,25
+mizell memorial hospital,no,114,9,25
+mizell memorial hospital,no,115,9,25
+mizell memorial hospital,no,116,9,25
+mizell memorial hospital,no,117,9,25
+mizell memorial hospital,no,118,9,25
+crenshaw community hospital,yes,119,10,24
+crenshaw community hospital,yes,120,10,24
+crenshaw community hospital,yes,121,10,24
+crenshaw community hospital,yes,122,10,24
+crenshaw community hospital,yes,123,10,24
+crenshaw community hospital,yes,124,10,24
+crenshaw community hospital,yes,125,10,24
+crenshaw community hospital,yes,126,10,24
+crenshaw community hospital,yes,127,10,24
+crenshaw community hospital,yes,128,10,24
+crenshaw community hospital,yes,129,10,24
+crenshaw community hospital,yes,130,10,24
+crenshaw cxmmunity hxspital,yes,131,11,1
+crenshaw community hospital,yes,132,10,24
+crenshaw community hospital,yes,133,10,24
+crenshaw community hospital,yes,134,10,24
+crenshaw community hospital,yes,135,10,24
+crenshaw community hospital,yes,136,10,24
+crenshaw community hospital,yes,137,10,24
+crenshaw community hospital,yes,138,10,24
+crenshaw community hospital,yes,139,10,24
+crenshaw community hospital,yes,140,10,24
+crenshaw community hospital,yes,141,10,24
+crenshaw community hospital,yes,142,10,24
+crenshaw community hospital,yes,143,10,24
+hartselle medical center,yes,144,12,24
+hartselle medical center,yes,145,12,24
+hartselle medical center,yes,146,12,24
+hartselle medical center,yes,147,12,24
+hartselle medical center,yes,148,12,24
+hartselle medical center,yes,149,12,24
+hartselle medical center,yes,150,12,24
+hartselle medical center,yes,151,12,24
+hartselle medical center,yes,152,12,24
+hartselle medical center,yes,153,12,24
+hartselle medical center,yes,154,12,24
+hartselle medical center,yes,155,12,24
+hartselle medical center,yes,156,12,24
+hartselle medical center,yxs,157,13,1
+hartselle medical center,yes,158,12,24
+hartselle medical center,yes,159,12,24
+hartselle medical center,yes,160,12,24
+hartselle medical center,yes,161,12,24
+hartselle medical center,yes,162,12,24
+hartselle medical center,yes,163,12,24
+hartselle medical center,yes,164,12,24
+hartselle medical center,yes,165,12,24
+hartselle medical center,yes,166,12,24
+hartselle medical center,yes,167,12,24
+hartselle medical center,yes,168,12,24
+marshall medical center north,yes,169,14,24
+marshall medical center north,yes,170,14,24
+marshall medical cenxer norxh,yes,171,15,1
+marshall medical center north,yes,172,14,24
+marshall medical center north,yes,173,14,24
+marshall medical center north,yes,174,14,24
+marshall medical center north,yes,175,14,24
+marshall medical center north,yes,176,14,24
+marshall medical center north,yes,177,14,24
+marshall medical center north,yes,178,14,24
+marshall medical center north,yes,179,14,24
+marshall medical center north,yes,180,14,24
+marshall medical center north,yes,181,14,24
+marshall medical center north,yes,182,14,24
+marshall medical center north,yes,183,14,24
+marshall medical center north,yes,184,14,24
+marshall medical center north,yes,185,14,24
+marshall medical center north,yes,186,14,24
+marshall medical center north,yes,187,14,24
+marshall medical center north,yes,188,14,24
+marshall medical center north,yes,189,14,24
+marshall medical center north,yes,190,14,24
+marshall medical center north,yes,191,14,24
+marshall medical center north,yes,192,14,24
+marshall medical center north,yes,193,14,24
+st vincents east,yes,194,16,25
+st vincents east,yes,195,16,25
+st vincents east,yes,196,16,25
+st vincents east,yes,197,16,25
+st vincents east,yes,198,16,25
+st vincents east,yes,199,16,25
+st vincents east,yes,200,16,25
+st vincents east,yes,201,16,25
+st vincents east,yes,202,16,25
+st vincents east,yes,203,16,25
+st vincents east,yes,204,16,25
+st vincents east,yes,205,16,25
+st vincents east,yes,206,16,25
+st vincents east,yes,207,16,25
+st vincents east,yes,208,16,25
+st vincents east,yes,209,16,25
+st vincents east,yes,210,16,25
+st vincents east,yes,211,16,25
+st vincents east,yes,212,16,25
+st vincents east,yes,213,16,25
+st vincents east,yes,214,16,25
+st vincents east,yes,215,16,25
+st vincents east,yes,216,16,25
+st vincents east,yes,217,16,25
+st vincents east,yes,218,16,25
+dekalb regional medical center,yes,219,17,24
+dekalb regional medical center,yes,220,17,24
+dekalb regional medical center,yes,221,17,24
+dekalb regional medical center,yes,222,17,24
+dekalb regional medical center,yes,223,17,24
+dekalb regional medical center,yes,224,17,24
+dekalb regional medical center,yes,225,17,24
+dekalb regional medical center,yes,226,17,24
+dekalb regional medical center,yes,227,17,24
+dekalb regional medical center,yes,228,17,24
+dekalb regional medical center,yes,229,17,24
+dekalb regional medical center,yes,230,17,24
+dekalb regional medical center,yes,231,17,24
+dekalb regional medical center,yes,232,17,24
+dekalb regional medical center,yes,233,17,24
+dekalb regional medical center,yes,234,17,24
+dekalb regional medical center,yes,235,17,24
+dekalb regional medical center,yes,236,17,24
+dekalb regional medical center,yes,237,17,24
+dekalb regional medical center,yes,238,17,24
+dekalb regional medical center,yes,239,17,24
+dekalb regional medical center,yes,240,17,24
+dekalb regional medical center,yes,241,17,24
+dekalb regional medical center,yes,242,17,24
+dexalb regional medical center,yes,243,18,1
+southwest alabama medical center,yes,244,19,25
+southwest alabama medical center,yes,245,19,25
+southwest alabama medical center,yes,246,19,25
+southwest alabama medical center,yes,247,19,25
+southwest alabama medical center,yes,248,19,25
+southwest alabama medical center,yes,249,19,25
+southwest alabama medical center,yes,250,19,25
+southwest alabama medical center,yes,251,19,25
+southwest alabama medical center,yes,252,19,25
+southwest alabama medical center,yes,253,19,25
+southwest alabama medical center,yes,254,19,25
+southwest alabama medical center,yes,255,19,25
+southwest alabama medical center,yes,256,19,25
+southwest alabama medical center,yes,257,19,25
+southwest alabama medical center,yes,258,19,25
+southwest alabama medical center,yes,259,19,25
+southwest alabama medical center,yes,260,19,25
+southwest alabama medical center,yes,261,19,25
+southwest alabama medical center,yes,262,19,25
+southwest alabama medical center,yes,263,19,25
+southwest alabama medical center,yes,264,19,25
+southwest alabama medical center,yes,265,19,25
+southwest alabama medical center,yes,266,19,25
+southwest alabama medical center,yes,267,19,25
+southwest alabama medical center,yes,268,19,25
+shelby baptist medical center,yes,269,20,25
+shelby baptist medical center,yes,270,20,25
+shelby baptist medical center,yes,271,20,25
+shelby baptist medical center,yes,272,20,25
+shelby baptist medical center,yes,273,20,25
+shelby baptist medical center,yes,274,20,25
+shelby baptist medical center,yes,275,20,25
+shelby baptist medical center,yes,276,20,25
+shelby baptist medical center,yes,277,20,25
+shelby baptist medical center,yes,278,20,25
+shelby baptist medical center,yes,279,20,25
+shelby baptist medical center,yes,280,20,25
+shelby baptist medical center,yes,281,20,25
+shelby baptist medical center,yes,282,20,25
+shelby baptist medical center,yes,283,20,25
+shelby baptist medical center,yes,284,20,25
+shelby baptist medical center,yes,285,20,25
+shelby baptist medical center,yes,286,20,25
+shelby baptist medical center,yes,287,20,25
+shelby baptist medical center,yes,288,20,25
+shelby baptist medical center,yes,289,20,25
+shelby baptist medical center,yes,290,20,25
+shelby baptist medical center,yes,291,20,25
+shelby baptist medical center,yes,292,20,25
+shelby baptist medical center,yes,293,20,25
+callahan eye foundation hospital,yes,294,0,25
+callahan eye foundation hospital,yes,295,0,25
+callahan eye foundation hospital,yes,296,0,25
+callahan eye foundation hospital,yes,297,0,25
+callahan eye foundation hospital,yes,298,0,25
+callahan eye foundation hospital,yes,299,0,25
+callahan eye foundation hospital,yes,300,0,25
+callahan eye foundation hospital,yes,301,0,25
+callahan eye foundation hospital,yes,302,0,25
+callahan eye foundation hospital,yes,303,0,25
+callahan eye foundation hospital,yes,304,0,25
+callahan eye foundation hospital,yes,305,0,25
+callahan eye foundation hospital,yes,306,0,25
+callahan eye foundation hospital,yes,307,0,25
+callahan eye foundation hospital,yes,308,0,25
+callahan eye foundation hospital,yes,309,0,25
+callahan eye foundation hospital,yes,310,0,25
+stringfellow memorial hospital,yes,311,21,26
+stringfellow memorial hospital,yes,312,21,26
+stringfellow memorial hospital,yes,313,21,26
+stringfellow memorial hospital,yes,314,21,26
+stringfellow memorial hospital,yes,315,21,26
+stringfellow memorial hospital,yes,316,21,26
+stringfellow memorial hospital,yes,317,21,26
+stringfellow memorial hospital,xes,318,22,1
+stringfellow memorial hospital,yes,319,21,26
+stringfellow memorial hospital,yes,320,21,26
+stringfellow memorial hospital,yes,321,21,26
+stringfellow memorial hospital,yes,322,21,26
+stringfellow memorial hospital,yes,323,21,26
+stringfellow memorial hospital,yes,324,21,26
+stringfellow memorial hospital,yes,325,21,26
+stringfellow memorial hospital,yes,326,21,26
+stringfellow memorial hospital,yex,327,23,1
+stringfellow memorial hospital,yes,328,21,26
+stringfellow memorial hospital,yes,329,21,26
+stringfellow memorial hospital,yes,330,21,26
+flowers hospital,yes,331,24,15
+flowers hospital,yex,332,25,1
+flowers hospital,yes,333,24,15
+flowers hospital,yes,334,24,15
+flowers hospital,yes,335,24,15
+flowers hospital,yes,336,24,15
+floxers hospital,yes,337,26,1
+flowers hospital,yes,338,24,15
+flowers hospital,yes,339,24,15
+flowers hospital,yes,340,24,15
+flowers hospital,yes,341,24,15
+flowers hospital,yes,342,24,15
+flowers hospital,yes,343,24,15
+flowers hospital,yes,344,24,15
+flowers hospital,yes,345,24,15
+flowers hospital,yes,346,24,15
+flowers hospital,yes,347,24,15
+st vincents hospital,yes,348,27,4
+st vincents hospital,yes,349,27,4
+st vincents hospital,yxs,350,28,1
+st vincents hospital,yes,351,27,4
+st vincents hospital,yes,352,27,4
+decatur general hospital,yes,353,29,1
+northwest medical center,yes,354,30,24
+northwest medical center,yes,355,30,24
+northwest medical center,yes,356,30,24
+northwest medical center,yes,357,30,24
+northwest medical center,yes,358,30,24
+northwest medical center,yes,359,30,24
+northwest medical center,yes,360,30,24
+northwest medical center,yes,361,30,24
+northwest medical center,yes,362,30,24
+northwest medical center,yes,363,30,24
+northwest medical center,yes,364,30,24
+northwest medical center,yes,365,30,24
+northwest medical center,yes,366,30,24
+northwest medical center,yes,367,30,24
+northwest medical center,yes,368,30,24
+northwest medical center,yes,369,30,24
+northwest medical center,yes,370,30,24
+northwest medical center,yes,371,30,24
+northwest medical center,yes,372,30,24
+northwest medical center,yes,373,30,24
+northwest medical center,yex,374,31,1
+northwest medical center,yes,375,30,24
+northwest medical center,yes,376,30,24
+northwest medical center,yes,377,30,24
+northwest medical center,yes,378,30,24
+univ of south alabama medical center,yes,379,32,10
+univ of south alabama medical center,yes,380,32,10
+univ of south alabama medical center,yes,381,32,10
+univ of south alabama medical center,yes,382,32,10
+univ of south alabama medical center,yes,383,32,10
+univ ox south alabama medical center,yes,384,33,1
+xniv of soxth alabama medical center,yes,385,34,1
+univ of south alabama medical center,yes,386,32,10
+univ of south alabama medical center,yes,387,32,10
+univ of south alabama medical center,yes,388,32,10
+univ of south alabama medical center,yxs,389,35,1
+univ of south alabama medical center,yes,390,32,10
+univ of south alabama medical center,yes,391,32,10
+prattville baptist hospital,yes,392,36,19
+prattville baptist hospital,yes,393,36,19
+prattville baptist hospital,yes,394,36,19
+prattville baptist hospital,yes,395,36,19
+prattville baptist hospital,yes,396,36,19
+prattville baptist hospital,yes,397,36,19
+prattville baptist hospital,yes,398,36,19
+prattville baptist hospital,yes,399,36,19
+prattville baptist hospital,yes,400,36,19
+prattville baptist hospital,yes,401,36,19
+prattville baptist hospital,yes,402,36,19
+prattville baptist hospital,yes,403,36,19
+prattville baptist hospital,yes,404,36,19
+prattville baptist hospital,yes,405,36,19
+prattville baptist hospital,yes,406,36,19
+prattville baptist hospital,yes,407,36,19
+prattville baptist hospital,yes,408,36,19
+prattville baptist hospital,yes,409,36,19
+prattville baptist hospital,yxs,410,37,1
+prattville baptist hospital,yes,411,36,19
+russellville hospital,yes,412,38,2
+russellville hospital,yes,413,38,2
+coosa valley medical center,no,414,39,17
+coosa valley medical center,no,415,39,17
+coosa valley medical center,no,416,39,17
+coosa valley medical center,no,417,39,17
+coosa valley medical center,xo,418,40,1
+coosa valley medical center,no,419,39,17
+coosa valley medical center,no,420,39,17
+coosa valley medical center,no,421,39,17
+coosa valley medical center,no,422,39,17
+coosa valley medical center,no,423,39,17
+coosa valley medical center,no,424,39,17
+coosa valley medical center,no,425,39,17
+coosa valley medical center,no,426,39,17
+coosa valley medical center,no,427,39,17
+coosa valley medical center,no,428,39,17
+coosa valley medical center,no,429,39,17
+coosa valley medical center,no,430,39,17
+coosa valley medical center,no,431,39,17
+alaska regional hospital,yes,432,41,17
+alaska regional hospital,yes,433,41,17
+alaska regional hospital,yes,434,41,17
+alaska regional hospital,yes,435,41,17
+alaska regional hospital,yes,436,41,17
+alaska regional hospital,yes,437,41,17
+alaska regional hospital,yes,438,41,17
+alaska regional hospital,yes,439,41,17
+alaska regional hospital,yes,440,41,17
+alaska regional hospital,yes,441,41,17
+alaska regional hospital,yes,442,41,17
+alaska regional hospital,yes,443,41,17
+alaska regional hospital,yes,444,41,17
+alaska regional hospital,yes,445,41,17
+alaska regional hospital,yes,446,41,17
+alaska regional hospital,yes,447,41,17
+xlxskx regionxl hospitxl,yes,448,42,1
+alaska regional hospital,yes,449,41,17
+yukon kuskokwim delta reg hospital,no,450,43,2
+yukon kuskokwim delta reg hospital,no,451,43,2
+helen keller memorial hospital,yes,452,1,25
+helen keller memorial hospital,yes,453,1,25
+helen keller memorial hospital,yes,454,1,25
+helen keller memorial hospital,yes,455,1,25
+helen keller memorial hospital,yes,456,1,25
+helen keller memorial hospital,yes,457,1,25
+helen keller memorial hospital,yes,458,1,25
+helen keller memorial hospital,yes,459,1,25
+helen keller memorial hospital,yes,460,1,25
+helen keller memorial hospital,yes,461,1,25
+helen keller memorial hospital,yes,462,1,25
+helen keller memorial hospital,yes,463,1,25
+helen keller memorial hospital,yes,464,1,25
+helen keller memorial hospital,yes,465,1,25
+dale medical center,yes,466,44,25
+dale medical center,yes,467,44,25
+dale medical center,yes,468,44,25
+dale medical center,yes,469,44,25
+dale medical center,yes,470,44,25
+dale medical center,yes,471,44,25
+dale medical center,yes,472,44,25
+dale medical center,yes,473,44,25
+dale medical center,yes,474,44,25
+dale medical center,yes,475,44,25
+dale medical center,yes,476,44,25
+dale medical center,yes,477,44,25
+dale medical center,yes,478,44,25
+dale medical center,yes,479,44,25
+dale medical center,yes,480,44,25
+dale medical center,yes,481,44,25
+dale medical center,yes,482,44,25
+dale medical center,yes,483,44,25
+dale medical center,yes,484,44,25
+dale medical center,yes,485,44,25
+dale medical center,yes,486,44,25
+dale medical center,yes,487,44,25
+dale medical center,yes,488,44,25
+dale medical center,yes,489,44,25
+dale medical center,yes,490,44,25
+cherokee medical center,yes,491,45,24
+cherokee medical center,yxs,492,46,1
+cherokee medical center,yes,493,45,24
+cherokee medical center,yes,494,45,24
+cherokee medical center,yes,495,45,24
+cherokee medical center,yes,496,45,24
+cherokee medical center,yes,497,45,24
+cherokee medical center,yes,498,45,24
+cherokee medical center,yes,499,45,24
+cherokee medical center,yes,500,45,24
+cherokee medical center,yes,501,45,24
+cherokee medical center,yes,502,45,24
+cherokee medical center,yes,503,45,24
+cherokee medical center,yes,504,45,24
+cherokee medical center,yes,505,45,24
+cherokee medical center,yes,506,45,24
+cherokee medical center,yes,507,45,24
+cherokee medical center,yes,508,45,24
+cherokee medical center,yes,509,45,24
+cherokee medical center,yes,510,45,24
+cherokee medical center,yes,511,45,24
+cherokee medical center,yes,512,45,24
+cherokee medical center,yes,513,45,24
+cherokee medical center,yes,514,45,24
+cherokee medical center,yes,515,45,24
+baptist medical center south,yes,516,47,22
+baptist medical center south,yes,517,47,22
+baptist medical center south,yes,518,47,22
+baptist medical center south,yes,519,47,22
+baptist medical center south,yes,520,47,22
+baptist medical center south,yxs,521,48,1
+baptist medical center south,yes,522,47,22
+baptist medical center south,yes,523,47,22
+baptist medical center south,yes,524,47,22
+baptist medical center south,yes,525,47,22
+baptist medical center south,yes,526,47,22
+baptist medical center south,yes,527,47,22
+baptist medical center south,yes,528,47,22
+baptist medical center south,yes,529,47,22
+baptist medical center south,yes,530,47,22
+baptist medical center south,yes,531,47,22
+baptist medical cexter south,yes,532,49,1
+baptist medical center south,yes,533,47,22
+baptist medical center south,yes,534,47,22
+baptist medical center south,yes,535,47,22
+baptist medical center south,yex,536,50,1
+baptist medical center south,yes,537,47,22
+baptist medical center south,yes,538,47,22
+baptist medical center south,yes,539,47,22
+baptist medical center south,yes,540,47,22
+jackson hospital & clinic inc,yes,541,51,23
+jackson hospital & clinic inc,yes,542,51,23
+jackson hospital & clinic inc,yes,543,51,23
+jackson hospital & clinic inc,yes,544,51,23
+jackson hospital & clinic inc,yes,545,51,23
+jackson hospital & clinic inc,yes,546,51,23
+jackson hospital & clinic inc,yes,547,51,23
+jackson hospital & clinic inc,yes,548,51,23
+jackson hospital & clinic inc,yes,549,51,23
+jackson hospital & clinic inc,yes,550,51,23
+jackson hospital & clinic inc,yes,551,51,23
+jackson hospital & clinic inc,yes,552,51,23
+jackson hospital & clinic inc,yes,553,51,23
+jackson hospital & clinic inc,yes,554,51,23
+jackson hospital & clinic inc,yes,555,51,23
+jackson hospital & clinic inc,yes,556,51,23
+jackson hospital & clinic inc,yes,557,51,23
+jackson hospital & clinic inc,yes,558,51,23
+jackson hospital & clinic inc,yes,559,51,23
+jaxkson hospital & xlinix inx,yes,560,52,1
+jackson hospital & clinic inc,yes,561,51,23
+jackson hospital & clinic inc,yes,562,51,23
+jackson hospital & clinic inc,yes,563,51,23
+jackson hospital & clinic inc,xes,564,53,1
+jackson hospital & clinic inc,yes,565,51,23
+g h lanier memorial hospital,yes,566,54,23
+g h lanier memorial hospital,yes,567,54,23
+g h lanier memorial hospital,yes,568,54,23
+g h lanier memorial hospital,yes,569,54,23
+g h lanier memorial hospital,yes,570,54,23
+g h lanier memorial hospital,yes,571,54,23
+g h lanier memorial hospital,yes,572,54,23
+g h lanier memorial hospital,yes,573,54,23
+g h lanier memorial hospital,yes,574,54,23
+g h lanier memorial hospital,yes,575,54,23
+g h lanier memorial hospital,yes,576,54,23
+g h lanier memorial hospital,yes,577,54,23
+g h lanier memorial hospital,yes,578,54,23
+g h lanier memorial hospital,xes,579,55,2
+g h lanier memorial hospital,yes,580,54,23
+g h lanier memorial hospital,yes,581,54,23
+g h lanier memorial hospital,yes,582,54,23
+g h lanier memorial hospital,yes,583,54,23
+g h lanier memorial hospital,yes,584,54,23
+g h lanier memorial hospital,yes,585,54,23
+g h lanier memorial hospital,yes,586,54,23
+g h lanier memorial hospital,xes,587,55,2
+g h lanier memorial hospital,yes,588,54,23
+g h lanier memorial hospital,yes,589,54,23
+g h lanier memorial hospital,yes,590,54,23
+elba general hospital,yes,591,56,25
+elba general hospital,yes,592,56,25
+elba general hospital,yes,593,56,25
+elba general hospital,yes,594,56,25
+elba general hospital,yes,595,56,25
+elba general hospital,yes,596,56,25
+elba general hospital,yes,597,56,25
+elba general hospital,yes,598,56,25
+elba general hospital,yes,599,56,25
+elba general hospital,yes,600,56,25
+elba general hospital,yes,601,56,25
+elba general hospital,yes,602,56,25
+elba general hospital,yes,603,56,25
+elba general hospital,yes,604,56,25
+elba general hospital,yes,605,56,25
+elba general hospital,yes,606,56,25
+elba general hospital,yes,607,56,25
+elba general hospital,yes,608,56,25
+elba general hospital,yes,609,56,25
+elba general hospital,yes,610,56,25
+elba general hospital,yes,611,56,25
+elba general hospital,yes,612,56,25
+elba general hospital,yes,613,56,25
+elba general hospital,yes,614,56,25
+elba general hospital,yes,615,56,25
+east alabama medical center and snf,yes,616,57,24
+east alabama medical center and snf,yes,617,57,24
+east alabama medical center and snf,yes,618,57,24
+east alabama medical center and snf,yes,619,57,24
+east alabama medical center and snf,yes,620,57,24
+east alabama medical center and snf,yes,621,57,24
+east alabama medical center and snf,yes,622,57,24
+east alabama medical center and snf,yes,623,57,24
+east alabama medical center and snf,yes,624,57,24
+east alabama medical center and snf,yes,625,57,24
+east alabama medical center and snf,yes,626,57,24
+east alabama medical center and snf,yes,627,57,24
+east alabama medical center and snf,yex,628,58,1
+east alabama medical center and snf,yes,629,57,24
+east alabama medical center and snf,yes,630,57,24
+east alabama medical center and snf,yes,631,57,24
+east alabama medical center and snf,yes,632,57,24
+east alabama medical center and snf,yes,633,57,24
+east alabama medical center and snf,yes,634,57,24
+east alabama medical center and snf,yes,635,57,24
+east alabama medical center and snf,yes,636,57,24
+east alabama medical center and snf,yes,637,57,24
+east alabama medical center and snf,yes,638,57,24
+east alabama medical center and snf,yes,639,57,24
+east alabama medical center and snf,yes,640,57,24
+wedowee hospital,no,641,59,23
+wedowee hospital,no,642,59,23
+wedowee hospital,no,643,59,23
+wedowee hospital,no,644,59,23
+wedowee hospital,no,645,59,23
+wedowee hospital,no,646,59,23
+wedowee hospital,no,647,59,23
+wedowee hospital,no,648,59,23
+wedowee hospital,no,649,59,23
+wedowee hospital,no,650,59,23
+wedowee hospital,no,651,59,23
+wedowee hospital,no,652,59,23
+wedowee hospital,xo,653,60,1
+wedowee hosxital,no,654,61,1
+wedowee hospital,no,655,59,23
+wedowee hospital,no,656,59,23
+wedowee hospital,no,657,59,23
+wedowee hospital,no,658,59,23
+wedowee hospital,no,659,59,23
+wedowee hospital,no,660,59,23
+wedowee hospital,no,661,59,23
+wedowee hospital,no,662,59,23
+wedowee hospital,no,663,59,23
+wedowee hospital,no,664,59,23
+wedowee hospital,no,665,59,23
+university of alabama hospital,yes,666,62,24
+university of alabama hospital,yes,667,62,24
+university of alabama hospital,yes,668,62,24
+university of alabama hospital,yes,669,62,24
+university of alabama hospital,yes,670,62,24
+university of alabama hospital,yes,671,62,24
+university of alabama hospital,yes,672,62,24
+university of alabama hospital,yes,673,62,24
+university of alabama hospital,yex,674,63,1
+university of alabama hospital,yes,675,62,24
+university of alabama hospital,yes,676,62,24
+university of alabama hospital,yes,677,62,24
+university of alabama hospital,yes,678,62,24
+university of alabama hospital,yes,679,62,24
+university of alabama hospital,yes,680,62,24
+university of alabama hospital,yes,681,62,24
+university of alabama hospital,yes,682,62,24
+university of alabama hospital,yes,683,62,24
+university of alabama hospital,yes,684,62,24
+university of alabama hospital,yes,685,62,24
+university of alabama hospital,yes,686,62,24
+university of alabama hospital,yes,687,62,24
+university of alabama hospital,yes,688,62,24
+university of alabama hospital,yes,689,62,24
+university of alabama hospital,yes,690,62,24
+community hospital inc,no,691,64,23
+community hospital inc,no,692,64,23
+community hospital inc,no,693,64,23
+community hospital inc,no,694,64,23
+community hospital inc,no,695,64,23
+community hospital inc,no,696,64,23
+communitx hospital inc,no,697,65,1
+community hospital inc,no,698,64,23
+community hospital inc,no,699,64,23
+community hospital inc,no,700,64,23
+community hospital inc,no,701,64,23
+community hospital inc,no,702,64,23
+community hospital inc,no,703,64,23
+community hospital inc,no,704,64,23
+community hospital inc,no,705,64,23
+community hospital inc,no,706,64,23
+community hospital inc,no,707,64,23
+community hospital inc,no,708,64,23
+community hospital inc,no,709,64,23
+communixy hospixal inc,no,710,66,1
+community hospital inc,no,711,64,23
+community hospital inc,no,712,64,23
+community hospital inc,no,713,64,23
+community hospital inc,no,714,64,23
+community hospital inc,no,715,64,23
+cullman regional medical center,yes,716,67,24
+cullman regional medical center,yes,717,67,24
+cullman regional medical center,yes,718,67,24
+cullman regional medical center,yes,719,67,24
+cullman regional medical center,yes,720,67,24
+cullman regional medical center,yes,721,67,24
+cullman regional medical center,yes,722,67,24
+cullman regional medical center,yes,723,67,24
+cullman regional medical center,yes,724,67,24
+cullman regional medical center,yes,725,67,24
+cullman regional medical center,yes,726,67,24
+cullman regional medical center,yes,727,67,24
+cullman regional medical center,yes,728,67,24
+cullman regional medical center,yes,729,67,24
+cullmxn regionxl medicxl center,yes,730,68,1
+cullman regional medical center,yes,731,67,24
+cullman regional medical center,yes,732,67,24
+cullman regional medical center,yes,733,67,24
+cullman regional medical center,yes,734,67,24
+cullman regional medical center,yes,735,67,24
+cullman regional medical center,yes,736,67,24
+cullman regional medical center,yes,737,67,24
+cullman regional medical center,yes,738,67,24
+cullman regional medical center,yes,739,67,24
+cullman regional medical center,yes,740,67,24
+andalusia regional hospital,no,741,69,23
+andalusia regional hospital,no,742,69,23
+andalusia regional hospital,no,743,69,23
+andalusia regional hospital,no,744,69,23
+andalusia regional hospital,no,745,69,23
+andalusia regional hospital,no,746,69,23
+andalusia regional hospital,no,747,69,23
+andalusia regional hospital,no,748,69,23
+andalusia regional hospital,no,749,69,23
+andalusia regional hospital,no,750,69,23
+andalusia regional hospital,no,751,69,23
+andalusia regional hospital,no,752,69,23
+andalusia regional hospital,no,753,69,23
+andalusia regional hospital,no,754,69,23
+andalusia regional hospital,no,755,69,23
+andalusia regional hospital,no,756,69,23
+andalusia regional hospital,no,757,69,23
+andaxusia regionax hospitax,no,758,70,1
+andalusia regional hospital,no,759,69,23
+andalusia regional hospital,no,760,69,23
+andalusia regional hospital,no,761,69,23
+andalusia regional hospital,no,762,69,23
+andalusia regional hospital,no,763,69,23
+andalusia regional hospital,no,764,69,23
+andaluxia regional hoxpital,no,765,71,1
+stringfellow memorial hospital,yes,766,21,26
+stringfellow memorial hospital,yes,767,21,26
+stringfellow memorial hospital,yes,768,21,26
+stringfellow memorial hospital,yes,769,21,26
+stringfellow memorial hospital,yes,770,21,26
+stringfellow memorial hospital,yes,771,21,26
+stringfellow memorial hospital,yes,772,21,26
+stringfellow memorial hospital,yes,773,21,26
+huntsville hospital,yes,774,72,26
+huntsville hospital,yes,775,72,26
+huntsville hospital,yes,776,72,26
+huntsvxlle hospxtal,yes,777,73,1
+huntsville hospital,yes,778,72,26
+huntsville hospital,yes,779,72,26
+huntsville hospital,yes,780,72,26
+huntsville hospital,yes,781,72,26
+huntsville hospital,yes,782,72,26
+huntsville hospital,yes,783,72,26
+huntsville hospital,yes,784,72,26
+huntsville hospital,yes,785,72,26
+huntsville hospital,yes,786,72,26
+huntsville hospital,yes,787,72,26
+huntsville hospital,yes,788,72,26
+huntsville hospital,yes,789,72,26
+huntsville hospital,yes,790,72,26
+huntsville hospital,yes,791,72,26
+huntsville hospital,yes,792,72,26
+huntsville hospital,yes,793,72,26
+huntsville hospital,yes,794,72,26
+huntsville hospital,yes,795,72,26
+huntsville hospital,yes,796,72,26
+huntsville hospital,yxs,797,74,1
+huntsville hospital,yes,798,72,26
+huntsville hospital,yes,799,72,26
+huntsville hospital,yes,800,72,26
+huntsville hospital,yes,801,72,26
+gadsden regional medical center,yes,802,75,24
+gadsden regional medical center,yes,803,75,24
+gadsden regional medical center,yes,804,75,24
+gadsden regional medical center,yes,805,75,24
+gadsden regional medical center,yes,806,75,24
+gadsden regional medical center,yes,807,75,24
+gadsden regional medical center,yes,808,75,24
+gadsden regional medical center,xes,809,76,1
+gadsden regional medical center,yes,810,75,24
+gadsden regional medical center,yes,811,75,24
+gadsden regional medical center,yes,812,75,24
+gadsden regional medical center,yes,813,75,24
+gadsden regional medical center,yes,814,75,24
+gadsden regional medical center,yes,815,75,24
+gadsden regional medical center,yes,816,75,24
+gadsden regional medical center,yes,817,75,24
+gadsden regional medical center,yes,818,75,24
+gadsden regional medical center,yes,819,75,24
+gadsden regional medical center,yes,820,75,24
+gadsden regional medical center,yes,821,75,24
+gadsden regional medical center,yes,822,75,24
+gadsden regional medical center,yes,823,75,24
+gadsden regional medical center,yes,824,75,24
+gadsden regional medical center,yes,825,75,24
+gadsden regional medical center,yes,826,75,24
+chilton medical center,yes,827,77,25
+chilton medical center,yes,828,77,25
+chilton medical center,yes,829,77,25
+chilton medical center,yes,830,77,25
+chilton medical center,yes,831,77,25
+chilton medical center,yes,832,77,25
+chilton medical center,yes,833,77,25
+chilton medical center,yes,834,77,25
+chilton medical center,yes,835,77,25
+chilton medical center,yes,836,77,25
+chilton medical center,yes,837,77,25
+chilton medical center,yes,838,77,25
+chilton medical center,yes,839,77,25
+chilton medical center,yes,840,77,25
+chilton medical center,yes,841,77,25
+chilton medical center,yes,842,77,25
+chilton medical center,yes,843,77,25
+chilton medical center,yes,844,77,25
+chilton medical center,yes,845,77,25
+chilton medical center,yes,846,77,25
+chilton medical center,yes,847,77,25
+chilton medical center,yes,848,77,25
+chilton medical center,yes,849,77,25
+chilton medical center,yes,850,77,25
+chilton medical center,yes,851,77,25
+marion regional medical center,yes,852,78,24
+marion regional medical center,yes,853,78,24
+marion regional medical center,yes,854,78,24
+marion regional medical center,yes,855,78,24
+marion regional medical center,yes,856,78,24
+marion regional medical center,yes,857,78,24
+marion regional medical center,yes,858,78,24
+marion regional medical center,yes,859,78,24
+marion regional medical center,yes,860,78,24
+marion regional medical center,yes,861,78,24
+marion regional medical center,yes,862,78,24
+marion regional medical center,yes,863,78,24
+marion regional medical center,yes,864,78,24
+marion regional medical center,yes,865,78,24
+marion regional medical center,yxs,866,79,1
+marion regional medical center,yes,867,78,24
+marion regional medical center,yes,868,78,24
+marion regional medical center,yes,869,78,24
+marion regional medical center,yes,870,78,24
+marion regional medical center,yes,871,78,24
+marion regional medical center,yes,872,78,24
+marion regional medical center,yes,873,78,24
+marion regional medical center,yes,874,78,24
+marion regional medical center,yes,875,78,24
+marion regional medical center,yes,876,78,24
+fayette medical center,yes,877,80,24
+fayette medical center,yes,878,80,24
+fayette medical center,yes,879,80,24
+fayette medical center,yes,880,80,24
+fayette medical center,yes,881,80,24
+fayette medical center,yes,882,80,24
+fayette medical center,yes,883,80,24
+fayette medical center,yes,884,80,24
+fayette medical center,yes,885,80,24
+fayette medical center,yes,886,80,24
+fayette medical center,yes,887,80,24
+fayette medical center,yes,888,80,24
+fayette medical center,yex,889,81,1
+fayette medical center,yes,890,80,24
+fayette medical center,yes,891,80,24
+fayette medical center,yes,892,80,24
+fayette medical center,yes,893,80,24
+fayette medical center,yes,894,80,24
+fayette medical center,yes,895,80,24
+fayette medical center,yes,896,80,24
+fayette medical center,yes,897,80,24
+fayette medical center,yes,898,80,24
+fayette medical center,yes,899,80,24
+fayette medical center,yes,900,80,24
+fayette medical center,yes,901,80,24
+riverview regional medical center,yes,902,82,24
+rivxrvixw rxgional mxdical cxntxr,yes,903,83,1
+riverview regional medical center,yes,904,82,24
+riverview regional medical center,yes,905,82,24
+riverview regional medical center,yes,906,82,24
+riverview regional medical center,yes,907,82,24
+riverview regional medical center,yes,908,82,24
+riverview regional medical center,yes,909,82,24
+riverview regional medical center,yes,910,82,24
+riverview regional medical center,yes,911,82,24
+riverview regional medical center,yes,912,82,24
+riverview regional medical center,yes,913,82,24
+riverview regional medical center,yes,914,82,24
+riverview regional medical center,yes,915,82,24
+riverview regional medical center,yes,916,82,24
+riverview regional medical center,yes,917,82,24
+riverview regional medical center,yes,918,82,24
+riverview regional medical center,yex,919,84,1
+riverview regional medical center,yes,920,82,24
+xivexview xegional medical centex,yxs,921,85,1
+riverview rexional medical center,yes,922,86,1
+riverview regional medical center,yes,923,82,24
+riverview regional medical center,yes,924,82,24
+riverview regional medical center,yes,925,82,24
+riverview regional medical center,yes,926,82,24
+riverview regional medical center,yes,927,82,24
+riverview regional medical center,yes,928,82,24
+riverview regional medical center,yes,929,82,24
+georgiana hospital,no,930,87,24
+georgiana hospital,no,931,87,24
+georgiana hospital,no,932,87,24
+georgiana hospital,no,933,87,24
+georgiana hospital,no,934,87,24
+georgiana hospital,no,935,87,24
+georgiana hospital,no,936,87,24
+georgiana hospital,no,937,87,24
+georgiaxa hospital,no,938,88,1
+georgiana hospital,no,939,87,24
+georgiana hospital,no,940,87,24
+georgiana hospital,no,941,87,24
+georgiana hospital,no,942,87,24
+georgiana hospital,no,943,87,24
+georgiana hospital,no,944,87,24
+georgiana hospital,no,945,87,24
+georgiana hospital,no,946,87,24
+georgiana hospital,no,947,87,24
+georgiana hospital,no,948,87,24
+georgiana hospital,no,949,87,24
+georgiana hospital,no,950,87,24
+georgiana hospital,no,951,87,24
+georgiana hospital,no,952,87,24
+georgiana hospital,no,953,87,24
+georgiana hospital,no,954,87,24
+medical center enterprise,yes,955,89,23
+medixal xenter enterprise,yes,956,90,1
+medical center enterprise,yes,957,89,23
+medical center enterprise,yes,958,89,23
+medical center enterprise,yes,959,89,23
+medical center enterprise,yes,960,89,23
+medical center enterprise,yes,961,89,23
+medxcal center enterprxse,yes,962,91,1
+medical center enterprise,yes,963,89,23
+medical center enterprise,yes,964,89,23
+medical center enterprise,yes,965,89,23
+medical center enterprise,yes,966,89,23
+medical center enterprise,yes,967,89,23
+medical center enterprise,yes,968,89,23
+medical center enterprise,yes,969,89,23
+medical center enterprise,yes,970,89,23
+medical center enterprise,yes,971,89,23
+medical center enterprise,yes,972,89,23
+medical center enterprise,yes,973,89,23
+medical center enterprise,yes,974,89,23
+medical center enterprise,yes,975,89,23
+medical center enterprise,yes,976,89,23
+medical center enterprise,yes,977,89,23
+medical center enterprise,yes,978,89,23
+medical center enterprise,yes,979,89,23
+st vincents blount,yes,980,92,19
+st vincents blount,yes,981,92,19
+st vincents blount,yes,982,92,19
+st vincents blount,yes,983,92,19
+st vincents blount,yes,984,92,19
+st vincents blount,yes,985,92,19
+st vincents blount,yes,986,92,19
+st vincents bxount,yes,987,93,1
+st vincents blount,yes,988,92,19
+st vincents blount,yes,989,92,19
+st vincents blount,yes,990,92,19
+st vincents blount,yes,991,92,19
+st vincents blount,yes,992,92,19
+st vincents blount,yes,993,92,19
+st vincents blount,yes,994,92,19
+st vincents blount,yes,995,92,19
+st vincents blount,yes,996,92,19
+st vincents blount,yes,997,92,19
+st vincents blount,yes,998,92,19
+st vincents blount,yes,999,92,19

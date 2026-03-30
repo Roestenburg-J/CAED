@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The decimal measurement (string form) and the numeric measurement are consistent representations of the same underlying quantity (e.g., 0.065 corresponds to 65.0 after scaling such as ×1000), indicating a deterministic formatting/scaling relationship.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,8 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+0,0,0,00:00.000,0,id
+11325,50802,62127,01:19.970,13,article_title
+1444,1671,3115,00:08.902,1,article_language
+20377,24297,44674,02:08.547,5,journal_title
+0,0,0,00:00.000,0,article_jvolumn
+0,0,0,00:00.000,0,article_jissue
+11594,12062,23656,01:41.410,2,article_jcreated_at

@@ -1,0 +1,13 @@
+column_1,column_2,column_1_name,column_2_name,dependency
+0,1,index,id,The two numeric identifier columns appear to refer to linked entities in the same record: one identifies the specific product entry and the other identifies the producer/brewery entry associated with that product.
+2,3,beer_name,style,The product name is semantically tied to the style/category description; a given beverage name is associated with a particular beer style.
+2,4,beer_name,ounces,"The package volume text appears to describe the serving/container size for the named product; this formatting may vary syntactically (e.g., '12.0 oz' vs '12.0 oz.') while referring to the same size."
+2,5,beer_name,abv,The decimal strength value appears to represent the alcohol content for the named product; the product determines this numeric attribute.
+2,6,beer_name,ibu,The numeric bitterness value appears to represent the bitterness rating for the named product; the product determines this numeric attribute.
+2,7,beer_name,brewery_id,The calorie count appears to be an attribute of the named product; the product determines this nutritional value.
+2,8,beer_name,brewery_name,The product name is semantically dependent on the producer/brewery name; the named beverage is made by the listed brewery.
+2,9,beer_name,city,The product name is indirectly tied to the brewery location fields because the named beverage is associated with a brewery in the listed city and state.
+2,10,beer_name,state,The product name is indirectly tied to the brewery location fields because the named beverage is associated with a brewery in the listed city and state.
+8,9,brewery_name,city,The brewery name is semantically tied to its location: the producer/brewery corresponds to the listed city and state.
+8,10,brewery_name,state,The brewery name is semantically tied to its location: the producer/brewery corresponds to the listed city and state.
+9,10,city,state,The brewery name is semantically tied to its location: the producer/brewery corresponds to the listed city and state.

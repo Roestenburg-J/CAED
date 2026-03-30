@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  One numeric field represents a quantity that appears to be derived from another numeric field via a scaling factor (e.g., the larger integer is consistent with the other measurement expressed in different units or resolution).
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The producer/brewery name determines the city location. The same brewery name is paired with the same city.
+
+  The following is a formatted table with the unique data to be checked.
+  

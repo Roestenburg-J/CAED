@@ -1,0 +1,1 @@
+{"output":[{"explanation":"This value is the literal string \"empty\". All other rows (count 1000) appear to be intended as null/empty entries, and the dataset rule states null and empty values are always valid; the literal placeholder \"empty\" is therefore a syntactic anomaly compared with representing actual empty values.","index":0,"annotation":1,"possible_repair":""}]}

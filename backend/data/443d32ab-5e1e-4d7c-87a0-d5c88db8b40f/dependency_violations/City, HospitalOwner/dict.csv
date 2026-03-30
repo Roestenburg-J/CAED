@@ -1,0 +1,1001 @@
+City,HospitalOwner,original_index,unique_index,count
+birmingham,voluntary non-profit - private,0,0,44
+birmingham,voluntary non-profit - private,1,0,44
+birmingham,voluntary non-profit - private,2,0,44
+birminghxm,voluntary non-profit - private,3,1,1
+birmingham,voluntary non-profit - private,4,0,44
+birmingham,voluntary non-profit - private,5,0,44
+birmingham,voluntary non-profit - private,6,0,44
+birmingxam,voluntary non-profit - private,7,2,1
+sheffield,government - hospital district or authority,8,3,23
+sheffield,government - hospital district or authority,9,3,23
+sheffxeld,government - hospital district or authority,10,4,1
+sheffield,government - hospital district or authority,11,3,23
+sheffield,government - hospital district or authority,12,3,23
+sheffield,government - hospital district or authority,13,3,23
+sheffield,government - hospital district or authority,14,3,23
+sheffield,government - hospital district or authority,15,3,23
+sheffield,government - hospital district or authority,16,3,23
+sheffield,government - hospital district or authority,17,3,23
+sheffield,government - hospital district or authority,18,3,23
+dothan,government - hospital district or authority,19,5,21
+dothan,government - hospital district or authority,20,5,21
+dothan,government - hospital district or authority,21,5,21
+dothan,government - hospxtal dxstrxct or authorxty,22,6,1
+dothan,government - hospital district or authority,23,5,21
+dothan,government - hospital district or authority,24,5,21
+dothan,government - hospital district or authority,25,5,21
+dothan,government - hospital district or authority,26,5,21
+dothan,government - hospital xistrict or authority,27,7,1
+dothan,government - hospital district or authority,28,5,21
+dothan,government - hospital district or authority,29,5,21
+dothan,government - hospital district or authority,30,5,21
+dothan,governmenx - hospixal disxricx or auxhorixy,31,8,1
+dothan,government - hospital district or authority,32,5,21
+dothan,government - hospital district or authority,33,5,21
+dothan,government - hospital district or authority,34,5,21
+dothan,government - hospital district or authority,35,5,21
+dothan,government - hospital district or authority,36,5,21
+dothan,government - hospital district or authority,37,5,21
+dothan,government - hospital district or authority,38,5,21
+dothan,government - hospital district or authority,39,5,21
+dothan,government - hospital district or authority,40,5,21
+dothan,government - hospital district or authority,41,5,21
+dothan,gxvernment - hxspital district xr authxrity,42,9,1
+dothan,government - hospital district or authority,43,5,21
+boaz,government - hospital district or authority,44,10,24
+boaz,government - hospital district or authority,45,10,24
+boaz,government - hospital district or authority,46,10,24
+boaz,government - hospital district or authority,47,10,24
+boaz,government - hospital district or authority,48,10,24
+boaz,government - hospital district or authority,49,10,24
+boaz,government - hospital district or authority,50,10,24
+boaz,government - hospital district or authority,51,10,24
+boaz,government - hospital district or authority,52,10,24
+boaz,government - hospital district or authority,53,10,24
+boaz,government - hospital district or authority,54,10,24
+boaz,government - hospital district or authority,55,10,24
+boxz,government - hospital district or authority,56,11,1
+boaz,government - hospital district or authority,57,10,24
+boaz,government - hospital district or authority,58,10,24
+boaz,government - hospital district or authority,59,10,24
+boaz,government - hospital district or authority,60,10,24
+boaz,government - hospital district or authority,61,10,24
+boaz,government - hospital district or authority,62,10,24
+boaz,government - hospital district or authority,63,10,24
+boaz,government - hospital district or authority,64,10,24
+boaz,government - hospital district or authority,65,10,24
+boaz,government - hospital district or authority,66,10,24
+boaz,government - hospital district or authority,67,10,24
+boaz,government - hospital district or authority,68,10,24
+florence,voluntary non-profit - other,69,12,22
+florence,voluntary non-profit - other,70,12,22
+florence,voluntary non-profit - other,71,12,22
+florence,voluntary non-profit - other,72,12,22
+florence,voluntary non-profit - other,73,12,22
+florence,voluntary non-profit - other,74,12,22
+florence,voluntary non-profit - other,75,12,22
+florence,voluntary non-profit - other,76,12,22
+florence,voluntary non-profit - other,77,12,22
+florence,voluntary non-profit - other,78,12,22
+fxorence,voluntary non-profit - other,79,13,1
+florence,voluntary non-profit - other,80,12,22
+florence,voluntary non-profit - other,81,12,22
+florence,voluntary non-profit - other,82,12,22
+florence,voluntary non-profit - other,83,12,22
+florence,voluntary non-profit - other,84,12,22
+florence,voluntary non-profit - other,85,12,22
+florence,voluntary non-profit - other,86,12,22
+florence,voluntary non-profit - other,87,12,22
+florxncx,voluntary non-profit - other,88,14,1
+florence,voluntary non-profit - other,89,12,22
+florence,voluntary non-profit - other,90,12,22
+florence,voluntary non-profit - other,91,12,22
+florence,voluntary non-profit - other,92,12,22
+flxrence,voluntary non-profit - other,93,15,1
+opp,voluntary non-profit - private,94,16,24
+opp,voluntary non-profit - private,95,16,24
+opp,voluntary non-profit - private,96,16,24
+opp,voluntary non-profit - private,97,16,24
+opp,voluntary non-profit - private,98,16,24
+opp,voluntary non-profit - private,99,16,24
+opp,voluntary non-profit - private,100,16,24
+opp,voluntary non-profit - private,101,16,24
+opp,voluntary non-profit - private,102,16,24
+opp,voluntary non-profit - private,103,16,24
+opp,voluntary non-profit - private,104,16,24
+opp,voluntary non-profit - private,105,16,24
+opp,voluntary non-profit - private,106,16,24
+opp,voluntary non-profit - private,107,16,24
+opp,voluntary non-profit - private,108,16,24
+opp,voluntary non-profit - private,109,16,24
+opp,voluntary non-profit - private,110,16,24
+opp,voluntary non-profit - private,111,16,24
+opp,voluntary non-profit - private,112,16,24
+opp,volunxary non-profix - privaxe,113,17,1
+opp,voluntary non-profit - private,114,16,24
+opp,voluntary non-profit - private,115,16,24
+opp,voluntary non-profit - private,116,16,24
+opp,voluntary non-profit - private,117,16,24
+opp,voluntary non-profit - private,118,16,24
+luverne,government - federal,119,18,25
+luverne,government - federal,120,18,25
+luverne,government - federal,121,18,25
+luverne,government - federal,122,18,25
+luverne,government - federal,123,18,25
+luverne,government - federal,124,18,25
+luverne,government - federal,125,18,25
+luverne,government - federal,126,18,25
+luverne,government - federal,127,18,25
+luverne,government - federal,128,18,25
+luverne,government - federal,129,18,25
+luverne,government - federal,130,18,25
+luverne,government - federal,131,18,25
+luverne,government - federal,132,18,25
+luverne,government - federal,133,18,25
+luverne,government - federal,134,18,25
+luverne,government - federal,135,18,25
+luverne,government - federal,136,18,25
+luverne,government - federal,137,18,25
+luverne,government - federal,138,18,25
+luverne,government - federal,139,18,25
+luverne,government - federal,140,18,25
+luverne,government - federal,141,18,25
+luverne,government - federal,142,18,25
+luverne,government - federal,143,18,25
+hartselle,proprietary,144,19,21
+hartselle,proprietary,145,19,21
+hartselle,proprietary,146,19,21
+hartselle,proprietary,147,19,21
+hartselle,proprietary,148,19,21
+hartselle,proprietary,149,19,21
+hartselle,proprietary,150,19,21
+hartselle,proprietary,151,19,21
+hartselle,proprietary,152,19,21
+hartselle,proprietary,153,19,21
+hartselle,proprietary,154,19,21
+hartselle,proprietary,155,19,21
+hartselle,proprietary,156,19,21
+hartselle,pxopxietaxy,157,20,2
+hartselle,proprietary,158,19,21
+hartselle,proxrietary,159,21,1
+hartselle,proprietary,160,19,21
+hartselle,proprietary,161,19,21
+hartselle,xroprietary,162,22,1
+hartselle,proprietary,163,19,21
+hartselle,pxopxietaxy,164,20,2
+hartselle,proprietary,165,19,21
+hartselle,proprietary,166,19,21
+hartselle,proprietary,167,19,21
+hartselle,proprietary,168,19,21
+guntersville,government - hospital district or authority,169,23,24
+guntersville,government - hospital district or authority,170,23,24
+guntersville,government - hospital district or authority,171,23,24
+guntersville,government - hospital district or authority,172,23,24
+guntersville,government - hospital district or authority,173,23,24
+guntersville,government - hospital district or authority,174,23,24
+guntersville,government - hospital district or authority,175,23,24
+guntersville,government - hospital district or authority,176,23,24
+guntersville,government - hospital district or authority,177,23,24
+guntersville,government - hospital district or authority,178,23,24
+guntersville,government - hospital district or authority,179,23,24
+guntxrsvillx,government - hospital district or authority,180,24,1
+guntersville,government - hospital district or authority,181,23,24
+guntersville,government - hospital district or authority,182,23,24
+guntersville,government - hospital district or authority,183,23,24
+guntersville,government - hospital district or authority,184,23,24
+guntersville,government - hospital district or authority,185,23,24
+guntersville,government - hospital district or authority,186,23,24
+guntersville,government - hospital district or authority,187,23,24
+guntersville,government - hospital district or authority,188,23,24
+guntersville,government - hospital district or authority,189,23,24
+guntersville,government - hospital district or authority,190,23,24
+guntersville,government - hospital district or authority,191,23,24
+guntersville,government - hospital district or authority,192,23,24
+guntersville,government - hospital district or authority,193,23,24
+birmingham,voluntary non-profit - private,194,0,44
+birmingham,voluntary non-profit - private,195,0,44
+birmingham,voluntary non-profit - private,196,0,44
+birmingham,voluntary non-profit - private,197,0,44
+birmingham,voluntary non-profit - private,198,0,44
+birmingham,voluntary non-profit - private,199,0,44
+birmingham,voluntary non-profit - private,200,0,44
+birmingham,voluntary non-profit - private,201,0,44
+birmingham,voluntary non-profit - private,202,0,44
+birmingham,voluntary non-profit - private,203,0,44
+birmingham,voluntary non-profit - private,204,0,44
+birmingham,voluntary non-profit - private,205,0,44
+birmingham,voluntary non-profit - private,206,0,44
+birmixgham,voluntary non-profit - private,207,25,1
+birmingham,voluntary non-profit - private,208,0,44
+birmingham,voluntary non-profit - private,209,0,44
+birmingham,voluntary non-profit - private,210,0,44
+birmingham,voluntary non-profit - private,211,0,44
+bxrmxngham,voluntary non-profit - private,212,26,1
+birmingham,voluntary non-profit - private,213,0,44
+birmingham,voluntary non-profit - private,214,0,44
+birmingham,voluntary non-profit - private,215,0,44
+birmingham,volunxary non-profix - privaxe,216,27,1
+birmingham,voluntary non-profit - private,217,0,44
+birmingham,voluntary nonxprofit x private,218,28,1
+fort payne,voluntary non-profit - church,219,29,22
+fort payne,voluntary non-profit - church,220,29,22
+fort payne,voluntaryxnon-profitx-xchurch,221,30,1
+fort payne,voluntary non-profit - church,222,29,22
+fort payne,voluntary non-profit - church,223,29,22
+fort payne,voluntary non-profit - church,224,29,22
+fort payne,voluntary non-profit - church,225,29,22
+fort payne,voluntary non-profit - church,226,29,22
+fort payne,voluntary non-profit - church,227,29,22
+fort payxe,voluntary non-profit - church,228,31,1
+fort payne,voluntary non-profit - church,229,29,22
+fort payne,voluntary non-profit - church,230,29,22
+fort payne,voluntary non-profit - church,231,29,22
+fort payne,voluntary non-profit - church,232,29,22
+fort payne,voluntary non-profit - church,233,29,22
+fort payne,voluntary non-profit - church,234,29,22
+fort payne,voluntary non-profit - church,235,29,22
+fort payne,voluntary non-profit - church,236,29,22
+fort payne,voluntary non-profit - church,237,29,22
+fort payne,voxuntary non-profit - church,238,32,1
+fort payne,voluntary non-profit - church,239,29,22
+fort payne,voluntary non-profit - church,240,29,22
+fort payne,voluntary non-profit - church,241,29,22
+fort payne,voluntary non-profit - church,242,29,22
+fort payne,voluntary non-profit - church,243,29,22
+thomasville,government - federal,244,33,24
+thomasville,government - federal,245,33,24
+thomasville,government - federal,246,33,24
+thomasville,governxent - federal,247,34,1
+thomasville,government - federal,248,33,24
+thomasville,government - federal,249,33,24
+thomasville,government - federal,250,33,24
+thomasville,government - federal,251,33,24
+thomasville,government - federal,252,33,24
+thomasville,government - federal,253,33,24
+thomasville,government - federal,254,33,24
+thomasville,government - federal,255,33,24
+thomasville,government - federal,256,33,24
+thomasville,government - federal,257,33,24
+thomasville,government - federal,258,33,24
+thomasville,government - federal,259,33,24
+thomasville,government - federal,260,33,24
+thomasville,government - federal,261,33,24
+thomasville,government - federal,262,33,24
+thomasville,government - federal,263,33,24
+thomasville,government - federal,264,33,24
+thomasville,government - federal,265,33,24
+thomasville,government - federal,266,33,24
+thomasville,government - federal,267,33,24
+thomasville,government - federal,268,33,24
+alabaster,voluntary non-profit - church,269,35,25
+alabaster,voluntary non-profit - church,270,35,25
+alabaster,voluntary non-profit - church,271,35,25
+alabaster,voluntary non-profit - church,272,35,25
+alabaster,voluntary non-profit - church,273,35,25
+alabaster,voluntary non-profit - church,274,35,25
+alabaster,voluntary non-profit - church,275,35,25
+alabaster,voluntary non-profit - church,276,35,25
+alabaster,voluntary non-profit - church,277,35,25
+alabaster,voluntary non-profit - church,278,35,25
+alabaster,voluntary non-profit - church,279,35,25
+alabaster,voluntary non-profit - church,280,35,25
+alabaster,voluntary non-profit - church,281,35,25
+alabaster,voluntary non-profit - church,282,35,25
+alabaster,voluntary non-profit - church,283,35,25
+alabaster,voluntary non-profit - church,284,35,25
+alabaster,voluntary non-profit - church,285,35,25
+alabaster,voluntary non-profit - church,286,35,25
+alabaster,voluntary non-profit - church,287,35,25
+alabaster,voluntary non-profit - church,288,35,25
+alabaster,voluntary non-profit - church,289,35,25
+alabaster,voluntary non-profit - church,290,35,25
+alabaster,voluntary non-profit - church,291,35,25
+alabaster,voluntary non-profit - church,292,35,25
+alabaster,voluntary non-profit - church,293,35,25
+birmingham,voluntary non-profit - private,294,0,44
+birmingham,voluntary non-profit - private,295,0,44
+birmingham,voluntary non-profit - private,296,0,44
+birmingham,voluntary non-profit - private,297,0,44
+birmingham,voluntary non-profit - private,298,0,44
+birmingham,voluntary non-profit - private,299,0,44
+birmingham,voluntary non-profit - private,300,0,44
+birmingham,voluntary non-profit - private,301,0,44
+birmingham,voluntary non-profit - private,302,0,44
+birmingham,voluntary non-profit - private,303,0,44
+birmingham,voluntary non-profit - private,304,0,44
+birmingham,voluntary non-profit - private,305,0,44
+birmingham,voluntary non-profit - private,306,0,44
+birmingham,voluntary non-profit - private,307,0,44
+birmingham,voluntary non-profit - private,308,0,44
+birmingham,voluntary non-profit - private,309,0,44
+birmingham,voluntary non-profit - private,310,0,44
+axxistox,proprietary,311,36,1
+anniston,proprietary,312,37,25
+anniston,prxprietary,313,38,1
+anniston,proprietary,314,37,25
+anniston,proprietary,315,37,25
+anniston,proprietary,316,37,25
+anniston,proprietary,317,37,25
+anniston,proprietary,318,37,25
+anniston,proprietary,319,37,25
+anniston,proprietary,320,37,25
+anniston,proprietary,321,37,25
+anniston,proprietary,322,37,25
+anniston,proprietary,323,37,25
+anniston,proprietary,324,37,25
+anniston,proprietary,325,37,25
+anniston,proprietary,326,37,25
+anniston,proprietary,327,37,25
+anniston,proprietary,328,37,25
+anniston,proprietary,329,37,25
+anniston,proprietary,330,37,25
+dothan,proprietary,331,39,16
+dothan,proxrietary,332,40,1
+dothan,proprietary,333,39,16
+dothan,proprietary,334,39,16
+dothan,proprietary,335,39,16
+dothan,proprietary,336,39,16
+dothan,proprietary,337,39,16
+dothan,proprietary,338,39,16
+dothan,proprietary,339,39,16
+dothan,proprietary,340,39,16
+dothan,proprietary,341,39,16
+dothan,proprietary,342,39,16
+dothan,proprietary,343,39,16
+dothan,proprietary,344,39,16
+dothan,proprietary,345,39,16
+dothan,proprietary,346,39,16
+dothan,proprietary,347,39,16
+birmingham,voluntary non-profit - other,348,41,5
+birmingham,voluntary non-profit - other,349,41,5
+birmingham,voluntary non-profit - other,350,41,5
+birmingham,voluntary non-profit - other,351,41,5
+birmingham,voluntary non-profit - other,352,41,5
+decatur,government - hospital district or authority,353,42,1
+winfield,proprietary,354,43,23
+winfield,proprietary,355,43,23
+winfield,prxprietary,356,44,1
+winfield,proprietary,357,43,23
+winfield,proprietary,358,43,23
+winfield,proprietary,359,43,23
+winfield,proprietary,360,43,23
+winfield,proprietary,361,43,23
+winfield,proprietary,362,43,23
+winfield,proprietary,363,43,23
+winfield,proprietary,364,43,23
+winfield,proprietary,365,43,23
+winfield,proprietary,366,43,23
+winfielx,proprietary,367,45,1
+winfield,proprietary,368,43,23
+winfield,proprietary,369,43,23
+winfield,proprietary,370,43,23
+winfield,proprietary,371,43,23
+winfield,proprietary,372,43,23
+winfield,proprietary,373,43,23
+winfield,proprietary,374,43,23
+winfield,proprietary,375,43,23
+winfield,proprietary,376,43,23
+winfield,proprietary,377,43,23
+winfield,proprietary,378,43,23
+mobile,government - state,379,46,13
+mobile,government - state,380,46,13
+mobile,government - state,381,46,13
+mobile,government - state,382,46,13
+mobile,government - state,383,46,13
+mobile,government - state,384,46,13
+mobile,government - state,385,46,13
+mobile,government - state,386,46,13
+mobile,government - state,387,46,13
+mobile,government - state,388,46,13
+mobile,government - state,389,46,13
+mobile,government - state,390,46,13
+mobile,government - state,391,46,13
+prattville,voluntary non-profit - private,392,47,20
+prattville,voluntary non-profit - private,393,47,20
+prattville,voluntary non-profit - private,394,47,20
+prattville,voluntary non-profit - private,395,47,20
+prattville,voluntary non-profit - private,396,47,20
+prattville,voluntary non-profit - private,397,47,20
+prattville,voluntary non-profit - private,398,47,20
+prattville,voluntary non-profit - private,399,47,20
+prattville,voluntary non-profit - private,400,47,20
+prattville,voluntary non-profit - private,401,47,20
+prattville,voluntary non-profit - private,402,47,20
+prattville,voluntary non-profit - private,403,47,20
+prattville,voluntary non-profit - private,404,47,20
+prattville,voluntary non-profit - private,405,47,20
+prattville,voluntary non-profit - private,406,47,20
+prattville,voluntary non-profit - private,407,47,20
+prattville,voluntary non-profit - private,408,47,20
+prattville,voluntary non-profit - private,409,47,20
+prattville,voluntary non-profit - private,410,47,20
+prattville,voluntary non-profit - private,411,47,20
+russellville,proprietary,412,48,2
+russellville,proprietary,413,48,2
+sylacauga,voluntary non-profit - other,414,49,18
+sylacauga,voluntary non-profit - other,415,49,18
+sylacauga,voluntary non-profit - other,416,49,18
+sylacauga,voluntary non-profit - other,417,49,18
+sylacauga,voluntary non-profit - other,418,49,18
+sylacauga,voluntary non-profit - other,419,49,18
+sylacauga,voluntary non-profit - other,420,49,18
+sylacauga,voluntary non-profit - other,421,49,18
+sylacauga,voluntary non-profit - other,422,49,18
+sylacauga,voluntary non-profit - other,423,49,18
+sylacauga,voluntary non-profit - other,424,49,18
+sylacauga,voluntary non-profit - other,425,49,18
+sylacauga,voluntary non-profit - other,426,49,18
+sylacauga,voluntary non-profit - other,427,49,18
+sylacauga,voluntary non-profit - other,428,49,18
+sylacauga,voluntary non-profit - other,429,49,18
+sylacauga,voluntary non-profit - other,430,49,18
+sylacauga,voluntary non-profit - other,431,49,18
+anchorage,proprietary,432,50,16
+anchorage,proprietary,433,50,16
+anchorage,proprietary,434,50,16
+anchorage,proprietary,435,50,16
+anchorage,proprietary,436,50,16
+anchoraxe,proprietary,437,51,1
+anchorage,proprietary,438,50,16
+anchorage,proprietary,439,50,16
+anchorage,proprietary,440,50,16
+anchorage,proprietary,441,50,16
+anchorage,proprietary,442,50,16
+anchorage,proprietary,443,50,16
+anchorage,proprietary,444,50,16
+anchorage,proprietary,445,50,16
+anchorage,proprietary,446,50,16
+anchorage,proprietary,447,50,16
+anchorage,proprietary,448,50,16
+anchorage,proxrietary,449,52,1
+bethel,government - federal,450,53,2
+bethel,government - federal,451,53,2
+sheffield,government - hospital district or authority,452,3,23
+sheffield,government - hospital district or authority,453,3,23
+sheffield,government - hospital district or authority,454,3,23
+sheffield,government - hospital district or authority,455,3,23
+sheffield,gxvernment - hxspital district xr authxrity,456,54,1
+sheffield,government - hospital district or authority,457,3,23
+sheffield,government - hospital district or authority,458,3,23
+sheffield,government - hospital district or authority,459,3,23
+sheffield,government - hospital district or authority,460,3,23
+sheffield,government - hospital district or authority,461,3,23
+sheffield,government - hospital district or authority,462,3,23
+sheffield,government - hospital district or authority,463,3,23
+sheffield,government - hospital district or authority,464,3,23
+sheffield,government - hospital district or authority,465,3,23
+ozark,government - hospital district or authority,466,55,23
+ozark,government - hospital district or authority,467,55,23
+ozark,government - hospital district or authority,468,55,23
+ozark,government - hospital district or authority,469,55,23
+ozark,government - hospital district or authority,470,55,23
+ozark,government - hospital district or authority,471,55,23
+ozark,government - hospital district or authority,472,55,23
+ozark,government - hospital district or authority,473,55,23
+ozarx,government - hospital district or authority,474,56,1
+ozark,government - hospital district or authority,475,55,23
+ozark,government - hospital district or authority,476,55,23
+ozark,government - hospital district or authority,477,55,23
+ozark,government - hospital district or authority,478,55,23
+ozark,government - hospital district or authority,479,55,23
+ozark,government - hospital district or authority,480,55,23
+ozark,government - hospital district or authority,481,55,23
+ozark,government - hospital district or authority,482,55,23
+ozark,government - hospital district or authority,483,55,23
+ozark,government - hospital district or authority,484,55,23
+xzark,government - hospital district or authority,485,57,1
+ozark,government - hospital district or authority,486,55,23
+ozark,government - hospital district or authority,487,55,23
+ozark,government - hospital district or authority,488,55,23
+ozark,government - hospital district or authority,489,55,23
+ozark,government - hospital district or authority,490,55,23
+centre,voluntary non-profit - private,491,58,24
+centre,voluntary non-profit - private,492,58,24
+centre,voluntaryxnon-profitx-xprivate,493,59,1
+centre,voluntary non-profit - private,494,58,24
+centre,voluntary non-profit - private,495,58,24
+centre,voluntary non-profit - private,496,58,24
+centre,voluntary non-profit - private,497,58,24
+centre,voluntary non-profit - private,498,58,24
+centre,voluntary non-profit - private,499,58,24
+centre,voluntary non-profit - private,500,58,24
+centre,voluntary non-profit - private,501,58,24
+centre,voluntary non-profit - private,502,58,24
+centre,voluntary non-profit - private,503,58,24
+centre,voluntary non-profit - private,504,58,24
+centre,voluntary non-profit - private,505,58,24
+centre,voluntary non-profit - private,506,58,24
+centre,voluntary non-profit - private,507,58,24
+centre,voluntary non-profit - private,508,58,24
+centre,voluntary non-profit - private,509,58,24
+centre,voluntary non-profit - private,510,58,24
+centre,voluntary non-profit - private,511,58,24
+centre,voluntary non-profit - private,512,58,24
+centre,voluntary non-profit - private,513,58,24
+centre,voluntary non-profit - private,514,58,24
+centre,voluntary non-profit - private,515,58,24
+montgomery,voluntary non-profit - church,516,60,23
+montxomery,voluntary non-profit - church,517,61,1
+montgomery,voluntary non-profit - church,518,60,23
+montgomery,voluntary non-profit - church,519,60,23
+montgomery,voluntary non-profit - church,520,60,23
+montgomery,voluntary non-profit - church,521,60,23
+montgomery,voluntary non-profit - church,522,60,23
+montgomery,voluntary non-profit - church,523,60,23
+montgomery,voluntary non-profit - church,524,60,23
+montgomery,voluntary non-profit - church,525,60,23
+montgomery,volxntary non-profit - chxrch,526,62,1
+montgomery,voluntary non-profit - church,527,60,23
+montgomery,voluntary non-profit - church,528,60,23
+montgomery,voluntary non-profit - church,529,60,23
+montgomery,voluntary non-profit - church,530,60,23
+montgomery,voluntary non-profit - church,531,60,23
+montgomery,voluntary non-profit - church,532,60,23
+montgomery,voluntary non-profit - church,533,60,23
+montgomery,voluntary non-profit - church,534,60,23
+montgomery,voluntary non-profit - church,535,60,23
+montgomery,voluntary non-profit - church,536,60,23
+montgomery,voluntary non-profit - church,537,60,23
+montgomery,voluntary non-profit - church,538,60,23
+montgomery,voluntary non-profit - church,539,60,23
+montgomery,voluntary non-profit - church,540,60,23
+montgomery,voluntary non-profit - private,541,63,25
+montgomery,voluntary non-profit - private,542,63,25
+montgomery,voluntary non-profit - private,543,63,25
+montgomery,voluntary non-profit - private,544,63,25
+montgomery,voluntary non-profit - private,545,63,25
+montgomery,voluntary non-profit - private,546,63,25
+montgomery,voluntary non-profit - private,547,63,25
+montgomery,voluntary non-profit - private,548,63,25
+montgomery,voluntary non-profit - private,549,63,25
+montgomery,voluntary non-profit - private,550,63,25
+montgomery,voluntary non-profit - private,551,63,25
+montgomery,voluntary non-profit - private,552,63,25
+montgomery,voluntary non-profit - private,553,63,25
+montgomery,voluntary non-profit - private,554,63,25
+montgomery,voluntary non-profit - private,555,63,25
+montgomery,voluntary non-profit - private,556,63,25
+montgomery,voluntary non-profit - private,557,63,25
+montgomery,voluntary non-profit - private,558,63,25
+montgomery,voluntary non-profit - private,559,63,25
+montgomery,voluntary non-profit - private,560,63,25
+montgomery,voluntary non-profit - private,561,63,25
+montgomery,voluntary non-profit - private,562,63,25
+montgomery,voluntary non-profit - private,563,63,25
+montgomery,voluntary non-profit - private,564,63,25
+montgomery,voluntary non-profit - private,565,63,25
+valley,voluntary non-profit - other,566,64,22
+valley,voluntary non-profit - other,567,64,22
+valley,voluntary non-profit - other,568,64,22
+valley,voluntary non-profit - other,569,64,22
+valley,voluntary non-profit - other,570,64,22
+valley,voluntary non-profit - other,571,64,22
+valley,voluntary non-profit - otxer,572,65,1
+valley,voluntary non-profit - other,573,64,22
+valley,voluntary non-profit - other,574,64,22
+valley,voluntary non-profit - other,575,64,22
+valley,voluntary non-profit - other,576,64,22
+valley,voluntary non-profit - other,577,64,22
+vallex,voluntary non-profit - other,578,66,1
+valley,voluntary non-profit - other,579,64,22
+valley,voluntary non-profit - other,580,64,22
+valley,voluntary non-profit - other,581,64,22
+valley,voluntary non-profit - other,582,64,22
+valley,voluntary non-profit - other,583,64,22
+valley,voluntary non-profit - other,584,64,22
+valley,voluntary non-profit - other,585,64,22
+valley,voluntary non-profit - other,586,64,22
+valley,voluntary non-profit - other,587,64,22
+valley,voluntary non-profit - other,588,64,22
+valley,voluntary non-profit - other,589,64,22
+vxlley,voluntary non-profit - other,590,67,1
+elba,voluntary non-profit - other,591,68,24
+elba,voluntary non-profit - other,592,68,24
+elba,voluntary non-profit - other,593,68,24
+elba,voluntary non-profit - other,594,68,24
+elba,voluntary non-profit - other,595,68,24
+elba,voluntary non-profit - other,596,68,24
+elba,voluntary non-profit - other,597,68,24
+elba,voluntary non-profit - other,598,68,24
+elba,voluntary non-profit - other,599,68,24
+elba,voluntary non-profit - other,600,68,24
+exba,voluntary non-profit - other,601,69,1
+elba,voluntary non-profit - other,602,68,24
+elba,voluntary non-profit - other,603,68,24
+elba,voluntary non-profit - other,604,68,24
+elba,voluntary non-profit - other,605,68,24
+elba,voluntary non-profit - other,606,68,24
+elba,voluntary non-profit - other,607,68,24
+elba,voluntary non-profit - other,608,68,24
+elba,voluntary non-profit - other,609,68,24
+elba,voluntary non-profit - other,610,68,24
+elba,voluntary non-profit - other,611,68,24
+elba,voluntary non-profit - other,612,68,24
+elba,voluntary non-profit - other,613,68,24
+elba,voluntary non-profit - other,614,68,24
+elba,voluntary non-profit - other,615,68,24
+opelika,government - hospital district or authority,616,70,25
+opelika,government - hospital district or authority,617,70,25
+opelika,government - hospital district or authority,618,70,25
+opelika,government - hospital district or authority,619,70,25
+opelika,government - hospital district or authority,620,70,25
+opelika,government - hospital district or authority,621,70,25
+opelika,government - hospital district or authority,622,70,25
+opelika,government - hospital district or authority,623,70,25
+opelika,government - hospital district or authority,624,70,25
+opelika,government - hospital district or authority,625,70,25
+opelika,government - hospital district or authority,626,70,25
+opelika,government - hospital district or authority,627,70,25
+opelika,government - hospital district or authority,628,70,25
+opelika,government - hospital district or authority,629,70,25
+opelika,government - hospital district or authority,630,70,25
+opelika,government - hospital district or authority,631,70,25
+opelika,government - hospital district or authority,632,70,25
+opelika,government - hospital district or authority,633,70,25
+opelika,government - hospital district or authority,634,70,25
+opelika,government - hospital district or authority,635,70,25
+opelika,government - hospital district or authority,636,70,25
+opelika,government - hospital district or authority,637,70,25
+opelika,government - hospital district or authority,638,70,25
+opelika,government - hospital district or authority,639,70,25
+opelika,government - hospital district or authority,640,70,25
+wedowee,government - local,641,71,24
+wedowee,government - local,642,71,24
+wedowee,government - local,643,71,24
+wedowee,government - local,644,71,24
+wedowee,government - local,645,71,24
+wedowee,government - local,646,71,24
+wedowee,government - local,647,71,24
+wedowee,government - local,648,71,24
+wedowee,government - local,649,71,24
+wedowee,government - local,650,71,24
+wedowee,government - local,651,71,24
+wedowee,government - local,652,71,24
+wedowee,government - local,653,71,24
+wxdowxx,government - local,654,72,1
+wedowee,government - local,655,71,24
+wedowee,government - local,656,71,24
+wedowee,government - local,657,71,24
+wedowee,government - local,658,71,24
+wedowee,government - local,659,71,24
+wedowee,government - local,660,71,24
+wedowee,government - local,661,71,24
+wedowee,government - local,662,71,24
+wedowee,government - local,663,71,24
+wedowee,government - local,664,71,24
+wedowee,government - local,665,71,24
+birmingham,government - state,666,73,24
+birmingham,government - state,667,73,24
+birmingham,government - state,668,73,24
+birmingham,government - state,669,73,24
+birmingham,government - state,670,73,24
+birmingham,government - state,671,73,24
+birmingham,government - state,672,73,24
+birmingham,government - state,673,73,24
+birmingham,government - state,674,73,24
+birmingham,government - state,675,73,24
+birmingham,government - state,676,73,24
+birmingham,government - state,677,73,24
+birmingham,government - state,678,73,24
+birmingham,government - state,679,73,24
+birmingham,government - state,680,73,24
+birmingham,government - state,681,73,24
+birmingham,government - state,682,73,24
+birmingham,government - state,683,73,24
+birmingham,government - state,684,73,24
+birmingham,government - state,685,73,24
+birmingham,government - state,686,73,24
+birmingham,government - state,687,73,24
+birmingham,government - state,688,73,24
+birmingham,government - state,689,73,24
+birminxham,government - state,690,74,1
+tallassee,voluntary non-profit - private,691,75,24
+tallassee,voluntary non-profit - private,692,75,24
+tallassee,voluntary non-profit - private,693,75,24
+tallassee,voluntary non-profit - private,694,75,24
+tallassee,voluntary non-profit - private,695,75,24
+tallaxxee,voluntary non-profit - private,696,76,1
+tallassee,voluntary non-profit - private,697,75,24
+tallassee,voluntary non-profit - private,698,75,24
+tallassee,voluntary non-profit - private,699,75,24
+tallassee,voluntary non-profit - private,700,75,24
+tallassee,voluntary non-profit - private,701,75,24
+tallassee,voluntary non-profit - private,702,75,24
+tallassee,voluntary non-profit - private,703,75,24
+tallassee,voluntary non-profit - private,704,75,24
+tallassee,voluntary non-profit - private,705,75,24
+tallassee,voluntary non-profit - private,706,75,24
+tallassee,voluntary non-profit - private,707,75,24
+tallassee,voluntary non-profit - private,708,75,24
+tallassee,voluntary non-profit - private,709,75,24
+tallassee,voluntary non-profit - private,710,75,24
+tallassee,voluntary non-profit - private,711,75,24
+tallassee,voluntary non-profit - private,712,75,24
+tallassee,voluntary non-profit - private,713,75,24
+tallassee,voluntary non-profit - private,714,75,24
+tallassee,voluntary non-profit - private,715,75,24
+cullman,government - hospital district or authority,716,77,24
+cullman,government - hospital district or authority,717,77,24
+cullman,government - hospital district or authority,718,77,24
+cullman,government - hospital district or authority,719,77,24
+cullman,government - hospital district or authority,720,77,24
+cullman,government - hospital district or authority,721,77,24
+cullman,government - hospital district or authority,722,77,24
+cullman,government - hospital district or authority,723,77,24
+cullman,government - hospital district or authority,724,77,24
+cullman,government - hospital district or authority,725,77,24
+cullman,government - hospital district or authority,726,77,24
+cullman,government - hospital district or authority,727,77,24
+cullman,government - hospital district or authority,728,77,24
+cullman,government - hospital district or authority,729,77,24
+cullman,government - hospital district or authority,730,77,24
+cullman,government - hospital district or authority,731,77,24
+cullman,government - hospital district or authority,732,77,24
+cullman,government - hospital district or authority,733,77,24
+cullman,government - hospital district or authority,734,77,24
+cullman,government - hospital district or authority,735,77,24
+cuxxman,government - hospital district or authority,736,78,1
+cullman,government - hospital district or authority,737,77,24
+cullman,government - hospital district or authority,738,77,24
+cullman,government - hospital district or authority,739,77,24
+cullman,government - hospital district or authority,740,77,24
+andalusia,proprietary,741,79,23
+andalusia,proprietary,742,79,23
+andalusia,proprietary,743,79,23
+andalusia,prxprietary,744,80,1
+andalusia,proprietary,745,79,23
+andalusia,proprietary,746,79,23
+andalusia,proprietary,747,79,23
+andalusia,proprietary,748,79,23
+andalusia,proprietary,749,79,23
+andalusia,proprietary,750,79,23
+andalusia,proprietary,751,79,23
+andalusia,proprietary,752,79,23
+andalusia,proprietary,753,79,23
+andalusia,proprietary,754,79,23
+andalusia,proprietary,755,79,23
+andaluxia,proprietary,756,81,1
+andalusia,proprietary,757,79,23
+andalusia,proprietary,758,79,23
+andalusia,proprietary,759,79,23
+andalusia,proprietary,760,79,23
+andalusia,proprietary,761,79,23
+andalusia,proprietary,762,79,23
+andalusia,proprietary,763,79,23
+andalusia,proprietary,764,79,23
+andalusia,proprietary,765,79,23
+anniston,proprietary,766,37,25
+anniston,proprietary,767,37,25
+anniston,proprietary,768,37,25
+anniston,proprietary,769,37,25
+anniston,proprietary,770,37,25
+anniston,proprietary,771,37,25
+annxston,proprietary,772,82,1
+anniston,proprietary,773,37,25
+huntsville,government - hospital district or authority,774,83,27
+huntsville,government - hospital district or authority,775,83,27
+huntsville,government - hospital district or authority,776,83,27
+huntsville,government - hospital district or authority,777,83,27
+huntsville,government - hospital district or authority,778,83,27
+huntsville,government - hospital district or authority,779,83,27
+huntsville,government - hospital district or authority,780,83,27
+huntsville,government - hospital district or authority,781,83,27
+huntsville,government - hospital district or authority,782,83,27
+huntsville,government - hospital district or authority,783,83,27
+huntsville,goverxmext - hospital district or authority,784,84,1
+huntsville,government - hospital district or authority,785,83,27
+huntsville,government - hospital district or authority,786,83,27
+huntsville,government - hospital district or authority,787,83,27
+huntsville,government - hospital district or authority,788,83,27
+huntsville,government - hospital district or authority,789,83,27
+huntsville,government - hospital district or authority,790,83,27
+huntsville,government - hospital district or authority,791,83,27
+huntsville,government - hospital district or authority,792,83,27
+huntsville,government - hospital district or authority,793,83,27
+huntsville,government - hospital district or authority,794,83,27
+huntsville,government - hospital district or authority,795,83,27
+huntsville,government - hospital district or authority,796,83,27
+huntsville,government - hospital district or authority,797,83,27
+huntsville,government - hospital district or authority,798,83,27
+huntsville,government - hospital district or authority,799,83,27
+huntsville,government - hospital district or authority,800,83,27
+huntsville,government - hospital district or authority,801,83,27
+gadsden,proprietary,802,85,52
+gadsden,proprietary,803,85,52
+gadsden,proprietary,804,85,52
+gadsden,proprietary,805,85,52
+gadsden,proprietary,806,85,52
+gadsden,proprietary,807,85,52
+gadsden,proprietary,808,85,52
+gadsden,proprietary,809,85,52
+gadsden,proprietary,810,85,52
+gadsden,proprietary,811,85,52
+gadsden,proprietary,812,85,52
+gadsden,proprietary,813,85,52
+gadsden,proprietary,814,85,52
+gadsden,proprietary,815,85,52
+gadsden,proprietary,816,85,52
+gadsden,proprietary,817,85,52
+gadsden,proprietary,818,85,52
+gadsden,proprietary,819,85,52
+gadsden,proprietary,820,85,52
+gxdsden,proprietary,821,86,1
+gadsden,proprietary,822,85,52
+gadsden,proprietary,823,85,52
+gadsden,proprietary,824,85,52
+gadsden,proprietary,825,85,52
+gadsden,proprietary,826,85,52
+clanton,voluntary non-profit - private,827,87,24
+clanton,voluntary non-profit - private,828,87,24
+clanton,voluntary non-profit - private,829,87,24
+clanton,voluntary non-profit - private,830,87,24
+clanton,voluntary non-profit - private,831,87,24
+clanton,voluntary non-profit - private,832,87,24
+clanton,voluntary non-profit - private,833,87,24
+clanton,voluntary non-profit - private,834,87,24
+clanton,voluntary non-profit - private,835,87,24
+clanton,voluntary non-profit - private,836,87,24
+clanton,voluntary non-profit - private,837,87,24
+clanton,voluntary non-profit - private,838,87,24
+clanton,voluntary non-profit - private,839,87,24
+clanton,voluntary non-profit - private,840,87,24
+clanton,voluntary non-profit - private,841,87,24
+clanton,voluntary non-profit - private,842,87,24
+clanton,voluntary non-profit - private,843,87,24
+clanton,voluntary non-profit - private,844,87,24
+clanton,voluntary non-profit - private,845,87,24
+clanton,voluntaxy non-pxofit - pxivate,846,88,1
+clanton,voluntary non-profit - private,847,87,24
+clanton,voluntary non-profit - private,848,87,24
+clanton,voluntary non-profit - private,849,87,24
+clanton,voluntary non-profit - private,850,87,24
+clanton,voluntary non-profit - private,851,87,24
+hamilton,voluntary non-profit - private,852,89,22
+hamilton,voluntary non-profit - private,853,89,22
+hamilton,voluntary non-profit - private,854,89,22
+hamilxon,voluntary non-profit - private,855,90,1
+hamilton,voluntary non-profit - private,856,89,22
+hamilton,voluntary non-profit - private,857,89,22
+hamilton,voluntary non-profit - private,858,89,22
+hamilton,voluntary non-profit - private,859,89,22
+hamilton,voluntary non-profit - private,860,89,22
+hamilton,voluntary non-profit - private,861,89,22
+hamilton,voluntary non-profit - private,862,89,22
+hamilton,voluntary non-profit - private,863,89,22
+hamilton,voluntary non-profit - private,864,89,22
+hamilton,voluntary non-profit - private,865,89,22
+hamilton,voluntary non-profit - private,866,89,22
+hamilton,voluntary non-profit - private,867,89,22
+hamilton,voluxtary xox-profit - private,868,91,1
+hamilton,voluntary non-profit - private,869,89,22
+hamilton,voluntary non-profit - private,870,89,22
+hamilton,voluntary non-profit - private,871,89,22
+hamilton,voluntaxy non-pxofit - pxivate,872,92,1
+hamilton,voluntary non-profit - private,873,89,22
+hamilton,voluntary non-profit - private,874,89,22
+hamilton,voluntary non-profit - private,875,89,22
+hamilton,voluntary non-profit - private,876,89,22
+fayette,voluntary non-profit - other,877,93,24
+fayette,voluntary non-profit - other,878,93,24
+fayette,voluntary non-profit - other,879,93,24
+fayette,voluntary non-profit - other,880,93,24
+fayette,voluntary non-profit - other,881,93,24
+fayette,voluntary non-profit - other,882,93,24
+fayette,voluntary non-profit - other,883,93,24
+fayette,voluntary non-profit - other,884,93,24
+fayette,voluntary non-profit - other,885,93,24
+fayette,voluntary non-profit - other,886,93,24
+fayette,voluntary non-profit - other,887,93,24
+fayette,voluntary non-profit - other,888,93,24
+fayette,voluntary non-profit - other,889,93,24
+fayette,voluntary non-profit - other,890,93,24
+fayette,voluntary non-profit - other,891,93,24
+fayette,voluntary non-profit - other,892,93,24
+fayette,voluntary non-profit - other,893,93,24
+fayette,voluntary non-profit - other,894,93,24
+faxette,voluntary non-profit - other,895,94,1
+fayette,voluntary non-profit - other,896,93,24
+fayette,voluntary non-profit - other,897,93,24
+fayette,voluntary non-profit - other,898,93,24
+fayette,voluntary non-profit - other,899,93,24
+fayette,voluntary non-profit - other,900,93,24
+fayette,voluntary non-profit - other,901,93,24
+gadsden,proprietary,902,85,52
+gadsden,proprietary,903,85,52
+gadsden,proprietary,904,85,52
+gadsden,proprietary,905,85,52
+gadsden,proprietary,906,85,52
+gadsden,proprietary,907,85,52
+gadsden,proprietary,908,85,52
+gadsden,proprietary,909,85,52
+gadsden,proprietary,910,85,52
+gadsden,proprietary,911,85,52
+gadsden,proprietary,912,85,52
+gadsden,proprietary,913,85,52
+gadsden,proprietary,914,85,52
+gadsden,proprietary,915,85,52
+gadsden,proprietary,916,85,52
+gadsden,proprietary,917,85,52
+gadsden,proprietary,918,85,52
+gadsden,proprietary,919,85,52
+gadsden,proprietary,920,85,52
+gadsden,proprietary,921,85,52
+gadsden,proprietary,922,85,52
+gadsden,proprietary,923,85,52
+gadsden,proprietary,924,85,52
+gadsden,proprietary,925,85,52
+gadsden,proprietary,926,85,52
+gadsden,proprietary,927,85,52
+gadsden,proprietary,928,85,52
+gadsden,proprietary,929,85,52
+georgiana,voluntary non-profit - private,930,95,24
+georgiana,voluntary non-profit - private,931,95,24
+georgiana,voluntary non-profit - private,932,95,24
+georgiana,voluntary non-profit - private,933,95,24
+georgiana,voluntary non-profit - private,934,95,24
+georgiana,voluntary non-profit - private,935,95,24
+georgiana,voluntary non-profit - private,936,95,24
+georgiana,voluntary non-profit - private,937,95,24
+georgiana,voluntary non-profit - private,938,95,24
+georgiana,voluntary non-profit - private,939,95,24
+georgiana,voluntary non-profit - private,940,95,24
+georgiana,voluntary non-profit - private,941,95,24
+georgiana,voluntary non-profit - private,942,95,24
+georgiana,voluntary non-profit - private,943,95,24
+georgiana,voluntary non-profit - private,944,95,24
+georgiana,voluntary non-profit - private,945,95,24
+georgiana,voluntary non-profit - private,946,95,24
+georgiana,voluntary non-profit - private,947,95,24
+georgiana,voluntary non-profit - private,948,95,24
+geoxgiana,voluntary non-profit - private,949,96,1
+georgiana,voluntary non-profit - private,950,95,24
+georgiana,voluntary non-profit - private,951,95,24
+georgiana,voluntary non-profit - private,952,95,24
+georgiana,voluntary non-profit - private,953,95,24
+georgiana,voluntary non-profit - private,954,95,24
+enterprise,proprietary,955,97,23
+enterprise,proprietary,956,97,23
+enterprise,proprietary,957,97,23
+enterprise,proprietary,958,97,23
+enterprise,proprietary,959,97,23
+enterprxse,proprietary,960,98,1
+enterprise,proprietary,961,97,23
+enterprise,proprietary,962,97,23
+enterprise,proprietary,963,97,23
+enterprise,proprietary,964,97,23
+enterprise,proprietary,965,97,23
+enterprise,proprietary,966,97,23
+enterprise,proprietary,967,97,23
+xntxrprisx,proprietary,968,99,1
+enterprise,proprietary,969,97,23
+enterprise,proprietary,970,97,23
+enterprise,proprietary,971,97,23
+enterprise,proprietary,972,97,23
+enterprise,proprietary,973,97,23
+enterprise,proprietary,974,97,23
+enterprise,proprietary,975,97,23
+enterprise,proprietary,976,97,23
+enterprise,proprietary,977,97,23
+enterprise,proprietary,978,97,23
+enterprise,proprietary,979,97,23
+oneonta,voluntary non-profit - private,980,100,19
+oneonta,voluntary non-profit - private,981,100,19
+oneonta,voluntary non-profit - private,982,100,19
+oneonta,voluntary non-profit - private,983,100,19
+oneonta,voluntary non-profit - private,984,100,19
+onxonta,voluntary non-profit - private,985,101,1
+oneonta,voluntary non-profit - private,986,100,19
+oneonta,voluntary non-profit - private,987,100,19
+oneonta,voluntary non-profit - private,988,100,19
+oneonta,voluntary non-profit - private,989,100,19
+oneonta,voluntary non-profit - private,990,100,19
+oneonta,voluntary non-profit - private,991,100,19
+oneonta,voluntary non-profit - private,992,100,19
+oneonta,voluntary non-profit - private,993,100,19
+oneonta,voluntary non-profit - private,994,100,19
+oneonta,voluntary non-profit - private,995,100,19
+oneonta,voluntary non-profit - private,996,100,19
+oneonta,voluntary non-profit - private,997,100,19
+oneonta,voluntary non-profit - private,998,100,19
+oneonta,voluntary non-profit - private,999,100,19

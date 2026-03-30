@@ -1,0 +1,1001 @@
+Address1,State,original_index,unique_index,count
+1720 university blvd,al,0,0,24
+1720 university blvd,al,1,0,24
+1720 university blvd,al,2,0,24
+1720 university blvd,al,3,0,24
+1720 university blvd,al,4,0,24
+1720 university blvd,al,5,0,24
+1720 university blvd,al,6,0,24
+1720 university blvd,al,7,0,24
+1300 south montgomery avenue,al,8,1,25
+1300 south montgomery avenue,al,9,1,25
+1300 south montgomery avenue,al,10,1,25
+1300 south montgomery avenue,al,11,1,25
+1300 south montgomery avenue,al,12,1,25
+1300 south montgomery avenue,al,13,1,25
+1300 south montgomery avenue,al,14,1,25
+1300 south montgomery avenue,al,15,1,25
+1300 south montgomery avenue,al,16,1,25
+1300 south montgomery avenue,al,17,1,25
+1300 south montgomery avenue,al,18,1,25
+1108 ross clark circle,al,19,2,24
+1108 ross clark circle,al,20,2,24
+1108 ross clark circle,al,21,2,24
+1108 ross clark circle,al,22,2,24
+1108 ross clark circle,al,23,2,24
+1108 ross clark circle,al,24,2,24
+1108 ross clark circle,al,25,2,24
+1108 ross clark circle,al,26,2,24
+1108 ross clark circle,al,27,2,24
+1108 ross clark circle,al,28,2,24
+1108 ross clark circle,al,29,2,24
+1108 ross clark circle,al,30,2,24
+1108 ross clark circle,al,31,2,24
+1108 ross clark circle,al,32,2,24
+1108 ross clark circle,al,33,2,24
+1108 ross clark circle,al,34,2,24
+1108 ross clark circle,al,35,2,24
+1108 ross clark circle,al,36,2,24
+1108 ross clark circle,al,37,2,24
+1108 ross clark circle,al,38,2,24
+1108 ross clark circle,al,39,2,24
+1108 ross clark circle,al,40,2,24
+1108 ross clark circle,al,41,2,24
+1108 ross clark circle,xl,42,3,1
+1108 ross clark circle,al,43,2,24
+2505 u s highway 431 north,al,44,4,22
+2505 u s highway 431 north,al,45,4,22
+2505 u s highway 431 north,xl,46,5,2
+2505 u s highway 431 north,al,47,4,22
+2505 u s highway 431 north,al,48,4,22
+2505 u s highway 431 north,al,49,4,22
+2505 u s highway 431 north,xl,50,5,2
+2505 u s highway 431 north,al,51,4,22
+2505 u s highway 431 north,al,52,4,22
+2505 u s highway 431 north,al,53,4,22
+2505 u s highway 431 north,al,54,4,22
+2505 u s highway 431 north,al,55,4,22
+2505 u s highway 431 north,al,56,4,22
+2505xuxsxhighwayx431xnorth,al,57,6,1
+2505 u s highway 431 north,al,58,4,22
+2505 u s highway 431 north,al,59,4,22
+2505 u s highway 431 north,al,60,4,22
+2505 u s highway 431 north,al,61,4,22
+2505 u s highway 431 north,al,62,4,22
+2505 u s highway 431 north,al,63,4,22
+2505 u s highway 431 north,al,64,4,22
+2505 u s highway 431 north,al,65,4,22
+2505 u s highway 431 north,al,66,4,22
+2505 u s highway 431 north,al,67,4,22
+2505 u s highway 431 north,al,68,4,22
+205 marengo street,al,69,7,24
+205 marengo street,al,70,7,24
+205 marengo street,al,71,7,24
+205 marengo street,al,72,7,24
+205 marengo street,al,73,7,24
+205 marengo street,al,74,7,24
+205 marengo street,al,75,7,24
+205 marengo street,al,76,7,24
+205 marengo street,al,77,7,24
+205 marengo street,al,78,7,24
+205 marengo street,al,79,7,24
+205 marengo street,al,80,7,24
+205 marengo street,al,81,7,24
+205 marengo street,al,82,7,24
+205 marengo street,xl,83,8,1
+205 marengo street,al,84,7,24
+205 marengo street,al,85,7,24
+205 marengo street,al,86,7,24
+205 marengo street,al,87,7,24
+205 marengo street,al,88,7,24
+205 marengo street,al,89,7,24
+205 marengo street,al,90,7,24
+205 marengo street,al,91,7,24
+205 marengo street,al,92,7,24
+205 marengo street,al,93,7,24
+702xnxmainxst,al,94,9,1
+702 n main st,al,95,10,22
+702 n main st,al,96,10,22
+702 n main st,al,97,10,22
+702 n main st,xl,98,11,1
+702 n main st,al,99,10,22
+702 n main st,al,100,10,22
+702 n main st,al,101,10,22
+702 n main st,al,102,10,22
+702 n main st,al,103,10,22
+702 n main st,al,104,10,22
+702 n main st,al,105,10,22
+702 x maix st,al,106,12,1
+702 n main st,al,107,10,22
+702 n main st,al,108,10,22
+702 n main st,al,109,10,22
+702 n main st,al,110,10,22
+702 n main st,al,111,10,22
+702 n main st,al,112,10,22
+702 n main st,al,113,10,22
+702 n main st,al,114,10,22
+702 n main st,al,115,10,22
+702 n main st,al,116,10,22
+702 n main st,al,117,10,22
+702 n main st,al,118,10,22
+101 hospital circle,ax,119,13,2
+101 hospital circle,al,120,14,23
+101 hospital circle,al,121,14,23
+101 hospital circle,al,122,14,23
+101 hospital circle,al,123,14,23
+101 hospital circle,al,124,14,23
+101 hospital circle,al,125,14,23
+101 hospital circle,al,126,14,23
+101 hospital circle,al,127,14,23
+101 hospital circle,al,128,14,23
+101 hospital circle,al,129,14,23
+101 hospital circle,al,130,14,23
+101 hospital circle,al,131,14,23
+101 hospital circle,al,132,14,23
+101 hospital circle,al,133,14,23
+101 hospital circle,al,134,14,23
+101 hospital circle,al,135,14,23
+101 hospital circle,al,136,14,23
+101 hospital circle,al,137,14,23
+101 hospital circle,al,138,14,23
+101 hospital circle,al,139,14,23
+101 hospital circle,ax,140,13,2
+101 hospital circle,al,141,14,23
+101 hospital circle,al,142,14,23
+101 hospital circle,al,143,14,23
+201 pine street northwest,al,144,15,23
+201 pine street northwest,al,145,15,23
+201 pine street northwest,al,146,15,23
+201 pine street northwest,al,147,15,23
+201 pine street northwest,al,148,15,23
+201 pine street northwest,al,149,15,23
+201 pine street northwest,al,150,15,23
+201 pine street northwest,al,151,15,23
+201 pine street northwest,al,152,15,23
+201 pine street northwest,al,153,15,23
+201 pine street northwest,al,154,15,23
+201 pine street northwest,al,155,15,23
+201 pine street northwest,al,156,15,23
+201 pine street northwest,al,157,15,23
+201 pine street northwest,al,158,15,23
+201 pine street northwest,al,159,15,23
+201 pine street northwest,al,160,15,23
+201 pine sxreex norxhwesx,al,161,16,1
+201 pine street northwest,al,162,15,23
+201 pine street northwest,al,163,15,23
+201 pine street northwest,al,164,15,23
+201 pine street northwest,ax,165,17,1
+201 pine street northwest,al,166,15,23
+201 pine street northwest,al,167,15,23
+201 pine street northwest,al,168,15,23
+8000 alabama highway 69,al,169,18,23
+8000 alabama highway 69,al,170,18,23
+8000 alabama highway 69,al,171,18,23
+8000 alabama highway 69,al,172,18,23
+8000 alabama highway 69,al,173,18,23
+8000 alabama highway 69,al,174,18,23
+8000 alabama xigxway 69,al,175,19,1
+8000 alabama highway 69,al,176,18,23
+8000 alabama highway 69,al,177,18,23
+8000 alabama highway 69,al,178,18,23
+8000 alabama highway 69,al,179,18,23
+8000 alabama highway 69,al,180,18,23
+8000 alabama highway 69,al,181,18,23
+8000 alabama highway 69,xl,182,20,1
+8000 alabama highway 69,al,183,18,23
+8000 alabama highway 69,al,184,18,23
+8000 alabama highway 69,al,185,18,23
+8000 alabama highway 69,al,186,18,23
+8000 alabama highway 69,al,187,18,23
+8000 alabama highway 69,al,188,18,23
+8000 alabama highway 69,al,189,18,23
+8000 alabama highway 69,al,190,18,23
+8000 alabama highway 69,al,191,18,23
+8000 alabama highway 69,al,192,18,23
+8000 alabama highway 69,al,193,18,23
+50 medical park east drive,al,194,21,25
+50 medical park east drive,al,195,21,25
+50 medical park east drive,al,196,21,25
+50 medical park east drive,al,197,21,25
+50 medical park east drive,al,198,21,25
+50 medical park east drive,al,199,21,25
+50 medical park east drive,al,200,21,25
+50 medical park east drive,al,201,21,25
+50 medical park east drive,al,202,21,25
+50 medical park east drive,al,203,21,25
+50 medical park east drive,al,204,21,25
+50 medical park east drive,al,205,21,25
+50 medical park east drive,al,206,21,25
+50 medical park east drive,al,207,21,25
+50 medical park east drive,al,208,21,25
+50 medical park east drive,al,209,21,25
+50 medical park east drive,al,210,21,25
+50 medical park east drive,al,211,21,25
+50 medical park east drive,al,212,21,25
+50 medical park east drive,al,213,21,25
+50 medical park east drive,al,214,21,25
+50 medical park east drive,al,215,21,25
+50 medical park east drive,al,216,21,25
+50 medical park east drive,al,217,21,25
+50 medical park east drive,al,218,21,25
+200 med center drive,al,219,22,24
+200 med center drive,al,220,22,24
+200 med center drive,al,221,22,24
+200 med center drive,al,222,22,24
+200 med center drive,al,223,22,24
+200 med center drive,al,224,22,24
+200 med center drive,al,225,22,24
+200 med center drive,al,226,22,24
+200 med center drive,al,227,22,24
+200 med center drive,ax,228,23,1
+200 med center drive,al,229,22,24
+200 med center drive,al,230,22,24
+200 med center drive,al,231,22,24
+200 med center drive,al,232,22,24
+200 med center drive,al,233,22,24
+200 med center drive,al,234,22,24
+200 med center drive,al,235,22,24
+200 med center drive,al,236,22,24
+200 med center drive,al,237,22,24
+200 med center drive,al,238,22,24
+200 med center drive,al,239,22,24
+200 med center drive,al,240,22,24
+200 med center drive,al,241,22,24
+200 med center drive,al,242,22,24
+200 med center drive,al,243,22,24
+33700 highway 43,al,244,24,23
+33700 highway 43,al,245,24,23
+33700 highway 43,al,246,24,23
+33700 highway 43,al,247,24,23
+33700 highway 43,al,248,24,23
+33700 highway 43,al,249,24,23
+33700 highway 43,al,250,24,23
+33700 highway 43,al,251,24,23
+33700 highway 43,al,252,24,23
+33700 highway 43,al,253,24,23
+33700 highway 43,al,254,24,23
+33700 highway 43,al,255,24,23
+33700 highway 43,al,256,24,23
+33700 highway 43,al,257,24,23
+33700 highway 43,al,258,24,23
+33700 highway 43,al,259,24,23
+33700 hxghway 43,al,260,25,1
+33700 highway 43,al,261,24,23
+33700 highway 43,al,262,24,23
+33700 highway 43,al,263,24,23
+33700 highway x3,al,264,26,1
+33700 highway 43,al,265,24,23
+33700 highway 43,al,266,24,23
+33700 highway 43,al,267,24,23
+33700 highway 43,al,268,24,23
+1000 first street north,al,269,27,23
+1000 first street north,al,270,27,23
+1000 first street north,al,271,27,23
+1000 first street north,al,272,27,23
+1000 first street north,al,273,27,23
+1000 first street north,al,274,27,23
+1000 fixst stxeet noxth,al,275,28,1
+1000 first street north,al,276,27,23
+1000 first street north,al,277,27,23
+1000 first street north,xl,278,29,1
+1000 first street north,al,279,27,23
+1000 first street north,al,280,27,23
+1000 first street north,al,281,27,23
+1000 first street north,al,282,27,23
+1000 first street north,al,283,27,23
+1000 first street north,al,284,27,23
+1000 first street north,al,285,27,23
+1000 first street north,al,286,27,23
+1000 first street north,al,287,27,23
+1000 first street north,al,288,27,23
+1000 first street north,al,289,27,23
+1000 first street north,al,290,27,23
+1000 first street north,al,291,27,23
+1000 first street north,al,292,27,23
+1000 first street north,al,293,27,23
+1720 university blvd,al,294,0,24
+1720 univxrsity blvd,al,295,30,1
+1720 university blvd,al,296,0,24
+1720 university blvd,al,297,0,24
+1720 university blvd,al,298,0,24
+1720 university blvd,al,299,0,24
+1720 university blvd,al,300,0,24
+1720 university blvd,al,301,0,24
+1720 university blvd,al,302,0,24
+1720 university blvd,al,303,0,24
+1720 university blvd,al,304,0,24
+1720 university blvd,al,305,0,24
+1720 university blvd,al,306,0,24
+1720 university blvd,al,307,0,24
+1720 university blvd,al,308,0,24
+1720 university blvd,al,309,0,24
+1720 university blvd,al,310,0,24
+301 east 18th st,al,311,31,26
+301 east 18th st,al,312,31,26
+301 east 18th st,al,313,31,26
+301 east 18th st,al,314,31,26
+301 east 18th st,al,315,31,26
+301xeastx18thxst,al,316,32,1
+301 east 18th st,al,317,31,26
+301 east 18th st,al,318,31,26
+301 east 18th st,al,319,31,26
+301 east 18th st,al,320,31,26
+301 east 18th st,al,321,31,26
+301 east 18th st,al,322,31,26
+301 east 18th st,al,323,31,26
+301 east 18th st,al,324,31,26
+301 east 18th st,al,325,31,26
+301 east 18th st,al,326,31,26
+301 east 18th st,al,327,31,26
+301 east 18th st,al,328,31,26
+301 east 18th st,al,329,31,26
+301 east 18th st,al,330,31,26
+4370 west main street,al,331,33,16
+4370 west main street,al,332,33,16
+4370 west main street,al,333,33,16
+4370xwestxmainxstreet,al,334,34,1
+4370 west main street,al,335,33,16
+4370 west main street,al,336,33,16
+4370 west main street,al,337,33,16
+4370 west main street,al,338,33,16
+4370 west main street,al,339,33,16
+4370 west main street,al,340,33,16
+4370 west main street,al,341,33,16
+4370 west main street,al,342,33,16
+4370 west main street,al,343,33,16
+4370 west main street,al,344,33,16
+4370 west main street,al,345,33,16
+4370 west main street,al,346,33,16
+4370 west main street,al,347,33,16
+810 st vincents drive,al,348,35,4
+810 st vincents drive,al,349,35,4
+810 st vxncents drxve,al,350,36,1
+810 st vincents drive,al,351,35,4
+810 st vincents drive,al,352,35,4
+1201 7th street se,al,353,37,1
+1530 u s highway 43,al,354,38,23
+1530 u s highway 43,al,355,38,23
+1530 u s highway 43,ax,356,39,1
+1530 u s highway 43,al,357,38,23
+1530 u s highway 43,al,358,38,23
+1530 u s highway 43,al,359,38,23
+1530 u s highway 43,al,360,38,23
+1530 u s highway 43,al,361,38,23
+1530 u s highway 43,al,362,38,23
+1530xuxsxhighwayx43,al,363,40,1
+1530 u s highway 43,al,364,38,23
+1530 u s highway 43,al,365,38,23
+1530 u s highway 43,al,366,38,23
+1530 u s highway 43,al,367,38,23
+1530 u s highway 43,al,368,38,23
+1530 u s highway 43,al,369,38,23
+1530 u s highway 43,al,370,38,23
+1530 u s highway 43,al,371,38,23
+1530 u s highway 43,al,372,38,23
+1530 u s highway 43,al,373,38,23
+1530 u s highway 43,al,374,38,23
+1530 u s highway 43,al,375,38,23
+1530 u s highway 43,al,376,38,23
+1530 u s highway 43,al,377,38,23
+1530 u s highway 43,al,378,38,23
+2451 fillingim street,al,379,41,12
+2451 fillingim street,al,380,41,12
+2451 fillingim street,al,381,41,12
+2451 fillingim street,al,382,41,12
+2451 fillingim street,al,383,41,12
+2451 fillingim street,al,384,41,12
+2451 fillingim street,al,385,41,12
+2451 fillingim street,xl,386,42,1
+2451 fillingim street,al,387,41,12
+2451 fillingim street,al,388,41,12
+2451 fillingim street,al,389,41,12
+2451 fillingim street,al,390,41,12
+2451 fillingim street,al,391,41,12
+124 s memorial dr,al,392,43,17
+124xsxmemorialxdr,al,393,44,1
+124 s memorial dr,al,394,43,17
+124 s memorial dr,al,395,43,17
+124 s memorial dr,al,396,43,17
+124 s memorial dr,al,397,43,17
+124 s memorial dr,al,398,43,17
+124 s memorial dr,al,399,43,17
+124 s memorial dr,al,400,43,17
+124 s memorial dr,al,401,43,17
+124 s memorial dr,ax,402,45,1
+124 s memorial dr,al,403,43,17
+124 s memorial dr,al,404,43,17
+124 s memorial dr,al,405,43,17
+124 s memorial dr,al,406,43,17
+124 s memorial dr,al,407,43,17
+124 s memorial dr,al,408,43,17
+124 s memorial dr,al,409,43,17
+124 s memorial dr,al,410,43,17
+124 s mxmorial dr,al,411,46,1
+15155 highway 43,al,412,47,2
+15155 highway 43,al,413,47,2
+315 w hickory st,al,414,48,16
+315 w hickxry st,al,415,49,1
+315 w hickory st,al,416,48,16
+315 w hickory st,al,417,48,16
+315 w hickory st,al,418,48,16
+315 w hickory st,al,419,48,16
+315 w hickory st,al,420,48,16
+315 w hickory st,al,421,48,16
+315 w hickory st,al,422,48,16
+315 w hickory st,al,423,48,16
+315 w hickory st,al,424,48,16
+315 w hickory st,al,425,48,16
+315 w hickory st,al,426,48,16
+315 w hickory st,al,427,48,16
+315 w hickory st,al,428,48,16
+315 w hickory st,al,429,48,16
+315 w hickory st,al,430,48,16
+315xwxhickoryxst,al,431,50,1
+2801 debarr road,ak,432,51,18
+2801 debarr road,ak,433,51,18
+2801 debarr road,ak,434,51,18
+2801 debarr road,ak,435,51,18
+2801 debarr road,ak,436,51,18
+2801 debarr road,ak,437,51,18
+2801 debarr road,ak,438,51,18
+2801 debarr road,ak,439,51,18
+2801 debarr road,ak,440,51,18
+2801 debarr road,ak,441,51,18
+2801 debarr road,ak,442,51,18
+2801 debarr road,ak,443,51,18
+2801 debarr road,ak,444,51,18
+2801 debarr road,ak,445,51,18
+2801 debarr road,ak,446,51,18
+2801 debarr road,ak,447,51,18
+2801 debarr road,ak,448,51,18
+2801 debarr road,ak,449,51,18
+po box 287,ak,450,52,1
+poxboxx287,ak,451,53,1
+1300 south montgomery avenue,al,452,1,25
+1300 south montgomery avenue,al,453,1,25
+1300 south montgomery avenue,al,454,1,25
+1300 south montgomery avenue,al,455,1,25
+1300 south montgomery avenue,al,456,1,25
+1300 south montgomery avenue,al,457,1,25
+1300 south montgomery avenue,al,458,1,25
+1300 south montgomery avenue,al,459,1,25
+1300 south montgomery avenue,al,460,1,25
+1300 south montgomery avenue,al,461,1,25
+1300 south montgomery avenue,al,462,1,25
+1300 south montgomery avenue,al,463,1,25
+1300 south montgomery avenue,al,464,1,25
+1300 south montgomery avenue,al,465,1,25
+126 hospital ave,al,466,54,21
+126 hospital ave,al,467,54,21
+126 hospital ave,al,468,54,21
+126 hospital ave,al,469,54,21
+126 hospital ave,al,470,54,21
+126 hospital ave,al,471,54,21
+126xhospitalxave,al,472,55,1
+126 hospital ave,al,473,54,21
+126 hospital ave,al,474,54,21
+126 hospital ave,al,475,54,21
+126 hospital ave,al,476,54,21
+126 hospital ave,xl,477,56,2
+126 hospital ave,al,478,54,21
+126 hospital ave,al,479,54,21
+126 hospital ave,al,480,54,21
+126 hospital ave,al,481,54,21
+126 hospital ave,al,482,54,21
+126 hospital ave,xl,483,56,2
+1x6 hospital ave,al,484,57,1
+126 hospital ave,al,485,54,21
+126 hospital ave,al,486,54,21
+126 hospital ave,al,487,54,21
+126 hospital ave,al,488,54,21
+126 hospital ave,al,489,54,21
+126 hospital ave,al,490,54,21
+400 northwood dr,al,491,58,24
+400 northwood dr,al,492,58,24
+400 northwood dr,al,493,58,24
+400 northwood dr,al,494,58,24
+400 northwood dr,al,495,58,24
+400 northwood dr,al,496,58,24
+400 northwood dr,al,497,58,24
+400 northwood dr,al,498,58,24
+400 northwood dr,al,499,58,24
+400 northwood dr,al,500,58,24
+400 northwood dr,al,501,58,24
+400 northwood dr,al,502,58,24
+400 northwood dr,al,503,58,24
+400 northwood dr,ax,504,59,1
+400 northwood dr,al,505,58,24
+400 northwood dr,al,506,58,24
+400 northwood dr,al,507,58,24
+400 northwood dr,al,508,58,24
+400 northwood dr,al,509,58,24
+400 northwood dr,al,510,58,24
+400 northwood dr,al,511,58,24
+400 northwood dr,al,512,58,24
+400 northwood dr,al,513,58,24
+400 northwood dr,al,514,58,24
+400 northwood dr,al,515,58,24
+2105 east south boulevard,al,516,60,25
+2105 east south boulevard,al,517,60,25
+2105 east south boulevard,al,518,60,25
+2105 east south boulevard,al,519,60,25
+2105 east south boulevard,al,520,60,25
+2105 east south boulevard,al,521,60,25
+2105 east south boulevard,al,522,60,25
+2105 east south boulevard,al,523,60,25
+2105 east south boulevard,al,524,60,25
+2105 east south boulevard,al,525,60,25
+2105 east south boulevard,al,526,60,25
+2105 east south boulevard,al,527,60,25
+2105 east south boulevard,al,528,60,25
+2105 east south boulevard,al,529,60,25
+2105 east south boulevard,al,530,60,25
+2105 east south boulevard,al,531,60,25
+2105 east south boulevard,al,532,60,25
+2105 east south boulevard,al,533,60,25
+2105 east south boulevard,al,534,60,25
+2105 east south boulevard,al,535,60,25
+2105 east south boulevard,al,536,60,25
+2105 east south boulevard,al,537,60,25
+2105 east south boulevard,al,538,60,25
+2105 east south boulevard,al,539,60,25
+2105 east south boulevard,al,540,60,25
+1725 pine street,al,541,61,24
+1725 pine street,al,542,61,24
+1725 pine street,al,543,61,24
+1725 pine street,al,544,61,24
+1725 pine street,al,545,61,24
+1725 pine street,al,546,61,24
+1725 pine street,al,547,61,24
+1725 pine street,al,548,61,24
+1725 pine street,al,549,61,24
+1725 pine street,al,550,61,24
+1725 pine street,al,551,61,24
+1725 pine street,al,552,61,24
+1725 pine street,al,553,61,24
+1725 pine street,al,554,61,24
+1725 pine street,al,555,61,24
+1725 pine street,al,556,61,24
+1725 pine street,al,557,61,24
+1725 pine street,al,558,61,24
+1725 pine street,xl,559,62,1
+1725 pine street,al,560,61,24
+1725 pine street,al,561,61,24
+1725 pine street,al,562,61,24
+1725 pine street,al,563,61,24
+1725 pine street,al,564,61,24
+1725 pine street,al,565,61,24
+4800 48th st,al,566,63,24
+4800 48th st,al,567,63,24
+4800 48th st,al,568,63,24
+4800 48th st,al,569,63,24
+4800 48th st,al,570,63,24
+4800 48th st,al,571,63,24
+4800 48th st,ax,572,64,1
+4800 48th st,al,573,63,24
+4800 48th st,al,574,63,24
+4800 48th st,al,575,63,24
+4800 48th st,al,576,63,24
+4800 48th st,al,577,63,24
+4800 48th st,al,578,63,24
+4800 48th st,al,579,63,24
+4800 48th st,al,580,63,24
+4800 48th st,al,581,63,24
+4800 48th st,al,582,63,24
+4800 48th st,al,583,63,24
+4800 48th st,al,584,63,24
+4800 48th st,al,585,63,24
+4800 48th st,al,586,63,24
+4800 48th st,al,587,63,24
+4800 48th st,al,588,63,24
+4800 48th st,al,589,63,24
+4800 48th st,al,590,63,24
+987 drayton street,al,591,65,24
+987 drayton street,ax,592,66,1
+987 drayton street,al,593,65,24
+987 drayton street,al,594,65,24
+987 drayton street,al,595,65,24
+987 drayton street,al,596,65,24
+987 drayton street,al,597,65,24
+987 drayton street,al,598,65,24
+987 drayton street,al,599,65,24
+987 drayton street,al,600,65,24
+987 drayton street,al,601,65,24
+987 drayton street,al,602,65,24
+987 drayton street,al,603,65,24
+987 drayton street,al,604,65,24
+987 drayton street,al,605,65,24
+987 drayton street,al,606,65,24
+987 drayton street,al,607,65,24
+987 drayton street,al,608,65,24
+987 drayton street,al,609,65,24
+987 drayton street,al,610,65,24
+987 drayton street,al,611,65,24
+987 drayton street,al,612,65,24
+987 drayton street,al,613,65,24
+987 drayton street,al,614,65,24
+987 drayton street,al,615,65,24
+2000 pepperell parkway,al,616,67,25
+2000 pepperell parkway,al,617,67,25
+2000 pepperell parkway,al,618,67,25
+2000 pepperell parkway,al,619,67,25
+2000 pepperell parkway,al,620,67,25
+2000 pepperell parkway,al,621,67,25
+2000 pepperell parkway,al,622,67,25
+2000 pepperell parkway,al,623,67,25
+2000 pepperell parkway,al,624,67,25
+2000 pepperell parkway,al,625,67,25
+2000 pepperell parkway,al,626,67,25
+2000 pepperell parkway,al,627,67,25
+2000 pepperell parkway,al,628,67,25
+2000 pepperell parkway,al,629,67,25
+2000 pepperell parkway,al,630,67,25
+2000 pepperell parkway,al,631,67,25
+2000 pepperell parkway,al,632,67,25
+2000 pepperell parkway,al,633,67,25
+2000 pepperell parkway,al,634,67,25
+2000 pepperell parkway,al,635,67,25
+2000 pepperell parkway,al,636,67,25
+2000 pepperell parkway,al,637,67,25
+2000 pepperell parkway,al,638,67,25
+2000 pepperell parkway,al,639,67,25
+2000 pepperell parkway,al,640,67,25
+209 north main street,al,641,68,24
+209 north main street,al,642,68,24
+209 north main street,al,643,68,24
+209 north main street,al,644,68,24
+209 north main street,al,645,68,24
+209 north main street,al,646,68,24
+209 north main street,al,647,68,24
+209 north main street,al,648,68,24
+209 north main street,al,649,68,24
+209 north main street,al,650,68,24
+209 north main street,al,651,68,24
+209 xorth maix street,al,652,69,1
+209 north main street,al,653,68,24
+209 north main street,al,654,68,24
+209 north main street,al,655,68,24
+209 north main street,al,656,68,24
+209 north main street,al,657,68,24
+209 north main street,al,658,68,24
+209 north main street,al,659,68,24
+209 north main street,al,660,68,24
+209 north main street,al,661,68,24
+209 north main street,al,662,68,24
+209 north main street,al,663,68,24
+209 north main street,al,664,68,24
+209 north main street,al,665,68,24
+619 south 19th street,al,666,70,25
+619 south 19th street,al,667,70,25
+619 south 19th street,al,668,70,25
+619 south 19th street,al,669,70,25
+619 south 19th street,al,670,70,25
+619 south 19th street,al,671,70,25
+619 south 19th street,al,672,70,25
+619 south 19th street,al,673,70,25
+619 south 19th street,al,674,70,25
+619 south 19th street,al,675,70,25
+619 south 19th street,al,676,70,25
+619 south 19th street,al,677,70,25
+619 south 19th street,al,678,70,25
+619 south 19th street,al,679,70,25
+619 south 19th street,al,680,70,25
+619 south 19th street,al,681,70,25
+619 south 19th street,al,682,70,25
+619 south 19th street,al,683,70,25
+619 south 19th street,al,684,70,25
+619 south 19th street,al,685,70,25
+619 south 19th street,al,686,70,25
+619 south 19th street,al,687,70,25
+619 south 19th street,al,688,70,25
+619 south 19th street,al,689,70,25
+619 south 19th street,al,690,70,25
+805 friendship road,al,691,71,24
+805 friendship road,al,692,71,24
+805 friendship road,al,693,71,24
+805 friendship road,al,694,71,24
+805 friendship road,al,695,71,24
+805 friendship road,al,696,71,24
+805 friendship road,al,697,71,24
+805 friendship road,al,698,71,24
+805 friendship road,al,699,71,24
+805 friendship road,al,700,71,24
+805 friendship road,xl,701,72,1
+805 friendship road,al,702,71,24
+805 friendship road,al,703,71,24
+805 friendship road,al,704,71,24
+805 friendship road,al,705,71,24
+805 friendship road,al,706,71,24
+805 friendship road,al,707,71,24
+805 friendship road,al,708,71,24
+805 friendship road,al,709,71,24
+805 friendship road,al,710,71,24
+805 friendship road,al,711,71,24
+805 friendship road,al,712,71,24
+805 friendship road,al,713,71,24
+805 friendship road,al,714,71,24
+805 friendship road,al,715,71,24
+1912 alabama highway 157,al,716,73,24
+1912 alabama highway 157,al,717,73,24
+1912 alabama highway 157,al,718,73,24
+1912 alabama highway 157,al,719,73,24
+1912 alabama highway 157,al,720,73,24
+1912 alabama highway 157,al,721,73,24
+1912 alabama highway 157,al,722,73,24
+1912 alabama highway 157,al,723,73,24
+1912 alabama highway 157,al,724,73,24
+1912 alabama highway 157,al,725,73,24
+1912 alabama highway 157,al,726,73,24
+1912 alabama highway 157,al,727,73,24
+1912 alabama highway 157,al,728,73,24
+1912 alabama highway 157,al,729,73,24
+1912 alabama highway 157,al,730,73,24
+1912 alabama highway 157,al,731,73,24
+1912 alabama highway 157,al,732,73,24
+1912 alabama highway 157,al,733,73,24
+1912 alabama highway 157,al,734,73,24
+1912 alabama highway 157,al,735,73,24
+1912xalabamaxhighwayx157,al,736,74,1
+1912 alabama highway 157,al,737,73,24
+1912 alabama highway 157,al,738,73,24
+1912 alabama highway 157,al,739,73,24
+1912 alabama highway 157,al,740,73,24
+849 south three notch street,al,741,75,24
+849 south three notch street,al,742,75,24
+849 south three notch street,al,743,75,24
+849 south three notch street,al,744,75,24
+849 south three notch street,al,745,75,24
+849 south three notch street,al,746,75,24
+849 south three notch street,al,747,75,24
+849 south three notch street,al,748,75,24
+849 south three notch street,al,749,75,24
+849 south three notch street,al,750,75,24
+849 south three notch street,al,751,75,24
+849 south three notch street,al,752,75,24
+849 south three notch street,al,753,75,24
+849 south three notch street,al,754,75,24
+849 south three notch street,al,755,75,24
+849 south three notch street,al,756,75,24
+849 south three notch street,al,757,75,24
+849 south three notch street,al,758,75,24
+849 south three notch street,al,759,75,24
+849 south three notch street,al,760,75,24
+849 south three notch street,al,761,75,24
+849 south three notch street,al,762,75,24
+849 south three notch street,al,763,75,24
+849 south three notch street,xl,764,76,1
+849 south three notch street,al,765,75,24
+301 east 18th st,al,766,31,26
+301 east 1xth st,al,767,77,1
+301 east 18th st,al,768,31,26
+301 east 18th st,al,769,31,26
+301 east 18th st,al,770,31,26
+301 east 18th st,al,771,31,26
+301 east 18th st,al,772,31,26
+301 east 18th st,al,773,31,26
+101 sivley rd,al,774,78,27
+101 sivley rd,al,775,78,27
+101 sivley rd,al,776,78,27
+101 sivley rd,al,777,78,27
+101 sivley rd,al,778,78,27
+101 sivley rd,al,779,78,27
+101 sivley rd,al,780,78,27
+101 sivley rd,al,781,78,27
+101 sivley rd,al,782,78,27
+101 sivley rd,al,783,78,27
+101 sivley rd,al,784,78,27
+101 sivley rd,al,785,78,27
+101 sivley rd,al,786,78,27
+101 sivley rd,al,787,78,27
+101 sivley rd,al,788,78,27
+101 sivley rd,al,789,78,27
+101 sivley rd,al,790,78,27
+101 sivley rd,xl,791,79,1
+101 sivley rd,al,792,78,27
+101 sivley rd,al,793,78,27
+101 sivley rd,al,794,78,27
+101 sivley rd,al,795,78,27
+101 sivley rd,al,796,78,27
+101 sivley rd,al,797,78,27
+101 sivley rd,al,798,78,27
+101 sivley rd,al,799,78,27
+101 sivley rd,al,800,78,27
+101 sivley rd,al,801,78,27
+1007 goodyear avenue,al,802,80,25
+1007 goodyear avenue,al,803,80,25
+1007 goodyear avenue,al,804,80,25
+1007 goodyear avenue,al,805,80,25
+1007 goodyear avenue,al,806,80,25
+1007 goodyear avenue,al,807,80,25
+1007 goodyear avenue,al,808,80,25
+1007 goodyear avenue,al,809,80,25
+1007 goodyear avenue,al,810,80,25
+1007 goodyear avenue,al,811,80,25
+1007 goodyear avenue,al,812,80,25
+1007 goodyear avenue,al,813,80,25
+1007 goodyear avenue,al,814,80,25
+1007 goodyear avenue,al,815,80,25
+1007 goodyear avenue,al,816,80,25
+1007 goodyear avenue,al,817,80,25
+1007 goodyear avenue,al,818,80,25
+1007 goodyear avenue,al,819,80,25
+1007 goodyear avenue,al,820,80,25
+1007 goodyear avenue,al,821,80,25
+1007 goodyear avenue,al,822,80,25
+1007 goodyear avenue,al,823,80,25
+1007 goodyear avenue,al,824,80,25
+1007 goodyear avenue,al,825,80,25
+1007 goodyear avenue,al,826,80,25
+1010 lay dam road,al,827,81,24
+1010 lay dam road,al,828,81,24
+1010 lay dam road,al,829,81,24
+1010 lay dam road,al,830,81,24
+1010 lay dam road,al,831,81,24
+1010 lay dam road,al,832,81,24
+1010 lay dam road,al,833,81,24
+1010 lay dam road,al,834,81,24
+1010 lay dam road,al,835,81,24
+1010 lay dam road,al,836,81,24
+1010 lay dam road,al,837,81,24
+1010 lay dam road,al,838,81,24
+1010 lay dam road,al,839,81,24
+1010 lay dam road,al,840,81,24
+1010 lay dam road,al,841,81,24
+1010 lay dam road,al,842,81,24
+1010 lay dam road,al,843,81,24
+1010 lay dam road,al,844,81,24
+1010 lay dam road,al,845,81,24
+1010 lay dam road,al,846,81,24
+1010 lay dam road,al,847,81,24
+1010 lay dam road,al,848,81,24
+x0x0 lay dam road,al,849,82,1
+1010 lay dam road,al,850,81,24
+1010 lay dam road,al,851,81,24
+1256 military street south,al,852,83,24
+1256 military street south,al,853,83,24
+1256 military street south,al,854,83,24
+1256 military street south,al,855,83,24
+1256 military street south,al,856,83,24
+1256 military street sxuth,al,857,84,1
+1256 military street south,al,858,83,24
+1256 military street south,al,859,83,24
+1256 military street south,al,860,83,24
+1256 military street south,al,861,83,24
+1256 military street south,al,862,83,24
+1256 military street south,al,863,83,24
+1256 military street south,al,864,83,24
+1256 military street south,al,865,83,24
+1256 military street south,al,866,83,24
+1256 military street south,al,867,83,24
+1256 military street south,al,868,83,24
+1256 military street south,al,869,83,24
+1256 military street south,al,870,83,24
+1256 military street south,al,871,83,24
+1256 military street south,al,872,83,24
+1256 military street south,al,873,83,24
+1256 military street south,al,874,83,24
+1256 military street south,al,875,83,24
+1256 military street south,al,876,83,24
+1653 temple avenue north,al,877,85,23
+1653 temple avenue north,al,878,85,23
+1653 temple avenue north,al,879,85,23
+1653 temple avenue north,al,880,85,23
+1653 temple avenue north,al,881,85,23
+1653 temple avenue north,al,882,85,23
+1653 temple avenue north,al,883,85,23
+1653 temple avenue north,xl,884,86,2
+1653 temple avenue north,al,885,85,23
+1653 temple avenue north,xl,886,86,2
+1653 temple avenue north,al,887,85,23
+1653 temple avenue north,al,888,85,23
+1653 temple avenue north,al,889,85,23
+1653 temple avenue north,al,890,85,23
+1653 temple avenue north,al,891,85,23
+1653 temple avenue north,al,892,85,23
+1653 temple avenue north,al,893,85,23
+1653 temple avenue north,al,894,85,23
+1653 temple avenue north,al,895,85,23
+1653 temple avenue north,al,896,85,23
+1653 temple avenue north,al,897,85,23
+1653 temple avenue north,al,898,85,23
+1653 temple avenue north,al,899,85,23
+1653 temple avenue north,al,900,85,23
+1653 temple avenue north,al,901,85,23
+600 south third street,al,902,87,26
+600 south third street,al,903,87,26
+600 south third street,al,904,87,26
+600 south third street,al,905,87,26
+600 south third street,al,906,87,26
+600 south third street,al,907,87,26
+600 south third street,al,908,87,26
+600 south third street,al,909,87,26
+600 south third street,al,910,87,26
+600 south third street,al,911,87,26
+600 south third street,al,912,87,26
+600 south third street,al,913,87,26
+600 south third street,al,914,87,26
+600 souxh xhird sxreex,al,915,88,1
+600 south third street,al,916,87,26
+600 south third street,al,917,87,26
+600 south third street,al,918,87,26
+600 south third street,al,919,87,26
+600 south third street,al,920,87,26
+600 south third street,al,921,87,26
+600 south third street,ax,922,89,1
+600 south third street,al,923,87,26
+600 south third street,al,924,87,26
+600 south third street,al,925,87,26
+600 south third street,al,926,87,26
+600 south third street,al,927,87,26
+600 south third street,al,928,87,26
+600 south third street,al,929,87,26
+515 miranda st,al,930,90,22
+515 miranda st,al,931,90,22
+515 miranda st,al,932,90,22
+515 miranda st,al,933,90,22
+515 miranda sx,al,934,91,1
+515 miranxa st,al,935,92,1
+515 miranda st,al,936,90,22
+515 miranda st,al,937,90,22
+515 miranda st,al,938,90,22
+515 miranda st,al,939,90,22
+515 miranda st,al,940,90,22
+515 miranda st,al,941,90,22
+515 miranda st,al,942,90,22
+515 miranda st,al,943,90,22
+515 miranda st,al,944,90,22
+515 mirxndx st,al,945,93,1
+515 miranda st,al,946,90,22
+515 miranda st,al,947,90,22
+515 miranda st,al,948,90,22
+515 miranda st,al,949,90,22
+515 miranda st,al,950,90,22
+515 miranda st,al,951,90,22
+515 miranda st,al,952,90,22
+515 miranda st,al,953,90,22
+515 miranda st,al,954,90,22
+400 n edwards street,al,955,94,24
+400xnxedwardsxstreet,al,956,95,1
+400 n edwards street,al,957,94,24
+400 n edwards street,al,958,94,24
+400 n edwards street,al,959,94,24
+400 n edwards street,al,960,94,24
+400 n edwards street,al,961,94,24
+400 n edwards street,al,962,94,24
+400 n edwards street,al,963,94,24
+400 n edwards street,al,964,94,24
+400 n edwards street,al,965,94,24
+400 n edwards street,al,966,94,24
+400 n edwards street,al,967,94,24
+400 n edwards street,al,968,94,24
+400 n edwards street,al,969,94,24
+400 n edwards street,al,970,94,24
+400 n edwards street,al,971,94,24
+400 n edwards street,al,972,94,24
+400 n edwards street,al,973,94,24
+400 n edwards street,al,974,94,24
+400 n edwards street,al,975,94,24
+400 n edwards street,al,976,94,24
+400 n edwards street,al,977,94,24
+400 n edwards street,al,978,94,24
+400 n edwards street,al,979,94,24
+150 gilbreath drive,al,980,96,19
+150 gilbreath drive,al,981,96,19
+150 gilbreath drive,al,982,96,19
+150 gilbreath drive,al,983,96,19
+150 gilbreath drive,al,984,96,19
+150 gilbreath drive,al,985,96,19
+150 gilxreath drive,al,986,97,1
+150 gilbreath drive,al,987,96,19
+150 gilbreath drive,al,988,96,19
+150 gilbreath drive,al,989,96,19
+150 gilbreath drive,al,990,96,19
+150 gilbreath drive,al,991,96,19
+150 gilbreath drive,al,992,96,19
+150 gilbreath drive,al,993,96,19
+150 gilbreath drive,al,994,96,19
+150 gilbreath drive,al,995,96,19
+150 gilbreath drive,al,996,96,19
+150 gilbreath drive,al,997,96,19
+150 gilbreath drive,al,998,96,19
+150 gilbreath drive,al,999,96,19

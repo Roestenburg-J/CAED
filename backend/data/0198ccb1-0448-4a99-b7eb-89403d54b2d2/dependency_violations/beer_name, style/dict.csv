@@ -1,0 +1,2411 @@
+beer_name,style,original_index,unique_index,count
+Pub Beer,American Pale Lager,0,0,1.0
+Devil's Cup,American Pale Ale (APA),1,1,1.0
+Rise of the Phoenix,American IPA,2,2,1.0
+Sinister,American Double / Imperial IPA,3,3,1.0
+Sex and Candy,American IPA,4,4,1.0
+Black Exodus,Oatmeal Stout,5,5,1.0
+Lake Street Express,American Pale Ale (APA),6,6,1.0
+Foreman,American Porter,7,7,1.0
+Jade,American Pale Ale (APA),8,8,1.0
+Cone Crusher,American Double / Imperial IPA,9,9,1.0
+Sophomoric Saison,Saison / Farmhouse Ale,10,10,1.0
+Regional Ring Of Fire,Saison / Farmhouse Ale,11,11,1.0
+Garce Selé,Saison / Farmhouse Ale,12,12,1.0
+Troll Destroyer,Belgian IPA,13,13,1.0
+Bitter Bitch,American Pale Ale (APA),14,14,1.0
+Ginja Ninja,Cider,15,15,1.0
+Cherried Away,Cider,16,16,1.0
+Rhubarbarian,Cider,17,17,1.0
+BrightCider,Cider,18,18,1.0
+He Said Baltic-Style Porter,Baltic Porter,19,19,1.0
+He Said Belgian-Style Tripel,Tripel,20,20,1.0
+Lower De Boom,American Barleywine,21,21,1.0
+Fireside Chat,Winter Warmer,22,22,1.0
+Marooned On Hog Island,American Stout,23,23,1.0
+Bitter American,American Pale Ale (APA),24,24,1.0
+Hell or High Watermelon Wheat (2009),Fruit / Vegetable Beer,25,25,2.0
+Hell or High Watermelon Wheat (2009),Fruit / Vegetable Beer,26,25,2.0
+21st Amendment Watermelon Wheat Beer (2006),Fruit / Vegetable Beer,27,26,1.0
+21st Amendment IPA (2006),American IPA,28,27,1.0
+Brew Free! or Die IPA (2008),American IPA,29,28,1.0
+Brew Free! or Die IPA (2009),American IPA,30,29,1.0
+Special Edition: Allies Win The War!,English Strong Ale,31,30,1.0
+Hop Crisis,American Double / Imperial IPA,32,31,1.0
+Bitter American (2011),American Pale Ale (APA),33,32,1.0
+Fireside Chat (2010),Winter Warmer,34,33,1.0
+Back in Black,American Black Ale,35,34,1.0
+Monk's Blood,Belgian Dark Ale,36,35,1.0
+Brew Free! or Die IPA,American IPA,37,36,1.0
+Hell or High Watermelon Wheat,Fruit / Vegetable Beer,38,37,1.0
+Bimini Twist,American IPA,39,38,1.0
+Beach Blonde,American Blonde Ale,40,39,2.0
+Rod Bender Red,American Amber / Red Ale,41,40,1.0
+Passion Fruit Prussia,Berliner Weissbier,42,41,1.0
+Send Help,American Blonde Ale,43,42,1.0
+Cast Iron Oatmeal Brown,American Brown Ale,44,43,1.0
+Reprise Centennial Red,American Amber / Red Ale,45,44,1.0
+Alter Ego,American Black Ale,46,45,1.0
+Divided Sky,American IPA,47,46,1.0
+Resurrected,American IPA,48,47,1.0
+Contact High,American Pale Wheat Ale,49,48,1.0
+Galaxyfest,American IPA,50,49,1.0
+Citrafest,American IPA,51,50,1.0
+Barn Yeti,Belgian Strong Dark Ale,52,51,1.0
+Scarecrow,American IPA,53,52,1.0
+Ironman,English Strong Ale,54,53,1.0
+Honey Kolsch,Kölsch,55,54,1.0
+Copperhead Amber,Belgian Dark Ale,56,55,1.0
+Rude Parrot IPA,American IPA,57,56,1.0
+British Pale Ale (2010),English Pale Ale,58,57,1.0
+British Pale Ale,English Pale Ale,59,58,1.0
+Ballz Deep Double IPA,American Double / Imperial IPA,60,59,1.0
+Wolfman's Berliner,Berliner Weissbier,61,60,1.0
+Colorado Native,American Amber / Red Lager,62,61,1.0
+Colorado Native (2011),American Amber / Red Lager,63,62,1.0
+Jockamo IPA,American IPA,64,63,1.0
+Purple Haze,Fruit / Vegetable Beer,65,64,1.0
+Abita Amber,American Amber / Red Lager,66,65,1.0
+Citra Ass Down,American IPA,67,66,1.0
+The Brown Note,American Brown Ale,68,67,1.0
+Citra Ass Down,American Double / Imperial IPA,69,68,1.0
+London Balling,English Barleywine,70,69,1.0
+35 K,Milk / Sweet Stout,71,70,1.0
+A Beer,American Pale Ale (APA),72,71,1.0
+Rules are Rules,German Pilsener,73,72,1.0
+Flesh Gourd'n,Pumpkin Ale,74,73,1.0
+Sho'nuff,Belgian Pale Ale,75,74,1.0
+Bloody Show,American Pilsner,76,75,1.0
+Rico Sauvin,American Double / Imperial IPA,77,76,1.0
+Coq de la Marche,Saison / Farmhouse Ale,78,77,1.0
+Kamen Knuddeln,American Wild Ale,79,78,1.0
+Pile of Face,American IPA,80,79,1.0
+The Brown Note,English Brown Ale,81,80,1.0
+Maylani's Coconut Stout,American Stout,82,81,1.0
+Oatmeal PSA,American Pale Ale (APA),83,82,1.0
+Pre Flight Pilsner,American Pilsner,84,83,1.0
+P-Town Pilsner,American Pilsner,85,84,1.0
+Klickitat Pale Ale,American Pale Ale (APA),86,85,1.0
+Yellow Wolf Imperial IPA,American Double / Imperial IPA,87,86,1.0
+Freeride APA,American Pale Ale (APA),88,87,1.0
+Alaskan Amber,Altbier,89,88,1.0
+Hopalicious,American Pale Ale (APA),90,89,1.0
+Kentucky Kölsch,Kölsch,91,90,1.0
+Kentucky IPA,American IPA,92,91,1.0
+Dusty Trail Pale Ale,American Pale Ale (APA),93,92,1.0
+Damnesia,American IPA,94,93,1.0
+Desolation IPA,American IPA,95,94,1.0
+Liberty Ale,American IPA,96,95,1.0
+IPA,American IPA,97,96,1.0
+Summer Wheat,American Pale Wheat Ale,98,97,1.0
+California Lager,American Amber / Red Lager,99,98,1.0
+Brotherhood Steam,California Common / Steam Beer,100,99,1.0
+Blood Orange Gose,Gose,101,100,1.0
+Keebarlin' Pale Ale,American Pale Ale (APA),102,101,1.0
+"the Kimmie, the Yink and the Holy Gose",Gose,103,102,1.0
+Fall Hornin',Pumpkin Ale,104,103,1.0
+Barney Flats Oatmeal Stout,Oatmeal Stout,105,104,2.0
+Summer Solstice,Cream Ale,106,105,1.0
+Hop Ottin' IPA,American IPA,107,106,1.0
+Boont Amber Ale,American Amber / Red Ale,108,107,1.0
+Barney Flats Oatmeal Stout,Oatmeal Stout,109,104,2.0
+El Steinber Dark Lager,Vienna Lager,110,108,1.0
+Boont Amber Ale (2010),American Amber / Red Ale,111,109,1.0
+Summer Solstice Cerveza Crema (2009),Cream Ale,112,110,1.0
+Barney Flats Oatmeal Stout (2012),Oatmeal Stout,113,111,1.0
+Winter Solstice,Winter Warmer,114,112,1.0
+Hop Ottin' IPA (2011),American IPA,115,113,1.0
+Boont Amber Ale (2011),American Amber / Red Ale,116,114,1.0
+Summer Solstice (2011),Cream Ale,117,115,1.0
+Poleeko Gold Pale Ale (2009),American Pale Ale (APA),118,116,1.0
+Charlie's Rye IPA,American IPA,119,117,1.0
+River Pig Pale Ale,American Pale Ale (APA),120,118,1.0
+Oaky's Oatmeal Stout,Oatmeal Stout,121,119,1.0
+Angry Orchard Apple Ginger,Cider,122,120,1.0
+Angry Orchard Crisp Apple,Cider,123,121,2.0
+Angry Orchard Crisp Apple,Cider,124,121,2.0
+Golden One,Belgian Pale Ale,125,122,1.0
+Arjuna,Witbier,126,123,1.0
+Uroboros,American Stout,127,124,1.0
+Long Leaf,American IPA,128,125,1.0
+Honey Badger Blonde,American Blonde Ale,129,126,1.0
+Porter (a/k/a Black Gold Porter),American Porter,130,127,1.0
+Sky High Rye,American Pale Ale (APA),131,128,1.0
+Whitsun,American Pale Wheat Ale,132,129,1.0
+On-On Ale (2008),American Pale Ale (APA),133,130,1.0
+Quakertown Stout,American Double / Imperial Stout,134,131,1.0
+Greenbelt Farmhouse Ale,Saison / Farmhouse Ale,135,132,1.0
+Mo's Gose,Gose,136,133,1.0
+Green Bullet Organic India Pale Ale,American IPA,137,134,1.0
+Rocket Girl,Kölsch,138,135,1.0
+Ninja Porter,American Porter,139,136,1.0
+Shiva IPA,American IPA,140,137,1.0
+Aslan Kölsch,Kölsch,141,138,1.0
+Aslan IPA,American IPA,142,139,1.0
+Aslan Amber,American Amber / Red Ale,143,140,1.0
+This Season's Blonde,American Blonde Ale,144,141,1.0
+Independence Pass Ale,American IPA,145,142,1.0
+Trolley Stop Stout,American Stout,146,143,1.0
+Bitter Bitch Imperial IPA,American Double / Imperial IPA,147,144,1.0
+Poop Deck Porter,American Porter,148,145,1.0
+Old Red Beard Amber Ale,American Amber / Red Ale,149,146,1.0
+Hop A-Peel,American Double / Imperial IPA,150,147,1.0
+Vanilla Java Porter,American Porter,151,148,1.0
+Michelada,Fruit / Vegetable Beer,152,149,1.0
+Dirty Blonde Ale,American Blonde Ale,153,150,1.0
+Grand Circus IPA,American IPA,154,151,1.0
+Atwater's Lager,Munich Helles Lager,155,152,1.0
+Heavy Machinery IPA Series #1: Heavy Fist,American Black Ale,156,153,1.0
+Fire Eagle IPA,American IPA,157,154,1.0
+Peacemaker,American Pale Ale (APA),158,155,1.0
+Pearl-Snap,German Pilsener,159,156,1.0
+Black Thunder,Schwarzbier,160,157,1.0
+Raja,American Double / Imperial IPA,161,158,1.0
+Perzik Saison,Saison / Farmhouse Ale,162,159,1.0
+Avery Joe’s Premium American Pilsner,German Pilsener,163,160,1.0
+White Rascal,Witbier,164,161,1.0
+Avery India Pale Ale,American IPA,165,162,1.0
+Ellie’s Brown Ale,American Brown Ale,166,163,1.0
+Pumpkin Beast,Pumpkin Ale,167,164,1.0
+OktoberBeast,Märzen / Oktoberfest,168,165,1.0
+Mad Beach,American Pale Wheat Ale,169,166,1.0
+Hog Wild India Pale Ale,American IPA,170,167,1.0
+Devils Tramping Ground Tripel,Tripel,171,168,1.0
+Hot Rod Red,American Amber / Red Ale,172,169,1.0
+Palate Mallet,American Double / Imperial IPA,173,170,1.0
+Back East Porter,American Porter,174,171,1.0
+Back East Golden Ale,American Blonde Ale,175,172,1.0
+Misty Mountain IPA,American IPA,176,173,1.0
+Back East Ale,American Amber / Red Ale,177,174,1.0
+Truck Stop Honey Brown Ale,English Brown Ale,178,175,1.0
+Naked Pig Pale Ale,American Pale Ale (APA),179,176,1.0
+Topcutter India Pale Ale,American IPA,180,177,1.0
+Field 41 Pale Ale,American Pale Ale (APA),181,178,1.0
+Grapefruit Sculpin,American IPA,182,179,1.0
+Even Keel,American IPA,183,180,1.0
+Ballast Point Pale Ale,Kölsch,184,181,1.0
+Big Eye India Pale Ale,American IPA,185,182,1.0
+Longfin Lager,Munich Helles Lager,186,183,1.0
+Sculpin IPA,American IPA,187,184,1.0
+All Nighter Ale,Extra Special / Strong Bitter (ESB),188,185,1.0
+Banner American Rye,Rye Beer,189,186,1.0
+Banner American Ale,American Amber / Red Ale,190,187,1.0
+Thai.p.a,American IPA,191,188,1.0
+Barrio Blanco,American IPA,192,189,1.0
+Barrio Tucson Blonde,American Blonde Ale,193,190,1.0
+Hop in the ‘Pool Helles,American Pilsner,194,191,1.0
+Ultra Gnar Gnar IPA,American IPA,195,192,1.0
+In-Tents India Pale Lager,American Pale Lager,196,193,1.0
+Lost Meridian Wit,Witbier,197,194,1.0
+Celestial Meridian Cascadian Dark Lager,Euro Dark Lager,198,195,1.0
+Wagon Party,California Common / Steam Beer,199,196,1.0
+Sky-Five,American IPA,200,197,1.0
+Stargrazer,Schwarzbier,201,198,1.0
+Wonderstuff,German Pilsener,202,199,1.0
+Tarnation California-Style Lager,California Common / Steam Beer,203,200,1.0
+On the Count of 3 (2015),Hefeweizen,204,201,1.0
+Summer Swelter,American Pale Wheat Ale,205,202,1.0
+Phantom Punch Winter Stout,Foreign / Export Stout,206,203,1.0
+Hayride Autumn Ale,Rye Beer,207,204,1.0
+Celsius Summer Ale (2012),American Pale Wheat Ale,208,205,1.0
+Amber Road,American Amber / Red Ale,209,206,1.0
+Pamola Xtra Pale Ale,American Pale Ale (APA),210,207,1.0
+Stowaway IPA,American IPA,211,208,1.0
+Hoptopus Double IPA,American Double / Imperial IPA,212,209,1.0
+Watermelon Ale,Fruit / Vegetable Beer,213,210,2.0
+Fenway American Pale Ale,American Pale Ale (APA),214,211,1.0
+Back Bay IPA,American IPA,215,212,1.0
+Bunker Hill Blueberry Ale,Other,216,213,1.0
+Oberon,American Pale Wheat Ale,217,214,2.0
+Smitten,Rye Beer,218,215,1.0
+Winter White,Witbier,219,216,1.0
+Oberon,American Pale Wheat Ale,220,214,2.0
+Two Hearted,American IPA,221,217,1.0
+Best Brown,American Brown Ale,222,218,1.0
+Moar,English India Pale Ale (IPA),223,219,1.0
+Uber Lupin Schwarz IPA,American Double / Imperial IPA,224,220,1.0
+Nordic Blonde,American Blonde Ale,225,221,1.0
+Cold Press,American Black Ale,226,222,1.0
+Harness the Winter,American IPA,227,223,1.0
+14° ESB,Extra Special / Strong Bitter (ESB),228,224,1.0
+Bent Hop Golden IPA,American IPA,229,225,1.0
+Bent Paddle Black Ale,American Black Ale,230,226,1.0
+Venture Pils,German Pilsener,231,227,1.0
+Lost Sailor IPA,English India Pale Ale (IPA),232,228,1.0
+Steel Rail Extra Pale Ale,American Pale Ale (APA),233,229,1.0
+La Frontera Premium IPA,American IPA,234,230,1.0
+Tejas Lager,Czech Pilsener,235,231,1.0
+Number 22 Porter,American Porter,236,232,1.0
+Big Bend Hefeweizen,Hefeweizen,237,233,1.0
+Terlingua Gold,American Blonde Ale,238,234,1.0
+Aprè Shred,American Strong Ale,239,235,1.0
+Hemlock Double IPA,American Double / Imperial IPA,240,236,1.0
+West Portal Colorado Common Summer Ale,California Common / Steam Beer,241,237,1.0
+Disconnected Red,American Amber / Red Ale,242,238,1.0
+Big Elm IPA,American IPA,243,239,1.0
+Gerry Dog Stout,American Stout,244,240,1.0
+413 Farmhouse Ale,Saison / Farmhouse Ale,245,241,1.0
+Dark Star,American Stout,246,242,1.0
+Ryecoe,American IPA,247,243,1.0
+Blueberry Blonde,Fruit / Vegetable Beer,248,244,1.0
+Galaxy IPA,American IPA,249,245,1.0
+Big River Pilsner,Czech Pilsener,250,246,1.0
+House Brand IPA,American IPA,251,247,1.0
+Big Sky IPA,American IPA,252,248,1.0
+Scape Goat Pale Ale,English Pale Ale,253,249,1.0
+Montana Trout Slayer Ale,American Pale Wheat Ale,254,250,1.0
+Moose Drool Brown Ale,American Brown Ale,255,251,1.0
+Powder Hound Winter Ale,English Strong Ale,256,252,1.0
+Moose Drool Brown Ale (2011),American Brown Ale,257,253,1.0
+Montana Trout Slayer Ale (2012),American Pale Wheat Ale,258,254,1.0
+Big Sky IPA (2012),American IPA,259,255,1.0
+Summer Honey,American Blonde Ale,260,256,1.0
+Scape Goat Pale Ale (2010),English Pale Ale,261,257,1.0
+Montana Trout Slayer Ale (2009),American Pale Wheat Ale,262,258,1.0
+Moose Drool Brown Ale (2009),American Brown Ale,263,259,1.0
+Arcus IPA,American IPA,264,260,1.0
+Wavemaker,American Amber / Red Ale,265,261,1.0
+Jack Pine Savage,American Pale Ale (APA),266,262,1.0
+Forest Fire Imperial Smoked Rye,Rye Beer,267,263,1.0
+Bad Axe Imperial IPA,American Double / Imperial IPA,268,264,1.0
+Morning Wood,Oatmeal Stout,269,265,1.0
+Bark Bite IPA,American IPA,270,266,1.0
+Jalapeno Pale Ale,American Pale Ale (APA),271,267,1.0
+Blown Out Brown,American Brown Ale,272,268,1.0
+Single Hop Ale,American Pale Ale (APA),273,269,1.0
+Sawtooth Ale,American Blonde Ale,274,270,1.0
+Saucy Intruder,Rye Beer,275,271,1.0
+Deception,American Blonde Ale,276,272,1.0
+Blackmarket Rye IPA,American IPA,277,273,1.0
+Black Market Hefeweizen,Hefeweizen,278,274,1.0
+Aftermath Pale Ale,American Pale Ale (APA),279,275,1.0
+American India Red Ale,American Strong Ale,280,276,1.0
+American Red Porter,American Porter,281,277,1.0
+American Red Saison,Saison / Farmhouse Ale,282,278,1.0
+Colorado Red Ale,American Amber / Red Ale,283,279,2.0
+Saddle Bronc Brown Ale,American Brown Ale,284,280,1.0
+Bomber Mountain Amber Ale,American Amber / Red Ale,285,281,1.0
+Flying Sailor,Rye Beer,286,282,1.0
+Nordskye,American IPA,287,283,1.0
+North Third Stout,Foreign / Export Stout,288,284,1.0
+Honey Lav,American Pale Wheat Ale,289,285,1.0
+Coconut Brown Ale,American Brown Ale,290,286,1.0
+51K IPA,American IPA,291,287,1.0
+Grand Rabbits,Cream Ale,292,288,1.0
+1800 Big Log Wheat (2012),American Pale Wheat Ale,293,289,1.0
+Double Play Pilsner,American Pilsner,294,290,1.0
+Brewerhood Brown Ale,American Brown Ale,295,291,1.0
+Last Call Imperial Amber Ale,American Amber / Red Ale,296,292,1.0
+Pernicious Double IPA,American Double / Imperial IPA,297,293,1.0
+6-4-3 Double Play Pilsner,German Pilsener,298,294,1.0
+N Street Drive-In 50th Anniversary IPA,American Double / Imperial IPA,299,295,1.0
+467 Ethan's Stout,American Stout,300,296,1.0
+1335 Wicked Snout,Saison / Farmhouse Ale,301,297,1.0
+543 Skull Creek Fresh Hopped Pale Ale,American Pale Ale (APA),302,298,1.0
+1327 Pod's ESB,Extra Special / Strong Bitter (ESB),303,299,3.0
+1327 Pod's ESB,Extra Special / Strong Bitter (ESB),304,299,3.0
+1327 Pod's ESB,Extra Special / Strong Bitter (ESB),305,299,3.0
+834 Happy As Ale,American Pale Ale (APA),306,300,1.0
+Yellow Collar,Mead,307,301,1.0
+Green Collar,Mead,308,302,1.0
+Quarter Mile Double IPA,American Double / Imperial IPA,309,303,1.0
+Full Nelson Pale Ale,American Pale Ale (APA),310,304,1.0
+Steel Wheels ESB,Extra Special / Strong Bitter (ESB),311,305,1.0
+Blue Mountain Classic Lager,Euro Pale Lager,312,306,1.0
+Full Nelson Pale Ale (2010),American Pale Ale (APA),313,307,1.0
+Kölsch 151,Kölsch,314,308,1.0
+Professor Black,American Stout,315,309,1.0
+Little Boss,American Pale Wheat Ale,316,310,1.0
+Van Dayum!,American Amber / Red Ale,317,311,1.0
+Spirit Animal,American Pale Ale (APA),318,312,1.0
+Toxic Sludge,American Black Ale,319,313,1.0
+Blue Point White IPA,American White IPA,320,314,1.0
+Blue Point Summer Ale,American Blonde Ale,321,315,1.0
+Toasted Lager,Vienna Lager,322,316,1.0
+Bohemian Export Lager,Dortmunder / Export Lager,323,317,1.0
+Altus Bohemes Altbier,Altbier,324,318,1.0
+Cherny Bock,Schwarzbier,325,319,1.0
+Czech Pilsner,Czech Pilsener,326,320,1.0
+Viennese Lager,Vienna Lager,327,321,1.0
+Mad Manatee IPA,American IPA,328,322,1.0
+Killer Whale Cream Ale,Cream Ale,329,323,1.0
+Duke's Cold Nose Brown Ale,American Brown Ale,330,324,1.0
+Longhop IPA,American IPA,331,325,1.0
+Lucky Buck,Irish Dry Stout,332,326,1.0
+Bomb Lager (New Recipe),Munich Helles Lager,333,327,1.0
+Bomb Lager (Old Recipe),Munich Helles Lager,334,328,1.0
+Firestarter India Pale Ale,American IPA,335,329,2.0
+Kilt Dropper Scotch Ale,Scotch Ale / Wee Heavy,336,330,1.0
+Wood Splitter Pilsner,Czech Pilsener,337,331,1.0
+Gyptoberfest,Märzen / Oktoberfest,338,332,1.0
+Farmer Wirtz India Pale Ale,English India Pale Ale (IPA),339,333,1.0
+Slow & Steady Golden Ale,American Blonde Ale,340,334,1.0
+Pink-I Raspberry IPA,American IPA,341,335,1.0
+Moe's Original Bar B Que 'Bama Brew Golden Ale,American Blonde Ale,342,336,1.0
+Live Local Golden Ale,American Blonde Ale,343,337,1.0
+Screaming Eagle Special Ale ESB,Extra Special / Strong Bitter (ESB),344,338,1.0
+Dirtbag Dunkel,Munich Dunkel Lager,345,339,1.0
+Kindler Pale Ale,American Pale Ale (APA),346,340,1.0
+Mistress Winter Wheat,Winter Warmer,347,341,1.0
+Tent Pole Vanilla Porter,American Porter,348,342,1.0
+Awry Rye Pale Ale,American Pale Ale (APA),349,343,1.0
+Demshitz Brown Ale,American Brown Ale,350,344,1.0
+Wood Splitter Pilsner (2012),Czech Pilsener,351,345,1.0
+Brush Creek Blonde,American Blonde Ale,352,346,1.0
+Firestarter India Pale Ale,American IPA,353,329,2.0
+Noche Dulce,American Porter,354,347,1.0
+Porch Rocker,Radler,355,348,1.0
+Rebel IPA,American IPA,356,349,1.0
+Cold Snap,Witbier,357,350,1.0
+Samuel Adams Winter Lager,Bock,358,351,1.0
+Boston Lager,Vienna Lager,359,352,3.0
+Boston Lager,Vienna Lager,360,352,3.0
+Samuel Adams Octoberfest,Märzen / Oktoberfest,361,353,1.0
+Samuel Adams Summer Ale,American Pale Wheat Ale,362,354,1.0
+Boston Lager,Vienna Lager,363,352,3.0
+Hazed & Infused,American Pale Ale (APA),364,355,1.0
+Hoopla Pale Ale,American Pale Ale (APA),365,356,1.0
+Hazed & Infused (2010),American Pale Ale (APA),366,357,1.0
+Heavy Lifting,American IPA,367,358,1.0
+1492,American Pale Ale (APA),368,359,1.0
+Mango Ginger,American IPA,369,360,1.0
+Passenger,English Dark Mild Ale,370,361,1.0
+Plum St. Porter,American Porter,371,362,2.0
+Plum St. Porter,American Porter,372,362,2.0
+Bozone HopZone IPA,American IPA,373,363,1.0
+Bozone Hefe Weizen,Hefeweizen,374,364,1.0
+Bozone Select Amber Ale,American Amber / Red Ale,375,365,1.0
+Evil Owl,American Amber / Red Ale,376,366,1.0
+Post Time Kölsch,Kölsch,377,367,1.0
+Agave Wheat,American Pale Wheat Ale,378,368,1.0
+SummerBright Ale,American Pale Wheat Ale,379,369,1.0
+Lucky U IPA,American IPA,380,370,1.0
+Avalanche Ale,American Amber / Red Ale,381,371,1.0
+"You're My Boy, Blue",Fruit / Vegetable Beer,382,372,1.0
+Last Stop IPA,American IPA,383,373,1.0
+Rollin Dirty Red Ale,Irish Red Ale,384,374,1.0
+Are Wheat There Yet?,American Pale Wheat Ale,385,375,1.0
+Insert Hop Reference,American Pale Ale (APA),386,376,1.0
+Manitou Amber,American Amber / Red Ale,387,377,1.0
+Belfort,Saison / Farmhouse Ale,388,378,1.0
+Star Runner,Belgian Pale Ale,389,379,1.0
+Tart Side of the Barrel,American Double / Imperial Stout,390,380,1.0
+Linnaeus Mango IPA,American IPA,391,381,1.0
+Beasts A'Burnin',Rauchbier,392,382,1.0
+Verdun,Bière de Garde,393,383,1.0
+Barrel Aged Triomphe,Belgian IPA,394,384,1.0
+Cherry Doppelbock,Doppelbock,395,385,1.0
+Tropical Saison,Saison / Farmhouse Ale,396,386,1.0
+Beach Patrol,Witbier,397,387,1.0
+Nuit Serpent,Belgian IPA,398,388,1.0
+Paris,Saison / Farmhouse Ale,399,389,1.0
+The Grand Army,Belgian IPA,400,390,1.0
+Acidulated Trip,Saison / Farmhouse Ale,401,391,1.0
+Root Stock,Rye Beer,402,392,1.0
+Mind Games,Dunkelweizen,403,393,1.0
+Sous Chef,Belgian Strong Pale Ale,404,394,1.0
+Dubbelicious,Dubbel,405,395,1.0
+Psychopomp,Belgian Dark Ale,406,396,1.0
+Fat Paczki,Belgian Dark Ale,407,397,1.0
+Earth-Like Planets,Belgian Pale Ale,408,398,1.0
+Ski Patrol,Witbier,409,399,1.0
+Viking Ice Hole,Oatmeal Stout,410,400,1.0
+Rye Porter,American Porter,411,401,2.0
+Wizard Burial Ground,Quadrupel (Quad),412,402,1.0
+Smoky Wheat,Rauchbier,413,403,1.0
+BRIPA,Belgian IPA,414,404,1.0
+Mela,Belgian Dark Ale,415,405,1.0
+W.I.P.A Snappa,Belgian IPA,416,406,1.0
+Pepper in the Rye,Rye Beer,417,407,1.0
+Moe Lasses',American Stout,418,408,1.0
+Pumpkin Tart,Fruit / Vegetable Beer,419,409,1.0
+Undertaker,Belgian Dark Ale,420,410,1.0
+Undertaker (2014),Belgian Dark Ale,421,411,1.0
+Coq D'Or,Belgian Pale Ale,422,412,1.0
+North French,Bière de Garde,423,413,1.0
+Agent a Deux,Belgian Dark Ale,424,414,1.0
+Belgian Wit,Witbier,425,415,1.0
+Pothole Stout,American Stout,426,416,1.0
+Tree Bucket,Belgian IPA,427,417,1.0
+Le Flaneur Ale,American Wild Ale,428,418,1.0
+Maize & Blueberry,Fruit / Vegetable Beer,429,419,1.0
+Trebuchet Double IPA,American Double / Imperial IPA,430,420,1.0
+Contemplation,Bière de Garde,431,421,1.0
+Black Rabbit,American Black Ale,432,422,1.0
+Zaison,Saison / Farmhouse Ale,433,423,1.0
+Vivant Tripel,Tripel,434,424,1.0
+Tart Side of the Moon,Belgian Dark Ale,435,425,1.0
+Big Red Coq,American Amber / Red Ale,436,426,1.0
+Hubris Quadrupel Anniversary Ale,Quadrupel (Quad),437,427,1.0
+Plow Horse Belgian Style Imperial Stout,American Double / Imperial Stout,438,428,1.0
+Escoffier Bretta Ale,American Wild Ale,439,429,1.0
+Contemplation (2012),Bière de Garde,440,430,1.0
+Vivant Belgian Style Imperial Stout (2012),Russian Imperial Stout,441,431,1.0
+Big Red Coq (2012),American Amber / Red Ale,442,432,1.0
+Zaison (2012),Saison / Farmhouse Ale,443,433,1.0
+Vivant Tripel (2012),Tripel,444,434,1.0
+Trebuchet Double IPA (2012),Belgian IPA,445,435,1.0
+Kludde,Belgian Strong Dark Ale,446,436,1.0
+Farm Hand,Saison / Farmhouse Ale,447,437,1.0
+Solitude,Belgian Pale Ale,448,438,1.0
+Triomphe,Belgian IPA,449,439,1.0
+Tampa Pale Ale,American Pale Ale (APA),450,440,1.0
+Orange Grove Wheat Ale,American Pale Wheat Ale,451,441,1.0
+Broad Brook Ale,American Amber / Red Ale,452,442,1.0
+Northern Lights Amber Ale,American Amber / Red Ale,453,443,1.0
+Polar Pale Ale,American Pale Ale (APA),454,444,1.0
+Chugach Session Ale,Cream Ale,455,445,1.0
+Fairweather IPA,American IPA,456,446,1.0
+East India Pale Ale,English India Pale Ale (IPA),457,447,2.0
+Brooklyn Summer Ale,English Pale Mild Ale,458,448,1.0
+East India Pale Ale,English India Pale Ale (IPA),459,447,2.0
+Brooklyn Summer Ale (2011),English Pale Mild Ale,460,449,1.0
+Brooklyn Lager (16 oz.),American Amber / Red Lager,461,450,1.0
+Brooklyn Lager (12 oz.),American Amber / Red Lager,462,451,1.0
+Tour de Nez Belgian IPA (Current),Belgian IPA,463,452,1.0
+Roler Bock (Current),Maibock / Helles Bock,464,453,1.0
+Black Adder IBA (Current),American Black Ale,465,454,1.0
+Very Noddy Lager (Current),Schwarzbier,466,455,1.0
+Tule Duck Red Ale (Current),American Amber / Red Ale,467,456,1.0
+Original Orange Blossom Ale (Current),Herbed / Spiced Beer,468,457,1.0
+Black Noddy Lager (Current),Schwarzbier,469,458,1.0
+Cleveland Beer Week 2013,Munich Helles Lager,470,459,1.0
+Painted Turtle,American Pale Ale (APA),471,460,1.0
+1836,American Blonde Ale,472,461,1.0
+Summer's Wit,Witbier,473,462,1.0
+More Cowbell,American Double / Imperial IPA,474,463,1.0
+Wrath of Pele,American Brown Ale,475,464,1.0
+Black Beer'd,American Black Ale,476,465,1.0
+Mr. Tea,Fruit / Vegetable Beer,477,466,1.0
+Pale Alement,American Pale Ale (APA),478,467,2.0
+Hopkick Dropkick,American Double / Imperial IPA,479,468,1.0
+Kreamed Corn,Cream Ale,480,469,1.0
+Coconoats,American Pale Wheat Ale,481,470,1.0
+Joey Wheat,American Pale Wheat Ale,482,471,1.0
+3:33 Black IPA,American IPA,483,472,1.0
+MCA,American IPA,484,473,1.0
+Pale Alement,American Pale Ale (APA),485,467,2.0
+Couch Select Lager,American Pale Lager,486,474,1.0
+Mucho Aloha Hawaiian Pale Ale,American Pale Ale (APA),487,475,1.0
+Heinnieweisse Weissebier,Hefeweizen,488,476,1.0
+Snapperhead IPA,American IPA,489,477,1.0
+Moo Thunder Stout,Milk / Sweet Stout,490,478,1.0
+Porkslap Pale Ale,American Pale Ale (APA),491,479,1.0
+Blackbeard,American Double / Imperial Stout,492,480,1.0
+Rye Knot,American Brown Ale,493,481,1.0
+Dead Arm,American Pale Ale (APA),494,482,1.0
+32°/50° Kölsch,Kölsch,495,483,1.0
+HopArt,American IPA,496,484,1.0
+Boy King,American Double / Imperial IPA,497,485,1.0
+Gran Sport,American Porter,498,486,1.0
+Horny Toad Cerveza,American Blonde Ale,499,487,1.0
+Native Amber,American Amber / Red Ale,500,488,1.0
+F5 IPA,American IPA,501,489,1.0
+Native Amber (2013),American Amber / Red Ale,502,490,1.0
+Horny Toad Cerveza (2013),American Blonde Ale,503,491,1.0
+Hopportunity Knocks IPA,American IPA,504,492,1.0
+Pilot Rock Porter,American Porter,505,493,1.0
+Caldera Pale Ale,American Pale Ale (APA),506,494,1.0
+Lawnmower Lager,American Adjunct Lager,507,495,1.0
+Ashland Amber Ale (2009),American Amber / Red Ale,508,496,1.0
+Caldera IPA (2009),American IPA,509,497,1.0
+Caldera IPA (2007),American IPA,510,498,1.0
+Caldera Pale Ale (2010),American Pale Ale (APA),511,499,1.0
+Caldera Pale Ale (2009),American Pale Ale (APA),512,500,1.0
+Caldera Pale Ale (2005),American Pale Ale (APA),513,501,1.0
+Caldera Pale Ale (2007),American Pale Ale (APA),514,502,1.0
+Caldera Pale Ale (2011),American Pale Ale (APA),515,503,1.0
+Ashland Amber Ale,American Amber / Red Ale,516,504,1.0
+Caldera IPA,American IPA,517,505,1.0
+Remain in Light,American Pilsner,518,506,1.0
+Flower Child (2014),American IPA,519,507,1.0
+THP White (2006),Witbier,520,508,1.0
+THP Amber (2006),American Amber / Red Ale,521,509,1.0
+THP Light (2006),American Blonde Ale,522,510,1.0
+THP Dark (2006),English Dark Mild Ale,523,511,1.0
+Imperial Pumpkin Stout,Pumpkin Ale,524,512,1.0
+Dead-Eye DIPA,American Double / Imperial IPA,525,513,1.0
+Fisherman's IPA,American IPA,526,514,1.0
+Fisherman's Pils,German Pilsener,527,515,1.0
+Fisherman's Brew,American Amber / Red Ale,528,516,1.0
+Cape Cod Red,American Amber / Red Ale,529,517,1.0
+Beach Blonde,American Blonde Ale,530,39,2.0
+Dark Voyage Black IPA (2013),American Black Ale,531,518,1.0
+Wisconsin Amber,Vienna Lager,532,519,1.0
+Lake House,Munich Helles Lager,533,520,2.0
+Ghost Ship White IPA,American IPA,534,521,1.0
+Lake House,Munich Helles Lager,535,520,2.0
+Mutiny IPA,American IPA,536,522,1.0
+Wisconsin Amber (1998),Vienna Lager,537,523,1.0
+Island Wheat,American Pale Wheat Ale,538,524,1.0
+Wisconsin Amber (2013),Vienna Lager,539,525,1.0
+U.S. Pale Ale,American Pale Ale (APA),540,526,1.0
+Supper Club Lager,American Pale Lager,541,527,1.0
+Carolina Lighthouse (2007),American Blonde Ale,542,528,1.0
+Carolina Blonde (2006),American Blonde Ale,543,529,1.0
+Carolina Blonde Light (2005),American Blonde Ale,544,530,1.0
+Santa's Secret,Winter Warmer,545,531,1.0
+Flagship IPA,English India Pale Ale (IPA),546,532,1.0
+Sky Blue Golden Ale,Kölsch,547,533,1.0
+Epitome,American Black Ale,548,534,1.0
+Monkey Chased the Weasel,Berliner Weissbier,549,535,1.0
+077XX,American Double / Imperial IPA,550,536,1.0
+Boat Beer,American IPA,551,537,1.0
+Granny Smith Hard Apple Cider,Cider,552,538,1.0
+Dry Hard Apple Cider,Cider,553,539,1.0
+Farmer Ted's Cream Ale,Cream Ale,554,540,1.0
+Firewater India Pale Ale,American IPA,555,541,2.0
+White Zombie Ale,Witbier,556,542,2.0
+King Winterbolt Winter Ale,Winter Warmer,557,543,1.0
+White Zombie Ale,Witbier,558,542,2.0
+Firewater India Pale Ale,American IPA,559,541,2.0
+Farmer Ted's Farmhouse Cream Ale,Cream Ale,560,544,1.0
+Whitecap Wit,Witbier,561,545,1.0
+Seiche Scottish Ale,Scottish Ale,562,546,1.0
+Peanut Butter Jelly Time,American Brown Ale,563,547,1.0
+King Coconut,American Porter,564,548,1.0
+Gone A-Rye,American Double / Imperial IPA,565,549,1.0
+Special Release,,566,550,
+Dankosaurus,American IPA,567,551,1.0
+Scruffy's Smoked Alt,Smoked Beer,568,552,1.0
+Elliott's Phoned Home Pale Ale,American Pale Ale (APA),569,553,1.0
+The Lawn Ranger,Cream Ale,570,554,1.0
+All American Blonde Ale,American Blonde Ale,571,555,1.0
+All American Red Ale,American Amber / Red Ale,572,556,1.0
+Main St. Virginia Ale,Altbier,573,557,2.0
+Chin Music Amber Lager,American Amber / Red Lager,574,558,1.0
+Main St. Virginia Ale,Altbier,575,557,2.0
+Ray Ray’s Pale Ale,American Pale Ale (APA),576,559,1.0
+Chai Ale,Herbed / Spiced Beer,577,560,1.0
+Lucky Day IPA,American IPA,578,561,1.0
+Terrace Hill Double IPA,American Double / Imperial IPA,579,562,1.0
+Catch 23,American Black Ale,580,563,1.0
+Stickin' In My Rye,Rye Beer,581,564,1.0
+Black Me Stout,American Stout,582,565,1.0
+Killer Kolsch,Kölsch,583,566,1.0
+Missile IPA,American IPA,584,567,1.0
+Enlighten,Kölsch,585,568,1.0
+Ale Cider,Fruit / Vegetable Beer,586,569,1.0
+Pail Ale,American Pale Ale (APA),587,570,1.0
+Englishman,English Brown Ale,588,571,1.0
+8 Barrel,American Strong Ale,589,572,1.0
+Oktoberfest,Märzen / Oktoberfest,590,573,6.0
+IPA #11,American IPA,591,574,1.0
+Blood Orange Honey,Fruit / Vegetable Beer,592,575,1.0
+Lighthouse Amber,Altbier,593,576,1.0
+Bay of Bengal Double IPA (2014),American Double / Imperial IPA,594,577,1.0
+Churchkey Pilsner Style Beer,American Pilsner,595,578,1.0
+First Press,Cider,596,579,1.0
+Magic Apple,Cider,597,580,1.0
+Cubano Espresso,Bock,598,581,1.0
+Operation Homefront,American IPA,599,582,1.0
+Wandering Pelican,American Black Ale,600,583,1.0
+Sugar Plum,American Brown Ale,601,584,1.0
+Oktoberfest,Märzen / Oktoberfest,602,573,6.0
+Puppy's Breath Porter,American Porter,603,585,1.0
+Happening Now,American IPA,604,586,1.0
+Hopped on the High Seas (Hop #529),American IPA,605,587,1.0
+Hopped on the High Seas (Calypso),American IPA,606,588,1.0
+Wiregrass Post-Prohibition Ale,American Pale Ale (APA),607,589,1.0
+Dry-Hopped On The High Seas Caribbean-Style IPA,American IPA,608,590,1.0
+Hopped on the High Seas (Citra),American IPA,609,591,1.0
+Hopped on the High Seas (Ahtanum),American IPA,610,592,1.0
+Gwar Beer,American Pale Ale (APA),611,593,1.0
+Tropical Heatwave,American Pale Wheat Ale,612,594,1.0
+Humidor Series India Pale Ale,American IPA,613,595,1.0
+Jai Alai IPA Aged on White Oak,American IPA,614,596,1.0
+José Martí American Porter,American Porter,615,597,1.0
+Invasion Pale Ale,American Pale Ale (APA),616,598,1.0
+Maduro Brown Ale,English Brown Ale,617,599,1.0
+Maduro Brown Ale,American Brown Ale,618,600,1.0
+Hotter Than Helles Lager,Munich Helles Lager,619,601,1.0
+Tocobaga Red Ale,American Amber / Red Ale,620,602,1.0
+Jai Alai IPA,American IPA,621,603,1.0
+Florida Cracker Belgian Wit,Witbier,622,604,1.0
+Shark Tracker Light lager,Light Lager,623,605,1.0
+Pumple Drumkin,Pumpkin Ale,624,606,1.0
+Grey Lady,Witbier,625,607,1.0
+Summer of Lager,Munich Helles Lager,626,608,1.0
+Indie Pale Ale,American IPA,627,609,1.0
+Sankaty Light Lager,Light Lager,628,610,1.0
+Whale's Tale Pale Ale,English Pale Ale,629,611,1.0
+Jacaranada Rye IPA,American IPA,630,612,1.0
+Cascadian Dark Ale,American Black Ale,631,613,1.0
+Wheat the People,American Pale Wheat Ale,632,614,1.0
+Tybee Island Blonde,American Blonde Ale,633,615,1.0
+Savannah Brown Ale,American Brown Ale,634,616,1.0
+Rhode Island Blueberry,Kölsch,635,617,1.0
+Newport Storm IPA,American IPA,636,618,1.0
+Hurricane Amber Ale (2004),American Amber / Red Ale,637,619,1.0
+Hurricane Amber Ale,American Amber / Red Ale,638,620,1.0
+Big Blue Van,Fruit / Vegetable Beer,639,621,1.0
+Des Moines IPA,American IPA,640,622,1.0
+Capital Gold Golden Lager,German Pilsener,641,623,1.0
+Farmer John's Multi-Grain Ale,American Blonde Ale,642,624,1.0
+Behemoth,American Pilsner,643,625,1.0
+Arkansas Red,American Amber / Red Ale,644,626,1.0
+Core Oatmeal Stout,Oatmeal Stout,645,627,1.0
+Core ESB,Extra Special / Strong Bitter (ESB),646,628,1.0
+Chester's Beer (2005),American Pale Lager,647,629,1.0
+Heiner Brau Kölsch,Kölsch,648,630,1.0
+Trigger Blonde Ale,American Blonde Ale,649,631,1.0
+Crabtree Oatmeal Stout,Oatmeal Stout,650,632,1.0
+Eclipse Black IPA,American Black Ale,651,633,1.0
+Neomexicanus Native,American Pale Ale (APA),652,634,1.0
+Old Soul,Belgian Strong Pale Ale,653,635,1.0
+Snowcat Coffee Stout,American Stout,654,636,1.0
+WinterWonderGrass Festival Ale,American Amber / Red Ale,655,637,1.0
+Boohai Red Ale,American Amber / Red Ale,656,638,1.0
+Lava Lake Wit,Witbier,657,639,1.0
+Mountain Livin' Pale Ale,American Pale Ale (APA),658,640,1.0
+Crazy Mountain Amber Ale,American Amber / Red Ale,659,641,1.0
+Tropicalia,American IPA,660,642,1.0
+Athena,Berliner Weissbier,661,643,1.0
+Aviator Raspberry Blonde,American Blonde Ale,662,644,1.0
+3 Picket Porter,American Porter,663,645,1.0
+Rusty Nail Pale Ale,American Pale Ale (APA),664,646,1.0
+Red Water Irish Style Red,American Amber / Red Ale,665,647,1.0
+Mjöllnir,Herbed / Spiced Beer,666,648,1.0
+Bear Butte Nut Brown Ale,American Brown Ale,667,649,1.0
+Easy Livin' Summer Ale,American Blonde Ale,668,650,1.0
+Canyon Cream Ale,Cream Ale,669,651,1.0
+Pile O'Dirt Porter,American Porter,670,652,1.0
+11th Hour IPA,American IPA,671,653,1.0
+South Ridge Amber Ale,American Amber / Red Ale,672,654,1.0
+Summertime Ale,Kölsch,673,655,1.0
+Lost River Blonde Ale,American Blonde Ale,674,656,1.0
+Monon Wheat,Witbier,675,657,1.0
+Floyd's Folly,Scottish Ale,676,658,1.0
+Half Court IPA,American IPA,677,659,1.0
+Geary's Pale Ale,English Pale Ale,678,660,1.0
+Geary's Summer Ale,Kölsch,679,661,1.0
+Stone of Arbroath,Scotch Ale / Wee Heavy,680,662,1.0
+The Tradition,American Blonde Ale,681,663,1.0
+El Hefe Speaks,Hefeweizen,682,664,1.0
+Penn Quarter Porter,American Porter,683,665,1.0
+On the Wings of Armageddon,American Double / Imperial IPA,684,666,1.0
+The Corruption,American IPA,685,667,1.0
+The Citizen,Belgian Pale Ale,686,668,1.0
+The Public,American Pale Ale (APA),687,669,1.0
+Dank IPA,American IPA,688,670,1.0
+Dank IPA (2012),American IPA,689,671,1.0
+Lift Off IPA,American IPA,690,672,1.0
+BrewFarm Select Golden Lager,American Pale Lager,691,673,1.0
+Sprocket Blonde Ale (2006),American Blonde Ale,692,674,1.0
+Sprocket Pale Ale (2006),American Pale Ale (APA),693,675,1.0
+Dead Armadillo Amber Ale,American Amber / Red Ale,694,676,1.0
+Neato Bandito,Euro Pale Lager,695,677,1.0
+Oak Cliff Coffee Ale,American Brown Ale,696,678,1.0
+Dream Crusher Double IPA,American Double / Imperial IPA,697,679,1.0
+Deep Ellum Pale Ale,American Pale Ale (APA),698,680,1.0
+Double Brown Stout,Baltic Porter,699,681,1.0
+Farmhouse Wit,Saison / Farmhouse Ale,700,682,1.0
+Rye Pils Session Lager,German Pilsener,701,683,1.0
+Dallas Blonde,American Blonde Ale,702,684,1.0
+Deep Ellum IPA,American IPA,703,685,1.0
+Thrasher Session India Pale Ale,American IPA,704,686,1.0
+Gutch English Style Mild Ale,English Pale Mild Ale,705,687,1.0
+Chuli Stout,Irish Dry Stout,706,688,1.0
+Mother Ale,American Blonde Ale,707,689,1.0
+Twister Creek India Pale Ale,American IPA,708,690,1.0
+Single Engine Red,Irish Red Ale,709,691,1.0
+Incredible Pedal IPA,American IPA,710,692,1.0
+Graham Cracker Porter,American Porter,711,693,1.0
+Mirror Pond Pale Ale,American Pale Ale (APA),712,694,1.0
+Weissenheimer,Hefeweizen,713,695,1.0
+Abbey's Single (2015- ),Abbey Single Ale,714,696,1.0
+Vertex IPA,American IPA,715,697,1.0
+Here Gose Nothin',Gose,716,698,1.0
+Strawberry Blonde,Fruit / Vegetable Beer,717,699,1.0
+Hoperation Overload,American Double / Imperial IPA,718,700,1.0
+Abbey's Single Ale (Current),Abbey Single Ale,719,701,1.0
+Bravo Four Point,American Pale Ale (APA),720,702,1.0
+Striped Bass Pale Ale,American Pale Ale (APA),721,703,1.0
+Deadicated Amber,American Amber / Red Ale,722,704,1.0
+Kaleidoscope Collaboration 2012,American Black Ale,723,705,1.0
+California Sunshine Rye IPA,American IPA,724,706,1.0
+Full Boar Scotch Ale,Scotch Ale / Wee Heavy,725,707,1.0
+12 Man Pale Ale,American Pale Ale (APA),726,708,1.0
+Filthy Hoppin' IPA,American IPA,727,709,1.0
+Dock Street Amber Beer (1992),American Amber / Red Ale,728,710,1.0
+Dolores River Hefeweizen,Hefeweizen,729,711,1.0
+Dolores River ESB,Extra Special / Strong Bitter (ESB),730,712,1.0
+Snaggletooth Double Pale Ale,American Double / Imperial IPA,731,713,1.0
+Dolores River Pale Ale,American Pale Ale (APA),732,714,1.0
+Dolores River Dry Stout,Irish Dry Stout,733,715,1.0
+Dolores River Mild,English Dark Mild Ale,734,716,1.0
+Cranberry Blend,Cider,735,717,1.0
+Orignal Blend,Cider,736,718,1.0
+Hop Abomination,American IPA,737,719,1.0
+Apricot Blonde,Fruit / Vegetable Beer,738,720,1.0
+Dry Dock Hefeweizen,Hefeweizen,739,721,1.0
+Dry Dock Amber Ale,American Amber / Red Ale,740,722,1.0
+Category 3 IPA,American IPA,741,723,1.0
+Dundee Summer Wheat Beer,American Pale Wheat Ale,742,724,1.0
+Pumpkin Patch Ale,Pumpkin Ale,743,725,1.0
+Crank Yanker IPA,American IPA,744,726,1.0
+River Runners Pale Ale,American Pale Ale (APA),745,727,1.0
+Pumpkin Patch Ale (2012),Pumpkin Ale,746,728,1.0
+Mountain Fairy Raspberry Wheat,Fruit / Vegetable Beer,747,729,1.0
+Boater Beer,German Pilsener,748,730,1.0
+Crank Yanker IPA (2011),American IPA,749,731,1.0
+Bleeding Buckeye Red Ale,Extra Special / Strong Bitter (ESB),750,732,1.0
+Dottie Seattle Lager,American Amber / Red Lager,751,733,1.0
+Nut Sack Imperial Brown Ale,American Brown Ale,752,734,1.0
+Underachiever,American Adjunct Lager,753,735,1.0
+Lil' Brainless Raspberries,Fruit / Vegetable Beer,754,736,1.0
+Element 29,American Pale Ale (APA),755,737,1.0
+Hop Syndrome,American Pale Lager,756,738,1.0
+Escape to Colorado,American IPA,757,739,1.0
+Little Sister India Style Session Ale,American IPA,758,740,1.0
+Country Boy IPA,American IPA,759,741,1.0
+Blonde Czich,American Blonde Ale,760,742,1.0
+White Reaper,Belgian IPA,761,743,1.0
+Bobblehead,American Pale Wheat Ale,762,744,1.0
+Lucky Dog,American Pale Ale (APA),763,745,1.0
+Voodoo,American Porter,764,746,1.0
+General George Patton Pilsner,Czech Pilsener,765,747,1.0
+Nomader Weiss,Berliner Weissbier,766,748,1.0
+Molotov Lite,American Double / Imperial IPA,767,749,1.0
+Hipster Ale (Two Roads Brewing),American Pale Ale (APA),768,750,1.0
+Bikini Beer,American IPA,769,751,1.0
+Hipster Ale (Westbrook Brewing),American Pale Ale (APA),770,752,1.0
+Iron Horse Pale Ale,American Pale Ale (APA),771,753,1.0
+Stone's Throw IPA,Scottish Ale,772,754,1.0
+Wood Chipper India Pale Ale,American IPA,773,755,1.0
+Trail Head,American Pale Ale (APA),774,756,1.0
+Hop Stalker Fresh Hop IPA,American IPA,775,757,1.0
+Sudice American Stout,American Stout,776,758,1.0
+Parcae Belgian Style Pale Ale,Belgian Pale Ale,777,759,1.0
+Norns Roggenbier,Roggenbier,778,760,1.0
+Laimas Kölsch Style Ale,Kölsch,779,761,1.0
+Moirai India Pale Ale,American IPA,780,762,1.0
+Loki Red Ale,American Amber / Red Ale,781,763,1.0
+Peaches & Cream,Fruit / Vegetable Beer,782,764,1.0
+Quaff India Style Session Ale,American IPA,783,765,1.0
+Loki Red Ale (2013),American Amber / Red Ale,784,766,1.0
+Mjolnir Imperial IPA,American Double / Imperial IPA,785,767,1.0
+Fearless Scottish Ale,Scottish Ale,786,768,1.0
+Mastermind,American Double / Imperial IPA,787,769,1.0
+Hyzer Flip,American Double / Imperial IPA,788,770,1.0
+Second Fiddle,American Double / Imperial IPA,789,771,1.0
+Hodad Porter,American Porter,790,772,1.0
+Weiss Weiss Baby,Kristalweizen,791,773,1.0
+Czech Yo Self,Czech Pilsener,792,774,1.0
+FMB 101,Kölsch,793,775,1.0
+Hardcore Chimera,American Double / Imperial IPA,794,776,1.0
+Sobek & Set,American Black Ale,795,777,1.0
+Nuclear Winter,Belgian Strong Dark Ale,796,778,1.0
+Wet Hot American Wheat Ale,American Pale Wheat Ale,797,779,1.0
+Secret Stache Stout,American Stout,798,780,1.0
+Fascist Pig Ale,American Amber / Red Ale,799,781,1.0
+Cut Throat Pale Ale,American Pale Ale (APA),800,782,1.0
+Threadless IPA,American IPA,801,783,1.0
+Cut Throat Pale Ale (2011),American Pale Ale (APA),802,784,1.0
+Golden Wing Blonde Ale,American Blonde Ale,803,785,1.0
+Easy Jack,American IPA,804,786,1.0
+Union Jack,American IPA,805,787,1.0
+Pivo Pils,German Pilsener,806,788,1.0
+805 Blonde Ale,American Blonde Ale,807,789,1.0
+805,American Blonde Ale,808,790,1.0
+Deflator,Doppelbock,809,791,1.0
+Hinchtown Hammer Down,American Blonde Ale,810,792,1.0
+Half Cycle IPA,American IPA,811,793,1.0
+Inclined Plane Ale,American IPA,812,794,1.0
+Moped Traveler,American Pale Ale (APA),813,795,1.0
+Snake Dog IPA,American IPA,814,796,1.0
+Underdog Atlantic Lager,American Pale Lager,815,797,1.0
+Flying Mouse 8,American Porter,816,798,1.0
+Flying Mouse 4,American IPA,817,799,1.0
+La Ferme Urbaine Farmhouse Ale,Saison / Farmhouse Ale,818,800,1.0
+Backyahd IPA,American IPA,819,801,1.0
+Raincloud Robust Porter,American Porter,820,802,1.0
+Barstool American Golden Ale,American Blonde Ale,821,803,1.0
+What the Butler Saw,Witbier,822,804,1.0
+1916 Shore Shiver,American IPA,823,805,1.0
+Quick WIT,Belgian Pale Ale,824,806,1.0
+The Optimist,American IPA,825,807,1.0
+Suicide Squeeze IPA,American IPA,826,808,1.0
+Java the Hop,American IPA,827,809,1.0
+Next Adventure Black IPA,American Black Ale,828,810,1.0
+3-Way IPA (2013),American IPA,829,811,1.0
+Tender Loving Empire NWPA,American Pale Ale (APA),830,812,1.0
+Quick Wit Belgianesque Ale,Witbier,831,813,1.0
+Sunrise Oatmeal Pale Ale,American Pale Ale (APA),832,814,1.0
+Cavatica Stout,American Double / Imperial Stout,833,815,1.0
+1811 Lager,American Amber / Red Lager,834,816,1.0
+Vortex IPA,American IPA,835,817,1.0
+Fort Pitt Ale,American Amber / Red Ale,836,818,1.0
+Park,American Pale Wheat Ale,837,819,1.0
+Westfalia,American Amber / Red Ale,838,820,1.0
+KSA,Kölsch,839,821,1.0
+Villager,American IPA,840,822,1.0
+Dirty Bastard,Scotch Ale / Wee Heavy,841,823,1.0
+Centennial IPA,American IPA,842,824,1.0
+All Day IPA,American IPA,843,825,1.0
+El Chingon IPA,American IPA,844,826,1.0
+Block Party Robust Porter,American Porter,845,827,1.0
+Local Buzz,American Blonde Ale,846,828,1.0
+Feel Like Maplin' Love,Oatmeal Stout,847,829,1.0
+Father's Beer,Belgian Pale Ale,848,830,1.0
+The 26th,American IPA,849,831,1.0
+The Gadget,American IPA,850,832,1.0
+Leprechaun Lager,American Pale Lager,851,833,1.0
+Sunbru Kölsch,Kölsch,852,834,2.0
+Kilt Lifter Scottish-Style Ale,,853,835,
+Pumpkin Porter,American Porter,854,836,1.0
+Four Peaks Peach Ale,Fruit / Vegetable Beer,855,837,1.0
+Hop Knot IPA,American IPA,856,838,1.0
+Kilt Lifter Scottish-Style Ale (2009),Scottish Ale,857,839,1.0
+Sunbru Kölsch,Kölsch,858,834,2.0
+Four String Vanilla Porter,American Porter,859,840,1.0
+Suncaster Summer Wheat,American Pale Wheat Ale,860,841,1.0
+Brass Knuckle Pale Ale,American Pale Ale (APA),861,842,1.0
+Big Star White IPA,American White IPA,862,843,1.0
+Old Detroit,American Amber / Red Ale,863,844,1.0
+Batch 69 IPA,American IPA,864,845,1.0
+Twisted Helles Summer Lager,Munich Helles Lager,865,846,1.0
+OktoberFiesta,,866,847,
+Texicali,American Brown Ale,867,848,1.0
+Pinata Protest,Witbier,868,849,1.0
+Bat Outta Helles,Munich Helles Lager,869,850,1.0
+Original,American Amber / Red Ale,870,851,1.0
+Rye Wit,Witbier,871,852,1.0
+Soul Doubt,American IPA,872,853,1.0
+Yo Soy Un Berliner,Berliner Weissbier,873,854,1.0
+77 Fremont Select Spring Session IPA,American IPA,874,855,1.0
+Fremont Organic Pale Ale,American Pale Ale (APA),875,856,1.0
+Abominable Ale,English Strong Ale,876,857,1.0
+Harvest Ale,Saison / Farmhouse Ale,877,858,1.0
+Fremont Summer Ale,American Pale Ale (APA),878,859,1.0
+Universale Pale Ale,American Pale Ale (APA),879,860,1.0
+Interurban IPA,American IPA,880,861,1.0
+Gateway Kolsch Style Ale,Kölsch,881,862,1.0
+Wee-Heavy-Er Scotch Ale,Scotch Ale / Wee Heavy,882,863,1.0
+13 Rebels ESB,Extra Special / Strong Bitter (ESB),883,864,1.0
+Salamander Slam,American IPA,884,865,1.0
+Cack-A-Lacky,American Pale Ale (APA),885,866,1.0
+No Wake IPA,American IPA,886,867,1.0
+Boathouse Blonde,American Blonde Ale,887,868,1.0
+Cedar Point,American Amber / Red Ale,888,869,1.0
+Clean Shave IPA,American IPA,889,870,1.0
+Might As Well IPL,American Pale Lager,890,871,1.0
+Saison Pamplemousse,Saison / Farmhouse Ale,891,872,1.0
+2020 IPA,American IPA,892,873,1.0
+Wolf Among Weeds IPA,American IPA,893,874,1.0
+Better Weather IPA,American IPA,894,875,1.0
+Point the Way IPA,American IPA,895,876,2.0
+Golden Road Hefeweizen,Hefeweizen,896,877,1.0
+Heal the Bay IPA,American IPA,897,878,1.0
+Point the Way IPA,American IPA,898,876,2.0
+Cabrillo Kölsch,Kölsch,899,879,1.0
+Get Up Offa That Brown,American Brown Ale,900,880,1.0
+Burning Bush Smoked IPA,American IPA,901,881,1.0
+Wolf Among Weeds IPA (2012),American IPA,902,882,1.0
+Point the Way IPA (2012),American IPA,903,883,1.0
+Golden Road Hefeweizen (2012),Hefeweizen,904,884,1.0
+Vanilla Porter,American Porter,905,885,2.0
+Descender IPA,American IPA,906,886,1.0
+Sweet As Pacific Ale,American Pale Wheat Ale,907,887,1.0
+Good People Pale Ale,American Pale Ale (APA),908,888,1.0
+Snake Handler Double IPA,American Double / Imperial IPA,909,889,1.0
+Coffee Oatmeal Stout,Oatmeal Stout,910,890,1.0
+Good People IPA,American IPA,911,891,1.0
+Good People American Brown Ale,American Brown Ale,912,892,1.0
+Mountain Rescue Pale Ale,American Pale Ale (APA),913,893,1.0
+Goose Island India Pale Ale,American IPA,914,894,1.0
+312 Urban Pale Ale,American Pale Ale (APA),915,895,2.0
+312 Urban Pale Ale,American Pale Ale (APA),916,895,2.0
+312 Urban Wheat Ale,American Pale Wheat Ale,917,896,2.0
+312 Urban Wheat Ale,American Pale Wheat Ale,918,896,2.0
+312 Urban Wheat Ale (2012),American Pale Wheat Ale,919,897,1.0
+Beaver Logger,American Pale Lager,920,898,1.0
+White Water Wheat,American Pale Wheat Ale,921,899,1.0
+Grand Canyon American Pilsner,American Pilsner,922,900,1.0
+Grand Canyon Sunset Amber Ale,American Amber / Red Ale,923,901,1.0
+Black Iron India Pale Ale,American IPA,924,902,1.0
+Monarch Classic American Wheat,American Pale Wheat Ale,925,903,1.0
+Sir William's English Brown Ale,English Brown Ale,926,904,1.0
+Lakefire Rye Pale Ale,American Pale Ale (APA),927,905,1.0
+Beer Agent Re-Ignition,American Blonde Ale,928,906,1.0
+Cherry Ale,Fruit / Vegetable Beer,929,907,1.0
+Bourbon Barrel Aged Coconut Porter,American Porter,930,908,1.0
+Great Crescent IPA,American IPA,931,909,1.0
+Aurora Lager,Dortmunder / Export Lager,932,910,1.0
+Great Crescent Blonde Ale,American Blonde Ale,933,911,1.0
+Great Crescent Coconut Porter,American Porter,934,912,1.0
+Great Crescent Oktoberfest Lager,Märzen / Oktoberfest,935,913,1.0
+Great Crescent Brown Ale,American Brown Ale,936,914,1.0
+Cherry Ale (1),Fruit / Vegetable Beer,937,915,1.0
+Aurora Lager (2011),Dortmunder / Export Lager,938,916,1.0
+Frosted Fields Winter Wheat,American Dark Wheat Ale,939,917,1.0
+Great Crescent Belgian Style Wit,Witbier,940,918,1.0
+Bourbon's Barrel Stout,American Stout,941,919,1.0
+Great Crescent Stout,English Stout,942,920,1.0
+Great Crescent Coconut Porter (2012),American Porter,943,921,1.0
+Great Crescent Dark Lager,Euro Dark Lager,944,922,1.0
+Great Crescent Mild Ale,English Dark Mild Ale,945,923,1.0
+Great Crescent IPA (2011),American IPA,946,924,1.0
+Great Crescent Blonde Ale (2011),American Blonde Ale,947,925,1.0
+Denver Pale Ale (Artist Series No. 1),American Pale Ale (APA),948,926,1.0
+Hibernation Ale,Old Ale,949,927,1.0
+Whitewater,American Pale Wheat Ale,950,928,1.0
+Rumble,American IPA,951,929,1.0
+Orabelle,Tripel,952,930,1.0
+Lasso,American IPA,953,931,1.0
+Yeti  Imperial Stout,Russian Imperial Stout,954,932,1.0
+Colette,Saison / Farmhouse Ale,955,933,1.0
+Titan IPA,American IPA,956,934,1.0
+Black Star Double Hopped Golden Lager (24 oz.),American Pale Lager,957,935,1.0
+Black Star Double Hopped Golden Lager (12 oz.),American Pale Lager,958,936,1.0
+Commotion APA,American Pale Ale (APA),959,937,1.0
+Southern Drawl Pale Lager,American Pale Lager,960,938,1.0
+Chickawawa Lemonale,Fruit / Vegetable Beer,961,939,1.0
+Barrel Aged Farmer,American Brown Ale,962,940,1.0
+Great River Golden Ale,American Blonde Ale,963,941,1.0
+Dirty Blonde Chocolate Ale,American Blonde Ale,964,942,1.0
+Dos Pistolas,Vienna Lager,965,943,1.0
+Owney Irish Style Red Ale,Irish Red Ale,966,944,1.0
+Aaah Bock Lager,Vienna Lager,967,945,1.0
+Widespread Wit,Witbier,968,946,1.0
+Roller Dam Red Ale,Irish Red Ale,969,947,1.0
+483 Pale Ale,American Pale Ale (APA),970,948,1.0
+Hop A Potamus Double Dark Rye Pale Ale,Rye Beer,971,949,1.0
+Farmer Brown Ale,American Brown Ale,972,950,1.0
+Big Cock IPA,American IPA,973,951,1.0
+Oktoberfest,Märzen / Oktoberfest,974,573,6.0
+40th Annual Bix Street Fest Copper Ale (Current),American Amber / Red Ale,975,952,1.0
+Redband Stout,American Stout,976,953,1.0
+483 Pale Ale (2010),American Pale Ale (APA),977,954,1.0
+Roller Dam Red Ale (2010),Irish Red Ale,978,955,1.0
+Pablo Beach Pale Ale,American Pale Ale (APA),979,956,1.0
+Wild Trail Pale Ale,American Pale Ale (APA),980,957,1.0
+Mothman Black IPA,American Black Ale,981,958,1.0
+Autumn Winds Fest Beer,Märzen / Oktoberfest,982,959,1.0
+Captain's Daughter,American Double / Imperial IPA,983,960,1.0
+Autumn Winds,Märzen / Oktoberfest,984,961,1.0
+Flying Jenny Extra Pale Ale,American Pale Ale (APA),985,962,1.0
+Hazy Day Belgian-Style Wit,Witbier,986,963,1.0
+Bring Back the Beach Blonde Ale,American Blonde Ale,987,964,1.0
+Leaning Chimney Smoked Porter,American Porter,988,965,1.0
+Flying Jenny Extra Pale Ale (2012),American Pale Ale (APA),989,966,1.0
+Flagship Ale,Cream Ale,990,967,1.0
+Mr. Blue Sky,American Pale Wheat Ale,991,968,1.0
+3 Scrooges,Winter Warmer,992,969,1.0
+Screamin’ Pumpkin,Pumpkin Ale,993,970,1.0
+Grand Trunk Bohemian Pils,Czech Pilsener,994,971,1.0
+El Rojo,American Amber / Red Ale,995,972,1.0
+Norm's Raggedy Ass IPA,American IPA,996,973,1.0
+Grind Line,American Pale Ale (APA),997,974,1.0
+Norm's Gateway IPA,American IPA,998,975,1.0
+Lemon Shandy Tripel,Tripel,999,976,1.0
+Little Red Cap,Altbier,1000,977,1.0
+Supergoose IPA,American IPA,1001,978,1.0
+Hale's Pale American Ale,American Pale Ale (APA),1002,979,1.0
+Heyoka IPA,American IPA,1003,980,1.0
+Guest Lager,American Double / Imperial Pilsner,1004,981,1.0
+Pony Pilsner,German Pilsener,1005,982,1.0
+Akari Shogun American Wheat Ale,American Pale Wheat Ale,1006,983,1.0
+Meat Wave,English India Pale Ale (IPA),1007,984,1.0
+Over Ale,American Brown Ale,1008,985,1.0
+Gossamer Golden Ale,American Blonde Ale,1009,986,1.0
+Daisy Cutter Pale Ale,American Pale Ale (APA),1010,987,1.0
+Pursuit,American IPA,1011,988,1.0
+Half Full Bright Ale,American Blonde Ale,1012,989,1.0
+Orange Wheat,Fruit / Vegetable Beer,1013,990,1.0
+Hangar 24 Helles Lager,Munich Helles Lager,1014,991,1.0
+The Great Return,American IPA,1015,992,1.0
+Hardywood Cream Ale,Cream Ale,1016,993,1.0
+Capital Trail Pale Ale,American Pale Ale (APA),1017,994,1.0
+UFO Gingerland,Herbed / Spiced Beer,1018,995,1.0
+The Long Thaw White IPA,American White IPA,1019,996,1.0
+Honey Cider,Cider,1020,997,1.0
+Harpoon Summer Beer,Kölsch,1021,998,1.0
+Harpoon IPA,American IPA,1022,999,1.0
+UFO Pumpkin,Pumpkin Ale,1023,1000,1.0
+Harpoon Octoberfest,Märzen / Oktoberfest,1024,1001,1.0
+Harpoon IPA (2012),American IPA,1025,1002,1.0
+Harpoon Summer Beer (2012),Kölsch,1026,1003,1.0
+UFO White,American Pale Wheat Ale,1027,1004,1.0
+Harpoon Summer Beer (2010),Kölsch,1028,1005,1.0
+Harpoon IPA (2010),American IPA,1029,1006,1.0
+Great Falls Select Pale Ale,American Blonde Ale,1030,1007,1.0
+Beltian White,Witbier,1031,1008,1.0
+Kaua'i Golden Ale,American Blonde Ale,1032,1009,1.0
+Sunset Amber,American Pale Ale (APA),1033,1010,1.0
+Hapa Brown Ale,American Brown Ale,1034,1011,2.0
+Hapa Brown Ale,American Brown Ale,1035,1011,2.0
+Southern Cross,Flanders Red Ale,1036,1012,1.0
+Groupe G,Belgian IPA,1037,1013,1.0
+Pt. Bonita Rustic Lager,American Pale Lager,1038,1014,1.0
+Hill 88 Double IPA,American Double / Imperial IPA,1039,1015,1.0
+Loose Cannon,American IPA,1040,1016,1.0
+AARGHtoberfest!,Märzen / Oktoberfest,1041,1017,1.0
+Davy Jones Lager,Cream Ale,1042,1018,1.0
+Grazias,Cream Ale,1043,1019,2.0
+Habitus IPA,American IPA,1044,1020,1.0
+Ex Umbris Rye Imperial Stout,American Double / Imperial Stout,1045,1021,1.0
+The Golden One,American Pilsner,1046,1022,1.0
+The Power of Zeus,American Pale Ale (APA),1047,1023,1.0
+Tonganoxie Honey Wheat,American Pale Wheat Ale,1048,1024,1.0
+Oregon Trail Unfiltered Raspberry Wheat,Fruit / Vegetable Beer,1049,1025,1.0
+Annie's Amber Ale,American Amber / Red Ale,1050,1026,1.0
+The 12th Can™,American Pale Ale (APA),1051,1027,1.0
+Hilliard's Pils,Czech Pilsener,1052,1028,1.0
+Hilliard's Blonde,American Blonde Ale,1053,1029,1.0
+Hilliard's Amber Ale,American Amber / Red Ale,1054,1030,1.0
+Hilliard's Saison,Saison / Farmhouse Ale,1055,1031,1.0
+White Cap White IPA,American White IPA,1056,1032,1.0
+Provision,Saison / Farmhouse Ale,1057,1033,1.0
+One Nut Brown,American Brown Ale,1058,1034,1.0
+Hop Farm IPA,American IPA,1059,1035,1.0
+Double D Blonde,American Blonde Ale,1060,1036,1.0
+Festeroo Winter Ale,American Strong Ale,1061,1037,1.0
+Proxima IPA,American IPA,1062,1038,1.0
+Double D Blonde (2013),American Blonde Ale,1063,1039,1.0
+541 American Lager,American Pale Lager,1064,1040,1.0
+Alphadelic IPA,American IPA,1065,1041,1.0
+Alphadelic IPA (2011),American IPA,1066,1042,1.0
+Double D Blonde (2011),American Blonde Ale,1067,1043,1.0
+Green House India Pale Ale,American IPA,1068,1044,1.0
+The One They Call Zoe,American Pale Lager,1069,1045,1.0
+Alteration,Altbier,1070,1046,1.0
+Pale Dog,American Pale Ale (APA),1071,1047,1.0
+Porter Culture,American Porter,1072,1048,1.0
+Hard Cider,Cider,1073,1049,1.0
+Totally Radler,Radler,1074,1050,1.0
+Nonstop Hef Hop,American Pale Wheat Ale,1075,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1076,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1077,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1078,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1079,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1080,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1081,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1082,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1083,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1084,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1085,1051,12.0
+Nonstop Hef Hop,American Pale Wheat Ale,1086,1051,12.0
+Rise Up Red,American Amber / Red Ale,1087,1052,1.0
+Survival Stout,American Stout,1088,1053,1.0
+Hopworks IPA,American IPA,1089,1054,1.0
+Abominable Winter Ale,American Strong Ale,1090,1055,1.0
+Pigwar White India Pale Ale,American White IPA,1091,1056,1.0
+Rise-Up Red (2014),American Amber / Red Ale,1092,1057,1.0
+Abominable Winter Ale (2012),American Strong Ale,1093,1058,1.0
+HUB Lager,Czech Pilsener,1094,1059,1.0
+Hopworks IPA (2012),American IPA,1095,1060,1.0
+Watermelon Wheat,American Pale Wheat Ale,1096,1061,1.0
+Laka Laka Pineapple,Hefeweizen,1097,1062,1.0
+Oktoberfest,Märzen / Oktoberfest,1098,573,6.0
+Trail Maker Pale Ale,American Pale Ale (APA),1099,1063,1.0
+Action Man Lager,Vienna Lager,1100,1064,1.0
+Let It Ride IPA,American IPA,1101,1065,1.0
+Stir Crazy Winter Ale,Winter Warmer,1102,1066,1.0
+Sweet Yamma Jamma Ale,Fruit / Vegetable Beer,1103,1067,1.0
+Shenanigans Summer Ale,American Pale Wheat Ale,1104,1068,1.0
+Midnight Ryder,American Black Ale,1105,1069,1.0
+Day Tripper Pale Ale,American Pale Ale (APA),1106,1070,1.0
+Oklahoma Suks,American Amber / Red Ale,1107,1071,1.0
+Power & Light,American Pale Ale (APA),1108,1072,1.0
+White Rabbit,Witbier,1109,1073,1.0
+Tribute,American Pale Ale (APA),1110,1074,1.0
+Infamous IPA,American IPA,1111,1075,1.0
+Hijack,Cream Ale,1112,1076,1.0
+Jon Boat Coastal Ale,American Blonde Ale,1113,1077,1.0
+I-10 IPA,American IPA,1114,1078,1.0
+People's Pale Ale,American Pale Ale (APA),1115,1079,1.0
+Summer Ale,American Blonde Ale,1116,1080,1.0
+Appreciation Ale,American IPA,1117,1081,1.0
+House Lager,Keller Bier / Zwickel Bier,1118,1082,1.0
+Leisure Time,American Pale Lager,1119,1083,1.0
+Excess IPL,American India Pale Lager,1120,1084,1.0
+Hoponius Union,American India Pale Lager,1121,1085,1.0
+Calyptra,American India Pale Lager,1122,1086,1.0
+Helen's Blend,Cider,1123,1087,1.0
+Jack's Hard Cider,Cider,1124,1088,1.0
+Thunder Ann,American Pale Ale (APA),1125,1089,1.0
+Razz Wheat,Fruit / Vegetable Beer,1126,1090,1.0
+Hop Ryot,American IPA,1127,1091,1.0
+Mystic Mama IPA,American IPA,1128,1092,1.0
+Firefly Amber Ale,American Amber / Red Ale,1129,1093,1.0
+Chomolungma Honey Nut Brown Ale,English Brown Ale,1130,1094,1.0
+Welcome to Scoville,American IPA,1131,1095,1.0
+Bastian,American Strong Ale,1132,1096,1.0
+Healani,Hefeweizen,1133,1097,1.0
+Yabba Dhaba Chai Tea Porter,American Porter,1134,1098,1.0
+A Capella Gluten Free Pale Ale,American Pale Ale (APA),1135,1099,1.0
+Casper White Stout,American Blonde Ale,1136,1100,1.0
+JP's Ould Sod Irish Red IPA,American IPA,1137,1101,1.0
+Weize Guy,Hefeweizen,1138,1102,1.0
+Fox Tail Gluten Free Ale,American Pale Ale (APA),1139,1103,1.0
+Hop Box Imperial IPA,American Double / Imperial IPA,1140,1104,1.0
+Joseph James American Lager,American Adjunct Lager,1141,1105,1.0
+Sucha Much IPA,American IPA,1142,1106,1.0
+Lewbricator Wheat Dopplebock,Doppelbock,1143,1107,1.0
+Weisse Versa (2012),Hefeweizen,1144,1108,1.0
+Mother in Lager,Munich Dunkel Lager,1145,1109,1.0
+Weekend Warrior Pale Ale,American Pale Ale (APA),1146,1110,1.0
+Karbachtoberfest,Märzen / Oktoberfest,1147,1111,1.0
+Love Street Summer Seasonal (2014),Kölsch,1148,1112,1.0
+Barn Burner Saison,Saison / Farmhouse Ale,1149,1113,1.0
+Rodeo Clown Double IPA,American Double / Imperial IPA,1150,1114,1.0
+Sympathy for the Lager,American Amber / Red Lager,1151,1115,1.0
+Weisse Versa,Hefeweizen,1152,1116,1.0
+Hopadillo India Pale Ale,American IPA,1153,1117,1.0
+KelSo Nut Brown Lager,Euro Dark Lager,1154,1118,1.0
+KelSo India Pale Ale,American IPA,1155,1119,1.0
+KelSo Pilsner,Czech Pilsener,1156,1120,1.0
+Skilak Scottish Ale,Scottish Ale,1157,1121,1.0
+Peninsula Brewers Reserve (PBR),American Blonde Ale,1158,1122,1.0
+Sunken Island IPA,American IPA,1159,1123,1.0
+Skilak Scottish Ale (2011),Scottish Ale,1160,1124,1.0
+Cold Smoke Scotch Ale (2007),Scotch Ale / Wee Heavy,1161,1125,1.0
+Double Haul IPA (2009),American IPA,1162,1126,1.0
+Double Haul IPA (2006),American IPA,1163,1127,1.0
+Eddy Out Pale Ale,American Pale Ale (APA),1164,1128,1.0
+Double Haul IPA,American IPA,1165,1129,1.0
+Cold Smoke Scotch Ale,Scotch Ale / Wee Heavy,1166,1130,1.0
+U. P. Witbier,Witbier,1167,1131,1.0
+November Gale Pale Ale,American Pale Ale (APA),1168,1132,1.0
+Olde Ore Dock Scottish Ale,Scottish Ale,1169,1133,1.0
+Widow Maker Black Ale,American Brown Ale,1170,1134,1.0
+Lift Bridge Brown Ale,American Brown Ale,1171,1135,1.0
+Pick Axe Blonde Ale,American Blonde Ale,1172,1136,1.0
+Red Jacket Amber Ale,American Amber / Red Ale,1173,1137,1.0
+Amber Ale,American Amber / Red Ale,1174,1138,1.0
+King Street Pilsner,Czech Pilsener,1175,1139,1.0
+King Street IPA,American IPA,1176,1140,1.0
+King Street Hefeweizen,Hefeweizen,1177,1141,1.0
+King Street Blonde Ale,American Blonde Ale,1178,1142,1.0
+India Pale Ale,American IPA,1179,1143,1.0
+Blackberry Wheat,American Pale Wheat Ale,1180,1144,1.0
+Longboard Island Lager,American Amber / Red Lager,1181,1145,4.0
+Longboard Island Lager,American Amber / Red Lager,1182,1145,4.0
+Longboard Island Lager,American Amber / Red Lager,1183,1145,4.0
+Longboard Island Lager,American Amber / Red Lager,1184,1145,4.0
+Choc Beer (2003),American Dark Wheat Ale,1185,1146,1.0
+Bellingham Beer Week 2013 Collaboration,Belgian Strong Dark Ale,1186,1147,1.0
+A Slice of Hefen,Hefeweizen,1187,1148,1.0
+Elevated IPA,American IPA,1188,1149,1.0
+Rumspringa Golden Bock,Maibock / Helles Bock,1189,1150,1.0
+Lancaster German Style Kölsch,Kölsch,1190,1151,1.0
+Beach Cruiser,Hefeweizen,1191,1152,1.0
+I.P. Eh!,American IPA,1192,1153,1.0
+Schoolhouse Honey,American Amber / Red Ale,1193,1154,1.0
+10 Degrees of Separation,English Brown Ale,1194,1155,1.0
+Laughing Dog Cream Ale,Cream Ale,1195,1156,1.0
+Two-One Niner,American Pilsner,1196,1157,1.0
+Laughing Dog IPA,American IPA,1197,1158,1.0
+Madra Allta,American IPA,1198,1159,1.0
+Duluchan India Pale Ale,American IPA,1199,1160,1.0
+Lazy Monk Bohemian Pilsner,Czech Pilsener,1200,1161,1.0
+Yellowstone Golden Ale,Kölsch,1201,1162,1.0
+Tumbleweed IPA,American IPA,1202,1163,1.0
+Lewis & Clark Amber Ale,American Amber / Red Ale,1203,1164,1.0
+Miner's Gold Hefeweizen,Hefeweizen,1204,1165,1.0
+Back Country Scottish Ale,Scottish Ale,1205,1166,1.0
+Getaway,German Pilsener,1206,1167,1.0
+Farm Girl Saison,Saison / Farmhouse Ale,1207,1168,1.0
+Adam's Stout,American Stout,1208,1169,1.0
+American Hero,American Amber / Red Ale,1209,1170,1.0
+Schweet Ale,Fruit / Vegetable Beer,1210,1171,1.0
+Irregardless IPA,American IPA,1211,1172,1.0
+Peach Pale Ale,American Pale Ale (APA),1212,1173,1.0
+Deadeye Jack,American Porter,1213,1174,1.0
+Pistols at Dawn,American Stout,1214,1175,1.0
+Peacemaker Pale Ale,American Pale Ale (APA),1215,1176,1.0
+Shotgun Betty,Hefeweizen,1216,1177,1.0
+Sweet Josie,American Brown Ale,1217,1178,1.0
+Long Trail IPA,English India Pale Ale (IPA),1218,1179,1.0
+Long Trail Ale,American Amber / Red Ale,1219,1180,1.0
+Double Bag,Altbier,1220,1181,1.0
+Blackbeary Wheat,Fruit / Vegetable Beer,1221,1182,1.0
+Long Trail Ale (1),Altbier,1222,1183,1.0
+Gose,Gose,1223,1184,2.0
+Vermont Pilsner,German Pilsener,1224,1185,1.0
+Mosaic Single Hop IPA,American IPA,1225,1186,1.0
+Lost Galaxy,American IPA,1226,1187,1.0
+Face Plant IPA,American IPA,1227,1188,1.0
+Rhino Chasers Pilsner,Czech Pilsener,1228,1189,1.0
+Slow Hand Stout,American Stout,1229,1190,1.0
+Hips Don't Lie,Hefeweizen,1230,1191,1.0
+Ride Again Pale Ale,American Pale Ale (APA),1231,1192,1.0
+The Farmer's Daughter,American Blonde Ale,1232,1193,1.0
+Pub Ale,English Dark Mild Ale,1233,1194,1.0
+Ballistic Blonde,Belgian Pale Ale,1234,1195,1.0
+Knotty Pine,American Pale Ale (APA),1235,1196,1.0
+Lumberyard Pilsner,American Pilsner,1236,1197,1.0
+Lumberyard IPA,American IPA,1237,1198,1.0
+Lumberyard Red Ale,American Amber / Red Ale,1238,1199,1.0
+Mac's Highlander Pale Ale (2000),American Pale Ale (APA),1239,1200,1.0
+Mac's Scottish Style Amber Ale (2000),American Amber / Red Ale,1240,1201,1.0
+Macon Progress Ale,American Pale Ale (APA),1241,1202,1.0
+Macon History Ale,American Brown Ale,1242,1203,1.0
+Galaxy High,American Double / Imperial IPA,1243,1204,1.0
+Sol Drifter,American Blonde Ale,1244,1205,1.0
+Thunder Snow,Winter Warmer,1245,1206,1.0
+The Great Pumpcan,Fruit / Vegetable Beer,1246,1207,1.0
+LIFT,Kölsch,1247,1208,1.0
+SPRYE,American Pale Ale (APA),1248,1209,1.0
+Psychopathy,American IPA,1249,1210,1.0
+Gnarly Brown,American Brown Ale,1250,1211,1.0
+Happy Amber,American Amber / Red Ale,1251,1212,1.0
+#9,Fruit / Vegetable Beer,1252,1213,2.0
+Elder Betty,Hefeweizen,1253,1214,1.0
+#9,Fruit / Vegetable Beer,1254,1213,2.0
+High Country Pilsner (Current),German Pilsener,1255,1215,1.0
+Epic IPA,American IPA,1256,1216,1.0
+Golden Trout Pilsner,German Pilsener,1257,1217,1.0
+Real McCoy Amber Ale (Current),American Amber / Red Ale,1258,1218,1.0
+Festivus (1),Winter Warmer,1259,1219,1.0
+Manayunk Oktoberfest,Märzen / Oktoberfest,1260,1220,1.0
+Belgian Style Session Ale,Belgian Pale Ale,1261,1221,1.0
+Manayunk IPA,American IPA,1262,1222,1.0
+Yunkin' Punkin',Pumpkin Ale,1263,1223,1.0
+Summer Paradise,American Pale Wheat Ale,1264,1224,1.0
+Monk from the 'Yunk,Tripel,1265,1225,1.0
+Schuylkill Punch,Fruit / Vegetable Beer,1266,1226,1.0
+Dreamin' Double IPA,American Double / Imperial IPA,1267,1227,1.0
+Chaotic Double IPA,American Double / Imperial IPA,1268,1228,1.0
+Manzanita IPA,American IPA,1269,1229,1.0
+Riverwalk Blonde Ale,American Blonde Ale,1270,1230,1.0
+Gillespie Brown Ale,American Brown Ale,1271,1231,1.0
+Manzanita Pale Ale,American Pale Ale (APA),1272,1232,1.0
+Marble Pilsner,German Pilsener,1273,1233,1.0
+Marble India Pale Ale,American IPA,1274,1234,1.0
+Toughcats IPA,American IPA,1275,1235,1.0
+Tug Pale Ale,American Pale Ale (APA),1276,1236,1.0
+Sexy Chaos,Russian Imperial Stout,1277,1237,1.0
+Ace Hole American Pale Ale,American Pale Ale (APA),1278,1238,1.0
+Cant Dog Imperial Pale Ale,American Double / Imperial IPA,1279,1239,1.0
+River House,Saison / Farmhouse Ale,1280,1240,1.0
+Pretzel Stout,American Stout,1281,1241,1.0
+Rubberneck Red,American Amber / Red Ale,1282,1242,1.0
+The Imperial Texan,American Double / Imperial IPA,1283,1243,2.0
+The Imperial Texan,American Double / Imperial IPA,1284,1243,2.0
+Day Break 4-Grain Breakfast Beer,Rye Beer,1285,1244,1.0
+River House Saison,Saison / Farmhouse Ale,1286,1245,1.0
+There Will Be Stout,American Stout,1287,1246,1.0
+Our Legacy IPA,American IPA,1288,1247,2.0
+Saranac Shandy,Shandy,1289,1248,1.0
+Our Legacy IPA,American IPA,1290,1247,2.0
+Saranac Golden Pilsener (2003),German Pilsener,1291,1249,1.0
+Saranac Adirondack Light (2002),Light Lager,1292,1250,1.0
+DAX Light (1998),Light Lager,1293,1251,1.0
+Saranac Traditional Lager (2000),American Pale Lager,1294,1252,1.0
+Pomegranate Wheat (2008),Fruit / Vegetable Beer,1295,1253,1.0
+Blueberry Blonde Ale,American Blonde Ale,1296,1254,1.0
+Saranac White IPA,American IPA,1297,1255,1.0
+Saranac Summer Ale (2011),American Pale Wheat Ale,1298,1256,1.0
+Saranac Pale Ale (12 oz.),English Pale Ale,1299,1257,1.0
+Saranac Pale Ale (16 oz.),English Pale Ale,1300,1258,1.0
+Lahaina Town Brown,American Brown Ale,1301,1259,1.0
+Pau Hana Pilsner,Czech Pilsener,1302,1260,1.0
+Lemongrass Saison,Saison / Farmhouse Ale,1303,1261,1.0
+Aloha B’ak’tun,Belgian Strong Dark Ale,1304,1262,1.0
+Liquid Breadfruit,Fruit / Vegetable Beer,1305,1263,1.0
+Sobrehumano Palena'ole,American Amber / Red Ale,1306,1264,1.0
+La Perouse White,Witbier,1307,1265,1.0
+Flyin' HI.P.Hay,American IPA,1308,1266,1.0
+Mana Wheat,American Pale Wheat Ale,1309,1267,1.0
+Bikini Blonde Lager,Munich Helles Lager,1310,1268,1.0
+CoCoNut Porter,American Porter,1311,1269,1.0
+Big Swell IPA,American IPA,1312,1270,1.0
+Pit Stop Chocolate Porter,American Porter,1313,1271,1.0
+Pace Setter Belgian Style Wit,Witbier,1314,1272,1.0
+Back in the Saddle Rye Pale Ale,American Pale Ale (APA),1315,1273,1.0
+Bushwhacker Cider,Cider,1316,1274,1.0
+Weim-R-Iner,Cider,1317,1275,1.0
+Cherry Bomb,Cider,1318,1276,1.0
+Tsunami IPA,American IPA,1319,1277,2.0
+Tsunami IPA,American IPA,1320,1277,2.0
+Humpback Blonde Ale,American Blonde Ale,1321,1278,1.0
+Hawaiian Crow Porter,American Porter,1322,1279,1.0
+Volcano Red Ale,American Amber / Red Ale,1323,1280,1.0
+Mauna Kea Pale Ale,American Pale Ale (APA),1324,1281,1.0
+Shark Bait,Fruit / Vegetable Beer,1325,1282,1.0
+Gator Tail Brown Ale,American Brown Ale,1326,1283,1.0
+Miami Vice IPA,American IPA,1327,1284,1.0
+Big Rod Coconut Ale,American Blonde Ale,1328,1285,1.0
+Mickey Finn's Amber Ale,American Amber / Red Ale,1329,1286,1.0
+Pleasure Town,American IPA,1330,1287,1.0
+Pleasure Town IPA,American IPA,1331,1288,1.0
+Snowshoe White Ale,Witbier,1332,1289,1.0
+Kodiak Brown Ale,American Brown Ale,1333,1290,1.0
+Sockeye Red IPA,American IPA,1334,1291,1.0
+Habitus (2014),American Double / Imperial IPA,1335,1292,1.0
+Solis,American IPA,1336,1293,1.0
+Jucundus,Wheat Ale,1337,1294,1.0
+Habitus,American Double / Imperial IPA,1338,1295,1.0
+Grazias,Cream Ale,1339,1019,2.0
+Claritas,Kölsch,1340,1296,1.0
+Vinyl Frontier,American Double / Imperial IPA,1341,1297,1.0
+Disco Superfly,American IPA,1342,1298,1.0
+Misty Mountain Hop,American IPA,1343,1299,1.0
+One-Hit Wonderful,Belgian IPA,1344,1300,1.0
+En Parfaite Harmonie,Saison / Farmhouse Ale,1345,1301,1.0
+Daft Funk,Berliner Weissbier,1346,1302,1.0
+Love In An Ellavator,American IPA,1347,1303,1.0
+Spin Doctor,American Pale Ale (APA),1348,1304,1.0
+Keeper (Current),American Pilsner,1349,1305,1.0
+Better Half,American IPA,1350,1306,1.0
+SNO White Ale,Witbier,1351,1307,1.0
+BRIK Irish Red Ale,Irish Red Ale,1352,1308,1.0
+AXL Pale Ale,American Pale Ale (APA),1353,1309,1.0
+Hop Freak,American Double / Imperial IPA,1354,1310,1.0
+Louie's Demise Amber Ale,American Amber / Red Ale,1355,1311,1.0
+Hop Happy,American IPA,1356,1312,1.0
+Booyah Farmhouse Ale,Saison / Farmhouse Ale,1357,1313,1.0
+O-Gii,Witbier,1358,1314,1.0
+Flaming Damsel Lager (2010),Vienna Lager,1359,1315,1.0
+Louie’s Demise Immort-Ale (2010),American Amber / Red Ale,1360,1316,1.0
+Axe Head Malt Liquor,American Malt Liquor,1361,1317,1.0
+Huber Bock (2014),Bock,1362,1318,1.0
+Minhas Light (2012),Light Lager,1363,1319,1.0
+Huber,American Pale Lager,1364,1320,1.0
+Clear Creek Ice,American Pale Lager,1365,1321,2.0
+Clear Creek Ice,American Pale Lager,1366,1321,2.0
+Mountain Crest,American Pale Lager,1367,1322,2.0
+Mountain Crest,American Pale Lager,1368,1322,2.0
+Mountain Creek (2013),American Pale Lager,1369,1323,1.0
+Boxer,American Adjunct Lager,1370,1324,2.0
+Boxer Light,Light Lager,1371,1325,1.0
+Boxer Ice,American Adjunct Lager,1372,1326,1.0
+Boxer,American Adjunct Lager,1373,1324,2.0
+Cortez Gold,Belgian Pale Ale,1374,1327,1.0
+Mission IPA,American IPA,1375,1328,1.0
+El Conquistador Extra Pale Ale,American Pale Ale (APA),1376,1329,1.0
+Shipwrecked Double IPA,American Double / Imperial IPA,1377,1330,1.0
+Squeaky Bike Nut Brown Ale,American Brown Ale,1378,1331,1.0
+Dead Horse Amber,American Pale Wheat Ale,1379,1332,1.0
+Rocket Bike American Lager,California Common / Steam Beer,1380,1333,1.0
+Johnny's American IPA,American IPA,1381,1334,1.0
+Boneshaker Brown Ale,English Brown Ale,1382,1335,1.0
+Iron Mike Pale Ale,American Pale Ale (APA),1383,1336,1.0
+Monkadelic,American Pale Ale (APA),1384,1337,1.0
+City of the Sun,American IPA,1385,1338,1.0
+Booming Rollers,American IPA,1386,1339,1.0
+Oneida,American Pale Ale (APA),1387,1340,1.0
+Aurora,American Amber / Red Ale,1388,1341,1.0
+Lomaland,Saison / Farmhouse Ale,1389,1342,1.0
+Fortunate Islands,American Pale Wheat Ale,1390,1343,1.0
+Black House,American Stout,1391,1344,1.0
+Blazing World,American Amber / Red Ale,1392,1345,1.0
+Wapiti Amber Ale,American Amber / Red Ale,1393,1346,1.0
+Sweet Georgia Brown,American Brown Ale,1394,1347,1.0
+Rich Man's IIPA,American Double / Imperial IPA,1395,1348,1.0
+Monkey Paw Oatmeal Pale Ale,American Pale Ale (APA),1396,1349,1.0
+Montauk Summer Ale,American Blonde Ale,1397,1350,1.0
+Driftwood Ale,Extra Special / Strong Bitter (ESB),1398,1351,1.0
+When Helles Freezes Over,Munich Helles Lager,1399,1352,1.0
+Morgan Street Oktoberfest,Märzen / Oktoberfest,1400,1353,1.0
+Honey Wheat,American Pale Wheat Ale,1401,1354,1.0
+Black Bear Dark Lager,Schwarzbier,1402,1355,1.0
+Golden Pilsner,German Pilsener,1403,1356,1.0
+Cali Creamin',Cream Ale,1404,1357,1.0
+Second Wind Pale Ale,American Pale Ale (APA),1405,1358,1.0
+Sunny Haze,Hefeweizen,1406,1359,1.0
+Towhead,American Blonde Ale,1407,1360,1.0
+Lil' Helper,American IPA,1408,1361,1.0
+Train Wreck,American Amber / Red Ale,1409,1362,1.0
+Full Moon Belgian White Ale,Witbier,1410,1363,1.0
+Desert Magic IPA,American IPA,1411,1364,1.0
+Up River Light,Light Lager,1412,1365,1.0
+Full Moon Belgian White Ale (2007),Witbier,1413,1366,1.0
+Dry Heat Hefeweizen (2006),Hefeweizen,1414,1367,1.0
+Mustang Sixty-Six,American Amber / Red Lager,1415,1368,1.0
+Mustang '33,American Pale Lager,1416,1369,1.0
+Session '33 (2011),American Pale Lager,1417,1370,1.0
+Mustang Golden Ale,American Blonde Ale,1418,1371,1.0
+Washita Wheat,American Pale Wheat Ale,1419,1372,1.0
+Gansett Light,Light Lager,1420,1373,1.0
+Bohemian Pils,American Pilsner,1421,1374,1.0
+Autocrat Coffee Milk Stout,Milk / Sweet Stout,1422,1375,1.0
+Narragansett Bohemian Pilsner,German Pilsener,1423,1376,1.0
+Narragansett Summer Ale,American Pale Wheat Ale,1424,1377,2.0
+Narragansett Cream Ale,Cream Ale,1425,1378,1.0
+Narragansett Summer Ale,American Pale Wheat Ale,1426,1377,2.0
+Narragansett Porter,American Porter,1427,1379,1.0
+Narragansett Bock,Bock,1428,1380,1.0
+Narragansett Fest Lager,Märzen / Oktoberfest,1429,1381,1.0
+Undun Blonde Ale,American Blonde Ale,1430,1382,1.0
+CuDa Cascadian Dark Ale,American Black Ale,1431,1383,1.0
+Old Grogham Imperial India Pale Ale,American Double / Imperial IPA,1432,1384,1.0
+Old Grogham Imperial India Pale Ale (2012),American Double / Imperial IPA,1433,1385,1.0
+CuDa Cascadian Dark Ale (2012),American Black Ale,1434,1386,1.0
+Undun Blonde Ale (2012),American Blonde Ale,1435,1387,1.0
+Wick For Brains,Pumpkin Ale,1436,1388,1.0
+Nebraska India Pale Ale,American IPA,1437,1389,1.0
+EOS Hefeweizen,Hefeweizen,1438,1390,1.0
+Brunette Nut Brown Ale,English Brown Ale,1439,1391,1.0
+Cardinal Pale Ale,American Pale Ale (APA),1440,1392,1.0
+County Line IPA,American IPA,1441,1393,1.0
+Trauger Pilsner,German Pilsener,1442,1394,1.0
+Slow Ride,American IPA,1443,1395,1.0
+Ranger IPA,American IPA,1444,1396,2.0
+Shift,American Pale Lager,1445,1397,2.0
+1554 Black Lager,Euro Dark Lager,1446,1398,1.0
+Blue Paddle,Czech Pilsener,1447,1399,1.0
+California Route,American Amber / Red Lager,1448,1400,1.0
+Snapshot,American Pale Wheat Ale,1449,1401,1.0
+Sunshine Wheat Beer,American Pale Wheat Ale,1450,1402,1.0
+Fat Tire Amber Ale,American Amber / Red Ale,1451,1403,2.0
+Shift (1),American Pale Lager,1452,1404,1.0
+Fat Tire Amber Ale (2011),American Amber / Red Ale,1453,1405,1.0
+Shift,American Pale Lager,1454,1397,2.0
+Ranger IPA,American IPA,1455,1396,2.0
+Fat Tire Amber Ale,American Amber / Red Ale,1456,1403,2.0
+Ranger IPA (Current),American IPA,1457,1406,1.0
+Sunshine Wheat Beer (2009),American Pale Wheat Ale,1458,1407,1.0
+Fat Tire Amber Ale (2008),American Amber / Red Ale,1459,1408,1.0
+Weiss Trash Culture,Berliner Weissbier,1460,1409,1.0
+Sea Hag IPA,American IPA,1461,1410,1.0
+Elm City Pilsner,American Pilsner,1462,1411,1.0
+Atlantic Amber Ale (2004),American Amber / Red Ale,1463,1412,1.0
+668 Neighbor of the Beast12 oz.,Belgian Pale Ale,1464,1413,1.0
+Gandhi-Bot Double IPA (12 oz.),American Double / Imperial IPA,1465,1414,1.0
+668 Neighbor of the Beast (16 oz.) (2010),Belgian Pale Ale,1466,1415,1.0
+Gandhi-Bot Double IPA (16 oz.) (2010),American Double / Imperial IPA,1467,1416,1.0
+Elm City Lager (2007),American Pilsner,1468,1417,1.0
+Atlantic Amber Ale (2007),American Amber / Red Ale,1469,1418,1.0
+Sea Hag IPA (Current),American IPA,1470,1419,1.0
+Rebirth Pale Ale,American Pale Ale (APA),1471,1420,1.0
+Irish Channel Stout,American Stout,1472,1421,1.0
+MechaHopzilla,American Double / Imperial IPA,1473,1422,1.0
+Hopitoulas IPA,American IPA,1474,1423,1.0
+NOLA Brown Ale,English Dark Mild Ale,1475,1424,1.0
+NOLA Blonde Ale,American Blonde Ale,1476,1425,1.0
+Skylight,Dunkelweizen,1477,1426,1.0
+Kadigan,American Blonde Ale,1478,1427,1.0
+Dammit Jim!,American Amber / Red Ale,1479,1428,1.0
+Nut Brown Ale,English Brown Ale,1480,1429,1.0
+White Ale,Witbier,1481,1430,1.0
+Cream Ale,Cream Ale,1482,1431,1.0
+Green Head IPA,American IPA,1483,1432,1.0
+Plum Island Belgian White,Witbier,1484,1433,1.0
+Newburyport Pale Ale,American Pale Ale (APA),1485,1434,1.0
+Marblehead,American Amber / Red Ale,1486,1435,1.0
+Jam Session,American Pale Ale (APA),1487,1436,1.0
+Hop Drop 'N Roll IPA,American IPA,1488,1437,1.0
+Paleo IPA,English India Pale Ale (IPA),1489,1438,1.0
+Buck Snort Stout,American Stout,1490,1439,1.0
+Station 33 Firehouse Red,Irish Red Ale,1491,1440,1.0
+Slimy Pebble Pils,German Pilsener,1492,1441,1.0
+Get Together,American IPA,1493,1442,1.0
+Maggie's Leap,Milk / Sweet Stout,1494,1443,1.0
+Wall's End,English Brown Ale,1495,1444,1.0
+Pumpion,Pumpkin Ale,1496,1445,1.0
+Stronghold,American Porter,1497,1446,1.0
+Parapet ESB,Extra Special / Strong Bitter (ESB),1498,1447,1.0
+Blue Boots IPA,American IPA,1499,1448,1.0
+Hoppy Bitch IPA,American IPA,1500,1449,1.0
+Three Skulls Ale Pale Ale,American Pale Ale (APA),1501,1450,1.0
+Walter's Premium Pilsener Beer,German Pilsener,1502,1451,1.0
+Floppin' Crappie,American Pale Wheat Ale,1503,1452,1.0
+Left of the Dial IPA,American IPA,1504,1453,1.0
+Notch Session Pils,Czech Pilsener,1505,1454,1.0
+O'Fallon Pumpkin Beer,Pumpkin Ale,1506,1455,1.0
+5 Day IPA,American IPA,1507,1456,1.0
+O'Fallon Wheach,Fruit / Vegetable Beer,1508,1457,1.0
+Watershed IPA,American IPA,1509,1458,1.0
+Oakshire Amber Ale,American Amber / Red Ale,1510,1459,1.0
+Overcast Espresso Stout,American Stout,1511,1460,1.0
+Watershed IPA (2013),American IPA,1512,1461,1.0
+Lake Monster,Baltic Porter,1513,1462,1.0
+London Homesick Ale,English Bitter,1514,1463,1.0
+Luchesa Lager,Keller Bier / Zwickel Bier,1515,1464,1.0
+Slow Ride,American Pale Ale (APA),1516,1465,1.0
+Occidental Hefeweizen,American Pale Wheat Ale,1517,1466,1.0
+Occidental Dunkel,Dunkelweizen,1518,1467,1.0
+Occidental Altbier,Altbier,1519,1468,1.0
+Occidental Kölsch,Kölsch,1520,1469,1.0
+Perpetual Darkness,Belgian Strong Dark Ale,1521,1470,1.0
+Clan Warrior,Scotch Ale / Wee Heavy,1522,1471,1.0
+Psycho Penguin Vanilla Porter,American Porter,1523,1472,1.0
+Heliocentric Hefeweizen,Hefeweizen,1524,1473,1.0
+Ghose Drifter Pale Ale,American Pale Ale (APA),1525,1474,1.0
+Ghost Rider Pale Ale (2013),American Pale Ale (APA),1526,1475,1.0
+Helios Hefeweizen (2013),Hefeweizen,1527,1476,1.0
+The Hole in Hadrian's Wall,Scottish Ale,1528,1477,1.0
+33 Select Brown Ale,American Brown Ale,1529,1478,1.0
+Midwest Charm Farmhouse Ale,Saison / Farmhouse Ale,1530,1479,1.0
+Boji Blue Pale Ale,American Pale Ale (APA),1531,1480,1.0
+Winter Games Select #32 Stout,American Stout,1532,1481,1.0
+Boji Beach Golden Rye Ale,Rye Beer,1533,1482,1.0
+Hopsmith Pale Lager,American Pale Lager,1534,1483,1.0
+Falling Down Brown Ale,American Brown Ale,1535,1484,1.0
+Resolution Rye Stout,American Stout,1536,1485,1.0
+Plowshare Porter,American Porter,1537,1486,1.0
+Old Forge Pumpkin Ale,Pumpkin Ale,1538,1487,1.0
+Endless Sun Ale,American Pale Wheat Ale,1539,1488,1.0
+Celestial Blonde Ale,American Blonde Ale,1540,1489,1.0
+Overbite IPA,American IPA,1541,1490,1.0
+T-Rail Pale Ale,American Pale Ale (APA),1542,1491,1.0
+Endless Summer Ale (2011),American Pale Wheat Ale,1543,1492,1.0
+Clem's Gold,American Pale Lager,1544,1493,1.0
+Lizzy's Red,American Amber / Red Lager,1545,1494,1.0
+Orlison India Pale Lager,American Pale Lager,1546,1495,1.0
+Brünette,Euro Dark Lager,1547,1496,1.0
+Havanüther,Light Lager,1548,1497,1.0
+Lyric Ale,Saison / Farmhouse Ale,1549,1498,1.0
+Atalanta,Saison / Farmhouse Ale,1550,1499,1.0
+Pinner Throwback IPA,American IPA,1551,1500,1.0
+Centennial State Pale Ale,American Pale Ale (APA),1552,1501,1.0
+Old Chub NITRO,Scotch Ale / Wee Heavy,1553,1502,1.0
+The CROWLER™,,1554,1503,
+CAN'D AID Foundation,,1555,1504,
+Icey.P.A.,American IPA,1556,1505,1.0
+One Nut Brown,English Brown Ale,1557,1506,1.0
+Birth IPA,American IPA,1558,1507,1.0
+Dale's Pale Ale,American Pale Ale (APA),1559,1508,6.0
+Dale's Pale Ale,American Pale Ale (APA),1560,1508,6.0
+Mama's Little Yella Pils,Czech Pilsener,1561,1509,2.0
+oSKAr the G'Rauch,American IPA,1562,1510,2.0
+oSKAr the G'Rauch,American IPA,1563,1510,2.0
+Dale's Pale Ale,American Pale Ale (APA),1564,1508,6.0
+The Deuce,American Brown Ale,1565,1511,2.0
+Dale's Pale Ale (10 Year Anniversary),American Pale Ale (APA),1566,1512,1.0
+Dale's Pale Ale (2012),American Pale Ale (APA),1567,1513,1.0
+Gordon Imperial Red (2010),American Double / Imperial IPA,1568,1514,1.0
+Dale's Pale Ale (2011),American Pale Ale (APA),1569,1515,1.0
+Dale's Pale Ale (2010),American Pale Ale (APA),1570,1516,1.0
+G'KNIGHT (16 oz.),American Double / Imperial IPA,1571,1517,1.0
+15th Anniversary Abbey Ale (2012),Belgian Dark Ale,1572,1518,1.0
+Chaka,Belgian Strong Pale Ale,1573,1519,2.0
+HGH (Home Grown Hops): Part Duh,American Strong Ale,1574,1520,1.0
+Deviant Dale's IPA,American Double / Imperial IPA,1575,1521,2.0
+One Hit Wonder,American Double / Imperial IPA,1576,1522,1.0
+G'KNIGHT (12 oz.),American Double / Imperial IPA,1577,1523,1.0
+Ten Fidy Imperial Stout,Russian Imperial Stout,1578,1524,1.0
+Mama's Little Yella Pils,Czech Pilsener,1579,1509,2.0
+GUBNA Imperial IPA,American Double / Imperial IPA,1580,1525,1.0
+Old Chub,Scottish Ale,1581,1526,2.0
+Gordon Ale (2009),American Double / Imperial IPA,1582,1527,1.0
+Dale's Pale Ale,American Pale Ale (APA),1583,1508,6.0
+Gordon (2005),American Double / Imperial IPA,1584,1528,1.0
+Ten Fidy Imperial Stout (2008),Russian Imperial Stout,1585,1529,1.0
+Ten Fidy Imperial Stout (2007),Russian Imperial Stout,1586,1530,1.0
+Old Chub (2008),Scottish Ale,1587,1531,1.0
+Old Chub (2004),Scottish Ale,1588,1532,1.0
+Old Chub (2003),Scottish Ale,1589,1533,1.0
+Dale's Pale Ale (2008),American Pale Ale (APA),1590,1534,1.0
+Dale's Pale Ale (2006),American Pale Ale (APA),1591,1535,1.0
+Dale's Pale Ale (2004),American Pale Ale (APA),1592,1536,1.0
+Dale's Pale Ale (2003),American Pale Ale (APA),1593,1537,1.0
+Dale's Pale Ale (2002),American Pale Ale (APA),1594,1538,1.0
+Leroy (2005),American Brown Ale,1595,1539,1.0
+Gordon Beer (2006),American Double / Imperial IPA,1596,1540,1.0
+G'KNIGHT,American Double / Imperial IPA,1597,1541,1.0
+Ten Fidy,Russian Imperial Stout,1598,1542,1.0
+Deviant Dale's IPA,American Double / Imperial IPA,1599,1521,2.0
+Old Chub,Scottish Ale,1600,1526,2.0
+Dale's Pale Ale,American Pale Ale (APA),1601,1508,6.0
+Dale's Pale Ale,American Pale Ale (APA),1602,1508,6.0
+Fresh Slice White IPA,American White IPA,1603,1543,1.0
+Overgrown American Pale Ale,American Pale Ale (APA),1604,1544,1.0
+Ozark American Pale Ale,American Pale Ale (APA),1605,1545,1.0
+Hula Hoppie Session IPA,American IPA,1606,1546,1.0
+Dirty Hippie Dark Wheat,American Dark Wheat Ale,1607,1547,1.0
+Rustic Red,Irish Red Ale,1608,1548,1.0
+Stimulator Pale Ale,American Pale Ale (APA),1609,1549,1.0
+Old Town Ale,Kölsch,1610,1550,1.0
+Car 21,English Bitter,1611,1551,1.0
+Cache La Porter,American Porter,1612,1552,1.0
+Rodeo Rye Pale Ale,American Pale Ale (APA),1613,1553,1.0
+Outlaw IPA,American IPA,1614,1554,1.0
+North Fork Lager,American Pale Lager,1615,1555,1.0
+Payette Pale Ale,American Pale Ale (APA),1616,1556,1.0
+Mutton Buster,American Brown Ale,1617,1557,1.0
+Side Kick Kölsch,Kölsch,1618,1558,1.0
+Fresh Cut Pilsner,American Pilsner,1619,1559,1.0
+Summer Session Ale,American Pale Wheat Ale,1620,1560,1.0
+Lobo Lito,Light Lager,1621,1561,1.0
+Robert Earl Keen Honey Pils,American Pilsner,1622,1562,1.0
+Mound Builder IPA,American IPA,1623,1563,1.0
+Amazon Princess IPA,American IPA,1624,1564,1.0
+Farmer's Daughter Wheat,American Pale Wheat Ale,1625,1565,1.0
+People's Pilsner,German Pilsener,1626,1566,1.0
+Hotbox Brown,American Brown Ale,1627,1567,1.0
+Gold,American Blonde Ale,1628,1568,1.0
+Black,American Black Ale,1629,1569,1.0
+98 Problems (Cuz A Hop Ain't One),American IPA,1630,1570,1.0
+Veteran’s Pale Ale (VPA),American Pale Ale (APA),1631,1571,1.0
+Grapefruit IPA,American IPA,1632,1572,1.0
+Pete's ESP Lager (1998),American Pale Lager,1633,1573,1.0
+Pete's Wicked Summer Brew (1995),American Pale Wheat Ale,1634,1574,1.0
+Pete's Wicked Bohemian Pilsner (1997),Czech Pilsener,1635,1575,1.0
+Pete's Wicked Pale Ale (1997),American Pale Ale (APA),1636,1576,1.0
+Pete's Wicked Summer Brew (2002),American Pale Wheat Ale,1637,1577,1.0
+Pete's Wicked Summer Brew (1997),American Pale Wheat Ale,1638,1578,1.0
+Pete's Wicked Summer Brew (1996),American Pale Wheat Ale,1639,1579,1.0
+Sparkle,American Pale Lager,1640,1580,1.0
+North 45 Amber Ale,American Amber / Red Ale,1641,1581,1.0
+Horny Monk,Dubbel,1642,1582,1.0
+Mind's Eye PA,American IPA,1643,1583,1.0
+Camelback,American IPA,1644,1584,1.0
+Local 5 Pale Ale,American Pale Ale (APA),1645,1585,1.0
+Devils Head Red Ale,American Amber / Red Ale,1646,1586,1.0
+Elephant Rock IPA,American IPA,1647,1587,1.0
+Black Bay Milk Stout,Milk / Sweet Stout,1648,1588,1.0
+Atom Splitter Pale Ale,American Pale Ale (APA),1649,1589,1.0
+Hot Date Ale,Chile Beer,1650,1590,1.0
+Masked Bandit IPA,American Black Ale,1651,1591,1.0
+Sweet Potato Ale,Fruit / Vegetable Beer,1652,1592,1.0
+Float Trip Ale,American Blonde Ale,1653,1593,1.0
+Old Tom Porter,American Porter,1654,1594,1.0
+Black Walnut Wheat,American Dark Wheat Ale,1655,1595,1.0
+McKinney Eddy Amber Ale,American Amber / Red Ale,1656,1596,1.0
+Missouri Mule India Pale Ale,American IPA,1657,1597,1.0
+Blood of the Unicorn,American Amber / Red Ale,1658,1598,1.0
+GreyBeard™ IPA,American IPA,1659,1599,1.0
+Pisgah Pale Ale,American Pale Ale (APA),1660,1600,1.0
+PONTO S.I.P.A.,American IPA,1661,1601,1.0
+Chronic Ale,American Amber / Red Ale,1662,1602,1.0
+Swami's India Pale Ale,American IPA,1663,1603,1.0
+New Cleveland Palesner,American Pilsner,1664,1604,1.0
+Mazzie,American Pale Ale (APA),1665,1605,1.0
+Big Chuck Barleywine,American Barleywine,1666,1606,1.0
+Ponderosa IPA,American IPA,1667,1607,1.0
+Liquid Amber Ale,American Amber / Red Ale,1668,1608,1.0
+Morning Wood Wheat (Current),American Pale Wheat Ale,1669,1609,2.0
+Hideout Helles,Munich Helles Lager,1670,1610,1.0
+Dead Eye Dunkel,Munich Dunkel Lager,1671,1611,1.0
+Peacemaker Pilsner,Czech Pilsener,1672,1612,1.0
+Over the Rail Pale Ale,American Pale Ale (APA),1673,1613,1.0
+Pallavicini Pilsner (2009),Czech Pilsener,1674,1614,1.0
+Morning Wood Wheat (Current),American Pale Wheat Ale,1675,1609,2.0
+Pyramid Hefeweizen (2011),Hefeweizen,1676,1615,1.0
+Haywire Hefeweizen (2010),Hefeweizen,1677,1616,1.0
+Golden Fleece,Belgian Pale Ale,1678,1617,1.0
+Smoking Mirror,American Porter,1679,1618,1.0
+Rahr's Blonde,Munich Helles Lager,1680,1619,1.0
+Pride of Texas Pale Ale,American Pale Ale (APA),1681,1620,1.0
+18th Anniversary Gose,Gose,1682,1621,1.0
+White (2015),Witbier,1683,1622,1.0
+BLAKKR,American Black Ale,1684,1623,2.0
+Firemans #4 Blonde Ale (2013),American Blonde Ale,1685,1624,1.0
+The Sword Iron Swan Ale,English Pale Ale,1686,1625,1.0
+Hans' Pils (2015),German Pilsener,1687,1626,1.0
+Four Squared (2015),American Blonde Ale,1688,1627,1.0
+Firemans #4 Blonde Ale (2015),American Blonde Ale,1689,1628,1.0
+Watership Brown Ale,American Brown Ale,1690,1629,1.0
+Gangway IPA,American IPA,1691,1630,1.0
+Long Day Lager,Czech Pilsener,1692,1631,1.0
+Farmer's Daughter Blonde,American Blonde Ale,1693,1632,1.0
+Pump House IPA,American IPA,1694,1633,1.0
+Suicide Blonde IPA,Belgian IPA,1695,1634,1.0
+Vanilla Porter,American Porter,1696,885,2.0
+Honey Rye,Rye Beer,1697,1635,1.0
+Happy Cider,Cider,1698,1636,1.0
+Long Hammer IPA,American IPA,1699,1637,2.0
+Long Hammer IPA,American IPA,1700,1637,2.0
+Copper Hook (2011),American Amber / Red Ale,1701,1638,1.0
+Nectar of the Hops,Mead,1702,1639,1.0
+Sunshine Nectar,Mead,1703,1640,1.0
+Black Raspberry Nectar,Mead,1704,1641,1.0
+Blood Orange Wit,Witbier,1705,1642,1.0
+Consilium,American Pale Ale (APA),1706,1643,1.0
+Hammer & Sickle,Russian Imperial Stout,1707,1644,1.0
+Redacted Rye IPA,American IPA,1708,1645,1.0
+Elevation Triple India Pale Ale,American Double / Imperial IPA,1709,1646,1.0
+5:00 O'Clock Afternoon Ale,American Blonde Ale,1710,1647,1.0
+Ryeteous Rye IPA (2012),American IPA,1711,1648,1.0
+Stout Ol' Friend,American Stout,1712,1649,1.0
+Stout Ol' Friend (2012),American Stout,1713,1650,1.0
+Rye Porter,American Porter,1714,401,2.0
+Miner's Gold,American Blonde Ale,1715,1651,2.0
+Vienna Lager,Vienna Lager,1716,1652,1.0
+Jessie's Garage,American Pale Ale (APA),1717,1653,1.0
+Colorado Red Ale,American Amber / Red Ale,1718,279,2.0
+Miner's Gold,American Blonde Ale,1719,1651,2.0
+Fist City,American Pale Ale (APA),1720,1654,1.0
+A Little Crazy,Belgian Pale Ale,1721,1655,1.0
+Rosa Hibiscus Ale,Herbed / Spiced Beer,1722,1656,1.0
+Fistmas Ale,Herbed / Spiced Beer,1723,1657,1.0
+Oktoberfest Revolution,Märzen / Oktoberfest,1724,1658,1.0
+Eugene Porter,American Porter,1725,1659,1.0
+Anti-Hero IPA,American IPA,1726,1660,1.0
+Bottom Up Belgian Wit,Witbier,1727,1661,1.0
+Hustle,American Amber / Red Ale,1728,1662,1.0
+Pure Fury,American Pale Ale (APA),1729,1663,1.0
+Dad,American Amber / Red Ale,1730,1664,1.0
+Panther,American Porter,1731,1665,1.0
+Franz,Märzen / Oktoberfest,1732,1666,1.0
+Zen,American Pale Ale (APA),1733,1667,1.0
+Truth,American IPA,1734,1668,1.0
+Cougar,American Blonde Ale,1735,1669,1.0
+Smooth Operator,Cream Ale,1736,1670,1.0
+Gose,Gose,1737,1184,2.0
+Maine Island Trail Ale,American Pale Ale (APA),1738,1671,1.0
+River North White Ale,Witbier,1739,1672,1.0
+River North Ale,American Amber / Red Ale,1740,1673,1.0
+Lil SIPA,American IPA,1741,1674,1.0
+Hop Bomber Rye Pale Ale,American Pale Ale (APA),1742,1675,1.0
+Jah Mon,American IPA,1743,1676,1.0
+Oktoberfest,Märzen / Oktoberfest,1744,573,6.0
+Headless Wylie,Pumpkin Ale,1745,1677,1.0
+Dayman IPA,American IPA,1746,1678,1.0
+All Aboard! Anniversary Stout,Oatmeal Stout,1747,1679,1.0
+Hop Lace,American White IPA,1748,1680,1.0
+OH-PA Session Pale Ale,American Pale Ale (APA),1749,1681,1.0
+Patrick's Poison,American Amber / Red Ale,1750,1682,1.0
+Rudolph's Red,American Amber / Red Ale,1751,1683,1.0
+Babbling Blonde,American Blonde Ale,1752,1684,1.0
+Maxwell's Scottish Ale,Scottish Ale,1753,1685,1.0
+Grateful White,Witbier,1754,1686,1.0
+RT Lager,American Amber / Red Lager,1755,1687,1.0
+Old Wylie's IPA,American IPA,1756,1688,1.0
+Hala Kahiki Pineapple Beer,Fruit / Vegetable Beer,1757,1689,1.0
+Track 1 Amber Lager,American Amber / Red Lager,1758,1690,1.0
+Pine Knob Pilsner,Czech Pilsener,1759,1691,1.0
+Cal and Co. Black Cherry Porter,American Porter,1760,1692,1.0
+Lazy Daze Lager,American Adjunct Lager,1761,1693,2.0
+Rochester Red Ale,American Amber / Red Ale,1762,1694,1.0
+Milkshake Stout,Milk / Sweet Stout,1763,1695,1.0
+Cornerstone IPA,American IPA,1764,1696,1.0
+Lazy Daze Lager,American Adjunct Lager,1765,1693,2.0
+Rogue American Amber Ale,American Amber / Red Ale,1766,1697,1.0
+12th Round,American Strong Ale,1767,1698,1.0
+RoughTail IPA,American IPA,1768,1699,1.0
+Polar Night Stout,American Stout,1769,1700,1.0
+Sundown,Saison / Farmhouse Ale,1770,1701,1.0
+Sanctified,Belgian Strong Pale Ale,1771,1702,1.0
+Fear of a Brett Planet,American Pale Ale (APA),1772,1703,1.0
+Original Slacker Ale,English Brown Ale,1773,1704,1.0
+Alpha Blackback,American Black Ale,1774,1705,1.0
+Kiss Off IPA,American IPA,1775,1706,1.0
+Dog Days Summer Ale,Kölsch,1776,1707,1.0
+1881 California Red,American Amber / Red Ale,1777,1708,1.0
+CAPT Black IPA,American Black Ale,1778,1709,2.0
+Ruhstaller's Gilt Edge Lager Beer,American Amber / Red Lager,1779,1710,1.0
+CAPT Black IPA,American Black Ale,1780,1709,2.0
+1881 California Red Ale,American Amber / Red Ale,1781,1711,1.0
+Saint Archer White Ale,Witbier,1782,1712,1.0
+Saint Archer IPA,American IPA,1783,1713,1.0
+Saint Archer Pale Ale,American Pale Ale (APA),1784,1714,1.0
+Saint Archer Blonde,Kölsch,1785,1715,1.0
+Sex Panther,American Porter,1786,1716,1.0
+Winter Warmer (Vault Series),Winter Warmer,1787,1717,1.0
+Count Hopula (Vault Series),American Double / Imperial IPA,1788,1718,1.0
+Oktoberfest,Märzen / Oktoberfest,1789,573,6.0
+SunSpot Golden Ale,American Blonde Ale,1790,1719,1.0
+I.W.A. (2011),American Pale Wheat Ale,1791,1720,1.0
+Supermonk I.P.A.,Belgian IPA,1792,1721,1.0
+Epicenter Amber Ale,American Amber / Red Ale,1793,1722,1.0
+SanTan HefeWeizen,Hefeweizen,1794,1723,1.0
+Hop Shock IPA,American IPA,1795,1724,1.0
+Sex Panther (2014),American Porter,1796,1725,1.0
+Devil’s Ale,American Pale Ale (APA),1797,1726,1.0
+Rail Slide Imperial Spiced Ale,Herbed / Spiced Beer,1798,1727,1.0
+Mr. Pineapple,Fruit / Vegetable Beer,1799,1728,1.0
+American Idiot Ale (2012),American Pale Ale (APA),1800,1729,1.0
+Hop Shock IPA (2010),American IPA,1801,1730,1.0
+SanTan HefeWeizen (2010),Hefeweizen,1802,1731,1.0
+Devil’s Ale (2010),American Pale Ale (APA),1803,1732,1.0
+Epicenter Amber Ale (2010),American Amber / Red Ale,1804,1733,1.0
+Sanitas Saison Ale,Saison / Farmhouse Ale,1805,1734,1.0
+Sanitas Black IPA,American Black Ale,1806,1735,1.0
+Giant DIPA,American Double / Imperial IPA,1807,1736,1.0
+Dread Brown Ale,American Brown Ale,1808,1737,1.0
+Casinos IPA,English India Pale Ale (IPA),1809,1738,1.0
+Saison 88,Saison / Farmhouse Ale,1810,1739,1.0
+Black IPA,American Black Ale,1811,1740,1.0
+Santa Fe Irish Red Ale,Irish Red Ale,1812,1741,1.0
+Santa Fe Oktoberfest,Märzen / Oktoberfest,1813,1742,1.0
+Imperial Java Stout,Russian Imperial Stout,1814,1743,1.0
+Freestyle Pilsner,German Pilsener,1815,1744,1.0
+Happy Camper IPA,American IPA,1816,1745,1.0
+Oval Beach Blonde Ale,American Blonde Ale,1817,1746,1.0
+Oak Aged Cider,Cider,1818,1747,1.0
+Ginger Cider,Cider,1819,1748,1.0
+Schilling Hard Cider,Cider,1820,1749,1.0
+Schlafly Yakima Wheat Ale,American Pale Wheat Ale,1821,1750,1.0
+Schlafly Black Lager,Schwarzbier,1822,1751,1.0
+Schlafly IPA,American IPA,1823,1752,1.0
+Schlafly American Brown Ale,American Brown Ale,1824,1753,1.0
+Schlafly Hefeweizen,Hefeweizen,1825,1754,1.0
+Schlafly Summer Lager,Munich Helles Lager,1826,1755,1.0
+Sea Dog Wild Blueberry Wheat Ale,Fruit / Vegetable Beer,1827,1756,1.0
+Blur India Pale Ale,American IPA,1828,1757,1.0
+Dry Cider,Cider,1829,1758,1.0
+Dry Hard Cider,Cider,1830,1759,1.0
+Frankenlou's IPA,American IPA,1831,1760,1.0
+Becky's Black Cat Porter,American Porter,1832,1761,1.0
+Seventh Son of a Seventh Son,American Strong Ale,1833,1762,1.0
+Stone Fort Brown Ale,English Brown Ale,1834,1763,1.0
+Seventh Son Hopped Red Ale,American Amber / Red Ale,1835,1764,1.0
+Humulus Nimbus Super Pale Ale,American Pale Ale (APA),1836,1765,1.0
+Golden Ratio IPA,American IPA,1837,1766,1.0
+Black Hop IPA,American Black Ale,1838,1767,1.0
+Archer's Ale (2004),English Pale Ale,1839,1768,1.0
+Monkey Fist IPA,American IPA,1840,1769,1.0
+Shipyard Summer Ale,American Pale Wheat Ale,1841,1770,1.0
+Pumpkinhead Ale,Pumpkin Ale,1842,1771,1.0
+Shipyard Export,American Blonde Ale,1843,1772,1.0
+Nooner,German Pilsener,1844,1773,1.0
+Torpedo,American IPA,1845,1774,2.0
+Yonder Bock,Maibock / Helles Bock,1846,1775,1.0
+CANfusion Rye Bock,Rye Beer,1847,1776,1.0
+Sierra Nevada Pale Ale,American Pale Ale (APA),1848,1777,2.0
+Old Chico Crystal Wheat,American Pale Wheat Ale,1849,1778,1.0
+Summerfest,Czech Pilsener,1850,1779,1.0
+Torpedo,American IPA,1851,1774,2.0
+Sierra Nevada Pale Ale,American Pale Ale (APA),1852,1777,2.0
+Sietsema Red Label,Cider,1853,1780,1.0
+Bear Ass Brown,American Brown Ale,1854,1781,1.0
+Red Mountain Ale,American Amber / Red Ale,1855,1782,1.0
+Ice Pick Ale,American IPA,1856,1783,1.0
+4Beans,Baltic Porter,1857,1784,1.0
+Jammer,Gose,1858,1785,1.0
+Abigale,Belgian Pale Ale,1859,1786,1.0
+Rad,Fruit / Vegetable Beer,1860,1787,1.0
+Bengali,American IPA,1861,1788,1.0
+Sensi Harvest,American Pale Ale (APA),1862,1789,1.0
+Hi-Res,American Double / Imperial IPA,1863,1790,1.0
+Global Warmer,American Strong Ale,1864,1791,1.0
+Autumnation (2013),American IPA,1865,1792,1.0
+The Crisp,German Pilsener,1866,1793,1.0
+Sweet Action,Cream Ale,1867,1794,1.0
+Righteous Ale,Rye Beer,1868,1795,1.0
+Bengali Tiger,American IPA,1869,1796,1.0
+3Beans,Baltic Porter,1870,1797,1.0
+Brownstone,American Brown Ale,1871,1798,1.0
+Apollo,American Pale Wheat Ale,1872,1799,1.0
+Harbinger,Saison / Farmhouse Ale,1873,1800,1.0
+Resin,American Double / Imperial IPA,1874,1801,1.0
+Diesel,American Stout,1875,1802,1.0
+Autumnation (2011-12) (2011),Pumpkin Ale,1876,1803,1.0
+The Crisp (2011),German Pilsener,1877,1804,1.0
+Sweet Action (2011),Cream Ale,1878,1805,1.0
+Righteous Ale (2011),Rye Beer,1879,1806,1.0
+Bengali Tiger (2011),American IPA,1880,1807,1.0
+Rudie Session IPA,American IPA,1881,1808,1.0
+Taster's Choice,Doppelbock,1882,1809,1.0
+Modus Hoperandi,American IPA,1883,1810,2.0
+Estival Cream Stout,American Stout,1884,1811,1.0
+Vernal Minthe Stout,American Stout,1885,1812,1.0
+Hibernal Vinifera Stout,Foreign / Export Stout,1886,1813,1.0
+Autumnal Molé Stout,American Stout,1887,1814,1.0
+Mexican Logger,American Pale Lager,1888,1815,1.0
+True Blonde Ale,American Blonde Ale,1889,1816,1.0
+Euphoria Pale Ale,American Pale Ale (APA),1890,1817,1.0
+ESB Special Ale,Extra Special / Strong Bitter (ESB),1891,1818,1.0
+Modus Hoperandi,American IPA,1892,1810,2.0
+Iron Butt Red Ale,American Amber / Red Ale,1893,1819,1.0
+Initial Point India Pale Ale,American IPA,1894,1820,1.0
+Monkey Dancing On A Razor Blade,Belgian IPA,1895,1821,1.0
+Tripel Deke,Tripel,1896,1822,1.0
+Urban Wilderness Pale Ale,English Pale Ale,1897,1823,1.0
+Homefront IPA,American IPA,1898,1824,1.0
+Sly Fox Christmas Ale 2013,Winter Warmer,1899,1825,1.0
+Grisette,Grisette,1900,1826,1.0
+360° India Pale Ale,American IPA,1901,1827,1.0
+Helles Golden Lager,Munich Helles Lager,1902,1828,1.0
+Sly Fox Christmas Ale 2012 (2012),Winter Warmer,1903,1829,1.0
+Odyssey Imperial IPA,American Double / Imperial IPA,1904,1830,1.0
+Oktoberfest Lager,Märzen / Oktoberfest,1905,1831,1.0
+113 IPA,American IPA,1906,1832,1.0
+Dunkel Lager,Munich Dunkel Lager,1907,1833,1.0
+Royal Weisse Ale,Hefeweizen,1908,1834,1.0
+Pikeland Pils,German Pilsener,1909,1835,1.0
+Phoenix Pale Ale,American Pale Ale (APA),1910,1836,1.0
+Rule G IPA,American IPA,1911,1837,1.0
+Murphy's Law,American Amber / Red Ale,1912,1838,1.0
+Alter Ego,Saison / Farmhouse Ale,1913,1839,1.0
+Monarch Pilsner,American Pilsner,1914,1840,1.0
+Snow King Pale Ale,American Pale Ale (APA),1915,1841,1.0
+Zonker Stout,Foreign / Export Stout,1916,1842,1.0
+OB-1 Organic Ale,English Brown Ale,1917,1843,1.0
+Snake River Lager,Vienna Lager,1918,1844,1.0
+Snake River Pale Ale,American Pale Ale (APA),1919,1845,1.0
+Pako’s EyePA,American IPA,1920,1846,1.0
+Thanksgiving Ale,Kölsch,1921,1847,1.0
+Double Dagger Imperial IPA,American Double / Imperial IPA,1922,1848,1.0
+Dagger Falls IPA,American IPA,1923,1849,3.0
+Dagger Falls IPA,American IPA,1924,1849,3.0
+Socktoberfest,Märzen / Oktoberfest,1925,1850,1.0
+Hopnoxious Imperial IPA,American Double / Imperial IPA,1926,1851,1.0
+Barrel Aged Seven Devils Imperial Stout,American Double / Imperial Stout,1927,1852,1.0
+Boise Co-Op Two Score Ale,Saison / Farmhouse Ale,1928,1853,1.0
+Sockeye Belgian Style Summer Ale,Witbier,1929,1854,1.0
+Sockeye Maibock,Maibock / Helles Bock,1930,1855,1.0
+Old Devil's Tooth,American Barleywine,1931,1856,1.0
+Galena Golden,American Blonde Ale,1932,1857,1.0
+Hell-Diver Pale Ale,American Pale Ale (APA),1933,1858,1.0
+Woolybugger Wheat,American Pale Wheat Ale,1934,1859,1.0
+Power House Porter,American Porter,1935,1860,1.0
+Winterfest,American Strong Ale,1936,1861,1.0
+Dagger Falls IPA,American IPA,1937,1849,3.0
+LuckenBock,Bock,1938,1862,1.0
+Texas Pale Ale (TPA),American IPA,1939,1863,1.0
+6 String Saison,Saison / Farmhouse Ale,1940,1864,1.0
+Kol' Beer,Kölsch,1941,1865,1.0
+Montauk Light,Light Lager,1942,1866,1.0
+Na Zdraví Pilsner,Czech Pilsener,1943,1867,1.0
+Nice Rack IPA,American IPA,1944,1868,1.0
+2014 IPA Cicada Series,American IPA,1945,1869,1.0
+Sinister Minister Black IPA,American IPA,1946,1870,1.0
+Jack the Sipper,Extra Special / Strong Bitter (ESB),1947,1871,1.0
+Devil's Harvest Extra Pale Ale,American Pale Ale (APA),1948,1872,2.0
+Suzy B Dirty Blonde Ale,American Blonde Ale,1949,1873,2.0
+Mississippi Fire Ant,American Amber / Red Ale,1950,1874,1.0
+Hipster Breakfast,Oatmeal Stout,1951,1875,1.0
+Suzy B Dirty Blonde Ale,American Blonde Ale,1952,1873,2.0
+Devil's Harvest Extra Pale Ale,American Pale Ale (APA),1953,1872,2.0
+Pine Belt Pale Ale,American Pale Ale (APA),1954,1876,2.0
+Walloon,Saison / Farmhouse Ale,1955,1877,1.0
+Le Mort Vivant,Bière de Garde,1956,1878,1.0
+Red Cockaded Ale,American Double / Imperial IPA,1957,1879,1.0
+Valkyrie Double IPA,American Double / Imperial IPA,1958,1880,1.0
+Red Cockaded Ale (2013),American Double / Imperial IPA,1959,1881,1.0
+Old Potentate,Old Ale,1960,1882,1.0
+Bombshell Blonde,American Blonde Ale,1961,1883,2.0
+PRO-AM (2012) (2012),American Double / Imperial IPA,1962,1884,1.0
+Walloon (2014),Saison / Farmhouse Ale,1963,1885,1.0
+Le Mort Vivant (2011),Bière de Garde,1964,1886,1.0
+Buried Hatchet Stout,Foreign / Export Stout,1965,1887,1.0
+Pine Belt Pale Ale,American Pale Ale (APA),1966,1876,2.0
+Bombshell Blonde,American Blonde Ale,1967,1883,2.0
+Baby Daddy Session IPA,American IPA,1968,1888,1.0
+Hopluia (2004),English India Pale Ale (IPA),1969,1889,1.0
+Ball & Chain (2014),American Pale Ale (APA),1970,1890,1.0
+Bitter Biker Double IPA,American Double / Imperial IPA,1971,1891,2.0
+God Damn Pigeon Porter,American Porter,1972,1892,1.0
+Working for the Weekend,American Double / Imperial IPA,1973,1893,1.0
+Angry Adam,American Amber / Red Ale,1974,1894,1.0
+Freedom Fries,American Stout,1975,1895,1.0
+Bitter Biker Double IPA,American Double / Imperial IPA,1976,1891,2.0
+Ghost Bike Pale Ale,American Pale Ale (APA),1977,1896,1.0
+Spiteful IPA,American IPA,1978,1897,1.0
+Alley Time,American Pale Ale (APA),1979,1898,1.0
+Fat Badger,Irish Red Ale,1980,1899,1.0
+In the Weeds,American Pale Wheat Ale,1981,1900,1.0
+Special Amber,Vienna Lager,1982,1901,2.0
+Special Amber,Vienna Lager,1983,1901,2.0
+Seven Gates Pale Ale,American Pale Ale (APA),1984,1902,1.0
+Gunga Din,Cider,1985,1903,1.0
+Starr Pils,German Pilsener,1986,1904,1.0
+Northern Lights India Pale Ale,American IPA,1987,1905,2.0
+Festie,Märzen / Oktoberfest,1988,1906,1.0
+Northern Lights India Pale Ale,American IPA,1989,1905,2.0
+Third Eye Enlightened Pale Ale,American Pale Ale (APA),1990,1907,1.0
+Colorado Kölsch,Kölsch,1991,1908,1.0
+Steam Engine Lager,American Amber / Red Lager,1992,1909,1.0
+Third Eye Pale Ale,American IPA,1993,1910,1.0
+Point Special (Current),American Adjunct Lager,1994,1911,1.0
+Point Special,American Adjunct Lager,1995,1912,2.0
+Point Cascade Pale Ale (2013),American Pale Ale (APA),1996,1913,1.0
+Point Special,American Adjunct Lager,1997,1912,2.0
+Onyx Black Ale,American Black Ale,1998,1914,1.0
+Beyond The Pale IPA,American IPA,1999,1915,1.0
+Point Special (2013),American Adjunct Lager,2000,1916,1.0
+Point Special (2012),American Adjunct Lager,2001,1917,1.0
+Point Special Lager,American Adjunct Lager,2002,1918,2.0
+St. Benedict's Winter Ale,Winter Warmer,2003,1919,1.0
+Point Oktoberfest,Märzen / Oktoberfest,2004,1920,2.0
+Point Nude Beach Summer Wheat,American Pale Wheat Ale,2005,1921,2.0
+Point Nude Beach Summer Wheat,American Pale Wheat Ale,2006,1921,2.0
+Point Nude Beach Summer Wheat (2011),American Pale Wheat Ale,2007,1922,1.0
+Drop Dead Blonde,American Blonde Ale,2008,1923,1.0
+Three Kings Ale,Kölsch,2009,1924,1.0
+Point Oktoberfest,Märzen / Oktoberfest,2010,1920,2.0
+2012 Black Ale,American Brown Ale,2011,1925,1.0
+Point Nude Beach Summer Wheat (2010),American Pale Wheat Ale,2012,1926,1.0
+Point Cascade Pale Ale,American Pale Ale (APA),2013,1927,1.0
+Point Amber Classic,American Amber / Red Lager,2014,1928,1.0
+Point Special Lager,American Adjunct Lager,2015,1918,2.0
+Wisco Disco,American Amber / Red Ale,2016,1929,1.0
+Brontide,American Black Ale,2017,1930,2.0
+Brontide,American Black Ale,2018,1930,2.0
+Classique,Saison / Farmhouse Ale,2019,1931,1.0
+Sunsplash Golden Ale (2004),American Blonde Ale,2020,1932,1.0
+Sand Island Lighthouse,Kölsch,2021,1933,1.0
+Lily Flagg Milk Stout,Milk / Sweet Stout,2022,1934,1.0
+Monkeynaut IPA,American IPA,2023,1935,1.0
+Straub Beer (Current),American Adjunct Lager,2024,1936,1.0
+American Lager,American Adjunct Lager,2025,1937,1.0
+American Amber,American Amber / Red Lager,2026,1938,1.0
+American Light,Light Lager,2027,1939,1.0
+Extra Pale Ale,American Pale Ale (APA),2028,1940,1.0
+Make It So,Extra Special / Strong Bitter (ESB),2029,1941,1.0
+Hopvale Organic Ale,American Pale Ale (APA),2030,1942,1.0
+Unchained #18 Hop Silo,American Double / Imperial IPA,2031,1943,1.0
+Tip Off,Altbier,2032,1944,1.0
+Java Mac,Scottish Ale,2033,1945,1.0
+Cowbell,American Porter,2034,1946,1.0
+Hop Up Offa That Brett (2014),Belgian Pale Ale,2035,1947,1.0
+PV Muckle (2013),Scotch Ale / Wee Heavy,2036,1948,1.0
+Bourbon Barrel Batch 666: Sympathy for the Devil,Belgian Dark Ale,2037,1949,1.0
+Whip Fight,Scotch Ale / Wee Heavy,2038,1950,1.0
+Port Barrel Wee Mac,Scotch Ale / Wee Heavy,2039,1951,1.0
+Fistful Of Hops Red,American IPA,2040,1952,1.0
+Fistful of Hops Orange,American IPA,2041,1953,1.0
+Fistful Of Hops Blue,American IPA,2042,1954,1.0
+Fistful of Hops Green,American IPA,2043,1955,1.0
+30 Min Coma,Belgian IPA,2044,1956,1.0
+Wee Muckle,Scotch Ale / Wee Heavy,2045,1957,1.0
+Royal Brat,Extra Special / Strong Bitter (ESB),2046,1958,1.0
+Grapefruit Jungle (GFJ),American IPA,2047,1959,1.0
+Osiris Pale Ale,American Pale Ale (APA),2048,1960,1.0
+Bourbon Barrel Aged Timmie,Russian Imperial Stout,2049,1961,1.0
+Stupid Sexy Flanders,Flanders Oud Bruin,2050,1962,1.0
+Bourbon Barrel Cowbell,American Porter,2051,1963,1.0
+Popcorn Pilsner,German Pilsener,2052,1964,1.0
+Ring of Dingle,Irish Dry Stout,2053,1965,1.0
+Bourbon Barrel Wee Mac,Scottish Ale,2054,1966,1.0
+Bourbon Barrel Johan,English Barleywine,2055,1967,1.0
+The Deuce,American Brown Ale,2056,1511,2.0
+The Velvet Fog,Quadrupel (Quad),2057,1968,1.0
+Sun King Oktoberfest,Märzen / Oktoberfest,2058,1969,1.0
+Indianapolis Indians Lager,Dortmunder / Export Lager,2059,1970,1.0
+Indians Victory Lager (2012),Dortmunder / Export Lager,2060,1971,1.0
+Chaka,Belgian Strong Pale Ale,2061,1519,2.0
+Isis,American Double / Imperial IPA,2062,1972,1.0
+Wee Muckle (2011),Scotch Ale / Wee Heavy,2063,1973,1.0
+Grapefruit Jungle (GFJ) (2011),American IPA,2064,1974,1.0
+Sun King Oktoberfest (2011),Märzen / Oktoberfest,2065,1975,1.0
+Johan the Barleywine,English Barleywine,2066,1976,1.0
+Wee Mac Scottish-Style Ale,Scottish Ale,2067,1977,1.0
+Sunlight Cream Ale,Cream Ale,2068,1978,1.0
+Osiris Pale Ale (2010),American Pale Ale (APA),2069,1979,1.0
+Dam Lager,American Amber / Red Lager,2070,1980,1.0
+Red Clay IPA,American IPA,2071,1981,1.0
+Todd the Axe Man,American IPA,2072,1982,1.0
+Doomtree,Extra Special / Strong Bitter (ESB),2073,1983,1.0
+BLAKKR,American Black Ale,2074,1623,2.0
+Overrated! West Coast Style IPA,American IPA,2075,1984,1.0
+WET,American IPA,2076,1985,1.0
+Bitter Brewer,English Bitter,2077,1986,1.0
+SurlyFest,Rye Beer,2078,1987,1.0
+Coffee Bender,American Brown Ale,2079,1988,1.0
+Bender,American Brown Ale,2080,1989,1.0
+Abrasive Ale,American Double / Imperial IPA,2081,1990,1.0
+Hell,Keller Bier / Zwickel Bier,2082,1991,1.0
+CynicAle,Saison / Farmhouse Ale,2083,1992,1.0
+Furious,American IPA,2084,1993,1.0
+Big Nose,American IPA,2085,1994,1.0
+Cotton Mouth,Witbier,2086,1995,1.0
+Stump Knocker Pale Ale,American Pale Ale (APA),2087,1996,1.0
+Midnight Oil,Oatmeal Stout,2088,1997,1.0
+Wild Night,Cream Ale,2089,1998,1.0
+Bermuda Triangle Ginger Beer,Herbed / Spiced Beer,2090,1999,1.0
+Take Two Pils,German Pilsener,2091,2000,1.0
+Waterkeeper,Hefeweizen,2092,2001,1.0
+SweetWater IPA,American IPA,2093,2002,1.0
+420 Extra Pale Ale,American Pale Ale (APA),2094,2003,1.0
+Dodgy Knight Imperial IPA,American Double / Imperial IPA,2095,2004,1.0
+TailGate Saison,Saison / Farmhouse Ale,2096,2005,1.0
+TailGate IPA,American IPA,2097,2006,2.0
+TailGate IPA,American IPA,2098,2006,2.0
+TailGate Hefeweizen,Hefeweizen,2099,2007,2.0
+Blacktop Blonde,American Blonde Ale,2100,2008,2.0
+Blacktop Blonde,American Blonde Ale,2101,2008,2.0
+TailGate Hefeweizen,Hefeweizen,2102,2007,2.0
+Wooden Rooster,Tripel,2103,2009,1.0
+Ginger Peach Saison,Saison / Farmhouse Ale,2104,2010,1.0
+Zombie Monkie,American Porter,2105,2011,1.0
+Wild Plum Farmhouse Ale,Saison / Farmhouse Ale,2106,2012,1.0
+Vanilla Bean Buffalo Sweat,Oatmeal Stout,2107,2013,1.0
+Ethos IPA,American IPA,2108,2014,1.0
+Tallgrass Pub Ale,American Brown Ale,2109,2015,1.0
+Oasis,Extra Special / Strong Bitter (ESB),2110,2016,1.0
+Buffalo Sweat,Milk / Sweet Stout,2111,2017,1.0
+Halcyon Unfiltered Wheat,American Pale Wheat Ale,2112,2018,2.0
+8-Bit Pale Ale,American Pale Ale (APA),2113,2019,1.0
+Velvet Rooster,Tripel,2114,2020,1.0
+Halcyon Unfiltered Wheat,American Pale Wheat Ale,2115,2018,2.0
+Köld Lager (2010),German Pilsener,2116,2021,1.0
+Oasis (2010),American Double / Imperial IPA,2117,2022,1.0
+Tallgrass Ale,American Brown Ale,2118,2023,1.0
+Buffalo Sweat (2010),Milk / Sweet Stout,2119,2024,1.0
+Tallgrass IPA,American IPA,2120,2025,1.0
+Hat Trick Hop IPA,American IPA,2121,2026,1.0
+Yard Sale Amber Ale,American Amber / Red Ale,2122,2027,1.0
+Loafin Bräu,Altbier,2123,2028,1.0
+Old Elephant Foot IPA,American IPA,2124,2029,1.0
+Peck's Porter,American Porter,2125,2030,1.0
+Reactor,American IPA,2126,2031,1.0
+Mr. Orange,Witbier,2127,2032,1.0
+Deduction,Dubbel,2128,2033,1.0
+Face Down Brown Ale,American Brown Ale,2129,2034,1.0
+Tempter IPA,American IPA,2130,2035,1.0
+Bridal Veil Rye Pale Ale,American Pale Ale (APA),2131,2036,1.0
+Smittytown,Extra Special / Strong Bitter (ESB),2132,2037,1.0
+Greenwood Beach,Fruit / Vegetable Beer,2133,2038,1.0
+Gatecrasher,English India Pale Ale (IPA),2134,2039,1.0
+RecreationAle,American Pale Ale (APA),2135,2040,1.0
+First Stand,Saison / Farmhouse Ale,2136,2041,1.0
+Battle LIne,American Brown Ale,2137,2042,1.0
+Broken Bridge,Dunkelweizen,2138,2043,1.0
+Brutus,English India Pale Ale (IPA),2139,2044,1.0
+Petit Mutant,American Wild Ale,2140,2045,1.0
+The Crusher,American Double / Imperial IPA,2141,2046,1.0
+Beelzebub,American Double / Imperial Stout,2142,2047,1.0
+Focal Banger,American IPA,2143,2048,1.0
+Heady Topper,American Double / Imperial IPA,2144,2049,2.0
+Heady Topper,American Double / Imperial IPA,2145,2049,2.0
+Bomber Mountain Amber Ale (2013),American Amber / Red Ale,2146,2050,1.0
+Indian Paintbrush IPA,American IPA,2147,2051,1.0
+Saddle Bronc Brown Ale (2013),English Brown Ale,2148,2052,1.0
+Wagon Box Wheat Beer,American Pale Wheat Ale,2149,2053,1.0
+Birdhouse Pale Ale,Belgian Pale Ale,2150,2054,1.0
+Ozzy,Belgian Pale Ale,2151,2055,1.0
+Resurrection,Dubbel,2152,2056,1.0
+Bronx Summer Pale Ale,American Pale Ale (APA),2153,2057,1.0
+Bronx Black Pale Ale,American Black Ale,2154,2058,1.0
+Bronx Pale Ale,American Pale Ale (APA),2155,2059,1.0
+Surfrider,American Pale Ale (APA),2156,2060,1.0
+Kolschtal Eddy,Kölsch,2157,2061,1.0
+South Bay Session IPA,American IPA,2158,2062,1.0
+Grandma's Pecan,English Brown Ale,2159,2063,1.0
+Double Trunk,American Double / Imperial IPA,2160,2064,1.0
+Just IPA,American IPA,2161,2065,1.0
+Lionshead,American Pilsner,2162,2066,1.0
+Manhattan Gold Lager (1990),American Amber / Red Lager,2163,2067,1.0
+G. B. Russo’s Italian Pistachio Pale Ale,American Pale Ale (APA),2164,2068,1.0
+Northern Hawk Owl Amber,American Amber / Red Ale,2165,2069,1.0
+CEO Stout,American Stout,2166,2070,1.0
+Will Power Pale Ale,American Pale Ale (APA),2167,2071,1.0
+Curious Traveler Shandy,Shandy,2168,2072,1.0
+Hunny Do Wheat,American Pale Wheat Ale,2169,2073,1.0
+Three Way Pale Ale,American Pale Ale (APA),2170,2074,1.0
+Rise to the Top,Cream Ale,2171,2075,1.0
+Lost Trout Brown Ale,American Brown Ale,2172,2076,1.0
+Watermelon Ale,Fruit / Vegetable Beer,2173,210,2.0
+Knotty Blonde Ale,American Blonde Ale,2174,2077,1.0
+Fivepine Chocolate Porter,American Porter,2175,2078,1.0
+Hoodoo Voodoo IPA,American IPA,2176,2079,1.0
+Hydraulion Red,Irish Red Ale,2177,2080,1.0
+40 Mile IPA,American IPA,2178,2081,1.0
+Citra Faced,American Pale Wheat Ale,2179,2082,1.0
+Pole Barn Stout,Oatmeal Stout,2180,2083,1.0
+Pale,American Pale Ale (APA),2181,2084,1.0
+Yoshi's Nectar,California Common / Steam Beer,2182,2085,1.0
+Leatherhead Red,American Amber / Red Ale,2183,2086,1.0
+Cropduster Mid-American IPA,American IPA,2184,2087,1.0
+Golden Frau Honey Wheat,Braggot,2185,2088,1.0
+Cornstalker Dark Wheat,American Dark Wheat Ale,2186,2089,1.0
+Cafe Leche,American Porter,2187,2090,1.0
+Damascene Apricot Sour,Fruit / Vegetable Beer,2188,2091,1.0
+Csar,Russian Imperial Stout,2189,2092,1.0
+Klingon Warnog Roggen Dunkel,Roggenbier,2190,2093,1.0
+Overlord Imperial IPA,American Double / Imperial IPA,2191,2094,1.0
+Alloy,American IPA,2192,2095,1.0
+Rivet Irish Red Ale,Irish Red Ale,2193,2096,1.0
+3 Gear Robust Porter,American Porter,2194,2097,1.0
+Circuit Bohemian Pilsner,Czech Pilsener,2195,2098,1.0
+Turnrow Harvest Ale,American Blonde Ale,2196,2099,1.0
+Juke Joint IPA,American IPA,2197,2100,1.0
+Parade Ground Coffee Porter,American Porter,2198,2101,1.0
+Tin Roof Watermelon Wheat,Fruit / Vegetable Beer,2199,2102,1.0
+Tin Roof Blonde Ale,American Blonde Ale,2200,2103,1.0
+Voodoo Bengal Pale Ale,American Pale Ale (APA),2201,2104,1.0
+Perfect Tin Amber,American Amber / Red Ale,2202,2105,1.0
+IPA & a Half,American IPA,2203,2106,1.0
+Ornery Amber Lager (2003),Vienna Lager,2204,2107,1.0
+Big Island Shandy,Shandy,2205,2108,1.0
+Preservation IPA,American IPA,2206,2109,1.0
+Almanac IPA,American IPA,2207,2110,1.0
+Milk Mustachio Stout,Milk / Sweet Stout,2208,2111,1.0
+Farmer's Tan Red Ale,American Amber / Red Ale,2209,2112,1.0
+Triangle India Pale Ale,American IPA,2210,2113,1.0
+Triangle White Ale,Witbier,2211,2114,1.0
+Triangle Belgian Golden Ale,Belgian Strong Pale Ale,2212,2115,1.0
+Troegenator,Doppelbock,2213,2116,1.0
+Nugget Nectar,American Amber / Red Ale,2214,2117,1.0
+Sunshine Pils,American Pilsner,2215,2118,1.0
+Troegenator Doublebock,Doppelbock,2216,2119,1.0
+Perpetual IPA,American IPA,2217,2120,1.0
+Greenville Pale Ale,American Pale Ale (APA),2218,2121,1.0
+Hoppy Boy,American IPA,2219,2122,1.0
+Cow Creek,American Amber / Red Lager,2220,2123,1.0
+Chupahopra,American IPA,2221,2124,1.0
+Twisted X,American Adjunct Lager,2222,2125,1.0
+Day Hike Session,American IPA,2223,2126,1.0
+Trailhead ISA,American IPA,2224,2127,1.0
+Immersion Amber,American Amber / Red Ale,2225,2128,1.0
+Evo IPA,American IPA,2226,2129,1.0
+Presidential Pils,Czech Pilsener,2227,2130,1.0
+Evolutionary IPA (2012),American IPA,2228,2131,1.0
+Persnickety Pale,American Pale Ale (APA),2229,2132,1.0
+SoDo Brown Ale,American Brown Ale,2230,2133,1.0
+Immersion Amber Ale (2011),American Amber / Red Ale,2231,2134,1.0
+Evolutionary IPA (2011),American IPA,2232,2135,1.0
+Trailhead India Style Session Ale (2011),American IPA,2233,2136,1.0
+Panorama Wheat Ale,American Pale Wheat Ale,2234,2137,1.0
+Wobble,American IPA,2235,2138,1.0
+Night Cat,American Dark Wheat Ale,2236,2139,1.0
+Night Cat (2014),American Dark Wheat Ale,2237,2140,1.0
+Dog Days Lager,Dortmunder / Export Lager,2238,2141,1.0
+Sidekick Extra Pale Ale,American Pale Ale (APA),2239,2142,1.0
+Atom Smasher,Märzen / Oktoberfest,2240,2143,1.0
+Testudo,Bière de Garde,2241,2144,1.0
+Hobnob B & B Pale Ale,American Pale Ale (APA),2242,2145,1.0
+Cane and Ebel,American Strong Ale,2243,2146,1.0
+Outlaw IPA (2015),American IPA,2244,2147,1.0
+The Gilded Age,Munich Helles Lager,2245,2148,1.0
+No Limits Hefeweizen,Hefeweizen,2246,2149,1.0
+Honeyspot Road White IPA,American White IPA,2247,2150,1.0
+Road 2 Ruin Double IPA,American Double / Imperial IPA,2248,2151,1.0
+Workers Comp Saison,Saison / Farmhouse Ale,2249,2152,1.0
+Ol' Factory Pils,German Pilsener,2250,2153,1.0
+PUNK'N,Pumpkin Ale,2251,2154,1.0
+Yard Sale Winter Lager,American Amber / Red Lager,2252,2155,1.0
+Trader Session IPA,American IPA,2253,2156,1.0
+Hop Nosh IPA,American IPA,2254,2157,1.0
+SUM'R,American Blonde Ale,2255,2158,1.0
+Organic Baba Black Lager,Schwarzbier,2256,2159,1.0
+Hop Notch IPA (2013),American IPA,2257,2160,1.0
+Cutthroat Pale Ale,American Pale Ale (APA),2258,2161,1.0
+WYLD Extra Pale Ale,American Pale Ale (APA),2259,2162,1.0
+Pilsner Ukiah,German Pilsener,2260,2163,1.0
+The Green Room,American IPA,2261,2164,1.0
+Humbucker Helles,Maibock / Helles Bock,2262,2165,1.0
+Uncle John's Apple Cherry Cider,Cider,2263,2166,1.0
+Uncle John's Apricot Apple Cider,Cider,2264,2167,1.0
+Draught Hard Apple Cider,Cider,2265,2168,1.0
+Scotty K NA,Low Alcohol Beer,2266,2169,1.0
+Bacon Brown Ale,American Brown Ale,2267,2170,1.0
+Golden State Ale,Belgian Pale Ale,2268,2171,1.0
+Baltic Porter,Baltic Porter,2269,2172,1.0
+Siamese twin,Dubbel,2270,2173,1.0
+Double Duckpin,American Double / Imperial IPA,2271,2174,1.0
+Old Pro,Gose,2272,2175,1.0
+Duckpin Pale Ale,American Pale Ale (APA),2273,2176,1.0
+Balt Altbier,Altbier,2274,2177,1.0
+Campside Session IPA,American IPA,2275,2178,1.0
+Upland Wheat Ale,Witbier,2276,2179,1.0
+Dragonfly IPA,American IPA,2277,2180,1.0
+Lee Hill Series Vol. 5 - Belgian Style Quadrupel Ale,Quadrupel (Quad),2278,2181,1.0
+Lee Hill Series Vol. 4 - Manhattan Style Rye Ale,Rye Beer,2279,2182,1.0
+Lee Hill Series Vol. 2 - Wild Saison,American Wild Ale,2280,2183,1.0
+Lee Hill Series Vol. 3 - Barrel Aged Imperial Stout,American Double / Imperial Stout,2281,2184,1.0
+Lee Hill Series Vol. 1 - Barrel Aged Brown Ale,American Brown Ale,2282,2185,1.0
+Blood Orange Saison,Saison / Farmhouse Ale,2283,2186,1.0
+Thai Style White IPA,American White IPA,2284,2187,1.0
+Ferus Fluxus Wild Belgian Pale Ale,American Wild Ale,2285,2188,1.0
+Upslope Imperial India Pale Ale,American Double / Imperial IPA,2286,2189,1.0
+Upslope Christmas Ale,Winter Warmer,2287,2190,1.0
+Upslope Pumpkin Ale,Pumpkin Ale,2288,2191,1.0
+Upslope Belgian Style Pale Ale,Belgian Pale Ale,2289,2192,1.0
+Upslope Foreign Style Stout,Foreign / Export Stout,2290,2193,1.0
+Top Rope Mexican-style Craft Lager,Vienna Lager,2291,2194,1.0
+Upslope Craft Lager,Vienna Lager,2292,2195,1.0
+Upslope Brown Ale,English Brown Ale,2293,2196,1.0
+Upslope Pale Ale,American Pale Ale (APA),2294,2197,1.0
+Upslope India Pale Ale,American IPA,2295,2198,1.0
+Common Sense Kentucky Common Ale,American Brown Ale,2296,2199,1.0
+Upstate I.P.W.,American IPA,2297,2200,1.0
+Squatters Full Suspension Pale Ale,American Pale Ale (APA),2298,2201,2.0
+Squatters Hop Rising Double IPA,American Double / Imperial IPA,2299,2202,1.0
+Devastator Double Bock,Doppelbock,2300,2203,1.0
+Wasatch Ghostrider White IPA,American White IPA,2301,2204,1.0
+Wasatch Ghostrider White IPA (2014),American White IPA,2302,2205,1.0
+Wasatch Apricot Hefeweizen,Fruit / Vegetable Beer,2303,2206,1.0
+Squatters Hop Rising Double IPA (2014),American Double / Imperial IPA,2304,2207,1.0
+Squatters Full Suspension Pale Ale,American Pale Ale (APA),2305,2201,2.0
+Nunica Pine,Cider,2306,2208,1.0
+Ginger Peach,Cider,2307,2209,1.0
+Totally Roasted,Cider,2308,2210,1.0
+Blue Gold,Cider,2309,2211,1.0
+Hard Apple,Cider,2310,2212,1.0
+Nitro Can Coffee Stout,American Stout,2311,2213,1.0
+Voodoo Love Child,Tripel,2312,2214,1.0
+White Magick of the Sun,Witbier,2313,2215,1.0
+Wynona's Big Brown Ale,American Brown Ale,2314,2216,1.0
+Gran Met,Belgian Strong Pale Ale,2315,2217,1.0
+Good Vibes IPA,American IPA,2316,2218,1.0
+Pilzilla,American Double / Imperial Pilsner,2317,2219,1.0
+Wachusett Light IPA,American IPA,2318,2220,1.0
+Green Monsta IPA,American IPA,2319,2221,2.0
+Wachusett IPA,American IPA,2320,2222,1.0
+Strawberry White,Witbier,2321,2223,1.0
+Larry Imperial IPA,American Double / Imperial IPA,2322,2224,1.0
+Wachusett Summer,American Pale Wheat Ale,2323,2225,1.0
+Country Pale Ale,English Pale Ale,2324,2226,1.0
+Wachusett Light IPA (2013),American IPA,2325,2227,1.0
+Pumpkan,Pumpkin Ale,2326,2228,1.0
+Wachusett Blueberry Ale,Fruit / Vegetable Beer,2327,2229,1.0
+Green Monsta IPA,American IPA,2328,2221,2.0
+T-6 Red Ale (2004),American Amber / Red Ale,2329,2230,1.0
+Self Starter,American IPA,2330,2231,1.0
+Ermal's,Cream Ale,2331,2232,1.0
+10 Ton,Oatmeal Stout,2332,2233,1.0
+Flyin' Rye,American IPA,2333,2234,1.0
+Christmas Ale,Herbed / Spiced Beer,2334,2235,1.0
+Pay It Forward Cocoa Porter,American Porter,2335,2236,1.0
+West Sixth Amber Ale,American Amber / Red Ale,2336,2237,1.0
+West Sixth IPA,American IPA,2337,2238,1.0
+One Claw,American Pale Ale (APA),2338,2239,1.0
+Westbrook Gose,Gose,2339,2240,1.0
+White Thai,Witbier,2340,2241,1.0
+Westbrook IPA,American IPA,2341,2242,1.0
+Westfield Octoberfest,Märzen / Oktoberfest,2342,2243,1.0
+Pop's Old Fashioned Lager,American Amber / Red Lager,2343,2244,1.0
+Charlie in the Rye,American IPA,2344,2245,1.0
+Royal Lager,American Pale Lager,2345,2246,1.0
+Rip Van Winkle (Current),Bock,2346,2247,1.0
+O’Malley’s Stout,English Stout,2347,2248,1.0
+O’Malley’s IPA,American IPA,2348,2249,1.0
+O’Malley’s Irish Style Cream Ale,Cream Ale,2349,2250,1.0
+L'il Lucy's Hot Pepper Ale,Chile Beer,2350,2251,1.0
+Drop Kick Ale,American Amber / Red Ale,2351,2252,1.0
+Raspberry Berliner Weisse,Berliner Weissbier,2352,2253,1.0
+Hop Session,American IPA,2353,2254,1.0
+Blueberry Berliner Weisse,Berliner Weissbier,2354,2255,1.0
+Berliner Weisse,Berliner Weissbier,2355,2256,1.0
+Super G IPA,American IPA,2356,2257,1.0
+Hefe Lemon,Radler,2357,2258,1.0
+Hefe Black,Hefeweizen,2358,2259,1.0
+Widmer Brothers Hefeweizen,Hefeweizen,2359,2260,1.0
+Hop Slayer Double IPA,American Double / Imperial IPA,2360,2261,1.0
+Pumpkin Ale,Pumpkin Ale,2361,2262,1.0
+Big Bowl Blonde Ale,American Brown Ale,2362,2263,1.0
+Phat Chance,American Blonde Ale,2363,2264,1.0
+Hop Slayer Double IPA (2011),American Double / Imperial IPA,2364,2265,2.0
+Hop Slayer Double IPA (2011),American Double / Imperial IPA,2365,2265,2.0
+Wild Onion Summer Wit,Witbier,2366,2266,1.0
+Jack Stout,Oatmeal Stout,2367,2267,1.0
+Wild Onion Pumpkin Ale (2010),Pumpkin Ale,2368,2268,1.0
+Paddy Pale Ale,American Pale Ale (APA),2369,2269,1.0
+Blonde Hunny,Belgian Pale Ale,2370,2270,1.0
+Wild Wolf Wee Heavy Scottish Style Ale,Scotch Ale / Wee Heavy,2371,2271,1.0
+Wild Wolf American Pilsner,American Pilsner,2372,2272,1.0
+Alpha Ale,American Pale Ale (APA),2373,2273,1.0
+Mystical Stout,Irish Dry Stout,2374,2274,1.0
+Bodacious Bock,Bock,2375,2275,1.0
+Ambitious Lager,Munich Helles Lager,2376,2276,1.0
+Wyoming Pale Ale,American Pale Ale (APA),2377,2277,1.0
+Wind River Blonde Ale,American Blonde Ale,2378,2278,1.0
+Ace IPA,American IPA,2379,2279,1.0
+P-51 Porter,American Porter,2380,2280,1.0
+#001 Golden Amber Lager,American Amber / Red Lager,2381,2281,1.0
+#002 American I.P.A.,American IPA,2382,2282,1.0
+#003 Brown & Robust Porter,American Porter,2383,2283,1.0
+#004 Session I.P.A.,American IPA,2384,2284,1.0
+Tarasque,Saison / Farmhouse Ale,2385,2285,1.0
+Ananda India Pale Ale,American IPA,2386,2286,1.0
+Tiny Bomb,American Pilsner,2387,2287,1.0
+Train Hopper,American IPA,2388,2288,1.0
+Edward’s Portly Brown,American Brown Ale,2389,2289,1.0
+Troopers Alley IPA,American IPA,2390,2290,1.0
+Wolverine Premium Lager,American Pale Lager,2391,2291,1.0
+Woodchuck Amber Hard Cider,Cider,2392,2292,1.0
+4000 Footer IPA,American IPA,2393,2293,1.0
+Summer Brew,American Pilsner,2394,2294,1.0
+Be Hoppy IPA,American IPA,2395,2295,1.0
+Worthy IPA,American IPA,2396,2296,1.0
+Easy Day Kolsch,Kölsch,2397,2297,1.0
+Lights Out Vanilla Cream Extra Stout,American Double / Imperial IPA,2398,2298,1.0
+Worthy IPA (2013),American IPA,2399,2299,1.0
+Worthy Pale,American Pale Ale (APA),2400,2300,1.0
+Patty's Chile Beer,Chile Beer,2401,2301,1.0
+Colorojo Imperial Red Ale,American Strong Ale,2402,2302,1.0
+Wynkoop Pumpkin Ale,Pumpkin Ale,2403,2303,1.0
+Rocky Mountain Oyster Stout,American Stout,2404,2304,1.0
+Belgorado,Belgian IPA,2405,2305,1.0
+Rail Yard Ale,American Amber / Red Ale,2406,2306,1.0
+B3K Black Lager,Schwarzbier,2407,2307,1.0
+Silverback Pale Ale,American Pale Ale (APA),2408,2308,1.0
+Rail Yard Ale (2009),American Amber / Red Ale,2409,2309,1.0

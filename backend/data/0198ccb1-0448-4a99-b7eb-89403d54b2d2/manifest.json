@@ -1,0 +1,14 @@
+{
+    "id": "0198ccb1-0448-4a99-b7eb-89403d54b2d2",
+    "name": "beers_mini_8",
+    "created_at": "2026-03-27T16:10:58.088939",
+    "type": "evaluation",
+    "provider": "openai",
+    "model": "gpt-5.4-mini",
+    "analyses": {
+        "attribute": "complete",
+        "dependency": "complete",
+        "dep_violations": "complete",
+        "consolidated": "complete"
+    }
+}

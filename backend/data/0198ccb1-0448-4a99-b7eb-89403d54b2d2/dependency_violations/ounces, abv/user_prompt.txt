@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The package size, alcohol content, and bitterness/value measures appear related descriptors of the same beverage; the size is a formatted quantity string, while the other two are numeric product characteristics.
+
+  The following is a formatted table with the unique data to be checked.
+  

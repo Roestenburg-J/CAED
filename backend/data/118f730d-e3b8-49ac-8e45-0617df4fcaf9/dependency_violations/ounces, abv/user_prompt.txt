@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The values describe product package size and a per-unit measurement. The per-unit measurement value (a decimal string) is consistent with being derived from or used alongside the package size (e.g., nutrition/strength per ounce vs total based on container size).
+
+  The following is a formatted table with the unique data to be checked.
+  

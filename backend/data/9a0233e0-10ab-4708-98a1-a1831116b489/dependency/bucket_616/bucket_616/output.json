@@ -1,0 +1,1 @@
+{"output":[{"columns":[2,3,4,5,6],"dependency":"The route/flight identifier appears to determine a set of scheduled and actual time fields: the same flight code is associated with a sequence of four times, likely representing departure/arrival or similar event timestamps for that specific route."}]}

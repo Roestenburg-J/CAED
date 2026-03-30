@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The organization/payment-type column (e.g., voluntary non-profit - private) semantically determines the categorical indicator column (e.g., yes/no eligibility/status aligned with that organizational type).
+
+  The following is a formatted table with the unique data to be checked.
+  

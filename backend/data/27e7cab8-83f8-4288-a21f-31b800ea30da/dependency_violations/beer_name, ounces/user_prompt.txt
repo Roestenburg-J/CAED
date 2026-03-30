@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The product name determines the package size text. The same beer name appears with the same volume/packaging amount, with only a punctuation variation in formatting ('12.0 oz' vs '12.0 oz.').
+
+  The following is a formatted table with the unique data to be checked.
+  

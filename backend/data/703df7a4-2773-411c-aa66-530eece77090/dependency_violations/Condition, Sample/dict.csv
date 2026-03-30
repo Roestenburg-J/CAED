@@ -1,0 +1,1001 @@
+Condition,Sample,original_index,unique_index,count
+surgical infection prevention,empty,0,0,33
+surgical infection prevention,empty,1,0,33
+surgical infection prevention,empty,2,0,33
+surgical infection prevention,empty,3,0,33
+surgical infection prevention,empty,4,0,33
+surgical infection prevention,empty,5,0,33
+surgical infection prevention,empty,6,0,33
+surgical infection prevention,empty,7,0,33
+heart attack,33 patients,8,1,1
+heart attack,13 patients,9,2,3
+heart attack,4 patients,10,3,6
+heart attack,4 patients,11,3,6
+heart attack,14 patients,12,4,3
+heart attack,0 patients,13,5,76
+heart attack,0 patients,14,5,76
+heart failure,114 patients,15,6,1
+heart failure,149 patients,16,7,1
+heart failure,3x patients,17,8,1
+heart failure,41 patients,18,9,2
+heart attack,270 patients,19,10,1
+heart attack,516 patients,20,11,1
+heart attaxk,71 patients,21,12,1
+hearx axxack,244 patients,22,13,1
+heart attack,441 patients,23,14,1
+heart attack,0 patients,24,5,76
+heart attack,40 patients,25,15,1
+heart failure,455 patients,26,16,1
+heart failure,514 patients,27,17,1
+heart failure,165 patients,28,18,1
+heart failure,110 patients,29,19,2
+pneumonia,191 patients,30,20,1
+pneumonia,125 patients,31,21,3
+pneumonia,107 patients,32,22,1
+pneumonia,196 patients,33,23,2
+pneumonia,147 patients,34,24,1
+pneumonia,160 patients,35,25,2
+surgical infection prevention,79 patients,36,26,1
+surgical infection prevention,399 patients,37,27,1
+surgical infection prevention,405 patients,38,28,2
+surgical infection prevention,385 patients,39,29,1
+surgical infection prevention,136 patients,40,30,2
+surgical infection prevention,537 patients,41,31,1
+surgical infection prevention,185 patients,42,32,1
+surgical infection prevention,184 patients,43,33,1
+heart attack,20 patients,44,34,1
+heart attack,5 patients,45,35,5
+heart attack,2 patients,46,36,12
+heart attack,0 patients,47,5,76
+heart attack,5 patients,48,35,5
+heart attack,0 patients,49,5,76
+heart attack,0 patients,50,5,76
+heart failure,110 patients,51,19,2
+heart failure,160 patients,52,37,1
+heart failure,69 patients,53,38,3
+heart failure,34 patients,54,39,4
+pneumonia,172 patients,55,40,1
+pneumonia,120 patients,56,41,1
+pneumonia,98 patients,57,42,1
+pneumonia,211 patients,58,43,1
+pneumonia,175 patients,59,44,1
+pneumonia,118 patients,60,45,1
+surgical infection prevention,14 patients,61,46,5
+surgical infection prevention,168 patients,62,47,1
+surgical infection prevention,167 patients,63,48,1
+surgical infection prevention,158 patients,64,49,1
+surgical infection prevention,0 patients,65,50,22
+surgical infection prevention,237 patients,66,51,1
+surgical infection prevention,76 patients,67,52,3
+surgical infection prevention,76 patients,68,52,3
+heart attack,159 patients,69,53,1
+heart attack,247 patients,70,54,1
+heart attack,43 patients,71,55,1
+heart attack,103 patients,72,56,1
+hearx axxack,227 patients,73,57,1
+heart attack,0 patients,74,5,76
+heart attack,61 patients,75,58,1
+heart failure,217 patients,76,59,1
+heart failure,259 patients,77,60,2
+heart failure,84 patients,78,61,2
+heart failure,53 patients,79,62,1
+pneumonia,174 patients,80,63,1
+pneumonia,137 patients,81,64,1
+pneumonia,65 patients,82,65,2
+pneumonia,200 patients,83,66,1
+pneumonia,138 patients,84,67,3
+pneumonia,85 patients,85,68,5
+surgical infection prevention,107 patients,86,69,2
+surgical infection prevention,457 patients,87,70,1
+surgical infection prevention,462 patients,88,71,1
+surgical infection prevention,439 patients,89,72,1
+surgical infection prevention,130 patients,90,73,1
+surgical infection prevention,619 paxienxs,91,74,1
+surgical infection prevention,242 patients,92,75,2
+surgical infection prevention,242 patients,93,75,2
+heart attack,5 patients,94,35,5
+heart attack,2 patients,95,36,12
+heart attack,0 patients,96,5,76
+heart attack,0 patients,97,5,76
+heart attack,2 patients,98,36,12
+heart attack,0 patients,99,5,76
+heart attack,0 patients,100,5,76
+heart failure,59 patients,101,76,3
+heart failure,76 patients,102,77,2
+heart failure,14 patients,103,78,2
+heart failure,8 patients,104,79,3
+pneumonia,85 patients,105,68,5
+pneumonia,64 patients,106,80,2
+pneumonia,28 patients,107,81,2
+pneumonia,87 patients,108,82,2
+pneumonia,57 patients,109,83,2
+pneumonia,63 patients,110,84,1
+surgical infection prevention,11 patients,111,85,1
+surgical infection prevention,101 patients,112,86,2
+surgical infection prevention,101 patients,113,86,2
+surgical infection prevention,100 patients,114,87,1
+surgical infection prevention,0 patixnts,115,88,1
+surgical infection prevention,123 patients,116,89,2
+surgical infection prevention,77 patients,117,90,1
+surgical infection prevention,76 patients,118,52,3
+heart attack,1 patients,119,91,21
+heart attack,1 patients,120,91,21
+heart attack,0 patients,121,5,76
+heart attack,0 patients,122,5,76
+heart attack,1 patients,123,91,21
+heart attack,0 patients,124,5,76
+heart attack,0 patients,125,5,76
+heart failure,26 patients,126,92,1
+heaxt failuxe,39 patients,127,93,1
+heart failure,8 patients,128,79,3
+heart failure,5 patients,129,94,1
+pneumonia,16 patients,130,95,3
+pneumonia,15 patients,131,96,2
+pneumonia,9 patients,132,97,1
+pneumonia,21 pxtients,133,98,1
+pneumonia,21 patients,134,99,1
+pneumonia,15 patients,135,96,2
+surgical infection prevention,1 patients,136,100,3
+surgical infection prevention,2 patients,137,101,6
+surgical infection prevention,2 patients,138,101,6
+surgical infection prevention,2 patients,139,101,6
+surgical infection prevention,0 patients,140,50,22
+surgical infection prevention,4 patients,141,102,7
+surgical infection prevention,4 patients,142,102,7
+surgical infection prevention,4 patients,143,102,7
+heart attack,6 patients,144,103,5
+heart attack,1 patients,145,91,21
+heart attack,1 patients,146,91,21
+heart attack,2 patients,147,36,12
+heart attack,3 patients,148,104,13
+heart attack,0 patients,149,5,76
+heart attack,0 patients,150,5,76
+heart failure,35 patients,151,105,2
+heart failure,42 patients,152,106,2
+heart failure,10 patients,153,107,4
+heart failure,12 patients,154,108,2
+pneumonia,44 patients,155,109,2
+pneumonia,30 patients,156,110,5
+pneumonia,25 patients,157,111,2
+pneumonia,51 patients,158,112,2
+pneumonia,45 patients,159,113,2
+pneumonia,30 patients,160,110,5
+surgical infection prevention,3 patients,161,114,4
+surgical infection prevention,6 patients,162,115,2
+surgical infection prevention,7 patients,163,116,2
+surgical infection prevention,5 patients,164,117,4
+surgical infection prevention,0 patients,165,50,22
+surgical infection prevention,xx patients,166,118,1
+surgical infection prevention,9 patients,167,119,3
+surgical infection prevention,9 patients,168,119,3
+heart attack,8 patients,169,120,4
+heart attack,6xpatients,170,121,1
+heart attack,2 patients,171,36,12
+heart attack,2 patients,172,36,12
+heart attack,6 patients,173,103,5
+heart attack,0 patients,174,5,76
+heart attack,0 patients,175,5,76
+heart failure,55 patients,176,122,1
+heart failure,80 patients,177,123,1
+heart failure,27 patients,178,124,2
+heart failure,10 patients,179,107,4
+pneumonia,128 patients,180,125,2
+pneumonia,115 patients,181,126,1
+pneumonia,65 patients,182,65,2
+pneumonia,158 patients,183,127,1
+pneumonia,133 patients,184,128,1
+pneumonia,101 patients,185,129,4
+surgical infection prevention,14 patients,186,46,5
+surgical infection prevention,66 patients,187,130,3
+surgical infection prevention,64 patients,188,131,1
+surgical infection prevention,63 patients,189,132,1
+surgical infection prevention,0 patients,190,50,22
+surgical infection prevention,155 patients,191,133,1
+surgical infection prevention,56 patients,192,134,2
+surgical infection prevention,56 patients,193,134,2
+heart attack,240 patients,194,135,1
+heart attack,295 patients,195,136,1
+heart attack,70 patients,196,137,1
+heart attack,131 patients,197,138,1
+heart attack,288 patients,198,139,1
+heaxt attack,0 patients,199,140,1
+heart attack,48 patients,200,141,1
+heart failure,316 patients,201,142,1
+heart failure,372 patients,202,143,1
+heart failure,130 patients,203,144,2
+heart failure,69 patients,204,38,3
+pneumonia,125 patients,205,21,3
+pneumonia,131 patients,206,145,3
+pneumonia,69 patients,207,146,3
+pneumonia,135 patients,208,147,1
+pneumonia,112 patients,209,148,2
+pneumonia,89 patients,210,149,3
+surgical infection prevention,125 patients,211,150,3
+surgical infection prevention,461 patients,212,151,1
+surgical infection prevention,473 patients,213,152,3
+surgical infection prevention,442 patients,214,153,1
+surgical infection prevention,127 patients,215,154,1
+surgical infection prevention,601 patients,216,155,2
+surgical infection prevention,229 patients,217,156,1
+surgical infection prevention,224 patients,218,157,2
+heart attack,46 patients,219,158,1
+heart attack,39 patients,220,159,1
+heart attack,11 patients,221,160,3
+heart attack,14 patients,222,4,3
+heart attack,41 patients,223,161,2
+heart attack,1 patiexts,224,162,1
+hexrt attxck,5 patients,225,163,2
+heart failure,76 patients,226,77,2
+heart failure,94 patients,227,164,3
+heart failure,36 patients,228,165,1
+heart faxlure,15 patients,229,166,1
+pneumonia,69 patients,230,146,3
+pneumonia,91 patients,231,167,1
+pneumonia,37 patients,232,168,4
+pneumonia,88 patients,233,169,1
+pneumonia,82 patientx,234,170,1
+pneumonia,56 patients,235,171,3
+suxgical infection pxevention,16 patients,236,172,1
+surgical infection prevention,139 patients,237,173,2
+surgical infection prevention,147 patients,238,174,2
+surgxcal infectxon preventxon,136 patients,239,175,1
+surgical infection prevention,0 patients,240,50,22
+surgical infection prevention,179 patients,241,176,3
+surgical infection prevention,90 patients,242,177,2
+surgical infection prevention,90 patients,243,177,2
+heart attack,0 patients,244,5,76
+heart attack,0 patients,245,5,76
+heart attack,0 patients,246,5,76
+heart attack,0 patients,247,5,76
+heart attack,0 patients,248,5,76
+heart attack,0 patients,249,5,76
+heart attack,0 patients,250,5,76
+heart failure,79 patients,251,178,2
+heart failure,91 patients,252,179,1
+heart failure,25 patients,253,180,1
+heart failure,17 patients,254,181,1
+pneumonia,25 patients,255,111,2
+xneumonia,24 patients,256,182,1
+pneumonia,6 patients,257,183,2
+pneumonia,24 patients,258,184,3
+pneumonia,26 patients,259,185,2
+pneumonia,24 patients,260,184,3
+surgical infection prevention,empty,261,0,33
+surgical infection prevention,14 patients,262,46,5
+surgical infection prevention,14 patients,263,46,5
+surgical infection prevention,14 patients,264,46,5
+surgical infection prevention,0 patients,265,50,22
+surgical infection prevention,15 patients,266,186,3
+surgical infection prevention,10 patients,267,187,7
+surgical infection prevention,10 patients,268,187,7
+heart attack,179 patients,269,188,1
+heart attack,208 patients,270,189,1
+heart attack,30 patients,271,190,1
+heart attack,98 patients,272,191,1
+heart attack,169 patients,273,192,1
+heart attack,0 patients,274,5,76
+heart attack,36 patients,275,193,1
+heart failure,210 patients,276,194,1
+heart failure,246 patients,277,195,1
+heart failure,71 patients,278,196,1
+xeart failure,48 patients,279,197,1
+pneumonia,235 patients,280,198,1
+pneumonia,110 patients,281,199,2
+pneumonia,131 patients,282,145,3
+pneumonia,239 patients,283,200,2
+pneumonia,116 patients,284,201,2
+pneumonia,199 patients,285,202,1
+surgical infection prevention,96 patients,286,203,2
+surgical infection prevention,368 patients,287,204,1
+surgical infection prevention,370 patients,288,205,1
+surgical infection prevention,331 patients,289,206,1
+surgical infection prevention,116 patients,290,207,3
+surgical infection prevention,588 patients,291,208,1
+surgical infection prevention,226 patients,292,209,2
+surgical infection prevention,225 patients,293,210,1
+heart attack,empty,294,211,16
+heart attack,empty,295,211,16
+heart attack,empty,296,211,16
+heart attack,empty,297,211,16
+heart attack,empty,298,211,16
+heart attack,empty,299,211,16
+heart attack,empty,300,211,16
+heart failure,empty,301,212,4
+heart failure,empty,302,212,4
+heart failure,empty,303,212,4
+heart failure,empty,304,212,4
+pneumonia,empty,305,213,6
+pneumonia,empty,306,213,6
+pneumonia,empty,307,213,6
+pneumonia,empty,308,213,6
+pneumonia,empty,309,213,6
+pneumonia,empty,310,213,6
+children s asthma care,9 patients,311,214,3
+children s asthma care,9 patients,312,214,3
+heart attack,81 patients,313,215,1
+heart attack,73 patients,314,216,1
+heart attack,14 patients,315,4,3
+heart attack,29 xatients,316,217,1
+heart attack,67 patients,317,218,1
+heart attack,1 patients,318,91,21
+heart attack,15 patients,319,219,3
+heart failure,142 patients,320,220,1
+heart failure,157 patients,321,221,1
+heart failure,49 patients,322,222,1
+heart failure,41 patients,323,9,2
+pneumonia,110 patients,324,199,2
+pneumonia,102 patients,325,223,1
+pneumonia,83 patients,326,224,1
+pneumonia,145 patients,327,225,1
+pneumonia,99 patients,328,226,2
+pneumonia,87 patients,329,82,2
+surgical infection prevention,23 patients,330,227,1
+heart failure,342 patients,331,228,1
+heart failure,94 patients,332,164,3
+heart failure,62 patients,333,229,1
+pneumonia,166 patients,334,230,1
+pneumonia,152 patients,335,231,1
+pneumonia,77 patients,336,232,2
+pneumonia,146 patients,337,233,1
+pneumonia,112 patients,338,148,2
+pneumonia,128 patients,339,125,2
+surgical infection prevention,147 patients,340,174,2
+surgical infection prevention,950 patients,341,234,1
+surgical infection prevention,957 patients,342,235,1
+surgical infection prevention,882 patients,343,236,1
+surgical infection prevention,165 patients,344,237,1
+surgical infection prevention,1295 patients,345,238,1
+surgical infection prevention,497 patients,346,239,2
+surgical infection prevention,497 patients,347,239,2
+heart attack,239 patients,348,240,1
+heart attack,260 patients,349,241,1
+heart attack,41 patients,350,161,2
+heart attack,63 patients,351,242,1
+heart attack,242 patients,352,243,1
+surgical infection prevention,205 patients,353,244,1
+heart attack,1x patients,354,245,1
+heart attack,7 patients,355,246,2
+heart attack,2 patients,356,36,12
+heart attack,1 patients,357,91,21
+heart attack,8 patients,358,120,4
+heart attack,1 patients,359,91,21
+heart attack,0 patients,360,5,76
+heart failure,48 patients,361,247,2
+heart failure,59 patients,362,76,3
+heart failure,13 patients,363,248,2
+heart failure,14 patients,364,78,2
+pneumonia,66 patients,365,249,1
+pnxumonia,59 patients,366,250,1
+pneumonia,40 patients,367,251,2
+pneumonia,85 patients,368,68,5
+pnexmonia,62 patients,369,252,1
+pneumonia,45 patients,370,113,2
+surgical infection prevention,19 patients,371,253,4
+surgical infection prevention,102 patients,372,254,1
+surgical infection prevention,103 patients,373,255,1
+surgical infection prevention,98 patients,374,256,2
+surgical infection prevention,0 patients,375,50,22
+surgical infection prevention,146 patients,376,257,2
+surgical infection prevention,58 patients,377,258,2
+surgical infection prevention,58 patients,378,258,2
+heart attack,86 patients,379,259,1
+heart attack,91 patients,380,260,1
+heart attack,22 patients,381,261,1
+heart attack,58 patients,382,262,1
+heart attack,96 patients,383,263,1
+heart attack,0 patients,384,5,76
+heart attack,16 patients,385,264,3
+hxart failurx,146 patients,386,265,1
+heart failure,150 patients,387,266,1
+heart failure,84 patients,388,61,2
+heart failure,45 patients,389,267,1
+pneumonia,7 patients,390,268,1
+pneumonia,35 patients,391,269,1
+heart attack,4 patients,392,3,6
+heart attack,3 patients,393,104,13
+heart attack,0 patients,394,5,76
+heart attack,5 patients,395,35,5
+heart attack,0 patients,396,5,76
+heart attack,0 patients,397,5,76
+heart failure,75 patients,398,270,2
+heart failure,93 patients,399,271,2
+hxart failurx,18 patients,400,272,1
+heart failure,27 patients,401,124,2
+pneumonia,116 patients,402,201,2
+pneumonia,138 patients,403,67,3
+pneumonia,67 patients,404,273,3
+pneumonia,131 patients,405,145,3
+pneumonia,93 patients,406,274,2
+pneumonia,89 patients,407,149,3
+surgical infection prevention,1 patients,408,100,3
+surgical infection prevention,10 patients,409,187,7
+surgical infection prevention,10 patients,410,187,7
+surgical infection prevention,10 patients,411,187,7
+surgical infection prevention,125 patients,412,150,3
+surgical infection prevention,125 patixnts,413,275,1
+heart attack,10 patients,414,276,2
+heart attack,3 patients,415,104,13
+heart attack,1 patients,416,91,21
+heart attack,0 patients,417,5,76
+heart attack,4 xatients,418,277,1
+heart attack,0 patients,419,5,76
+heart attack,0 patients,420,5,76
+heart failure,78 patients,421,278,1
+heart failure,105 patients,422,279,1
+heart failure,46 patients,423,280,2
+heart failure,12 patients,424,108,2
+pneumonia,69 patients,425,146,3
+pneumonia,95 patients,426,281,1
+pneumonia,47 patients,427,282,3
+pneumonia,101 patients,428,129,4
+pneumonia,57 patients,429,83,2
+pneumonia,51 patients,430,112,2
+surgical infection prevention,22 patients,431,283,1
+heart failure,57 patients,432,284,1
+heart failure,61 patients,433,285,1
+heart failure,33 patients,434,286,1
+heart failure,13 patients,435,248,2
+pneumonia,37 patients,436,168,4
+pneumonia,47 patients,437,282,3
+pneumonia,26 patients,438,185,2
+pneumonia,39 patients,439,287,3
+pneumonia,22 patients,440,288,1
+pneumonia,29 patients,441,289,2
+surgical infection prevention,106 patients,442,290,1
+surgical infection prevention,513 patients,443,291,1
+surgical infection prevention,521 patiexts,444,292,1
+surgical infection prevention,499 patients,445,293,1
+surgical infection prevention,146 patients,446,257,2
+surgical infection prevention,690 patients,447,294,1
+surgical infection prevention,226 patients,448,209,2
+surgical infection prevention,223 patients,449,295,1
+heart attack,empty,450,211,16
+heart attack,empty,451,211,16
+pneumonia,150 patients,452,296,1
+pneumonia,149 patients,453,297,1
+pneumonia,79 patients,454,298,2
+pneumonia,192 patients,455,299,1
+pneumonia,139 patients,456,300,1
+pneumonia,119 patients,457,301,1
+surgical infection prevention,54 patients,458,302,1
+surgical infection prevention,253 patients,459,303,1
+surgical infection prevention,255 patients,460,304,1
+surgical infection prevention,245 patients,461,305,1
+surgical infection prevention,x patients,462,306,1
+surgical infection prevention,369 patients,463,307,1
+surgical infection prevention,144 patients,464,308,1
+surgical infection prevention,142 patients,465,309,1
+heart attack,11 patients,466,160,3
+hexrt attxck,5 patients,467,163,2
+heart attack,0 patients,468,5,76
+heart attack,3 patients,469,104,13
+heart attack,6 patients,470,103,5
+heart attack,2 patients,471,36,12
+heart attack,0 patients,472,5,76
+heart failure,79 patients,473,178,2
+heart failure,94 patients,474,164,3
+heart failure,18 patients,475,310,2
+heart failure,32 patients,476,311,2
+pneumonia,80 patients,477,312,2
+pneumonia,67 patients,478,273,3
+pneumonia,39 patients,479,287,3
+pneumonia,74 patients,480,313,2
+pneumonia,59 patients,481,314,2
+pneumonia,62 patientx,482,315,1
+surgical infection prevention,12 patients,483,316,1
+surgical infection prevention,52 patients,484,317,2
+surgical infection prevention,52 patients,485,317,2
+surgical infection prevention,48 patients,486,318,1
+surgical infection prevention,0 patients,487,50,22
+surgical infection prevention,94 patients,488,319,2
+surgical infection prevention,50 patients,489,320,2
+surgical infection prevention,50 patients,490,320,2
+heart attack,0 patients,491,5,76
+heart attack,1 patients,492,91,21
+heart attack,0 patients,493,5,76
+heart attack,0 patients,494,5,76
+heart attack,0 patients,495,5,76
+heart attack,0 patxents,496,321,1
+heart attack,0 patients,497,5,76
+heart failure,35 patients,498,105,2
+heart failure,48 patients,499,247,2
+heart failure,10 patients,500,107,4
+heart failure,15 patients,501,322,2
+pneumonia,44 paxienxs,502,323,1
+pneumonia,33 patients,503,324,1
+pneumonia,20 patients,504,325,1
+pneumonia,56 patients,505,171,3
+pneumonix,44 patients,506,326,1
+pneumonia,31 patients,507,327,3
+surgical infection prevention,empty,508,0,33
+surgical infection prevention,2 patients,509,101,6
+surgical infection prevention,2 patients,510,101,6
+surgical infection prevention,1 patients,511,100,3
+surgical infection prevention,0 patients,512,50,22
+surgical infection prevention,6 patients,513,115,2
+surgical infection prevention,5 patients,514,117,4
+surgical infection prevention,5 patients,515,117,4
+heart attack,134 patients,516,328,2
+heart attack,282 patients,517,329,1
+heart attack,53 patients,518,330,1
+heart attack,119 patients,519,331,1
+heart attack,254 patients,520,332,1
+heart attack,0 patients,521,5,76
+heart attack,27 patients,522,333,1
+heart failure,25x patients,523,334,1
+heart failure,292 patients,524,335,1
+heart failure,98 patients,525,336,1
+heart failure,77 patients,526,337,1
+pneumonia,99 patients,527,226,2
+pneumonia,103 patients,528,338,2
+pneumonia,80 patients,529,312,2
+pneumonia,101 patients,530,129,4
+pneumonia,71 patients,531,339,2
+pneumonia,87 patientx,532,340,1
+surgical infection prevention,89 patients,533,341,1
+surgical infection prevention,412 patients,534,342,1
+surgical infection prevention,423 patients,535,343,1
+surgical infection prevention,392 patients,536,344,1
+surgical infection prevention,125 patients,537,150,3
+surgical infection prevention,575 patients,538,345,1
+surgical infection prevention,179 patients,539,176,3
+surgical infection prevention,179 patients,540,176,3
+heart attack,111 patients,541,346,1
+heart attack,165 patients,542,347,1
+heart attack,24 patients,543,348,2
+heart attack,65 patients,544,349,1
+heart attack,173 patients,545,350,1
+heart attack,x patients,546,351,1
+heart attack,15 patients,547,219,3
+heart failure,430 patients,548,352,1
+heart failure,518 patients,549,353,1
+heart failure,146 patients,550,354,1
+heart failure,93 patients,551,271,2
+pneumonia,243 patients,552,355,1
+pneumonia,230 patients,553,356,1
+pneumonia,74 patxents,554,357,1
+pxeumoxia,233 patients,555,358,1
+pneumonia,97 patients,556,359,2
+pneumonia,184 patients,557,360,1
+surgical infection prevention,180 patients,558,361,1
+surgical infection prevention,844 patients,559,362,1
+surgical infection prevention,827 patients,560,363,1
+surgical infection prevention,817 patients,561,364,1
+surgical infection prevention,270 patients,562,365,1
+surgical infection prevention,1062 patients,563,366,1
+surgical infection prevention,263 patients,564,367,1
+surgical infection prevention,259 patients,565,368,1
+heart attack,24 patients,566,348,2
+heart attack,10 patients,567,276,2
+heart attack,1 patients,568,91,21
+heart attack,4 patients,569,3,6
+heart attack,13 patients,570,2,3
+heart attack,2 patients,571,36,12
+heart attack,0 patients,572,5,76
+heart failure,137 patients,573,369,1
+heart failure,164 patients,574,370,1
+heart failure,75 patients,575,270,2
+heart failure,38 patients,576,371,2
+pneumonia,55 patients,577,372,3
+pneumonia,43 patients,578,373,2
+pneumonia,34 patients,579,374,2
+pneumonia,50 pxtients,580,375,1
+pneumonia,52 patients,581,376,3
+pneumonia,60 patients,582,377,1
+surgical infection prevention,19 patients,583,253,4
+surgical infection prevention,117 patients,584,378,2
+surgical infection prevention,118 patients,585,379,1
+surgical infection prevention,116 patients,586,207,3
+surgical infection prevention,0 patients,587,50,22
+surgical infection prevention,172 patxents,588,380,1
+surgical infection prevention,85 patients,589,381,1
+surgical infection prevention,84 patients,590,382,1
+heart attack,empty,591,211,16
+heart attack,empty,592,211,16
+heart attack,empty,593,211,16
+heart attack,empty,594,211,16
+heart attack,empty,595,211,16
+heart attack,empty,596,211,16
+heart attack,empty,597,211,16
+heart failure,2 patients,598,383,2
+heart faixure,3 patients,599,384,1
+heart failure,0 patients,600,385,2
+heart failure,0 patients,601,385,2
+pneumonia,31 patients,602,327,3
+pneumonia,19 patients,603,386,1
+pneumonia,12 patients,604,387,1
+pneumonia,40 patients,605,251,2
+pneumonia,30 patients,606,110,5
+pneumonia,23 patients,607,388,2
+surgical ixfectiox prevextiox,empty,608,389,1
+surgical infection prevention,empty,609,0,33
+surgical infection prevention,empty,610,0,33
+surgical infection prevention,empty,611,0,33
+surgical infection prevention,empty,612,0,33
+surgical infection prevention,empty,613,0,33
+surgical infection prevention,empty,614,0,33
+surgical infection prevention,empty,615,0,33
+heart attack,185 patients,616,390,1
+heart attack,290 patients,617,391,1
+heart attack,72 patients,618,392,1
+heart attack,122 patients,619,393,1
+heart attack,281 patients,620,394,1
+heart attack,0 patients,621,5,76
+heart attack,26 patients,622,395,2
+heart failure,527 patients,623,396,1
+heart failure,570 patients,624,397,1
+heart failure,272 patients,625,398,1
+heart failure,101 patients,626,399,1
+pneumonia,114 patients,627,400,1
+pneumonia,129 patients,628,401,1
+pneumonia,59 patients,629,314,2
+pneumonia,153 patients,630,402,2
+pneumonxa,115 patients,631,403,1
+pneumonia,89 patients,632,149,3
+surgical infection prevention,208 patients,633,404,1
+surgical infection prevention,1001 patients,634,405,1
+surgical infection prevention,1016 patients,635,406,1
+surgical infection prevention,962 patients,636,407,1
+surgical infection prevention,241 patients,637,408,1
+surgical infection prevention,1421 patients,638,409,1
+surgical infection prevention,473 patients,639,152,3
+surgical infection prevention,473 patients,640,152,3
+heart attack,4 patients,641,3,6
+heart attack,3 patients,642,104,13
+heart attack,0 patients,643,5,76
+heart attack,0 patients,644,5,76
+heart attack,3 patients,645,104,13
+heart attack,0 patients,646,5,76
+heart attack,0 patients,647,5,76
+heart failure,34 patients,648,39,4
+heart failure,39 patients,649,410,1
+heart failure,4 patients,650,411,3
+heart failure,2 patients,651,383,2
+pneumonia,28 patients,652,81,2
+pneumonia,14 patients,653,412,1
+pneumonia,6 patients,654,183,2
+pneumonia,30 patients,655,110,5
+pneumonia,23 patients,656,388,2
+pneumonia,16 patients,657,95,3
+surgical infection prevention,empty,658,0,33
+surgical infection prevention,empty,659,0,33
+surgical infection prevention,empty,660,0,33
+surgical infection prevention,empty,661,0,33
+surgical infection prevention,empty,662,0,33
+surgical infection prevention,empty,663,0,33
+surgical infection prevention,empty,664,0,33
+surgical infection prevention,empty,665,0,33
+heart attack,229 patients,666,413,1
+heart attack,316 patients,667,414,1
+heart attack,87 paxienxs,668,415,1
+heart attack,147 patients,669,416,1
+heart attack,331 patients,670,417,1
+heart attack,0 patients,671,5,76
+heart attack,47 patients,672,418,1
+heart failure,618 xatients,673,419,1
+heart failure,681 patients,674,420,1
+heart failure,343 patients,675,421,1
+heart failure,130 patients,676,144,2
+pneumonia,247 patients,677,422,1
+pneumonia,378 patients,678,423,1
+xneumonia,169 patients,679,424,1
+pneumonia,357 patients,680,425,1
+pneumonia,155 patients,681,426,2
+pneumonia,242 patients,682,427,1
+surgical infection prevention,94 patients,683,319,2
+surgical infection prevention,324 patients,684,428,1
+surgical infection prevention,350 patients,685,429,1
+surgical infection prevention,317 patients,686,430,1
+surgical infection prevention,140 patients,687,431,1
+surgical infection prevention,585 patients,688,432,1
+surgical infection prevention,230 patients,689,433,1
+surgical infection prevention,224 patients,690,157,2
+heart attack,13 patients,691,2,3
+heart attack,4 patients,692,3,6
+heart attack,1 patients,693,91,21
+heart attack,0 patients,694,5,76
+heart attaxk,4 patients,695,434,1
+heart attack,0 patients,696,5,76
+heart attack,0 patients,697,5,76
+hexrt fxilure,65 patients,698,435,1
+heart failure,87 patients,699,436,1
+heart failure,30 patients,700,437,1
+heart failure,9 patients,701,438,1
+pneumonia,70 patients,702,439,1
+pneumonia,76 patients,703,440,1
+pneumonia,41 patients,704,441,2
+pneumonia,71 patients,705,339,2
+pneumonia,52 patients,706,376,3
+pneumonia,56 patients,707,171,3
+surgical infection prevention,3 patients,708,114,4
+surgical infection prevention,10 patients,709,187,7
+surgical infection prevention,10 patients,710,187,7
+surgical infection prevention,9 patients,711,119,3
+surgical infection xrevention,0 patients,712,442,1
+surgical infection prevention,33 patients,713,443,1
+surgical infection prevention,24 patients,714,444,2
+surgical infection prevention,24 patients,715,444,2
+heartxattack,51 patients,716,445,1
+heart attack,26 patients,717,395,2
+heart attack,3 patients,718,104,13
+heart attack,3 patients,719,104,13
+heart attack,23 patients,720,446,1
+heart attack,0 patients,721,5,76
+heart attack,0 patients,722,5,76
+heart failure,158 patients,723,447,1
+heart failure,200 patients,724,448,1
+heart failure,37 patients,725,449,1
+heart failure,42 patients,726,106,2
+pneumonia,155 patients,727,426,2
+pneumonia,138 patients,728,67,3
+pneumonia,90 patients,729,450,1
+pneumonia,160 patients,730,25,2
+pneumonia,136 patients,731,451,1
+pneumonia,125 patients,732,21,3
+suxgical infection pxevention,68 patients,733,452,1
+surgical infection prevention,411 patients,734,453,1
+surgical infection prevention,417 patients,735,454,1
+surgical infection prevention,405 patients,736,28,2
+surgical infection prevention,0 patients,737,50,22
+surgical infection prevention,598 patients,738,455,1
+surgical infection prevention,298 patients,739,456,2
+surgical infection prevention,298 patients,740,456,2
+heart attack,8 patients,741,120,4
+heart attack,5 patients,742,35,5
+heart attack,3 patients,743,104,13
+heart attack,0 patients,744,5,76
+heart attack,6 patients,745,103,5
+heart attack,0 patients,746,5,76
+heart attack,0 patients,747,5,76
+heart failure,121 patients,748,457,1
+heart failure,139 patients,749,458,1
+heart failure,21 patients,750,459,1
+heart failure,32 patients,751,311,2
+pneumonia,77 patients,752,232,2
+pneumonia,55 patients,753,372,3
+pneumonia,43 patients,754,373,2
+pneumonia,93 patients,755,274,2
+pneumonia,64 patients,756,80,2
+pneumonia,52 patients,757,376,3
+surgical infection prevention,19 patients,758,253,4
+surgical infection prevention,139 patients,759,173,2
+surgical infection prevention,141 patients,760,460,1
+surgical infection prevention,136 patients,761,30,2
+surgical infection prevention,0 patients,762,50,22
+surgical infection prevention,204 patients,763,461,1
+surgical infection prevention,66 patients,764,130,3
+surgical infection prevention,66 patients,765,130,3
+children s asthma care,9 patients,766,214,3
+surgical infection prevention,96 patients,767,203,2
+surgical infection prevention,98 patients,768,256,2
+surgical infection prevention,95 patients,769,462,1
+surgical infection prevention,0 patients,770,50,22
+surgical infection prevention,195 patients,771,463,1
+surgical infection prevention,117 patients,772,378,2
+surgical infection prevention,116 patients,773,207,3
+children s asthma care,193 patients,774,464,2
+children s asthma care,193 patients,775,464,2
+children s asthma care,193 paxienxs,776,465,1
+heart attack,155 patients,777,466,1
+heart attack,323 patients,778,467,1
+heart attack,77 patients,779,468,1
+heart attaxk,135 patients,780,469,1
+heart attack,301 patients,781,470,1
+heart attack,0 patients,782,5,76
+heart attack,44 patients,783,471,1
+heart failure,264 patients,784,472,1
+heart failure,303 patients,785,473,1
+heart failure,102 patients,786,474,1
+heart failure,51 patients,787,475,2
+pneumonia,509 patients,788,476,1
+pneumonia,496 patients,789,477,1
+pneumonia,294 patients,790,478,1
+pneumonia,511 patients,791,479,1
+pneumonia,313 patients,792,480,1
+pneumonia,409 patients,793,481,1
+surgical infection prevention,123 patients,794,89,2
+surgical infection prevention,601 patients,795,155,2
+surgical infection prevention,603 patients,796,482,1
+surgical infection prevention,561 patients,797,483,1
+surgical infection prevention,149 patients,798,484,1
+surgical infection prevention,852 patients,799,485,1
+surgical infection prevention,269 patients,800,486,2
+surgical infection prevention,269 patients,801,486,2
+heart attack,123 patients,802,487,1
+heart attack,134 patients,803,328,2
+heart attack,18 patients,804,488,2
+heart attack,79 patients,805,489,1
+heart attack,117 patients,806,490,1
+heart attack,25 patients,807,491,2
+heart attack,12 patients,808,492,2
+heart failure,211 patients,809,493,1
+heart failure,259 patients,810,60,2
+heart failure,69 patients,811,38,3
+heart failure,70 patients,812,494,2
+pneumonia,255 patients,813,495,1
+pneumonia,187 patients,814,496,2
+pneumonia,130 patients,815,497,1
+pneumonia,266 patients,816,498,1
+pneumonia,153 patients,817,402,2
+pneumonia,187 patients,818,496,2
+surgical infection prevention,109 patients,819,499,1
+surgical infection prevention,557 patients,820,500,1
+surgical infection prevention,564 patients,821,501,1
+surgical infection prevention,520 patients,822,502,1
+surgical infection prevention,186 patients,823,503,1
+surgical infection prevention,854 patients,824,504,1
+surgical infection prevention,315 patients,825,505,2
+surgical infection prevention,315 patients,826,505,2
+heart attack,1 patients,827,91,21
+heart attack,1 patients,828,91,21
+heart attack,1 patients,829,91,21
+heart attack,0 patients,830,5,76
+heart attack,1 patients,831,91,21
+heart attack,0 patients,832,5,76
+heart attack,0 patients,833,5,76
+heart failure,19 patients,834,506,2
+heart failure,28 patients,835,507,1
+heart failure,4 patients,836,411,3
+heart failure,4 patients,837,411,3
+pneumonia,47 patients,838,282,3
+pneumonia,36 patients,839,508,2
+pneumonia,16 patients,840,95,3
+pneumonia,44 patients,841,109,2
+pneumonia,38 patients,842,509,1
+pneumonia,37 patients,843,168,4
+surgical infection prevention,2 patients,844,101,6
+surgical infection prevention,4 patiexts,845,510,1
+surgical infection prevention,4 patients,846,102,7
+surgical infection prevention,4 patients,847,102,7
+surgical infection prevention,0 patients,848,50,22
+surgical infection prevention,5 patients,849,117,4
+surgical infection prevention,0 patients,850,50,22
+surgical infxction prxvxntion,0 patients,851,511,1
+heart attack,3 patients,852,104,13
+heart attack,3 patients,853,104,13
+heart attack,1 patients,854,91,21
+heart attack,0 patients,855,5,76
+heart attack,3 patients,856,104,13
+heart attack,0 patients,857,5,76
+heart attack,0 patients,858,5,76
+heart failure,38 patients,859,371,2
+heart failure,46 patients,860,280,2
+heart failure,18 patients,861,310,2
+heart failure,10 patients,862,107,4
+pneumonia,101 patients,863,129,4
+pneumonia,78 patients,864,512,1
+pneumonia,42 patients,865,513,1
+pneumonia,121 patiexts,866,514,1
+pneumonia,97 patients,867,359,2
+pneumonia,85 patients,868,68,5
+surgical ixfectiox prevextiox,3 patients,869,515,1
+surgical infection prevention,15 patients,870,186,3
+surgical infection prevention,15 patients,871,186,3
+surgical infection prevention,15 patiexts,872,516,1
+surgical infection prevention,0 patients,873,50,22
+surgical infection prevention,19 patients,874,253,4
+surgical infection prevention,4 patients,875,102,7
+surgical infection prevention,4 patients,876,102,7
+heart attack,18 patients,877,488,2
+heart attack,12 patients,878,492,2
+heart attack,1 patients,879,91,21
+heart attack,1 patients,880,91,21
+heart attack,11 patients,881,160,3
+heart attack,0 patients,882,5,76
+heart attack,0 patients,883,5,76
+heart failure,67 patients,884,517,1
+heart failure,85 patients,885,518,2
+heart failure,19 patients,886,506,2
+heart failure,16 patients,887,519,1
+pneumonia,117 patients,888,520,1
+pneumonia,41 patients,889,441,2
+pneumonia,34 patients,890,374,2
+pneumonia,109 patients,891,521,2
+pneumonia,79 patients,892,298,2
+pneumonia,86 patients,893,522,1
+surgical infection prevention,0 patients,894,50,22
+surgical infection prevention,0 patients,895,50,22
+surgical infection prevention,0 patients,896,50,22
+surgical infection prevention,0 patients,897,50,22
+surgical infection prevention,0 patients,898,50,22
+surgical infection prevention,7 patients,899,116,2
+surgical infection prevention,3 patients,900,114,4
+surgical infection prevention,3 patients,901,114,4
+children s asthma care,4 patients,902,523,3
+children s asthma care,4 patients,903,523,3
+children s asthma care,4 patients,904,523,3
+heart attack,126 patxents,905,524,1
+heart attack,145 patients,906,525,1
+heart attack,25 patients,907,491,2
+heart attack,68 patients,908,526,1
+heart attack,125 patients,909,527,1
+heart attack,8 patients,910,120,4
+heart attack,16 patients,911,264,3
+heart failure,268 patients,912,528,1
+heart failure,350 patients,913,529,1
+heart failure,90 patients,914,530,1
+heart failure,85 patients,915,518,2
+pneumonia,239 patients,916,200,2
+pneumonia,196 patients,917,23,2
+pneumonia,109 patients,918,521,2
+pneumonia,261 patients,919,531,1
+pneumonia,212 patients,920,532,1
+pneumonia,178 patients,921,533,1
+surgical infection prevention,107 patients,922,69,2
+surgical infection prevention,402 patients,923,534,1
+surgical infection prevention,404 patients,924,535,1
+surgical infection prevention,352 patients,925,536,1
+surgical infection prevention,114 patients,926,537,1
+surgical infection prevention,607 patients,927,538,1
+surgical infection prevention,280 patients,928,539,2
+surgical infection prevention,280 patients,929,539,2
+heart attack,19 patients,930,540,1
+heart attack,16 patients,931,264,3
+heart attack,1 patients,932,91,21
+heart attack,6 patients,933,103,5
+heart attack,15 patients,934,219,3
+heart attack,0 patients,935,5,76
+heart attack,0 patients,936,5,76
+heart failure,51 patients,937,475,2
+heart failure,59 patients,938,76,3
+heart failure,6 patients,939,541,1
+heart failure,8 patients,940,79,3
+pneumonia,39 patients,941,287,3
+pneumonia,2 patients,942,542,1
+pneumonia,5 patients,943,543,1
+pneumonia,36 patients,944,508,2
+pneumonia,30 patients,945,110,5
+pneumonia,31 patients,946,327,3
+surgical infection prevention,empty,947,0,33
+surgical infection prevention,empty,948,0,33
+surgical infection prevention,empty,949,0,33
+surgical infection prevention,empty,950,0,33
+surgical infection prevention,empty,951,0,33
+surgical infection prevention,empty,952,0,33
+surgical infection prevention,empty,953,0,33
+surgical infection prevention,empty,954,0,33
+hexrt attxck,4 patients,955,544,1
+heart attack,1 patients,956,91,21
+heart attack,0 patients,957,5,76
+heart attack,0 patients,958,5,76
+heart attack,2 patients,959,36,12
+heart attack,0 patients,960,5,76
+heart attack,0 patients,961,5,76
+heart failure,70 patients,962,494,2
+heart failure,82 patients,963,545,1
+heart failure,34 patients,964,39,4
+heart failure,15 patients,965,322,2
+pneumonia,72 patients,966,546,1
+pneumonia,49 patients,967,547,1
+pneumonia,24 patients,968,184,3
+pneumonia,85 patients,969,68,5
+pneumonia,67 patients,970,273,3
+pneumonia,37 patients,971,168,4
+surgical infection prevention,27 paxienxs,972,548,1
+surgical infection prevention,397 patients,973,549,1
+surgical xnfection prevention,399 patients,974,550,1
+surgical infection prevention,391 patients,975,551,1
+surgical infection prevention,0 patients,976,50,22
+surgical infection prevention,485 patients,977,552,1
+surgical infection prevention,196 patients,978,553,2
+surgical infection prevention,196 patients,979,553,2
+heart attack,7 patients,980,246,2
+heart attack,2 patients,981,36,12
+heart attack,2 patients,982,36,12
+heart attack,0 patients,983,5,76
+heart attack,3 patients,984,104,13
+heart attack,0 patients,985,5,76
+heart attack,0 patients,986,5,76
+heart failure,24 patients,987,554,1
+heart failure,34 patients,988,39,4
+heart failure,7 patients,989,555,2
+heart failure,7 patients,990,555,2
+pneumonia,92 patients,991,556,1
+pneumonia,103 patients,992,338,2
+pneumonia,29 patients,993,289,2
+pneumonia,105 patients,994,557,1
+pneumonia,74 patients,995,313,2
+pneumonia,55 patients,996,372,3
+surgical infection prevention,8 patients,997,558,1
+surgical infection prevention,28 patients,998,559,1
+surgical infection prevention,25 patients,999,560,1

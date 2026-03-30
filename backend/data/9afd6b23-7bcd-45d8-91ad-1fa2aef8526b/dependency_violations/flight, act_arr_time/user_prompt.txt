@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The structured travel identifier in column 2 appears to contain an airline/route code, and its route segment determines the arrival airport/location reflected by the timestamped arrival event in column 6. In the sample, the middle pattern 'BOS-ORD' implies arrival at ORD, matching the arrival-time field.
+
+  The following is a formatted table with the unique data to be checked.
+  

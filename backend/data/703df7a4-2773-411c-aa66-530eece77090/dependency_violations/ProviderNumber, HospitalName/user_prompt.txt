@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  A shared geographic/organization identifier relationship: the identifier in one column corresponds to the named facility/organization in another (the same record uses the ID for the same hospital).
+
+  The following is a formatted table with the unique data to be checked.
+  

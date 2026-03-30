@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The package size text may determine the numeric value in the measurement column. In both rows, '12.0 oz'/'12.0 oz.' corresponds to 166, suggesting the numeric field may be a standardized measure derived from the package size.
+
+  The following is a formatted table with the unique data to be checked.
+  

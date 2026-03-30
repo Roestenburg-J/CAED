@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  Condition-to-measure description dependency: the condition category in one column constrains the clinical process description in another to match that condition’s measure set.
+
+  The following is a formatted table with the unique data to be checked.
+  

@@ -1,0 +1,1001 @@
+HospitalOwner,EmergencyService,original_index,unique_index,count
+voluntary non-profit - private,yes,0,0,180
+voluntary non-profit - private,yes,1,0,180
+voluntary non-profit - private,yes,2,0,180
+voluntary non-profit - private,yes,3,0,180
+voluntary non-profit - private,yes,4,0,180
+voluntary non-profit - private,yes,5,0,180
+voluntary non-profit - private,yes,6,0,180
+voluntary non-profit - private,yes,7,0,180
+government - hospital district or authority,yes,8,1,193
+government - hospital district or authority,yes,9,1,193
+government - hospital district or authority,yes,10,1,193
+government - hospital district or authority,yes,11,1,193
+government - hospital district or authority,yes,12,1,193
+government - hospital district or authority,yes,13,1,193
+government - hospital district or authority,yes,14,1,193
+government - hospital district or authority,yes,15,1,193
+government - hospital district or authority,yes,16,1,193
+government - hospital district or authority,yes,17,1,193
+government - hospital district or authority,yes,18,1,193
+government - hospital district or authority,yes,19,1,193
+government - hospital district or authority,yes,20,1,193
+government - hospital district or authority,yes,21,1,193
+government - hospxtal dxstrxct or authorxty,yes,22,2,1
+government - hospital district or authority,yes,23,1,193
+government - hospital district or authority,yxs,24,3,3
+government - hospital district or authority,yes,25,1,193
+government - hospital district or authority,yes,26,1,193
+government - hospital xistrict or authority,yes,27,4,1
+government - hospital district or authority,yes,28,1,193
+government - hospital district or authority,yes,29,1,193
+government - hospital district or authority,yes,30,1,193
+governmenx - hospixal disxricx or auxhorixy,yes,31,5,1
+government - hospital district or authority,yes,32,1,193
+government - hospital district or authority,yes,33,1,193
+government - hospital district or authority,yes,34,1,193
+government - hospital district or authority,yes,35,1,193
+government - hospital district or authority,yes,36,1,193
+government - hospital district or authority,yes,37,1,193
+government - hospital district or authority,yes,38,1,193
+government - hospital district or authority,yes,39,1,193
+government - hospital district or authority,yes,40,1,193
+government - hospital district or authority,yes,41,1,193
+gxvernment - hxspital district xr authxrity,yes,42,6,2
+government - hospital district or authority,yex,43,7,2
+government - hospital district or authority,yes,44,1,193
+government - hospital district or authority,yes,45,1,193
+government - hospital district or authority,yes,46,1,193
+government - hospital district or authority,yes,47,1,193
+government - hospital district or authority,yes,48,1,193
+government - hospital district or authority,yes,49,1,193
+government - hospital district or authority,yes,50,1,193
+government - hospital district or authority,yxs,51,3,3
+government - hospital district or authority,yes,52,1,193
+government - hospital district or authority,yes,53,1,193
+government - hospital district or authority,yes,54,1,193
+government - hospital district or authority,yes,55,1,193
+government - hospital district or authority,yes,56,1,193
+government - hospital district or authority,yes,57,1,193
+government - hospital district or authority,yes,58,1,193
+government - hospital district or authority,yes,59,1,193
+government - hospital district or authority,yes,60,1,193
+government - hospital district or authority,yes,61,1,193
+government - hospital district or authority,yes,62,1,193
+government - hospital district or authority,yes,63,1,193
+government - hospital district or authority,yes,64,1,193
+government - hospital district or authority,yes,65,1,193
+government - hospital district or authority,yes,66,1,193
+government - hospital district or authority,yes,67,1,193
+government - hospital district or authority,yes,68,1,193
+voluntary non-profit - other,yes,69,8,100
+voluntary non-profit - other,yes,70,8,100
+voluntary non-profit - other,yes,71,8,100
+voluntary non-profit - other,yes,72,8,100
+voluntary non-profit - other,yes,73,8,100
+voluntary non-profit - other,yes,74,8,100
+voluntary non-profit - other,yes,75,8,100
+voluntary non-profit - other,yes,76,8,100
+voluntary non-profit - other,yes,77,8,100
+voluntary non-profit - other,yes,78,8,100
+voluntary non-profit - other,yes,79,8,100
+voluntary non-profit - other,yes,80,8,100
+voluntary non-profit - other,yes,81,8,100
+voluntary non-profit - other,yes,82,8,100
+voluntary non-profit - other,yes,83,8,100
+voluntary non-profit - other,yes,84,8,100
+voluntary non-profit - other,yes,85,8,100
+voluntary non-profit - other,yes,86,8,100
+voluntary non-profit - other,yes,87,8,100
+voluntary non-profit - other,yes,88,8,100
+voluntary non-profit - other,yes,89,8,100
+voluntary non-profit - other,yes,90,8,100
+voluntary non-profit - other,yes,91,8,100
+voluntary non-profit - other,yes,92,8,100
+voluntary non-profit - other,yes,93,8,100
+voluntary non-profit - private,no,94,9,74
+voluntary non-profit - private,no,95,9,74
+voluntary non-profit - private,no,96,9,74
+voluntary non-profit - private,no,97,9,74
+voluntary non-profit - private,no,98,9,74
+voluntary non-profit - private,no,99,9,74
+voluntary non-profit - private,no,100,9,74
+voluntary non-profit - private,no,101,9,74
+voluntary non-profit - private,no,102,9,74
+voluntary non-profit - private,no,103,9,74
+voluntary non-profit - private,no,104,9,74
+voluntary non-profit - private,no,105,9,74
+voluntary non-profit - private,no,106,9,74
+voluntary non-profit - private,no,107,9,74
+voluntary non-profit - private,no,108,9,74
+voluntary non-profit - private,no,109,9,74
+voluntary non-profit - private,no,110,9,74
+voluntary non-profit - private,no,111,9,74
+voluntary non-profit - private,no,112,9,74
+volunxary non-profix - privaxe,no,113,10,1
+voluntary non-profit - private,no,114,9,74
+voluntary non-profit - private,no,115,9,74
+voluntary non-profit - private,no,116,9,74
+voluntary non-profit - private,no,117,9,74
+voluntary non-profit - private,no,118,9,74
+government - federal,yes,119,11,49
+government - federal,yes,120,11,49
+government - federal,yes,121,11,49
+government - federal,yes,122,11,49
+government - federal,yes,123,11,49
+government - federal,yes,124,11,49
+government - federal,yes,125,11,49
+government - federal,yes,126,11,49
+government - federal,yes,127,11,49
+government - federal,yes,128,11,49
+government - federal,yes,129,11,49
+government - federal,yes,130,11,49
+government - federal,yes,131,11,49
+government - federal,yes,132,11,49
+government - federal,yes,133,11,49
+government - federal,yes,134,11,49
+government - federal,yes,135,11,49
+government - federal,yes,136,11,49
+government - federal,yes,137,11,49
+government - federal,yes,138,11,49
+government - federal,yes,139,11,49
+government - federal,yes,140,11,49
+government - federal,yes,141,11,49
+government - federal,yes,142,11,49
+government - federal,yes,143,11,49
+proprietary,yes,144,12,179
+proprietary,yes,145,12,179
+proprietary,yes,146,12,179
+proprietary,yes,147,12,179
+proprietary,yes,148,12,179
+proprietary,yes,149,12,179
+proprietary,yes,150,12,179
+proprietary,yes,151,12,179
+proprietary,yes,152,12,179
+proprietary,yes,153,12,179
+proprietary,yes,154,12,179
+proprietary,yes,155,12,179
+proprietary,yes,156,12,179
+pxopxietaxy,yxs,157,13,1
+proprietary,yes,158,12,179
+proxrietary,yes,159,14,2
+proprietary,yes,160,12,179
+proprietary,yes,161,12,179
+xroprietary,yes,162,15,1
+proprietary,yes,163,12,179
+pxopxietaxy,yes,164,16,1
+proprietary,yes,165,12,179
+proprietary,yes,166,12,179
+proprietary,yes,167,12,179
+proprietary,yes,168,12,179
+government - hospital district or authority,yes,169,1,193
+government - hospital district or authority,yes,170,1,193
+government - hospital district or authority,yes,171,1,193
+government - hospital district or authority,yes,172,1,193
+government - hospital district or authority,yes,173,1,193
+government - hospital district or authority,yes,174,1,193
+government - hospital district or authority,yes,175,1,193
+government - hospital district or authority,yes,176,1,193
+government - hospital district or authority,yes,177,1,193
+government - hospital district or authority,yes,178,1,193
+government - hospital district or authority,yes,179,1,193
+government - hospital district or authority,yes,180,1,193
+government - hospital district or authority,yes,181,1,193
+government - hospital district or authority,yes,182,1,193
+government - hospital district or authority,yes,183,1,193
+government - hospital district or authority,yes,184,1,193
+government - hospital district or authority,yes,185,1,193
+government - hospital district or authority,yes,186,1,193
+government - hospital district or authority,yes,187,1,193
+government - hospital district or authority,yes,188,1,193
+government - hospital district or authority,yes,189,1,193
+government - hospital district or authority,yes,190,1,193
+government - hospital district or authority,yes,191,1,193
+government - hospital district or authority,yes,192,1,193
+government - hospital district or authority,yes,193,1,193
+voluntary non-profit - private,yes,194,0,180
+voluntary non-profit - private,yes,195,0,180
+voluntary non-profit - private,yes,196,0,180
+voluntary non-profit - private,yes,197,0,180
+voluntary non-profit - private,yes,198,0,180
+voluntary non-profit - private,yes,199,0,180
+voluntary non-profit - private,yes,200,0,180
+voluntary non-profit - private,yes,201,0,180
+voluntary non-profit - private,yes,202,0,180
+voluntary non-profit - private,yes,203,0,180
+voluntary non-profit - private,yes,204,0,180
+voluntary non-profit - private,yes,205,0,180
+voluntary non-profit - private,yes,206,0,180
+voluntary non-profit - private,yes,207,0,180
+voluntary non-profit - private,yes,208,0,180
+voluntary non-profit - private,yes,209,0,180
+voluntary non-profit - private,yes,210,0,180
+voluntary non-profit - private,yes,211,0,180
+voluntary non-profit - private,yes,212,0,180
+voluntary non-profit - private,yes,213,0,180
+voluntary non-profit - private,yes,214,0,180
+voluntary non-profit - private,yes,215,0,180
+volunxary non-profix - privaxe,yes,216,17,1
+voluntary non-profit - private,yes,217,0,180
+voluntary nonxprofit x private,yes,218,18,1
+voluntary non-profit - church,yes,219,19,70
+voluntary non-profit - church,yes,220,19,70
+voluntaryxnon-profitx-xchurch,yes,221,20,1
+voluntary non-profit - church,yes,222,19,70
+voluntary non-profit - church,yes,223,19,70
+voluntary non-profit - church,yes,224,19,70
+voluntary non-profit - church,yes,225,19,70
+voluntary non-profit - church,yes,226,19,70
+voluntary non-profit - church,yes,227,19,70
+voluntary non-profit - church,yes,228,19,70
+voluntary non-profit - church,yes,229,19,70
+voluntary non-profit - church,yes,230,19,70
+voluntary non-profit - church,yes,231,19,70
+voluntary non-profit - church,yes,232,19,70
+voluntary non-profit - church,yes,233,19,70
+voluntary non-profit - church,yes,234,19,70
+voluntary non-profit - church,yes,235,19,70
+voluntary non-profit - church,yes,236,19,70
+voluntary non-profit - church,yes,237,19,70
+voxuntary non-profit - church,yes,238,21,1
+voluntary non-profit - church,yes,239,19,70
+voluntary non-profit - church,yes,240,19,70
+voluntary non-profit - church,yes,241,19,70
+voluntary non-profit - church,yes,242,19,70
+voluntary non-profit - church,yes,243,19,70
+government - federal,yes,244,11,49
+government - federal,yes,245,11,49
+government - federal,yes,246,11,49
+governxent - federal,yes,247,22,1
+government - federal,yes,248,11,49
+government - federal,yes,249,11,49
+government - federal,yes,250,11,49
+government - federal,yes,251,11,49
+government - federal,yes,252,11,49
+government - federal,yes,253,11,49
+government - federal,yes,254,11,49
+government - federal,yes,255,11,49
+government - federal,yes,256,11,49
+government - federal,yes,257,11,49
+government - federal,yes,258,11,49
+government - federal,yes,259,11,49
+government - federal,yes,260,11,49
+government - federal,yes,261,11,49
+government - federal,yes,262,11,49
+government - federal,yes,263,11,49
+government - federal,yes,264,11,49
+government - federal,yes,265,11,49
+government - federal,yes,266,11,49
+government - federal,yes,267,11,49
+government - federal,yes,268,11,49
+voluntary non-profit - church,yes,269,19,70
+voluntary non-profit - church,yes,270,19,70
+voluntary non-profit - church,yes,271,19,70
+voluntary non-profit - church,yes,272,19,70
+voluntary non-profit - church,yes,273,19,70
+voluntary non-profit - church,yes,274,19,70
+voluntary non-profit - church,yes,275,19,70
+voluntary non-profit - church,yes,276,19,70
+voluntary non-profit - church,yes,277,19,70
+voluntary non-profit - church,yes,278,19,70
+voluntary non-profit - church,yes,279,19,70
+voluntary non-profit - church,yes,280,19,70
+voluntary non-profit - church,yes,281,19,70
+voluntary non-profit - church,yes,282,19,70
+voluntary non-profit - church,yes,283,19,70
+voluntary non-profit - church,yes,284,19,70
+voluntary non-profit - church,yes,285,19,70
+voluntary non-profit - church,yes,286,19,70
+voluntary non-profit - church,yes,287,19,70
+voluntary non-profit - church,yes,288,19,70
+voluntary non-profit - church,yes,289,19,70
+voluntary non-profit - church,yes,290,19,70
+voluntary non-profit - church,yes,291,19,70
+voluntary non-profit - church,yes,292,19,70
+voluntary non-profit - church,yes,293,19,70
+voluntary non-profit - private,yes,294,0,180
+voluntary non-profit - private,yes,295,0,180
+voluntary non-profit - private,yes,296,0,180
+voluntary non-profit - private,yes,297,0,180
+voluntary non-profit - private,yes,298,0,180
+voluntary non-profit - private,yes,299,0,180
+voluntary non-profit - private,yes,300,0,180
+voluntary non-profit - private,yes,301,0,180
+voluntary non-profit - private,yes,302,0,180
+voluntary non-profit - private,yes,303,0,180
+voluntary non-profit - private,yes,304,0,180
+voluntary non-profit - private,yes,305,0,180
+voluntary non-profit - private,yes,306,0,180
+voluntary non-profit - private,yes,307,0,180
+voluntary non-profit - private,yes,308,0,180
+voluntary non-profit - private,yes,309,0,180
+voluntary non-profit - private,yes,310,0,180
+proprietary,yes,311,12,179
+proprietary,yes,312,12,179
+prxprietary,yes,313,23,2
+proprietary,yes,314,12,179
+proprietary,yes,315,12,179
+proprietary,yes,316,12,179
+proprietary,yes,317,12,179
+proprietary,xes,318,24,2
+proprietary,yes,319,12,179
+proprietary,yes,320,12,179
+proprietary,yes,321,12,179
+proprietary,yes,322,12,179
+proprietary,yes,323,12,179
+proprietary,yes,324,12,179
+proprietary,yes,325,12,179
+proprietary,yes,326,12,179
+proprietary,yex,327,25,3
+proprietary,yes,328,12,179
+proprietary,yes,329,12,179
+proprietary,yes,330,12,179
+proprietary,yes,331,12,179
+proxrietary,yex,332,26,1
+proprietary,yes,333,12,179
+proprietary,yes,334,12,179
+proprietary,yes,335,12,179
+proprietary,yes,336,12,179
+proprietary,yes,337,12,179
+proprietary,yes,338,12,179
+proprietary,yes,339,12,179
+proprietary,yes,340,12,179
+proprietary,yes,341,12,179
+proprietary,yes,342,12,179
+proprietary,yes,343,12,179
+proprietary,yes,344,12,179
+proprietary,yes,345,12,179
+proprietary,yes,346,12,179
+proprietary,yes,347,12,179
+voluntary non-profit - other,yes,348,8,100
+voluntary non-profit - other,yes,349,8,100
+voluntary non-profit - other,yxs,350,27,1
+voluntary non-profit - other,yes,351,8,100
+voluntary non-profit - other,yes,352,8,100
+government - hospital district or authority,yes,353,1,193
+proprietary,yes,354,12,179
+proprietary,yes,355,12,179
+prxprietary,yes,356,23,2
+proprietary,yes,357,12,179
+proprietary,yes,358,12,179
+proprietary,yes,359,12,179
+proprietary,yes,360,12,179
+proprietary,yes,361,12,179
+proprietary,yes,362,12,179
+proprietary,yes,363,12,179
+proprietary,yes,364,12,179
+proprietary,yes,365,12,179
+proprietary,yes,366,12,179
+proprietary,yes,367,12,179
+proprietary,yes,368,12,179
+proprietary,yes,369,12,179
+proprietary,yes,370,12,179
+proprietary,yes,371,12,179
+proprietary,yes,372,12,179
+proprietary,yes,373,12,179
+proprietary,yex,374,25,3
+proprietary,yes,375,12,179
+proprietary,yes,376,12,179
+proprietary,yes,377,12,179
+proprietary,yes,378,12,179
+government - state,yes,379,28,36
+government - state,yes,380,28,36
+government - state,yes,381,28,36
+government - state,yes,382,28,36
+government - state,yes,383,28,36
+government - state,yes,384,28,36
+government - state,yes,385,28,36
+government - state,yes,386,28,36
+government - state,yes,387,28,36
+government - state,yes,388,28,36
+government - state,yxs,389,29,1
+government - state,yes,390,28,36
+government - state,yes,391,28,36
+voluntary non-profit - private,yes,392,0,180
+voluntary non-profit - private,yes,393,0,180
+voluntary non-profit - private,yes,394,0,180
+voluntary non-profit - private,yes,395,0,180
+voluntary non-profit - private,yes,396,0,180
+voluntary non-profit - private,yes,397,0,180
+voluntary non-profit - private,yes,398,0,180
+voluntary non-profit - private,yes,399,0,180
+voluntary non-profit - private,yes,400,0,180
+voluntary non-profit - private,yes,401,0,180
+voluntary non-profit - private,yes,402,0,180
+voluntary non-profit - private,yes,403,0,180
+voluntary non-profit - private,yes,404,0,180
+voluntary non-profit - private,yes,405,0,180
+voluntary non-profit - private,yes,406,0,180
+voluntary non-profit - private,yes,407,0,180
+voluntary non-profit - private,yes,408,0,180
+voluntary non-profit - private,yes,409,0,180
+voluntary non-profit - private,yxs,410,30,3
+voluntary non-profit - private,yes,411,0,180
+proprietary,yes,412,12,179
+proprietary,yes,413,12,179
+voluntary non-profit - other,no,414,31,17
+voluntary non-profit - other,no,415,31,17
+voluntary non-profit - other,no,416,31,17
+voluntary non-profit - other,no,417,31,17
+voluntary non-profit - other,xo,418,32,1
+voluntary non-profit - other,no,419,31,17
+voluntary non-profit - other,no,420,31,17
+voluntary non-profit - other,no,421,31,17
+voluntary non-profit - other,no,422,31,17
+voluntary non-profit - other,no,423,31,17
+voluntary non-profit - other,no,424,31,17
+voluntary non-profit - other,no,425,31,17
+voluntary non-profit - other,no,426,31,17
+voluntary non-profit - other,no,427,31,17
+voluntary non-profit - other,no,428,31,17
+voluntary non-profit - other,no,429,31,17
+voluntary non-profit - other,no,430,31,17
+voluntary non-profit - other,no,431,31,17
+proprietary,yes,432,12,179
+proprietary,yes,433,12,179
+proprietary,yes,434,12,179
+proprietary,yes,435,12,179
+proprietary,yes,436,12,179
+proprietary,yes,437,12,179
+proprietary,yes,438,12,179
+proprietary,yes,439,12,179
+proprietary,yes,440,12,179
+proprietary,yes,441,12,179
+proprietary,yes,442,12,179
+proprietary,yes,443,12,179
+proprietary,yes,444,12,179
+proprietary,yes,445,12,179
+proprietary,yes,446,12,179
+proprietary,yes,447,12,179
+proprietary,yes,448,12,179
+proxrietary,yes,449,14,2
+government - federal,no,450,33,2
+government - federal,no,451,33,2
+government - hospital district or authority,yes,452,1,193
+government - hospital district or authority,yes,453,1,193
+government - hospital district or authority,yes,454,1,193
+government - hospital district or authority,yes,455,1,193
+gxvernment - hxspital district xr authxrity,yes,456,6,2
+government - hospital district or authority,yes,457,1,193
+government - hospital district or authority,yes,458,1,193
+government - hospital district or authority,yes,459,1,193
+government - hospital district or authority,yes,460,1,193
+government - hospital district or authority,yes,461,1,193
+government - hospital district or authority,yes,462,1,193
+government - hospital district or authority,yes,463,1,193
+government - hospital district or authority,yes,464,1,193
+government - hospital district or authority,yes,465,1,193
+government - hospital district or authority,yes,466,1,193
+government - hospital district or authority,yes,467,1,193
+government - hospital district or authority,yes,468,1,193
+government - hospital district or authority,yes,469,1,193
+government - hospital district or authority,yes,470,1,193
+government - hospital district or authority,yes,471,1,193
+government - hospital district or authority,yes,472,1,193
+government - hospital district or authority,yes,473,1,193
+government - hospital district or authority,yes,474,1,193
+government - hospital district or authority,yes,475,1,193
+government - hospital district or authority,yes,476,1,193
+government - hospital district or authority,yes,477,1,193
+government - hospital district or authority,yes,478,1,193
+government - hospital district or authority,yes,479,1,193
+government - hospital district or authority,yes,480,1,193
+government - hospital district or authority,yes,481,1,193
+government - hospital district or authority,yes,482,1,193
+government - hospital district or authority,yes,483,1,193
+government - hospital district or authority,yes,484,1,193
+government - hospital district or authority,yes,485,1,193
+government - hospital district or authority,yes,486,1,193
+government - hospital district or authority,yes,487,1,193
+government - hospital district or authority,yes,488,1,193
+government - hospital district or authority,yes,489,1,193
+government - hospital district or authority,yes,490,1,193
+voluntary non-profit - private,yes,491,0,180
+voluntary non-profit - private,yxs,492,30,3
+voluntaryxnon-profitx-xprivate,yes,493,34,1
+voluntary non-profit - private,yes,494,0,180
+voluntary non-profit - private,yes,495,0,180
+voluntary non-profit - private,yes,496,0,180
+voluntary non-profit - private,yes,497,0,180
+voluntary non-profit - private,yes,498,0,180
+voluntary non-profit - private,yes,499,0,180
+voluntary non-profit - private,yes,500,0,180
+voluntary non-profit - private,yes,501,0,180
+voluntary non-profit - private,yes,502,0,180
+voluntary non-profit - private,yes,503,0,180
+voluntary non-profit - private,yes,504,0,180
+voluntary non-profit - private,yes,505,0,180
+voluntary non-profit - private,yes,506,0,180
+voluntary non-profit - private,yes,507,0,180
+voluntary non-profit - private,yes,508,0,180
+voluntary non-profit - private,yes,509,0,180
+voluntary non-profit - private,yes,510,0,180
+voluntary non-profit - private,yes,511,0,180
+voluntary non-profit - private,yes,512,0,180
+voluntary non-profit - private,yes,513,0,180
+voluntary non-profit - private,yes,514,0,180
+voluntary non-profit - private,yes,515,0,180
+voluntary non-profit - church,yes,516,19,70
+voluntary non-profit - church,yes,517,19,70
+voluntary non-profit - church,yes,518,19,70
+voluntary non-profit - church,yes,519,19,70
+voluntary non-profit - church,yes,520,19,70
+voluntary non-profit - church,yxs,521,35,1
+voluntary non-profit - church,yes,522,19,70
+voluntary non-profit - church,yes,523,19,70
+voluntary non-profit - church,yes,524,19,70
+voluntary non-profit - church,yes,525,19,70
+volxntary non-profit - chxrch,yes,526,36,1
+voluntary non-profit - church,yes,527,19,70
+voluntary non-profit - church,yes,528,19,70
+voluntary non-profit - church,yes,529,19,70
+voluntary non-profit - church,yes,530,19,70
+voluntary non-profit - church,yes,531,19,70
+voluntary non-profit - church,yes,532,19,70
+voluntary non-profit - church,yes,533,19,70
+voluntary non-profit - church,yes,534,19,70
+voluntary non-profit - church,yes,535,19,70
+voluntary non-profit - church,yex,536,37,1
+voluntary non-profit - church,yes,537,19,70
+voluntary non-profit - church,yes,538,19,70
+voluntary non-profit - church,yes,539,19,70
+voluntary non-profit - church,yes,540,19,70
+voluntary non-profit - private,yes,541,0,180
+voluntary non-profit - private,yes,542,0,180
+voluntary non-profit - private,yes,543,0,180
+voluntary non-profit - private,yes,544,0,180
+voluntary non-profit - private,yes,545,0,180
+voluntary non-profit - private,yes,546,0,180
+voluntary non-profit - private,yes,547,0,180
+voluntary non-profit - private,yes,548,0,180
+voluntary non-profit - private,yes,549,0,180
+voluntary non-profit - private,yes,550,0,180
+voluntary non-profit - private,yes,551,0,180
+voluntary non-profit - private,yes,552,0,180
+voluntary non-profit - private,yes,553,0,180
+voluntary non-profit - private,yes,554,0,180
+voluntary non-profit - private,yes,555,0,180
+voluntary non-profit - private,yes,556,0,180
+voluntary non-profit - private,yes,557,0,180
+voluntary non-profit - private,yes,558,0,180
+voluntary non-profit - private,yes,559,0,180
+voluntary non-profit - private,yes,560,0,180
+voluntary non-profit - private,yes,561,0,180
+voluntary non-profit - private,yes,562,0,180
+voluntary non-profit - private,yes,563,0,180
+voluntary non-profit - private,xes,564,38,1
+voluntary non-profit - private,yes,565,0,180
+voluntary non-profit - other,yes,566,8,100
+voluntary non-profit - other,yes,567,8,100
+voluntary non-profit - other,yes,568,8,100
+voluntary non-profit - other,yes,569,8,100
+voluntary non-profit - other,yes,570,8,100
+voluntary non-profit - other,yes,571,8,100
+voluntary non-profit - otxer,yes,572,39,1
+voluntary non-profit - other,yes,573,8,100
+voluntary non-profit - other,yes,574,8,100
+voluntary non-profit - other,yes,575,8,100
+voluntary non-profit - other,yes,576,8,100
+voluntary non-profit - other,yes,577,8,100
+voluntary non-profit - other,yes,578,8,100
+voluntary non-profit - other,xes,579,40,2
+voluntary non-profit - other,yes,580,8,100
+voluntary non-profit - other,yes,581,8,100
+voluntary non-profit - other,yes,582,8,100
+voluntary non-profit - other,yes,583,8,100
+voluntary non-profit - other,yes,584,8,100
+voluntary non-profit - other,yes,585,8,100
+voluntary non-profit - other,yes,586,8,100
+voluntary non-profit - other,xes,587,40,2
+voluntary non-profit - other,yes,588,8,100
+voluntary non-profit - other,yes,589,8,100
+voluntary non-profit - other,yes,590,8,100
+voluntary non-profit - other,yes,591,8,100
+voluntary non-profit - other,yes,592,8,100
+voluntary non-profit - other,yes,593,8,100
+voluntary non-profit - other,yes,594,8,100
+voluntary non-profit - other,yes,595,8,100
+voluntary non-profit - other,yes,596,8,100
+voluntary non-profit - other,yes,597,8,100
+voluntary non-profit - other,yes,598,8,100
+voluntary non-profit - other,yes,599,8,100
+voluntary non-profit - other,yes,600,8,100
+voluntary non-profit - other,yes,601,8,100
+voluntary non-profit - other,yes,602,8,100
+voluntary non-profit - other,yes,603,8,100
+voluntary non-profit - other,yes,604,8,100
+voluntary non-profit - other,yes,605,8,100
+voluntary non-profit - other,yes,606,8,100
+voluntary non-profit - other,yes,607,8,100
+voluntary non-profit - other,yes,608,8,100
+voluntary non-profit - other,yes,609,8,100
+voluntary non-profit - other,yes,610,8,100
+voluntary non-profit - other,yes,611,8,100
+voluntary non-profit - other,yes,612,8,100
+voluntary non-profit - other,yes,613,8,100
+voluntary non-profit - other,yes,614,8,100
+voluntary non-profit - other,yes,615,8,100
+government - hospital district or authority,yes,616,1,193
+government - hospital district or authority,yes,617,1,193
+government - hospital district or authority,yes,618,1,193
+government - hospital district or authority,yes,619,1,193
+government - hospital district or authority,yes,620,1,193
+government - hospital district or authority,yes,621,1,193
+government - hospital district or authority,yes,622,1,193
+government - hospital district or authority,yes,623,1,193
+government - hospital district or authority,yes,624,1,193
+government - hospital district or authority,yes,625,1,193
+government - hospital district or authority,yes,626,1,193
+government - hospital district or authority,yes,627,1,193
+government - hospital district or authority,yex,628,7,2
+government - hospital district or authority,yes,629,1,193
+government - hospital district or authority,yes,630,1,193
+government - hospital district or authority,yes,631,1,193
+government - hospital district or authority,yes,632,1,193
+government - hospital district or authority,yes,633,1,193
+government - hospital district or authority,yes,634,1,193
+government - hospital district or authority,yes,635,1,193
+government - hospital district or authority,yes,636,1,193
+government - hospital district or authority,yes,637,1,193
+government - hospital district or authority,yes,638,1,193
+government - hospital district or authority,yes,639,1,193
+government - hospital district or authority,yes,640,1,193
+government - local,no,641,41,24
+government - local,no,642,41,24
+government - local,no,643,41,24
+government - local,no,644,41,24
+government - local,no,645,41,24
+government - local,no,646,41,24
+government - local,no,647,41,24
+government - local,no,648,41,24
+government - local,no,649,41,24
+government - local,no,650,41,24
+government - local,no,651,41,24
+government - local,no,652,41,24
+government - local,xo,653,42,1
+government - local,no,654,41,24
+government - local,no,655,41,24
+government - local,no,656,41,24
+government - local,no,657,41,24
+government - local,no,658,41,24
+government - local,no,659,41,24
+government - local,no,660,41,24
+government - local,no,661,41,24
+government - local,no,662,41,24
+government - local,no,663,41,24
+government - local,no,664,41,24
+government - local,no,665,41,24
+government - state,yes,666,28,36
+government - state,yes,667,28,36
+government - state,yes,668,28,36
+government - state,yes,669,28,36
+government - state,yes,670,28,36
+government - state,yes,671,28,36
+government - state,yes,672,28,36
+government - state,yes,673,28,36
+government - state,yex,674,43,1
+government - state,yes,675,28,36
+government - state,yes,676,28,36
+government - state,yes,677,28,36
+government - state,yes,678,28,36
+government - state,yes,679,28,36
+government - state,yes,680,28,36
+government - state,yes,681,28,36
+government - state,yes,682,28,36
+government - state,yes,683,28,36
+government - state,yes,684,28,36
+government - state,yes,685,28,36
+government - state,yes,686,28,36
+government - state,yes,687,28,36
+government - state,yes,688,28,36
+government - state,yes,689,28,36
+government - state,yes,690,28,36
+voluntary non-profit - private,no,691,9,74
+voluntary non-profit - private,no,692,9,74
+voluntary non-profit - private,no,693,9,74
+voluntary non-profit - private,no,694,9,74
+voluntary non-profit - private,no,695,9,74
+voluntary non-profit - private,no,696,9,74
+voluntary non-profit - private,no,697,9,74
+voluntary non-profit - private,no,698,9,74
+voluntary non-profit - private,no,699,9,74
+voluntary non-profit - private,no,700,9,74
+voluntary non-profit - private,no,701,9,74
+voluntary non-profit - private,no,702,9,74
+voluntary non-profit - private,no,703,9,74
+voluntary non-profit - private,no,704,9,74
+voluntary non-profit - private,no,705,9,74
+voluntary non-profit - private,no,706,9,74
+voluntary non-profit - private,no,707,9,74
+voluntary non-profit - private,no,708,9,74
+voluntary non-profit - private,no,709,9,74
+voluntary non-profit - private,no,710,9,74
+voluntary non-profit - private,no,711,9,74
+voluntary non-profit - private,no,712,9,74
+voluntary non-profit - private,no,713,9,74
+voluntary non-profit - private,no,714,9,74
+voluntary non-profit - private,no,715,9,74
+government - hospital district or authority,yes,716,1,193
+government - hospital district or authority,yes,717,1,193
+government - hospital district or authority,yes,718,1,193
+government - hospital district or authority,yes,719,1,193
+government - hospital district or authority,yes,720,1,193
+government - hospital district or authority,yes,721,1,193
+government - hospital district or authority,yes,722,1,193
+government - hospital district or authority,yes,723,1,193
+government - hospital district or authority,yes,724,1,193
+government - hospital district or authority,yes,725,1,193
+government - hospital district or authority,yes,726,1,193
+government - hospital district or authority,yes,727,1,193
+government - hospital district or authority,yes,728,1,193
+government - hospital district or authority,yes,729,1,193
+government - hospital district or authority,yes,730,1,193
+government - hospital district or authority,yes,731,1,193
+government - hospital district or authority,yes,732,1,193
+government - hospital district or authority,yes,733,1,193
+government - hospital district or authority,yes,734,1,193
+government - hospital district or authority,yes,735,1,193
+government - hospital district or authority,yes,736,1,193
+government - hospital district or authority,yes,737,1,193
+government - hospital district or authority,yes,738,1,193
+government - hospital district or authority,yes,739,1,193
+government - hospital district or authority,yes,740,1,193
+proprietary,no,741,44,24
+proprietary,no,742,44,24
+proprietary,no,743,44,24
+prxprietary,no,744,45,1
+proprietary,no,745,44,24
+proprietary,no,746,44,24
+proprietary,no,747,44,24
+proprietary,no,748,44,24
+proprietary,no,749,44,24
+proprietary,no,750,44,24
+proprietary,no,751,44,24
+proprietary,no,752,44,24
+proprietary,no,753,44,24
+proprietary,no,754,44,24
+proprietary,no,755,44,24
+proprietary,no,756,44,24
+proprietary,no,757,44,24
+proprietary,no,758,44,24
+proprietary,no,759,44,24
+proprietary,no,760,44,24
+proprietary,no,761,44,24
+proprietary,no,762,44,24
+proprietary,no,763,44,24
+proprietary,no,764,44,24
+proprietary,no,765,44,24
+proprietary,yes,766,12,179
+proprietary,yes,767,12,179
+proprietary,yes,768,12,179
+proprietary,yes,769,12,179
+proprietary,yes,770,12,179
+proprietary,yes,771,12,179
+proprietary,yes,772,12,179
+proprietary,yes,773,12,179
+government - hospital district or authority,yes,774,1,193
+government - hospital district or authority,yes,775,1,193
+government - hospital district or authority,yes,776,1,193
+government - hospital district or authority,yes,777,1,193
+government - hospital district or authority,yes,778,1,193
+government - hospital district or authority,yes,779,1,193
+government - hospital district or authority,yes,780,1,193
+government - hospital district or authority,yes,781,1,193
+government - hospital district or authority,yes,782,1,193
+government - hospital district or authority,yes,783,1,193
+goverxmext - hospital district or authority,yes,784,46,1
+government - hospital district or authority,yes,785,1,193
+government - hospital district or authority,yes,786,1,193
+government - hospital district or authority,yes,787,1,193
+government - hospital district or authority,yes,788,1,193
+government - hospital district or authority,yes,789,1,193
+government - hospital district or authority,yes,790,1,193
+government - hospital district or authority,yes,791,1,193
+government - hospital district or authority,yes,792,1,193
+government - hospital district or authority,yes,793,1,193
+government - hospital district or authority,yes,794,1,193
+government - hospital district or authority,yes,795,1,193
+government - hospital district or authority,yes,796,1,193
+government - hospital district or authority,yxs,797,3,3
+government - hospital district or authority,yes,798,1,193
+government - hospital district or authority,yes,799,1,193
+government - hospital district or authority,yes,800,1,193
+government - hospital district or authority,yes,801,1,193
+proprietary,yes,802,12,179
+proprietary,yes,803,12,179
+proprietary,yes,804,12,179
+proprietary,yes,805,12,179
+proprietary,yes,806,12,179
+proprietary,yes,807,12,179
+proprietary,yes,808,12,179
+proprietary,xes,809,24,2
+proprietary,yes,810,12,179
+proprietary,yes,811,12,179
+proprietary,yes,812,12,179
+proprietary,yes,813,12,179
+proprietary,yes,814,12,179
+proprietary,yes,815,12,179
+proprietary,yes,816,12,179
+proprietary,yes,817,12,179
+proprietary,yes,818,12,179
+proprietary,yes,819,12,179
+proprietary,yes,820,12,179
+proprietary,yes,821,12,179
+proprietary,yes,822,12,179
+proprietary,yes,823,12,179
+proprietary,yes,824,12,179
+proprietary,yes,825,12,179
+proprietary,yes,826,12,179
+voluntary non-profit - private,yes,827,0,180
+voluntary non-profit - private,yes,828,0,180
+voluntary non-profit - private,yes,829,0,180
+voluntary non-profit - private,yes,830,0,180
+voluntary non-profit - private,yes,831,0,180
+voluntary non-profit - private,yes,832,0,180
+voluntary non-profit - private,yes,833,0,180
+voluntary non-profit - private,yes,834,0,180
+voluntary non-profit - private,yes,835,0,180
+voluntary non-profit - private,yes,836,0,180
+voluntary non-profit - private,yes,837,0,180
+voluntary non-profit - private,yes,838,0,180
+voluntary non-profit - private,yes,839,0,180
+voluntary non-profit - private,yes,840,0,180
+voluntary non-profit - private,yes,841,0,180
+voluntary non-profit - private,yes,842,0,180
+voluntary non-profit - private,yes,843,0,180
+voluntary non-profit - private,yes,844,0,180
+voluntary non-profit - private,yes,845,0,180
+voluntaxy non-pxofit - pxivate,yes,846,47,2
+voluntary non-profit - private,yes,847,0,180
+voluntary non-profit - private,yes,848,0,180
+voluntary non-profit - private,yes,849,0,180
+voluntary non-profit - private,yes,850,0,180
+voluntary non-profit - private,yes,851,0,180
+voluntary non-profit - private,yes,852,0,180
+voluntary non-profit - private,yes,853,0,180
+voluntary non-profit - private,yes,854,0,180
+voluntary non-profit - private,yes,855,0,180
+voluntary non-profit - private,yes,856,0,180
+voluntary non-profit - private,yes,857,0,180
+voluntary non-profit - private,yes,858,0,180
+voluntary non-profit - private,yes,859,0,180
+voluntary non-profit - private,yes,860,0,180
+voluntary non-profit - private,yes,861,0,180
+voluntary non-profit - private,yes,862,0,180
+voluntary non-profit - private,yes,863,0,180
+voluntary non-profit - private,yes,864,0,180
+voluntary non-profit - private,yes,865,0,180
+voluntary non-profit - private,yxs,866,30,3
+voluntary non-profit - private,yes,867,0,180
+voluxtary xox-profit - private,yes,868,48,1
+voluntary non-profit - private,yes,869,0,180
+voluntary non-profit - private,yes,870,0,180
+voluntary non-profit - private,yes,871,0,180
+voluntaxy non-pxofit - pxivate,yes,872,47,2
+voluntary non-profit - private,yes,873,0,180
+voluntary non-profit - private,yes,874,0,180
+voluntary non-profit - private,yes,875,0,180
+voluntary non-profit - private,yes,876,0,180
+voluntary non-profit - other,yes,877,8,100
+voluntary non-profit - other,yes,878,8,100
+voluntary non-profit - other,yes,879,8,100
+voluntary non-profit - other,yes,880,8,100
+voluntary non-profit - other,yes,881,8,100
+voluntary non-profit - other,yes,882,8,100
+voluntary non-profit - other,yes,883,8,100
+voluntary non-profit - other,yes,884,8,100
+voluntary non-profit - other,yes,885,8,100
+voluntary non-profit - other,yes,886,8,100
+voluntary non-profit - other,yes,887,8,100
+voluntary non-profit - other,yes,888,8,100
+voluntary non-profit - other,yex,889,49,1
+voluntary non-profit - other,yes,890,8,100
+voluntary non-profit - other,yes,891,8,100
+voluntary non-profit - other,yes,892,8,100
+voluntary non-profit - other,yes,893,8,100
+voluntary non-profit - other,yes,894,8,100
+voluntary non-profit - other,yes,895,8,100
+voluntary non-profit - other,yes,896,8,100
+voluntary non-profit - other,yes,897,8,100
+voluntary non-profit - other,yes,898,8,100
+voluntary non-profit - other,yes,899,8,100
+voluntary non-profit - other,yes,900,8,100
+voluntary non-profit - other,yes,901,8,100
+proprietary,yes,902,12,179
+proprietary,yes,903,12,179
+proprietary,yes,904,12,179
+proprietary,yes,905,12,179
+proprietary,yes,906,12,179
+proprietary,yes,907,12,179
+proprietary,yes,908,12,179
+proprietary,yes,909,12,179
+proprietary,yes,910,12,179
+proprietary,yes,911,12,179
+proprietary,yes,912,12,179
+proprietary,yes,913,12,179
+proprietary,yes,914,12,179
+proprietary,yes,915,12,179
+proprietary,yes,916,12,179
+proprietary,yes,917,12,179
+proprietary,yes,918,12,179
+proprietary,yex,919,25,3
+proprietary,yes,920,12,179
+proprietary,yxs,921,50,1
+proprietary,yes,922,12,179
+proprietary,yes,923,12,179
+proprietary,yes,924,12,179
+proprietary,yes,925,12,179
+proprietary,yes,926,12,179
+proprietary,yes,927,12,179
+proprietary,yes,928,12,179
+proprietary,yes,929,12,179
+voluntary non-profit - private,no,930,9,74
+voluntary non-profit - private,no,931,9,74
+voluntary non-profit - private,no,932,9,74
+voluntary non-profit - private,no,933,9,74
+voluntary non-profit - private,no,934,9,74
+voluntary non-profit - private,no,935,9,74
+voluntary non-profit - private,no,936,9,74
+voluntary non-profit - private,no,937,9,74
+voluntary non-profit - private,no,938,9,74
+voluntary non-profit - private,no,939,9,74
+voluntary non-profit - private,no,940,9,74
+voluntary non-profit - private,no,941,9,74
+voluntary non-profit - private,no,942,9,74
+voluntary non-profit - private,no,943,9,74
+voluntary non-profit - private,no,944,9,74
+voluntary non-profit - private,no,945,9,74
+voluntary non-profit - private,no,946,9,74
+voluntary non-profit - private,no,947,9,74
+voluntary non-profit - private,no,948,9,74
+voluntary non-profit - private,no,949,9,74
+voluntary non-profit - private,no,950,9,74
+voluntary non-profit - private,no,951,9,74
+voluntary non-profit - private,no,952,9,74
+voluntary non-profit - private,no,953,9,74
+voluntary non-profit - private,no,954,9,74
+proprietary,yes,955,12,179
+proprietary,yes,956,12,179
+proprietary,yes,957,12,179
+proprietary,yes,958,12,179
+proprietary,yes,959,12,179
+proprietary,yes,960,12,179
+proprietary,yes,961,12,179
+proprietary,yes,962,12,179
+proprietary,yes,963,12,179
+proprietary,yes,964,12,179
+proprietary,yes,965,12,179
+proprietary,yes,966,12,179
+proprietary,yes,967,12,179
+proprietary,yes,968,12,179
+proprietary,yes,969,12,179
+proprietary,yes,970,12,179
+proprietary,yes,971,12,179
+proprietary,yes,972,12,179
+proprietary,yes,973,12,179
+proprietary,yes,974,12,179
+proprietary,yes,975,12,179
+proprietary,yes,976,12,179
+proprietary,yes,977,12,179
+proprietary,yes,978,12,179
+proprietary,yes,979,12,179
+voluntary non-profit - private,yes,980,0,180
+voluntary non-profit - private,yes,981,0,180
+voluntary non-profit - private,yes,982,0,180
+voluntary non-profit - private,yes,983,0,180
+voluntary non-profit - private,yes,984,0,180
+voluntary non-profit - private,yes,985,0,180
+voluntary non-profit - private,yes,986,0,180
+voluntary non-profit - private,yes,987,0,180
+voluntary non-profit - private,yes,988,0,180
+voluntary non-profit - private,yes,989,0,180
+voluntary non-profit - private,yes,990,0,180
+voluntary non-profit - private,yes,991,0,180
+voluntary non-profit - private,yes,992,0,180
+voluntary non-profit - private,yes,993,0,180
+voluntary non-profit - private,yes,994,0,180
+voluntary non-profit - private,yes,995,0,180
+voluntary non-profit - private,yes,996,0,180
+voluntary non-profit - private,yes,997,0,180
+voluntary non-profit - private,yes,998,0,180
+voluntary non-profit - private,yes,999,0,180

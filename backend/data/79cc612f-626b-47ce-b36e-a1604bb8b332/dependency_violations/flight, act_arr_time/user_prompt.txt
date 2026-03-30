@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  A trip/route code determines which final/other time value appears; the time text is part of the schedule pattern for the itinerary encoded in the route identifier.
+
+  The following is a formatted table with the unique data to be checked.
+  

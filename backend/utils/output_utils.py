@@ -194,14 +194,17 @@ def process_dependency_output(
 
     dependencies_list.sort(key=lambda x: (x["column_1"], x["column_2"]))
 
-    dependencies_df = pd.DataFrame(dependencies_list)
+    dep_columns = ["column_1", "column_2", "column_1_name", "column_2_name", "dependency"]
+    dependencies_df = pd.DataFrame(dependencies_list, columns=dep_columns) if dependencies_list else pd.DataFrame(columns=dep_columns)
     dependencies_df.to_csv(f"{directory}/output.csv", index=False)
 
+    meta_columns = ["completion_tokens", "prompt_tokens", "total_tokens", "elapsed_time", "batches", "prompt_name"]
     if prompt_metadata_list:
         prompt_metadata_df = pd.DataFrame(prompt_metadata_list)
-        prompt_metadata_df.to_csv(f"{directory}/prompt_metadata.csv", index=False)
     else:
         logger.warning("No prompt metadata found to save for dependency output.")
+        prompt_metadata_df = pd.DataFrame(columns=meta_columns)
+    prompt_metadata_df.to_csv(f"{directory}/prompt_metadata.csv", index=False)
 
 
 def process_dep_violations_output(dataset: pd.DataFrame, directory: str):

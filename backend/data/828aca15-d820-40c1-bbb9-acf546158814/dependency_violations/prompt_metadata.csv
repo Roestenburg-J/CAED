@@ -1,0 +1,5 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+12563,44921,57484,00:58.753,10,"id, article_title"
+25801,44921,70722,01:50.573,10,"id, article_title"
+17205,71004,88209,01:22.718,10,"article_title, author_list"
+24040,71004,95044,01:50.170,10,"article_title, author_list"

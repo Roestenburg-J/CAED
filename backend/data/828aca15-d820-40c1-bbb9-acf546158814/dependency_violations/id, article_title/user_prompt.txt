@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The numeric identifier (e.g., an internal record/primary key) is tied to the bibliographic text field; the text (title/abstract-like label) describes the specific entity referenced by that identifier (same record), so the meaning of the identifier determines which document/title appears in the other column.
+
+  The following is a formatted table with the unique data to be checked.
+  

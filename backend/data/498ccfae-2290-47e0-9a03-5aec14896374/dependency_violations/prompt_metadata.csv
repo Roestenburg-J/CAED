@@ -1,0 +1,3 @@
+completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
+26578,54043,80621,01:54.639,10,"id, author_list"
+6158,70914,77072,00:36.077,10,"article_title, author_list"

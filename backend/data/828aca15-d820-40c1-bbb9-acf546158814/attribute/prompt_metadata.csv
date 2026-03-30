@@ -6,3 +6,10 @@ completion_tokens,prompt_tokens,total_tokens,elapsed_time,batches,prompt_name
 0,0,0,00:00.000,0,article_jvolumn
 0,0,0,00:00.000,0,article_jissue
 11594,12062,23656,01:41.410,2,article_jcreated_at
+11310,13505,24815,00:44.126,3,jounral_abbreviation
+11109,13505,24614,00:46.128,3,jounral_abbreviation
+5546,18485,24031,00:28.132,3,journal_issn
+9894,18485,28379,00:39.406,3,journal_issn
+13164,24865,38029,00:57.470,4,article_pagination
+29494,24865,54359,02:02.328,4,article_pagination
+18746,54631,73377,01:28.171,11,author_list

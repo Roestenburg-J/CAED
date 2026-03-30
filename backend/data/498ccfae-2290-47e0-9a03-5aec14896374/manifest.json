@@ -1,10 +1,10 @@
 {
-    "id": "828aca15-d820-40c1-bbb9-acf546158814",
-    "name": "rayyan_nano_8",
-    "created_at": "2026-03-30T05:45:15.260872",
+    "id": "498ccfae-2290-47e0-9a03-5aec14896374",
+    "name": "rayyan_mini_8",
+    "created_at": "2026-03-30T06:41:44.511828",
     "type": "evaluation",
     "provider": "openai",
-    "model": "gpt-5.4-nano",
+    "model": "gpt-5.4-mini",
     "analyses": {
         "attribute": "complete",
         "dependency": "complete",

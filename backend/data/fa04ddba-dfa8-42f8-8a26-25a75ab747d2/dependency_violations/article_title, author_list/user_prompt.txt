@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The textual title/description column appears to determine whether the record includes a clinical trial registration identifier. Records that look like interventional or hospital-based study titles can contain a value in the identifier column, while most review/guideline/meta-analysis titles have the placeholder null set. The identifier column also follows a specific pattern such as an NCT code inside braces when present.
+
+  The following is a formatted table with the unique data to be checked.
+  

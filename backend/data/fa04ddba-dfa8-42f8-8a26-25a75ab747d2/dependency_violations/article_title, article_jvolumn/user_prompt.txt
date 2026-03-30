@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The title/description column suggests publication/study type, and this sample shows a dependency where records that are reviews, meta-analyses, guidelines, or similar article types all share the same numeric flag/value of 0.0 in this column.
+
+  The following is a formatted table with the unique data to be checked.
+  

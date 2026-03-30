@@ -1,0 +1,7 @@
+column_1_name,column_2_name,column_1_count,column_2_count,dependency
+article_language,journal_issn,123,40,"article_language, journal_issn"
+article_jcreated_at,article_jissue,0,99,"article_title, article_jissue"
+article_language,jounral_abbreviation,52,20,"article_language, jounral_abbreviation"
+article_jcreated_at,article_pagination,29,52,"article_jcreated_at, article_pagination"
+article_jissue,article_jvolumn,705,3,"article_jvolumn, article_jissue"
+article_language,journal_title,199,148,"article_language, journal_title"

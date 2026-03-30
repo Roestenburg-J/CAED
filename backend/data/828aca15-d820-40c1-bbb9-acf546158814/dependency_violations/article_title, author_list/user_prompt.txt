@@ -1,0 +1,6 @@
+Input:
+  The dependency identified in this table is defined as follows:
+  The title text can imply the presence of a clinical trial/registry reference; when a trial identifier is present in the registry/reference-like column (non-null, shown as an NCT-style token), it corresponds to the specific study described by the title. Therefore the structured trial reference depends on the title’s study type/content.
+
+  The following is a formatted table with the unique data to be checked.
+  

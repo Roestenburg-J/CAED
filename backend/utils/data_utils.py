@@ -232,7 +232,7 @@ def merge_buckets_by_tokens(
     return merged
 
 
-def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int = 128):
+def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int = 128, max_cardinality: float = 0.9):
     if dataset.empty:
         raise DataValidationError(
             "Cannot create MinHash buckets from an empty dataset."
@@ -242,7 +242,24 @@ def create_buckets(dataset: pd.DataFrame, threshold: float = 0.5, num_perm: int 
             f"Need at least 2 rows for dependency detection, got {dataset.shape[0]}."
         )
 
-    records = dataset.values.tolist()
+    n_rows = dataset.shape[0]
+    low_cardinality_cols = [
+        col for col in dataset.columns
+        if dataset[col].nunique() / n_rows <= max_cardinality
+    ]
+    if not low_cardinality_cols:
+        logger.warning(
+            "All columns exceed the cardinality threshold (%.2f) — using full dataset for MinHash.",
+            max_cardinality,
+        )
+        hashing_dataset = dataset
+    else:
+        excluded = [c for c in dataset.columns if c not in low_cardinality_cols]
+        if excluded:
+            logger.info("Excluding high-cardinality columns from MinHash hashing: %s", excluded)
+        hashing_dataset = dataset[low_cardinality_cols]
+
+    records = hashing_dataset.values.tolist()
 
     # Create an LSH index with a threshold and number of permutations
     lsh = MinHashLSH(threshold=threshold, num_perm=num_perm)

@@ -338,14 +338,15 @@ def detect_dependencies():
         settings = load_detailed_settings()
         minhash_threshold = float(settings.get("minhash_dependency_threshold", settings.get("minhash_threshold", 0.5)))
         minhash_num_perm = int(settings.get("minhash_dependency_num_perm", settings.get("minhash_num_perm", 128)))
-        filtered_top_buckets, buckets = create_buckets(dataset, threshold=minhash_threshold, num_perm=minhash_num_perm)
+        minhash_max_cardinality = float(settings.get("minhash_max_cardinality", 0.9))
+        filtered_top_buckets, buckets = create_buckets(dataset, threshold=minhash_threshold, num_perm=minhash_num_perm, max_cardinality=minhash_max_cardinality)
         fallback_threshold = 0.5
         if not filtered_top_buckets and minhash_threshold != fallback_threshold:
             app.logger.info(
                 "No buckets found at threshold %.2f — retrying with fallback threshold %.2f.",
                 minhash_threshold, fallback_threshold,
             )
-            filtered_top_buckets, buckets = create_buckets(dataset, threshold=fallback_threshold, num_perm=minhash_num_perm)
+            filtered_top_buckets, buckets = create_buckets(dataset, threshold=fallback_threshold, num_perm=minhash_num_perm, max_cardinality=minhash_max_cardinality)
         dependency_detection(dataset, filtered_top_buckets, buckets, dependency_dir)
         # Build bucket labels matching the bucket_N naming used by dependency_detection
         bucket_labels = [f"bucket_{bucket_index}" for bucket_index, _ in filtered_top_buckets]

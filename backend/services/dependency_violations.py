@@ -148,36 +148,33 @@ def detect_dep_violations(
             # Select the columns by name
             selected_columns = dataset[selected_column_names]
 
-            # Check for duplicates
-            if selected_columns.drop_duplicates().shape[0] < dataset.shape[0]:
+            row_dict, unique_rows = create_row_dict(selected_columns)
 
-                row_dict, unique_rows = create_row_dict(selected_columns)
+            # Drop 'count' column added by create_row_dict — not used in violation detection
+            unique_rows = unique_rows.drop(columns=["count"])
 
-                # Drop 'count' column added by create_row_dict — not used in violation detection
-                unique_rows = unique_rows.drop(columns=["count"])
+            # Update the columns for unique rows
+            unique_rows.columns = [
+                str(dataset.columns.get_loc(columns[0])),  # Column 1 index
+                str(dataset.columns.get_loc(columns[1])),  # Column 2 index
+                "index",
+            ]
 
-                # Update the columns for unique rows
-                unique_rows.columns = [
-                    str(dataset.columns.get_loc(columns[0])),  # Column 1 index
-                    str(dataset.columns.get_loc(columns[1])),  # Column 2 index
-                    "index",
-                ]
+            json_sample = unique_rows.to_json(orient="records", indent=4)
 
-                json_sample = unique_rows.to_json(orient="records", indent=4)
-
-                user_prompt = f"""Input:
+            user_prompt = f"""Input:
   The dependency identified in this table is defined as follows:
   {dependency_description}
 
   The following is a formatted table with the unique data to be checked.
   """
 
-                prompt_gpt(
-                    system_prompt,
-                    user_prompt,
-                    f"{columns[0]}, {columns[1]}",
-                    response_format,
-                    directory,
-                    row_dict,
-                    json_str=json_sample,
-                )
+            prompt_gpt(
+                system_prompt,
+                user_prompt,
+                f"{columns[0]}, {columns[1]}",
+                response_format,
+                directory,
+                row_dict,
+                json_str=json_sample,
+            )

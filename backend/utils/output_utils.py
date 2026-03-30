@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
+    os.makedirs(directory, exist_ok=True)
     # Initialize an empty dictionary to store data for each folder
     data_dict = {}
     error_counts = {}
@@ -119,6 +120,7 @@ def process_attribute_output(dataset: pd.DataFrame, directory: str) -> None:
 def process_dependency_output(
     group_labels: list, dataset: pd.DataFrame, directory: str
 ):
+    os.makedirs(directory, exist_ok=True)
     # Initialize a dictionary to hold unique dependencies
     dependencies_dict = defaultdict(set)
     prompt_metadata_list = []
@@ -203,6 +205,7 @@ def process_dependency_output(
 
 
 def process_dep_violations_output(dataset: pd.DataFrame, directory: str):
+    os.makedirs(directory, exist_ok=True)
     # Initialize the DataFrame for annotations with the shape of the dataset, filled with zeros
     annotated_output = pd.DataFrame(0, index=dataset.index, columns=dataset.columns)
 
